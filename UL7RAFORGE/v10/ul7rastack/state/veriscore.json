@@ -1,0 +1,34 @@
+{
+  "system": "UL7RAVERSE",
+  "product": "UL7RA_VERISCORE",
+  "score": 97.85,
+  "status": "VERIFIED_WITH_SCOPE",
+  "dimensions": {
+    "security": 98.0,
+    "compliance": 97.0,
+    "evidence": 99.0,
+    "governance": 95.0,
+    "data_residency": 100.0,
+    "provenance": 98.0
+  },
+  "weights": {
+    "security": 25,
+    "compliance": 25,
+    "evidence": 20,
+    "governance": 10,
+    "data_residency": 10,
+    "provenance": 10
+  },
+  "exceptions": 0,
+  "unknowns": [
+    "kernel_level_isolation",
+    "physical_one_way_network",
+    "undiscovered_vulnerabilities"
+  ],
+  "evidence_freshness": "CURRENT",
+  "calculation": "DETERMINISTIC_WEIGHTED_CONTROL_SCORE",
+  "claim_limit": "ASSURANCE_SCORE_NOT_ABSOLUTE_SECURITY_OR_LEGAL_COMPLIANCE",
+  "production": "LOCKED",
+  "timestamp": 1786650545.4116414,
+  "veriscore_hash": "02505b0bf0da637059a9b564ab99a429f3fa1f3e15182dbbd0e80a6016feccfd"
+}

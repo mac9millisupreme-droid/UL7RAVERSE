@@ -1,0 +1,13 @@
+{
+  "authorization_scope": "LOCAL_UL7RAVERSE_TEST_ENVIRONMENT",
+  "blue": "NOT_ESTABLISHED",
+  "certification_claim": false,
+  "component": "PURPLE_TEAM",
+  "evidence_hash": "8c3ca1b0d69cbc09e670fbfb04602123f289f4f8e2ea4ac69f28c5a3557bdc5b",
+  "external_targets": false,
+  "production": "LOCKED",
+  "purple": "BLOCKED",
+  "red": "PASS",
+  "regression": "PASS",
+  "timestamp": "2026-08-14T01:22:33.375372+00:00"
+}

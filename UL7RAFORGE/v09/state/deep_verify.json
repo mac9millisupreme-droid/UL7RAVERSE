@@ -1,0 +1,60 @@
+{
+  "candidate": "UL7RAFORGE_V0.9",
+  "verification": "DEEP_ASSURANCE",
+  "results": {
+    "SECURITY": {
+      "status": "PASS",
+      "checks": [
+        {
+          "target": "security",
+          "exists": true,
+          "nonempty": true
+        }
+      ]
+    },
+    "PROVENANCE": {
+      "status": "PASS",
+      "checks": [
+        {
+          "target": "provenance",
+          "exists": true,
+          "nonempty": true
+        }
+      ]
+    },
+    "TRINITY": {
+      "status": "PASS",
+      "checks": [
+        {
+          "target": "trinity",
+          "exists": true,
+          "nonempty": true
+        }
+      ]
+    },
+    "PURPLE": {
+      "status": "PASS",
+      "checks": [
+        {
+          "target": "purple",
+          "exists": true,
+          "nonempty": true
+        }
+      ]
+    },
+    "ROLLBACK": {
+      "status": "PASS",
+      "checks": [
+        {
+          "target": "rollback",
+          "exists": true,
+          "nonempty": true
+        }
+      ]
+    }
+  },
+  "overall": "PASS",
+  "production_promotion": "LOCKED",
+  "timestamp": 1786648456.6158965,
+  "hash": "17554652f77938fd231df31ab921e19f06dbcf73d6f3f503445edc7e8d89ac6e"
+}

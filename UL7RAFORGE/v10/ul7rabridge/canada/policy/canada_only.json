@@ -1,0 +1,14 @@
+{
+  "policy": "CANADA_ONLY",
+  "version": "0.1",
+  "default": "DENY",
+  "allowed_data_jurisdiction": ["CA"],
+  "allowed_egress": "EXPLICIT_ALLOWLIST_ONLY",
+  "dns": "CONTROLLED",
+  "backups": "CANADA_ONLY",
+  "replication": "CANADA_ONLY",
+  "telemetry": "CANADA_ONLY",
+  "keys": "CANADA_CONTROLLED",
+  "non_canadian_route": "DENY",
+  "production": "LOCKED"
+}

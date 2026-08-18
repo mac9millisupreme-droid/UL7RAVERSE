@@ -1,0 +1,52 @@
+{
+  "$id": "ul7ra://assurance/evidence/schema.v1.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "authorization_scope": {
+      "type": "string"
+    },
+    "blue": {
+      "type": "string"
+    },
+    "certification_claim": {
+      "type": "boolean"
+    },
+    "component": {
+      "type": "string"
+    },
+    "evidence_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "external_targets": {
+      "type": "boolean"
+    },
+    "production": {
+      "enum": [
+        "LOCKED"
+      ],
+      "type": "string"
+    },
+    "purple": {
+      "type": "string"
+    },
+    "red": {
+      "type": "string"
+    },
+    "regression": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "component",
+    "timestamp",
+    "production",
+    "certification_claim"
+  ],
+  "title": "UL7RAFORGE Evidence Bundle v1",
+  "type": "object"
+}

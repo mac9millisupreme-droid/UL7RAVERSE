@@ -1,0 +1,7 @@
+{
+  "gate": "TRINITY",
+  "build": "REQUIRED",
+  "verify": "REQUIRED",
+  "learn": "REQUIRED",
+  "promotion": "BLOCKED_UNTIL_ALL_THREE"
+}

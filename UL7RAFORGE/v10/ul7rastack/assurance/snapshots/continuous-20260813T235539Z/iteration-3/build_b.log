@@ -1,0 +1,23 @@
+     Removed 238 files, 45.8MiB total
+   Compiling version_check v0.9.5
+   Compiling proc-macro2 v1.0.107
+   Compiling typenum v1.20.1
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.24
+   Compiling serde_core v1.0.229
+   Compiling zmij v1.0.23
+   Compiling serde_json v1.0.151
+   Compiling serde v1.0.229
+   Compiling memchr v2.8.3
+   Compiling itoa v1.0.18
+   Compiling cfg-if v1.0.4
+   Compiling generic-array v0.14.7
+   Compiling syn v3.0.3
+   Compiling crypto-common v0.1.7
+   Compiling block-buffer v0.10.4
+   Compiling digest v0.10.7
+   Compiling sha2 v0.10.9
+   Compiling serde_derive v1.0.229
+   Compiling cheetah v0.1.0 (/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge)
+    Finished `release` profile [optimized] target(s) in 1m 28s
+88393d701549d95d13979565733c5f39fa4eca7add31c9dc682010ab71fef3ec  target/release/cheetah

@@ -1,0 +1,13 @@
+{
+  "status": "CONTAINED",
+  "actions": [
+    "BLOCK_TRAFFIC",
+    "ISOLATE_WORKLOAD",
+    "PRESERVE_EVIDENCE",
+    "REVOKE_ATTESTATION",
+    "REQUIRE_REVERIFICATION"
+  ],
+  "reason": "SECURITY_FAILURE",
+  "timestamp": 1786650133.5217657,
+  "evidence_hash": "d51892d5487d95099740852a7bcef44042709550faf91b8ccbf80a42f4aba71b"
+}

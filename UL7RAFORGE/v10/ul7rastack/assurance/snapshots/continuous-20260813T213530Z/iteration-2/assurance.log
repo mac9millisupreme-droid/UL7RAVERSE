@@ -1,0 +1,65 @@
+{
+  "system": "UL7RAVERSE",
+  "profile": "HIGH_ASSURANCE",
+  "timestamp": "2026-08-13T21:38:35.288380+00:00",
+  "gates": {
+    "approved_cryptography": {
+      "status": "UNVERIFIED",
+      "required": "approved_algorithm_inventory",
+      "evidence_files": 0,
+      "evidence_hashes": []
+    },
+    "key_lifecycle": {
+      "status": "UNVERIFIED",
+      "required": "key_generation_rotation_revocation_test",
+      "evidence_files": 0,
+      "evidence_hashes": []
+    },
+    "hardware_backed_keys": {
+      "status": "UNVERIFIED",
+      "required": "hardware_root_of_trust_attestation",
+      "evidence_files": 0,
+      "evidence_hashes": []
+    },
+    "one_way_enforcement": {
+      "status": "UNVERIFIED",
+      "required": "independent_network_enforcement_test",
+      "evidence_files": 0,
+      "evidence_hashes": []
+    },
+    "reproducible_builds": {
+      "status": "EVIDENCE_PRESENT",
+      "required": "independent_reproducible_build",
+      "evidence_files": 2,
+      "evidence_hashes": [
+        {
+          "file": "assurance/evidence/build/cheetah.sha256",
+          "sha256": "a3d0ad1a6f95711df7a6b7782c2ac0b3b5fe884647f8ce4cf23b07a6f79b793a"
+        },
+        {
+          "file": "assurance/evidence/build/reproducible_build_inputs.sha256",
+          "sha256": "a3d0ad1a6f95711df7a6b7782c2ac0b3b5fe884647f8ce4cf23b07a6f79b793a"
+        }
+      ]
+    },
+    "independent_verification": {
+      "status": "UNVERIFIED",
+      "required": "independent_security_assessment",
+      "evidence_files": 0,
+      "evidence_hashes": []
+    }
+  },
+  "unverified": [
+    "approved_cryptography",
+    "key_lifecycle",
+    "hardware_backed_keys",
+    "one_way_enforcement",
+    "reproducible_builds",
+    "independent_verification"
+  ],
+  "status": "BLOCKED",
+  "production": "LOCKED",
+  "certification_claim": false,
+  "rule": "EVIDENCE_REQUIRED_FOR_VERIFICATION",
+  "evidence_hash": "f773f4ff1772c8ad9c198d9b1b1c74858d2bfc129277f6f5d1f9f4cb9b940f85"
+}

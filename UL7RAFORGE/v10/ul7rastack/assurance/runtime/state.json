@@ -1,0 +1,11 @@
+{
+  "baseline_version": "S8",
+  "candidate_version": "S9",
+  "iteration_count": 4,
+  "last_evidence_hash": "90e3c30da1ff51937c79c5b938142f7a596681c08bb4886903a8531a700c2e12",
+  "last_exit_code": 1,
+  "last_failure_reason": "MVIV_GATE",
+  "last_snapshot": "v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z",
+  "last_state": "BLOCKED",
+  "last_successful_iteration": 2
+}

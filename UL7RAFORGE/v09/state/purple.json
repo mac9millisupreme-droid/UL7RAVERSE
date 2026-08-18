@@ -1,0 +1,7 @@
+{
+  "gate": "PURPLE",
+  "red_team": "ENABLED",
+  "blue_team": "ENABLED",
+  "regression_required": true,
+  "production_access": false
+}

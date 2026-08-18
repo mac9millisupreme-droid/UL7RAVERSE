@@ -1,0 +1,8 @@
+{
+  "red_team": "NOT_ESTABLISHED",
+  "blue_team": "NOT_ESTABLISHED",
+  "purple_team": "NOT_ESTABLISHED",
+  "authorized_environment_required": true,
+  "production_testing": false,
+  "status": "NOT_ESTABLISHED"
+}

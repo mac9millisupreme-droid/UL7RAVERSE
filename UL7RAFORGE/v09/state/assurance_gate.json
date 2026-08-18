@@ -1,0 +1,28 @@
+{
+  "candidate": "UL7RAFORGE_V0.9",
+  "gate": "ASSURANCE",
+  "results": {
+    "SECURITY": {
+      "status": "READY",
+      "evidence_path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v09/security"
+    },
+    "PROVENANCE": {
+      "status": "READY",
+      "evidence_path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v09/provenance"
+    },
+    "TRINITY": {
+      "status": "READY",
+      "evidence_path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v09/trinity"
+    },
+    "PURPLE": {
+      "status": "READY",
+      "evidence_path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v09/purple"
+    },
+    "ROLLBACK": {
+      "status": "READY",
+      "evidence_path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v09/rollback"
+    }
+  },
+  "promotion": "BLOCKED",
+  "timestamp": 1786648292.8251617
+}

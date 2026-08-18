@@ -1,0 +1,12 @@
+{
+  "system": "UL7RAVERSE",
+  "factory": "UL7RAFORGE",
+  "run_id": "20260813T205758Z",
+  "timestamp": "2026-08-13T20:57:59.218575+00:00",
+  "status": "RUNNING",
+  "production": "LOCKED",
+  "certification_claim": false,
+  "rule": "UNVERIFIED_NEVER_EQUALS_PASS",
+  "loops": {},
+  "blocking_conditions": []
+}

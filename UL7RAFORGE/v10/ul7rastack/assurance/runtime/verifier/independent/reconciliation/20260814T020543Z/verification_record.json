@@ -1,0 +1,53 @@
+{
+  "baseline": "S8",
+  "blue": "PASS",
+  "build": "PASS",
+  "candidate": "S9",
+  "certification_claim": false,
+  "checks": {
+    "BLUE": true,
+    "BUILD": true,
+    "CERTIFICATION_CLAIM_FALSE": true,
+    "PRODUCTION_LOCKED": true,
+    "PROVENANCE": true,
+    "PURPLE": true,
+    "PURPLE_EVIDENCE_BOUND": true,
+    "RED": true,
+    "REGRESSION": true,
+    "REPRODUCIBILITY": true,
+    "S8": true,
+    "S9": true,
+    "SCHEMA": false,
+    "TEST": true
+  },
+  "component": "UL7RAFORGE_MVIV_RECONCILIATION",
+  "decision": "BLOCKED",
+  "external_independence": "REQUIRED",
+  "fail_closed": true,
+  "production": "LOCKED",
+  "provenance": {
+    "binding": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/s9_purple_binding.json",
+    "candidate": "S9",
+    "result": "PASS"
+  },
+  "purple": "PASS",
+  "purple_evidence": {
+    "bound": true,
+    "computed_sha256": "67bf7d7a6234117026f518049807cfcc3040c48678e4d43e4856202f545b23b7",
+    "path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/purple_result.json",
+    "recorded_sha256": "67bf7d7a6234117026f518049807cfcc3040c48678e4d43e4856202f545b23b7"
+  },
+  "red": "PASS",
+  "regression": "PASS",
+  "reproducibility": "PASS",
+  "schema": {
+    "exists": false,
+    "json_valid": false,
+    "path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/schema.v1.json",
+    "purple_shape_valid": true,
+    "result": "FAIL"
+  },
+  "test": "PASS",
+  "timestamp": "2026-08-14T02:05:43.962162+00:00",
+  "version": "MVIV-RECON-2"
+}

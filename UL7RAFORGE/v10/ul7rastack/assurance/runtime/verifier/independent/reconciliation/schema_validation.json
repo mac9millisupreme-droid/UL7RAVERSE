@@ -1,0 +1,8 @@
+{
+  "computed_sha256": "67bf7d7a6234117026f518049807cfcc3040c48678e4d43e4856202f545b23b7",
+  "errors": [],
+  "evidence": "v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/purple_result.json",
+  "recorded_sha256": "67bf7d7a6234117026f518049807cfcc3040c48678e4d43e4856202f545b23b7",
+  "schema": "assurance/evidence/schema.v1.json",
+  "validation": "PASS"
+}

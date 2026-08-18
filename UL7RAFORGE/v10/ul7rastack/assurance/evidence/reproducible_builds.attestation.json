@@ -1,0 +1,9 @@
+{
+  "system": "UL7RAVERSE",
+  "control": "reproducible_builds",
+  "evidence_file": "v10/ul7rastack/assurance/evidence/build/cheetah.sha256",
+  "sha256": "a3d0ad1a6f95711df7a6b7782c2ac0b3b5fe884647f8ce4cf23b07a6f79b793a",
+  "status": "ATTESTED",
+  "timestamp": 1786651052.6850917,
+  "production": "LOCKED"
+}

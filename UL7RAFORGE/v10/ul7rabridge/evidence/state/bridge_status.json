@@ -1,0 +1,15 @@
+{
+  "system": "UL7RABRIDGE",
+  "release": "V0.1",
+  "components": {
+    "cheetah": "PASS",
+    "ghost": "PASS",
+    "bridge_invariant": "PASS",
+    "os_baseline": "PASS"
+  },
+  "physical_one_way_network": "NOT_VERIFIED",
+  "kernel_isolation": "NOT_VERIFIED",
+  "production": "LOCKED",
+  "timestamp": 1786649525.8304372,
+  "evidence_hash": "d63b96d8e054eadb625279f403cbe5dd1989cd4af6644bb16b8a57147fe91761"
+}

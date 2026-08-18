@@ -1,0 +1,23 @@
+{
+  "candidate": "UL7RAFORGE_V0.9",
+  "status": "CANDIDATE",
+  "source": "V0.6",
+  "bundled_generations": [
+    "V0.7",
+    "V0.8",
+    "V0.9"
+  ],
+  "capabilities": {
+    "security": "REQUIRED",
+    "provenance": "REQUIRED",
+    "trinity": "REQUIRED",
+    "purple_team": "REQUIRED",
+    "rollback": "REQUIRED",
+    "oracl3": "REQUIRED",
+    "node9": "REQUIRED",
+    "coding_swarm": "REQUIRED"
+  },
+  "promotion": "BLOCKED",
+  "timestamp": 1786648205.8557377,
+  "candidate_hash": "7760e125b40f88493986107959d878564beac6b3bc7a9c40e75e64d9de8ed486"
+}

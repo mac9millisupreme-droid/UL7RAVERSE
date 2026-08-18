@@ -1,0 +1,12 @@
+{
+  "factory": "UL7RAFORGE",
+  "state": "BOOTSTRAPPED",
+  "task_state": "READY",
+  "artifact_state": "READY",
+  "test_state": "PENDING",
+  "security_state": "PENDING",
+  "policy_state": "PENDING",
+  "verification_state": "PENDING",
+  "evidence_state": "PENDING",
+  "release_state": "BLOCKED"
+}

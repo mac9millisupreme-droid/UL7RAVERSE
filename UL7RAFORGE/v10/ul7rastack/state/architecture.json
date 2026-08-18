@@ -1,0 +1,19 @@
+{
+  "system": "UL7RASTACK",
+  "release": "V1.0-ARCHITECTURE",
+  "predecessor": "ORACL3",
+  "predecessor_status": "HISTORICAL_V0_LINEAGE",
+  "modules": {
+    "AURA": "live organizational state",
+    "INSIGHT": "reasoning and intelligence",
+    "POLICY": "machine-readable policy evaluation",
+    "EVIDENCE": "provenance and evidence ledger",
+    "SECURITY": "security controls and monitoring",
+    "GOVERNANCE": "governance and decision controls",
+    "COMPLIANCE": "jurisdiction-aware compliance fabric",
+    "VERIFICATION": "independent verification"
+  },
+  "production": "LOCKED",
+  "timestamp": 1786648844.5639615,
+  "architecture_hash": "9a9510be053a71e96e695f14b0c9d07b70aaca780bdbe8b8b4c260dd308ad6d8"
+}

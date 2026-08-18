@@ -1,0 +1,10 @@
+{
+  "protocol": "CHEETAH",
+  "version": "0.1",
+  "default": "DENY",
+  "allowed_direction": "SOVEREIGN_TO_EXTERNAL",
+  "return_channel": false,
+  "fail_closed": true,
+  "logging": "REQUIRED",
+  "production": "LOCKED"
+}

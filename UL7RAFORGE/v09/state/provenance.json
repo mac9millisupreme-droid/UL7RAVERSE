@@ -1,0 +1,10 @@
+{
+  "gate": "PROVENANCE",
+  "source": "V0.6_BUILD_MANIFEST",
+  "manifest": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v06/state/build.json",
+  "manifest_present": true,
+  "source_version": "V0.6",
+  "factory": "UL7RAFORGE",
+  "component_count": 9,
+  "evidence_hash": "658f8d4b6e2dc2442c4d94abe5f722bb21a12191525d5fff2e9582f3b315ff76"
+}

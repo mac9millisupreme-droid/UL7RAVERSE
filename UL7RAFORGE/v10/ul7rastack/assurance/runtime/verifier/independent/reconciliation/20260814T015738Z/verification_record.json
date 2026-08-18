@@ -1,0 +1,72 @@
+{
+  "baseline": "S8",
+  "blocked_by": [
+    "BUILD",
+    "TEST"
+  ],
+  "blue": "PASS",
+  "build": null,
+  "candidate": "S9",
+  "certification_claim": false,
+  "checks": {
+    "BUILD": {
+      "pass": false,
+      "reason": "BUILD=None"
+    },
+    "PURPLE": {
+      "pass": true,
+      "reason": "Purple evidence/status requirements failed"
+    },
+    "PURPLE_EVIDENCE_BOUND": {
+      "pass": true,
+      "reason": "Purple evidence is missing or hash does not match authoritative S9 binding"
+    },
+    "RECOVERY": {
+      "pass": true,
+      "reason": ""
+    },
+    "REPRODUCIBILITY": {
+      "pass": true,
+      "reason": "Reproducibility not independently established"
+    },
+    "S8": {
+      "pass": true,
+      "reason": "S8 baseline hash record missing or malformed"
+    },
+    "S9": {
+      "pass": true,
+      "reason": "S9 candidate lineage missing"
+    },
+    "SELFTEST": {
+      "pass": true,
+      "reason": ""
+    },
+    "TAMPERTEST": {
+      "pass": true,
+      "reason": ""
+    },
+    "TEST": {
+      "pass": false,
+      "reason": "TEST=None"
+    }
+  },
+  "decision": "BLOCKED",
+  "evidence_hash": "63fd97dd46e6994842785a77db12c6311f07acc3315f5bce4fe56a53d98d198c",
+  "external_independence": "REQUIRED",
+  "production": "LOCKED",
+  "purple": "PASS",
+  "purple_evidence_bound": true,
+  "purple_evidence_hash_computed": "67bf7d7a6234117026f518049807cfcc3040c48678e4d43e4856202f545b23b7",
+  "purple_evidence_hash_recorded": "67bf7d7a6234117026f518049807cfcc3040c48678e4d43e4856202f545b23b7",
+  "purple_evidence_path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/purple_result.json",
+  "red": "PASS",
+  "regression": "PASS",
+  "reproducibility": "PASS",
+  "s8_hash_record": "8df21638324f58b1e59f88c72412daef6ec32a11acfa7d6274185ee35df1d4bd",
+  "s9_source": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/apex_result.json",
+  "test": null,
+  "timestamp": "2026-08-14T01:57:39.013332+00:00",
+  "verifier": "UL7RAFORGE_MVIV_RECONCILIATION",
+  "verifier_class": "LOCAL_MVIV",
+  "version": "MVIV-RECONCILIATION-1"
+}

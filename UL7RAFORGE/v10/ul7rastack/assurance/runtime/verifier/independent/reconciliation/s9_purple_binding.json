@@ -1,0 +1,20 @@
+{
+  "baseline_version": "S8",
+  "binding_hash": "9aa1576ca19c37f1a2695ef0b22a8464e590b3802f3cb510cb46b53731b4bae1",
+  "binding_type": "LOCAL_OBSERVATION",
+  "candidate_version": "S9",
+  "evidence_path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/purple_result.json",
+  "evidence_sha256": "67bf7d7a6234117026f518049807cfcc3040c48678e4d43e4856202f545b23b7",
+  "independence": "UNPROVEN",
+  "observed": {
+    "blue": "PASS",
+    "certification_claim": false,
+    "external_targets": false,
+    "production": "LOCKED",
+    "purple": "PASS",
+    "red": "PASS",
+    "regression": "PASS"
+  },
+  "schema": "PURPLE-EVIDENCE-BINDING-1",
+  "timestamp": "2026-08-14T01:48:05.611048+00:00"
+}

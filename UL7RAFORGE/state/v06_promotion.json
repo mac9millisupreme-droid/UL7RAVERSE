@@ -1,0 +1,36 @@
+{
+  "status": "VERIFIED",
+  "previous_generations": {
+    "V0.1_KERNEL": {
+      "status": "PASS",
+      "missing": []
+    },
+    "V0.2_TRINITY": {
+      "status": "PASS",
+      "missing": []
+    },
+    "V0.3_NODE9": {
+      "status": "PASS",
+      "missing": []
+    },
+    "V0.4_PURPLE": {
+      "status": "PASS",
+      "missing": []
+    },
+    "V0.5_ORACLE": {
+      "status": "PASS",
+      "missing": []
+    }
+  },
+  "required_gates": [
+    "BUILD",
+    "TEST",
+    "SECURITY",
+    "PROVENANCE",
+    "TRINITY",
+    "PURPLE",
+    "ROLLBACK"
+  ],
+  "timestamp": 1786647774.681009,
+  "audit_hash": "0e3461e1b000481191d845c30bafd839dc383276bdd011b480300d9f52d65e8f"
+}

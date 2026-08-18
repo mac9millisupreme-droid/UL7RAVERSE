@@ -1,0 +1,9 @@
+{
+  "gate": "SECURITY",
+  "checks": {
+    "production_locked": true,
+    "credential_access": false,
+    "network_access": false,
+    "sandbox_required": true
+  }
+}

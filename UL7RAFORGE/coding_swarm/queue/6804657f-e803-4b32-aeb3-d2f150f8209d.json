@@ -1,0 +1,16 @@
+{
+  "task_id": "6804657f-e803-4b32-aeb3-d2f150f8209d",
+  "created": 1786646559.4018242,
+  "state": "QUEUED",
+  "mode": "ISOLATED",
+  "promotion": "BLOCKED",
+  "required_gates": [
+    "BUILD",
+    "TEST",
+    "SECURITY",
+    "REVIEW",
+    "TRINITY_VERIFY",
+    "PURPLE_VERIFY"
+  ],
+  "architecture_hash": "06f719065dcf52048c2c4a870fcb70d2c2f43febaecd2fe0ea5a95a645bc73a7"
+}

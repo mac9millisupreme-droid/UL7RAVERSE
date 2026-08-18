@@ -1,0 +1,15 @@
+{
+  "certification_claim": false,
+  "evidence_hash": "12121caeda685d3c21dd3ee5704203c7b04f7b1df14745215771dc2fa9239dec",
+  "execution_results": {
+    "PYTHON_COMPILE": {
+      "status": "FAIL"
+    }
+  },
+  "factory": "UL7RAFORGE",
+  "production": "LOCKED",
+  "rule": "UNVERIFIED_NEVER_EQUALS_PASS",
+  "status": "BLOCKED",
+  "system": "UL7RAVERSE",
+  "timestamp": "2026-08-13T21:28:18.439788+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "system": "UL7RAVERSE",
+  "profile": "HIGH_ASSURANCE",
+  "controls_passed": 13,
+  "controls_total": 19,
+  "unknown_or_unverified": [
+    "approved_cryptography",
+    "key_lifecycle",
+    "hardware_backed_keys",
+    "one_way_enforcement",
+    "reproducible_builds",
+    "independent_verification"
+  ],
+  "status": "BLOCKED",
+  "production": "LOCKED",
+  "certification_claim": false,
+  "certification_statement": "NO GOVERNMENT_OR_MILITARY_CERTIFICATION_CLAIM",
+  "timestamp": 1786650794.682946,
+  "evidence_hash": "dc97714f858fd3af1a3d5f7b5e6657a3c38dbcf5964000e7541fa7be4e4e0323"
+}

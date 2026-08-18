@@ -1,0 +1,26 @@
+{
+  "system": "UL7RAVERSE",
+  "assurance": "REAL_TIME_CONTROL_ASSURANCE",
+  "security_status": "VERIFIED_WITH_SCOPE",
+  "active_controls": {
+    "cheetah_policy": "VERIFIED",
+    "ghost_policy": "VERIFIED",
+    "bridge_invariant": "VERIFIED",
+    "os_baseline": "VERIFIED",
+    "canada_only_policy": "VERIFIED",
+    "attestation_integrity": "VERIFIED",
+    "tamper_detection": "VERIFIED"
+  },
+  "detected_violations": 0,
+  "unresolved_exceptions": 0,
+  "evidence_freshness": "CURRENT",
+  "unknowns": [
+    "kernel_level_isolation",
+    "physical_one_way_network",
+    "absence_of_undiscovered_vulnerabilities"
+  ],
+  "claim_limit": "NO_ABSOLUTE_SECURITY_GUARANTEE",
+  "production": "LOCKED",
+  "timestamp": 1786649983.9586918,
+  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+}

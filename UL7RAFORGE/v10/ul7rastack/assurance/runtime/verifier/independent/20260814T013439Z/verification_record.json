@@ -1,0 +1,25 @@
+{
+  "baseline_version": "S8",
+  "blue_evidence": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/blue/20260814T012133Z/evidence.json",
+  "builder_environment": "UNSPECIFIED",
+  "candidate_version": "S9",
+  "checks": {
+    "blue_evidence": true,
+    "failure_recovery": true,
+    "purple_evidence": true,
+    "repository_root": true,
+    "snapshot": true,
+    "verifier_selftest": true,
+    "verifier_tampertest": true
+  },
+  "decision": "EXTERNAL_INDEPENDENCE_REQUIRED",
+  "independence": "UNPROVEN",
+  "production": "LOCKED",
+  "purple_evidence": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/purple_result.json",
+  "repository_root": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE",
+  "snapshot": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json",
+  "snapshot_sha256": "5324e1d3052da3b34f05d10add30bf0bd0b6ef93b995fddf8e86135883dc857f",
+  "system": "UL7RAVERSE",
+  "timestamp": "2026-08-14T01:34:40.024082+00:00",
+  "verifier_environment": "LOCAL_TERMUX"
+}

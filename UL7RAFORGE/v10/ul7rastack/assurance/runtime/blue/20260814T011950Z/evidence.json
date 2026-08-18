@@ -1,0 +1,13 @@
+{
+  "authorization_scope": "LOCAL_ASSURANCE_ONLY",
+  "canonical_hash": "0b2003e5fc3ed938c2e6c07ef07af2fe6f5f71ee5eec5d318b62c312090d9df9",
+  "contained": true,
+  "destructive": false,
+  "detected": true,
+  "detector_id": "BLUE-DET-001",
+  "event_type": "POLICY_VIOLATION",
+  "external_target": false,
+  "fixture_id": "blue-fixture-001",
+  "response": "REJECTED",
+  "timestamp": "2026-08-14T01:19:50.541329+00:00"
+}

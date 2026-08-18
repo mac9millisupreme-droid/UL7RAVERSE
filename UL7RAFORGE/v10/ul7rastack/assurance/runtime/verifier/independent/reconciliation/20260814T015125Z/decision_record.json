@@ -1,0 +1,11 @@
+{
+  "blocked_by": [
+    "BUILD",
+    "TEST"
+  ],
+  "decision": "BLOCKED",
+  "evidence_hash": "addd3e53f3d8e09a3ff8235efabefd26d2411653d96e87c45105426553df3661",
+  "external_independence": "REQUIRED",
+  "production": "LOCKED",
+  "timestamp": "2026-08-14T01:51:25.919291+00:00"
+}

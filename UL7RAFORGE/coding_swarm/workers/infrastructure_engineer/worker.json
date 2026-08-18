@@ -1,0 +1,8 @@
+{
+  "role": "INFRASTRUCTURE_ENGINEER",
+  "authority": "PROPOSE_ONLY",
+  "production_access": false,
+  "network_access": false,
+  "credential_access": false,
+  "sandbox_required": true
+}

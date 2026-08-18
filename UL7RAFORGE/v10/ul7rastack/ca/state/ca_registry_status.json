@@ -1,0 +1,34 @@
+{
+  "registry": "UL7RAVERSE_CA",
+  "model": "CONTINUOUS_ASSURANCE",
+  "jurisdiction": "CA",
+  "frameworks": {
+    "CA_PRIVACY_CONTROLS": {
+      "jurisdiction": "CA",
+      "status": "DEFINED",
+      "evidence_required": true
+    },
+    "CA_SECURITY_CONTROLS": {
+      "jurisdiction": "CA",
+      "status": "DEFINED",
+      "evidence_required": true
+    },
+    "CA_DATA_RESIDENCY_CONTROLS": {
+      "jurisdiction": "CA",
+      "status": "DEFINED",
+      "evidence_required": true
+    }
+  },
+  "claim": "DEFINED_CONTROLS_ONLY",
+  "evidence": "REQUIRED",
+  "independent_verification": "REQUIRED",
+  "unknowns": [
+    "regulatory_interpretation",
+    "controls_not_yet_mapped",
+    "facts_outside_supplied_evidence"
+  ],
+  "status": "VERIFIED_WITH_SCOPE",
+  "production": "LOCKED",
+  "timestamp": 1786650373.8155477,
+  "registry_hash": "93e1a1a8b7b8d03697a326d8559f06d7930f66aaaaf2e272a0b7bd24f153835e"
+}

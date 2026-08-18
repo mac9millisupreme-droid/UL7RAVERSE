@@ -1,0 +1,54 @@
+{
+  "system": "UL7RAVERSE_ORACL3",
+  "mode": "ASSURANCE",
+  "timestamp": 1786647000.3754926,
+  "claims": {
+    "SECURITY": {
+      "status": "UNKNOWN",
+      "verification": "PENDING",
+      "evidence": []
+    },
+    "GOVERNANCE": {
+      "status": "UNKNOWN",
+      "verification": "PENDING",
+      "evidence": []
+    },
+    "COMPLIANCE": {
+      "status": "UNKNOWN",
+      "verification": "PENDING",
+      "evidence": []
+    },
+    "INTEGRITY": {
+      "status": "UNKNOWN",
+      "verification": "PENDING",
+      "evidence": []
+    },
+    "NETWORK": {
+      "status": "UNKNOWN",
+      "verification": "PENDING",
+      "evidence": []
+    },
+    "DEPLOYMENT": {
+      "status": "UNKNOWN",
+      "verification": "PENDING",
+      "evidence": []
+    },
+    "PURPLE_TEAM": {
+      "status": "UNKNOWN",
+      "verification": "PENDING",
+      "evidence": []
+    },
+    "CAPACITY": {
+      "status": "UNKNOWN",
+      "verification": "PENDING",
+      "evidence": []
+    },
+    "REVENUE": {
+      "status": "UNKNOWN",
+      "verification": "PENDING",
+      "evidence": []
+    }
+  },
+  "rule": "UNKNOWN_MUST_NOT_BECOME_VERIFIED_WITHOUT_EVIDENCE",
+  "state_hash": "460a00fb9deecd9088b86ad33971e647600fe46c1bfc00da0e24af8d91497788"
+}

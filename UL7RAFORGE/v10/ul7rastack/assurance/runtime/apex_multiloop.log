@@ -1,0 +1,100 @@
+========================================
+UL7RAFORGE APEX MULTI-LOOP
+========================================
+STATE=PASS
+[1/10] TRUST ROOT
+BASELINE_HASH_MUST_NOT_CHANGE=PASS
+[2/10] CANDIDATE DISCOVERY
+S9_SNAPSHOT=v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z
+[3/10] INDEPENDENT VERIFIER
+[4/10] SOURCE MANIFEST
+[5/10] BUILD LOOP
+BUILD=PASS
+[6/10] TEST LOOP
+TEST=PASS
+[7/10] PURPLE LOOP
+PURPLE=NOT_ESTABLISHED
+[8/10] REPRODUCIBILITY LOOP
+REPRODUCIBILITY=PASS
+[9/10] INDEPENDENT DECISION
+{
+  "baseline": "S8",
+  "build": "PASS",
+  "candidate": "S9",
+  "certification_claim": false,
+  "decision": "BLOCKED",
+  "evidence_hash": "e99ab1c8a2cf8c688cd2d74662f9ce2b996059a622941834aba983fad1f0b987",
+  "iteration": 3,
+  "production": "LOCKED",
+  "purple": "NOT_ESTABLISHED",
+  "reproducibility": "PASS",
+  "test": "PASS",
+  "timestamp": "2026-08-14T00:41:23.685824+00:00",
+  "verifier": "UL7RAFORGE_MVIV",
+  "version": "MVIV-1"
+}
+[10/10] FINAL STATE
+
+========================================
+APEX MULTI-LOOP RESULT
+========================================
+BASELINE=S8
+CANDIDATE=S9
+BUILD=PASS
+TEST=PASS
+PURPLE=NOT_ESTABLISHED
+REPRODUCIBILITY=PASS
+INDEPENDENT_DECISION=BLOCKED
+PRODUCTION=LOCKED
+MVIV=v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z
+========================================
+========================================
+UL7RAFORGE APEX MULTI-LOOP
+========================================
+STATE=PASS
+[1/10] TRUST ROOT
+BASELINE_HASH_MUST_NOT_CHANGE=PASS
+[2/10] CANDIDATE DISCOVERY
+S9_SNAPSHOT=v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z
+[3/10] INDEPENDENT VERIFIER
+[4/10] SOURCE MANIFEST
+[5/10] BUILD LOOP
+BUILD=PASS
+[6/10] TEST LOOP
+TEST=PASS
+[7/10] PURPLE LOOP
+PURPLE=NOT_ESTABLISHED
+[8/10] REPRODUCIBILITY LOOP
+REPRODUCIBILITY=PASS
+[9/10] INDEPENDENT DECISION
+{
+  "baseline": "S8",
+  "build": "PASS",
+  "candidate": "S9",
+  "certification_claim": false,
+  "decision": "BLOCKED",
+  "evidence_hash": "90e3c30da1ff51937c79c5b938142f7a596681c08bb4886903a8531a700c2e12",
+  "iteration": 4,
+  "production": "LOCKED",
+  "purple": "NOT_ESTABLISHED",
+  "reproducibility": "PASS",
+  "test": "PASS",
+  "timestamp": "2026-08-14T01:28:42.645079+00:00",
+  "verifier": "UL7RAFORGE_MVIV",
+  "version": "MVIV-1"
+}
+[10/10] FINAL STATE
+
+========================================
+APEX MULTI-LOOP RESULT
+========================================
+BASELINE=S8
+CANDIDATE=S9
+BUILD=PASS
+TEST=PASS
+PURPLE=NOT_ESTABLISHED
+REPRODUCIBILITY=PASS
+INDEPENDENT_DECISION=BLOCKED
+PRODUCTION=LOCKED
+MVIV=v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z
+========================================

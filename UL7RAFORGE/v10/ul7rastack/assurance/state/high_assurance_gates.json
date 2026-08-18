@@ -1,0 +1,37 @@
+{
+  "system": "UL7RAVERSE",
+  "profile": "HIGH_ASSURANCE",
+  "gate_count": 6,
+  "gates": {
+    "approved_cryptography": {
+      "status": "UNVERIFIED",
+      "evidence_required": "approved_algorithm_inventory"
+    },
+    "key_lifecycle": {
+      "status": "UNVERIFIED",
+      "evidence_required": "key_generation_rotation_revocation_test"
+    },
+    "hardware_backed_keys": {
+      "status": "UNVERIFIED",
+      "evidence_required": "hardware_root_of_trust_attestation"
+    },
+    "one_way_enforcement": {
+      "status": "UNVERIFIED",
+      "evidence_required": "independent_network_enforcement_test"
+    },
+    "reproducible_builds": {
+      "status": "UNVERIFIED",
+      "evidence_required": "independent_reproducible_build"
+    },
+    "independent_verification": {
+      "status": "UNVERIFIED",
+      "evidence_required": "independent_security_assessment"
+    }
+  },
+  "status": "BLOCKED",
+  "production": "LOCKED",
+  "certification_claim": false,
+  "rule": "UNVERIFIED_NEVER_EQUALS_PASS",
+  "timestamp": 1786650853.4500127,
+  "evidence_hash": "c9cd4df8a6200a2a5a31fd991b5b52cd2894b79b7191c78bcea4cdced311104f"
+}

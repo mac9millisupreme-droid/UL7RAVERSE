@@ -1,0 +1,49 @@
+{
+  "system": "UL7RAVERSE",
+  "profile": "HIGH_ASSURANCE",
+  "controls": {
+    "approved_cryptography": {
+      "evidence_files": 0,
+      "attestation": "MISSING",
+      "status": "UNVERIFIED"
+    },
+    "key_lifecycle": {
+      "evidence_files": 0,
+      "attestation": "MISSING",
+      "status": "UNVERIFIED"
+    },
+    "hardware_backed_keys": {
+      "evidence_files": 0,
+      "attestation": "MISSING",
+      "status": "UNVERIFIED"
+    },
+    "one_way_enforcement": {
+      "evidence_files": 0,
+      "attestation": "MISSING",
+      "status": "UNVERIFIED"
+    },
+    "reproducible_builds": {
+      "evidence_files": 1,
+      "attestation": "VALID",
+      "status": "EVIDENCE_PRESENT"
+    },
+    "independent_verification": {
+      "evidence_files": 0,
+      "attestation": "MISSING",
+      "status": "UNVERIFIED"
+    }
+  },
+  "unverified": [
+    "approved_cryptography",
+    "key_lifecycle",
+    "hardware_backed_keys",
+    "one_way_enforcement",
+    "independent_verification"
+  ],
+  "status": "BLOCKED",
+  "production": "LOCKED",
+  "certification_claim": false,
+  "rule": "EVIDENCE_AND_ATTESTATION_REQUIRED",
+  "timestamp": 1786651715.5741215,
+  "evidence_hash": "9bfeff3b620de278768c1916af15a5f638b560b10684b9390cefb6301e14fd5c"
+}

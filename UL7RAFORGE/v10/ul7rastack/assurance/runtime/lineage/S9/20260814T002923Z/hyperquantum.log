@@ -1,0 +1,17 @@
+{
+  "certification_claim": false,
+  "compile": "PASS",
+  "component": "HYPER_QUANTUM_STACK",
+  "evidence": {
+    "source_sha256": "f728ccb5206439c311f9e0391901562879a0e8fb6703b6bb2a4839fe8e7c909f"
+  },
+  "evidence_hash": "c02ce5d7dc6c36ec6ae8f0e22f976638e077afa777cac1a05857643eb8f3770f",
+  "production": "LOCKED",
+  "quantum_computing_claim": false,
+  "quantum_resistant_implementation_claim": false,
+  "rule": "UNVERIFIED_NEVER_EQUALS_PASS",
+  "self_test": "PASS",
+  "status": "VERIFIED_FOUNDATION",
+  "system": "UL7RAVERSE",
+  "timestamp": "2026-08-14T00:29:24.871905+00:00"
+}

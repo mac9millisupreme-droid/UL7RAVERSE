@@ -1,0 +1,28 @@
+{
+  "baseline": "S8",
+  "blue": "PASS",
+  "build": "PASS",
+  "build_manifests": [
+    "v10/ul7rabridge/Cargo.toml"
+  ],
+  "build_system": "cargo",
+  "candidate": "S9",
+  "certification_claim": false,
+  "evidence_hash": "558966f8b0dbb1383eb1aaab3bd885c5044799039a24f10a33fa4ded8131d243",
+  "external_independence": "REQUIRED",
+  "mviv": "BLOCKED",
+  "production": "LOCKED",
+  "provenance": "PASS",
+  "purple": "PASS",
+  "purple_evidence_bound": "PASS",
+  "red": "PASS",
+  "regression": "PASS",
+  "reproducibility": "PASS",
+  "s8": "IMMUTABLE/PASS",
+  "s9": "CANDIDATE",
+  "schema": "FAIL",
+  "schema_version": "MVIV-INDEPENDENT-2",
+  "test": "PASS",
+  "timestamp": "2026-08-14T02:04:05.337285+00:00",
+  "verifier": "UL7RAFORGE_INDEPENDENT_MVIV"
+}

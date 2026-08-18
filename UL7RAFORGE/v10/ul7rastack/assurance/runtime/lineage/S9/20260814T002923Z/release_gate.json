@@ -1,0 +1,10 @@
+{
+  "baseline": "S8",
+  "candidate": "S9",
+  "status": "S9_CANDIDATE",
+  "production": "LOCKED",
+  "certification_claim": false,
+  "independent_verification": "REQUIRED",
+  "rollback_target": "S8",
+  "rule": "UNVERIFIED_NEVER_EQUALS_PASS"
+}

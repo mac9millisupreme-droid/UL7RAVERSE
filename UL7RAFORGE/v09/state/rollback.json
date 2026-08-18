@@ -1,0 +1,6 @@
+{
+  "gate": "ROLLBACK",
+  "known_good_baseline": "V0.6",
+  "rollback_required_on_failure": true,
+  "production_promotion": "LOCKED"
+}

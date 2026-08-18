@@ -1,0 +1,16 @@
+{
+  "baseline": "S8",
+  "build": "PASS",
+  "candidate": "S9",
+  "certification_claim": false,
+  "decision": "BLOCKED",
+  "evidence_hash": "90e3c30da1ff51937c79c5b938142f7a596681c08bb4886903a8531a700c2e12",
+  "iteration": 4,
+  "production": "LOCKED",
+  "purple": "NOT_ESTABLISHED",
+  "reproducibility": "PASS",
+  "test": "PASS",
+  "timestamp": "2026-08-14T01:28:42.645079+00:00",
+  "verifier": "UL7RAFORGE_MVIV",
+  "version": "MVIV-1"
+}

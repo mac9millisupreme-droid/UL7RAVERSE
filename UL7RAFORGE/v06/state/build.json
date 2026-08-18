@@ -1,0 +1,18 @@
+{
+  "version": "V0.6",
+  "factory": "UL7RAFORGE",
+  "components": [
+    "orchestrator",
+    "coding_swarm",
+    "sandbox",
+    "policy_engine",
+    "verification_engine",
+    "provenance_engine",
+    "evidence_ledger",
+    "purple_team",
+    "rollback_engine"
+  ],
+  "production_promotion": "LOCKED",
+  "timestamp": 1786647972.0086973,
+  "build_hash": "7573984a762ca8509993960a7fa4132b98ba26ccd9b3c86f228592f48bc5c955"
+}

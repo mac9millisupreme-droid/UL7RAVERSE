@@ -1,0 +1,7 @@
+{
+  "event_type": "GHOST_POLICY",
+  "result": "PASS",
+  "timestamp": 1786650037.7870476,
+  "previous_hash": "ec9760caf7c7ae74ce59fa97728d053ea86257abcdba9b743986a19f0699e188",
+  "event_hash": "fbad9b85fb11eba95511de95e40d5e18612ea5a508b3068186b594de241ba58e"
+}

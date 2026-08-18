@@ -1,0 +1,7 @@
+{
+  "event_type": "CHEETAH_RETURN_PATH",
+  "result": "FAIL",
+  "timestamp": 1786650058.4410262,
+  "previous_hash": "4dbdf721b5ae0fff66808a1684389b5573887bd48af437bf2bfb5e382934f5aa",
+  "event_hash": "3c8a822c4bdbb2555b594a5f8771252af6a719927b54f31220b155d30c910a5d"
+}

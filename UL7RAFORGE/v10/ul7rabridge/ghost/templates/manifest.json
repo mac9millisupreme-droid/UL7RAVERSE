@@ -1,0 +1,12 @@
+{
+  "name": "CHEETAH-GHOST",
+  "version": "0.1",
+  "filesystem": "EPHEMERAL",
+  "network": "DENY_BY_DEFAULT",
+  "capabilities": [],
+  "credentials": "NONE",
+  "external_egress": "CHEETAH_ONLY",
+  "return_path": "DENY",
+  "audit": "REQUIRED",
+  "production": "LOCKED"
+}

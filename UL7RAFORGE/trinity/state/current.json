@@ -1,0 +1,7 @@
+{
+  "trinity_core": "ACTIVE",
+  "BUILD": "PASS",
+  "VERIFY": "PASS",
+  "LEARN": "PROPOSAL",
+  "PROMOTION": "BLOCKED_UNTIL_VERIFIED"
+}

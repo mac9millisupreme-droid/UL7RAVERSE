@@ -1,0 +1,7 @@
+{
+  "expert": "COMPLIANCE",
+  "status": "INITIALIZED",
+  "authority": "PROPOSE_ONLY",
+  "sub_experts": [],
+  "requires_trinity_verification": true
+}

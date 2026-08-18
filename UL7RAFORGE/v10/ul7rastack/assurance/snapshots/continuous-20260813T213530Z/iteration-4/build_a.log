@@ -1,0 +1,32 @@
+     Removed 238 files, 45.8MiB total
+   Compiling version_check v0.9.5
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.24
+   Compiling quote v1.0.47
+   Compiling typenum v1.20.1
+   Compiling serde_core v1.0.229
+   Compiling zmij v1.0.23
+   Compiling serde_json v1.0.151
+   Compiling serde v1.0.229
+   Compiling cfg-if v1.0.4
+   Compiling itoa v1.0.18
+   Compiling memchr v2.8.3
+   Compiling generic-array v0.14.7
+   Compiling syn v3.0.3
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.7
+   Compiling digest v0.10.7
+   Compiling sha2 v0.10.9
+   Compiling serde_derive v1.0.229
+error: failed to write /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/release/deps/libserde_core-270f80516bcc59ae.rmeta: No such file or directory (os error 2)
+
+error: could not compile `serde_core` (lib) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: linking with `cc` failed: exit status: 1
+  |
+  = note:  "cc" "-Wl,--version-script=/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/release/deps/rustcSVkJLH/list" "-Wl,--undefined-version" "-march=armv7-a" "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/release/deps/rustcSVkJLH/symbols.o" "<16 object files omitted>" "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/release/deps/rustcSVkJLH/rmeta.o" "<1 object files omitted>" "-Wl,--as-needed" "-Wl,-Bstatic" "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/release/deps/{libsyn-469e24cd1f330a83,libquote-3e8b7c9a84764089,libproc_macro2-bf0814530683643b,libunicode_ident-a5e77a79b5bcf9f7}.rlib" "<sysroot>/lib/rustlib/armv7-linux-androideabi/lib/{libproc_macro-*,librustc_literal_escaper-*,libstd-*,libpanic_unwind-*,libobject-*,libmemchr-*,libaddr2line-*,libgimli-*,libcfg_if-*,librustc_demangle-*,libstd_detect-*,libhashbrown-*,librustc_std_workspace_alloc-*,libminiz_oxide-*,libadler2-*,libunwind-*,liblibc-*,librustc_std_workspace_core-*,liballoc-*,libcore-*,libcompiler_builtins-*}.rlib" "-Wl,-Bdynamic" "-ldl" "-llog" "-lunwind" "-ldl" "-lm" "-lc" "-L" "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/release/deps/rustcSVkJLH/raw-dylibs" "-Wl,--eh-frame-hdr" "-Wl,-z,noexecstack" "-o" "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/release/deps/libserde_derive-7e8e93d8b8efa14f.so" "-Wl,--gc-sections" "-shared" "-Wl,-z,relro,-z,now" "-Wl,--strip-debug" "-nodefaultlibs"
+  = note: some arguments are omitted. use `--verbose` to show all linker arguments
+  = note: cc: error: no such file or directory: '/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/release/deps/libsyn-469e24cd1f330a83.rlib'
+          
+
+error: could not compile `serde_derive` (lib) due to 1 previous error

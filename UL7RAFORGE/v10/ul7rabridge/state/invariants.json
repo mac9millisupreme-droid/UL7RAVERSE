@@ -1,0 +1,9 @@
+{
+  "ghost_partition_isolation": "REQUIRED",
+  "egress_policy": "REQUIRED",
+  "return_path": "DENY",
+  "credential_scope": "MINIMUM_REQUIRED",
+  "provenance": "REQUIRED",
+  "audit": "REQUIRED",
+  "production": "LOCKED"
+}
