@@ -1,0 +1,17 @@
+{
+  "product": "UL7RA Verify",
+  "type": "commercial_verification_service",
+  "purpose": "Verify submitted software artifacts and return reproducible verification evidence.",
+  "source_authority": "UL7RAVERSE",
+  "trinity_source": "UL7RAFORGE/trinity/core.py",
+  "commercial_status": "BUILDING",
+  "deployment_status": "NOT_DEPLOYED",
+  "payment_status": "NOT_CONNECTED",
+  "revenue": 0,
+  "claims": {
+    "revenue": false,
+    "production": false,
+    "verification": false
+  },
+  "promotion_rule": "BUILD -> TEST -> VERIFY -> DEPLOY -> MONETIZE"
+}

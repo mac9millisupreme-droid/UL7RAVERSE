@@ -1,0 +1,8 @@
+{
+  "product": "UL7RA Verify",
+  "trinity_source": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/trinity/core.py",
+  "trinity_sha256": "9f60abc3e95708bfcbd9923d787d2c4bd7ce131aba8892496a1a03583f01f3e3",
+  "parent_repository_head": "d6eb87939a79b5ad8cc6eb1e628d344206b6933c",
+  "binding_type": "READ_ONLY_REFERENCE",
+  "historical_trinity_modified": false
+}
