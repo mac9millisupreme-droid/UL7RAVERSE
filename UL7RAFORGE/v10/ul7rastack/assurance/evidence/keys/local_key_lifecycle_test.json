@@ -1,0 +1,13 @@
+{
+  "control": "key_lifecycle",
+  "generation": true,
+  "key_a_fingerprint": "60203f92d571da8d10658d42fe36792da4eae93ea17745f54b42d6965ead2a87",
+  "key_b_fingerprint": "7cc0338c3a65660a1b28b74e754b06beafa9796c82b622bf58548194b96b16a9",
+  "required": "key_generation_rotation_revocation_test",
+  "revocation_record_created": true,
+  "revoked_key_rejected": true,
+  "rotation": true,
+  "status": "VERIFIED",
+  "system": "UL7RAVERSE",
+  "timestamp": "2026-08-23T17:32:32.473783+00:00"
+}

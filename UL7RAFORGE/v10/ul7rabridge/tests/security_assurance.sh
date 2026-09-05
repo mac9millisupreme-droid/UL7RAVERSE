@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 set -eu
 
-STATUS="../ul7rastack/security/state/live_security.json"
+STATUS="../../ul7rastack/security/state/live_security.json"
 
 python - "$STATUS" <<'PY'
 import json

@@ -1,0 +1,189 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -u
+
+ROOT="$HOME/UL7RAVERSE"
+RUNTIME="$ROOT/products/ul7ra-verify/deploy/runtime"
+EVIDENCE="$RUNTIME/multiloop/evidence"
+
+DOMAIN="omnilucient.com"
+TUNNEL="ul7ra-verify"
+ORIGIN="http://127.0.0.1:8787/"
+EXPECTED_PRODUCT="UL7RA Verify"
+
+mkdir -p "$EVIDENCE"
+
+log() {
+    printf '%s %s\n' "$(date -Iseconds)" "$*" \
+      | tee -a "$RUNTIME/multiloop.log"
+}
+
+snapshot() {
+    local id
+    id="$(date -u +%Y%m%dT%H%M%SZ)"
+    {
+        echo "timestamp=$(date -Iseconds)"
+        echo "domain=$DOMAIN"
+        echo "tunnel=$TUNNEL"
+
+        echo
+        echo "[ORIGIN]"
+        curl -4 -sS --connect-timeout 3 --max-time 5 "$ORIGIN" || true
+
+        echo
+        echo "[DNS_A]"
+        dig +time=2 +tries=1 "$DOMAIN" A +short || true
+
+        echo
+        echo "[DNS_AAAA]"
+        dig +time=2 +tries=1 "$DOMAIN" AAAA +short || true
+
+        echo
+        echo "[TUNNEL]"
+        cloudflared tunnel info "$TUNNEL" || true
+
+        echo
+        echo "[CONFIG]"
+        cloudflared tunnel ingress validate || true
+
+        echo
+        echo "[PUBLIC]"
+        curl -4 -sS -D- --connect-timeout 5 --max-time 10 \
+          "https://$DOMAIN/" || true
+    } > "$EVIDENCE/$id.txt"
+}
+
+check_origin() {
+    curl -4 -sS --connect-timeout 3 --max-time 5 "$ORIGIN" 2>/dev/null \
+      | grep -q '"product": "UL7RA Verify"'
+}
+
+check_tunnel() {
+    cloudflared tunnel info "$TUNNEL" 2>/dev/null \
+      | grep -q 'CONNECTOR ID'
+}
+
+check_public() {
+    local body
+    body="$(mktemp)"
+
+    if curl -4 -sS --connect-timeout 5 --max-time 10 \
+        "https://$DOMAIN/" >"$body" 2>/dev/null; then
+        grep -q '"product": "UL7RA Verify"' "$body"
+        local rc=$?
+        rm -f "$body"
+        return $rc
+    fi
+
+    rm -f "$body"
+    return 1
+}
+
+start_origin() {
+    if ! pgrep -f 'products/ul7ra-verify/app/server.py' >/dev/null 2>&1; then
+        log "REPAIR=START_ORIGIN"
+        nohup python3 \
+          "$ROOT/products/ul7ra-verify/app/server.py" \
+          >> "$RUNTIME/server.log" 2>&1 &
+        sleep 2
+    fi
+}
+
+start_named_tunnel() {
+    if ! pgrep -f 'cloudflared tunnel.*config.yml.*run ul7ra-verify' >/dev/null 2>&1; then
+        log "REPAIR=START_NAMED_TUNNEL"
+        nohup cloudflared tunnel \
+          --config "$HOME/.cloudflared/config.yml" \
+          run "$TUNNEL" \
+          >> "$RUNTIME/cloudflared.log" 2>&1 &
+        sleep 5
+    fi
+}
+
+log "MULTILOOP_START"
+
+while true; do
+    STATE="BLOCKED"
+
+    start_origin
+
+    if ! check_origin; then
+        log "ORIGIN=FAIL"
+        snapshot
+        sleep 10
+        continue
+    fi
+
+    log "ORIGIN=PASS"
+
+    if ! cloudflared tunnel ingress validate >/dev/null 2>&1; then
+        log "CONFIG=FAIL"
+        snapshot
+        sleep 20
+        continue
+    fi
+
+    log "CONFIG=PASS"
+
+    start_named_tunnel
+
+    if ! check_tunnel; then
+        log "CONNECTOR=FAIL"
+        snapshot
+        sleep 20
+        continue
+    fi
+
+    log "CONNECTOR=PASS"
+
+    # DNS is OBSERVED here, not blindly overwritten.
+    A="$(dig +time=2 +tries=1 "$DOMAIN" A +short 2>/dev/null | head -1)"
+    AAAA="$(dig +time=2 +tries=1 "$DOMAIN" AAAA +short 2>/dev/null | head -1)"
+    CNAME="$(dig +time=2 +tries=1 "$DOMAIN" CNAME +short 2>/dev/null | head -1)"
+
+    log "DNS A=$A AAAA=$AAAA CNAME=$CNAME"
+
+    if check_public; then
+        STATE="PROVEN"
+        log "PUBLIC_ROUTE=PASS"
+        log "RESPONSE_IDENTITY=PASS"
+        log "PROMOTION=PERMITTED"
+    else
+        log "PUBLIC_ROUTE=FAIL"
+        log "PROMOTION=BLOCKED"
+    fi
+
+    snapshot
+
+    if [ "$STATE" = "PROVEN" ]; then
+        cat > "$RUNTIME/multiloop/promotion_state.json" <<JSON
+{
+  "production": true,
+  "promotion_permitted": true,
+  "fail_closed": false,
+  "domain": "$DOMAIN",
+  "tunnel": "$TUNNEL",
+  "origin": "PASS",
+  "connector": "PASS",
+  "public_https": "PASS",
+  "response_identity": "PASS",
+  "timestamp": "$(date -Iseconds)"
+}
+JSON
+        sleep 60
+    else
+        cat > "$RUNTIME/multiloop/promotion_state.json" <<JSON
+{
+  "production": false,
+  "promotion_permitted": false,
+  "fail_closed": true,
+  "domain": "$DOMAIN",
+  "tunnel": "$TUNNEL",
+  "origin": "PASS",
+  "connector": "PASS",
+  "public_https": "FAIL",
+  "timestamp": "$(date -Iseconds)"
+}
+JSON
+        sleep 20
+    fi
+done

@@ -1,0 +1,14 @@
+{
+  "schema": "LUCIDEPLOY-CLOSED-LOOP-2",
+  "domain": "omnilucient.com",
+  "lucideploy_tests": "PASS",
+  "product_verification": "PASS",
+  "local_health": "PASS",
+  "domain_dns": "FAIL",
+  "domain_http": "000",
+  "named_tunnel": "AVAILABLE",
+  "production": false,
+  "promotion_permitted": false,
+  "fail_closed": true,
+  "timestamp_utc": "2026-08-22T04:39:59.081001+00:00"
+}

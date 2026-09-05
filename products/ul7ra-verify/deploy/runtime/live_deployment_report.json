@@ -1,0 +1,14 @@
+{
+  "schema": "LUCIDEPLOY-LIVE-DEPLOYMENT-1",
+  "timestamp_utc": "2026-08-22T04:32:36.532453+00:00",
+  "product": "UL7RA Verify",
+  "local_health": "PASS",
+  "public_url": "https://exam-birth-grove-mill.trycloudflare.com",
+  "public_http": "FAIL",
+  "http_status": "000000",
+  "server_pid": 9810,
+  "cloudflared_pid": 9821,
+  "persistent": true,
+  "production": false,
+  "promotion_permitted": false
+}

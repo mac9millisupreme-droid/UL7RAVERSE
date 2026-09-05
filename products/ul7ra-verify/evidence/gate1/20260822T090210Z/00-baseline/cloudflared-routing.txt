@@ -1,0 +1,6 @@
+4:ingress:
+5:  - hostname: verify.omnilucient.com
+6:    service: http://127.0.0.1:8787
+7:  - hostname: omnilucient.com
+8:    service: http://127.0.0.1:8787
+9:  - service: http_status:404

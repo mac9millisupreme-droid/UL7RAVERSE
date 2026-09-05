@@ -1,0 +1,30 @@
+{
+  "control": "approved_cryptography",
+  "openssl": "OpenSSL 3.4.1 11 Feb 2025",
+  "python_hash_algorithms": [
+    "blake2b",
+    "blake2s",
+    "md5",
+    "md5-sha1",
+    "ripemd160",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha3_224",
+    "sha3_256",
+    "sha3_384",
+    "sha3_512",
+    "sha512",
+    "sha512_224",
+    "sha512_256",
+    "shake_128",
+    "shake_256",
+    "sm3"
+  ],
+  "required": "approved_algorithm_inventory",
+  "status": "VERIFIED",
+  "system": "UL7RAVERSE",
+  "timestamp": "2026-08-23T17:32:32.473783+00:00",
+  "verification_scope": "LOCAL_ALGORITHM_INVENTORY"
+}

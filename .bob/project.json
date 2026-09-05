@@ -1,0 +1,25 @@
+{
+  "project": "UL7RAVERSE",
+  "authority": "repository_state",
+  "governance": "UL7RA_BOB_RULES",
+  "production_state": "LOCKED",
+  "verification_required": true,
+  "evidence_required": true,
+  "unknown_preservation": true,
+  "primary_systems": [
+    "UL7RAFORGE",
+    "UL7RASTACK",
+    "TRINITY",
+    "ORACL3",
+    "CHEETAH",
+    "GHOST"
+  ],
+  "validation_commands": [
+    "tests/canada_only_regression.sh",
+    "tests/cheetah_regression.sh",
+    "tests/ghost_regression.sh",
+    "tests/live_status_regression.sh",
+    "tests/security_assurance.sh",
+    "tests/tamper_detection.sh"
+  ]
+}

@@ -1,0 +1,8 @@
+?? integration/
+?? lucideploy/
+?? products/ul7ra-verify/deploy/
+?? products/ul7ra-verify/evidence/deployment_gate.json
+?? products/ul7ra-verify/evidence/deployment_watchdog.json
+?? products/ul7ra-verify/evidence/gate1/
+?? products/ul7ra-verify/evidence/public_probe.json
+?? v10/

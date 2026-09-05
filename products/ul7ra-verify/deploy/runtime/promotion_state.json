@@ -1,0 +1,16 @@
+{
+  "production": false,
+  "promotion_permitted": false,
+  "fail_closed": true,
+  "domain": "omnilucient.com",
+  "verify_hostname": "verify.omnilucient.com",
+  "tunnel": "ul7ra-verify",
+  "tunnel_id": "a241e27b-336e-44cc-9a52-6487131db63b",
+  "target": "a241e27b-336e-44cc-9a52-6487131db63b.cfargotunnel.com",
+  "origin": "PASS",
+  "connector": "PASS",
+  "authoritative_dns": "UNPROVEN",
+  "public_https": "FAIL",
+  "response_identity": "FAIL",
+  "timestamp": "2026-08-22T04:27:02-04:00"
+}

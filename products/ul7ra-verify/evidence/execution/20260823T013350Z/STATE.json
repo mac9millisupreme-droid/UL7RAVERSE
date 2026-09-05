@@ -1,0 +1,40 @@
+{
+  "engine": "UL7RA-UNIVERSAL-EXECUTION",
+  "version": "1.0.0",
+  "run": "20260823T013350Z",
+
+  "authority": {
+    "root": "/data/data/com.termux/files/home/UL7RAVERSE",
+    "product": "/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify",
+    "entrypoint": "/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/app/server.py",
+    "origin": "http://127.0.0.1:8787"
+  },
+
+  "execution": {
+    "origin_ready": true,
+    "origin_started_by_engine": true,
+    "transaction_executed": true
+  },
+
+  "verification": {
+    "expected_sha256": "4473bf2a856a9a573e535a4d61683fe5e60a583ee2df3c05dd5c246d4d2f0c8c",
+    "actual_sha256": "4473bf2a856a9a573e535a4d61683fe5e60a583ee2df3c05dd5c246d4d2f0c8c",
+    "sha256_match": true,
+    "expected_bytes": 22,
+    "actual_bytes": "22",
+    "bytes_match": true,
+    "local_execution_proven": true
+  },
+
+  "governance": {
+    "worktree_preserved": true
+  },
+
+  "counters": {
+    "pass": 15,
+    "fail": 0,
+    "blocked": 0
+  },
+
+  "state": "VERIFIED"
+}

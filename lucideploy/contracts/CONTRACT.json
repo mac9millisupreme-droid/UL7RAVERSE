@@ -1,0 +1,12 @@
+{
+  "schema": "LUCIDEPLOY-CONTRACT-1",
+  "unknown_state": "BLOCKED",
+  "missing_evidence": "BLOCKED",
+  "failed_verification": "BLOCKED",
+  "running_process_is_proof": false,
+  "cloudflare_connector_is_public_reachability_proof": false,
+  "trycloudflare_is_production": false,
+  "named_tunnel_requires_hostname_health": true,
+  "named_tunnel_requires_hostname_verify": true,
+  "production_requires_independent_http_verification": true
+}

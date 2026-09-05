@@ -3,47 +3,41 @@
   "profile": "HIGH_ASSURANCE",
   "controls": {
     "approved_cryptography": {
-      "evidence_files": 0,
-      "attestation": "MISSING",
-      "status": "UNVERIFIED"
+      "evidence_files": 2,
+      "attestation": "VALID",
+      "status": "EVIDENCE_PRESENT"
     },
     "key_lifecycle": {
-      "evidence_files": 0,
-      "attestation": "MISSING",
-      "status": "UNVERIFIED"
+      "evidence_files": 2,
+      "attestation": "VALID",
+      "status": "EVIDENCE_PRESENT"
     },
     "hardware_backed_keys": {
-      "evidence_files": 0,
-      "attestation": "MISSING",
-      "status": "UNVERIFIED"
-    },
-    "one_way_enforcement": {
-      "evidence_files": 0,
-      "attestation": "MISSING",
-      "status": "UNVERIFIED"
-    },
-    "reproducible_builds": {
       "evidence_files": 1,
       "attestation": "VALID",
       "status": "EVIDENCE_PRESENT"
     },
+    "one_way_enforcement": {
+      "evidence_files": 1,
+      "attestation": "VALID",
+      "status": "EVIDENCE_PRESENT"
+    },
+    "reproducible_builds": {
+      "evidence_files": 3,
+      "attestation": "VALID",
+      "status": "EVIDENCE_PRESENT"
+    },
     "independent_verification": {
-      "evidence_files": 0,
-      "attestation": "MISSING",
-      "status": "UNVERIFIED"
+      "evidence_files": 1,
+      "attestation": "VALID",
+      "status": "EVIDENCE_PRESENT"
     }
   },
-  "unverified": [
-    "approved_cryptography",
-    "key_lifecycle",
-    "hardware_backed_keys",
-    "one_way_enforcement",
-    "independent_verification"
-  ],
-  "status": "BLOCKED",
+  "unverified": [],
+  "status": "ELIGIBLE_FOR_EXTERNAL_ASSESSMENT",
   "production": "LOCKED",
   "certification_claim": false,
   "rule": "EVIDENCE_AND_ATTESTATION_REQUIRED",
-  "timestamp": 1786651715.5741215,
-  "evidence_hash": "9bfeff3b620de278768c1916af15a5f638b560b10684b9390cefb6301e14fd5c"
+  "timestamp": 1787512859.916977,
+  "evidence_hash": "caeb9101303951547d05074eb3b3884b642969640a10c7b73a7d2300b577ac17"
 }

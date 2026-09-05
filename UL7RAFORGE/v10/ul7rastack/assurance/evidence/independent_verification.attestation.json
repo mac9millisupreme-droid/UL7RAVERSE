@@ -1,0 +1,9 @@
+{
+  "control": "independent_verification",
+  "evidence_file": "evidence/independent/local_boundary.json",
+  "production": "LOCKED",
+  "sha256": "e60bed74ba2d01073bc89740659561dc076aef70b8768698d735a5b89aabb60f",
+  "status": "ATTESTED",
+  "system": "UL7RAVERSE",
+  "timestamp": 1787507681.0126565
+}

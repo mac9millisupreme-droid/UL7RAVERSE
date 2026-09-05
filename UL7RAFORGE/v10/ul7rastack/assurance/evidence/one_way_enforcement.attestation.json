@@ -1,0 +1,9 @@
+{
+  "control": "one_way_enforcement",
+  "evidence_file": "evidence/network/local_boundary.json",
+  "production": "LOCKED",
+  "sha256": "f0a8a83b561b0fd8780a7061d99ef15b8dac61b73c3a0dfb26883104fd64995c",
+  "status": "ATTESTED",
+  "system": "UL7RAVERSE",
+  "timestamp": 1787507680.3239512
+}

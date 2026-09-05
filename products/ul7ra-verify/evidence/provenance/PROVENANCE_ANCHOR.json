@@ -1,0 +1,13 @@
+{
+  "protocol": "UL7RAPROOF",
+  "protocol_version": "0.1.0",
+  "product": "UL7RA Verify",
+  "verifier": "ULTRA VERIFIED",
+  "artifact": "deploy/runtime/gate2-artifact",
+  "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881",
+  "canonical_ledger": "evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl",
+  "canonical_ledger_sha256": "5363f3216f0f0ec1e58d1407f78c0b0b40d741a22b5283bfd7457f405d3e22db",
+  "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4",
+  "anchor_type": "LOCAL_CRYPTOGRAPHIC_PROVENANCE_ANCHOR",
+  "status": "ANCHORED"
+}

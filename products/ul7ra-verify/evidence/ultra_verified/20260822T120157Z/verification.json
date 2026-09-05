@@ -1,0 +1,11 @@
+{
+  "verifier": "ULTRA VERIFIED",
+  "verifier_version": "0.1.0",
+  "product": "UL7RA Verify",
+  "artifact": "deploy/runtime/gate2-artifact",
+  "expected_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881",
+  "independent_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881",
+  "result": "VERIFIED",
+  "git_head": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4",
+  "timestamp": "2026-08-22T12:01:57Z"
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "LUCIDEPLOY-PUBLIC-ROUTE-1",
+  "domain": "omnilucient.com",
+  "origin": "PASS",
+  "dns": "FAIL",
+  "http_status": "530",
+  "public_product": "FAIL",
+  "production": "FAIL",
+  "promotion": "BLOCKED",
+  "fail_closed": true,
+  "timestamp_utc": "2026-08-22T04:42:18.469933+00:00"
+}

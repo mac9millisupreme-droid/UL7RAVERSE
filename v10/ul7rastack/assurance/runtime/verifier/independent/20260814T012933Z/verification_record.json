@@ -1,0 +1,26 @@
+{
+  "baseline_hash": null,
+  "baseline_path": null,
+  "baseline_version": "S8",
+  "builder_environment": "LOCAL_TERMUX",
+  "builder_identity": "UL7RA_BUILDER",
+  "candidate_path": null,
+  "candidate_version": "S9",
+  "checks": {
+    "evidence_schema": true,
+    "failure_recovery": true,
+    "purple_evidence": false,
+    "s8_present": false,
+    "s9_present": false,
+    "verifier_selftest": true,
+    "verifier_tampertest": true
+  },
+  "decision": "EXTERNAL_INDEPENDENCE_REQUIRED",
+  "independence": "UNPROVEN",
+  "production": "LOCKED",
+  "purple_evidence": null,
+  "purple_evidence_hash": null,
+  "timestamp": "2026-08-14T01:29:33.709693+00:00",
+  "verifier_environment": "LOCAL_TERMUX",
+  "verifier_identity": "UL7RA_LOCAL_VERIFIER"
+}

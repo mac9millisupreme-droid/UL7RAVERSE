@@ -1,0 +1,24 @@
+{
+  "record_type": "UL7RAPROOF_IMMUTABLE_RELEASE_RECORD",
+  "record_version": "0.1.0",
+  "product": "UL7RA Verify",
+  "protocol": "UL7RAPROOF",
+  "independent_verifier": "ULTRA VERIFIED",
+  "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4",
+  "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881",
+  "canonical_ledger_sha256": "5363f3216f0f0ec1e58d1407f78c0b0b40d741a22b5283bfd7457f405d3e22db",
+  "provenance_anchor_sha256": "0ac02564cd77f9bee43b67c818595983cd3f8499454c36ce894cf0f7f1432d99",
+  "verification_chain": [
+    "ARTIFACT",
+    "ULTRA VERIFIED",
+    "CLAIM",
+    "OBSERVATION",
+    "PROOF",
+    "CANONICAL LEDGER",
+    "INDEPENDENT REPLAY",
+    "PROVENANCE ANCHOR"
+  ],
+  "release_state": "EVIDENCE_BOUND",
+  "created_at_unix": 1787400704,
+  "release_record_sha256": "42772de98dfba1a89fb9ecdbfb653041005f8410ebe6a8bdd13ebb8fce2dd770"
+}

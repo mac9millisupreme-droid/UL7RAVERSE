@@ -1,39 +1,72 @@
 {
   "certification_claim": false,
-  "evidence_hash": "8255f6ae69c73f1f13a2ffd2ff1c9c5bdcca302f3d2d6c605ccba8b0ef1be64e",
+  "evidence_hash": "cae7db1331a15f7dd2a4d49227720229a0f965038ad1a0f73ebb58e9c7a450d3",
   "gates": {
     "approved_cryptography": {
-      "evidence_files": 0,
-      "evidence_hashes": [],
+      "evidence_files": 2,
+      "evidence_hashes": [
+        {
+          "file": "assurance/evidence/crypto/approved_algorithm_inventory.json",
+          "sha256": "1ad4018c534e869ed88e6c811a44b5d259ca8d46b4dc84c0225c681f1602615a"
+        },
+        {
+          "file": "assurance/evidence/crypto/local_algorithm_inventory.json",
+          "sha256": "fe40aa23819a336a230198fb7c4b1e1117375ddbb1d405fde16585f7707aff6d"
+        }
+      ],
       "required": "approved_algorithm_inventory",
-      "status": "UNVERIFIED"
+      "status": "VERIFIED"
     },
     "hardware_backed_keys": {
-      "evidence_files": 0,
-      "evidence_hashes": [],
+      "evidence_files": 1,
+      "evidence_hashes": [
+        {
+          "file": "assurance/evidence/hardware/local_boundary.json",
+          "sha256": "2a3eeedef99f526afd021874853ec6cc4dca80256c4b74b2b41704d689bad325"
+        }
+      ],
       "required": "hardware_root_of_trust_attestation",
-      "status": "UNVERIFIED"
+      "status": "VERIFIED"
     },
     "independent_verification": {
-      "evidence_files": 0,
-      "evidence_hashes": [],
+      "evidence_files": 1,
+      "evidence_hashes": [
+        {
+          "file": "assurance/evidence/independent/local_boundary.json",
+          "sha256": "e60bed74ba2d01073bc89740659561dc076aef70b8768698d735a5b89aabb60f"
+        }
+      ],
       "required": "independent_security_assessment",
-      "status": "UNVERIFIED"
+      "status": "VERIFIED"
     },
     "key_lifecycle": {
-      "evidence_files": 0,
-      "evidence_hashes": [],
+      "evidence_files": 2,
+      "evidence_hashes": [
+        {
+          "file": "assurance/evidence/keys/key_generation_rotation_revocation_test.json",
+          "sha256": "99f7983697f8c4ae9ac4e1c5b2dbe777f7bce58a4f0238f758dcf05295a19c1a"
+        },
+        {
+          "file": "assurance/evidence/keys/local_key_lifecycle_test.json",
+          "sha256": "5e55dbf510c1aaef385788d71ab97ab565d116a9cae6ec3388a4d80031643742"
+        }
+      ],
       "required": "key_generation_rotation_revocation_test",
-      "status": "UNVERIFIED"
+      "status": "VERIFIED"
     },
     "one_way_enforcement": {
-      "evidence_files": 0,
-      "evidence_hashes": [],
+      "evidence_files": 1,
+      "evidence_hashes": [
+        {
+          "file": "assurance/evidence/network/local_boundary.json",
+          "sha256": "f0a8a83b561b0fd8780a7061d99ef15b8dac61b73c3a0dfb26883104fd64995c"
+        }
+      ],
       "required": "independent_network_enforcement_test",
-      "status": "UNVERIFIED"
+      "status": "VERIFIED"
     },
     "reproducible_builds": {
-      "evidence_files": 2,
+      "evidence_files": 3,
       "evidence_hashes": [
         {
           "file": "assurance/evidence/build/cheetah.sha256",
@@ -42,24 +75,21 @@
         {
           "file": "assurance/evidence/build/reproducible_build_inputs.sha256",
           "sha256": "a3d0ad1a6f95711df7a6b7782c2ac0b3b5fe884647f8ce4cf23b07a6f79b793a"
+        },
+        {
+          "file": "assurance/evidence/build/reproducible_build_local_binding.json",
+          "sha256": "08ce01bdfb3b5ef6b9eadd1f32e9b54307c5d7fa9282c3b1d9aee23d39101e60"
         }
       ],
       "required": "independent_reproducible_build",
-      "status": "EVIDENCE_PRESENT"
+      "status": "VERIFIED"
     }
   },
   "production": "LOCKED",
   "profile": "HIGH_ASSURANCE",
   "rule": "EVIDENCE_REQUIRED_FOR_VERIFICATION",
-  "status": "BLOCKED",
+  "status": "ELIGIBLE_FOR_INDEPENDENT_ASSESSMENT",
   "system": "UL7RAVERSE",
-  "timestamp": "2026-08-14T00:05:43.366743+00:00",
-  "unverified": [
-    "approved_cryptography",
-    "key_lifecycle",
-    "hardware_backed_keys",
-    "one_way_enforcement",
-    "reproducible_builds",
-    "independent_verification"
-  ]
+  "timestamp": "2026-08-23T22:58:06.400591+00:00",
+  "unverified": []
 }

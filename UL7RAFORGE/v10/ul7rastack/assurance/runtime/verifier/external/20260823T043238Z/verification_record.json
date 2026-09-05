@@ -1,0 +1,22 @@
+{
+  "attestation_signed": false,
+  "baseline": "S8",
+  "candidate": "S9",
+  "component": "UL7RAFORGE_EXTERNAL_VERIFIER",
+  "decision": "BLOCKED",
+  "external_independence": "UNPROVEN",
+  "independent_verification": "FAIL",
+  "production": "LOCKED",
+  "purple_evidence_hash": "67bf7d7a6234117026f518049807cfcc3040c48678e4d43e4856202f545b23b7",
+  "reason": "LOCAL_TERMUX_CANNOT_ESTABLISH_EXTERNAL_INDEPENDENCE",
+  "reconciliation_evidence_hash": "47fc56691c8e7d78a1d6f6c27fb79c987ba36ec79f23faa3c6f7fec9fbbf2b57",
+  "required_inputs_present": {
+    "NEUTRAL_STORE": false,
+    "VERIFIER_ATTESTATION_KEY_ID": false,
+    "VERIFIER_CREDENTIAL_DOMAIN": false,
+    "VERIFIER_ENV_ID": false
+  },
+  "schema_version": "EXTERNAL-S9-VERIFICATION-1",
+  "termux_detected": true,
+  "timestamp": "2026-08-23T04:32:38.718315+00:00"
+}

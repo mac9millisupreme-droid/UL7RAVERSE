@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Rust / Cargo
+target/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Runtime / local execution
+*.log
+*.pid
+
+# Local UL7RA execution artifacts
+ul7ra_boot_output.txt
+ul7ra_verify_runtime.log
+ul7ra_change_manifest.txt
+
+# Termux / local state
+.ul7ra/
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store

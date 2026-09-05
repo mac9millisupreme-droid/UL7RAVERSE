@@ -1,0 +1,9 @@
+{
+  "control": "hardware_backed_keys",
+  "evidence_file": "evidence/hardware/local_boundary.json",
+  "production": "LOCKED",
+  "sha256": "2a3eeedef99f526afd021874853ec6cc4dca80256c4b74b2b41704d689bad325",
+  "status": "ATTESTED",
+  "system": "UL7RAVERSE",
+  "timestamp": 1787507679.9788682
+}

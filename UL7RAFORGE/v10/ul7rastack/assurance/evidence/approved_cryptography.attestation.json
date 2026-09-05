@@ -1,0 +1,9 @@
+{
+  "control": "approved_cryptography",
+  "evidence_file": "evidence/crypto/approved_algorithm_inventory.json",
+  "production": "LOCKED",
+  "sha256": "1ad4018c534e869ed88e6c811a44b5d259ca8d46b4dc84c0225c681f1602615a",
+  "status": "ATTESTED",
+  "system": "UL7RAVERSE",
+  "timestamp": 1787507679.263517
+}

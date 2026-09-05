@@ -1,0 +1,10 @@
+{
+  "schema": "LUCIDEPLOY-GENESIS-DISCOVERY-1",
+  "ul7raverse_head": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4",
+  "trinity_head": "0862aeb1e2b29d32183df0694fded54587c1e251",
+  "apex_version": "0.4.1",
+  "apex_core_sha256": "12a29fab1b79908de6fea2de56f7b63ac46f48bd0ae51b6b31c2f3da97ce824e",
+  "apex_git_repository": false,
+  "promotion_permitted": false,
+  "reason": "APEX historical evidence is preserved but APEX root is not independently Git anchored"
+}

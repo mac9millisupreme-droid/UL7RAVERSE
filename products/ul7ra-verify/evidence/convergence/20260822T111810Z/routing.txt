@@ -1,0 +1,2 @@
+Validating rules from /data/data/com.termux/files/home/.cloudflared/config.yml
+OK

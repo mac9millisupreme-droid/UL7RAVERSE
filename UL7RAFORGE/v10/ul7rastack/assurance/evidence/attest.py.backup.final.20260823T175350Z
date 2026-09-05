@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+
+import hashlib
+import json
+import sys
+import time
+from pathlib import Path
+
+ASSURANCE_ROOT = Path(__file__).resolve().parents[1]
+EVIDENCE_ROOT = ASSURANCE_ROOT / "evidence"
+REPO_ROOT = ASSURANCE_ROOT.parents[2]
+
+if len(sys.argv) != 3:
+    print("usage: attest.py <control> <evidence_file>")
+    raise SystemExit(2)
+
+control = sys.argv[1]
+supplied = Path(sys.argv[2])
+
+if supplied.is_absolute():
+    path = supplied.resolve()
+else:
+    candidates = [
+        (REPO_ROOT / supplied).resolve(),
+        (Path.cwd() / supplied).resolve(),
+        (EVIDENCE_ROOT / supplied).resolve(),
+    ]
+    path = next((p for p in candidates if p.is_file()), candidates[0])
+
+if not path.is_file():
+    raise SystemExit(f"EVIDENCE NOT FOUND: {path}")
+
+try:
+    relative_evidence = path.relative_to(REPO_ROOT)
+except ValueError:
+    raise SystemExit(f"EVIDENCE OUTSIDE REPOSITORY: {path}")
+
+digest = hashlib.sha256(path.read_bytes()).hexdigest()
+
+record = {
+    "system": "UL7RAVERSE",
+    "control": control,
+    "evidence_file": str(relative_evidence),
+    "sha256": digest,
+    "status": "ATTESTED",
+    "timestamp": time.time(),
+    "production": "LOCKED"
+}
+
+out = EVIDENCE_ROOT / f"{control}.attestation.json"
+out.parent.mkdir(parents=True, exist_ok=True)
+out.write_text(
+    json.dumps(record, indent=2, sort_keys=True) + "\n"
+)
+
+print(json.dumps(record, indent=2, sort_keys=True))

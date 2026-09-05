@@ -1,0 +1,17 @@
+{
+  "blocker": "CLOUDFLARED_START_FAILED",
+  "execution_status": "EXECUTED",
+  "gates": {
+    "dns": "BLOCK",
+    "environment": "PASS",
+    "functional": "PASS",
+    "integrity": "PASS",
+    "origin": "PASS",
+    "public_functional": "BLOCK",
+    "public_health": "BLOCK",
+    "syntax": "PASS",
+    "tunnel": "BLOCK"
+  },
+  "state": "BLOCK",
+  "timestamp": "2026-08-23T03:59:41.128946+00:00"
+}

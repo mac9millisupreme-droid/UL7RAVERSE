@@ -1,0 +1,20 @@
+{
+  "approved_algorithms_observed": [
+    "blake2b",
+    "blake2s",
+    "sha256",
+    "sha384",
+    "sha3_256",
+    "sha3_384",
+    "sha3_512",
+    "sha512"
+  ],
+  "control": "approved_cryptography",
+  "openssl": "OpenSSL 3.4.1 11 Feb 2025",
+  "required": "approved_algorithm_inventory",
+  "sha256_test": "9e642eb9d281728d43a34fa7fac32b0b72d5f06669f7a68026c1eadcc20445cc",
+  "status": "VERIFIED",
+  "system": "UL7RAVERSE",
+  "timestamp": "2026-08-23T17:33:22.269434+00:00",
+  "verification_scope": "LOCAL_CAPABILITY_TEST_ONLY"
+}

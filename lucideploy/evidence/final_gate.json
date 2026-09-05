@@ -1,0 +1,27 @@
+{
+  "schema": "LUCIDEPLOY-FINAL-GATE-1",
+  "timestamp_utc": "2026-08-24T11:34:42Z",
+  "repository_head": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4",
+  "trinity_head": "0862aeb1e2b29d32183df0694fded54587c1e251",
+  "apex_version": "0.4.1",
+  "apex_core_sha256": "12a29fab1b79908de6fea2de56f7b63ac46f48bd0ae51b6b31c2f3da97ce824e",
+  "gates": {
+    "artifact_integrity": "PASS",
+    "lucideploy_tests": "PASS",
+    "trinity": "PASS",
+    "product": "PASS",
+    "local_health": "PASS",
+    "cloudflare_process": "BLOCKED",
+    "public_http": "FAIL",
+    "production_hostname": "BLOCKED"
+  },
+  "deployment": {
+    "public_url": "https://designed-added-tournaments-ciao.trycloudflare.com",
+    "quick_tunnel_is_production": false
+  },
+  "final": {
+    "production": "BLOCKED",
+    "promotion": "BLOCKED"
+  },
+  "fail_closed": true
+}

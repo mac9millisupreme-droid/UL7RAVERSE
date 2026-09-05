@@ -1,0 +1,7 @@
+{
+  "system": "UL7RAVERSE",
+  "control": "hardware_backed_keys",
+  "required": "hardware_root_of_trust_attestation",
+  "status": "UNVERIFIED",
+  "reason": "External hardware-root attestation is not fabricated by local execution."
+}

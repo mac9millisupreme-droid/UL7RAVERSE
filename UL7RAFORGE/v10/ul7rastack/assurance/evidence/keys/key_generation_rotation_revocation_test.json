@@ -1,0 +1,13 @@
+{
+  "control": "key_lifecycle",
+  "generation": true,
+  "replacement_key_not_revoked": true,
+  "required": "key_generation_rotation_revocation_test",
+  "revocation_record_created": true,
+  "revoked_key_rejected": true,
+  "rotation": true,
+  "status": "VERIFIED",
+  "system": "UL7RAVERSE",
+  "timestamp": "2026-08-23T17:33:22.638833+00:00",
+  "verification_scope": "LOCAL_CAPABILITY_TEST_ONLY"
+}

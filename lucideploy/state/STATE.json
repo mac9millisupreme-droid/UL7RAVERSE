@@ -1,0 +1,33 @@
+{
+  "schema": "LUCIDEPLOY-STATE-1",
+  "state": "VERIFIED",
+  "fail_closed": true,
+  "artifact_authority": {
+    "apex_root": "/data/data/com.termux/files/home/UL7RA4ORGE_APEX",
+    "apex_version": "0.4.1",
+    "apex_core_sha256": "12a29fab1b79908de6fea2de56f7b63ac46f48bd0ae51b6b31c2f3da97ce824e",
+    "provenance": "HISTORICAL_EVIDENCE_PRESENT"
+  },
+  "governance_authority": {
+    "trinity_root": "/data/data/com.termux/files/home/TRINITY_CORE",
+    "git_head": "0862aeb1e2b29d32183df0694fded54587c1e251"
+  },
+  "deployment_authority": {
+    "repository": "/data/data/com.termux/files/home/UL7RAVERSE",
+    "git_head": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4"
+  },
+  "verification": {
+    "deterministic": "PASS",
+    "product": "PASS"
+  },
+  "deployment": {
+    "local_health": "PASS",
+    "cloudflare_connector": "NOT_RUNNING",
+    "public_http": "FAIL",
+    "production_hostname": "NOT_PROVEN"
+  },
+  "promotion": {
+    "permitted": false
+  },
+  "timestamp_utc": "2026-08-22T04:19:14.860621+00:00"
+}

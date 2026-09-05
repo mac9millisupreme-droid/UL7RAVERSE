@@ -1,0 +1,16 @@
+{
+  "product": "UL7RA Verify",
+  "product_head": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4",
+  "trinity_sha256": "9f60abc3e95708bfcbd9923d787d2c4bd7ce131aba8892496a1a03583f01f3e3",
+  "deployment_path": "PYTHON_SERVICE_PLUS_CLOUDFLARE",
+  "local_origin": "http://127.0.0.1:8787",
+  "service_ready": true,
+  "health_check": "PASS",
+  "verify_endpoint": "PASS",
+  "watchdog_process": "ALIVE",
+  "trinity_integrity": "PASS",
+  "production_deployment": "NOT_PERFORMED",
+  "dns_changed": false,
+  "payments_connected": false,
+  "revenue": 0
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "LUCIDEPLOY-AUTHORITY-MAP-1",
+  "ul7raverse": {
+    "head": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4",
+    "role": "deployment_repository"
+  },
+  "trinity": {
+    "head": "0862aeb1e2b29d32183df0694fded54587c1e251",
+    "role": "governance_authority"
+  },
+  "apex": {
+    "version": "0.4.1",
+    "core_sha256": "12a29fab1b79908de6fea2de56f7b63ac46f48bd0ae51b6b31c2f3da97ce824e",
+    "git_repository": false,
+    "integrity": "RECORDED",
+    "provenance": "UNANCHORED",
+    "role": "historical_artifact_authority"
+  },
+  "ul7ra_verify": {
+    "role": "verification_and_deployment_subject"
+  },
+  "production": {
+    "status": "BLOCKED",
+    "reason": "independent hostname health and verify evidence not established"
+  }
+}

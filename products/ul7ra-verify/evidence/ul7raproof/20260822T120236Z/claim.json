@@ -1,0 +1,10 @@
+{
+  "protocol": "UL7RAPROOF",
+  "protocol_version": "0.1.0",
+  "claim_id": "UL7RA-VERIFY-GATE2",
+  "claim": "The submitted artifact is reproducibly identifiable by SHA-256.",
+  "artifact": "deploy/runtime/gate2-artifact",
+  "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881",
+  "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4",
+  "claim_state": "TESTABLE"
+}

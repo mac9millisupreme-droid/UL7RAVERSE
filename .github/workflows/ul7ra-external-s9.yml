@@ -1,0 +1,130 @@
+name: UL7RA External S9 Verification
+
+on:
+  workflow_dispatch:
+    inputs:
+      candidate:
+        description: 'Candidate to verify'
+        required: true
+        default: 'S9'
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  external-s9:
+    name: External S9 Verifier
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout exact candidate
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Record verifier environment
+        run: |
+          mkdir -p external-attestation
+
+          python - <<'PY'
+          import json
+          import os
+          import platform
+          from datetime import datetime, timezone
+
+          record = {
+              "verifier_env_id":
+                  f"github-actions:{os.environ.get('RUNNER_OS','unknown')}",
+              "runner_image":
+                  os.environ.get("ImageOS", "unknown"),
+              "runner_arch":
+                  platform.machine(),
+              "github_repository":
+                  os.environ.get("GITHUB_REPOSITORY"),
+              "github_run_id":
+                  os.environ.get("GITHUB_RUN_ID"),
+              "github_sha":
+                  os.environ.get("GITHUB_SHA"),
+              "timestamp":
+                  datetime.now(timezone.utc).isoformat()
+          }
+
+          with open(
+              "external-attestation/verifier_environment.json",
+              "w"
+          ) as f:
+              json.dump(record, f, indent=2, sort_keys=True)
+          PY
+
+      - name: Verify repository identity
+        run: |
+          test -n "$GITHUB_SHA"
+          git rev-parse HEAD
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+
+      - name: Run S9 verifier
+        id: s9
+        continue-on-error: true
+        run: |
+          bash UL7RAFORGE/assurance/verifier/external/verify_s9.sh \
+            > external-attestation/s9.log 2>&1
+
+      - name: Record external verification result
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          log = Path("external-attestation/s9.log")
+          text = log.read_text() if log.exists() else ""
+
+          passed = (
+              "DECISION=PASS" in text
+              and "INDEPENDENCE=PROVEN" in text
+              and "ATTESTATION_SIGNED=true" in text
+          )
+
+          record = {
+              "schema_version": "EXTERNAL-S9-ATTESTATION-1",
+              "candidate": "${{ inputs.candidate }}",
+              "repository_commit": "${{ github.sha }}",
+              "decision": "PASS" if passed else "BLOCKED",
+              "independence": "PROVEN" if passed else "UNPROVEN",
+              "verifier_env_id":
+                  "github-actions:${{ runner.os }}",
+              "credential_domain":
+                  "github-actions",
+              "attestation_key_id":
+                  "NOT_CONFIGURED",
+              "signature": "",
+              "timestamp":
+                  datetime.now(timezone.utc).isoformat()
+          }
+
+          Path(
+              "external-attestation/verification_record.json"
+          ).write_text(
+              json.dumps(record, indent=2, sort_keys=True) + "\n"
+          )
+          PY
+
+      - name: Display fail-closed result
+        run: |
+          cat external-attestation/verification_record.json
+
+          echo
+          echo "========================================"
+          echo "EXTERNAL S9 RESULT"
+          echo "========================================"
+
+          grep -E \
+            '"decision"|"independence"|"repository_commit"|"verifier_env_id"' \
+            external-attestation/verification_record.json
+
+      - name: Upload external evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: ul7ra-external-s9-attestation-${{ github.sha }}
+          path: external-attestation/

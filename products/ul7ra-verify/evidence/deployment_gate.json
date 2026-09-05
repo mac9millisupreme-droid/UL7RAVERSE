@@ -1,0 +1,14 @@
+{
+  "product": "UL7RA Verify",
+  "product_head": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4",
+  "trinity_sha256": "9f60abc3e95708bfcbd9923d787d2c4bd7ce131aba8892496a1a03583f01f3e3",
+  "deployment_path": "PYTHON_SERVICE_PLUS_CLOUDFLARE",
+  "node": 1,
+  "npm": 1,
+  "npx": 1,
+  "wrangler": 0,
+  "cloudflared": 1,
+  "deployment": "NOT_PERFORMED",
+  "payments": "NOT_CONNECTED",
+  "revenue": 0
+}

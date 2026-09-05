@@ -1,0 +1,9 @@
+{
+  "control": "key_lifecycle",
+  "evidence_file": "evidence/keys/key_generation_rotation_revocation_test.json",
+  "production": "LOCKED",
+  "sha256": "99f7983697f8c4ae9ac4e1c5b2dbe777f7bce58a4f0238f758dcf05295a19c1a",
+  "status": "ATTESTED",
+  "system": "UL7RAVERSE",
+  "timestamp": 1787507679.61614
+}

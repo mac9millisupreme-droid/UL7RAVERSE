@@ -1,0 +1,8 @@
+{
+  "system": "UL7RAVERSE",
+  "control": "reproducible_builds",
+  "required": "independent_reproducible_build",
+  "status": "VERIFIED",
+  "verification_scope": "LOCAL_EVIDENCE_PRESENT",
+  "git_head": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4"
+}

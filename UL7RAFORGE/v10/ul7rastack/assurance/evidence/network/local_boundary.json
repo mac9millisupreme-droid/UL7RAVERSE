@@ -1,0 +1,7 @@
+{
+  "system": "UL7RAVERSE",
+  "control": "one_way_enforcement",
+  "required": "independent_network_enforcement_test",
+  "status": "UNVERIFIED",
+  "reason": "Termux cannot independently establish kernel enforcement authority."
+}

@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 set -eu
 
-STATUS="../ul7rastack/live/state/live_status.json"
+STATUS="../../ul7rastack/live/state/live_status.json"
 BACKUP="${STATUS}.bak"
 
 cp "$STATUS" "$BACKUP"
@@ -16,7 +16,7 @@ d["exceptions"] = 999
 open(p, "w").write(json.dumps(d, indent=2))
 PY
 
-if python ../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
     echo "FAIL: tampered attestation accepted"
     exit 1
 fi

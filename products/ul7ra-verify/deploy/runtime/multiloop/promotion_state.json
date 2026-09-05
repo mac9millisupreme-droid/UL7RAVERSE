@@ -1,0 +1,18 @@
+{
+  "product": "UL7RA Verify",
+  "production": false,
+  "promotion_permitted": false,
+  "fail_closed": true,
+  "domain": "omnilucient.com",
+  "verify_hostname": "verify.omnilucient.com",
+  "tunnel": "ul7ra-verify",
+  "tunnel_id": "a241e27b-336e-44cc-9a52-6487131db63b",
+  "origin": "PASS",
+  "config": "PASS",
+  "connector": "PASS",
+  "dns": "UNPROVEN",
+  "public_https": "UNPROVEN",
+  "response_identity": "UNPROVEN",
+  "reason": "AUTHORITATIVE_DNS_NOT_PROVEN",
+  "timestamp": "2026-08-22T04:37:30-04:00"
+}

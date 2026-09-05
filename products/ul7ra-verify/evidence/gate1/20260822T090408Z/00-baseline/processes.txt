@@ -1,0 +1,2 @@
+u0_a209  14729 13620  0  1970 pts/0    00:00:01 python3 /data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/app/server.py
+u0_a209  14738 13620  1  1970 pts/0    00:00:31 cloudflared tunnel --config /data/data/com.termux/files/home/.cloudflared/config.yml run ul7ra-verify

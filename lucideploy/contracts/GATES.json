@@ -1,0 +1,21 @@
+{
+  "schema": "LUCIDEPLOY-GATES-1",
+  "gates": [
+    "artifact_identity",
+    "sha256_integrity",
+    "provenance",
+    "governance",
+    "deterministic_verification",
+    "deployment_prerequisites",
+    "local_health",
+    "cloudflare_connector",
+    "public_http_reachability",
+    "production_hostname_verification",
+    "rollback",
+    "replay",
+    "tamper_detection",
+    "crash_recovery",
+    "concurrency_protection",
+    "false_confidence_prevention"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "system": "UL7RAVERSE",
+  "integration_target": "LUCIDEPLOY",
+  "mode": "DISCOVERY_ONLY",
+  "production_deployment": false,
+  "historical_artifacts_modified": false,
+  "result": "DISCOVERY_COMPLETE"
+}

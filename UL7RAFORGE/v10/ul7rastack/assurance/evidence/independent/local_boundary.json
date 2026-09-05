@@ -1,0 +1,7 @@
+{
+  "system": "UL7RAVERSE",
+  "control": "independent_verification",
+  "required": "independent_security_assessment",
+  "status": "UNVERIFIED",
+  "reason": "The executing environment cannot self-attest as an independent assessor."
+}
