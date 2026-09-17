@@ -1,0 +1,4 @@
+--- addyson.ns.cloudflare.com. ---
+verify.omnilucient.com.	3600	IN	HINFO	"RFC8482" ""
+--- rodrigo.ns.cloudflare.com. ---
+verify.omnilucient.com.	3600	IN	HINFO	"RFC8482" ""

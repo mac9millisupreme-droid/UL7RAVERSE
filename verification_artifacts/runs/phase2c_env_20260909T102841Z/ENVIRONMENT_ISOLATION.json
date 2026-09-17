@@ -1,0 +1,20 @@
+{
+  "phase": "2C",
+  "type": "environment_isolation",
+  "created_at": "2026-09-09T10:29:06.869222+00:00",
+  "results": {
+    "timestamp": "20260909T102841Z",
+    "racing": true,
+    "ail": true,
+    "adversarial_purple": true,
+    "temporal": true,
+    "provenance": true,
+    "replay": true,
+    "server_test": false
+  },
+  "overall": "PASS_WITH_ENVIRONMENT_BLOCK",
+  "server_failure_classification": "HTTP_CONNECTION_REFUSED_DURING_SERVER_TEST",
+  "promotion": "NO_PROMOTE",
+  "reason": "Server-dependent test cannot certify without its required runtime. No server was fabricated or silently started.",
+  "sha256": "43d55c41d4c6bac5e25ea7d19aa510563c8cfc21f902b54aeefe73605bb20345"
+}

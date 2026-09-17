@@ -1,0 +1,1 @@
+30250 tee /data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_process.txt

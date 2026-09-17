@@ -1,0 +1,12 @@
+{
+  "price_cad": 500,
+  "term_months": 12,
+  "target_paid_members": 15,
+  "payments": [],
+  "status": "REVENUE_VALIDATION_OPEN",
+  "verified_paid_members": 0,
+  "verified_cash_cad": 0,
+  "remaining_members": 15,
+  "remaining_cash_cad": 7500,
+  "ledger_sha256": "9376b974c945c8030db1f4017bb3114d94c19516dd803b63439142b4599922dd"
+}

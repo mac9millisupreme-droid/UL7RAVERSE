@@ -1,0 +1,33 @@
+{
+  "schema": "UL7RAVERSE_FORENSIC_PHASE4/v1",
+  "status": "REVIEW_REQUIRED",
+  "decision": "CANONICALITY_NOT_YET_PROVEN",
+  "rules": {
+    "destructive_operations": false,
+    "automatic_deletion": false,
+    "automatic_merge": false,
+    "automatic_overwrite": false,
+    "authority_transfer": false,
+    "production_modification": false,
+    "real_bridge_modification": false,
+    "proof_to_authority": false,
+    "unknown_to_pass": false,
+    "self_certification": false
+  },
+  "classification_order": [
+    "CANONICAL_CONFIRMED",
+    "ALIAS_CONFIRMED",
+    "DUPLICATE_CONFIRMED",
+    "LEGACY_CONFIRMED",
+    "EXPERIMENTAL_CONFIRMED",
+    "EVIDENCE_ONLY_CONFIRMED",
+    "REVIEW_REQUIRED"
+  ],
+  "candidate_counts": {
+    "duplicate_candidates": 209,
+    "authority_review_items": 184,
+    "proof_review_items": 1704,
+    "critical_components": 6,
+    "execution_phases": 8
+  }
+}

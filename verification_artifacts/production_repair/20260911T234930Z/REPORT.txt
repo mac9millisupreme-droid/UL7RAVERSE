@@ -1,0 +1,64 @@
+============================================================
+ UL7RA VERIFY — PRODUCTION ROUTE REPAIR
+============================================================
+TIME=20260911T234930Z
+HEAD=63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+HOSTNAME=verify.omnilucient.com
+TUNNEL=ul7ra-verify
+
+=== 1. PRECHECK LOCAL SERVICE ===
+LOCAL_HTTP=200
+{
+  "status": "healthy",
+  "timestamp": 1789170570
+}
+=== 2. NAMED TUNNEL ===
+NAME:     ul7ra-verify
+ID:       a241e27b-336e-44cc-9a52-6487131db63b
+CREATED:  2026-08-22 04:43:31.842802 +0000 UTC
+
+CONNECTOR ID                         CREATED              ARCHITECTURE VERSION  ORIGIN IP                              EDGE                      
+042fd8df-9c58-40f8-ab08-35d39e2432fb 2026-09-11T21:25:30Z android_arm  2026.8.3 2605:b100:300:e39a:18a1:10ff:fe8c:6c04 1xyyz01, 1xyyz03, 2xyyz06 
+TUNNEL_INFO_EXIT=0
+
+=== 3. CREATE/REPAIR DNS ROUTE ===
+2026-09-11T23:49:35Z INF verify.omnilucient.com is already configured to route to your tunnel tunnelID=a241e27b-336e-44cc-9a52-6487131db63b
+DNS_ROUTE_EXIT=0
+
+=== 4. DNS PROPAGATION CHECK ===
+--- DNS_ATTEMPT=1
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+
+--- DNS_ATTEMPT=2
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+
+--- DNS_ATTEMPT=3
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+
+--- DNS_ATTEMPT=4
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+
+--- DNS_ATTEMPT=5
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+
+--- DNS_ATTEMPT=6
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+

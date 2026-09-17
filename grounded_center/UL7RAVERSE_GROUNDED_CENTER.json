@@ -1,0 +1,314 @@
+{
+  "schema": "UL7RAVERSE_GROUNDED_CENTER/v1",
+  "authority": "UL7RAVERSE",
+  "purpose": "Canonical grounded center from which the entire ecosystem derives.",
+  "status": "CANONICAL_SOURCE_OF_TRUTH",
+
+  "identity": {
+    "organization": "OmniLucient Industries",
+    "category": "Sovereign Intelligence Systems",
+    "ecosystem": "UL7RAVERSE",
+    "principle": "We don't ask for trust. We provide proof.",
+    "operating_phrase": "When it matters. UL7RAPROOF it."
+  },
+
+  "grounding": {
+    "primary_rule": "Everything else stems from this center.",
+    "anti_drift": true,
+    "no_fabricated_capability": true,
+    "no_fabricated_evidence": true,
+    "no_unverified_claim_as_fact": true,
+    "unknown_remains_unknown": true,
+    "unverified_never_passes": true,
+    "fail_closed": true,
+    "customer_controlled_evidence": true
+  },
+
+  "universal_loop": [
+    "SEE",
+    "UNDERSTAND",
+    "FORECAST",
+    "SOLVE",
+    "PROVE",
+    "MONITOR",
+    "ATTACK",
+    "IMPROVE",
+    "REPEAT"
+  ],
+
+  "core": {
+    "name": "SOVEREIGN INTELLIGENCE ENGINE",
+    "five_pillars": [
+      "CONTROL",
+      "PROOF",
+      "MONITOR",
+      "INTELLIGENCE",
+      "IMPROVEMENT"
+    ]
+  },
+
+  "primary_layers": {
+    "UL7RAPROOF": {
+      "role": "PROOF",
+      "function": [
+        "Evidence",
+        "Verification",
+        "Proof State",
+        "Continuous Verification"
+      ],
+      "rules": [
+        "UNVERIFIED != PASS",
+        "UNKNOWN != PASS",
+        "NO PROOF -> NO TRUSTED ACTION",
+        "NO SELF-CERTIFICATION"
+      ]
+    },
+
+    "OmniPulse": {
+      "role": "MONITOR",
+      "function": [
+        "Continuous Monitoring",
+        "Change Detection",
+        "Operational State",
+        "Proof-State Visibility"
+      ]
+    },
+
+    "LUCI": {
+      "role": "INTELLIGENCE",
+      "function": [
+        "Interpret",
+        "Correlate",
+        "Recommend"
+      ],
+      "constitutional_rule": "INTELLIGENCE RECOMMENDS — EVIDENCE DECIDES"
+    },
+
+    "Purple Team": {
+      "role": "ADVERSARIAL_VERIFICATION",
+      "function": [
+        "Attack",
+        "Test",
+        "Expose",
+        "Fix",
+        "Retest"
+      ]
+    },
+
+    "UL7RA_FORECAST": {
+      "role": "FORWARD_READINESS",
+      "function": [
+        "Emerging Risk",
+        "Emerging Requirements",
+        "Emerging Opportunities",
+        "Prepare Today"
+      ],
+      "constraint": "Forecasts are intelligence signals, not guaranteed predictions."
+    }
+  },
+
+  "ecosystem_worlds": {
+    "UL7RAVERSE_HOME": {
+      "audience": "Families and individuals",
+      "purpose": [
+        "Privacy",
+        "Digital Safety",
+        "Family Vault",
+        "Household Records",
+        "Local/Cloud-Optional"
+      ]
+    },
+
+    "UL7RAVERSE_CREATOR": {
+      "audience": "Creators",
+      "purpose": [
+        "Creation",
+        "Protection",
+        "Identity of work",
+        "Creator Vault",
+        "Creator Commerce"
+      ],
+      "connected_systems": [
+        "MAC9RECORDS",
+        "GQ FADER",
+        "Track Passport",
+        "Creator Marketplace"
+      ]
+    },
+
+    "UL7RAVERSE_BUSINESS": {
+      "audience": "SMEs and professionals",
+      "purpose": [
+        "Assess",
+        "Prove",
+        "Monitor",
+        "Attack",
+        "Improve"
+      ]
+    },
+
+    "UL7RAVERSE_ENTERPRISE": {
+      "audience": "Organizations and enterprise",
+      "purpose": [
+        "Sovereignty",
+        "Privacy",
+        "Security",
+        "Evidence",
+        "Continuous Verification",
+        "Resilience"
+      ]
+    },
+
+    "UL7RAVERSE_COMMUNITY": {
+      "audience": "Everyone else interested in the ecosystem",
+      "purpose": [
+        "Learn",
+        "Explore",
+        "Participate",
+        "Discover",
+        "Connect"
+      ]
+    }
+  },
+
+  "commerce": {
+    "UL7RAPASS": {
+      "role": "MEMBERSHIP_GATEWAY",
+      "current_offer": {
+        "price_cad": 500,
+        "term_months": 12,
+        "planned_units": 1500
+      },
+      "entitlements": [
+        "Member Node Access",
+        "UL7RAPROOF",
+        "Continuous Verification",
+        "Proof State Reports",
+        "LUCI",
+        "LUCI Diagnostic",
+        "LUCI Test",
+        "Purple Team",
+        "Marketplace Benefits"
+      ],
+      "status": "COMMERCIAL_OFFER_DEFINED"
+    },
+
+    "UL7RA_MARKET": {
+      "role": "COMMERCE_LAYER",
+      "function": [
+        "Products",
+        "Services",
+        "Experiences",
+        "Transactions"
+      ],
+      "constitutional_rule": "COMMERCE != PROOF"
+    }
+  },
+
+  "economic_loop": [
+    "DISCOVERY",
+    "MEMBERSHIP",
+    "VALUE",
+    "PROOF",
+    "RENEWAL",
+    "REFERRAL",
+    "NEW MEMBERS",
+    "REPEAT"
+  ],
+
+  "revenue_streams": [
+    "Membership",
+    "Verification",
+    "Monitoring",
+    "Purple Team",
+    "Enterprise",
+    "Marketplace",
+    "Creator Services",
+    "Education"
+  ],
+
+  "infrastructure": {
+    "classification": "INTERNAL",
+    "components": [
+      "UL7RA4ORGE",
+      "UL7RABRIDGE",
+      "UL7RASTACK",
+      "NODE9",
+      "TRINITY CORE",
+      "SAIOS",
+      "OmniShield",
+      "OmniSentinel",
+      "LuciCore",
+      "LuciVault",
+      "LuciDeploy",
+      "Proof State Engine",
+      "FCOS"
+    ]
+  },
+
+  "governance": {
+    "Git": "HISTORY",
+    "Ledger": "TRUTH",
+    "QS": "EVALUATION",
+    "Governance": "AUTHORITY"
+  },
+
+  "cross_cutting_principles": [
+    "PRIVACY FIRST",
+    "ZERO UNNECESSARY DATA RETENTION",
+    "CLOUD OPTIONAL",
+    "CUSTOMER CONTROLLED EVIDENCE",
+    "FAIL CLOSED",
+    "NO PROOF -> NO TRUSTED ACTION",
+    "NO SELF-CERTIFICATION",
+    "UNVERIFIED NEVER PASSES",
+    "UNKNOWN REMAINS UNKNOWN"
+  ],
+
+  "self_requirement": {
+    "statement": "UL7RAVERSE MUST UL7RAPROOF ITSELF.",
+    "meaning": "The ecosystem cannot exempt itself from its own verification principles."
+  },
+
+  "claim_discipline": {
+    "never_claim": [
+      "Universal legal compliance",
+      "Government certification without evidence",
+      "Accredited certification without accreditation",
+      "Guaranteed security",
+      "Guaranteed revenue",
+      "Guaranteed future prediction",
+      "Only solution in the market",
+      "Trusted by an organization without authorized evidence"
+    ],
+    "preferred_language": [
+      "Compliance posture",
+      "Continuous verification",
+      "Evidence",
+      "Proof state",
+      "Continuous improvement",
+      "Sovereignty by design",
+      "Privacy-first",
+      "Customer-controlled evidence"
+    ]
+  },
+
+  "implementation_truth": {
+    "rule": "Architecture, intention, implementation, verification and production availability are distinct states.",
+    "state_model": [
+      "DEFINED",
+      "IMPLEMENTED",
+      "TESTED",
+      "VERIFIED",
+      "PROMOTED",
+      "PRODUCTION"
+    ],
+    "promotion_rule": "No component may be represented as production merely because it is defined."
+  },
+
+  "derivation_rule": {
+    "instruction": "All future products, code, marketing, memberships, interfaces, workflows, revenue systems, documentation and autonomous processes must derive from this center.",
+    "conflict_resolution": "If a downstream artifact conflicts with this center, the downstream artifact is wrong until the center itself is deliberately and evidentially changed.",
+    "change_control": "Changes require explicit versioning and verification."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "candidate_count": 1704,
+  "claim_must_be_bound_to_evidence": true,
+  "expiry_required_where_applicable": true,
+  "independent_verification_required": true,
+  "ledger_integrity_required": true,
+  "proof_is_authority": false,
+  "proof_is_evidence": true,
+  "replay_protection_required": true,
+  "revocation_required_where_applicable": true,
+  "status": "REVIEW_REQUIRED"
+}

@@ -1,0 +1,600 @@
+./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:5:  "status": "VERIFIED_WITH_SCOPE",
+./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:28:  "evidence_freshness": "CURRENT",
+./UL7RAFORGE/v10/ul7rastack/ca/registry/status.py:39:    "status": "VERIFIED_WITH_SCOPE",
+./UL7RAFORGE/v10/ul7rastack/ca/state/ca_registry_status.json:30:  "status": "VERIFIED_WITH_SCOPE",
+./UL7RAFORGE/v10/ul7rastack/veriscore/state/veriscore.json:70:  "evidence_freshness": "CURRENT",
+./UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:77:    "VERIFIED_WITH_SCOPE"
+./UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:92:    "evidence_freshness": "CURRENT",
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json:142:        "evidence_freshness": "CURRENT",
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/source_manifest.sha256:247:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/source_manifest.sha256:267:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/s8_baseline.sha256:247:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/source.sha256:258:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/source.sha256:264:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/source.sha256:264:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/source.sha256:264:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:17:assert "attestation_hash" in s
+./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:13:assert s["detected_violations"] == 0
+./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:14:assert s["unresolved_exceptions"] == 0
+./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:15:assert s["evidence_freshness"] == "CURRENT"
+./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:23:    "canada_only_policy",
+./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:24:    "attestation_integrity",
+./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:25:    "tamper_detection"
+./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:29:    assert s["active_controls"][control] == "VERIFIED"
+./UL7RAFORGE/v10/tests/ca_registry_regression.sh:15:assert d["status"] == "VERIFIED_WITH_SCOPE"
+./UL7RAFORGE/v10/tests/veriscore_regression.sh:12:assert d["evidence_freshness"] == "CURRENT"
+./UL7RAFORGE/ul7rastack/live/state/live_status.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./UL7RAFORGE/ul7rastack/live/state/live_status.json:26:  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+./UL7RAFORGE/ul7rastack/live/status.py:26:    "status": "VERIFIED_WITH_SCOPE",
+./UL7RAFORGE/ul7rastack/live/status.py:40:status["attestation_hash"] = hashlib.sha256(
+./UL7RAFORGE/ul7rastack/verifier/src/verify.py:19:    "attestation_hash"
+./UL7RAFORGE/ul7rastack/verifier/src/verify.py:31:claimed_hash = candidate.pop("attestation_hash")
+./UL7RAFORGE/ul7rastack/security/state/live_security.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./UL7RAFORGE/ul7rastack/security/state/live_security.json:5:  "active_controls": {
+./UL7RAFORGE/ul7rastack/security/state/live_security.json:10:    "canada_only_policy": "VERIFIED",
+./UL7RAFORGE/ul7rastack/security/state/live_security.json:11:    "attestation_integrity": "VERIFIED",
+./UL7RAFORGE/ul7rastack/security/state/live_security.json:12:    "tamper_detection": "VERIFIED"
+./UL7RAFORGE/ul7rastack/security/state/live_security.json:14:  "detected_violations": 0,
+./UL7RAFORGE/ul7rastack/security/state/live_security.json:15:  "unresolved_exceptions": 0,
+./UL7RAFORGE/ul7rastack/security/state/live_security.json:16:  "evidence_freshness": "CURRENT",
+./UL7RAFORGE/ul7rastack/security/state/live_security.json:25:  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+./UL7RAFORGE/ul7rastack/security/state/assurance.py:27:    "security_status": "VERIFIED_WITH_SCOPE"
+./UL7RAFORGE/ul7rastack/security/state/assurance.py:32:    "evidence_freshness": "CURRENT",
+./UL7RAFORGE/ul7rastack/security/state/runtime_assurance.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./UL7RAFORGE/ul7rastack/security/state/runtime_assurance.json:8:  "evidence_freshness": "CURRENT",
+./UL7RAFORGE/ul7rastack/security/live_security.py:14:    "canada_only_policy": "VERIFIED",
+./UL7RAFORGE/ul7rastack/security/live_security.py:15:    "attestation_integrity": "VERIFIED",
+./UL7RAFORGE/ul7rastack/security/live_security.py:16:    "tamper_detection": "VERIFIED"
+./UL7RAFORGE/ul7rastack/security/live_security.py:22:    "security_status": "VERIFIED_WITH_SCOPE",
+./UL7RAFORGE/ul7rastack/security/live_security.py:23:    "active_controls": controls,
+./UL7RAFORGE/ul7rastack/security/live_security.py:24:    "detected_violations": 0,
+./UL7RAFORGE/ul7rastack/security/live_security.py:25:    "unresolved_exceptions": 0,
+./UL7RAFORGE/ul7rastack/security/live_security.py:26:    "evidence_freshness": "CURRENT",
+./UL7RAFORGE/ul7rastack/security/live_security.py:38:status["attestation_hash"] = hashlib.sha256(
+./products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:414:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./lucideploy/contracts/GATES.json:16:    "tamper_detection",
+./.ul7ra/funnel/evidence/files.txt:294:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/funnel/evidence/tests.txt:17:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/funnel/runs/20260823T162444Z/evidence/UL7RAFORGE_INVENTORY.txt:183:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/funnel/runs/20260823T162635Z/evidence/EXECUTABLES.txt:45:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/funnel/runs/20260823T162635Z/evidence/EXECUTION_ENTRYPOINT_CANDIDATES.txt:30:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:298:UL7RAFORGE/ul7rastack/security/state/live_security.json:10:    "canada_only_policy": "VERIFIED",
+./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:299:UL7RAFORGE/ul7rastack/security/state/live_security.json:11:    "attestation_integrity": "VERIFIED",
+./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:300:UL7RAFORGE/ul7rastack/security/state/live_security.json:12:    "tamper_detection": "VERIFIED"
+./.ul7ra/funnel/runs/20260823T162913Z/evidence/EXECUTION_SURFACE.txt:45:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json:8:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json:29:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json:43:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json:8:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json:29:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json:43:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json:8:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json:29:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json:43:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./.ul7ra/funnel/bin/continuous_assurance_remediation.sh:163:        r["reason"]="ATTESTATION_HASH_MISSING"
+./.ul7ra/funnel/bin/continuous_assurance_remediation.sh:179:    r["reason"]="ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE"
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:1430:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:2881:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:3184:PY_COMPILE=./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:3185:  File "./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh", line 7
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:5074:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:6016:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/tracked_files.txt:745:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/executable_map.txt:50:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/protocol52/state/20260825T160207Z/live_status_regression.sh.before:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./.ul7ra/protocol52/state/20260825T160207Z/live_status_regression.sh.before:17:assert "attestation_hash" in s
+./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:13:assert s["detected_violations"] == 0
+./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:14:assert s["unresolved_exceptions"] == 0
+./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:15:assert s["evidence_freshness"] == "CURRENT"
+./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:23:    "canada_only_policy",
+./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:24:    "attestation_integrity",
+./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:25:    "tamper_detection"
+./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:29:    assert s["active_controls"][control] == "VERIFIED"
+./.ul7ra/protocol52/runs/20260825T162946Z/git-status.txt:635: M UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/protocol52/runs/20260825T162946Z/diff-stat.txt:3: .../v10/ul7rabridge/tests/tamper_detection.sh      |  4 +-
+./.ul7ra/protocol52/runs/20260825T163117Z/git-status.txt:635: M UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.ul7ra/protocol52/runs/20260825T163117Z/diff-stat.txt:3: .../v10/ul7rabridge/tests/tamper_detection.sh      |  4 +-
+./.ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./.ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json:26:  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:5:  "active_controls": {
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:10:    "canada_only_policy": "VERIFIED",
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:11:    "attestation_integrity": "VERIFIED",
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:12:    "tamper_detection": "VERIFIED"
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:14:  "detected_violations": 0,
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:15:  "unresolved_exceptions": 0,
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:16:  "evidence_freshness": "CURRENT",
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:25:  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+./.ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./.ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json:26:  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:5:  "active_controls": {
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:10:    "canada_only_policy": "VERIFIED",
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:11:    "attestation_integrity": "VERIFIED",
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:12:    "tamper_detection": "VERIFIED"
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:14:  "detected_violations": 0,
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:15:  "unresolved_exceptions": 0,
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:16:  "evidence_freshness": "CURRENT",
+./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:25:  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+./.ul7ra/protocol52/runs/20260825T163117Z/test-paths.txt:5:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+./.ul7ra/protocol52/runs/20260825T163117Z/test-paths.txt:6:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+./ul7ra_boot_output.txt:863:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./.bob/project.json:23:    "tests/tamper_detection.sh"
+./.bob/tasks/verify-ul7ra.sh:24:tests/tamper_detection.sh
+./FORENSIC_PHASE0_20260909T095923Z/REPOSITORY_TREE.txt:1281:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:516:./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:28:  "evidence_freshness": "CURRENT",
+./FORENSIC_PHASE0_20260909T095923Z/PHASE0_BASELINE.json:1329:    "./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh",
+./FORENSIC_PHASE0_20260909T100256Z/REPOSITORY_TREE.txt:1294:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./FORENSIC_PHASE0_20260909T100256Z/PHASE0_BASELINE.json:1376:    "./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh",
+./verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:1552:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  ./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/V155_FORENSIC.txt:342:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/source_manifest.sha256:247:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/COMPONENT_PATHS.txt:1325:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/UL7RABRIDGE.paths:471:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/COMPONENT_EVIDENCE_CORRELATION.md:96:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/SOURCE_SHA256SUMS.txt:504:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/SOURCE_SHA256SUMS.txt:540:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:482:./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:5:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:483:./UL7RAFORGE/v10/ul7rastack/ca/registry/status.py:39:    "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:484:./UL7RAFORGE/v10/ul7rastack/ca/state/ca_registry_status.json:30:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:485:./UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:77:    "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:507:./UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:508:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:509:./UL7RAFORGE/v10/tests/ca_registry_regression.sh:15:assert d["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:511:./UL7RAFORGE/ul7rastack/live/state/live_status.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:513:./UL7RAFORGE/ul7rastack/live/status.py:26:    "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:517:./UL7RAFORGE/ul7rastack/security/state/live_security.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:518:./UL7RAFORGE/ul7rastack/security/state/assurance.py:27:    "security_status": "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:519:./UL7RAFORGE/ul7rastack/security/state/runtime_assurance.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:520:./UL7RAFORGE/ul7rastack/security/live_security.py:22:    "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:537:./.ul7ra/protocol52/state/20260825T160207Z/live_status_regression.sh.before:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:538:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:539:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:541:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:542:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:544:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt:30:UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt:33:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt:34:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt:36:UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt:11:UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt:14:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt:15:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt:17:UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:57:=== TEST SOURCE: UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh ===
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:95:    12	assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:96:    13	assert s["detected_violations"] == 0
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:97:    14	assert s["unresolved_exceptions"] == 0
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:98:    15	assert s["evidence_freshness"] == "CURRENT"
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:106:    23	    "canada_only_policy",
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:107:    24	    "attestation_integrity",
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:108:    25	    "tamper_detection"
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:112:    29	    assert s["active_controls"][control] == "VERIFIED"
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:138:    12	assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:143:    17	assert "attestation_hash" in s
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:163:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:185:  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:193:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:194:  "active_controls": {
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:199:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:200:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:201:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:203:  "detected_violations": 0,
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:204:  "unresolved_exceptions": 0,
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:205:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:214:  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:237:    19	    "attestation_hash"
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:249:    31	claimed_hash = candidate.pop("attestation_hash")
+./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:325:--- RUN tamper_detection.sh ---
+./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:819:--- UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:856:    12	assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:857:    13	assert s["detected_violations"] == 0
+./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:858:    14	assert s["unresolved_exceptions"] == 0
+./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:859:    15	assert s["evidence_freshness"] == "CURRENT"
+./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:867:    23	    "canada_only_policy",
+./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:868:    24	    "attestation_integrity",
+./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:869:    25	    "tamper_detection"
+./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:873:    29	    assert s["active_controls"][control] == "VERIFIED"
+./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:898:    12	assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:903:    17	assert "attestation_hash" in s
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:176:./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:5:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:177:./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:28:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:178:./UL7RAFORGE/v10/ul7rastack/ca/registry/status.py:39:    "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:179:./UL7RAFORGE/v10/ul7rastack/ca/state/ca_registry_status.json:30:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:180:./UL7RAFORGE/v10/ul7rastack/veriscore/state/veriscore.json:70:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:181:./UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:77:    "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:182:./UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:92:    "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:183:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json:142:        "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:184:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/source_manifest.sha256:247:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:185:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/source_manifest.sha256:267:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:186:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/s8_baseline.sha256:247:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:187:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/source.sha256:258:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:188:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/source.sha256:264:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:189:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/source.sha256:264:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:190:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/source.sha256:264:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:191:./UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:192:./UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:17:assert "attestation_hash" in s
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:193:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:194:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:13:assert s["detected_violations"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:195:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:14:assert s["unresolved_exceptions"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:196:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:15:assert s["evidence_freshness"] == "CURRENT"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:197:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:23:    "canada_only_policy",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:198:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:24:    "attestation_integrity",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:199:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:25:    "tamper_detection"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:200:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:29:    assert s["active_controls"][control] == "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:201:./UL7RAFORGE/v10/tests/ca_registry_regression.sh:15:assert d["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:202:./UL7RAFORGE/v10/tests/veriscore_regression.sh:12:assert d["evidence_freshness"] == "CURRENT"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:203:./UL7RAFORGE/ul7rastack/live/state/live_status.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:204:./UL7RAFORGE/ul7rastack/live/state/live_status.json:26:  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:205:./UL7RAFORGE/ul7rastack/live/status.py:26:    "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:206:./UL7RAFORGE/ul7rastack/live/status.py:40:status["attestation_hash"] = hashlib.sha256(
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:207:./UL7RAFORGE/ul7rastack/verifier/src/verify.py:19:    "attestation_hash"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:208:./UL7RAFORGE/ul7rastack/verifier/src/verify.py:31:claimed_hash = candidate.pop("attestation_hash")
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:209:./UL7RAFORGE/ul7rastack/security/state/live_security.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:210:./UL7RAFORGE/ul7rastack/security/state/live_security.json:5:  "active_controls": {
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:211:./UL7RAFORGE/ul7rastack/security/state/live_security.json:10:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:212:./UL7RAFORGE/ul7rastack/security/state/live_security.json:11:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:213:./UL7RAFORGE/ul7rastack/security/state/live_security.json:12:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:214:./UL7RAFORGE/ul7rastack/security/state/live_security.json:14:  "detected_violations": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:215:./UL7RAFORGE/ul7rastack/security/state/live_security.json:15:  "unresolved_exceptions": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:216:./UL7RAFORGE/ul7rastack/security/state/live_security.json:16:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:217:./UL7RAFORGE/ul7rastack/security/state/live_security.json:25:  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:218:./UL7RAFORGE/ul7rastack/security/state/assurance.py:27:    "security_status": "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:219:./UL7RAFORGE/ul7rastack/security/state/assurance.py:32:    "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:220:./UL7RAFORGE/ul7rastack/security/state/runtime_assurance.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:221:./UL7RAFORGE/ul7rastack/security/state/runtime_assurance.json:8:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:222:./UL7RAFORGE/ul7rastack/security/live_security.py:14:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:223:./UL7RAFORGE/ul7rastack/security/live_security.py:15:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:224:./UL7RAFORGE/ul7rastack/security/live_security.py:16:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:225:./UL7RAFORGE/ul7rastack/security/live_security.py:22:    "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:226:./UL7RAFORGE/ul7rastack/security/live_security.py:23:    "active_controls": controls,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:227:./UL7RAFORGE/ul7rastack/security/live_security.py:24:    "detected_violations": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:228:./UL7RAFORGE/ul7rastack/security/live_security.py:25:    "unresolved_exceptions": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:229:./UL7RAFORGE/ul7rastack/security/live_security.py:26:    "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:230:./UL7RAFORGE/ul7rastack/security/live_security.py:38:status["attestation_hash"] = hashlib.sha256(
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:231:./products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:414:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:232:./lucideploy/contracts/GATES.json:16:    "tamper_detection",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:233:./.ul7ra/funnel/evidence/files.txt:294:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:234:./.ul7ra/funnel/evidence/tests.txt:17:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:235:./.ul7ra/funnel/runs/20260823T162444Z/evidence/UL7RAFORGE_INVENTORY.txt:183:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:236:./.ul7ra/funnel/runs/20260823T162635Z/evidence/EXECUTABLES.txt:45:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:237:./.ul7ra/funnel/runs/20260823T162635Z/evidence/EXECUTION_ENTRYPOINT_CANDIDATES.txt:30:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:238:./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:298:UL7RAFORGE/ul7rastack/security/state/live_security.json:10:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:239:./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:299:UL7RAFORGE/ul7rastack/security/state/live_security.json:11:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:240:./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:300:UL7RAFORGE/ul7rastack/security/state/live_security.json:12:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:241:./.ul7ra/funnel/runs/20260823T162913Z/evidence/EXECUTION_SURFACE.txt:45:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:242:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json:8:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:243:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json:29:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:244:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json:43:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:245:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json:8:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:246:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json:29:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:247:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json:43:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:248:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json:8:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:249:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json:29:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:250:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json:43:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:251:./.ul7ra/funnel/bin/continuous_assurance_remediation.sh:163:        r["reason"]="ATTESTATION_HASH_MISSING"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:252:./.ul7ra/funnel/bin/continuous_assurance_remediation.sh:179:    r["reason"]="ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:253:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:1430:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:254:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:2881:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:255:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:3184:PY_COMPILE=./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:256:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:3185:  File "./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh", line 7
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:257:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:5074:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:258:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:6016:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:259:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/tracked_files.txt:745:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:260:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/executable_map.txt:50:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:261:./.ul7ra/protocol52/state/20260825T160207Z/live_status_regression.sh.before:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:262:./.ul7ra/protocol52/state/20260825T160207Z/live_status_regression.sh.before:17:assert "attestation_hash" in s
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:263:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:264:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:13:assert s["detected_violations"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:265:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:14:assert s["unresolved_exceptions"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:266:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:15:assert s["evidence_freshness"] == "CURRENT"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:267:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:23:    "canada_only_policy",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:268:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:24:    "attestation_integrity",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:269:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:25:    "tamper_detection"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:270:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:29:    assert s["active_controls"][control] == "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:271:./.ul7ra/protocol52/runs/20260825T162946Z/git-status.txt:635: M UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:272:./.ul7ra/protocol52/runs/20260825T162946Z/diff-stat.txt:3: .../v10/ul7rabridge/tests/tamper_detection.sh      |  4 +-
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:273:./.ul7ra/protocol52/runs/20260825T163117Z/git-status.txt:635: M UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:274:./.ul7ra/protocol52/runs/20260825T163117Z/diff-stat.txt:3: .../v10/ul7rabridge/tests/tamper_detection.sh      |  4 +-
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:275:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:276:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json:26:  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:277:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:278:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:5:  "active_controls": {
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:279:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:10:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:280:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:11:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:281:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:12:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:282:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:14:  "detected_violations": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:283:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:15:  "unresolved_exceptions": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:284:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:16:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:285:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:25:  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:286:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:287:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json:26:  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:288:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:289:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:5:  "active_controls": {
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:290:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:10:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:291:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:11:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:292:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:12:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:293:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:14:  "detected_violations": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:294:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:15:  "unresolved_exceptions": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:295:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:16:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:296:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:25:  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:297:./.ul7ra/protocol52/runs/20260825T163117Z/test-paths.txt:5:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:298:./.ul7ra/protocol52/runs/20260825T163117Z/test-paths.txt:6:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:299:./ul7ra_boot_output.txt:863:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:300:./.bob/project.json:23:    "tests/tamper_detection.sh"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:301:./.bob/tasks/verify-ul7ra.sh:24:tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:302:./FORENSIC_PHASE0_20260909T095923Z/REPOSITORY_TREE.txt:1281:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:303:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:516:./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:28:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:304:./FORENSIC_PHASE0_20260909T095923Z/PHASE0_BASELINE.json:1329:    "./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:305:./FORENSIC_PHASE0_20260909T100256Z/REPOSITORY_TREE.txt:1294:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:306:./FORENSIC_PHASE0_20260909T100256Z/PHASE0_BASELINE.json:1376:    "./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:307:./verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:1552:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  ./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:308:./verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/V155_FORENSIC.txt:342:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/source_manifest.sha256:247:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:309:./verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/COMPONENT_PATHS.txt:1325:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:310:./verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/UL7RABRIDGE.paths:471:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:311:./verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/COMPONENT_EVIDENCE_CORRELATION.md:96:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:312:./verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/SOURCE_SHA256SUMS.txt:504:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:313:./verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/SOURCE_SHA256SUMS.txt:540:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:314:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:482:./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:5:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:315:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:483:./UL7RAFORGE/v10/ul7rastack/ca/registry/status.py:39:    "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:316:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:484:./UL7RAFORGE/v10/ul7rastack/ca/state/ca_registry_status.json:30:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:317:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:485:./UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:77:    "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:318:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:507:./UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:319:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:508:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:320:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:509:./UL7RAFORGE/v10/tests/ca_registry_regression.sh:15:assert d["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:321:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:511:./UL7RAFORGE/ul7rastack/live/state/live_status.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:322:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:513:./UL7RAFORGE/ul7rastack/live/status.py:26:    "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:323:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:517:./UL7RAFORGE/ul7rastack/security/state/live_security.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:324:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:518:./UL7RAFORGE/ul7rastack/security/state/assurance.py:27:    "security_status": "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:325:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:519:./UL7RAFORGE/ul7rastack/security/state/runtime_assurance.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:326:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:520:./UL7RAFORGE/ul7rastack/security/live_security.py:22:    "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:327:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:537:./.ul7ra/protocol52/state/20260825T160207Z/live_status_regression.sh.before:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:328:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:538:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:329:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:539:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:330:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:541:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:331:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:542:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:332:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:544:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:333:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt:30:UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:334:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt:33:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:335:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt:34:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:336:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt:36:UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:337:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt:11:UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:338:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt:14:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:339:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt:15:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:340:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt:17:UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:341:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:57:=== TEST SOURCE: UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh ===
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:342:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:95:    12	assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:343:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:96:    13	assert s["detected_violations"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:344:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:97:    14	assert s["unresolved_exceptions"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:345:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:98:    15	assert s["evidence_freshness"] == "CURRENT"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:346:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:106:    23	    "canada_only_policy",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:347:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:107:    24	    "attestation_integrity",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:348:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:108:    25	    "tamper_detection"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:349:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:112:    29	    assert s["active_controls"][control] == "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:350:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:138:    12	assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:351:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:143:    17	assert "attestation_hash" in s
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:352:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:163:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:353:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:185:  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:354:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:193:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:355:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:194:  "active_controls": {
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:356:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:199:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:357:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:200:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:358:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:201:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:359:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:203:  "detected_violations": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:360:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:204:  "unresolved_exceptions": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:361:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:205:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:362:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:214:  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:363:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:237:    19	    "attestation_hash"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:364:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:249:    31	claimed_hash = candidate.pop("attestation_hash")
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:365:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:325:--- RUN tamper_detection.sh ---
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:366:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:819:--- UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:367:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:856:    12	assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:368:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:857:    13	assert s["detected_violations"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:369:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:858:    14	assert s["unresolved_exceptions"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:370:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:859:    15	assert s["evidence_freshness"] == "CURRENT"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:371:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:867:    23	    "canada_only_policy
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:1:./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:5:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:2:./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:28:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:3:./UL7RAFORGE/v10/ul7rastack/ca/registry/status.py:39:    "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:4:./UL7RAFORGE/v10/ul7rastack/ca/state/ca_registry_status.json:30:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:5:./UL7RAFORGE/v10/ul7rastack/veriscore/state/veriscore.json:70:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:6:./UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:77:    "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:7:./UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:92:    "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:8:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json:142:        "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:9:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/source_manifest.sha256:247:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:10:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/source_manifest.sha256:267:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:11:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/s8_baseline.sha256:247:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:12:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/source.sha256:258:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:13:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/source.sha256:264:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:14:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/source.sha256:264:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:15:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/source.sha256:264:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:16:./UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:17:./UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:17:assert "attestation_hash" in s
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:18:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:19:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:13:assert s["detected_violations"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:20:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:14:assert s["unresolved_exceptions"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:21:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:15:assert s["evidence_freshness"] == "CURRENT"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:22:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:23:    "canada_only_policy",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:23:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:24:    "attestation_integrity",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:24:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:25:    "tamper_detection"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:25:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:29:    assert s["active_controls"][control] == "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:26:./UL7RAFORGE/v10/tests/ca_registry_regression.sh:15:assert d["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:27:./UL7RAFORGE/v10/tests/veriscore_regression.sh:12:assert d["evidence_freshness"] == "CURRENT"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:28:./UL7RAFORGE/ul7rastack/live/state/live_status.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:29:./UL7RAFORGE/ul7rastack/live/state/live_status.json:26:  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:30:./UL7RAFORGE/ul7rastack/live/status.py:26:    "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:31:./UL7RAFORGE/ul7rastack/live/status.py:40:status["attestation_hash"] = hashlib.sha256(
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:32:./UL7RAFORGE/ul7rastack/verifier/src/verify.py:19:    "attestation_hash"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:33:./UL7RAFORGE/ul7rastack/verifier/src/verify.py:31:claimed_hash = candidate.pop("attestation_hash")
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:34:./UL7RAFORGE/ul7rastack/security/state/live_security.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:35:./UL7RAFORGE/ul7rastack/security/state/live_security.json:5:  "active_controls": {
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:36:./UL7RAFORGE/ul7rastack/security/state/live_security.json:10:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:37:./UL7RAFORGE/ul7rastack/security/state/live_security.json:11:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:38:./UL7RAFORGE/ul7rastack/security/state/live_security.json:12:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:39:./UL7RAFORGE/ul7rastack/security/state/live_security.json:14:  "detected_violations": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:40:./UL7RAFORGE/ul7rastack/security/state/live_security.json:15:  "unresolved_exceptions": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:41:./UL7RAFORGE/ul7rastack/security/state/live_security.json:16:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:42:./UL7RAFORGE/ul7rastack/security/state/live_security.json:25:  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:43:./UL7RAFORGE/ul7rastack/security/state/assurance.py:27:    "security_status": "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:44:./UL7RAFORGE/ul7rastack/security/state/assurance.py:32:    "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:45:./UL7RAFORGE/ul7rastack/security/state/runtime_assurance.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:46:./UL7RAFORGE/ul7rastack/security/state/runtime_assurance.json:8:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:47:./UL7RAFORGE/ul7rastack/security/live_security.py:14:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:48:./UL7RAFORGE/ul7rastack/security/live_security.py:15:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:49:./UL7RAFORGE/ul7rastack/security/live_security.py:16:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:50:./UL7RAFORGE/ul7rastack/security/live_security.py:22:    "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:51:./UL7RAFORGE/ul7rastack/security/live_security.py:23:    "active_controls": controls,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:52:./UL7RAFORGE/ul7rastack/security/live_security.py:24:    "detected_violations": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:53:./UL7RAFORGE/ul7rastack/security/live_security.py:25:    "unresolved_exceptions": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:54:./UL7RAFORGE/ul7rastack/security/live_security.py:26:    "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:55:./UL7RAFORGE/ul7rastack/security/live_security.py:38:status["attestation_hash"] = hashlib.sha256(
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:56:./products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:414:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:57:./lucideploy/contracts/GATES.json:16:    "tamper_detection",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:58:./.ul7ra/funnel/evidence/files.txt:294:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:59:./.ul7ra/funnel/evidence/tests.txt:17:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:60:./.ul7ra/funnel/runs/20260823T162444Z/evidence/UL7RAFORGE_INVENTORY.txt:183:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:61:./.ul7ra/funnel/runs/20260823T162635Z/evidence/EXECUTABLES.txt:45:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:62:./.ul7ra/funnel/runs/20260823T162635Z/evidence/EXECUTION_ENTRYPOINT_CANDIDATES.txt:30:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:63:./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:298:UL7RAFORGE/ul7rastack/security/state/live_security.json:10:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:64:./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:299:UL7RAFORGE/ul7rastack/security/state/live_security.json:11:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:65:./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:300:UL7RAFORGE/ul7rastack/security/state/live_security.json:12:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:66:./.ul7ra/funnel/runs/20260823T162913Z/evidence/EXECUTION_SURFACE.txt:45:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:67:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json:8:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:68:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json:29:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:69:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json:43:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:70:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json:8:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:71:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json:29:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:72:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json:43:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:73:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json:8:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:74:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json:29:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:75:./.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json:43:      "reason": "ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:76:./.ul7ra/funnel/bin/continuous_assurance_remediation.sh:163:        r["reason"]="ATTESTATION_HASH_MISSING"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:77:./.ul7ra/funnel/bin/continuous_assurance_remediation.sh:179:    r["reason"]="ATTESTATION_HASH_MATCHES_CURRENT_EVIDENCE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:78:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:1430:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:79:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:2881:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:80:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:3184:PY_COMPILE=./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:81:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:3185:  File "./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh", line 7
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:82:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:5074:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:83:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:6016:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:84:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/tracked_files.txt:745:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:85:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/executable_map.txt:50:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:86:./.ul7ra/protocol52/state/20260825T160207Z/live_status_regression.sh.before:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:87:./.ul7ra/protocol52/state/20260825T160207Z/live_status_regression.sh.before:17:assert "attestation_hash" in s
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:88:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:89:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:13:assert s["detected_violations"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:90:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:14:assert s["unresolved_exceptions"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:91:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:15:assert s["evidence_freshness"] == "CURRENT"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:92:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:23:    "canada_only_policy",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:93:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:24:    "attestation_integrity",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:94:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:25:    "tamper_detection"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:95:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:29:    assert s["active_controls"][control] == "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:96:./.ul7ra/protocol52/runs/20260825T162946Z/git-status.txt:635: M UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:97:./.ul7ra/protocol52/runs/20260825T162946Z/diff-stat.txt:3: .../v10/ul7rabridge/tests/tamper_detection.sh      |  4 +-
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:98:./.ul7ra/protocol52/runs/20260825T163117Z/git-status.txt:635: M UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:99:./.ul7ra/protocol52/runs/20260825T163117Z/diff-stat.txt:3: .../v10/ul7rabridge/tests/tamper_detection.sh      |  4 +-
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:100:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:101:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json:26:  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:102:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:103:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:5:  "active_controls": {
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:104:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:10:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:105:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:11:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:106:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:12:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:107:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:14:  "detected_violations": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:108:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:15:  "unresolved_exceptions": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:109:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:16:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:110:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:25:  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:111:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:112:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json:26:  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:113:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:114:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:5:  "active_controls": {
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:115:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:10:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:116:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:11:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:117:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:12:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:118:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:14:  "detected_violations": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:119:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:15:  "unresolved_exceptions": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:120:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:16:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:121:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:25:  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:122:./.ul7ra/protocol52/runs/20260825T163117Z/test-paths.txt:5:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:123:./.ul7ra/protocol52/runs/20260825T163117Z/test-paths.txt:6:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:124:./ul7ra_boot_output.txt:863:/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:125:./.bob/project.json:23:    "tests/tamper_detection.sh"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:126:./.bob/tasks/verify-ul7ra.sh:24:tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:127:./FORENSIC_PHASE0_20260909T095923Z/REPOSITORY_TREE.txt:1281:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:128:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:516:./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:28:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:129:./FORENSIC_PHASE0_20260909T095923Z/PHASE0_BASELINE.json:1329:    "./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:130:./FORENSIC_PHASE0_20260909T100256Z/REPOSITORY_TREE.txt:1294:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:131:./FORENSIC_PHASE0_20260909T100256Z/PHASE0_BASELINE.json:1376:    "./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:132:./verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:1552:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  ./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:133:./verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/V155_FORENSIC.txt:342:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/source_manifest.sha256:247:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:134:./verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/COMPONENT_PATHS.txt:1325:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:135:./verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/UL7RABRIDGE.paths:471:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:136:./verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/COMPONENT_EVIDENCE_CORRELATION.md:96:./UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:137:./verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/SOURCE_SHA256SUMS.txt:504:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:138:./verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/SOURCE_SHA256SUMS.txt:540:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:139:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:482:./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:5:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:140:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:483:./UL7RAFORGE/v10/ul7rastack/ca/registry/status.py:39:    "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:141:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:484:./UL7RAFORGE/v10/ul7rastack/ca/state/ca_registry_status.json:30:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:142:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:485:./UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:77:    "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:143:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:507:./UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:144:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:508:./UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:145:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:509:./UL7RAFORGE/v10/tests/ca_registry_regression.sh:15:assert d["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:146:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:511:./UL7RAFORGE/ul7rastack/live/state/live_status.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:147:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:513:./UL7RAFORGE/ul7rastack/live/status.py:26:    "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:148:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:517:./UL7RAFORGE/ul7rastack/security/state/live_security.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:149:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:518:./UL7RAFORGE/ul7rastack/security/state/assurance.py:27:    "security_status": "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:150:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:519:./UL7RAFORGE/ul7rastack/security/state/runtime_assurance.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:151:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:520:./UL7RAFORGE/ul7rastack/security/live_security.py:22:    "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:152:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:537:./.ul7ra/protocol52/state/20260825T160207Z/live_status_regression.sh.before:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:153:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:538:./.ul7ra/protocol52/state/20260825T160207Z/security_assurance.sh.before:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:154:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:539:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:155:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:541:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:156:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:542:./.ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json:4:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:157:./verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt:544:./.ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json:4:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:158:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt:30:UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:159:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt:33:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:160:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt:34:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:161:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt:36:UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:162:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt:11:UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:163:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt:14:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:164:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt:15:UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:165:./verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt:17:UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:166:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:57:=== TEST SOURCE: UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh ===
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:167:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:95:    12	assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:168:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:96:    13	assert s["detected_violations"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:169:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:97:    14	assert s["unresolved_exceptions"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:170:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:98:    15	assert s["evidence_freshness"] == "CURRENT"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:171:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:106:    23	    "canada_only_policy",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:172:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:107:    24	    "attestation_integrity",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:173:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:108:    25	    "tamper_detection"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:174:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:112:    29	    assert s["active_controls"][control] == "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:175:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:138:    12	assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:176:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:143:    17	assert "attestation_hash" in s
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:177:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:163:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:178:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:185:  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:179:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:193:  "security_status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:180:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:194:  "active_controls": {
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:181:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:199:    "canada_only_policy": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:182:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:200:    "attestation_integrity": "VERIFIED",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:183:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:201:    "tamper_detection": "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:184:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:203:  "detected_violations": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:185:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:204:  "unresolved_exceptions": 0,
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:186:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:205:  "evidence_freshness": "CURRENT",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:187:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:214:  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:188:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:237:    19	    "attestation_hash"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:189:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:249:    31	claimed_hash = candidate.pop("attestation_hash")
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:190:./verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt:325:--- RUN tamper_detection.sh ---
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:191:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:819:--- UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:192:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:856:    12	assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:193:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:857:    13	assert s["detected_violations"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:194:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:858:    14	assert s["unresolved_exceptions"] == 0
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:195:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:859:    15	assert s["evidence_freshness"] == "CURRENT"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:196:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:867:    23	    "canada_only_policy",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:197:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:868:    24	    "attestation_integrity",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:198:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:869:    25	    "tamper_detection"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:199:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:873:    29	    assert s["active_controls"][control] == "VERIFIED"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:200:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:898:    12	assert s["status"] == "VERIFIED_WITH_SCOPE"
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:201:./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt:903:    17	assert "attestation_hash" in s
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:202:./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:176:./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:5:  "status": "VERIFIED_WITH_SCOPE",
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt:203:./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt:177:./UL7RAFORGE/v10/ul7rastack/state/veriscore.json:28:  "evidence_freshness": "CURRENT",

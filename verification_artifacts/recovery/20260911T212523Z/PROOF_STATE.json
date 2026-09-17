@@ -1,0 +1,13 @@
+{
+  "origin_ok": 0,
+  "tunnel_exists": 1,
+  "tunnel_connection": 1,
+  "dns_ok": 0,
+  "https_ok": 0,
+  "luci_found": 1,
+  "luci_ok": 0,
+  "payment_verified": false,
+  "production_unlock": false,
+  "canonical_promotion": false,
+  "final_decision": "BLOCKED"
+}

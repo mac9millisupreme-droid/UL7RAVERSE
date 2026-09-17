@@ -1,0 +1,1556 @@
+[
+  {
+    "normalized_sha256": "f07496e9f0da7863a4e35c0d89a723d2019b7b1d46dba482e1b2ffafe3e1135c",
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/PYTHON_VERSION.txt",
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-python3-version.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "21995253e3d8bfe0182975bf45640139ba1487329f2cc4c3b9ba3be766ad745e",
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/TEST_FILES.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/TEST_FILES.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "26d811e24fa70f441de3a9da8bd20006b1d6069833e01a5fb347c9fd46044b8b",
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/GIT_HISTORY.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/GIT_HISTORY.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "ea89ce1b1130868c3939f8ecbe21309e8c5c022b99d71d723827b747f778574c",
+    "paths": [
+      "launch/CAMPAIGN_STATE.json",
+      "launch/FOLLOWUP_STATE.json",
+      "launch/PROSPECT_STATE.json",
+      "launch/REFERRAL_STATE.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "d909eb9ba33fd6308466f9307f578f0c95faa77b6dea4b2e08f43c39afa653b4",
+    "paths": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.toml",
+      "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.toml"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "2d10d22bb3a995cdcf7caa45d76a1d141bb0966dedbccb3b6350c4af1d03f5de",
+    "paths": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.lock",
+      "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.lock"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "1a11fe4eb53887e2759f4c5d0264ec5dab953ca5d9dec39785bce66d59672071",
+    "paths": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/main.rs",
+      "halo_twin_pair_v1/halo_twin_pair_v1/src/main.rs"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "bdd985afb191df0ce589d8001962a4fe56106c000bdb2bc6f16033a02d011bac",
+    "paths": [
+      "ul7ra_unified/state/LATEST_UNIFICATION.json",
+      "verification_artifacts/unification/20260913T154526Z/UNIFICATION_MANIFEST.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "3ee8baa396f34e316b595ed6cbeabb1f82ced773b931bc2384554449a737f75c",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/git_head.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/head.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/GIT_HEAD.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V50.txt",
+      "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_head.txt",
+      "verification_artifacts/unification/20260913T154526Z/GIT_HEAD.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "a4ce6478fbb198d323108bf16faa574e9665ae550056115d4a70efa7fc174deb",
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/DOMAIN_INVENTORY.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/DOMAIN_INVENTORY.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "750c7a735b3bdccc5160091de573071ca24de879e21fe2836dca3c67df1628f9",
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/ENTRYPOINT_INVENTORY.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/ENTRYPOINT_INVENTORY.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "a183bc8c73f431854a54816d264f3afae29a2f6eb5329d99fac7391502ed8718",
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/TEST_INVENTORY.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/TEST_INVENTORY.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "7ede3be99ac6d7117b64d6708a7c8ba605bacec279676cd64fd0be24b1383f59",
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/UNCONNECTED_CANDIDATES.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/UNCONNECTED_CANDIDATES.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "fc613b4dfd6736a7bd268c8a0e74ed0d1c04a959f59dd74ef2874983fd443fc9",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_branch.txt",
+      ".ul7ra/funnel/runs/20260823T042104Z/git_branch.txt",
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_BRANCH.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/GIT_BRANCH.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/git_branch.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/git_branch.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/git_branch.txt",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/git_branch.txt",
+      "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_branch.txt",
+      "verification_artifacts/unification/20260913T154526Z/GIT_BRANCH.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "a7454dc23f9b2a3a33bb0dad4273daa008dc653174bb2a153191d691d1e966d5",
+    "paths": [
+      "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/ingress.txt",
+      "verification_artifacts/final_public_gate/20260913T080226Z/ingress_validate.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/ingress_validate.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "3b9964d70bc4020fecdc32f88fbf5a0fb1e68b50f0c2a8fa062f066622a37312",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_tunnels.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_list.txt",
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tunnel-list.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/tunnel_list.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/tunnel_list.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/CLOUDFLARED_TUNNEL_LIST.txt",
+      "verification_artifacts/omnipulse_revenue/20260912T234003Z/state/cloudflared_tunnels.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/tunnel_list.txt",
+      "verification_artifacts/recovery/20260911T212523Z/tunnel_list.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "15387257fbf5426e3c46976e8afd58084664f0fcae77c15cba022793340e90f6",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/health_before.json",
+      "verification_artifacts/elite_forensic/20260912T031215Z/UL7RA_LOCAL_HEALTH.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/origin_health.json",
+      "verification_artifacts/recovery/20260911T212523Z/origin_health.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "e4639eacbe2fe067e4d60f49ae342db260fb1874fe34c82d0fb410a919b31e16",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_ns.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/nameservers.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/nameservers.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/dig_ns.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/authoritative_ns.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/PARENT_NS.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "2fb8612ed528495d8fe8ea7de63b3dc6b25fb4379da88b8ee8c67a40d985e8dc",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_info.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_info.txt",
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tunnel-info.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/tunnel_info.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/tunnel_info_before.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/tunnel_info.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/CLOUDFLARED_TUNNEL_INFO.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/tunnel_info_before.txt",
+      "verification_artifacts/recovery/20260911T212523Z/tunnel_info_before.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "50204703e9c58f8f2bb8e68aeb57407f3709774016f9540f568fefd8399f0080",
+    "paths": [
+      "verification_artifacts/elite_forensic/20260912T031215Z/LUCIDEPLOY_TESTS.txt",
+      "verification_artifacts/western_fair_convergence/20260911T235723Z/luci_tests.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "1a85c62e5691f87eea701ef24f124872a65121239704bac789595145afcc2c7e",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_ns.txt",
+      "verification_artifacts/domain_control/20260912T000358Z/authoritative_ns.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "e57174f6866c079fc9924436db3cdecebc81e9cf72330988e25776f10a466fc8",
+    "paths": [
+      "verification_artifacts/domain_control/20260912T000358Z/tunnels.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/tunnels.txt",
+      "verification_artifacts/omnipulse/live-repair/20260911T231923Z/tunnel_list.txt",
+      "verification_artifacts/omnipulse/live/20260911T231820Z/tunnel_list.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "613a1f811130eeb1364b5b4ee4923b335768f7e39fc45487f6d0f5edeee245fe",
+    "paths": [
+      "verification_artifacts/dns_reconcile/20260911T235554Z/tunnel_info.txt",
+      "verification_artifacts/domain_control/20260912T000358Z/tunnel_info.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/tunnel_info.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/tunnel_info_after.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/tunnel_info_before.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/tunnel_info.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/tunnel_info.txt",
+      "verification_artifacts/recovery/20260911T212523Z/tunnel_info_after.txt",
+      "verification_artifacts/western_fair_convergence/20260911T235723Z/tunnel.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "59d7e36095c30396352c42db2c92cae98820f6f02531e2c4783bfff2d87cc72e",
+    "paths": [
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/google_a.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/public_soa.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "7e577dc0a0214ccc027aeadba67b8e92b8ae22e86ba82e82ccfed38a75610022",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cname_system.txt",
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/google_dns.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/verify_nslookup.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/dns.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_1.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_10.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_11.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_12.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_2.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_3.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_4.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_5.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_6.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_7.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_8.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_9.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_1.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_2.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_3.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_4.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_5.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_6.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "25d13aded4feba1ccecd6ade625e4cb4d18fe22f3e7139d5ead54e205ceb011a",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_version.txt",
+      "verification_artifacts/deployment/20260911T203008Z/cloudflared_version.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/cloudflared_version.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/cloudflared_version.txt",
+      "verification_artifacts/omnipulse/live-repair/20260911T231923Z/cloudflared_version.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "5dc7cc6937a2e4b1dc9bfbe11434e420d83d13709508b58ccb2450f3522dc456",
+    "paths": [
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/events.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/events.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "paths": [
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/claims.json",
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/experiences.json",
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/proof.json",
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/shares.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/claims.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/experiences.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/proof.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/shares.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "10a54e109a603b71bc6196ccda2a8b921e6122882c2214f039f09ef3d72915e2",
+    "paths": [
+      "verification_artifacts/omnipulse/20260911T230936Z/reports/INITIAL_DECISION.json",
+      "verification_artifacts/omnipulse/20260911T230936Z/reports/engine_output.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "dcbe348e99c4df65837a7ef9420e7c2c8cb4ca993764d9a3ec4c0cbe421dc008",
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/state/PROOF_STATE.json",
+      "verification_artifacts/orchestrator/20260911T212831Z/state/PROOF_STATE_round_248.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "380b855c3239a2105f79cbad1a1a4ff09caaca0a2f7893c1b61762f37a01a22d",
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/origin_health.json",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/stack_health.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "689c4e73f7f300069fe7cfcecefaef0c3dbcd2882fbf508a4ef6681406160917",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/public_https_headers.txt",
+      "verification_artifacts/deployment/20260911T203008Z/https_headers.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_1.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_10.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_2.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_3.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_4.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_5.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_6.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_7.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_8.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_9.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/external_health.json",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/https_headers.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/external_health.json",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/public_health.json",
+      "verification_artifacts/recovery/20260911T212523Z/https_health.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "815816f8f4e0e49a2c595b62ff745358a2c4ab6dcec79ad6574d4115f8f23ca8",
+    "paths": [
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/origin_health.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "9482536d82646a2e7d3b5a2e14719103455cd8373bceb97294334f7934a7dfdc",
+    "paths": [
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/origin_health.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "1c3ffd73bd10cd820667271322d166798f528f847bc8ad69d8d908ea55b1c8d4",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/selftest.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/selftest.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "9b1952f7b200b13240b8d26f4a209b58ef0bda6863087dd5f400cbdc406c406a",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_1.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_2.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_3.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_4.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_5.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_6.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_7.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_8.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_9.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_1.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_2.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_3.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_4.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_5.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_6.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_7.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_8.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_9.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_1.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_2.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_3.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_4.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_5.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_6.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_7.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_8.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_1.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_10.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_11.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_12.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_13.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_14.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_15.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_2.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_3.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_4.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_5.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_6.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_7.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_8.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_1.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_10.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_11.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_12.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_13.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_14.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_15.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_2.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_3.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_4.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_5.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_6.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_7.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_8.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_1.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_10.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_11.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_12.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_13.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_14.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_15.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_2.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_3.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_4.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_5.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_6.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_7.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_8.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_9.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "d7ddf05fc3964ed146e79ff491f71cc259a46e247812aaf960abef6647627d73",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_1/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_1/ROUND_DECISION.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "e0c516a5f02edea7baa77d0abc34ab656f09ac07bdc5f333bbd757e3fe9882e6",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_10/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_11/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_12/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_13/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_14/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_15/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_2/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_3/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_4/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_5/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_6/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_7/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_8/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_9/deployment_state.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "734c3a6460293b63d6aaf980b748187654e9280766fff0ee7ffa9bbea9914128",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_2/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_2/ROUND_DECISION.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "4589d1695849efc2be6c144faace0fc7b0ff2c500e04244718a183212e4c3964",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_3/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_3/ROUND_DECISION.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "617292ef3815d1e2a807b27b9118837f482bb483c122e9f1e06f0a2a5b18cbae",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_4/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_4/ROUND_DECISION.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "2d0c74f22662da6b9d9744f5dbbf74d28029eb1a8b088cd68446a6504877d69b",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_5/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_5/ROUND_DECISION.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "c22a4a8886d1ea8583fed280d561951a7e18b2aa3f405933d5f0d24a71c59b5a",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_6/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_6/ROUND_DECISION.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "44110fe06f04cdbf2db9ed694945e528f6dbf58101bbe1d2bdd7bced726e173e",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_7/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_7/ROUND_DECISION.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "f65f9b26a5a63f5e08a32fc52b0a664de454ad84e9e1cd7d9c7219fb8547f78e",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_8/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_8/ROUND_DECISION.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "22b988499d987c7f66bc2312bb038b3933f987415bbc6e32234a83a204b203eb",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_9/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_9/ROUND_DECISION.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "676f2b397000f142001c855892f7565b5f8f038d88335b61301f99c7c080caa4",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_2/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_3/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_4/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_5/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_6/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_7/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_8/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_9/deployment_state.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "7c1ad902f94be163b4521a06ac097dc3ec9dfec92486756372a90c6b946551bd",
+    "paths": [
+      "verification_artifacts/deployment/20260911T203008Z/origin_health.json",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/origin_health.json",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/origin_health.json",
+      "verification_artifacts/origin_runtime/20260911T200007Z/health.json",
+      "verification_artifacts/origin_runtime/START_20260911T200939Z/health.json",
+      "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/HEALTH.json",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/health.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "2c126831d3aa6de8fd4002ee5f1587d7052e857bf53e987ba20185c9be0826e6",
+    "paths": [
+      "verification_artifacts/deployment/20260911T203008Z/origin_selftest.json",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/origin_selftest.json",
+      "verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json",
+      "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "a16a83d3293f546fa88236fe433529ba931a976f2e00ec7705babca59d6859fa",
+    "paths": [
+      "verification_artifacts/deployment/20260911T203008Z/origin_integrity.json",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/origin_integrity.json",
+      "verification_artifacts/origin_runtime/START_20260911T200939Z/integrity.json",
+      "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/INTEGRITY.json",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/integrity.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "3e519b6713db2438e5ce85b4cf4dde40744da6dd51cf275a0551683803c38230",
+    "paths": [
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/authoritative_a.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/authoritative_cname.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "fdc3370eb566c60276d41a27ced52765cbb6c1b85348df0d8f76210cd008518c",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rabridge/Cargo.toml",
+      "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/Cargo.toml"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "d24b7dd9ff3f05de16712a13578cc3c2b7f4be649ef59c8f22b9eb50a07b85f7",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rabridge/src/main.rs",
+      "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/main.rs"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "b46bc797323a1e1e41d27100f9a98a0362fb9cef85c642f3842da5f8f5d53616",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/veriscore/state/veriscore.json",
+      "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/veriscore.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "d4088582d41c88cdc83905499ab6ee666a064d08680d6a4a69223a745242058a",
+    "paths": [
+      "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/ORIGIN_CHECK.json",
+      "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/RESULTS.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "7c3f97daf0fd4c702e2490fb562e49bce9092cab03c5089935514f53b8370557",
+    "paths": [
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/GIT_STATUS.txt",
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/GIT_STATUS.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "7bcd7f96ae8c17e68de0080c6f77900aee823cf4a3f406190c77054edc731ec0",
+    "paths": [
+      "racing/accuracy_logs/status_20260909_041713.txt",
+      "racing/accuracy_logs/status_20260909_041845.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "e5b4dba2d007b1f3930f5ad01d1ea3877001e531969d0c72b2ddb999082f5193",
+    "paths": [
+      ".ul7ra/funnel/AUTHORITATIVE_STATE.json",
+      ".ul7ra/funnel/runs/reconciliation-persistent-20260823T174506Z/STATE.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "a9d3430108581cb2d3bd43599a00ee0fa883e668d25a26d975ff41b552d0a95d",
+    "paths": [
+      ".ul7ra/protocol52/runs/20260825T162946Z/git-status.txt",
+      ".ul7ra/protocol52/runs/20260825T163117Z/git-status.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "ae3b9a379350f2af07d15c69a60d2af581f007d3523e0fe4e41a66d7ce7ce91b",
+    "paths": [
+      ".ul7ra/protocol52/runs/20260825T162946Z/diff-stat.txt",
+      ".ul7ra/protocol52/runs/20260825T163117Z/diff-stat.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "878c76f9630eec28885693f88b5fb250ea83c6c19295e98712e14cafe9334a65",
+    "paths": [
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json",
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json",
+      "UL7RAFORGE/ul7rastack/live/state/live_status.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "18949eeadedd58b363947f72d708de69e348770cb71dc8d533a4cc87df5454ae",
+    "paths": [
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json",
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json",
+      "UL7RAFORGE/ul7rastack/security/state/live_security.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "a9a549f27205c8ba566f018c22aa3a558b7873a6ec6200aa6a32ba33ea38299b",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cwd.txt",
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_root.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/root.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "1b93625d6fac2322ef0540548617a021e33aaecb072329b06e4ee810f6639ef5",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_head.txt",
+      ".ul7ra/funnel/runs/20260823T042104Z/git_commit.txt",
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_HEAD.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/GIT_HEAD.txt",
+      ".ul7ra/funnel/runs/authority-test-20260823T172002Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173703Z-2/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173711Z-3/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173720Z-4/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173729Z-5/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173738Z-6/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173747Z-7/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173756Z-8/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173805Z-9/git_head.txt",
+      ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/git_head.txt",
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-head.txt",
+      "products/ul7ra-verify/evidence/execution/git_commit.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-head.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-head.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-head.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "02cd6567efaedebe427a4cdab572b11de58231c62ce2ef9df009f8e6bbbafe8c",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_version.txt",
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-cloudflared-version.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "0ceccd48a93ca935e3362041635c1dd72af1c179edc64d5cfc72f2f64bc6c505",
+    "paths": [
+      ".ul7ra/funnel/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/20260823T042104Z/git_status.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "7f5246e93de65d86c6ff8790020901ef3331672018b334fac3e86a16795a3e1d",
+    "paths": [
+      ".ul7ra/funnel/evidence/UL7RA4ORGE_EXECUTION.json",
+      ".ul7ra/funnel/runs/20260823T042104Z/evidence/UL7RA4ORGE_EXECUTION.before-restart.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "d62b09656cc7e3a3f7df3e512d09c6eed14b22dddbe3472af12f52174ed36e18",
+    "paths": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/registry.py",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/registry.py",
+      "UL7RAFORGE/v10/ul7rastack/assurance/evidence/registry.py"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "6a61553eda6a1b300a7a8b482b7db01b978c76ad068525011f1a0b02342a6ec7",
+    "paths": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/attest.py",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/attest.py"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "f917c9ac2f5ee6263eef4895aa50bce86fc34ec3dd388b90960a659c217464b1",
+    "paths": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/assurance_gates.py",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/assurance_gates.py",
+      "UL7RAFORGE/v10/ul7rastack/assurance/assurance_gates.py"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "80c2657071d8c957bf17de44e0b0b04c8c7e2f701f6f5488ecdfa9c0f8cfdb9d",
+    "paths": [
+      ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173703Z-2/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173711Z-3/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173720Z-4/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173729Z-5/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173738Z-6/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173747Z-7/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173756Z-8/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173805Z-9/fail_closed.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "90c50a269d0f98785cbf83b5424aa23d42e7a252b06aa2fd1e6e04f135d4ac23",
+    "paths": [
+      ".ul7ra/funnel/runs/autofunnel-20260823T173937Z/fail_closed.json",
+      ".ul7ra/funnel/runs/light-20260823T173819Z/fail_closed.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "38450b832ac4e5b49956fab776cc6a473c479c35305bcfd1b6dc4f96363c1974",
+    "paths": [
+      ".ul7ra/funnel/runs/autofunnel-20260823T173937Z/producers.txt",
+      ".ul7ra/funnel/runs/blockers-20260823T173851Z/capabilities.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "42da3331fa0cae2065bc147dd593a3763bc7606c740283cc5c1c8697c15679bc",
+    "paths": [
+      ".ul7ra/funnel/runs/test-20260823T174057Z/STATE.final.json",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/STATE.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "ef058265adbbf35377995cc45aef47f2cb2b6a228817c2b433b5cf80b8b14aa2",
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-authority-20260823T192059Z/evidence/registry.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/state/evidence_registry.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "9b9641c87e99cb33a8dddef693b981c37fdfb826b5f352275f8109303eaed0a0",
+    "paths": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T175536Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191211Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191247Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191347Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191441Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191444Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191446Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191553Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191645Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191648Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191741Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191745Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191810Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191813Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191907Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191910Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191913Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191915Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191918Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191946Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191949Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191952Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191955Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191958Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T192059Z/evidence/reconciliation.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "00a1d5d70f3f485cf7b42f74ef1d3dc277c7fcf1a988e8255f8298076a25bd7e",
+    "paths": [
+      ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/discovery.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T175606Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191139Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/inventory.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "dd5f6f2877aafe7d88ed239f29acfe530dd641defeb1ce910ee11591d813e743",
+    "paths": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/diagnostic.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "76d489f7e22357e9468beaa2b21afd607089ac173f5d6356afe4b6ea10d2fbca",
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/baseline.json",
+      ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/state.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "1c82cc76e86042ec0a12a6d0548be1723eea0ad44ae493cced522de32ca7917a",
+    "paths": [
+      ".ul7ra/funnel/runs/health-20260823T191246Z/evidence/state.before.json",
+      ".ul7ra/funnel/runs/health-20260823T191246Z/evidence/state.snapshot.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "ea6121a6b71c9d7cf54d6b12cbee2bae8ac4704ca522a997985578ff20049eb7",
+    "paths": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/root-cause-20260823T174953Z/evidence/registry.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "9cffd4c512bb5be35766526c6fdffc6bd580787816b8f003f910152017b2acc6",
+    "paths": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/reconciliation.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "4c1badbd497140f2a91d3cebc666f6bd006303c6510f7b692ff71bc7dfe63fd0",
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/git_status.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "a2633f4392d289f7c93fc7b019576996bf249009a7ecd40da8fab807c32d2c0a",
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/directory_contract.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "0c93c2b327bee3796feac6ea6ff082a0c0d8e76a3aa19a0a4eddb51a8af5107b",
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/authority_reconciliation.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "8ebf8a003b2a2d4b61788fca12b385df8b51aac1e39526bf7156fb834ad55ec6",
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/fail_closed.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "2d612566ba1769ae1d5041c03474856c00d7462017ae2a8aa86e37e5f7147076",
+    "paths": [
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "f9a5b6219060f265bc78666fb1e96eba9c086d3786e591c90b2ff6438ae1d013",
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T162913Z/evidence/GIT_STATUS.txt",
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_STATUS.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "7e0ba85e820e6e6a75e8be8a0c8f7b01646002f05bf98512416c15175f63431f",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/verify_product_script.txt",
+      "products/ul7ra-verify/scripts/verify_product.sh"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "670dff2770c1c7ac0960ef860d7bf4a365239519c33797fef08bff2f8340acc1",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/root.json",
+      "products/ul7ra-verify/deploy/runtime/local_origin.json",
+      "products/ul7ra-verify/deploy/runtime/local_response.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "d1a1864eb67675d67399463ea62a8cca74891508a265a213e23ebd3ea8c7235a",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/domain_response.json",
+      "products/ul7ra-verify/deploy/runtime/public_body.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "1edb7deae23c1e1cb762b4b3ff32bc0e544b7da41bddedae565dc8befdb5390e",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/final_tunnel_list.txt",
+      "products/ul7ra-verify/deploy/runtime/tunnel_list.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "c04b861be29feea21d34bfe36bd6b040551305ace1b284002929bf9fb8de8ef6",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/config-test.yml",
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflared_config.txt",
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/cloudflared-config.yml"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "804204c4d9e1783bf0990ec6349812fcf4699a64a47d48f9a6f0ad5aafa3056d",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/final_source_hashes.txt",
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/source_hashes.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/source_hashes_after.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/source_hashes_before.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/source_hashes.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "a7176a185bc609f3c3079d63be90ca70d14dda0f77f2839bbdbb1a180e366d18",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/config_redacted.yml",
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_config.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "d04dbd546106e48c6c0a1c87cf7262711914182319a7d70543c77b5458d64405",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_a.json",
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflare_dns.json",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/a_before.json",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/a_final.json",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/public_dns.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "0fb13d5bf21cfb79b4e12d905f5718d42f8c8863089ee472da4e99544b930afb",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/tunnel_info.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "815699c7b08b04846ceaba717d09f85f0300947b237e75243c92e936096dd102",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_cname.json",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/public_cname.json",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_before.json",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_1.json",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_2.json",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_4.json",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_6.json",
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_1111.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "ca61a63cd61e8296d50eb9062bf973432d6a7337f75914f62cca9f9f3b44ef7c",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/authoritative_cname.json",
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_a.json",
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_cname.json",
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_cname_after.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "6ceb189d3d587ecc0d2ff631a93a8feb8b7bc12ca92a64b11f7e1f2c7b2be0ab",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/google_cname_after.json",
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_google.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "52cd3e3a4e60ac5221805fdee795683260b45c7e2fb440cdc6069ae617f448ed",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/token_verify.json",
+      "products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/zone.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "06714666e8a6c6fd3fa74cf1011f468dac2ff701f394c784bc5a31ed01ec6a2c",
+    "paths": [
+      "products/ul7ra-verify/evidence/execution/expected_sha256.txt",
+      "products/ul7ra-verify/evidence/execution/local_sha256.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "785f3ec7eb32f30b90cd0fcf3657d388b5ff4297f2f9716ff66e9b69c05ddd09",
+    "paths": [
+      "products/ul7ra-verify/evidence/execution/expected_bytes.txt",
+      "products/ul7ra-verify/evidence/execution/local_bytes.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "3ada36d0d4719a8d58f14a06a4f15349ae4037e21e2e2d4f855b8052e5f2c82b",
+    "paths": [
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-status-after.txt",
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-status-before.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "064aa62133fc8a06c5517f354df306267fbc58d09f2fa4872fb0dfa22d1bae40",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-git.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-git.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-git.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-git.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "ef600805f75a3f35501f1b64e7d2534e6777f1a3e7eabb0b75e579d8b458a6d0",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-gh.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-gh.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-gh.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-gh.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "14f9f1da08aaccbcfbb155a07de7e2b7c6a74764dacbf08ef1f3e99312a9da5f",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-cloudflared.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-cloudflared.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-cloudflared.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-cloudflared.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "dc9930c17e9cd9135e54e5b33ca6344ea5ed0954bc7fe787d0822891c3159b6d",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-python3.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-python3.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-python3.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-python3.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "8e598c101c4af1b2b7e1dc252bc0ee7f70fd04a80d403cfb18655e9f393787bb",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-curl.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "d111a3948247f0c6a43e96cadcf6e578a34df5f6985dda38a271ede069daf4e5",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-dig.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-dig.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-dig.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-dig.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "8feed15900120d22e9e11f1bf6070de7c61431c6a3b1d3b81a1cc7c01addfc53",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "90897cbbadddc12f6e48a66b2c5c3321a6f715618c6db312e9b3be697a73ab1e",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "27badc983df1780b60c2b3fa9d3a19a00e46aac798451f0febdca52920faaddf",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-code.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "e78c826afd77584aae8c12fb572e5567d58b352a3009db07c204e41f6e98986d",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification-check.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification-check.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-proof.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "56d8d19a455dedd6987b6239a9e8736a07b9899fb41c4d584527faaf047525bd",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-list.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-list.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "299b12d6e8b5ce6cf6bad2c74635f83bf2975a1a40500b98d2c363982e4d9399",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-info.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-info.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "6424fd80d911b4587f31fcf06a6cc447120471113c358d0e97aee711346a6cff",
+    "paths": [
+      "UL7RAFORGE/ul7rastack/security/containment/state.json",
+      "UL7RAFORGE/ul7rastack/security/evidence/latest_containment.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "30054e6a4b169134c25ee1fce1a11a18721d011fd7cbf284e8b712d6c3b4854c",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/hyperquantum/state/20260813T214435Z/hyperquantum_result.json",
+      "UL7RAFORGE/v10/ul7rastack/hyperquantum/state/current_hyperquantum_result.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "cde7dc2d6724e062743e5da015cc10b53fe7f409be5c3d67f6d1f701b38d5f62",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014655Z/evidence_consumed_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014832Z/evidence_consumed_record.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "1a82e5c505769a3ab1b9c863ceae8401e6d50b7e27fe34d7872f889290116661",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015125Z/evidence_consumed_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015738Z/evidence_consumed_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015817Z/evidence_consumed_record.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "c1c32013d88b670d62aed2ea80f22c2b278a694937025548327f93a4fdd23da2",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/reproducibility.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/reproducibility.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "1dc284b79e412e412942dcf124139522d5daedf824e7443c0ceb2a0f79306650",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/purple/status.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/purple/status.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "85f6df83a4863bf6fa3d9bc70dddd6aa0accd4cbf1d81f2c75c010da4ef37c17",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_status.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/git_status.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "b5180223165af3583fd0724209986caf2a62692654b74c525027dda592404330",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_commit.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/git_commit.txt"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "17d7a7bac7fc653c98cfd2b90daae9366aedf36475e2c08d7ebb2035a5e72a3b",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/result.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "6889a346b197b9b6f6d1789785312e0ae9918dc39ff2a75bbc1a0ae9fa736c85",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/result.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  },
+  {
+    "normalized_sha256": "de965701c4900b65980294c0a0b5270b28241f1c93cc0cbd83aef732b453f676",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/result.json"
+    ],
+    "decision": "REVIEW_REQUIRED",
+    "reason": "NORMALIZED_CONTENT_MATCH_NOT_SUFFICIENT_FOR_CANONICALITY"
+  }
+]

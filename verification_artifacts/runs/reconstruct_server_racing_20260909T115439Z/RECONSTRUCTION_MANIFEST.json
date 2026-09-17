@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-09-09T11:54:45Z",
+  "governance": {
+    "ail": "REQUIRED",
+    "auto_promotion": false,
+    "promotion": "REFUSED",
+    "purple_team": "REQUIRED",
+    "trinity": "REQUIRED"
+  },
+  "historical_checkpoint": {
+    "expected_sha256": "953c0ddc6a6b28ef83ed1a9d1d6a9c546919819357370e78b1a53532265607fc",
+    "path": "verification_artifacts/runs/checkpoint_server_racing_20260909T104010Z/CHECKPOINT.json",
+    "recovered": false,
+    "status": "MISSING"
+  },
+  "new_checkpoint": {
+    "path": "CHECKPOINT.json",
+    "permission_mode": 292,
+    "sha256": "491a2a5447ba2444394248372ecbee52fd848160f2f283861a90ffd60667c6eb"
+  },
+  "provenance": {
+    "historical_recovery": false,
+    "historical_rewrite": false,
+    "reconstruction": true
+  },
+  "repository": {
+    "git_branch": "master",
+    "git_head": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4"
+  },
+  "run_id": "reconstruct_server_racing_20260909T115439Z",
+  "schema": "UL7RAFORECAST.RECONSTRUCTION_MANIFEST.v1",
+  "test_gate": {
+    "command": "python -m pytest racing/tests -q",
+    "observed_passes": 64,
+    "required_passes": 64,
+    "result": "PASS",
+    "test_log_sha256": "9d9fee605c345304ad39fdf5fea76de30027da09154fd2d2eaeff5876ec666c4"
+  }
+}

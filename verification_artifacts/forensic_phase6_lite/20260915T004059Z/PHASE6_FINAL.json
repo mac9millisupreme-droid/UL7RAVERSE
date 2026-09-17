@@ -1,0 +1,17 @@
+{
+  "phase": 6,
+  "mode": "LOW_RESOURCE",
+  "source_evidence": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/forensic_phase5/20260915T003024Z",
+  "decision": "REVIEW_REQUIRED",
+  "canonicality": "PARTIALLY_RESOLVED",
+  "authority_boundary": "UL7RABRIDGE",
+  "source_modification": "NONE",
+  "production_modification": "NONE",
+  "real_ul7rabridge_modification": "NONE",
+  "production_unlock": "BLOCKED",
+  "canonical_owner_proposals": [],
+  "unresolved_groups": [],
+  "alias_proposals": [],
+  "protected_owner_proposals": [],
+  "protected_aliases": []
+}

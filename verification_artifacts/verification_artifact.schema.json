@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UL7RAVERSE Verification Artifact",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_version",
+    "run_id",
+    "created_at",
+    "repository",
+    "git",
+    "baseline",
+    "environment",
+    "gates",
+    "decision",
+    "promotion",
+    "integrity"
+  ],
+  "properties": {
+    "artifact_version": {"type": "string"},
+    "run_id": {"type": "string"},
+    "created_at": {"type": "string"},
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["root"],
+      "properties": {
+        "root": {"type": "string"}
+      }
+    },
+    "git": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["head", "branch", "worktree"],
+      "properties": {
+        "head": {"type": "string"},
+        "branch": {"type": "string"},
+        "worktree": {"type": "string"}
+      }
+    },
+    "baseline": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "status"],
+      "properties": {
+        "id": {"type": "string"},
+        "status": {"type": "string"}
+      }
+    },
+    "environment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["platform", "python"],
+      "properties": {
+        "platform": {"type": "string"},
+        "python": {"type": "string"}
+      }
+    },
+    "gates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "BUILD",
+        "TEST",
+        "ADVERSARIAL",
+        "PROVENANCE",
+        "TEMPORAL",
+        "AIL",
+        "LUCITEST",
+        "TRINITY"
+      ],
+      "properties": {
+        "BUILD": {"type": "string"},
+        "TEST": {"type": "string"},
+        "ADVERSARIAL": {"type": "string"},
+        "PROVENANCE": {"type": "string"},
+        "TEMPORAL": {"type": "string"},
+        "AIL": {"type": "string"},
+        "LUCITEST": {"type": "string"},
+        "TRINITY": {"type": "string"}
+      }
+    },
+    "decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "reason"],
+      "properties": {
+        "status": {"type": "string"},
+        "reason": {"type": "string"}
+      }
+    },
+    "promotion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "authority"],
+      "properties": {
+        "status": {"type": "string"},
+        "authority": {"type": "string"}
+      }
+    },
+    "integrity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["canonical_json_sha256"],
+      "properties": {
+        "canonical_json_sha256": {"type": "string"}
+      }
+    }
+  }
+}

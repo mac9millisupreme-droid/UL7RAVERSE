@@ -1,0 +1,29 @@
+{
+  "artifact_type": "UL7RAVERSE_VERIFIED_BASELINE",
+  "canonical_commands": {
+    "ail": "cd ~/UL7RAVERSE && python -m pytest -q racing/tests/test_ail_*.py -vv --tb=long",
+    "racing": "cd ~/UL7RAVERSE && python -m pytest -q racing/tests -vv --tb=long"
+  },
+  "evidence_logs": {
+    "ail": "/tmp/ul7ra_ail_20260909_085302.log",
+    "racing": "/tmp/ul7ra_racing_20260909_085302.log"
+  },
+  "executed_results": {
+    "ail": "FAIL",
+    "ail_exit_code": 1,
+    "racing": "FAIL",
+    "racing_exit_code": 1
+  },
+  "git_head": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+  "git_status": "?? AIL_FINAL_VERIFICATION_REPORT.md ?? FREEZE_VERIFIED_BASELINE.sh ?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json ?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json ?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/ ?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/ ?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/ ?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/ ?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/ ?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/ ?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/ ?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/ ?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/ ?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/ ?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/ ?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/ ?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/ ?? products/ul7ra-verify/deploy/runtime/health_recovery.json ?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/ ?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/ ?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/ ?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/ ?? racing/ ?? racing_recon.sh ?? racing_recon_test.txt ",
+  "integrity_statement": "AIL and Racing statuses are generated only from tests executed during this freeze. Regression core, replay, determinism, and server status are explicitly identified as previously verified rather than falsely represented as newly executed.",
+  "overall": "BLOCKED",
+  "previously_verified_results": {
+    "determinism": "PASS",
+    "regression_core": "PASS",
+    "replay": "PASS",
+    "server_test": "ENVIRONMENT_DEPENDENT"
+  },
+  "schema_version": "1.1",
+  "timestamp_utc": "2026-09-09T08:53:02Z"
+}

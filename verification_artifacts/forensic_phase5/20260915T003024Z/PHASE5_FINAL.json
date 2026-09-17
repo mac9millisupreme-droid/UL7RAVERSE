@@ -1,0 +1,19 @@
+{
+  "schema": "UL7RAVERSE_FORENSIC_PHASE5/v1",
+  "phase": 5,
+  "decision": "REVIEW_REQUIRED",
+  "canonicality": "PARTIALLY_RESOLVED",
+  "authority_boundary": "UL7RABRIDGE",
+  "production_unlock": "BLOCKED",
+  "source_modification": "NONE",
+  "production_modification": "NONE",
+  "real_ul7rabridge_modification": "NONE",
+  "inventory_files": 2566,
+  "exact_duplicate_groups": 126,
+  "confirmed_duplicate_groups": 126,
+  "normalized_duplicate_groups": 127,
+  "authority_surfaces": 221,
+  "proof_surfaces": 1628,
+  "protected_duplicate_groups": 86,
+  "next_phase": "CANONICAL OWNER SELECTION AND REVERSIBLE ALIAS MIGRATION"
+}

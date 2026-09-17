@@ -1,0 +1,18 @@
+{
+  "schema": "UL7RAVERSE_PHASE5_IDENTITY_MAP/v1",
+  "status": "REVIEW_REQUIRED",
+  "canonicality": "PARTIALLY_RESOLVED",
+  "rules": {
+    "exact_hash_match": "CONFIRMED_DUPLICATE",
+    "normalized_match": "REVIEW_REQUIRED",
+    "name_match": "REVIEW_REQUIRED",
+    "authority_surface": "PROTECTED_REVIEW",
+    "proof_surface": "PROTECTED_REVIEW",
+    "no_deletion": true,
+    "no_merge": true,
+    "no_authority_transfer": true
+  },
+  "confirmed_duplicate_groups": 126,
+  "normalized_duplicate_groups": 127,
+  "protected_surfaces": 1782
+}

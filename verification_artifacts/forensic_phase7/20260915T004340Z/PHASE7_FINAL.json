@@ -1,0 +1,16 @@
+{
+  "schema": "UL7RAVERSE_FORENSIC_PHASE7/v1",
+  "phase": 7,
+  "decision": "BLOCKED",
+  "mode": "DRY_RUN",
+  "canonical_owner_proposals": 40,
+  "alias_proposals": 87,
+  "protected_owner_proposals": 86,
+  "protected_aliases": 583,
+  "failures": 3,
+  "authority_boundary": "UL7RABRIDGE",
+  "production_unlock": "BLOCKED",
+  "source_modification": "NONE",
+  "production_modification": "NONE",
+  "real_ul7rabridge_modification": "NONE"
+}

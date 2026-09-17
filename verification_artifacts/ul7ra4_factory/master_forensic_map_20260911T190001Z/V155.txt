@@ -1,0 +1,29 @@
+PATH MATCHES:
+./.ul7ra/funnel/runs/continuous-authority-20260823T191553Z
+./.ul7ra/funnel/runs/diagnostic-20260823T191552Z
+./products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z
+./racing/repair_logs/phase2_logs/phase2_20260909_050155.log
+./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt
+./verification_artifacts/membership_readiness/20260910T202155Z
+./verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/V155.txt
+./verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/V155_FORENSIC.txt
+
+CONTENT REFERENCES:
+./verification_artifacts/ul7ra4_factory/20260911T185311Z/MASTER_SYSTEM_STATUS.md:33:## V155
+./verification_artifacts/ul7ra4_factory/20260911T185311Z/MASTER_SYSTEM_STATUS.md:35:V155 is included in the canonical reconciliation register.
+./verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/reconciliation.log:237:=== V155 FORENSIC SEARCH ===
+./verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/V155.txt:8:./verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/V155.txt
+./REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh:139:    \( -iname '*v155*' -o \
+./REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh:212:      "V155"
+./REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh:431:## V155
+./REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh:433:V155 is included in the canonical reconciliation register.
+./ul7ra4_factory/manifests/CANONICAL_COMPONENT_REGISTER.json:29:      "V155"
+./RUN_UL7RA4_RECONCILIATION.sh:59:      -iname '*v155*' -o \
+./RUN_UL7RA4_RECONCILIATION.sh:106:# 4. EXACT V155 SEARCH
+./RUN_UL7RA4_RECONCILIATION.sh:110:echo "=== V155 FORENSIC SEARCH ==="
+./RUN_UL7RA4_RECONCILIATION.sh:115:        \( -iname '*155*' -o -iname '*v155*' \) \
+./RUN_UL7RA4_RECONCILIATION.sh:124:        'V155|v155|UL7RA4|UL7RAFORGE|UL7RASENTINEL|UL7RAPROOF|UL7RABRIDGE' \
+./RUN_UL7RA4_RECONCILIATION.sh:152:        "UL7RA4ORGE", "UL7RAFORGE", "V155", "V99-LITE"
+./RUN_UL7RA4_RECONCILIATION.sh:259:      "V155"
+./RUN_UL7RA4_RECONCILIATION.sh:342:## V155
+./RUN_UL7RA4_RECONCILIATION.sh:344:V155 is explicitly tracked as a candidate/version surface.

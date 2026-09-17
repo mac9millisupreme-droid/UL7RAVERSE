@@ -1,0 +1,22 @@
+{
+  "product": "UL7RAPASS",
+  "price_cad": 500,
+  "term_months": 12,
+  "states": [
+    "UNKNOWN",
+    "UNVERIFIED",
+    "QUALIFIED",
+    "CHALLENGE_STARTED",
+    "PROOF_GENERATED",
+    "OFFERED",
+    "CHECKOUT_STARTED",
+    "PAYMENT_PENDING",
+    "PAYMENT_VERIFIED",
+    "ACTIVATION_PENDING",
+    "ACTIVE",
+    "SUSPENDED",
+    "EXPIRED",
+    "REFUNDED",
+    "BLOCKED"
+  ]
+}

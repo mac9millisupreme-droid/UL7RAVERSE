@@ -1,0 +1,16 @@
+{
+  "target_members": 15,
+  "price_cad": 500,
+  "target_verified_revenue_cad": 7500,
+  "prospects": 0,
+  "qualified": 0,
+  "challenges": 0,
+  "proof_generated": 0,
+  "offers": 0,
+  "payments_verified": 0,
+  "active_members": 0,
+  "verified_revenue_cad": 0,
+  "next_bottleneck": "UNKNOWN",
+  "payment_state": "UNKNOWN",
+  "activation_state": "LOCKED"
+}

@@ -1,0 +1,16 @@
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/cheetah_regression.sh:12:    echo "FAIL: prohibited direction accepted"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:17:assert data["network"] == "DENY_BY_DEFAULT"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:21:assert data["return_path"] == "DENY"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:30:    echo "FAIL: ghost partition was not destroyed"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh:12:assert m["network"] == "DENY_BY_DEFAULT"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh:14:assert m["return_path"] == "DENY"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh:22:echo "UL7RABRIDGE INVARIANT = PASS"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:26:    echo "FAIL: ephemeral state survived cleanup"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:19:        "bridge_invariant": "PASS",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh:13:assert p["default"] == "DENY"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh:21:assert p["non_canadian_route"] == "DENY"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh:25:print("EGRESS DEFAULT DENY = PASS")
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh:30:print("NON-CANADIAN ROUTE = DENY")
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:20:    echo "FAIL: tampered attestation accepted"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:21:    "bridge_invariant",
+grep: /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/__pycache__/security_assurance.cpython-314.pyc: binary file matches

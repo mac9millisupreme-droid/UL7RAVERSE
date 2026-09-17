@@ -1,0 +1,49 @@
+./verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/UL7RAPASS_CHECKOUT_SPEC.json:13:    "no_proof_no_trusted_action": true,
+./verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/FINAL_DECISION.md:17:- NO_PROOF_NO_TRUSTED_ACTION
+./verification_artifacts/unified/20260911T191746Z/DECISIONS.txt:37:- NO_PROOF_NO_TRUSTED_ACTION
+./verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/FINAL_DECISION.md:13:- NO_PROOF_NO_TRUSTED_ACTION
+./verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/FINAL_DECISION.md:14:- NO_PROOF_NO_TRUSTED_ACTION
+./verification_artifacts/origin_runtime/20260911T200007Z/FINAL_DECISION.md:15:NO_PROOF_NO_TRUSTED_ACTION
+./verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json:18:    "NO_IDENTITY_NO_CAPABILITY",
+./verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json:19:    "NO_CAPABILITY_WITHOUT_SCOPE",
+./verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json:20:    "NO_CAPABILITY_AFTER_EXPIRY",
+./verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json:21:    "NO_PROOF_NO_TRUSTED_ACTION",
+./verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json:22:    "NO_AUTHORIZATION_NO_CONSEQUENTIAL_ACTION",
+./verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json:23:    "NO_SELF_AUTHORIZATION",
+./verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json:24:    "NO_SCOPE_ESCALATION",
+./verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json:25:    "NO_LEASE_REUSE",
+./verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json:26:    "NO_UNTRUSTED_INSTRUCTION_AS_POLICY",
+./verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json:27:    "NO_CONSTITUTIONAL_SELF_MODIFICATION",
+./verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json:33:    "NODE9_AND_BRIDGE_CANNOT_GRANT_AUTHORITY"
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json:18:    "NO_IDENTITY_NO_CAPABILITY",
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json:19:    "NO_CAPABILITY_WITHOUT_SCOPE",
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json:20:    "NO_CAPABILITY_AFTER_EXPIRY",
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json:21:    "NO_PROOF_NO_TRUSTED_ACTION",
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json:22:    "NO_AUTHORIZATION_NO_CONSEQUENTIAL_ACTION",
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json:23:    "NO_SELF_AUTHORIZATION",
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json:24:    "NO_SCOPE_ESCALATION",
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json:25:    "NO_LEASE_REUSE",
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json:26:    "NO_UNTRUSTED_INSTRUCTION_AS_POLICY",
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json:27:    "NO_CONSTITUTIONAL_SELF_MODIFICATION",
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json:33:    "NODE9_AND_BRIDGE_CANNOT_GRANT_AUTHORITY"
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/RESULTS.json:8:    "body": "{\n  \"passed\": true,\n  \"checks\": [\n    {\n      \"name\": \"self-authorization\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"constitutional-bypass\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"consequential-without-authority\",\n      \"passed\": true\n    }\n  ],\n  \"invariants\": [\n    \"NO_IDENTITY_NO_CAPABILITY\",\n    \"NO_CAPABILITY_WITHOUT_SCOPE\",\n    \"NO_CAPABILITY_AFTER_EXPIRY\",\n    \"NO_PROOF_NO_TRUSTED_ACTION\",\n    \"NO_AUTHORIZATION_NO_CONSEQUENTIAL_ACTION\",\n    \"NO_SELF_AUTHORIZATION\",\n    \"NO_SCOPE_ESCALATION\",\n    \"NO_LEASE_REUSE\",\n    \"NO_UNTRUSTED_INSTRUCTION_AS_POLICY\",\n    \"NO_CONSTITUTIONAL_SELF_MODIFICATION\",\n    \"PREDICTIONS_FREEZE_BEFORE_TRIAL\",\n    \"BLIND_EVALUATION_REQUIRED\",\n    \"OUTCOME_MUST_BE_VERIFIED\",\n    \"INCIDENTS_TRIGGER_CONTAINMENT\",\n    \"REGRESSION_BLOCKS_PROMOTION\",\n    \"NODE9_AND_BRIDGE_CANNOT_GRANT_AUTHORITY\"\n  ]\n}"
+./verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/FINAL_DECISION.md:14:NO_PROOF_NO_TRUSTED_ACTION
+./verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json:18:    "NO_IDENTITY_NO_CAPABILITY",
+./verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json:19:    "NO_CAPABILITY_WITHOUT_SCOPE",
+./verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json:20:    "NO_CAPABILITY_AFTER_EXPIRY",
+./verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json:21:    "NO_PROOF_NO_TRUSTED_ACTION",
+./verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json:22:    "NO_AUTHORIZATION_NO_CONSEQUENTIAL_ACTION",
+./verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json:23:    "NO_SELF_AUTHORIZATION",
+./verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json:24:    "NO_SCOPE_ESCALATION",
+./verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json:25:    "NO_LEASE_REUSE",
+./verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json:26:    "NO_UNTRUSTED_INSTRUCTION_AS_POLICY",
+./verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json:27:    "NO_CONSTITUTIONAL_SELF_MODIFICATION",
+./verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json:33:    "NODE9_AND_BRIDGE_CANNOT_GRANT_AUTHORITY"
+./verification_artifacts/origin_runtime/START_20260911T200939Z/FINAL_DECISION.md:20:NO_PROOF_NO_TRUSTED_ACTION
+./launch_ul7rapass_one_script.sh:30:    "no_proof_no_trusted_action": true,
+./REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh:69:    "no_proof_no_trusted_action": true,
+./ul7ra4_factory/contracts/governance.json:8:    "no_proof_no_trusted_action": true,
+./CONNECT_UL7RAVERSE_ONE.sh:185:- NO_PROOF_NO_TRUSTED_ACTION
+./FIX_UL7RA_ORIGIN.sh:180:NO_PROOF_NO_TRUSTED_ACTION
+./VERIFY_UL7RA_ORIGIN.sh:97:NO_PROOF_NO_TRUSTED_ACTION
+./VERIFY_UL7RA_ORIGIN_FIXED.sh:106:NO_PROOF_NO_TRUSTED_ACTION

@@ -1,0 +1,15 @@
+{
+  "schema": "LUCI-PROMOTE-0.2",
+  "timestamp": 1789346946,
+  "event": {
+    "track_id": 3,
+    "title": "PURPLE-TEST-1789346946",
+    "artist": "PURPLE_TEST",
+    "platform": "PURPLE_TEST",
+    "state": "READY",
+    "publication_claim": false,
+    "rule": "NO_PROOF_NO_PUBLISHED_CLAIM"
+  },
+  "decision": "READY_FOR_PROMOTION",
+  "sha256": "2846f937e265c58688ff073feeaa37e36bfef1e5fd4d78bc02c18fb4ce16df7c"
+}

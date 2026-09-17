@@ -1,0 +1,6 @@
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/ghost/templates/manifest.json:4:  "filesystem": "EPHEMERAL",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:16:assert data["filesystem"] == "EPHEMERAL"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:14:printf '%s\n' "EPHEMERAL_TEST_DATA" > "$GHOST/data"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:20:test "$(cat "$GHOST/data")" = "EPHEMERAL_TEST_DATA"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:26:    echo "FAIL: ephemeral state survived cleanup"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:30:echo "EPHEMERAL STATE = PASS"

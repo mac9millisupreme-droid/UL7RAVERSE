@@ -1,0 +1,42 @@
+{
+  "schema": "UL7RAVERSE_CONSOLIDATION_PLAN/v1",
+  "phase": 9,
+  "mode": "EVIDENCE_BACKED_PLANNING_ONLY",
+  "decision": "PLAN_READY_FOR_REVIEW",
+  "authority_boundary": "UL7RABRIDGE",
+  "canonicality": "FROZEN",
+  "execution_authorized": false,
+  "inputs": {
+    "phase7": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/forensic_phase7/20260915T004453Z",
+    "phase8": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/forensic_phase8_lite/20260915T010500Z"
+  },
+  "counts": {
+    "phase8_decision": "PASS_WITH_REVIEW",
+    "protected_conflicts": 0,
+    "regression_failures": 0,
+    "owner_groups": 40,
+    "protected_groups": 86,
+    "aliases": 87,
+    "protected_aliases": 583,
+    "identity_items": 126,
+    "rollback_items": 126
+  },
+  "precondition_failures": [],
+  "planned_artifacts": [
+    "OWNER_ALIAS_MAP.json",
+    "PROTECTED_ITEM_LEDGER.json",
+    "ROLLBACK_SEQUENCE.json",
+    "GOVERNANCE_GATE_PLAN.json"
+  ],
+  "prohibited_actions": [
+    "MERGE",
+    "DELETE",
+    "RENAME",
+    "SOURCE_MODIFICATION",
+    "PRODUCTION_MODIFICATION",
+    "UL7RABRIDGE_MODIFICATION",
+    "CANONICAL_AUTHORITY_CHANGE",
+    "PRODUCTION_UNLOCK"
+  ],
+  "next_gate": "HUMAN_REVIEW"
+}

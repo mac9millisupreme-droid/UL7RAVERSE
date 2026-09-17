@@ -1,0 +1,3 @@
+63c1d60 (HEAD -> master) UL7RAFORGE bootstrap
+2a2496b (origin/master, origin/HEAD) Add UL7RA Verify commercial product
+d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass

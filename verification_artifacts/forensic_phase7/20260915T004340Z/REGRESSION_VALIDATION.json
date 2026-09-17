@@ -1,0 +1,67 @@
+[
+  {
+    "check": "CANONICAL_OWNERS_EXIST",
+    "status": "FAIL",
+    "detail": "missing=40"
+  },
+  {
+    "check": "PROTECTED_OWNERS_EXIST",
+    "status": "FAIL",
+    "detail": "missing=86"
+  },
+  {
+    "check": "ALIAS_TARGETS_VALID",
+    "status": "FAIL",
+    "detail": "invalid=670"
+  },
+  {
+    "check": "UL7RABRIDGE_REMAINS_AUTHORITY",
+    "status": "PASS",
+    "detail": "Simulation does not modify bridge authority."
+  },
+  {
+    "check": "HALO9_CANNOT_GRANT_AUTHORITY",
+    "status": "PASS",
+    "detail": "Governance invariant preserved."
+  },
+  {
+    "check": "LUCI_CANNOT_GRANT_AUTHORITY",
+    "status": "PASS",
+    "detail": "Governance invariant preserved."
+  },
+  {
+    "check": "PROOF_IS_NOT_AUTHORITY",
+    "status": "PASS",
+    "detail": "Governance invariant preserved."
+  },
+  {
+    "check": "NO_AUTOMATIC_DELETE",
+    "status": "PASS",
+    "detail": "Phase 7 is simulation-only."
+  },
+  {
+    "check": "NO_SOURCE_MODIFICATION",
+    "status": "PASS",
+    "detail": "No source files are modified."
+  },
+  {
+    "check": "NO_PRODUCTION_MODIFICATION",
+    "status": "PASS",
+    "detail": "No production files are modified."
+  },
+  {
+    "check": "NO_REAL_BRIDGE_MODIFICATION",
+    "status": "PASS",
+    "detail": "UL7RABRIDGE remains untouched."
+  },
+  {
+    "check": "PROTECTED_OWNER_REVIEW_REQUIRED",
+    "status": "PASS",
+    "detail": "protected_owner_proposals=86"
+  },
+  {
+    "check": "PROTECTED_ALIASES_RETAINED",
+    "status": "PASS",
+    "detail": "protected_aliases=583"
+  }
+]

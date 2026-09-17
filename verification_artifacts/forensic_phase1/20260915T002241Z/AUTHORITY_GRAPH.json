@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "from": "Requester",
+      "relationship": "requests",
+      "status": "REVIEW_REQUIRED",
+      "to": "Agent"
+    },
+    {
+      "from": "Agent",
+      "relationship": "paired_with",
+      "status": "REVIEW_REQUIRED",
+      "to": "HALO9"
+    },
+    {
+      "from": "HALO9",
+      "relationship": "requires",
+      "status": "REVIEW_REQUIRED",
+      "to": "Proof"
+    },
+    {
+      "from": "Proof",
+      "relationship": "evidence_input_only",
+      "status": "DESIGN_CONSTRAINT",
+      "to": "UL7RABRIDGE"
+    },
+    {
+      "from": "Cheetah",
+      "relationship": "policy_gate",
+      "status": "REVIEW_REQUIRED",
+      "to": "UL7RABRIDGE"
+    },
+    {
+      "from": "UL7RABRIDGE",
+      "relationship": "authority_boundary",
+      "status": "REVIEW_REQUIRED",
+      "to": "TrustedAction"
+    }
+  ],
+  "nodes": [
+    "Requester",
+    "Agent",
+    "HALO9",
+    "Mission",
+    "Capability",
+    "Proof",
+    "Cheetah",
+    "UL7RABRIDGE",
+    "Governance",
+    "TrustedAction"
+  ]
+}

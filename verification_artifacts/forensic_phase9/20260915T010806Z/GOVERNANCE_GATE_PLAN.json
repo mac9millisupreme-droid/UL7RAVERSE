@@ -1,0 +1,67 @@
+{
+  "schema": "UL7RAVERSE_PHASE9_GOVERNANCE_GATE_PLAN/v1",
+  "phase": 9,
+  "mode": "PLANNING_ONLY",
+  "authority_boundary": "UL7RABRIDGE",
+  "gates": [
+    {
+      "gate": "REVIEW_GATE",
+      "status": "REQUIRED",
+      "requirements": [
+        "Review all owner-to-alias mappings",
+        "Review all protected owners",
+        "Review all protected aliases"
+      ]
+    },
+    {
+      "gate": "ROLLBACK_GATE",
+      "status": "REQUIRED",
+      "requirements": [
+        "Validate all 126 identity items",
+        "Validate all 126 rollback items",
+        "Confirm reversibility before any future execution"
+      ]
+    },
+    {
+      "gate": "EVIDENCE_GATE",
+      "status": "REQUIRED",
+      "requirements": [
+        "Every mapping references Phase 7 evidence",
+        "Every mapping references Phase 8 evidence",
+        "No inferred evidence may replace recorded evidence"
+      ]
+    },
+    {
+      "gate": "PRODUCTION_GATE",
+      "status": "BLOCKED",
+      "requirements": [
+        "No production modification during Phase 9",
+        "No production unlock until governance gates pass",
+        "No authority transfer to consolidation tooling"
+      ]
+    },
+    {
+      "gate": "CANONICAL_GATE",
+      "status": "FROZEN",
+      "requirements": [
+        "Canonical assurance remains unchanged",
+        "UL7RABRIDGE remains the authority boundary",
+        "No owner becomes canonical solely from this plan"
+      ]
+    }
+  ],
+  "invariants": [
+    "UNVERIFIED != PASS",
+    "UNKNOWN remains UNKNOWN",
+    "NO PROOF -> NO TRUSTED ACTION",
+    "COMMERCE != PROOF",
+    "PAYMENT != PROOF",
+    "AGENT != AUTHORITY",
+    "LUCI != AUTHORITY",
+    "UL7RAPROOF != AUTHORITY",
+    "Git = history",
+    "Ledger = evidence",
+    "Governance = authority",
+    "Fail closed"
+  ]
+}

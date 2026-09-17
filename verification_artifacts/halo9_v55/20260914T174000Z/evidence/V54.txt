@@ -1,0 +1,26 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.31s
+     Running unittests src/lib.rs (target/debug/deps/halo_twin_pair-5c0b281d55870206)
+
+running 13 tests
+test bridge_gate::tests::invalid_pair_cannot_reach_bridge_allow ... ok
+test bridge_gate::tests::valid_pair_cannot_override_bridge_deny ... ok
+test tests::explicit_revoke_is_fail_closed ... ok
+test bridge_gate::tests::valid_pair_plus_bridge_allow_is_required ... ok
+test tests::mismatched_pair_is_blocked ... ok
+test tests::expired_pair_is_blocked ... ok
+test tests::missing_or_invalid_crypto_means_no_action ... ok
+test tests::old_sequence_is_blocked ... ok
+test tests::proof_is_required_before_rollover ... ok
+test tests::replayed_nonce_is_blocked ... ok
+test tests::revoked_pair_is_blocked ... ok
+test tests::valid_pair_is_actionable ... ok
+test tests::valid_proof_enables_rolling_but_not_old_action ... ok
+
+test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running unittests src/main.rs (target/debug/deps/halo9_demo-3c1c58344072346f)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

@@ -1,0 +1,568 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -euo pipefail
+
+ROOT="$HOME/UL7RAVERSE"
+TS="$(date -u +%Y%m%dT%H%M%SZ)"
+OUT="$ROOT/verification_artifacts/omnipulse/$TS"
+APP="$OUT/app"
+
+mkdir -p "$APP"/{data,media,claims,proof,shares} "$OUT/reports"
+
+echo "============================================================"
+echo " OMNIPULSE VISITOR LOOP"
+echo " INTAKE → MY FAIR → EXPERIENCE → PROOF → SHARE"
+echo "============================================================"
+echo "TIMESTAMP=$TS"
+
+cat > "$APP/data/events.json" <<'EOF'
+[
+  {
+    "id":"western-fair-2026",
+    "name":"Western Fair",
+    "location":"London, Ontario",
+    "status":"LIVE_EVENT",
+    "source_type":"OFFICIAL",
+    "source":"Western Fair official public information",
+    "proof_state":"VERIFIED_SOURCE"
+  }
+]
+EOF
+
+cat > "$APP/data/experiences.json" <<'EOF'
+[]
+EOF
+
+cat > "$APP/data/claims.json" <<'EOF'
+[]
+EOF
+
+cat > "$APP/data/proof.json" <<'EOF'
+[]
+EOF
+
+cat > "$APP/data/shares.json" <<'EOF'
+[]
+EOF
+
+cat > "$APP/index.html" <<'HTML'
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<title>OmniPulse — Find Your Fair</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:#fafafa;
+  color:#111;
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif
+}
+main{max-width:720px;margin:auto;padding:20px}
+h1{font-size:44px;line-height:1;margin:8px 0}
+h2{margin-top:28px}
+p{line-height:1.5}
+.hero{text-align:center;padding:22px 0}
+.sub{font-size:21px}
+.card{
+  background:white;
+  border:1px solid #ddd;
+  border-radius:18px;
+  padding:18px;
+  margin:12px 0
+}
+.grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px
+}
+button,.button{
+  width:100%;
+  padding:17px;
+  border:1px solid #ccc;
+  border-radius:14px;
+  background:white;
+  font-size:16px;
+  cursor:pointer
+}
+.primary{
+  background:#111;
+  color:white;
+  border-color:#111
+}
+input,select{
+  width:100%;
+  padding:14px;
+  margin:7px 0 14px;
+  border:1px solid #ccc;
+  border-radius:12px;
+  font-size:16px
+}
+.hidden{display:none}
+.tag{
+  display:inline-block;
+  border:1px solid #bbb;
+  border-radius:999px;
+  padding:7px 10px;
+  margin:3px
+}
+.stop{
+  border-left:4px solid #111;
+  padding:12px 15px;
+  margin:10px 0;
+  background:#fafafa
+}
+small{color:#666}
+#status{margin-top:12px;font-size:14px}
+</style>
+</head>
+
+<body>
+<main>
+
+<section class="hero">
+  <div style="font-size:52px">🎡</div>
+  <h1>OMNIPULSE</h1>
+  <div class="sub">Find Your Fair.</div>
+  <p>
+    Not sure where to start?
+    Build a Fair plan around your time, group, budget and interests.
+  </p>
+
+  <button class="primary" onclick="show('intake')">
+    BUILD MY FAIR
+  </button>
+</section>
+
+<section id="intake" class="card hidden">
+<h2>Build Your Fair</h2>
+
+<label>How much time do you have?</label>
+<select id="time">
+<option value="2">About 2 hours</option>
+<option value="4" selected>About 4 hours</option>
+<option value="6">About 6 hours</option>
+<option value="10">Most of the day</option>
+</select>
+
+<label>Who are you with?</label>
+<select id="group">
+<option>Family</option>
+<option>Kids</option>
+<option>Friends</option>
+<option>Date</option>
+<option>Solo</option>
+</select>
+
+<label>Budget</label>
+<select id="budget">
+<option>$25 or less</option>
+<option>$50 or less</option>
+<option>$80 or less</option>
+<option>$100+</option>
+</select>
+
+<label>What are you into?</label>
+<div class="grid">
+<button onclick="toggleInterest(this,'rides')">🎢 Rides</button>
+<button onclick="toggleInterest(this,'food')">🍔 Food</button>
+<button onclick="toggleInterest(this,'music')">🎵 Music</button>
+<button onclick="toggleInterest(this,'animals')">🐴 Animals</button>
+<button onclick="toggleInterest(this,'family')">👨‍👩‍👧 Family</button>
+<button onclick="toggleInterest(this,'value')">💰 Value</button>
+</div>
+
+<br>
+<button class="primary" onclick="buildFair()">
+CREATE MY FAIR
+</button>
+</section>
+
+<section id="plan" class="hidden">
+<h2>🎡 My Fair</h2>
+<div id="planContent"></div>
+
+<button class="primary" onclick="showExperience()">
+I'M EXPERIENCING THE FAIR
+</button>
+</section>
+
+<section id="experience" class="hidden">
+<h2>📸 Capture Your Experience</h2>
+
+<div class="card">
+<label>What did you experience?</label>
+<input id="experienceName"
+       placeholder="e.g. Circus Surreal">
+
+<label>How was it?</label>
+<select id="rating">
+<option value="5">😍 Loved it</option>
+<option value="4">🙂 Great</option>
+<option value="3">😐 Okay</option>
+<option value="2">🙁 Not great</option>
+<option value="1">😞 Would skip next time</option>
+</select>
+
+<label>Wait time</label>
+<input id="wait" type="number" min="0"
+       placeholder="Minutes">
+
+<label>What did you pay?</label>
+<input id="price" type="number" min="0" step=".01"
+       placeholder="$">
+
+<label>Would you do it again?</label>
+<select id="again">
+<option>Yes</option>
+<option>Maybe</option>
+<option>No</option>
+</select>
+
+<label>What should people know?</label>
+<input id="know"
+       placeholder="Quick tip for the next person">
+
+<label>Photos / media</label>
+<input id="media"
+       type="file"
+       accept="image/*,video/*"
+       multiple>
+
+<br>
+<button class="primary" onclick="submitExperience()">
+SAVE EXPERIENCE
+</button>
+</div>
+
+<div id="status"></div>
+</section>
+
+<section id="saved" class="hidden">
+<h2>✓ Experience Saved</h2>
+
+<div class="card">
+<strong>Community Signal Created</strong>
+<p>
+Your experience has been timestamped and preserved.
+It is not automatically treated as verified proof.
+</p>
+
+<div>
+<span class="tag">◇ Community Signal</span>
+<span class="tag">UL7RAPROOF</span>
+</div>
+</div>
+
+<button class="primary" onclick="shareFair()">
+SHARE MY FAIR
+</button>
+
+<button onclick="location.reload()">
+BUILD ANOTHER FAIR
+</button>
+</section>
+
+</main>
+
+<script>
+let interests=[];
+
+function show(id){
+  document.querySelectorAll(
+    '#intake,#plan,#experience,#saved'
+  ).forEach(x=>x.classList.add('hidden'));
+
+  document.getElementById(id).classList.remove('hidden');
+}
+
+function toggleInterest(button,value){
+  if(interests.includes(value)){
+    interests=interests.filter(x=>x!==value);
+    button.style.fontWeight='normal';
+  }else{
+    interests.push(value);
+    button.style.fontWeight='bold';
+  }
+}
+
+function buildFair(){
+  const time=document.getElementById('time').value;
+  const group=document.getElementById('group').value;
+  const budget=document.getElementById('budget').value;
+
+  const stops=[
+    ['🔥','Start with a Can’t Miss experience',
+     'Choose from currently available Fair attractions.'],
+    ['🎵','Check What’s Happening',
+     'Find live entertainment and scheduled experiences.'],
+    ['🍔','Food Stop',
+     'Choose based on your budget and preferences.'],
+    ['⭐','Leave Room for Discovery',
+     'Use community signals to find something unexpected.']
+  ];
+
+  if(interests.includes('animals'))
+    stops.unshift(['🐴','Animals & Agriculture',
+                   'Explore animal and agricultural experiences.']);
+
+  if(interests.includes('rides'))
+    stops.unshift(['🎢','Midway Adventure',
+                   'Explore rides that fit your available time.']);
+
+  if(interests.includes('music'))
+    stops.push(['🎵','Live Music',
+                 'Check the current schedule before heading over.']);
+
+  if(interests.includes('value'))
+    stops.push(['💰','Value Check',
+                 'Look for free or included experiences first.']);
+
+  document.getElementById('planContent').innerHTML=
+    `<div class="card">
+       <strong>${group} · ${time} hours · ${budget}</strong>
+       <p>Your Fair plan is personalized around your choices.</p>
+     </div>`+
+    stops.slice(0,Math.max(3,Math.min(7,
+      Math.ceil(Number(time)/1.5)))).map(
+      (s,i)=>`<div class="stop">
+        <strong>${i+1}. ${s[0]} ${s[1]}</strong>
+        <br><small>${s[2]}</small>
+      </div>`
+    ).join('');
+
+  show('plan');
+}
+
+function showExperience(){
+  show('experience');
+}
+
+function submitExperience(){
+  const files=document.getElementById('media').files;
+
+  const record={
+    id:crypto.randomUUID(),
+    timestamp:new Date().toISOString(),
+    experience:document.getElementById('experienceName').value,
+    rating:Number(document.getElementById('rating').value),
+    wait_minutes:Number(document.getElementById('wait').value||0),
+    price:Number(document.getElementById('price').value||0),
+    would_return:document.getElementById('again').value,
+    know_before_go:document.getElementById('know').value,
+    media_count:files.length,
+    proof_state:"COMMUNITY_SIGNAL",
+    proof_note:
+      "Visitor-submitted experience. Media is evidence artifact only; claims require independent verification."
+  };
+
+  localStorage.setItem(
+    'omnipulse_last_experience',
+    JSON.stringify(record)
+  );
+
+  document.getElementById('status').innerText=
+    `Saved ${files.length} media item(s). Community signal recorded.`;
+
+  show('saved');
+}
+
+function shareFair(){
+  const record=localStorage.getItem(
+    'omnipulse_last_experience'
+  );
+
+  const share={
+    id:crypto.randomUUID(),
+    timestamp:new Date().toISOString(),
+    experience:record ? JSON.parse(record).experience : null,
+    action:"SHARE_MY_FAIR"
+  };
+
+  localStorage.setItem(
+    'omnipulse_share',
+    JSON.stringify(share)
+  );
+
+  const url=location.href.split('#')[0]+'#build';
+  if(navigator.share){
+    navigator.share({
+      title:'My Fair — OmniPulse',
+      text:'Build your Fair with OmniPulse.',
+      url
+    }).catch(()=>{});
+  }else{
+    navigator.clipboard?.writeText(url);
+    alert('OmniPulse share link copied.');
+  }
+}
+</script>
+
+</body>
+</html>
+HTML
+
+cat > "$APP/README.md" <<EOF
+# OmniPulse Visitor Loop
+
+Generated: $TS
+
+PUBLIC:
+FIND YOUR FAIR
+
+LOOP:
+INTAKE
+→ MY FAIR
+→ EXPERIENCE
+→ MEDIA
+→ COMMUNITY SIGNAL
+→ UL7RAPROOF
+→ SHARE
+
+Governance:
+- Media is evidence, not automatic proof.
+- Visitor submissions remain community signals until independently corroborated.
+- Commerce is separated from proof.
+- No fabricated users, reviews, revenue or partnerships.
+- Unknown remains Unknown.
+- Fail closed.
+EOF
+
+cat > "$APP/../reports/PURPLE_TEAM_GATE.md" <<'EOF'
+# OMNIPULSE PURPLE TEAM GATE
+
+## P0 — MUST PASS
+
+[ ] No fabricated visitor activity
+[ ] No fabricated reviews
+[ ] No fabricated media
+[ ] No fabricated revenue
+[ ] No implied Western Fair endorsement
+[ ] Uploaded media does not automatically become VERIFIED
+[ ] Commerce cannot alter proof state
+[ ] Unknown remains Unknown
+
+## MEDIA ATTACKS
+
+[ ] Duplicate upload detection
+[ ] Same-image reuse detection
+[ ] Timestamp plausibility
+[ ] User attribution
+[ ] Malicious content handling
+[ ] Unsupported claim detection
+[ ] Stale media handling
+
+## REVIEW ATTACKS
+
+[ ] Single review cannot create AVOID
+[ ] Repeated reports checked for independence
+[ ] Contradictory reports preserved
+[ ] Vendor manipulation considered
+[ ] Competitor manipulation considered
+
+## RECOMMENDATION ATTACKS
+
+[ ] Official schedule distinguished from community signal
+[ ] Current information timestamped
+[ ] Recommendation rationale retained
+[ ] Paid placement cannot purchase proof
+
+## SCALE GATE
+
+SCALE requires:
+
+REAL USER
++
+REAL EXPERIENCE
++
+REAL EVIDENCE
++
+PURPLE TEAM PASS
++
+MEASURABLE VALUE
++
+REAL PAYMENT OR OTHER VERIFIED COMMERCIAL SIGNAL
+
+Otherwise:
+
+FINAL_DECISION=TEST or HOLD
+EOF
+
+python - <<PY
+import json, pathlib, hashlib, datetime
+
+root=pathlib.Path("$APP")
+files=sorted(p for p in root.rglob("*") if p.is_file())
+
+manifest=[]
+for p in files:
+    data=p.read_bytes()
+    manifest.append({
+        "path":str(p.relative_to(root)),
+        "sha256":hashlib.sha256(data).hexdigest(),
+        "bytes":len(data)
+    })
+
+(root/"MANIFEST.json").write_text(
+    json.dumps({
+        "generated":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        "files":manifest
+    },indent=2)
+)
+PY
+
+cat > "$OUT/reports/FINAL_STATUS.md" <<EOF
+# OMNIPULSE FINAL STATUS
+
+TIMESTAMP=$TS
+
+VISITOR_INTAKE=CREATED
+MY_FAIR_ENGINE=CREATED
+EXPERIENCE_CAPTURE=CREATED
+MEDIA_INPUT=CREATED
+COMMUNITY_SIGNAL=CREATED
+UL7RAPROOF_HOOK=CREATED
+SHARE_LOOP=CREATED
+PURPLE_TEAM_GATE=CREATED
+MANIFEST=CREATED
+
+REAL_VISITOR=0
+REAL_VENDOR=0
+PAYMENT_VERIFIED=0
+VERIFIED_REVENUE_CAD=0
+
+PROOF_OK=0
+PRODUCTION_UNLOCK=0
+CANONICAL_PROMOTION=0
+
+FINAL_DECISION=TEST
+
+REASON:
+The visitor loop exists and is ready for controlled real-world testing.
+No commercial or proof claim is promoted until real evidence exists.
+
+NEXT:
+1. Serve the MVP.
+2. Generate QR code for the landing page.
+3. Run first real visitor test.
+4. Capture first real experience/media submission.
+5. Run Purple Team.
+6. Repeat.
+EOF
+
+echo
+echo "============================================================"
+echo " OMNIPULSE VISITOR LOOP READY"
+echo "============================================================"
+echo "APP:    $APP/index.html"
+echo "REPORT: $OUT/reports/FINAL_STATUS.md"
+echo "GATE:   $OUT/reports/PURPLE_TEAM_GATE.md"
+echo "HASH:   $APP/MANIFEST.json"
+echo
+echo "FINAL_DECISION=TEST"
+echo "PRODUCTION_UNLOCK=0"
+echo "============================================================"

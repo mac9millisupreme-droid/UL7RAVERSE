@@ -1,0 +1,493 @@
+{
+  "components": [
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": ".bob",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/.bob"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": ".github",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/.github"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": ".gitignore",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/.gitignore"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": ".pytest_cache",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/.pytest_cache"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": ".ul7ra",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": ".ul7ra_autonomous",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra_autonomous"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "AGENTS.md",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/AGENTS.md"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "AIL_FINAL_VERIFICATION_REPORT.md",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/AIL_FINAL_VERIFICATION_REPORT.md"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "CLOUDFLARE_FINAL_OWNERSHIP_GATE.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/CLOUDFLARE_FINAL_OWNERSHIP_GATE.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "CLOUDFLARE_OWNERSHIP_RECONCILE.backup.20260913T080808Z.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/CLOUDFLARE_OWNERSHIP_RECONCILE.backup.20260913T080808Z.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "CLOUDFLARE_OWNERSHIP_RECONCILE.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/CLOUDFLARE_OWNERSHIP_RECONCILE.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "CONNECT_UL7RAVERSE_ONE.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/CONNECT_UL7RAVERSE_ONE.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "DIAG_NAMED_TUNNEL.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/DIAG_NAMED_TUNNEL.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "DNS_AUTHORITY_FINAL.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/DNS_AUTHORITY_FINAL.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "DNS_AUTHORITY_FINAL_GATE.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/DNS_AUTHORITY_FINAL_GATE.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "DNS_DELEGATION_DIAG.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/DNS_DELEGATION_DIAG.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "DNS_TRUTH_CHECK.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/DNS_TRUTH_CHECK.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "E6_REVENUE_EXECUTE.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/E6_REVENUE_EXECUTE.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "FINAL_DNS_PRODUCTION_GATE.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/FINAL_DNS_PRODUCTION_GATE.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "FIX_UL7RA_ORIGIN.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/FIX_UL7RA_ORIGIN.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "FORCE_RECONCILE_VERIFY_DNS.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/FORCE_RECONCILE_VERIFY_DNS.sh"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "FORENSIC_PHASE0_20260909T095923Z",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/FORENSIC_PHASE0_20260909T095923Z"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "FORENSIC_PHASE0_20260909T100256Z",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/FORENSIC_PHASE0_20260909T100256Z"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "FREEZE_VERIFIED_BASELINE.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/FREEZE_VERIFIED_BASELINE.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "LUCI_ONE_SHOT.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/LUCI_ONE_SHOT.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "LUCI_PUBLIC_AUTHORITY_DIAG.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/LUCI_PUBLIC_AUTHORITY_DIAG.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "PROVE_DOMAIN_CONTROL_AND_REPAIR.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/PROVE_DOMAIN_CONTROL_AND_REPAIR.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "PUBLISH_UL7RAVERSE_FREE.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/PUBLISH_UL7RAVERSE_FREE.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "REPAIR_VERIFY_PRODUCTION.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/REPAIR_VERIFY_PRODUCTION.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "RUN_UL7RA4_RECONCILIATION.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/RUN_UL7RA4_RECONCILIATION.sh"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "UL7RAFORGE",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "UL7RAPASS_ONE.py",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RAPASS_ONE.py"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "UL7RA_DNS_REPAIR_EXECUTE.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RA_DNS_REPAIR_EXECUTE.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "UL7RA_DNS_REPAIR_ONE.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RA_DNS_REPAIR_ONE.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "UL7RA_ELITE_FORENSIC.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RA_ELITE_FORENSIC.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "UL7RA_MEMBER_LOOP.py",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/UL7RA_MEMBER_LOOP.py"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "VERIFY_UL7RA_ORIGIN.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/VERIFY_UL7RA_ORIGIN.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "VERIFY_UL7RA_ORIGIN_FIXED.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/VERIFY_UL7RA_ORIGIN_FIXED.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "WESTERN_FAIR_OMNIPULSE_CONVERGENCE.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/WESTERN_FAIR_OMNIPULSE_CONVERGENCE.sh"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "boot-recovery",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/boot-recovery"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "diagnose_omnipulse_tunnel.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/diagnose_omnipulse_tunnel.sh"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "evidence",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/evidence"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "grounded_center",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/grounded_center"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "install_ail_v010.py",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/install_ail_v010.py"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "install_ul7ra_continue_v010.py",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/install_ul7ra_continue_v010.py"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "integration",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/integration"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "keep_omnipulse_public.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/keep_omnipulse_public.sh"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "launch",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/launch"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "launch_omnipulse.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/launch_omnipulse.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "launch_omnipulse_live.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/launch_omnipulse_live.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "launch_ul7rapass_one_script.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/launch_ul7rapass_one_script.sh"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "lucideploy",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/lucideploy"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "member_loop",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/member_loop"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "omni_force_live.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/omni_force_live.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "omni_live_brand_launch.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/omni_live_brand_launch.sh"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "products",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/products"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "racing",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/racing"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "racing_recon.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/racing_recon.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "racing_recon_test.txt",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/racing_recon_test.txt"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "repair_authoritative_dns.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/repair_authoritative_dns.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "repair_omnipulse_live.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/repair_omnipulse_live.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "repair_omnipulse_public_tunnel.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/repair_omnipulse_public_tunnel.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "revenue_membership.json",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/revenue_membership.json"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "scripts",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/scripts"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "test_ul7ra_continue.py",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/test_ul7ra_continue.py"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "test_ul7ra_continue_ail.py",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/test_ul7ra_continue_ail.py"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "test_ul7ra_continue_purple.py",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/test_ul7ra_continue_purple.py"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "ul7ra4_factory",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/ul7ra4_factory"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "ul7ra_boot.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/ul7ra_boot.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "ul7ra_boot_output.txt",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/ul7ra_boot_output.txt"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "ul7ra_change_manifest.txt",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/ul7ra_change_manifest.txt"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "ul7ra_continue",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/ul7ra_continue"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "ul7ra_start_stack.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/ul7ra_start_stack.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "ul7ra_termux_sentinel.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/ul7ra_termux_sentinel.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "ul7ra_uncertainty_repair.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/ul7ra_uncertainty_repair.sh"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "ul7ra_verify_runtime.log",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/ul7ra_verify_runtime.log"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "upgrade_omnipulse_loop.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/upgrade_omnipulse_loop.sh"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "v10",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/v10"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "name": "verification_artifacts",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "name": "verify_omnipulse_public.sh",
+      "path": "/data/data/com.termux/files/home/UL7RAVERSE/verify_omnipulse_public.sh"
+    }
+  ],
+  "generated_utc": "2026-09-13T15:45:27.122977+00:00",
+  "root": "/data/data/com.termux/files/home/UL7RAVERSE",
+  "schema": "UL7RAVERSE_COMPONENT_REGISTRY/v1"
+}

@@ -1,0 +1,15 @@
+{
+  "included": [
+    "LUCIAGENT3_CUSTOM",
+    "LUCI_DIAGNOSTIC",
+    "LUCI_TEST",
+    "ADVERSARIAL_VERIFICATION",
+    "UL7RAPROOF",
+    "SHAREABLE_PROOF_ARTIFACT"
+  ],
+  "lucicoin": 3,
+  "name": "UL7RAPASS",
+  "price_cad": 500,
+  "term_months": 12,
+  "units": 1500
+}

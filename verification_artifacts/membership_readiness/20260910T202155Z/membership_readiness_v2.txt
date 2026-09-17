@@ -1,0 +1,124 @@
+=== UL7RAVERSE MEMBERSHIP READINESS v2 ===
+UTC=20260910T202155Z
+
+=== REPOSITORY ===
+ROOT=/data/data/com.termux/files/home/UL7RAVERSE
+COMMIT=63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+
+=== EXISTING MEMBERSHIP EVIDENCE ===
+verification_artifacts/member_loop/20260910T145415Z/MEMBER.json
+verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json
+verification_artifacts/member_loop/20260910T145415Z/PURPLE_TEAM.json
+verification_artifacts/member_loop/20260910T145415Z/STATUS.json
+verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.sha256
+verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt
+verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.sha256
+verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt
+verification_artifacts/membership_readiness/20260910T202155Z/membership_readiness_v2.txt
+verification_artifacts/revenue_release/20260910T143907Z/STATUS.json
+verification_artifacts/revenue_release/20260910T144021Z/STATUS.json
+verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_status.txt
+verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json
+verification_artifacts/ul7rapass/20260910T144312Z/PURPLE_RESULTS.txt
+verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json
+
+=== FULL TEST SUITE ===
+FULL_TEST_RC=5
+
+=== MEMBERSHIP TEST ===
+MEMBERSHIP_TEST=MISSING
+
+=== MEMBERSHIP SECURITY TEST ===
+SECURITY_TEST=NOT_PRESENT
+NOTE=Missing dedicated adversarial file is NOT treated as membership failure.
+
+=== COMMERCIAL PRODUCT ===
+--- verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json
+{
+  "name": "UL7RAPASS",
+  "price_cad": 500,
+  "term_months": 12,
+  "units": 1500,
+  "lucicoin": 3,
+  "entitlements": [
+    "LUCIAGENT3_CUSTOM",
+    "LUCI_DIAGNOSTIC",
+    "LUCI_TEST",
+    "PURPLE_TEAM",
+    "UL7RAPROOF"
+  ]
+}
+--- verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json
+{
+  "timestamp": "2026-09-10T14:43:28.127703+00:00",
+  "repository": "/data/data/com.termux/files/home/UL7RAVERSE",
+  "commit": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+  "product": {
+    "name": "UL7RAPASS",
+    "price_cad": 500,
+    "term_months": 12,
+    "units": 1500,
+    "lucicoin": 3,
+    "entitlements": [
+      "LUCIAGENT3_CUSTOM",
+      "LUCI_DIAGNOSTIC",
+      "LUCI_TEST",
+      "PURPLE_TEAM",
+      "UL7RAPROOF"
+    ]
+  },
+  "member_state": {
+    "member_id": "m_d9989a451afc0779",
+    "payment_status": "PAID",
+    "entitlement_status": "ACTIVE",
+    "verification_status": "PASS",
+    "units_total": 1500,
+    "units_used": 1,
+    "lucicoin_total": 3,
+    "lucicoin_used": 0
+  },
+  "purple_team": {
+    "PAYMENT_CANNOT_GRANT_PASS": true,
+    "UNIT_LIMIT_ENFORCED": true,
+    "LUCIcoin_LIMIT_ENFORCED": true,
+    "UNPAID_CANNOT_CONSUME": true,
+    "NO_EVIDENCE_NO_PASS": true,
+    "PAYMENT_DOES_NOT_MUTATE_VERIFICATION": true
+  },
+  "pytest_returncode": 0,
+  "technical_tests": true,
+  "purple_team_pass": true,
+  "proof_requires_evidence": true,
+  "payment_can_grant_pass": false
+}
+--- verification_artifacts/ul7rapass/20260910T144312Z/PURPLE_RESULTS.txt
+{
+  "PAYMENT_CANNOT_GRANT_PASS": true,
+  "UNIT_LIMIT_ENFORCED": true,
+  "LUCIcoin_LIMIT_ENFORCED": true,
+  "UNPAID_CANNOT_CONSUME": true,
+  "NO_EVIDENCE_NO_PASS": true,
+  "PAYMENT_DOES_NOT_MUTATE_VERIFICATION": true
+}
+=== MEMBER LOOP ===
+verification_artifacts/member_loop/20260910T145415Z/MEMBER.json
+verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json
+verification_artifacts/member_loop/20260910T145415Z/PROOF_ARTIFACT.json
+verification_artifacts/member_loop/20260910T145415Z/PURPLE_TEAM.json
+verification_artifacts/member_loop/20260910T145415Z/SHA256SUMS.txt
+verification_artifacts/member_loop/20260910T145415Z/STATUS.json
+verification_artifacts/member_loop/20260910T145415Z/TEST_RESULTS.txt
+
+=== GOVERNANCE CHECK ===
+verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:32:    "LUCIcoin_LIMIT_ENFORCED": true,
+verification_artifacts/ul7rapass/20260910T144312Z/PURPLE_RESULTS.txt:4:  "LUCIcoin_LIMIT_ENFORCED": true,
+
+=== DECISION ===
+FINAL_DECISION=BLOCKED
+READINESS=MEMBERSHIP_CORE_TEST_FAILURE
+
+=== MACHINE SUMMARY ===
+FULL_TEST_RC=5
+MEMBERSHIP_RC=2
+SECURITY_RC=0
+SECURITY_STATUS=NOT_PRESENT

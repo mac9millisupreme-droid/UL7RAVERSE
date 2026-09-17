@@ -1,0 +1,1 @@
+./diagnose_omnipulse_tunnel.sh: line 28: getent: command not found

@@ -1,0 +1,3 @@
+  skill:         Install and manage agent skills (preview)
+  agent-task:    Work with agent tasks (preview)
+  copilot:       Run the GitHub Copilot CLI (preview)

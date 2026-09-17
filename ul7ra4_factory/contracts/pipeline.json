@@ -1,0 +1,18 @@
+{
+  "pipeline": [
+    "INTAKE",
+    "INVENTORY",
+    "CLASSIFY",
+    "DEPENDENCY_MAP",
+    "BUILD",
+    "UNIT_TEST",
+    "INTEGRATION_TEST",
+    "ADVERSARIAL_TEST",
+    "PROVENANCE_CHECK",
+    "INTEGRITY_CHECK",
+    "EVIDENCE_PACKAGE",
+    "STATUS_REPORT",
+    "PROMOTION_GATE"
+  ],
+  "promotion_rule": "EVIDENCE_REQUIRED"
+}

@@ -1,0 +1,8 @@
+  skill:         Install and manage agent skills (preview)
+GITHUB ACTIONS COMMANDS
+  cache:         Manage GitHub Actions caches
+  workflow:      View details about GitHub Actions workflows
+  agent-task:    Work with agent tasks (preview)
+  copilot:       Run the GitHub Copilot CLI (preview)
+  variable:      Manage GitHub Actions variables
+  actions:       Learn about working with GitHub Actions

@@ -1,0 +1,771 @@
+==================================================
+HALO9 V56 — AUTHORITY CONTRACT DERIVATION
+UTC=20260914T174923Z
+PROJECT=/data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract
+==================================================
+REAL_UL7RABRIDGE=FOUND
+REAL_BRIDGE_MODIFICATION=NONE
+
+=== CARGO FMT ===
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:164:
+     }
+ 
+     pub fn lifetime(&self) -> Option<Duration> {
+[31m-        self.expires_at
+[0m[31m-            .0
+[0m[31m-            .duration_since(self.created_at.0)
+[0m[31m-            .ok()
+[0m[32m+        self.expires_at.0.duration_since(self.created_at.0).ok()
+[0m     }
+ }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:212:
+         proof: &ProofState,
+     ) -> Result<(), AuthorityError>;
+ 
+[31m-    fn verify_ledger_entry(
+[0m[31m-        &self,
+[0m[31m-        ledger_entry_id: &LedgerEntryId,
+[0m[31m-    ) -> Result<(), AuthorityError>;
+[0m[32m+    fn verify_ledger_entry(&self, ledger_entry_id: &LedgerEntryId) -> Result<(), AuthorityError>;
+[0m }
+ 
+ pub trait CheetahPolicy: Send + Sync {
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:238:
+ pub trait BridgeAuthority: Send + Sync {
+     fn version(&self) -> BridgeVersion;
+ 
+[31m-    fn decide(
+[0m[31m-        &self,
+[0m[31m-        pair: &HaloPair,
+[0m[31m-        proof: &ProofState,
+[0m[31m-    ) -> Result<BridgeDecision, AuthorityError>;
+[0m[32m+    fn decide(&self, pair: &HaloPair, proof: &ProofState)
+[0m[32m+        -> Result<BridgeDecision, AuthorityError>;
+[0m }
+ 
+ // ==================================================
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:280:
+         pair: Option<&HaloPair>,
+         proof: Option<&ProofState>,
+     ) -> ActionAuthorization {
+[31m-
+[0m         // ------------------------------------------
+         // 1. AGENT
+         // ------------------------------------------
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:303:
+         // ------------------------------------------
+ 
+         if !pair_status.is_strictly_valid() {
+[31m-            return ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::InvalidHaloPair(pair_status)
+[0m[31m-            );
+[0m[32m+            return ActionAuthorization::Denied(AuthorityError::InvalidHaloPair(pair_status));
+[0m         }
+ 
+         // ------------------------------------------
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:313:
+         // ------------------------------------------
+ 
+         if pair.is_expired(now) {
+[31m-            return ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::PairExpired
+[0m[31m-            );
+[0m[32m+            return ActionAuthorization::Denied(AuthorityError::PairExpired);
+[0m         }
+ 
+         // ------------------------------------------
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:324:
+ 
+         let proof = match proof {
+             Some(p) => p,
+[31m-            None => return ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::InvalidProof
+[0m[31m-            ),
+[0m[32m+            None => return ActionAuthorization::Denied(AuthorityError::InvalidProof),
+[0m         };
+ 
+         // ------------------------------------------
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:334:
+         // ------------------------------------------
+ 
+         if proof.is_revoked {
+[31m-            return ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::PairRevoked
+[0m[31m-            );
+[0m[32m+            return ActionAuthorization::Denied(AuthorityError::PairRevoked);
+[0m         }
+ 
+         if proof.is_replayed {
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:343:
+[31m-            return ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::PairReplay
+[0m[31m-            );
+[0m[32m+            return ActionAuthorization::Denied(AuthorityError::PairReplay);
+[0m         }
+ 
+         if !proof.is_bound_to_mission {
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:349:
+[31m-            return ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::MissionMismatch
+[0m[31m-            );
+[0m[32m+            return ActionAuthorization::Denied(AuthorityError::MissionMismatch);
+[0m         }
+ 
+         if !proof.is_bound_to_capability {
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:355:
+[31m-            return ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::CapabilityMismatch
+[0m[31m-            );
+[0m[32m+            return ActionAuthorization::Denied(AuthorityError::CapabilityMismatch);
+[0m         }
+ 
+         if !proof.is_valid() {
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:361:
+[31m-            return ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::InvalidProof
+[0m[31m-            );
+[0m[32m+            return ActionAuthorization::Denied(AuthorityError::InvalidProof);
+[0m         }
+ 
+         // ------------------------------------------
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:368:
+         // ------------------------------------------
+ 
+         if proof.halo_pair_id != pair.halo_twin_id {
+[31m-            return ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::HaloPairMismatch
+[0m[31m-            );
+[0m[32m+            return ActionAuthorization::Denied(AuthorityError::HaloPairMismatch);
+[0m         }
+ 
+         if proof.mission_id != pair.mission_id {
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:377:
+[31m-            return ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::MissionMismatch
+[0m[31m-            );
+[0m[32m+            return ActionAuthorization::Denied(AuthorityError::MissionMismatch);
+[0m         }
+ 
+         if proof.capability_id != pair.capability_id {
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:383:
+[31m-            return ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::CapabilityMismatch
+[0m[31m-            );
+[0m[32m+            return ActionAuthorization::Denied(AuthorityError::CapabilityMismatch);
+[0m         }
+ 
+         // ------------------------------------------
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:391:
+ 
+         let provider = match self.cryptographic_provider {
+             Some(provider) => provider,
+[31m-            None => return ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::ProductionCryptoNotConfigured
+[0m[31m-            ),
+[0m[32m+            None => {
+[0m[32m+                return ActionAuthorization::Denied(AuthorityError::ProductionCryptoNotConfigured)
+[0m[32m+            }
+[0m         };
+ 
+         // ------------------------------------------
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:408:
+         // 10. LEDGER VERIFICATION
+         // ------------------------------------------
+ 
+[31m-        if let Err(e) = provider.verify_ledger_entry(
+[0m[31m-            &proof.ledger_entry_id
+[0m[31m-        ) {
+[0m[32m+        if let Err(e) = provider.verify_ledger_entry(&proof.ledger_entry_id) {
+[0m             return ActionAuthorization::Denied(e);
+         }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:421:
+         match self.cheetah_policy.evaluate(pair, proof) {
+             Ok(CheetahPolicyDecision::Allow) => {}
+             Ok(CheetahPolicyDecision::Deny) => {
+[31m-                return ActionAuthorization::Denied(
+[0m[31m-                    AuthorityError::CheetahDenied
+[0m[31m-                )
+[0m[32m+                return ActionAuthorization::Denied(AuthorityError::CheetahDenied)
+[0m             }
+             Err(e) => return ActionAuthorization::Denied(e),
+         }
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:432:
+         // 12. BRIDGE INVARIANTS
+         // ------------------------------------------
+ 
+[31m-        if let Err(e) = self.bridge_invariants.check_invariants(
+[0m[31m-            pair,
+[0m[31m-            proof,
+[0m[31m-            &self.bridge_authority.version(),
+[0m[31m-        ) {
+[0m[32m+        if let Err(e) =
+[0m[32m+            self.bridge_invariants
+[0m[32m+                .check_invariants(pair, proof, &self.bridge_authority.version())
+[0m[32m+        {
+[0m             return ActionAuthorization::Denied(e);
+         }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:445:
+         // ------------------------------------------
+ 
+         match self.bridge_authority.decide(pair, proof) {
+[31m-            Ok(BridgeDecision::Allow) => {
+[0m[31m-                ActionAuthorization::Allowed
+[0m[31m-            }
+[0m[31m-            Ok(BridgeDecision::Deny) => {
+[0m[31m-                ActionAuthorization::Denied(
+[0m[31m-                    AuthorityError::BridgeDenied
+[0m[31m-                )
+[0m[31m-            }
+[0m[32m+            Ok(BridgeDecision::Allow) => ActionAuthorization::Allowed,
+[0m[32m+            Ok(BridgeDecision::Deny) => ActionAuthorization::Denied(AuthorityError::BridgeDenied),
+[0m             Err(e) => ActionAuthorization::Denied(e),
+         }
+     }
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:483:
+         }
+     }
+ 
+[31m-    fn verify_ledger_entry(
+[0m[31m-        &self,
+[0m[31m-        _ledger_entry_id: &LedgerEntryId,
+[0m[31m-    ) -> Result<(), AuthorityError> {
+[0m[32m+    fn verify_ledger_entry(&self, _ledger_entry_id: &LedgerEntryId) -> Result<(), AuthorityError> {
+[0m         if self.allow {
+             Ok(())
+         } else {
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:591:
+             halo_pair_id: HaloTwinId("halo-1".into()),
+             mission_id: MissionId("mission-1".into()),
+             capability_id: CapabilityId("cap-1".into()),
+[31m-            cryptographic_profile_id:
+[0m[31m-                CryptographicProfileId("TEST-CRYPTO".into()),
+[0m[32m+            cryptographic_profile_id: CryptographicProfileId("TEST-CRYPTO".into()),
+[0m             issued_at: Timestamp(now),
+             ledger_entry_id: LedgerEntryId("ledger-1".into()),
+             is_bound_to_mission: true,
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:621:
+     #[test]
+     fn no_agent_denies() {
+         let c = contract(None, &AllowCheetah, &AllowInvariants, &AllowBridge);
+[31m-        let auth = c.authorize(
+[0m[31m-            SystemTime::now(),
+[0m[31m-            HaloPairStatus::Valid,
+[0m[31m-            None,
+[0m[31m-            None,
+[0m[31m-        );
+[0m[32m+        let auth = c.authorize(SystemTime::now(), HaloPairStatus::Valid, None, None);
+[0m 
+         assert!(matches!(
+             auth,
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:639:
+         let (mut pair, proof) = fixture();
+         pair.halo_twin_id = HaloTwinId(String::new());
+ 
+[31m-        let c = contract(
+[0m[31m-            None,
+[0m[31m-            &AllowCheetah,
+[0m[31m-            &AllowInvariants,
+[0m[31m-            &AllowBridge,
+[0m[31m-        );
+[0m[32m+        let c = contract(None, &AllowCheetah, &AllowInvariants, &AllowBridge);
+[0m 
+         let auth = c.authorize(
+             SystemTime::now(),
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:663:
+     fn invalid_pair_denies() {
+         let (pair, proof) = fixture();
+ 
+[31m-        let c = contract(
+[0m[31m-            None,
+[0m[31m-            &AllowCheetah,
+[0m[31m-            &AllowInvariants,
+[0m[31m-            &AllowBridge,
+[0m[31m-        );
+[0m[32m+        let c = contract(None, &AllowCheetah, &AllowInvariants, &AllowBridge);
+[0m 
+         let auth = c.authorize(
+             SystemTime::now(),
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:679:
+ 
+         assert!(matches!(
+             auth,
+[31m-            ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::InvalidHaloPair(
+[0m[31m-                    HaloPairStatus::Compromised
+[0m[31m-                )
+[0m[31m-            )
+[0m[32m+            ActionAuthorization::Denied(AuthorityError::InvalidHaloPair(
+[0m[32m+                HaloPairStatus::Compromised
+[0m[32m+            ))
+[0m         ));
+     }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:691:
+     fn expired_pair_denies() {
+         let (mut pair, proof) = fixture();
+ 
+[31m-        pair.expires_at =
+[0m[31m-            Timestamp(SystemTime::now() - Duration::from_secs(1));
+[0m[32m+        pair.expires_at = Timestamp(SystemTime::now() - Duration::from_secs(1));
+[0m 
+[31m-        let c = contract(
+[0m[31m-            None,
+[0m[31m-            &AllowCheetah,
+[0m[31m-            &AllowInvariants,
+[0m[31m-            &AllowBridge,
+[0m[31m-        );
+[0m[32m+        let c = contract(None, &AllowCheetah, &AllowInvariants, &AllowBridge);
+[0m 
+         let auth = c.authorize(
+             SystemTime::now(),
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:710:
+ 
+         assert!(matches!(
+             auth,
+[31m-            ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::PairExpired
+[0m[31m-            )
+[0m[32m+            ActionAuthorization::Denied(AuthorityError::PairExpired)
+[0m         ));
+     }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:720:
+     fn missing_proof_denies() {
+         let (pair, _) = fixture();
+ 
+[31m-        let c = contract(
+[0m[31m-            None,
+[0m[31m-            &AllowCheetah,
+[0m[31m-            &AllowInvariants,
+[0m[31m-            &AllowBridge,
+[0m[31m-        );
+[0m[32m+        let c = contract(None, &AllowCheetah, &AllowInvariants, &AllowBridge);
+[0m 
+[31m-        let auth = c.authorize(
+[0m[31m-            SystemTime::now(),
+[0m[31m-            HaloPairStatus::Valid,
+[0m[31m-            Some(&pair),
+[0m[31m-            None,
+[0m[31m-        );
+[0m[32m+        let auth = c.authorize(SystemTime::now(), HaloPairStatus::Valid, Some(&pair), None);
+[0m 
+         assert!(matches!(
+             auth,
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:739:
+[31m-            ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::InvalidProof
+[0m[31m-            )
+[0m[32m+            ActionAuthorization::Denied(AuthorityError::InvalidProof)
+[0m         ));
+     }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:747:
+         let (pair, mut proof) = fixture();
+         proof.is_revoked = true;
+ 
+[31m-        let c = contract(
+[0m[31m-            None,
+[0m[31m-            &AllowCheetah,
+[0m[31m-            &AllowInvariants,
+[0m[31m-            &AllowBridge,
+[0m[31m-        );
+[0m[32m+        let c = contract(None, &AllowCheetah, &AllowInvariants, &AllowBridge);
+[0m 
+         let auth = c.authorize(
+             SystemTime::now(),
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:763:
+ 
+         assert!(matches!(
+             auth,
+[31m-            ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::PairRevoked
+[0m[31m-            )
+[0m[32m+            ActionAuthorization::Denied(AuthorityError::PairRevoked)
+[0m         ));
+     }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:774:
+         let (pair, mut proof) = fixture();
+         proof.is_replayed = true;
+ 
+[31m-        let c = contract(
+[0m[31m-            None,
+[0m[31m-            &AllowCheetah,
+[0m[31m-            &AllowInvariants,
+[0m[31m-            &AllowBridge,
+[0m[31m-        );
+[0m[32m+        let c = contract(None, &AllowCheetah, &AllowInvariants, &AllowBridge);
+[0m 
+         let auth = c.authorize(
+             SystemTime::now(),
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:790:
+ 
+         assert!(matches!(
+             auth,
+[31m-            ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::PairReplay
+[0m[31m-            )
+[0m[32m+            ActionAuthorization::Denied(AuthorityError::PairReplay)
+[0m         ));
+     }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:801:
+         let (pair, mut proof) = fixture();
+         proof.halo_pair_id = HaloTwinId("other-halo".into());
+ 
+[31m-        let c = contract(
+[0m[31m-            None,
+[0m[31m-            &AllowCheetah,
+[0m[31m-            &AllowInvariants,
+[0m[31m-            &AllowBridge,
+[0m[31m-        );
+[0m[32m+        let c = contract(None, &AllowCheetah, &AllowInvariants, &AllowBridge);
+[0m 
+         let auth = c.authorize(
+             SystemTime::now(),
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:817:
+ 
+         assert!(matches!(
+             auth,
+[31m-            ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::HaloPairMismatch
+[0m[31m-            )
+[0m[32m+            ActionAuthorization::Denied(AuthorityError::HaloPairMismatch)
+[0m         ));
+     }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:828:
+         let (pair, mut proof) = fixture();
+         proof.mission_id = MissionId("other-mission".into());
+ 
+[31m-        let c = contract(
+[0m[31m-            None,
+[0m[31m-            &AllowCheetah,
+[0m[31m-            &AllowInvariants,
+[0m[31m-            &AllowBridge,
+[0m[31m-        );
+[0m[32m+        let c = contract(None, &AllowCheetah, &AllowInvariants, &AllowBridge);
+[0m 
+         let auth = c.authorize(
+             SystemTime::now(),
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:844:
+ 
+         assert!(matches!(
+             auth,
+[31m-            ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::MissionMismatch
+[0m[31m-            )
+[0m[32m+            ActionAuthorization::Denied(AuthorityError::MissionMismatch)
+[0m         ));
+     }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:855:
+         let (pair, mut proof) = fixture();
+         proof.capability_id = CapabilityId("other-cap".into());
+ 
+[31m-        let c = contract(
+[0m[31m-            None,
+[0m[31m-            &AllowCheetah,
+[0m[31m-            &AllowInvariants,
+[0m[31m-            &AllowBridge,
+[0m[31m-        );
+[0m[32m+        let c = contract(None, &AllowCheetah, &AllowInvariants, &AllowBridge);
+[0m 
+         let auth = c.authorize(
+             SystemTime::now(),
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:871:
+ 
+         assert!(matches!(
+             auth,
+[31m-            ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::CapabilityMismatch
+[0m[31m-            )
+[0m[32m+            ActionAuthorization::Denied(AuthorityError::CapabilityMismatch)
+[0m         ));
+     }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:881:
+     fn no_production_crypto_denies() {
+         let (pair, proof) = fixture();
+ 
+[31m-        let c = contract(
+[0m[31m-            None,
+[0m[31m-            &AllowCheetah,
+[0m[31m-            &AllowInvariants,
+[0m[31m-            &AllowBridge,
+[0m[31m-        );
+[0m[32m+        let c = contract(None, &AllowCheetah, &AllowInvariants, &AllowBridge);
+[0m 
+         let auth = c.authorize(
+             SystemTime::now(),
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:897:
+ 
+         assert!(matches!(
+             auth,
+[31m-            ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::ProductionCryptoNotConfigured
+[0m[31m-            )
+[0m[32m+            ActionAuthorization::Denied(AuthorityError::ProductionCryptoNotConfigured)
+[0m         ));
+     }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:924:
+ 
+         assert!(matches!(
+             auth,
+[31m-            ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::CryptoVerificationFailure
+[0m[31m-            )
+[0m[32m+            ActionAuthorization::Denied(AuthorityError::CryptoVerificationFailure)
+[0m         ));
+     }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:951:
+ 
+         assert!(matches!(
+             auth,
+[31m-            ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::CheetahDenied
+[0m[31m-            )
+[0m[32m+            ActionAuthorization::Denied(AuthorityError::CheetahDenied)
+[0m         ));
+     }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:978:
+ 
+         assert!(matches!(
+             auth,
+[31m-            ActionAuthorization::Denied(
+[0m[31m-                AuthorityError::BridgeDenied
+[0m[31m-            )
+[0m[32m+            ActionAuthorization::Denied(AuthorityError::BridgeDenied)
+[0m         ));
+     }
+ 
+Diff in /data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract/src/lib.rs:1003:
+             Some(&proof),
+         );
+ 
+[31m-        assert_eq!(
+[0m[31m-            auth,
+[0m[31m-            ActionAuthorization::Allowed
+[0m[31m-        );
+[0m[32m+        assert_eq!(auth, ActionAuthorization::Allowed);
+[0m     }
+ }
+ 
+CARGO_FMT_RC=1
+FORMAT_REPAIR=RUNNING
+CARGO_FMT_RECHECK_RC=0
+
+=== CARGO CHECK ===
+    Updating crates.io index
+     Locking 10 packages to latest compatible versions
+      Adding thiserror v1.0.69 (available: v2.0.20)
+ Downloading crates ...
+  Downloaded thiserror v1.0.69
+  Downloaded thiserror-impl v1.0.69
+  Downloaded syn v2.0.119
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.24
+   Compiling quote v1.0.47
+   Compiling serde_core v1.0.229
+   Compiling thiserror v1.0.69
+   Compiling serde v1.0.229
+   Compiling syn v2.0.119
+   Compiling syn v3.0.5
+   Compiling serde_derive v1.0.229
+   Compiling thiserror-impl v1.0.69
+    Checking halo9_v56_authority_contract v0.1.0 (/data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract)
+error[E0277]: `(dyn CheetahPolicy + 'a)` doesn't implement `Debug`
+   --> src/lib.rs:246:5
+    |
+243 | #[derive(Debug, Clone)]
+    |          ----- in this derive macro expansion
+...
+246 |     pub cheetah_policy: &'a dyn CheetahPolicy,
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ the trait `Debug` is not implemented for `(dyn CheetahPolicy + 'a)`
+    |
+help: the following other types implement trait `Debug`
+   --> /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:152:0
+    |
+    = note: `dyn Any`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:162:0
+    |
+    = note: `dyn Any + Send`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:169:0
+    |
+    = note: `dyn Any + Send + Sync`
+
+error[E0277]: `(dyn BridgeInvariants + 'a)` doesn't implement `Debug`
+   --> src/lib.rs:247:5
+    |
+243 | #[derive(Debug, Clone)]
+    |          ----- in this derive macro expansion
+...
+247 |     pub bridge_invariants: &'a dyn BridgeInvariants,
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ the trait `Debug` is not implemented for `(dyn BridgeInvariants + 'a)`
+    |
+help: the following other types implement trait `Debug`
+   --> /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:152:0
+    |
+    = note: `dyn Any`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:162:0
+    |
+    = note: `dyn Any + Send`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:169:0
+    |
+    = note: `dyn Any + Send + Sync`
+
+error[E0277]: `(dyn CryptographicProvider + 'a)` doesn't implement `Debug`
+   --> src/lib.rs:245:5
+    |
+243 | #[derive(Debug, Clone)]
+    |          ----- in this derive macro expansion
+244 | pub struct AuthorityContract<'a> {
+245 |     pub cryptographic_provider: Option<&'a dyn CryptographicProvider>,
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ the trait `Debug` is not implemented for `(dyn CryptographicProvider + 'a)`
+    |
+help: the following other types implement trait `Debug`
+   --> /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:152:0
+    |
+    = note: `dyn Any`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:162:0
+    |
+    = note: `dyn Any + Send`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:169:0
+    |
+    = note: `dyn Any + Send + Sync`
+
+error[E0277]: `(dyn BridgeAuthority + 'a)` doesn't implement `Debug`
+   --> src/lib.rs:248:5
+    |
+243 | #[derive(Debug, Clone)]
+    |          ----- in this derive macro expansion
+...
+248 |     pub bridge_authority: &'a dyn BridgeAuthority,
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ the trait `Debug` is not implemented for `(dyn BridgeAuthority + 'a)`
+    |
+help: the following other types implement trait `Debug`
+   --> /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:152:0
+    |
+    = note: `dyn Any`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:162:0
+    |
+    = note: `dyn Any + Send`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:169:0
+    |
+    = note: `dyn Any + Send + Sync`
+
+For more information about this error, try `rustc --explain E0277`.
+error: could not compile `halo9_v56_authority_contract` (lib) due to 4 previous errors
+CARGO_CHECK_RC=101
+
+=== CARGO TEST ===
+   Compiling serde_core v1.0.229
+   Compiling thiserror v1.0.69
+   Compiling serde v1.0.229
+   Compiling halo9_v56_authority_contract v0.1.0 (/data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract)
+error[E0277]: `(dyn CheetahPolicy + 'a)` doesn't implement `Debug`
+   --> src/lib.rs:246:5
+    |
+243 | #[derive(Debug, Clone)]
+    |          ----- in this derive macro expansion
+...
+246 |     pub cheetah_policy: &'a dyn CheetahPolicy,
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ the trait `Debug` is not implemented for `(dyn CheetahPolicy + 'a)`
+    |
+help: the following other types implement trait `Debug`
+   --> /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:152:0
+    |
+    = note: `dyn Any`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:162:0
+    |
+    = note: `dyn Any + Send`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:169:0
+    |
+    = note: `dyn Any + Send + Sync`
+
+error[E0277]: `(dyn BridgeInvariants + 'a)` doesn't implement `Debug`
+   --> src/lib.rs:247:5
+    |
+243 | #[derive(Debug, Clone)]
+    |          ----- in this derive macro expansion
+...
+247 |     pub bridge_invariants: &'a dyn BridgeInvariants,
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ the trait `Debug` is not implemented for `(dyn BridgeInvariants + 'a)`
+    |
+help: the following other types implement trait `Debug`
+   --> /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:152:0
+    |
+    = note: `dyn Any`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:162:0
+    |
+    = note: `dyn Any + Send`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:169:0
+    |
+    = note: `dyn Any + Send + Sync`
+
+error[E0277]: `(dyn CryptographicProvider + 'a)` doesn't implement `Debug`
+   --> src/lib.rs:245:5
+    |
+243 | #[derive(Debug, Clone)]
+    |          ----- in this derive macro expansion
+244 | pub struct AuthorityContract<'a> {
+245 |     pub cryptographic_provider: Option<&'a dyn CryptographicProvider>,
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ the trait `Debug` is not implemented for `(dyn CryptographicProvider + 'a)`
+    |
+help: the following other types implement trait `Debug`
+   --> /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:152:0
+    |
+    = note: `dyn Any`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:162:0
+    |
+    = note: `dyn Any + Send`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:169:0
+    |
+    = note: `dyn Any + Send + Sync`
+
+error[E0277]: `(dyn BridgeAuthority + 'a)` doesn't implement `Debug`
+   --> src/lib.rs:248:5
+    |
+243 | #[derive(Debug, Clone)]
+    |          ----- in this derive macro expansion
+...
+248 |     pub bridge_authority: &'a dyn BridgeAuthority,
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ the trait `Debug` is not implemented for `(dyn BridgeAuthority + 'a)`
+    |
+help: the following other types implement trait `Debug`
+   --> /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:152:0
+    |
+    = note: `dyn Any`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:162:0
+    |
+    = note: `dyn Any + Send`
+   ::: /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/any.rs:169:0
+    |
+    = note: `dyn Any + Send + Sync`
+
+For more information about this error, try `rustc --explain E0277`.
+error: could not compile `halo9_v56_authority_contract` (lib test) due to 4 previous errors
+CARGO_TEST_RC=101
+
+=== V56 GOVERNANCE GATE ===
+REAL_BRIDGE_MODIFICATION=NONE
+REAL_BRIDGE_INTEGRATION=NOT_PERFORMED
+PRODUCTION_CRYPTO=NOT_CONFIGURED
+PRODUCTION_UNLOCK=BLOCKED
+HALO9_V56_FINAL_DECISION=BLOCKED
+
+==================================================
+HALO9 V56 COMPLETE
+==================================================
+FINAL_DECISION=BLOCKED
+PROJECT=/data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract
+REPORT=/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/halo9_v56/20260914T174923Z/HALO9_V56_REPORT.txt
+EVIDENCE=/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/halo9_v56/20260914T174923Z
+PRODUCTION_UNLOCK=BLOCKED
+==================================================

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "UL7RA_CONSTITUTION/v1",
+  "title": "UL7RA Constitution v1 Derived Schema",
+  "type": "object",
+  "required": [
+    "artifact",
+    "lifecycle",
+    "evidence_state",
+    "conformance"
+  ],
+  "properties": {
+    "artifact": {
+      "type": "object"
+    },
+    "lifecycle": {
+      "enum": [
+        "L1_PROPOSED",
+        "L2_BUILT",
+        "L3_VERIFIED",
+        "L4_PROVEN",
+        "L5_AUTHORIZED",
+        "L6_BRIDGED",
+        "L7_EFFECTED",
+        "BLOCKED",
+        "RELEASE",
+        "ACTIVE",
+        "REVOKED",
+        "RETIRED"
+      ]
+    },
+    "evidence_state": {
+      "enum": [
+        "UNKNOWN",
+        "CONFLICTED",
+        "STALE",
+        "FAILED",
+        "PASS",
+        "CORROBORATED"
+      ]
+    },
+    "conformance": {
+      "enum": [
+        "CONFORMANT",
+        "NON_CONFORMANT",
+        "UNGATED_TRANSITION",
+        "AUTHORITY_INHERITANCE",
+        "BLOCKED_STATE_ESCAPE",
+        "UNKNOWN_TO_PASS",
+        "PROOF_TO_AUTHORITY",
+        "RELEASE_TO_EFFECT",
+        "SILENT_RESURRECTION",
+        "PURPLE_AUTHORIZATION",
+        "BRIDGE_BYPASS",
+        "PRODUCTION_UNLOCK_ON_BLOCK",
+        "SCHEMATIC_DRIFT"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,20 @@
+{
+  "engine": "UL7RAVERSE OMNIPULSE REVENUE EXECUTION ENGINE",
+  "timestamp_utc": "20260912T234003Z",
+  "root": "/data/data/com.termux/files/home/UL7RAVERSE",
+  "western_fair": {
+    "start": "2026-09-11",
+    "end": "2026-09-20"
+  },
+  "governance": {
+    "fail_closed": true,
+    "no_fabrication": true,
+    "no_permission_no_execution": true,
+    "no_payment_no_revenue": true,
+    "commerce_proof_separation": true,
+    "new_tunnel": false
+  },
+  "revenue_verified_cad": 0,
+  "next_best_action": "REVENUE_PATH_BLOCKED_PENDING_EXTERNAL_OR_HUMAN_ACTION",
+  "evidence_path": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/omnipulse_revenue/20260912T234003Z"
+}

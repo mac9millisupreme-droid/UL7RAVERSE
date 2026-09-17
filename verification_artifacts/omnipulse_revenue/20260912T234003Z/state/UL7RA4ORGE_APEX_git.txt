@@ -1,0 +1,145 @@
+BRANCH=master
+COMMIT=4ea782df586c82f03aaf1fcd95c233d9df6327e7
+STATUS:
+?? " "
+?? .apex/
+?? .promotion-commit
+?? .ul7ra/tunnel/
+?? .ul7ra_elite/
+?? .ul7ra_elite_test/
+?? APEX_BREAKTHROUGH_20260901T040842Z.txt
+?? APEX_BREAKTHROUGH_20260901T040842Z.txt.sha256
+?? APEX_BREAKTHROUGH_REPORT_20260901T040842Z.zip
+?? APEX_BREAKTHROUGH_SCAN.sh
+?? APEX_FORENSIC_20260901T021451Z.zip
+?? APEX_FORENSIC_20260901T021451Z/
+?? APEX_FORENSIC_PACK.sh
+?? APEX_HANDOFF.sh
+?? SAIOS_EXECUTION_FORENSIC.sh
+?? UL7RA_APEX_HANDOFF_20260901T041836Z.zip
+?? UL7RA_APEX_HANDOFF_20260901T041836Z/
+?? UL7RA_CONTINUOUS_APEX.sh
+?? UL7RA_EXECUTION_BREAKTHROUGH_20260901T044409Z.zip
+?? UL7RA_EXECUTION_BREAKTHROUGH_20260901T044409Z.zip.sha256
+?? UL7RA_FINAL_20260901T042025Z.zip
+?? UL7RA_FINAL_20260901T042025Z/
+?? UL7RA_PHASE0_REPORT.json
+?? deploy/
+?? evidence/__init__.py
+?? evidence/canonical_integration_v0.1/
+?? evidence/commercial_control_plane_v0.1/
+?? evidence/commercial_deep_test_v0.1/
+?? evidence/commercial_implementation/
+?? evidence/commercial_sandbox_e2e_v0.1/
+?? evidence/commercial_transaction_gate_v0.1/
+?? evidence/e2e_commercial_proof_v0.1/
+?? evidence/execution_forensic_20260901T021244Z/
+?? evidence/fabric.py
+?? evidence/persistent_diagnostics/
+?? evidence/pre_input_code_gate_v0.1/
+?? evidence/productization_gate_v0.1/
+?? evidence/real_commerce_install/
+?? evidence/real_productization_gate_v0.2/
+?? evidence/revenue_completeness_v0.2/
+?? evidence/revenue_readiness_v0.1/
+?? governance/
+?? inspect_transport.sh
+?? purple_team/
+?? repair_git_scope.sh
+?? tests/commercial/
+?? tests/test_elite.py
+?? ul7ra/api/
+?? ul7ra/commercial/
+?? ul7ra_elite.py
+?? ul7ra_inventory.json
+RECENT_COMMITS:
+4ea782d UL7RA4ORGE APEX verified baseline
+TOP_LEVEL:
+ 
+.apex/EXECUTE_NOW.md
+.git/COMMIT_EDITMSG
+.git/HEAD
+.git/config
+.git/description
+.git/index
+.gitignore
+.promotion-commit
+.pytest_cache/.gitignore
+.pytest_cache/CACHEDIR.TAG
+.pytest_cache/README.md
+.ul7ra_elite/ELITE_PROFILE.json
+AGENTS.md
+APEX_BREAKTHROUGH_20260901T040842Z.txt
+APEX_BREAKTHROUGH_20260901T040842Z.txt.sha256
+APEX_BREAKTHROUGH_REPORT_20260901T040842Z.zip
+APEX_BREAKTHROUGH_SCAN.sh
+APEX_FORENSIC_20260901T021451Z.zip
+APEX_FORENSIC_20260901T021451Z/REPORT.txt
+APEX_FORENSIC_20260901T021451Z/SHA256SUMS.txt
+APEX_FORENSIC_PACK.sh
+APEX_HANDOFF.sh
+SAIOS_EXECUTION_FORENSIC.sh
+UL7RA_APEX_HANDOFF_20260901T041836Z.zip
+UL7RA_APEX_HANDOFF_20260901T041836Z/AGENTS.md
+UL7RA_APEX_HANDOFF_20260901T041836Z/APEX_BREAKTHROUGH_20260901T040842Z.txt
+UL7RA_APEX_HANDOFF_20260901T041836Z/APEX_BREAKTHROUGH_20260901T040842Z.txt.sha256
+UL7RA_APEX_HANDOFF_20260901T041836Z/APEX_FORENSIC_20260901T021451Z.zip
+UL7RA_APEX_HANDOFF_20260901T041836Z/ARCHITECTURE.txt
+UL7RA_APEX_HANDOFF_20260901T041836Z/LIVE_STATE.txt
+UL7RA_APEX_HANDOFF_20260901T041836Z/MANIFEST.sha256
+UL7RA_APEX_HANDOFF_20260901T041836Z/UL7RA_EXECUTION_CONTRACT.md
+UL7RA_CONTINUOUS_APEX.sh
+UL7RA_EXECUTION_BREAKTHROUGH_20260901T044409Z.zip
+UL7RA_EXECUTION_BREAKTHROUGH_20260901T044409Z.zip.sha256
+UL7RA_EXECUTION_CONTRACT.md
+UL7RA_FINAL_20260901T042025Z.zip
+UL7RA_FINAL_20260901T042025Z/AGENTS.md
+UL7RA_FINAL_20260901T042025Z/APEX_BREAKTHROUGH_20260901T040842Z.txt
+UL7RA_FINAL_20260901T042025Z/ARCHITECTURE.txt
+UL7RA_FINAL_20260901T042025Z/LIVE_STATE.txt
+UL7RA_FINAL_20260901T042025Z/MANIFEST.sha256
+UL7RA_FINAL_20260901T042025Z/UL7RA_EXECUTION_CONTRACT.md
+UL7RA_PHASE0_REPORT.json
+VERSION
+__pycache__/ul7ra_elite.cpython-314.pyc
+build_v050.sh
+current_attack.log
+deploy/Dockerfile
+deploy/README.md
+deploy/docker-compose.yml
+evidence/__init__.py
+evidence/apex_final_verification_20260827T152655Z.txt
+evidence/apex_v0.4.1_attestation.json
+evidence/apex_v0.4.1_promotion.json
+evidence/apex_v0.4.1_provenance_anchor.json
+evidence/fabric.py
+evidence/v0.4.1-promotion.log.sha256
+evidence/v0.5.0-execution-core.json
+evidence/v0.5.0-purple-team.json
+governance/__init__.py
+governance/gate.py
+inspect_transport.sh
+purple_team/__init__.py
+purple_team/engine.py
+purple_v050.py
+pyproject.toml
+repair_git_scope.sh
+scripts/__init__.py
+scripts/real_attack_suite.py
+scripts/real_attack_suite.py.bak.1787103478
+scripts/real_attack_suite.py.bak.1787103597
+test_failures.log
+tests/__init__.py
+tests/test_core.py
+tests/test_elite.py
+tests/test_execution_core.py
+ul7ra/__init__.py
+ul7ra/__main__.py
+ul7ra/core.py
+ul7ra/core.py.bak.1787103418
+ul7ra/core.py.bak.1787103597
+ul7ra/execution_core.py
+ul7ra_elite.py
+ul7ra_inventory.json
+ul7ra_test.log
+v050_build.log

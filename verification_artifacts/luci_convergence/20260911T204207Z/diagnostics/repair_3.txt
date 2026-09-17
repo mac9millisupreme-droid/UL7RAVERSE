@@ -1,0 +1,12 @@
+=== SAFE REPAIR ROUND 3 ===
+--- ENSURE NAMED TUNNEL ---
+TUNNEL_PROCESS=ALREADY_RUNNING
+--- EXISTING DNS ROUTE RECONCILIATION ---
+2026-09-11T20:43:18Z INF verify.omnilucient.com is already configured to route to your tunnel tunnelID=a241e27b-336e-44cc-9a52-6487131db63b
+--- TUNNEL INFO ---
+NAME:     ul7ra-verify
+ID:       a241e27b-336e-44cc-9a52-6487131db63b
+CREATED:  2026-08-22 04:43:31.842802 +0000 UTC
+
+CONNECTOR ID                         CREATED              ARCHITECTURE VERSION  ORIGIN IP                              EDGE                      
+677f6b97-1e48-41c6-9cf9-d0371b26237b 2026-09-11T20:42:17Z android_arm  2026.8.3 2605:b100:30b:e35d:78c6:78ff:fe69:7f9e 1xyyz01, 1xyyz03, 2xyyz06 

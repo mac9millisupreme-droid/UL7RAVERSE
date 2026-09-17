@@ -1,0 +1,4 @@
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:16:        .unwrap_or_else(|_| "SOVEREIGN_TO_EXTERNAL".into());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:18:    if direction != "SOVEREIGN_TO_EXTERNAL" {
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:19:        eprintln!("CHEETAH DENY: prohibited direction");
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:31:        direction: "SOVEREIGN_TO_EXTERNAL".into(),

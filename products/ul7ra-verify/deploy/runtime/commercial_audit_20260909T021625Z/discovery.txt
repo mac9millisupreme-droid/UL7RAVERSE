@@ -1,0 +1,466 @@
+=== OMNILUCIENT COMMERCIAL DISCOVERY ===
+DATE=Wed Sep  9 02:16:25 UTC 2026
+HOST=localhost
+
+=== ROOTS ===
+/data/data/com.termux/files/home/UL7RA4ORGE_APEX
+/data/data/com.termux/files/home/UL7RAVERSE
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE
+/data/data/com.termux/files/home/UL7RA_APEX_SYNTHESIS_20260829T015357Z/snapshot/UL7RAVERSE
+/data/data/com.termux/files/home/UL7RA_APEX_SYNTHESIS_20260829T015517Z/snapshot/UL7RAVERSE
+/data/data/com.termux/files/home/UL7RA_APEX_SYNTHESIS_20260829T015613Z/snapshot/UL7RA4ORGE_APEX
+/data/data/com.termux/files/home/UL7RA_APEX_SYNTHESIS_20260829T015613Z/snapshot/UL7RAVERSE
+
+=== COMMERCIAL FILES ===
+/data/data/com.termux/files/home/UL7RAVERSE/.pytest_cache/README.md
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/20260823T042104Z/evidence/product/VERIFY_PRODUCT.exit
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/20260823T042104Z/evidence/product/VERIFY_PRODUCT.log
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/20260823T043855Z/evidence/PRODUCT.log
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/20260823T044008Z/evidence/PRODUCT.log
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/20260823T162444Z/evidence/PRODUCT_INVENTORY.txt
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/debug/incremental/cheetah-1jdgqqim0w5g6/s-hlodm674l9-1am9irc-5w9z2jnpmc2ci81vzocp54hux/work-products.bin
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/__pycache__/production_gate.cpython-314.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/production_gate.py
+/data/data/com.termux/files/home/UL7RAVERSE/evidence/quantum_storm/20260823T040239Z/proof.payload
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/.pytest_cache/README.md
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/PRODUCT_CONTRACT.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/README.md
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/verify_product_script.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/execution/20260823T013350Z/execution/proof-artifact
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/execution/proof.bin
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/product.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-proof.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/proof.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/proof.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/scripts/verify_product.sh
+
+=== ENTRYPOINTS ===
+/data/data/com.termux/files/home/UL7RAVERSE/lucideploy/cli/main.py
+
+=== TESTS ===
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/4H_EXECUTION/20260824T022857Z/WIRE_TEST/WIRE_TEST.json
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/test_files.txt
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/test_results.txt
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/bin/attestation_binding_remediation.sh
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/bin/authority_contract_test.sh
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/bin/authority_reconcile_test
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/bin/continuous_assurance_test.sh
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/bin/continuous_test
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/bin/registry_assurance_reconciliation_test.sh
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/evidence/test_discovery.json
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/evidence/tests.txt
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/20260823T043855Z/evidence/LUCIDEPLOY_TESTS.log
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/20260823T162635Z/evidence/TEST_SURFACE.txt
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/attest.py
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/attestation_plan.json
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/authority-contract-20260823T175507Z/contract_test.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/authority-contract-20260823T175507Z/evidence/contract_test.json
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/authority-test-20260823T171820Z/evidence/contract_test.json
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/capability-20260823T170726Z/evidence/reproducible_build_attestation.json
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/live_test.log
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/live_test.log
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/live_test.log
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/live_test.log
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/live_test.log
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/evidence-production-20260823T170811Z/evidence/hardware_attestation_boundary.json
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/evidence-production-20260823T170811Z/evidence/key_lifecycle_test.json
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/path-binding-fix-20260823T175207Z/evidence/attest.py.before
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/attest.py
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/attest.py.baseline
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/runs/revocation-20260823T170949Z/evidence/key_revocation_test.json
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/protocol52/runs/20260825T163117Z/test-paths.txt
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/protocol52/state/20260825T154639Z/attest.diff
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/assurance/verifier/external/EXTERNAL_ATTESTATION_CONTRACT.md
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/assurance/verifier/external/__pycache__/reconcile_attestation.cpython-314.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/assurance/verifier/external/reconcile_attestation.py
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/ul7rastack/security/evidence/latest_containment.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v06/tests/__pycache__/test_v06.cpython-314-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v06/tests/__pycache__/test_v06.cpython-314.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v06/tests/test_v06.py
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/__pycache__/attest.cpython-314.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/approved_cryptography.attestation.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py.backup.20260823T175318Z
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py.backup.final.20260823T175350Z
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py.pre-output-path-fix
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/hardware_backed_keys.attestation.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/independent_verification.attestation.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/key_lifecycle.attestation.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/keys/key_generation_rotation_revocation_test.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/keys/local_key_lifecycle_test.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/one_way_enforcement.attestation.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/reproducible_builds.attestation.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/tests/cargo_test.log
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/tests/cargo_test.log
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/red_boundary_tests.log
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/red_boundary_tests.log
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/red_boundary_tests.log
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/red_boundary_tests.log
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020214Z/independent_test.log
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020337Z/independent_test.log
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020404Z/independent_test.log
+/data/data/com.termux/files/home/UL7RAVERSE/evidence/quantum_storm/20260823T040239Z/test_discovery
+/data/data/com.termux/files/home/UL7RAVERSE/evidence/quantum_storm/20260823T040239Z/tests.out
+/data/data/com.termux/files/home/UL7RAVERSE/evidence/quantum_storm/20260823T040239Z/tests.result
+/data/data/com.termux/files/home/UL7RAVERSE/lucideploy/tests/__pycache__/test_integrity.cpython-314-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/lucideploy/tests/__pycache__/test_integrity.cpython-314.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/lucideploy/tests/__pycache__/test_state.cpython-314-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/lucideploy/tests/__pycache__/test_state.cpython-314.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/lucideploy/tests/test_integrity.py
+/data/data/com.termux/files/home/UL7RAVERSE/lucideploy/tests/test_state.py
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/pytest_collection.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/pytest_status.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server_status.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/config-test.yml
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/external_test_artifact
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/test_artifact
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/tests/__pycache__/test_server.cpython-314-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/tests/__pycache__/test_server.cpython-314.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/tests/test_server.py
+/data/data/com.termux/files/home/UL7RAVERSE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020026Z/independent_test.log
+
+=== GIT ===
+--- /data/data/com.termux/files/home/UL7RAVERSE ---
+?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/
+?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/
+?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/
+?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/
+?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/
+?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/
+?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/
+?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/
+?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/
+?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/
+?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/
+?? products/ul7ra-verify/deploy/runtime/health_recovery.json
+?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/
+?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/
+BRANCH=master
+HEAD=63c1d60 UL7RAFORGE bootstrap
+--- /data/data/com.termux/files/home/UL7RA4ORGE_APEX ---
+?? " "
+?? .apex/
+?? .promotion-commit
+?? .ul7ra/tunnel/
+?? .ul7ra_elite/
+?? APEX_BREAKTHROUGH_20260901T040842Z.txt
+?? APEX_BREAKTHROUGH_20260901T040842Z.txt.sha256
+?? APEX_BREAKTHROUGH_REPORT_20260901T040842Z.zip
+?? APEX_BREAKTHROUGH_SCAN.sh
+?? APEX_FORENSIC_20260901T021451Z.zip
+?? APEX_FORENSIC_20260901T021451Z/
+?? APEX_FORENSIC_PACK.sh
+?? APEX_HANDOFF.sh
+?? SAIOS_EXECUTION_FORENSIC.sh
+?? UL7RA_APEX_HANDOFF_20260901T041836Z.zip
+?? UL7RA_APEX_HANDOFF_20260901T041836Z/
+?? UL7RA_CONTINUOUS_APEX.sh
+?? UL7RA_EXECUTION_BREAKTHROUGH_20260901T044409Z.zip
+?? UL7RA_EXECUTION_BREAKTHROUGH_20260901T044409Z.zip.sha256
+?? UL7RA_FINAL_20260901T042025Z.zip
+?? UL7RA_FINAL_20260901T042025Z/
+?? UL7RA_PHASE0_REPORT.json
+?? deploy/
+?? evidence/__init__.py
+?? evidence/canonical_integration_v0.1/
+?? evidence/commercial_control_plane_v0.1/
+?? evidence/commercial_deep_test_v0.1/
+?? evidence/commercial_implementation/
+?? evidence/commercial_sandbox_e2e_v0.1/
+?? evidence/commercial_transaction_gate_v0.1/
+?? evidence/e2e_commercial_proof_v0.1/
+?? evidence/execution_forensic_20260901T021244Z/
+?? evidence/fabric.py
+?? evidence/persistent_diagnostics/
+?? evidence/pre_input_code_gate_v0.1/
+?? evidence/productization_gate_v0.1/
+?? evidence/real_commerce_install/
+?? evidence/real_productization_gate_v0.2/
+?? evidence/revenue_completeness_v0.2/
+?? evidence/revenue_readiness_v0.1/
+?? governance/
+?? inspect_transport.sh
+?? purple_team/
+?? repair_git_scope.sh
+?? tests/commercial/
+?? tests/test_elite.py
+?? ul7ra/api/
+?? ul7ra/commercial/
+?? ul7ra_elite.py
+?? ul7ra_inventory.json
+BRANCH=master
+HEAD=4ea782d UL7RA4ORGE APEX verified baseline
+
+=== DOMAIN / DEPLOYMENT ===
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/.ul7ra/protocol52/state/REPOSITORY_AUDIT.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/deployment_gate.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-cloudflared.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-list.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-cloudflared.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-list.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/hostname.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-cloudflared.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/processes.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/authoritative-before.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-cloudflared.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-cloudflared-version.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/convergence/20260822T111810Z/tunnel-list.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/convergence/20260822T111810Z/routing.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/convergence/20260822T111810Z/cloudflared-config.yml
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/convergence/20260822T111810Z/auth-rodrigo.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/ip/GATE3A_INVENTORY.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/ip/IP_DEFENSIBILITY_INVENTORY.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/EVIDENCE_SHA256SUMS
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/claim.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/observation.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/proof.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/provenance/PROVENANCE_ANCHOR.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-status-before.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-status-after.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/start_tunnel.sh
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/live_deployment_report.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/closed_loop_report.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/tunnel_list.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/final_tunnel_list.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/omnilucient_public_route.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/watchdog.sh
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/promotion_state.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/config-test.yml
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/promotion_state.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/build.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_process.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_config.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/python_dns.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflare_dns.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/google_dns.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_version.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_list.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/dns_route.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/public_dns.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/dns_route.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/route_help.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/dns_authority.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_a.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_cname.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_ns.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/a_before.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_before.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/route_attempt.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_1.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_2.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_3.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_4.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_5.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_6.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/a_final.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_final.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/APEX_DNS_DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/dns_route_help.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/route_dns_normal.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/public_cname_after.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/google_cname_after.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/APEX_DNS_DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_list.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/config_redacted.yml
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/public_cname.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/public_cname.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/google_cname.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_queries.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_1111.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_google.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/authoritative_any.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/authoritative_cname.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_routes.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/route_dns_status.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/cloudflare_public_dns.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/google_public_dns.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/discovery.txt
+/data/data/com.termux/files/home/UL7RAVERSE/lucideploy/run_final_gate.sh
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/evidence/recovery.json
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/evidence/processes.txt
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/funnel/evidence/git_status.txt
+
+=== COMMERCIAL INTEGRATIONS ===
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/README.md:29:- developer subscription
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/4H_EXECUTION/20260824T022557Z/EXECUTION.json:26:      "checkout": [],
+/data/data/com.termux/files/home/UL7RAVERSE/.ul7ra/4H_EXECUTION/20260824T022557Z/EXECUTION.json:84:      "stripe": []
+/data/data/com.termux/files/home/UL7RAVERSE/.github/workflows/ul7ra-external-s9.yml:22:        uses: actions/checkout@v4
+
+=== EVIDENCE RUNTIME ===
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/health_before.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/source_hashes.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/verify_product_script.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/watchdog_start.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/BUILD_ID.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/final_source_hashes.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/git_head.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/git_status.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/health.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/pytest_collection.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/pytest_status.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/root.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/source_hashes.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server_status.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/verify.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/closed_loop.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/closed_loop_report.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_a.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_cname.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_ns.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflared_process.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/dns_authority.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/dns_route.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/route_help.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/tunnel_info.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/authoritative_cname.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/cloudflare_env_names.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/cloudflared_files.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/config_redacted.yml
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/public_cname.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/route_status.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/run.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_info.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_list.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflared.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflared.pid
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/discovery.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/config-test.yml
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/APEX_DNS_DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_a.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_cname.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_cname_after.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/dns_route_help.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/google_cname_after.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/local_health.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/public_cname_after.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/route_dns_normal.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/run.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/tunnel_info.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflare_dns.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_process.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_version.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/google_dns.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/local_health.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/python_dns.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/resolv.conf
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_ns.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_queries.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/google_cname.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/https_headers.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/public_cname.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/route_status.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/run.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_info.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_target_resolution.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/APEX_DNS_DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/a_before.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/a_final.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_before.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_1.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_2.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_3.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_4.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_5.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_6.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_final.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/local_health.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/route_attempt.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/tunnel_info.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/authoritative_any.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/authoritative_cname.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/cloudflare_public_dns.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/cloudflared_dir.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/google_public_dns.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/nameservers.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/route_dns_status.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/run.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_info.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_routes.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/https_headers.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_1111.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_google.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/run.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/tunnel_info.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/domain_response.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/external_test_artifact
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/final_tunnel_list.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/gate2-artifact
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/health_recovery.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/live_deployment_report.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/local_health_gate2.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/local_origin.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/local_response.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/local_verify.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/engine.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/promotion_state.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/omnilucient_public_route.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/origin.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/origin.pid
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/promotion_state.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_body.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_headers.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_health.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_probe_artifact
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/cloudflared.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/dns_route.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/git_status.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/local_health.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/public_dns.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/public_payload.bin
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/source_hashes_after.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/source_hashes_before.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_info.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_list.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_url
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/APEX_PUBLIC_DECISION.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/build.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_config.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_process.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/dns.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/dns_status.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/head.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/local_health.json
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/public_health_headers.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/public_payload.bin
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/source_hashes.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/server.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/server.pid
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/test_artifact
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/tunnel_list.err
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/tunnel_list.txt
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/ul7ra-start.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/watchdog.log
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/watchdog.pid
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/watchdog.sh
+
+=== COMPLETE ===
+EVIDENCE=/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z

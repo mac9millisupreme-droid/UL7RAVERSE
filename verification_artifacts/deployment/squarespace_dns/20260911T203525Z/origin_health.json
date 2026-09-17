@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "version": "99.0.0-lite",
+  "schemaVersion": 99,
+  "persistence": "atomic-json"
+}

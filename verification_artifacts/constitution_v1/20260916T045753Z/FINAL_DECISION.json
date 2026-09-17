@@ -1,0 +1,14 @@
+{
+  "specification": "UL7RA_CONSTITUTION/v1",
+  "status": "CONFORMANT",
+  "self_test": "PASS",
+  "production_unlock_storage": false,
+  "blocked_production_unlock": 0,
+  "purple_omega_promotion": false,
+  "bridge_bypass": false,
+  "silent_resurrection": false,
+  "schema_derived": true,
+  "state_machine_derived": true,
+  "gate_contract_derived": true,
+  "attack_corpus_derived": true
+}

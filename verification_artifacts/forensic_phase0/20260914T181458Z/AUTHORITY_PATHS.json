@@ -1,0 +1,2628 @@
+[
+  {
+    "action_patterns": [
+      "http://",
+      "exec("
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "ul7ra_termux_sentinel.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "ul7ra_start_stack.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "install_ul7ra_continue_v010.py",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "test_ul7ra_continue.py",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "UL7RAPASS_ONE.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "UL7RA_MEMBER_LOOP.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "FIX_UL7RA_ORIGIN.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "VERIFY_UL7RA_ORIGIN.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "VERIFY_UL7RA_ORIGIN_FIXED.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "launch_omnipulse_live.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "repair_omnipulse_live.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "omni_live_brand_launch.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "omni_force_live.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verify_omnipulse_public.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "repair_omnipulse_public_tunnel.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "diagnose_omnipulse_tunnel.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "keep_omnipulse_public.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "LUCI_ONE_SHOT.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "LUCI_PUBLIC_AUTHORITY_DIAG.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "DIAG_NAMED_TUNNEL.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "REPAIR_VERIFY_PRODUCTION.sh",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "DNS_DELEGATION_DIAG.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "DNS_AUTHORITY_FINAL.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "FORCE_RECONCILE_VERIFY_DNS.sh",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "WESTERN_FAIR_OMNIPULSE_CONVERGENCE.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "PROVE_DOMAIN_CONTROL_AND_REPAIR.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "DNS_TRUTH_CHECK.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "repair_authoritative_dns.sh",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "UL7RA_DNS_REPAIR_ONE.sh",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "UL7RA_ELITE_FORENSIC.sh",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "UL7RA_DNS_REPAIR_EXECUTE.sh",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "PUBLISH_UL7RAVERSE_FREE.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "FINAL_DNS_PRODUCTION_GATE.sh",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "CLOUDFLARE_OWNERSHIP_RECONCILE.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "CLOUDFLARE_FINAL_OWNERSHIP_GATE.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "CLOUDFLARE_OWNERSHIP_RECONCILE.backup.20260913T080808Z.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "LUCI_PROMOTE_ONE.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "LUCI_PROMOTE_V03_ONE.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://",
+      "grpc",
+      "tcp",
+      "os.system",
+      "subprocess",
+      "requests.",
+      "fetch(",
+      "exec(",
+      "spawn("
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "RUN_FORENSIC_PHASE0.py",
+    "gate_detected": true,
+    "gate_patterns": [
+      "haspermission",
+      "is_authorized",
+      "isauthorized",
+      "checkpermission",
+      "require_auth",
+      "authorize",
+      "permission",
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "UL7RAFORGE/hyperquantum_bootstrap.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "UL7RAFORGE/v10/ul7rastack/assurance/assurance_gates.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/system_snapshot.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "UL7RAFORGE/v10/ul7rastack/hyperquantum/verification/run.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "UL7RAFORGE/v10/ul7rabridge/Cargo.lock",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "UL7RAFORGE/assurance/verifier/independent/establish_schema_and_reconcile.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "UL7RAFORGE/assurance/evidence/schema.v1.json",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/tests/test_server.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/tests/test_server.py.bak_pathfix",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/tests/test_server.py.bak_realtest",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/deployment_watchdog.json",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/public_probe.json",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/run.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/run.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/origin.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-gh-version.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-awk-version.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-sed-version.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-grep-version.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-sha256sum-version.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/cloudflared-config.yml",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/execution/cloudflared.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/execution/20260823T013350Z/execution-engine.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/evidence/execution/20260823T013350Z/STATE.json",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/start_tunnel.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/cloudflared.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/public_url",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/live_deployment_report.json",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/watchdog.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/config-test.yml",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_config.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/cloudflared.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/route_help.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/run.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/config_redacted.yml",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflared_config.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/.pytest_cache/README.md",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "products/ul7ra-verify/.pytest_cache/CACHEDIR.TAG",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "lucideploy/evidence/final_gate.json",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "evidence/quantum_storm/20260823T040239Z/swarm.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/assurance_gates.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/assurance_gates.py.baseline",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/assurance_gates.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": ".ul7ra/funnel/runs/path-binding-fix-20260823T175207Z/evidence/assurance_gates.py.before",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": ".ul7ra/funnel/bin/continuous_assurance_remediation.sh",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": ".ul7ra/simulation/bootstrap.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": ".ul7ra/simulation/RECOVERY_STATE.json",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission",
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_remotes.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": ".pytest_cache/README.md",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": ".pytest_cache/CACHEDIR.TAG",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "racing/accuracy_logs/accuracy_20260909_041713.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "racing/accuracy_logs/ail_master_20260909_041845.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "racing/repair_logs/repair_20260909_043226.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "racing/repair_logs/phase2_logs/phase2_20260909_050155.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "racing/repair_logs/phase3_logs/phase3_20260909_050524.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "racing/.pytest_cache/README.md",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "racing/.pytest_cache/CACHEDIR.TAG",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "racing/final_logs/complete_20260909_051506.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize",
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess",
+      "exec("
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "FORENSIC_PHASE0_20260909T095923Z/SECURITY_SEARCH.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "FORENSIC_PHASE0_20260909T095923Z/PHASE0_BASELINE.json",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "FORENSIC_PHASE0_20260909T100256Z/TEST_RESULTS.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "exec("
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "FORENSIC_PHASE0_20260909T100256Z/SECURITY_SCAN.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests.",
+      "exec("
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "FORENSIC_PHASE0_20260909T100256Z/PHASE0_BASELINE.json",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/verification_artifact.schema.json",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/verification_artifact.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/existing_tunnel_connector_gate.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/runs/phase2c_20260909T102629Z/VERIFICATION_ARTIFACT.json",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/discovery/20260909T102406Z/PHASE2_DISCOVERY.json",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/discovery/20260909T102406Z/PHASE2_DISCOVERY.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/CANONICAL_GIT_STATE.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/reconciliation.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/origin_runtime/20260911T200007Z/EXECUTION.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/origin_runtime/20260911T200007Z/origin.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/origin_runtime/20260911T200007Z/FINAL_DECISION.md",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/origin_runtime/START_20260911T200939Z/FINAL_DECISION.md",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/REPORT.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/provenance_matches.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/deployment/one_launch/20260911T203832Z/cloudflared_runtime.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/luci_convergence/20260911T204207Z/logs/cloudflared_1.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/luci_convergence/20260911T205054Z/logs/cloudflared_1.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/one_convergence/20260911T212038Z/controller.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/one_convergence/20260911T212038Z/PROOF_STATE.json",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/recovery/20260911T212523Z/cloudflared.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/orchestrator/20260911T212831Z/logs/orchestrator.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "authorize"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/orchestrator/20260911T212831Z/logs/final_gate.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse/live/20260911T231820Z/http.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse/live-brand/20260911T232128Z/http.log",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse/force-live/20260911T232304Z/cloudflare.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse/force-live/20260911T232304Z/FINAL_STATUS.md",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse/force-live/20260911T232559Z/cloudflare.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse/force-live/20260911T232559Z/FINAL_STATUS.md",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse/force-live/20260911T232559Z/public-repair-20260911T232849Z/cloudflare.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse/force-live/20260911T232559Z/network-diagnostic-20260911T233229Z/cloudflare_headers.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse/force-live/20260911T232559Z/public-live-20260911T233305Z/cloudflare.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/luci_one_shot/20260911T233921Z/REPORT.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/luci_public_authority/20260911T234040Z/REPORT.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/luci_public_authority/20260911T234302Z/REPORT.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/named_tunnel_diag/20260911T234542Z/REPORT.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/dns_delegation/20260911T235133Z/REPORT.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/western_fair_convergence/20260911T235723Z/REPORT.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/western_fair_convergence/20260911T235723Z/final_gate.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/domain_control/20260912T000358Z/REPORT.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/domain_control/20260912T000358Z/final_gate.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/domain_control/20260912T000546Z/REPORT.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/domain_control/20260912T000546Z/final_gate.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/elite_forensic/20260912T031215Z/LUCI_FINAL_GATE.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://",
+      "tcp",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse_revenue/20260912T234003Z/OMNIPULSE_REVENUE_REPORT.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission",
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse_revenue/20260912T234003Z/web/western_fair_commercial.html",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse_revenue/20260912T234003Z/web/western_fair_sponsorship.html",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse_revenue/20260912T234003Z/web/western_fair_employment.html",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/omnipulse_revenue/20260912T234003Z/state/deployment.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/dns_authority_gate/20260912T235823Z/DNS_AUTHORITY_GATE.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/revenue_engine/20260913T002053Z/REVENUE_ENGINE_SCAN.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/revenue_engine/20260913T002220Z/revenue_next_gate.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/revenue_engine/20260913T002409Z/revenue_next_gate.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://",
+      "https://",
+      "tcp",
+      "subprocess",
+      "requests."
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/cloudflare_route_gate_20260913T052957Z/report.txt",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission",
+      "capability"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/cloudflare_origin_gate_20260913T053126Z/report.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/final_public_gate/20260913T080226Z/connector.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://",
+      "tcp"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/final_public_gate/20260913T080919Z/connector.log",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/report.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/config.txt",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/forensic_phase0/20260914T181458Z/ENVIRONMENT.json",
+    "gate_detected": true,
+    "gate_patterns": [
+      "permission"
+    ],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "verification_artifacts/forensic_phase0/20260914T181458Z/REPOSITORY_STATE.json",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "ul7ra_continue/discovery.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "ul7ra_continue/verification.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "subprocess"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "ul7ra4_factory/engine/factory.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "luci_promote/luci_promote.py",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "http://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "luci_promote/luci_promote.py.v02.bak.20260914T005028Z",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "halo9_v56_authority_contract/Cargo.lock",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  },
+  {
+    "action_patterns": [
+      "https://"
+    ],
+    "classification": "AUTHORITY_REVIEW_REQUIRED",
+    "file": "halo9_v57_adapter/Cargo.lock",
+    "gate_detected": false,
+    "gate_patterns": [],
+    "notes": [
+      "PHASE0 heuristic only.",
+      "Presence does not prove authority."
+    ]
+  }
+]

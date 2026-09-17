@@ -1,0 +1,10 @@
+TIMESTAMP_UTC=2026-09-12T03:12:15Z
+PWD=/data/data/com.termux/files/home/UL7RAVERSE
+ARCH=armv7l
+OS=Android
+KERNEL=5.15.189-android13-8-gba21471e3a6a-ab20260511215345
+BASH=5.3.15(1)-release
+DOMAIN=omnilucient.com
+HOST=verify.omnilucient.com
+TUNNEL_ID=a241e27b-336e-44cc-9a52-6487131db63b
+TARGET=a241e27b-336e-44cc-9a52-6487131db63b.cfargotunnel.com

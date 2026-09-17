@@ -1,0 +1,374 @@
+============================================================
+ UL7RA DNS DELEGATION DIAGNOSTIC
+============================================================
+TIME=20260911T235133Z
+
+=== 1. DOMAIN NS ===
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+omnilucient.com	nameserver = addyson.ns.cloudflare.com.
+omnilucient.com	nameserver = rodrigo.ns.cloudflare.com.
+
+Authoritative answers can be found from:
+
+
+=== 2. DOMAIN SOA ===
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+omnilucient.com
+	origin = addyson.ns.cloudflare.com
+	mail addr = dns.cloudflare.com
+	serial = 2411415996
+	refresh = 10000
+	retry = 2400
+	expire = 604800
+	minimum = 1800
+
+Authoritative answers can be found from:
+
+
+=== 3. VERIFY HOST ===
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+
+
+=== 4. CLOUDFLARE ROUTES ===
+This command expects the format "cloudflared tunnel route dns <tunnel name/id> <hostname>"
+See 'cloudflared route dns --help'.
+
+=== 5. TUNNEL ===
+NAME:     ul7ra-verify
+ID:       a241e27b-336e-44cc-9a52-6487131db63b
+CREATED:  2026-08-22 04:43:31.842802 +0000 UTC
+
+CONNECTOR ID                         CREATED              ARCHITECTURE VERSION  ORIGIN IP                              EDGE                      
+042fd8df-9c58-40f8-ab08-35d39e2432fb 2026-09-11T21:25:30Z android_arm  2026.8.3 2605:b100:300:e39a:18a1:10ff:fe8c:6c04 1xyyz01, 1xyyz03, 2xyyz06 
+
+=== 6. CLOUDFLARE DNS RECORD SEARCH IN REPO ===
+products/ul7ra-verify/evidence/deployment_watchdog.json:13:  "dns_changed": false,
+products/ul7ra-verify/evidence/public_probe.json:13:  "dns_changed": false,
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt:2:5:  - hostname: verify.omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt:4:7:  - hostname: omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt:7:; EDNS: version: 0, flags:; udp: 65535
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt:9:omnilucient.com.	1800	IN	SOA	addyson.ns.cloudflare.com. dns.cloudflare.com. 2411415996 10000 2400 604800 1800
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/run.log:3:HOSTNAME=verify.omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt:2:5:  - hostname: verify.omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt:4:7:  - hostname: omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt:7:; EDNS: version: 0, flags:; udp: 65535
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt:9:omnilucient.com.	1800	IN	SOA	addyson.ns.cloudflare.com. dns.cloudflare.com. 2411415996 10000 2400 604800 1800
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/run.log:3:HOSTNAME=verify.omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/hostname.txt:1:verify.omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt:2:5:  - hostname: verify.omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt:4:7:  - hostname: omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/authoritative-before.txt:1:;; Connection to 108.162.194.68#53(108.162.194.68) for verify.omnilucient.com failed: timed out.
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/authoritative-before.txt:8:; EDNS: version: 0, flags:; udp: 65535
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/authoritative-before.txt:10:omnilucient.com.	1800	IN	SOA	addyson.ns.cloudflare.com. dns.cloudflare.com. 2411415996 10000 2400 604800 1800
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/execution.log:40:[09:04:31Z] STAGE :: AUTHORITATIVE DNS BASELINE
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/execution.log:42:[09:04:42Z] PASS :: Authoritative DNS confirms NXDOMAIN
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/execution.log:44:[09:04:42Z] STAGE :: PUBLIC DNS BASELINE
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/execution.log:46:[09:04:53Z] BLOCKED :: Public DNS already resolves — mutation prohibited
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:82:  - hostname: verify.omnilucient.com
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:84:  - hostname: omnilucient.com
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:124:[09:37:39Z] 7. DNS STATE
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:133:omnilucient.com.	1800	IN	SOA	addyson.ns.cloudflare.com. dns.cloudflare.com. 2411415996 10000 2400 604800 1800
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:141:omnilucient.com.	1800	IN	SOA	addyson.ns.cloudflare.com. dns.cloudflare.com. 2411415996 10000 2400 604800 1800
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:149:omnilucient.com.	1800	IN	SOA	addyson.ns.cloudflare.com. dns.cloudflare.com. 2411415996 10000 2400 604800 1800
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:157:omnilucient.com.	1800	IN	SOA	addyson.ns.cloudflare.com. dns.cloudflare.com. 2411415996 10000 2400 604800 1800
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:291:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:314:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:344:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/authoritative-before.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:345:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/public-before-1.1.1.1.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:346:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/public-before-8.8.8.8.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:484:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:507:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:552:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/authoritative-before.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:553:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/public-before-1.1.1.1.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:554:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/public-before-8.8.8.8.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:576:LAYER AUTHORITATIVE_DNS
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:577:LAYER PUBLIC_DNS
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:601:P12 DNS hypothesis analysis
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:611:DNS_ROUTE_MUTATION=NOT_EXECUTED
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:632:HOSTNAME=verify.omnilucient.com
+products/ul7ra-verify/evidence/convergence/20260822T111810Z/run.log:44:[2026-08-22T11:18:19Z] LAYER 5 — AUTHORITATIVE DNS
+products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-curl-version.txt:4:Features: alt-svc AsynchDNS HSTS HTTP2 HTTP3 HTTPS-proxy IPv6 Largefile libz NTLM SSL threadsafe UnixSockets
+products/ul7ra-verify/evidence/convergence/20260822T111810Z/cloudflared-config.yml:5:  - hostname: verify.omnilucient.com
+products/ul7ra-verify/evidence/convergence/20260822T111810Z/cloudflared-config.yml:7:  - hostname: omnilucient.com
+products/ul7ra-verify/evidence/convergence/20260822T111810Z/auth-rodrigo.txt:2:; <<>> DiG 9.20.27 <<>> NS omnilucient.com @1.1.1.1
+products/ul7ra-verify/evidence/convergence/20260822T111810Z/auth-rodrigo.txt:10:;omnilucient.com.		IN	NS
+products/ul7ra-verify/evidence/convergence/20260822T111810Z/auth-rodrigo.txt:13:omnilucient.com.	86400	IN	NS	addyson.ns.cloudflare.com.
+products/ul7ra-verify/evidence/convergence/20260822T111810Z/auth-rodrigo.txt:14:omnilucient.com.	86400	IN	NS	rodrigo.ns.cloudflare.com.
+products/ul7ra-verify/evidence/ip/GATE3A_INVENTORY.json:149:      "path": "evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt",
+products/ul7ra-verify/evidence/ip/GATE3A_INVENTORY.json:264:      "path": "evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt",
+products/ul7ra-verify/evidence/ip/GATE3A_INVENTORY.json:414:      "path": "evidence/gate1/20260822T090408Z/01-dns/authoritative-before.txt",
+products/ul7ra-verify/evidence/ip/GATE3A_INVENTORY.json:419:      "path": "evidence/gate1/20260822T090408Z/01-dns/public-before-1.1.1.1.txt",
+products/ul7ra-verify/evidence/ip/GATE3A_INVENTORY.json:424:      "path": "evidence/gate1/20260822T090408Z/01-dns/public-before-8.8.8.8.txt",
+products/ul7ra-verify/evidence/ip/IP_DEFENSIBILITY_INVENTORY.json:710:      "path": "evidence/gate1/20260822T090408Z/01-dns/authoritative-before.txt",
+products/ul7ra-verify/evidence/ip/IP_DEFENSIBILITY_INVENTORY.json:715:      "path": "evidence/gate1/20260822T090408Z/01-dns/public-before-1.1.1.1.txt",
+products/ul7ra-verify/evidence/ip/IP_DEFENSIBILITY_INVENTORY.json:720:      "path": "evidence/gate1/20260822T090408Z/01-dns/public-before-8.8.8.8.txt",
+products/ul7ra-verify/evidence/ip/IP_DEFENSIBILITY_INVENTORY.json:840:      "path": "evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt",
+products/ul7ra-verify/evidence/ip/IP_DEFENSIBILITY_INVENTORY.json:945:      "path": "evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt",
+products/ul7ra-verify/evidence/execution/STATE.json:5:    "dns": "BLOCK",
+products/ul7ra-verify/deploy/runtime/cloudflared.log:27:2026-08-22T04:36:33Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:28:2026-08-22T04:36:33Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:37:2026-08-22T04:36:33Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=605306a6-4f0c-416a-ae4e-f8660a06de41 status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:38:2026-08-22T04:36:33Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=605306a6-4f0c-416a-ae4e-f8660a06de41 status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:66:2026-08-22T05:19:33Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:70:2026-08-22T05:19:33Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:74:2026-08-22T05:19:33Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:78:2026-08-22T05:19:33Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:85:2026-08-22T05:19:33Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:89:2026-08-22T05:19:33Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:123:2026-08-22T05:20:44Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:124:2026-08-22T05:20:44Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:133:2026-08-22T05:20:44Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=c6613848-46c6-4d2d-90c2-ae5f2502d2a6 status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:134:2026-08-22T05:20:44Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=c6613848-46c6-4d2d-90c2-ae5f2502d2a6 status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:207:2026-08-22T05:24:22Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully                                                                                  |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:208:2026-08-22T05:24:22Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully                                                                                  |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:222:2026-08-22T05:24:22Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=71a89e26-8f01-4390-8854-4c0e9a930821 status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:223:2026-08-22T05:24:22Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=71a89e26-8f01-4390-8854-4c0e9a930821 status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:265:2026-08-22T05:24:45Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:266:2026-08-22T05:24:45Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:275:2026-08-22T05:24:45Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=bed97948-748b-449c-883a-efb386c05e2c status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:276:2026-08-22T05:24:45Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=bed97948-748b-449c-883a-efb386c05e2c status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:397:2026-08-22T05:45:39Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:398:2026-08-22T05:45:39Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:407:2026-08-22T05:45:39Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=bef04d61-9943-4e84-aca6-07eb17a6f792 status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:408:2026-08-22T05:45:39Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=bef04d61-9943-4e84-aca6-07eb17a6f792 status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:477:2026-08-22T05:47:08Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:478:2026-08-22T05:47:08Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:487:2026-08-22T05:47:08Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=62ab27b9-f80f-46a8-9997-02f6c088d3cb status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:488:2026-08-22T05:47:08Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=62ab27b9-f80f-46a8-9997-02f6c088d3cb status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:539:2026-08-22T05:48:57Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:543:2026-08-22T05:48:57Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:547:2026-08-22T05:48:57Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:551:2026-08-22T05:48:57Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:558:2026-08-22T05:48:57Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:562:2026-08-22T05:48:57Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:582:2026-08-22T05:49:17Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:586:2026-08-22T05:49:17Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:590:2026-08-22T05:49:17Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:594:2026-08-22T05:49:17Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:601:2026-08-22T05:49:17Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:605:2026-08-22T05:49:17Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:639:2026-08-22T05:50:03Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:640:2026-08-22T05:50:03Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:649:2026-08-22T05:50:03Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=1db1440b-d6d0-47f8-bdf8-5647eda442da status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:650:2026-08-22T05:50:03Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=1db1440b-d6d0-47f8-bdf8-5647eda442da status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:706:2026-08-22T06:12:10Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:54045->8.8.4.4:53: i/o timeout" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:708:2026-08-22T06:12:10Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:39812->8.8.4.4:53: i/o timeout" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:712:2026-08-22T06:12:10Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:717:2026-08-22T06:12:10Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:726:2026-08-22T06:12:10Z INF |  DNS Resolution    region1.v2.argotunnel.com  FAIL    Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:54045->8.8.4.4:53: i/o timeout  |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:727:2026-08-22T06:12:10Z INF |  DNS Resolution    region2.v2.argotunnel.com  FAIL    Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:54045->8.8.4.4:53: i/o timeout  |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:728:2026-08-22T06:12:10Z INF |  UDP Connectivity  region1.v2.argotunnel.com  SKIP    DNS prerequisite failed                                                                                                                                                                 |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:729:2026-08-22T06:12:10Z INF |  UDP Connectivity  region2.v2.argotunnel.com  SKIP    DNS prerequisite failed                                                                                                                                                                 |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:730:2026-08-22T06:12:10Z INF |  TCP Connectivity  region1.v2.argotunnel.com  SKIP    DNS prerequisite failed                                                                                                                                                                 |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:731:2026-08-22T06:12:10Z INF |  TCP Connectivity  region2.v2.argotunnel.com  SKIP    DNS prerequisite failed                                                                                                                                                                 |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:733:2026-08-22T06:12:10Z INF |  ERROR: Ensure your DNS resolver can resolve 'region1.v2.argotunnel.com'. Run: dig A region1.v2.argotunnel.com @1.1.1.1. If that fails, contact your network administrator.                                                                   |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:734:2026-08-22T06:12:10Z INF |  ERROR: Ensure your DNS resolver can resolve 'region2.v2.argotunnel.com'. Run: dig A region2.v2.argotunnel.com @1.1.1.1. If that fails, contact your network administrator.                                                                   |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:739:2026-08-22T06:12:10Z INF precheck component="DNS Resolution" details="Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:54045->8.8.4.4:53: i/o timeout" run_id=14ee03ba-d995-4e8c-a29d-59ba1863db61 status=fail target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:740:2026-08-22T06:12:10Z INF precheck component="DNS Resolution" details="Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:54045->8.8.4.4:53: i/o timeout" run_id=14ee03ba-d995-4e8c-a29d-59ba1863db61 status=fail target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:741:2026-08-22T06:12:10Z INF precheck component="UDP Connectivity" details="DNS prerequisite failed" run_id=14ee03ba-d995-4e8c-a29d-59ba1863db61 status=skip target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:742:2026-08-22T06:12:10Z INF precheck component="UDP Connectivity" details="DNS prerequisite failed" run_id=14ee03ba-d995-4e8c-a29d-59ba1863db61 status=skip target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:743:2026-08-22T06:12:10Z INF precheck component="TCP Connectivity" details="DNS prerequisite failed" run_id=14ee03ba-d995-4e8c-a29d-59ba1863db61 status=skip target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:744:2026-08-22T06:12:10Z INF precheck component="TCP Connectivity" details="DNS prerequisite failed" run_id=14ee03ba-d995-4e8c-a29d-59ba1863db61 status=skip target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:763:2026-08-22T06:13:01Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:46845->8.8.4.4:53: i/o timeout" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:764:2026-08-22T06:13:01Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:37292->8.8.4.4:53: i/o timeout" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:770:2026-08-22T06:13:01Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:773:2026-08-22T06:13:01Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:783:2026-08-22T06:13:01Z INF |  DNS Resolution    region1.v2.argotunnel.com  FAIL    Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:46845->8.8.4.4:53: i/o timeout  |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:784:2026-08-22T06:13:01Z INF |  DNS Resolution    region2.v2.argotunnel.com  FAIL    Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:46845->8.8.4.4:53: i/o timeout  |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:785:2026-08-22T06:13:01Z INF |  UDP Connectivity  region1.v2.argotunnel.com  SKIP    DNS prerequisite failed                                                                                                                                                                 |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:786:2026-08-22T06:13:01Z INF |  UDP Connectivity  region2.v2.argotunnel.com  SKIP    DNS prerequisite failed                                                                                                                                                                 |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:787:2026-08-22T06:13:01Z INF |  TCP Connectivity  region1.v2.argotunnel.com  SKIP    DNS prerequisite failed                                                                                                                                                                 |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:788:2026-08-22T06:13:01Z INF |  TCP Connectivity  region2.v2.argotunnel.com  SKIP    DNS prerequisite failed                                                                                                                                                                 |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:790:2026-08-22T06:13:01Z INF |  ERROR: Ensure your DNS resolver can resolve 'region1.v2.argotunnel.com'. Run: dig A region1.v2.argotunnel.com @1.1.1.1. If that fails, contact your network administrator.                                                                   |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:791:2026-08-22T06:13:01Z INF |  ERROR: Ensure your DNS resolver can resolve 'region2.v2.argotunnel.com'. Run: dig A region2.v2.argotunnel.com @1.1.1.1. If that fails, contact your network administrator.                                                                   |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:796:2026-08-22T06:13:01Z INF precheck component="DNS Resolution" details="Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:46845->8.8.4.4:53: i/o timeout" run_id=33706ef7-dcff-42db-9435-2e8cafcf7a9d status=fail target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:797:2026-08-22T06:13:01Z INF precheck component="DNS Resolution" details="Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:46845->8.8.4.4:53: i/o timeout" run_id=33706ef7-dcff-42db-9435-2e8cafcf7a9d status=fail target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:798:2026-08-22T06:13:01Z INF precheck component="UDP Connectivity" details="DNS prerequisite failed" run_id=33706ef7-dcff-42db-9435-2e8cafcf7a9d status=skip target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:799:2026-08-22T06:13:01Z INF precheck component="UDP Connectivity" details="DNS prerequisite failed" run_id=33706ef7-dcff-42db-9435-2e8cafcf7a9d status=skip target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:800:2026-08-22T06:13:01Z INF precheck component="TCP Connectivity" details="DNS prerequisite failed" run_id=33706ef7-dcff-42db-9435-2e8cafcf7a9d status=skip target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:801:2026-08-22T06:13:01Z INF precheck component="TCP Connectivity" details="DNS prerequisite failed" run_id=33706ef7-dcff-42db-9435-2e8cafcf7a9d status=skip target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:811:2026-08-22T06:13:02Z ERR Failed to initialize DNS local resolver error="lookup region1.v2.argotunnel.com: operation was canceled"
+products/ul7ra-verify/deploy/runtime/cloudflared.log:830:2026-08-22T06:13:24Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:43093->8.8.4.4:53: i/o timeout" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:834:2026-08-22T06:13:24Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:842:2026-08-22T06:13:24Z INF |  DNS Resolution    region1.v2.argotunnel.com  FAIL    Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:43093->8.8.4.4:53: i/o timeout  |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:843:2026-08-22T06:13:24Z INF |  DNS Resolution    region2.v2.argotunnel.com  FAIL    Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:43093->8.8.4.4:53: i/o timeout  |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:844:2026-08-22T06:13:24Z INF |  UDP Connectivity  region1.v2.argotunnel.com  SKIP    DNS prerequisite failed                                                                                                                                                                 |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:845:2026-08-22T06:13:24Z INF |  UDP Connectivity  region2.v2.argotunnel.com  SKIP    DNS prerequisite failed                                                                                                                                                                 |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:846:2026-08-22T06:13:24Z INF |  TCP Connectivity  region1.v2.argotunnel.com  SKIP    DNS prerequisite failed                                                                                                                                                                 |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:847:2026-08-22T06:13:24Z INF |  TCP Connectivity  region2.v2.argotunnel.com  SKIP    DNS prerequisite failed                                                                                                                                                                 |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:849:2026-08-22T06:13:24Z INF |  ERROR: Ensure your DNS resolver can resolve 'region1.v2.argotunnel.com'. Run: dig A region1.v2.argotunnel.com @1.1.1.1. If that fails, contact your network administrator.                                                                   |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:850:2026-08-22T06:13:24Z INF |  ERROR: Ensure your DNS resolver can resolve 'region2.v2.argotunnel.com'. Run: dig A region2.v2.argotunnel.com @1.1.1.1. If that fails, contact your network administrator.                                                                   |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:855:2026-08-22T06:13:24Z INF precheck component="DNS Resolution" details="Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:43093->8.8.4.4:53: i/o timeout" run_id=a66a161d-a907-46ad-a03c-e960520a8e7f status=fail target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:856:2026-08-22T06:13:24Z INF precheck component="DNS Resolution" details="Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:43093->8.8.4.4:53: i/o timeout" run_id=a66a161d-a907-46ad-a03c-e960520a8e7f status=fail target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:857:2026-08-22T06:13:24Z INF precheck component="UDP Connectivity" details="DNS prerequisite failed" run_id=a66a161d-a907-46ad-a03c-e960520a8e7f status=skip target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:858:2026-08-22T06:13:24Z INF precheck component="UDP Connectivity" details="DNS prerequisite failed" run_id=a66a161d-a907-46ad-a03c-e960520a8e7f status=skip target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:859:2026-08-22T06:13:24Z INF precheck component="TCP Connectivity" details="DNS prerequisite failed" run_id=a66a161d-a907-46ad-a03c-e960520a8e7f status=skip target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:860:2026-08-22T06:13:24Z INF precheck component="TCP Connectivity" details="DNS prerequisite failed" run_id=a66a161d-a907-46ad-a03c-e960520a8e7f status=skip target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:863:2026-08-22T06:13:24Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: read udp 10.0.96.192:34417->8.8.4.4:53: i/o timeout" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:867:2026-08-22T06:13:24Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:878:2026-08-22T06:13:27Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:882:2026-08-22T06:13:27Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:886:2026-08-22T06:13:27Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:890:2026-08-22T06:13:27Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:897:2026-08-22T06:13:27Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:901:2026-08-22T06:13:27Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:921:2026-08-22T06:13:30Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:925:2026-08-22T06:13:30Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:929:2026-08-22T06:13:30Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:933:2026-08-22T06:13:30Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:940:2026-08-22T06:13:30Z ERR edge discovery: error looking up Cloudflare edge IPs: the DNS query failed error="lookup _v2-origintunneld._tcp.argotunnel.com on 8.8.4.4:53: dial udp 8.8.4.4:53: connect: network is unreachable" event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:944:2026-08-22T06:13:30Z ERR   2. ensure that your DNS resolver is not returning compressed SRV records. event=0
+products/ul7ra-verify/deploy/runtime/cloudflared.log:978:2026-08-22T06:13:57Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:979:2026-08-22T06:13:57Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:988:2026-08-22T06:13:57Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=82b9d185-020c-43e0-92b2-68507b1a93e3 status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:989:2026-08-22T06:13:57Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=82b9d185-020c-43e0-92b2-68507b1a93e3 status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1047:2026-08-22T06:17:29Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1048:2026-08-22T06:17:29Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1057:2026-08-22T06:17:29Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=58b05d01-b012-42f2-a89d-ffd97a642e1e status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1058:2026-08-22T06:17:29Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=58b05d01-b012-42f2-a89d-ffd97a642e1e status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1156:2026-08-22T06:26:23Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully               |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1157:2026-08-22T06:26:23Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully               |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1168:2026-08-22T06:26:23Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=64aca4e0-e229-450e-bc93-250267533f46 status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1169:2026-08-22T06:26:23Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=64aca4e0-e229-450e-bc93-250267533f46 status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1210:2026-08-22T06:44:35Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1211:2026-08-22T06:44:35Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1220:2026-08-22T06:44:35Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=b0b95d58-6622-4c97-9053-989e35902531 status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1221:2026-08-22T06:44:35Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=b0b95d58-6622-4c97-9053-989e35902531 status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1339:2026-08-22T07:21:24Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1340:2026-08-22T07:21:24Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1349:2026-08-22T07:21:24Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=c64ae4eb-3cdf-4bcd-bffc-7327abeb599f status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1350:2026-08-22T07:21:24Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=c64ae4eb-3cdf-4bcd-bffc-7327abeb599f status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1384:2026-08-22T08:18:52Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1385:2026-08-22T08:18:52Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1394:2026-08-22T08:18:52Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=6116bfb5-2024-44e5-8dc8-21ba142c7ecc status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1395:2026-08-22T08:18:52Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=6116bfb5-2024-44e5-8dc8-21ba142c7ecc status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1630:2026-08-22T09:18:53Z ERR Failed to refresh DNS local resolver error="lookup region1.v2.argotunnel.com: i/o timeout"
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1683:2026-08-22T09:26:44Z ERR Failed to refresh DNS local resolver error="lookup region1.v2.argotunnel.com: i/o timeout"
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1754:2026-08-22T10:13:49Z ERR Failed to refresh DNS local resolver error="lookup region1.v2.argotunnel.com: i/o timeout"
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1755:2026-08-22T10:18:54Z ERR Failed to refresh DNS local resolver error="lookup region1.v2.argotunnel.com: i/o timeout"
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1775:2026-09-09T01:40:43Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1776:2026-09-09T01:40:43Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1785:2026-09-09T01:40:43Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=8ee07d20-c8a1-42f1-8999-21fbefc0a8d3 status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflared.log:1786:2026-09-09T01:40:43Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=8ee07d20-c8a1-42f1-8999-21fbefc0a8d3 status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/closed_loop.log:7:Domain target: omnilucient.com
+products/ul7ra-verify/deploy/runtime/closed_loop.log:36:[5] DISCOVER DOMAIN DNS
+products/ul7ra-verify/deploy/runtime/closed_loop.log:37:DOMAIN_DNS=DOES_NOT_RESOLVE
+products/ul7ra-verify/deploy/runtime/closed_loop.log:75:    "hostname": "omnilucient.com",
+products/ul7ra-verify/deploy/runtime/closed_loop.log:76:    "dns": "DOES_NOT_RESOLVE",
+products/ul7ra-verify/deploy/runtime/closed_loop.log:103:DOMAIN_DNS=DOES_NOT_RESOLVE
+products/ul7ra-verify/deploy/runtime/closed_loop_report.json:3:  "domain": "omnilucient.com",
+products/ul7ra-verify/deploy/runtime/closed_loop_report.json:7:  "domain_dns": "FAIL",
+products/ul7ra-verify/deploy/runtime/omnilucient_public_route.json:3:  "domain": "omnilucient.com",
+products/ul7ra-verify/deploy/runtime/omnilucient_public_route.json:5:  "dns": "FAIL",
+products/ul7ra-verify/deploy/runtime/watchdog.sh:73:        https://omnilucient.com/ >/dev/null 2>&1; then
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh:25:DOMAIN="omnilucient.com"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh:50:        echo "[DNS_A]"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh:54:        echo "[DNS_AAAA]"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh:155:    # DNS is OBSERVED here, not blindly overwritten.
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh:160:    log "DNS A=$A AAAA=$AAAA CNAME=$CNAME"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z:8:DOMAIN="omnilucient.com"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z:33:        echo "[DNS_A]"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z:37:        echo "[DNS_AAAA]"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z:138:    # DNS is OBSERVED here, not blindly overwritten.
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z:143:    log "DNS A=$A AAAA=$AAAA CNAME=$CNAME"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z:8:DOMAIN="omnilucient.com"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z:33:        echo "[DNS_A]"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z:37:        echo "[DNS_AAAA]"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z:138:    # DNS is OBSERVED here, not blindly overwritten.
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z:143:    log "DNS A=$A AAAA=$AAAA CNAME=$CNAME"
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:8:2026-08-22T04:23:39-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:9:2026-08-22T04:23:39-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:10:2026-08-22T04:23:39-04:00 DNS=UNPROVEN
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:11:2026-08-22T04:23:41-04:00 DNS_CONTROL_PLANE=ALREADY_CONFIGURED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:12:2026-08-22T04:23:55-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:13:2026-08-22T04:23:55-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:14:2026-08-22T04:23:55-04:00 DNS=FAIL
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:15:2026-08-22T04:24:05-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:16:2026-08-22T04:24:05-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:22:2026-08-22T04:24:39-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:23:2026-08-22T04:24:39-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:24:2026-08-22T04:24:39-04:00 DNS=UNPROVEN
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:25:2026-08-22T04:24:41-04:00 DNS_CONTROL_PLANE=ALREADY_CONFIGURED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:26:2026-08-22T04:24:54-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:27:2026-08-22T04:24:55-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:28:2026-08-22T04:24:55-04:00 DNS=FAIL
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:29:2026-08-22T04:25:05-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:30:2026-08-22T04:25:05-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:41:2026-08-22T04:26:06-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:42:2026-08-22T04:26:06-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:43:2026-08-22T04:26:06-04:00 DNS=UNPROVEN
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:44:2026-08-22T04:26:09-04:00 DNS_CONTROL_PLANE=ALREADY_CONFIGURED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:45:2026-08-22T04:26:20-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:46:2026-08-22T04:26:20-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:47:2026-08-22T04:26:20-04:00 DNS=FAIL
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:48:2026-08-22T04:26:30-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:49:2026-08-22T04:26:30-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:55:2026-08-22T04:27:06-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:56:2026-08-22T04:27:06-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:57:2026-08-22T04:27:06-04:00 DNS=UNPROVEN
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:58:2026-08-22T04:27:09-04:00 DNS_CONTROL_PLANE=ALREADY_CONFIGURED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:59:2026-08-22T04:27:23-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:60:2026-08-22T04:27:23-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:61:2026-08-22T04:27:23-04:00 DNS=FAIL
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:62:2026-08-22T04:27:33-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:63:2026-08-22T04:27:33-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:69:2026-08-22T04:28:09-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:70:2026-08-22T04:28:09-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:71:2026-08-22T04:28:09-04:00 DNS=UNPROVEN
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:72:2026-08-22T04:28:13-04:00 DNS_CONTROL_PLANE=ALREADY_CONFIGURED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:73:2026-08-22T04:28:26-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:74:2026-08-22T04:28:26-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:75:2026-08-22T04:28:26-04:00 DNS=FAIL
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:76:2026-08-22T04:28:36-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:77:2026-08-22T04:28:36-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:83:2026-08-22T04:29:12-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:84:2026-08-22T04:29:12-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:85:2026-08-22T04:29:12-04:00 DNS=UNPROVEN
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:86:2026-08-22T04:29:17-04:00 DNS_CONTROL_PLANE=ALREADY_CONFIGURED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:87:2026-08-22T04:29:30-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:88:2026-08-22T04:29:30-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:89:2026-08-22T04:29:30-04:00 DNS=FAIL
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:90:2026-08-22T04:29:40-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:91:2026-08-22T04:29:40-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:97:2026-08-22T04:30:05-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:98:2026-08-22T04:30:05-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:99:2026-08-22T04:30:05-04:00 DNS=UNPROVEN
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:100:2026-08-22T04:30:10-04:00 DNS_CONTROL_PLANE=ALREADY_CONFIGURED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:101:2026-08-22T04:30:23-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:102:2026-08-22T04:30:23-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:103:2026-08-22T04:30:23-04:00 DNS=FAIL
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:104:2026-08-22T04:30:33-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:105:2026-08-22T04:30:33-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:111:2026-08-22T04:31:03-04:00 DNS_RODRIGO=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:112:2026-08-22T04:31:03-04:00 DNS_ADDYSON=
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:113:2026-08-22T04:31:03-04:00 DNS=UNPROVEN
+
+=== 7. PUBLIC HTTPS ===
+curl: (6) Could not resolve host: verify.omnilucient.com
+
+=== 8. LOCAL ===
+{
+  "status": "healthy",
+  "timestamp": 1789170697
+}
+============================================================
+ FINAL DIAGNOSTIC STATE
+============================================================
+TUNNEL=PASS
+ROUTE=PASS
+PUBLIC_DNS=BLOCKED
+PUBLIC_HTTP=BLOCKED
+PRODUCTION=BLOCKED
+PROMOTION=BLOCKED
+FAIL_CLOSED=TRUE
+
+EVIDENCE=/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/dns_delegation/20260911T235133Z

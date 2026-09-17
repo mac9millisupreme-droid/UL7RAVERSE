@@ -1,0 +1,472 @@
+UL7RA CURRENT STATE PROOF
+UTC=2026-09-15T10:09:12Z
+HEAD=63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+TREE=ae42587f03e52b04b3a1baf622bc96362e0f804d
+PARENT=2a2496bc48d6beaf98a26e4239e96d70f66ed2f4
+SUBJECT=UL7RAFORGE bootstrap
+
+=== WORKTREE ===
+ M lucideploy/cli/main.py
+ M lucideploy/evidence/final_gate.json
+ M products/ul7ra-verify/tests/test_server.py
+?? " "
+?? .ul7ra_autonomous/
+?? AIL_FINAL_VERIFICATION_REPORT.md
+?? CLOUDFLARE_FINAL_OWNERSHIP_GATE.sh
+?? CLOUDFLARE_OWNERSHIP_RECONCILE.backup.20260913T080808Z.sh
+?? CLOUDFLARE_OWNERSHIP_RECONCILE.sh
+?? CONNECT_UL7RAVERSE_ONE.sh
+?? DIAG_NAMED_TUNNEL.sh
+?? DNS_AUTHORITY_FINAL.sh
+?? DNS_AUTHORITY_FINAL_GATE.sh
+?? DNS_DELEGATION_DIAG.sh
+?? DNS_TRUTH_CHECK.sh
+?? E6_REVENUE_EXECUTE.sh
+?? FINAL_DNS_PRODUCTION_GATE.sh
+?? FIX_UL7RA_ORIGIN.sh
+?? FORCE_RECONCILE_VERIFY_DNS.sh
+?? FORENSIC_PHASE0_20260909T095923Z/
+?? FORENSIC_PHASE0_20260909T100256Z/
+?? FREEZE_VERIFIED_BASELINE.sh
+?? LUCI_ONE_SHOT.sh
+?? LUCI_PROMOTE_ONE.sh
+?? LUCI_PROMOTE_V03_ONE.sh
+?? LUCI_PUBLIC_AUTHORITY_DIAG.sh
+?? PROVE_DOMAIN_CONTROL_AND_REPAIR.sh
+?? PUBLISH_UL7RAVERSE_FREE.sh
+?? REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh
+?? REPAIR_VERIFY_PRODUCTION.sh
+?? RUN_FORENSIC_PHASE0.py
+?? RUN_FORENSIC_PHASE1.py
+?? RUN_FORENSIC_PHASE2.py
+?? RUN_FORENSIC_PHASE3.py
+?? RUN_FORENSIC_PHASE4.py
+?? RUN_FORENSIC_PHASE5.py
+?? RUN_FORENSIC_PHASE6.py
+?? RUN_FORENSIC_PHASE6.v1.backup.py
+?? RUN_FORENSIC_PHASE6_LITE.py
+?? RUN_FORENSIC_PHASE6_REAL.py
+?? RUN_FORENSIC_PHASE7.py
+?? RUN_FORENSIC_PHASE8.py
+?? RUN_FORENSIC_PHASE8_LITE.py
+?? RUN_FORENSIC_PHASE9.py
+?? RUN_HALO9_BRIDGE_CONTRACT.sh
+?? RUN_HALO9_BRIDGE_RECON.sh
+?? RUN_HALO9_V55.sh
+?? RUN_HALO9_V56.sh
+?? RUN_HALO9_V56_DIAGNOSE.sh
+?? RUN_HALO9_V56_FULL.sh
+?? RUN_HALO9_V56_REPAIR.sh
+?? RUN_HALO9_V57.sh
+?? RUN_UL7RA4_RECONCILIATION.sh
+?? UL7RABRIDGE
+?? UL7RAPASS_ONE.py
+?? UL7RA_DNS_REPAIR_EXECUTE.sh
+?? UL7RA_DNS_REPAIR_ONE.sh
+?? UL7RA_ELITE_FORENSIC.sh
+?? UL7RA_MEMBER_LOOP.py
+?? VERIFY_UL7RA_ORIGIN.sh
+?? VERIFY_UL7RA_ORIGIN_FIXED.sh
+?? WESTERN_FAIR_OMNIPULSE_CONVERGENCE.sh
+?? diagnose_omnipulse_tunnel.sh
+?? grounded_center/
+?? halo9_bridge_gate_v2/
+?? halo9_v56_authority_contract/
+?? halo9_v57_adapter/
+?? halo_twin_pair_v1/
+?? install_ail_v010.py
+?? install_ul7ra_continue_v010.py
+?? keep_omnipulse_public.sh
+?? launch/
+?? launch_omnipulse.sh
+?? launch_omnipulse_live.sh
+?? launch_ul7rapass_one_script.sh
+?? luci_promote/
+?? omni_force_live.sh
+?? omni_live_brand_launch.sh
+?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json
+?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json
+?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/
+?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/
+?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/
+?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/
+?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/
+?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/
+?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/
+?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/
+?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/
+?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/
+?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/
+?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/
+?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/
+?? products/ul7ra-verify/deploy/runtime/health_recovery.json
+?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/
+?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/
+?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/
+?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/
+?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json
+?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json
+?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json
+?? products/ul7ra-verify/tests/test_server.py.bak_pathfix
+?? products/ul7ra-verify/tests/test_server.py.bak_realtest
+?? racing/
+?? racing_recon.sh
+?? racing_recon_test.txt
+?? repair_authoritative_dns.sh
+?? repair_omnipulse_live.sh
+?? repair_omnipulse_public_tunnel.sh
+?? revenue_membership.json
+?? scripts/
+?? test_ul7ra_continue.py
+?? test_ul7ra_continue_ail.py
+?? test_ul7ra_continue_purple.py
+?? ul7ra4_factory/
+?? ul7ra_continue/
+?? ul7ra_uncertainty_repair.sh
+?? ul7ra_unified/
+?? upgrade_omnipulse_loop.sh
+?? verification_artifacts/
+?? verify_omnipulse_public.sh
+
+=== RUNTIME FILES ===
+products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json
+products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json
+products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/health_before.json
+products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/source_hashes.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/verify_product_script.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/watchdog_start.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/BUILD_ID.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/final_source_hashes.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/git_head.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/git_status.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/health.json
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/pytest_collection.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/pytest_status.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/root.json
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/source_hashes.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server_status.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/verify.json
+products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/df.txt
+products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/tmp_dir.txt
+products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/token_verify.json
+products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/zone.json
+products/ul7ra-verify/deploy/runtime/closed_loop.log
+products/ul7ra-verify/deploy/runtime/closed_loop_report.json
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_a.json
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_cname.json
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_ns.json
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflared_process.txt
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/dns_authority.txt
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/dns_route.txt
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/route_help.txt
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/tunnel_info.txt
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/DECISION.txt
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/authoritative_cname.json
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/cloudflare_env_names.txt
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/cloudflared_files.txt
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/config_redacted.yml
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/public_cname.json
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/route_status.txt
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/run.log
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_info.txt
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_list.txt
+products/ul7ra-verify/deploy/runtime/cloudflared.log
+products/ul7ra-verify/deploy/runtime/cloudflared.pid
+products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/discovery.txt
+products/ul7ra-verify/deploy/runtime/config-test.yml
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/APEX_DNS_DECISION.txt
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_a.json
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_cname.json
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_cname_after.json
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/dns_route_help.txt
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/google_cname_after.json
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/local_health.json
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/public_cname_after.json
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/route_dns_normal.txt
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/run.log
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/tunnel_info.txt
+products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflare_dns.json
+products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_process.txt
+products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_version.txt
+products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt
+products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/google_dns.json
+products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/local_health.json
+products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/python_dns.txt
+products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/resolv.conf
+products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/DECISION.txt
+products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_ns.txt
+products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_queries.txt
+products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/google_cname.json
+products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/https_headers.txt
+products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/public_cname.json
+products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/route_status.txt
+products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/run.log
+products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_info.txt
+products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_target_resolution.txt
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/APEX_DNS_DECISION.txt
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/a_before.json
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/a_final.json
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_before.json
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_1.json
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_2.json
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_3.json
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_4.json
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_5.json
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_6.json
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_final.json
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/local_health.json
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/route_attempt.txt
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/tunnel_info.txt
+products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/authoritative_any.txt
+products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/authoritative_cname.txt
+products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/cloudflare_public_dns.json
+products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/cloudflared_dir.txt
+products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/google_public_dns.json
+products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/nameservers.txt
+products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/route_dns_status.txt
+products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/run.log
+products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_info.txt
+products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_routes.txt
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/DECISION.txt
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/https_headers.txt
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_1111.json
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_google.json
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/run.log
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/tunnel_info.txt
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/full.log
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/zone.json
+products/ul7ra-verify/deploy/runtime/domain_response.json
+products/ul7ra-verify/deploy/runtime/external_test_artifact
+products/ul7ra-verify/deploy/runtime/final_tunnel_list.txt
+products/ul7ra-verify/deploy/runtime/gate2-artifact
+products/ul7ra-verify/deploy/runtime/health_recovery.json
+products/ul7ra-verify/deploy/runtime/live_deployment_report.json
+products/ul7ra-verify/deploy/runtime/local_health_gate2.json
+products/ul7ra-verify/deploy/runtime/local_origin.json
+products/ul7ra-verify/deploy/runtime/local_response.json
+products/ul7ra-verify/deploy/runtime/local_verify.json
+products/ul7ra-verify/deploy/runtime/multiloop.log
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log
+products/ul7ra-verify/deploy/runtime/multiloop/promotion_state.json
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z
+products/ul7ra-verify/deploy/runtime/omnilucient_public_route.json
+products/ul7ra-verify/deploy/runtime/origin.log
+products/ul7ra-verify/deploy/runtime/origin.pid
+products/ul7ra-verify/deploy/runtime/promotion_state.json
+products/ul7ra-verify/deploy/runtime/public_body.txt
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_cname.txt
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_ns.txt
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflare_dns.txt
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflared_config.txt
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cname_system.txt
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/google_dns.txt
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/ns_system.txt
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/public_https_headers.txt
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/APEX_PUBLIC_DECISION.txt
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_before.txt
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_cloudflare.txt
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_google.txt
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_route.txt
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_system.txt
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/full.log
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/local_health.json
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/public_headers.txt
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/tunnel_info.txt
+products/ul7ra-verify/deploy/runtime/public_headers.txt
+products/ul7ra-verify/deploy/runtime/public_health.json
+products/ul7ra-verify/deploy/runtime/public_probe_artifact
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/cloudflared.log
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/dns_route.txt
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/git_status.txt
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/local_health.json
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/public_dns.json
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/public_payload.bin
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/source_hashes_after.txt
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/source_hashes_before.txt
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_info.txt
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_list.txt
+products/ul7ra-verify/deploy/runtime/public_url
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/APEX_PUBLIC_DECISION.txt
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/build.txt
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_config.txt
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_process.txt
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/dns.txt
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/dns_status.txt
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/head.txt
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/local_health.json
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/public_health_headers.txt
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/public_payload.bin
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/source_hashes.txt
+products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json
+products/ul7ra-verify/deploy/runtime/server.log
+products/ul7ra-verify/deploy/runtime/server.pid
+products/ul7ra-verify/deploy/runtime/test_artifact
+products/ul7ra-verify/deploy/runtime/tunnel_list.err
+products/ul7ra-verify/deploy/runtime/tunnel_list.txt
+products/ul7ra-verify/deploy/runtime/ul7ra-start.log
+products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json
+products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json
+products/ul7ra-verify/deploy/runtime/watchdog.log
+products/ul7ra-verify/deploy/runtime/watchdog.pid
+products/ul7ra-verify/deploy/runtime/watchdog.sh
+
+=== PROMOTION/PUBLIC STATUS ===
+products/ul7ra-verify/deploy/runtime/watchdog.log:155:2026-08-22T01:57:48-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:156:2026-08-22T01:58:07-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:157:2026-08-22T01:58:25-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:158:2026-08-22T01:58:45-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:159:2026-08-22T01:59:06-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:160:2026-08-22T01:59:24-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:161:2026-08-22T01:59:44-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:162:2026-08-22T02:00:02-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:163:2026-08-22T02:00:21-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:164:2026-08-22T02:00:40-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:165:2026-08-22T02:00:58-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:166:2026-08-22T02:01:17-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:167:2026-08-22T02:01:37-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:168:2026-08-22T02:01:56-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:169:2026-08-22T02:02:15-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:170:2026-08-22T02:02:33-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:171:2026-08-22T02:02:51-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:172:2026-08-22T02:03:10-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:173:2026-08-22T02:03:28-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:174:2026-08-22T02:03:46-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:175:2026-08-22T02:04:04-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:176:2026-08-22T02:04:22-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:177:2026-08-22T02:04:40-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:178:2026-08-22T02:04:58-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:179:2026-08-22T02:05:16-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:180:2026-08-22T02:05:33-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:181:2026-08-22T02:05:50-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:182:2026-08-22T02:06:08-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:183:2026-08-22T02:06:26-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:184:2026-08-22T02:06:43-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:185:2026-08-22T02:07:01-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:186:2026-08-22T02:07:18-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:187:2026-08-22T02:07:36-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:188:2026-08-22T02:07:53-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:189:2026-08-22T02:08:11-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:190:2026-08-22T02:08:28-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:191:2026-08-22T02:08:47-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:192:2026-08-22T02:09:04-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:193:2026-08-22T02:09:22-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:194:2026-08-22T02:09:40-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:195:2026-08-22T02:09:58-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:196:2026-08-22T02:10:16-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:197:2026-08-22T02:10:33-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:198:2026-08-22T02:10:51-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:200:2026-08-22T02:11:28-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:202:2026-08-22T02:12:06-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:204:2026-08-22T02:12:39-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:206:2026-08-22T02:13:11-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:208:2026-08-22T02:13:31-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:210:2026-08-22T02:13:53-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:211:2026-08-22T02:14:16-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:212:2026-08-22T02:14:34-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:213:2026-08-22T02:14:52-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:214:2026-08-22T02:15:09-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:215:2026-08-22T02:15:39-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:216:2026-08-22T02:15:59-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:217:2026-08-22T02:16:19-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:218:2026-08-22T02:16:37-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:219:2026-08-22T02:16:56-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:221:2026-08-22T02:17:23-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:222:2026-08-22T02:17:40-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:223:2026-08-22T02:18:00-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:224:2026-08-22T02:18:18-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:225:2026-08-22T02:18:43-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:226:2026-08-22T02:19:01-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:227:2026-08-22T02:19:50-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:228:2026-08-22T02:20:20-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:229:2026-08-22T02:20:48-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:230:2026-08-22T02:21:12-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:231:2026-08-22T02:21:48-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:232:2026-08-22T02:23:45-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:233:2026-08-22T02:24:30-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:234:2026-08-22T02:25:11-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:235:2026-08-22T02:25:31-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:236:2026-08-22T02:25:49-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:238:2026-08-22T02:26:13-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:239:2026-08-22T02:26:31-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:243:2026-09-08T21:40:44-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/watchdog.log:244:2026-09-08T21:41:01-04:00 PUBLIC_ROUTE_NOT_PROVEN
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh:166:        log "PROMOTION=PERMITTED"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh:169:        log "PROMOTION=BLOCKED"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z:149:        log "PROMOTION=PERMITTED"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z:152:        log "PROMOTION=BLOCKED"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z:149:        log "PROMOTION=PERMITTED"
+products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z:152:        log "PROMOTION=BLOCKED"
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:17:2026-08-22T04:24:05-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:31:2026-08-22T04:25:05-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:50:2026-08-22T04:26:30-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:64:2026-08-22T04:27:33-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:78:2026-08-22T04:28:36-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:92:2026-08-22T04:29:40-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:106:2026-08-22T04:30:33-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:120:2026-08-22T04:31:24-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:134:2026-08-22T04:32:20-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:148:2026-08-22T04:33:21-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:162:2026-08-22T04:34:16-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:176:2026-08-22T04:35:26-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:190:2026-08-22T04:36:27-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/multiloop/engine.log:204:2026-08-22T04:37:30-04:00 PROMOTION=BLOCKED
+products/ul7ra-verify/deploy/runtime/ul7ra-start.log:24:2026-08-22T04:27:02-04:00 PROMOTION=BLOCKED
+
+=== PUBLIC DECISIONS ===
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/APEX_PUBLIC_DECISION.txt
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/APEX_PUBLIC_DECISION.txt
+
+=== HEALTH/BASELINE/DECISION ===
+products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/health_before.json
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt
+products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/health.json
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/DECISION.txt
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/APEX_DNS_DECISION.txt
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/local_health.json
+products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/local_health.json
+products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/DECISION.txt
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/APEX_DNS_DECISION.txt
+products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/local_health.json
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/DECISION.txt
+products/ul7ra-verify/deploy/runtime/health_recovery.json
+products/ul7ra-verify/deploy/runtime/local_health_gate2.json
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/APEX_PUBLIC_DECISION.txt
+products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/local_health.json
+products/ul7ra-verify/deploy/runtime/public_health.json
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt
+products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/local_health.json
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/APEX_PUBLIC_DECISION.txt
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/local_health.json
+products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/public_health_headers.txt
+products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json
+products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json
+products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json
+products/ul7ra-verify/evidence/convergence/20260822T111810Z/local-health.txt
+products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/health-probe-1.json
+products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/health-probe-2.json
+products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/health.json
+products/ul7ra-verify/evidence/execution/20260823T013955Z/origin/health.json
+products/ul7ra-verify/evidence/execution/origin_health.json
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-curl.txt
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-status.txt
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health.json
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-curl.txt
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-status.txt
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health.json
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.code
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.curl
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.headers
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.json
+
+HISTORICAL_CHAIN=FROZEN
+NO_HISTORICAL_PARENTAGE_INFERRED
+NO_PRODUCTION_UNLOCK_INFERRED

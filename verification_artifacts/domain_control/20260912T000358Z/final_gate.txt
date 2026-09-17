@@ -1,0 +1,92 @@
+============================================================
+ LUCIDEPLOY FINAL GATE
+============================================================
+
+=== AUTHORITIES ===
+UL7RAVERSE_HEAD=63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+TRINITY_HEAD=0862aeb1e2b29d32183df0694fded54587c1e251
+APEX_CORE_SHA256=12a29fab1b79908de6fea2de56f7b63ac46f48bd0ae51b6b31c2f3da97ce824e
+
+=== ARTIFACT / INTEGRITY ===
+APEX_INTEGRITY=PASS
+LUCIDEPLOY_COMPILE=PASS
+
+=== LUCIDEPLOY TESTS ===
+LUCIDEPLOY_TESTS=PASS
+
+=== TRINITY ===
+EXISTS=/data/data/com.termux/files/home/TRINITY_CORE/PROVENANCE.json
+EXISTS=/data/data/com.termux/files/home/TRINITY_CORE/governance/STATE.json
+EXISTS=/data/data/com.termux/files/home/TRINITY_CORE/evidence/evidence_v0.1.json
+EXISTS=/data/data/com.termux/files/home/TRINITY_CORE/qs/core.py
+TRINITY_FILES=PASS
+
+=== PRODUCT ===
+EXISTS=/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/PRODUCT_CONTRACT.json
+EXISTS=/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/app/server.py
+EXISTS=/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/tests/test_server.py
+EXISTS=/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/scripts/verify_product.sh
+=== UL7RA VERIFY PRODUCT TEST ===
+
+=== PRODUCT HASHES ===
+f3f4a17557524dd61f62d8f8c5db166d6e377e635b35cf3bfedf4f7b0de99fbf  PRODUCT_CONTRACT.json
+1244923c627a594b38abce4a83d6583d2c0a561cfe905ca6ef23f985f74ed97f  app/server.py
+74606dffe2983cb7bb08d01a44b5cce42a33d8ffc10c863e0f8e6be2b4c6c5ed  tests/test_server.py
+
+=== RESULT ===
+PRODUCT_TEST=PASS
+DEPLOYMENT=NOT_PERFORMED
+PAYMENTS=NOT_CONNECTED
+REVENUE=0
+PRODUCT_VERIFICATION=PASS
+
+=== EXISTING DEPLOYMENT EVIDENCE ===
+LOCAL_HEALTH=PASS
+PUBLIC_URL=https://designed-added-tournaments-ciao.trycloudflare.com
+curl: (6) Could not resolve host: designed-added-tournaments-ciao.trycloudflare.com
+HTTP_STATUS=000
+PUBLIC_HTTP=FAIL
+CLOUDFLARE_PROCESS=PASS
+
+=== PRODUCTION DISTINCTION ===
+QUICK_TUNNEL_IS_PRODUCTION=FALSE
+PUBLIC_HTTP_IS_PRODUCTION=FALSE
+
+=== FINAL DECISION ===
+CORE_VERIFICATION=BLOCKED
+PRODUCTION=BLOCKED
+PROMOTION=BLOCKED
+
+============================================================
+ LUCIDEPLOY FINAL EVIDENCE
+============================================================
+EVIDENCE=/data/data/com.termux/files/home/UL7RAVERSE/lucideploy/evidence/final_gate.json
+{
+  "schema": "LUCIDEPLOY-FINAL-GATE-1",
+  "timestamp_utc": "2026-09-12T00:04:13Z",
+  "repository_head": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+  "trinity_head": "0862aeb1e2b29d32183df0694fded54587c1e251",
+  "apex_version": "0.4.1",
+  "apex_core_sha256": "12a29fab1b79908de6fea2de56f7b63ac46f48bd0ae51b6b31c2f3da97ce824e",
+  "gates": {
+    "artifact_integrity": "PASS",
+    "lucideploy_tests": "PASS",
+    "trinity": "PASS",
+    "product": "PASS",
+    "local_health": "PASS",
+    "cloudflare_process": "PASS",
+    "public_http": "FAIL",
+    "production_hostname": "BLOCKED"
+  },
+  "deployment": {
+    "public_url": "https://designed-added-tournaments-ciao.trycloudflare.com",
+    "quick_tunnel_is_production": false
+  },
+  "final": {
+    "production": "BLOCKED",
+    "promotion": "BLOCKED"
+  },
+  "fail_closed": true
+}
+
+FINAL=BLOCKED

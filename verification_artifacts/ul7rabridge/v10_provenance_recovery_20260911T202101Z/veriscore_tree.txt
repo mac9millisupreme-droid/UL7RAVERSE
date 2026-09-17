@@ -1,0 +1,4 @@
+UL7RAFORGE/v10/ul7rastack/state/veriscore.json
+UL7RAFORGE/v10/ul7rastack/veriscore/__pycache__/engine.cpython-314.pyc
+UL7RAFORGE/v10/ul7rastack/veriscore/engine.py
+UL7RAFORGE/v10/ul7rastack/veriscore/state/veriscore.json

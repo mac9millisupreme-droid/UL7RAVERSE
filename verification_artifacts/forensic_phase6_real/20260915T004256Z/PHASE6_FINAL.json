@@ -1,0 +1,24 @@
+{
+  "schema": "UL7RAVERSE_FORENSIC_PHASE6_REAL/v1",
+  "phase": 6,
+  "decision": "REVIEW_REQUIRED",
+  "canonicality": "PARTIALLY_RESOLVED",
+  "authority_boundary": "UL7RABRIDGE",
+  "production_unlock": "BLOCKED",
+  "source_modification": "NONE",
+  "production_modification": "NONE",
+  "real_ul7rabridge_modification": "NONE",
+  "input": {
+    "confirmed_duplicate_groups": 126,
+    "normalized_duplicate_groups": 127,
+    "protected_surfaces": 1782,
+    "authority_surfaces": 221,
+    "proof_surfaces": 1628,
+    "inventory_files": 2566
+  },
+  "canonical_owner_proposals": 40,
+  "unresolved_groups": 0,
+  "alias_proposals": 87,
+  "protected_owner_proposals": 86,
+  "protected_aliases": 583
+}

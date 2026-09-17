@@ -1,0 +1,12 @@
+{
+  "specification": "UL7RA_CONSTITUTION/v1",
+  "status": "DERIVED",
+  "source_authority": "FROZEN_NORMATIVE_SPECIFICATION",
+  "files": {
+    "constitution.py": "94d6deff480ce6b61c5f384dab52397c5669dfd30c14beb1ba2f61e9ffebde52",
+    "constitution.schema.json": "44ad2c3e82aee60073d72bb19f871b7b135ed7532ef8fcac22ba151e57261afc",
+    "purple_omega_attack_corpus.json": "c1b584bd8b5722146ea7af586cc0bc26c3479fba6304072ab3b7598782851e0b",
+    "state_machine.json": "4dadde2a924ea2a0ddc645bd4515b17280f89440e82e8644fe7dd6ae737e9e71",
+    "test_constitution.py": "bb2a7703f8bebfa5f4d376fba1f0d1f0ef794646a2b3a2fe869a3327ef5fcc79"
+  }
+}

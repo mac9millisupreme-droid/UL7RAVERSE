@@ -1,0 +1,27 @@
+{
+  "system": "UL7RAVERSE",
+  "controller": "MULTILOOP_MULTILAYER_ORCHESTRATOR",
+  "run": "20260911T212831Z",
+  "round": 58,
+
+  "layers": {
+    "environment": "VERIFIED",
+    "origin": "PASS",
+    "stack": "PASS",
+    "luci": "BLOCKED",
+    "gates": "PASS",
+    "tunnel": "PASS",
+    "dns": "BLOCKED",
+    "https": "BLOCKED",
+    "proof": "BLOCKED",
+    "commerce": "PASS"
+  },
+
+  "payment_verified": false,
+  "verified_revenue_cad": 0,
+  "production_unlock": false,
+  "canonical_promotion": false,
+  "public_exposure_authorized": false,
+
+  "final_decision": "BLOCKED"
+}

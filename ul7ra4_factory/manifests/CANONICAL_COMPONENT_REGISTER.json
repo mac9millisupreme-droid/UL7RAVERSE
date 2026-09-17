@@ -1,0 +1,71 @@
+{
+  "canonical_root": "UL7RAVERSE",
+  "factory": "UL7RA4_AUTONOMOUS_FACTORY",
+  "components": {
+    "governance": [
+      "Trinity Core",
+      "EVI",
+      "SAIOS",
+      "NODE9",
+      "FCOS"
+    ],
+    "engineering": [
+      "UL7RA4ORGE"
+    ],
+    "infrastructure": [
+      "UL7RABRIDGE",
+      "UL7RASTACK",
+      "UL7RASENTINEL"
+    ],
+    "proof": [
+      "UL7RAPROOF",
+      "Proof State Engine",
+      "Proof-State Reports",
+      "Continuous Verification"
+    ],
+    "verification": [
+      "UL7RA Verify",
+      "V99-LITE",
+      "V155"
+    ],
+    "security": [
+      "OmniShield",
+      "OmniSentinel",
+      "OmniBridge",
+      "Purple Team",
+      "Protocol 52"
+    ],
+    "luci": [
+      "LuciCore",
+      "LuciVault",
+      "LuciDeploy",
+      "LUCI Diagnostic",
+      "LUCI Test",
+      "LUCIAGENT3",
+      "LUCIcoin"
+    ],
+    "applications": [
+      "Racing Oracle",
+      "Race-State Reconstruction",
+      "Latent Horse Ability"
+    ],
+    "commercial": [
+      "UL7RAPASS",
+      "Enterprise",
+      "Commerce",
+      "E6"
+    ],
+    "media": [
+      "MAC9RECORDS",
+      "Insight",
+      "GQ FADER"
+    ]
+  },
+  "classification_rule": {
+    "CANONICAL": "evidence-backed current implementation",
+    "CANDIDATE": "implementation requiring reconciliation",
+    "HISTORICAL": "preserved prior generation",
+    "UNVERIFIED": "claimed or present without sufficient evidence",
+    "MISSING": "referenced but not found in current inventory"
+  }
+}

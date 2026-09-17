@@ -1,0 +1,43 @@
+HTTP/2 301 
+date: Fri, 11 Sep 2026 23:32:30 GMT
+content-type: text/html; charset=UTF-8
+location: https://www.cloudflare.com/
+strict-transport-security: max-age=15780000; includeSubDomains
+set-cookie: __cf_bm=dWZv32lK._myPOo9VleDSw.2dqAs0txKggCExxtm5KY-1789169550.4766812-1.0.1.1-zmAehs6UfuIknJLNg8nnb7xPMrqAP4_2dVIhdrUfSZT.iE.gIfoSBYvlU4ZcillkMGEidyS.bR0Z75b3sMWGU.Tzu7PYsTBdcYHdu93SFYsIoALDCle2PTV4eR7TIzyh; HttpOnly; SameSite=None; Secure; Path=/; Domain=cloudflare.com; Expires=Sat, 12 Sep 2026 00:02:30 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QOdAKB44YuoXgwKV%2FOtBkbBp%2BUqXdmOif00eMCfiV%2BsB%2Buwb9%2FPnw47BBfSeaF8FmqZ0kBRDG9KAbbaHjaOuE85sBeNWffvwZC%2FJvQKyv8VHdWGDNIF8fhuFoP9kyTqI"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+cf-ray: a39a78da7c5e369c-YYZ
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 103 
+link: </fonts/Kunst%20Grotesk%20Regular.woff2>; as=font; crossorigin; rel=preload; type=font/woff2, </fonts/Kunst%20Grotesk%20Medium.woff2>; as=font; crossorigin; rel=preload; type=font/woff2, <https://ot.www.cloudflare.com>; crossorigin; rel=preconnect, <https://imagedelivery.net>; crossorigin; rel=preconnect, </static/hero-poster.avif>; as=image; fetchpriority=high; rel=preload; type=image/avif
+
+HTTP/2 200 
+date: Fri, 11 Sep 2026 23:32:30 GMT
+content-type: text/html; charset=utf-8
+link: <https://www.cloudflare.com/.well-known/agents.json>; rel="api-catalog", <https://www.cloudflare.com/.well-known/webmcp.json>; rel="service-desc", <https://www.cloudflare.com/openapi.json>; rel="service-desc", <https://www.cloudflare.com/llms.txt>; rel="service-doc", <https://www.cloudflare.com/sitemap.xml>; rel="sitemap", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin, </static/hero-poster.avif>; rel=preload; as=image; type="image/avif"; fetchpriority=high
+cache-control: no-store
+vary: accept-encoding
+strict-transport-security: max-age=31536000; includeSubDomains
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://adservice.google.com https://cdn.bizible.com https://js.adsrvr.org https://*.marketo.net https://platform.twitter.com https://static.ads-twitter.com https://scripts.demandbase.com https://tag.demandbase.com https://*.6sc.co https://*.qualified.com https://snap.licdn.com https://bat.bing.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.googletagmanager.com https://*.google-analytics.com https://*.google.com https://*.doubleclick.net https://www.googleadservices.com https://translate.googleapis.com https://cdn.bizible.com https://js.adsrvr.org https://*.marketo.net https://ads-twitter.com https://analytics.twitter.com https://*.twimg.com https://api.demandbase.com https://scripts.demandbase.com https://tag.demandbase.com https://tag-logger.demandbase.com https://api.company-target.com https://*.6sc.co https://epsilon.6sense.com https://*.qualified.com https://*.ads.linkedin.com https://www.linkedin.com https://bat.bing.com https: wss://*.qualified.com wss://*.registrar.cloudflare.com; frame-src https://*.adsrvr.org https://*.cloudflare.com https://*.videodelivery.net https://*.cloudflarestream.com https://www.googletagmanager.com https://*.qualified.com https://td.doubleclick.net https://bid.g.doubleclick.net https://9309168.fls.doubleclick.net https://9973066.fls.doubleclick.net https://s.company-target.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; worker-src 'self' blob:; child-src 'self' blob:; upgrade-insecure-requests
+cross-origin-opener-policy: unsafe-none
+cross-origin-resource-policy: cross-origin
+permissions-policy: geolocation=(), camera=(), microphone=()
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-served-by: marketing-site
+x-xss-protection: 1; mode=block
+x-rm: GW
+set-cookie: _ga=GA1.1.0bc9ae67-1209-4c85-b1ef-5af9eeaa9f44; Expires=Mon, 11 Oct 2027 23:32:30 GMT; Path=/
+set-cookie: cfz_google-analytics_v4={"nzcr_ga4":{"v":"0bc9ae67-1209-4c85-b1ef-5af9eeaa9f44","e":1823297550720}}; Expires=Mon Oct 11 2027 23:32:30 GMT+0000 (Coordinated Universal Time); HttpOnly; SameSite=Lax; Path=/; Secure
+set-cookie: cfz_adobe={"MsVJ_ecid":{"v":"CiYwNzI1NDM5MjYwMTQ4NTE2NjMzNDQ2Nzg2MDY0MzE1MDk0OTY1OVIOCKeLw5aJNCoDVkE2MALwAaeLw5aJNA==","e":1823297550769}}; Expires=Mon Oct 11 2027 23:32:30 GMT+0000 (Coordinated Universal Time); HttpOnly; SameSite=Lax; Path=/; Secure
+set-cookie: kndctr_8AD56F28618A50850A495FB6_AdobeOrg_identity=CiYwNzI1NDM5MjYwMTQ4NTE2NjMzNDQ2Nzg2MDY0MzE1MDk0OTY1OVIOCKeLw5aJNCoDVkE2MALwAaeLw5aJNA==; Expires=Mon, 11 Oct 2027 23:32:30 GMT; Path=/; Secure; SameSite=Lax
+set-cookie: __cf_bm=0musYcJXL7bMVQig9zNee1SnfcL5GFhQ342NPGZMwqk-1789169550.7100055-1.0.1.1-8PZyZcGRuVAMLoXhgM2T.74kPBSWMa8QVOFecXRkwYODcLrgM6gSUSoMqvM_Ugvki7K2Ix8jtB_m6UwH1K3drEP7l8LpVGOr_ZYeSV962egi1H5Q9_YrW33Jwo.bPJOD5ZSOfDqGTr6XA81aW.PcGw; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.cloudflare.com; Expires=Sat, 12 Sep 2026 00:02:30 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=z0ZfVrLm4bLfLkVgiAf1PHX5rZPWyh3qs61H2xxWLtm9eQPmAcO2w0e1gZXrCrGx0uWmZbdPoUIIIOTQgCWGktcmjGmlL%2FbIgmGk9JDtv%2FZX9yfrRtBHr0h8pJRaARmfErnXsg%3D%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+cf-ray: a39a78dbefed57af-YYZ
+alt-svc: h3=":443"; ma=86400
+

@@ -1,0 +1,5 @@
+timestamp=2026-09-11T23:07:23Z
+/data/data/com.termux/files/usr/bin/python
+Python 3.14.6
+git version 2.55.0
+cloudflared version 2026.8.3 (built 2026.08.31-12:24 UTC)

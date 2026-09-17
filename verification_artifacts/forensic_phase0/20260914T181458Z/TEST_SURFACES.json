@@ -1,0 +1,5554 @@
+{
+  "adversarial_tests": [
+    {
+      "claim": "NONE",
+      "path": "test_ul7ra_continue_purple.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/red_boundary_tests.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/regression.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/red_boundary_tests.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/regression.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/red_boundary_tests.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/regression.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/red_boundary_tests.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_ail_adversarial.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_phase2_adversarial.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_phase3_adversarial.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/TEST_RESULTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/omnipulse/20260911T231717Z/reports/PURPLE_TEAM_GATE.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "luci_promote/PURPLE_TEAM.sh",
+      "status": "DISCOVERED"
+    }
+  ],
+  "diagnostic_tools": [
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/resolv.conf",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/python_dns.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflare_dns.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/google_dns.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_version.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_process.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/local_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/diagnostic.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/DIAGNOSTIC_STATE.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/git_head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/git_branch.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/registry.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/assurance.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/reconciliation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/diagnostic.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/DIAGNOSTIC_STATE.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/git_head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/git_branch.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/registry.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/assurance.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/reconciliation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/diagnostic.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/STATE.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/git_head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/git_branch.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/registry.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/registry.stderr",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/assurance.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/assurance.stderr",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/reconciliation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T175606Z/evidence/inventory.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191139Z/evidence/inventory.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/inventory.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/live_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/diagnostic.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/inventory.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/live_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/diagnostic.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/diagnostic.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/inventory.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/live_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/diagnostic.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/inventory.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/live_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/diagnostic.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/inventory.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/live_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/diagnostic.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/bin/continuous_diagnostic.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/bin/authority_diagnostic.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_1.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_1.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_2.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_2.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_4.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_4.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_5.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_5.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_6.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_6.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_7.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_7.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_8.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_8.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_9.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_9.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_1.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_1.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_2.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_2.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_4.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_4.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_5.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_5.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_6.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_6.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_7.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_7.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_8.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_8.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_9.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_9.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_10.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_10.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_11.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_11.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_12.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_12.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_13.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_13.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_14.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_14.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_15.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_15.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/environment.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/origin_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/origin_health_after_recovery.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/stack_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/tunnel_info_before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/tunnel_info_after.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/dns_route.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/dig.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/cname.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/a.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/public_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/omnipulse/force-live/20260911T232559Z/network-diagnostic-20260911T233229Z/local.err",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/omnipulse/force-live/20260911T232559Z/network-diagnostic-20260911T233229Z/local.html",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/omnipulse/force-live/20260911T232559Z/network-diagnostic-20260911T233229Z/dns_cloudflare.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/omnipulse/force-live/20260911T232559Z/network-diagnostic-20260911T233229Z/cloudflare.err",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/omnipulse/force-live/20260911T232559Z/network-diagnostic-20260911T233229Z/cloudflare_headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/omnipulse/force-live/20260911T232559Z/network-diagnostic-20260911T233229Z/dns_tunnel.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/omnipulse/force-live/20260911T232559Z/network-diagnostic-20260911T233229Z/tunnel.err",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_diagnostic/20260911T233629Z/DIAGNOSTIC.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_diagnostic/20260911T233629Z/local.html",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_diagnostic/20260911T233806Z/DIAGNOSTIC.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_diagnostic/20260911T233806Z/local.html",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/halo9_v56_diagnostic/20260914T175409Z/compiler.log",
+      "status": "DISCOVERED"
+    }
+  ],
+  "fuzzing": [],
+  "independent_verifiers": [
+    {
+      "claim": "NONE",
+      "path": "ul7ra_verify_runtime.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "VERIFY_UL7RA_ORIGIN.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "VERIFY_UL7RA_ORIGIN_FIXED.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verify_omnipulse_public.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "REPAIR_VERIFY_PRODUCTION.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "FORCE_RECONCILE_VERIFY_DNS.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v09/state/deep_verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v09/tests/verify_candidate.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v09/tests/deep_verify.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020214Z/independent_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020337Z/independent_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020404Z/independent_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/ul7rastack/verifier/src/verify.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/assurance/verifier/external/verify_s9.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/assurance/verifier/external/EXTERNAL_ATTESTATION_CONTRACT.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/assurance/verifier/external/reconcile_attestation.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020026Z/independent_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/PRODUCT_CONTRACT.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/README.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/app/server.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/tests/test_server.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/tests/test_server.py.bak_pathfix",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/tests/test_server.py.bak_realtest",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/trinity_binding.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/deployment_gate.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/deployment_watchdog.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/public_probe.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/started.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-git.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-gh.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-cloudflared.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-python3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-dig.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-remotes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-list.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/gate1-artifact.bin",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification-check.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/started.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-git.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-gh.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-cloudflared.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-python3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-dig.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-remotes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-list.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/gate1-artifact.bin",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification-check.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/execution.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/started.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/root.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/product.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/hostname.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/origin.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-git.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-gh.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-cloudflared.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-python3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-dig.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/processes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-remotes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel-list.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel-info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.code",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.curl",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.headers",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/authoritative-before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/public-before-1.1.1.1.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/public-before-8.8.8.8.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/gate1-artifact.bin",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/expected-sha256.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/expected-bytes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-code.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-response.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-proof.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/compiler-20260822T093730Z/local-artifact",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/compiler-20260822T093730Z/local-verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/compiler-20260822T093730Z/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/run_id.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/working_directory.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-git.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-git-version.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-gh.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-gh-version.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-cloudflared.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-cloudflared-version.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-python3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-python3-version.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-curl-version.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-dig.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-dig-version.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-awk.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-awk-version.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-sed.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-sed-version.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-grep.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-grep-version.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-sha256sum.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-sha256sum-version.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/local-health.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/artifact.bin",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/local-verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/expected-sha256.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tunnel-list.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tunnel-info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/routing.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/cloudflared-config.yml",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/auth-rodrigo.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ip/GATE3A_INVENTORY.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ip/GATE3B_SHA256SUMS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ip/IP_DEFENSIBILITY_INVENTORY.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ip/IP_DEFENSIBILITY_INVENTORY.sha256",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ultra_verified/20260822T120157Z/artifact",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ultra_verified/20260822T120157Z/independent_sha256.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ultra_verified/20260822T120157Z/verification.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ultra_verified/20260822T120157Z/evidence_sha256.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/claim.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/observation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/proof.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/EVIDENCE_SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/claim.sha256",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/observation.sha256",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/proof.sha256",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/canonical_entry.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/provenance/PROVENANCE_ANCHOR.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/provenance/ANCHOR_SHA256.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/release/IMMUTABLE_RELEASE_RECORD.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/release/RELEASE_RECORD_SHA256.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/evi/constitution_sha256.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/multilayer/20260822T211824Z/origin.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/multilayer/20260822T211824Z/tunnel.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/controller.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/proof.bin",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/STATE.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/git_commit.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/expected_sha256.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/expected_bytes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/origin_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/origin.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/local_verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/local_sha256.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/local_bytes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/cloudflared.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/execution-engine.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/STATE.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/STATE.sha256",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/processes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/port.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/health-probe-1.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/health-probe-2.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/execution/origin.pid",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/execution/origin-start.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/execution/proof-artifact",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/verification/local-verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-status-before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/entrypoint.sha256",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-status-after.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013955Z/origin/health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013955Z/origin/artifact",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/execution/20260823T013955Z/origin/verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/start_local.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/start_tunnel.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/stop_local.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/server.pid",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/server.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/test_artifact",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/local_verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflared.pid",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflared.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_url",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/external_test_artifact",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_probe_artifact",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/local_response.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/live_deployment_report.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/closed_loop.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/domain_response.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/closed_loop_report.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/tunnel_list.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/tunnel_list.err",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/final_tunnel_list.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_body.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/omnilucient_public_route.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/local_origin.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/watchdog.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/watchdog.pid",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/watchdog.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/multiloop.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/config-test.yml",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/ul7ra-start.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/gate2-artifact",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/promotion_state.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/local_health_gate2.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/origin.pid",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/origin.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/health_recovery.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/multiloop/engine.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/multiloop/promotion_state.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/verify_product_script.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/source_hashes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/health_before.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/watchdog_start.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/BUILD_ID.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/git_head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/git_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/source_hashes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/root.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/pytest_collection.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/pytest_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/final_source_hashes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/build.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/source_hashes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/local_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_process.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_config.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/dns.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/dns_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/public_health_headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/public_payload.bin",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/APEX_PUBLIC_DECISION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/resolv.conf",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/python_dns.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflare_dns.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/google_dns.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_version.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_process.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/local_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/source_hashes_before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/local_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_list.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/dns_route.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/public_dns.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/cloudflared.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/public_payload.bin",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/source_hashes_after.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/git_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/dns_route.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/route_help.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/dns_authority.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_a.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_cname.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_ns.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflared_process.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/a_before.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_before.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/route_attempt.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_1.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_2.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_3.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_4.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_5.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_6.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/a_final.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_final.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/local_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/APEX_DNS_DECISION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_cname.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_a.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/dns_route_help.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/route_dns_normal.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_cname_after.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/public_cname_after.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/google_cname_after.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/local_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/APEX_DNS_DECISION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_list.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/config_redacted.yml",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/cloudflare_env_names.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/cloudflared_files.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/public_cname.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/authoritative_cname.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/route_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/DECISION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/public_cname.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/google_cname.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_ns.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_queries.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_target_resolution.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/route_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/https_headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/DECISION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_1111.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_google.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/https_headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/DECISION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/cloudflared_dir.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/nameservers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/authoritative_any.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/authoritative_cname.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_routes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/route_dns_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/cloudflare_public_dns.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/google_public_dns.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/discovery.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/full.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/local_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_route.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_system.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_cloudflare.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_google.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/public_headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/APEX_PUBLIC_DECISION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/full.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/zone.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/df.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/tmp_dir.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/token_verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/zone.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflared_config.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/ns_system.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cname_system.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/google_dns.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflare_dns.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_ns.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_cname.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/public_https_headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/scripts/verify_product.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/governance/evi/EVI_CONSTITUTION.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/.pytest_cache/README.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/.pytest_cache/.gitignore",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/.pytest_cache/CACHEDIR.TAG",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/.pytest_cache/v/cache/nodeids",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "evidence/quantum_storm/20260823T040239Z/verify.response",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "evidence/quantum_storm/20260823T040239Z/public_verify",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/20260823T042104Z/evidence/product/VERIFY_PRODUCT.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/20260823T042104Z/evidence/product/VERIFY_PRODUCT.exit",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/hash_verify.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".bob/tasks/verify-ul7ra.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/UL7RA_VERIFY.paths",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_20260911T200115Z/RESULTS.tsv",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_20260911T200115Z/FINAL_DECISION.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/EXECUTION.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/curl_error.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/integrity.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/FINAL_DECISION.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_20260911T200700Z/RESULTS.tsv",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_20260911T200700Z/FINAL_DECISION.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/HEALTH.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/INTEGRITY.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/RESULTS.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/FINAL_DECISION.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/SURFACES.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/GOVERNANCE_CONTROLS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/ORIGIN_CHECK.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/FINAL_DECISION.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/independent_verifier.sh.stdout",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/independent_verifier.sh.stderr",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/verify_nslookup.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/verify_dig.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_public_authority/20260911T234040Z/local_verify.html",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_public_authority/20260911T234302Z/local_verify.html",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/western_fair_convergence/20260911T235723Z/verify_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080226Z/local_verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080919Z/local_verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "scripts/membership_verify.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "halo_twin_pair_v1/halo_twin_pair_v1/verify.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "halo9_bridge_gate_v2/halo9_bridge_gate_v2/verify.sh",
+      "status": "DISCOVERED"
+    }
+  ],
+  "integration_tests": [
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/regression.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/regression.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/regression.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/cheetah_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/tests/ca_registry_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/tests/veriscore_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/tests/high_assurance_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/SHA256SUMS.sha256",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/baseline.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/continuous.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/post_state.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/hash_verify.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/green-regression-20260823T191440Z/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/green-regression-20260823T191440Z/SHA256SUMS.sha256",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/green-regression-20260823T191440Z/evidence/pass1.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/green-regression-20260823T191440Z/evidence/pass2.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/green-regression-20260823T191440Z/evidence/pass3.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/protocol52/state/20260825T160207Z/live_status_regression.sh.before",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/repair_logs/regression_core.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/cheetah_regression.sh.stdout",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/cheetah_regression.sh.stderr",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/live_status_regression.sh.stdout",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/live_status_regression.sh.stderr",
+      "status": "DISCOVERED"
+    }
+  ],
+  "luci_tests": [
+    {
+      "claim": "NONE",
+      "path": "lucideploy/tests/test_state.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "lucideploy/tests/test_integrity.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/20260823T043855Z/evidence/LUCIDEPLOY_TESTS.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/selftest.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_1.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_2.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_4.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_5.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_6.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_7.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_8.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_9.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_10.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/selftest.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_1.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_2.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_4.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_5.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_6.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_7.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_8.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_9.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_10.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_11.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_12.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_13.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_14.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_15.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/western_fair_convergence/20260911T235723Z/luci_tests.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/elite_forensic/20260912T031215Z/LUCIDEPLOY_TESTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "luci_promote/tests/test_luci_promote.py",
+      "status": "DISCOVERED"
+    }
+  ],
+  "production_gates": [
+    {
+      "claim": "NONE",
+      "path": "FINAL_DNS_PRODUCTION_GATE.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "DNS_AUTHORITY_FINAL_GATE.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "CLOUDFLARE_FINAL_OWNERSHIP_GATE.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v09/state/assurance_gate.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v09/tests/assurance_gate.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/production_gate.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/assurance_gates.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/continuous_gate_loop.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/profiles/gates.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/state/high_assurance_gates.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/state/assurance_gate_results.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/state/assurance_gate_run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/release_gate.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/deployment_gate.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/started.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-git.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-gh.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-cloudflared.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-python3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-dig.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-remotes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-list.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/gate1-artifact.bin",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification-check.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/started.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-git.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-gh.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-cloudflared.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-python3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-dig.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-remotes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-list.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/gate1-artifact.bin",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification-check.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/execution.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/started.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/root.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/product.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/hostname.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/origin.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-git.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-gh.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-cloudflared.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-python3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-dig.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/processes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-remotes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel-list.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel-info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.code",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.curl",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.headers",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/authoritative-before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/public-before-1.1.1.1.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/public-before-8.8.8.8.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/gate1-artifact.bin",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/expected-sha256.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/expected-bytes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-code.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-curl.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-response.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-proof.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ip/GATE3A_INVENTORY.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/evidence/ip/GATE3B_SHA256SUMS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/gate2-artifact",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/local_health_gate2.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/public_cname.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/google_cname.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_ns.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_queries.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_target_resolution.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/route_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/https_headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/DECISION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/full.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/local_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_route.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_system.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_cloudflare.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_google.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/public_headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/APEX_PUBLIC_DECISION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflared_config.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/ns_system.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cname_system.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/google_dns.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflare_dns.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_ns.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_cname.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/public_https_headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "lucideploy/run_final_gate.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "lucideploy/gates/engine.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "lucideploy/gates/__init__.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "lucideploy/gates/integration.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "lucideploy/evidence/final_gate.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "lucideploy/contracts/GATES.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/assurance_gates.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/execution-20260823T172237Z/evidence/assurance_gate.before.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/assurance_gates.py.baseline",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/assurance_gates.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/path-binding-fix-20260823T175207Z/evidence/assurance_gates.py.before",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime_gate.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/existing_tunnel_connector_gate.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/agent_gateway/CANONICAL_CANDIDATES_20260911T201151Z.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/SURFACES.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/GOVERNANCE_CONTROLS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/ORIGIN_CHECK.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/FINAL_DECISION.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/orchestrator/20260911T212831Z/logs/final_gate.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/omnipulse/20260911T231717Z/reports/PURPLE_TEAM_GATE.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/omnipulse/live/20260911T231820Z/GATE_MESSAGE.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/western_fair_convergence/20260911T235723Z/final_gate.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/domain_control/20260912T000358Z/final_gate.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/domain_control/20260912T000546Z/final_gate.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/elite_forensic/20260912T031215Z/LUCI_FINAL_GATE.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/dns_authority_gate/20260912T235823Z/DNS_AUTHORITY_GATE.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/revenue_engine/20260913T002220Z/revenue_next_gate.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/revenue_engine/20260913T002409Z/revenue_next_gate.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/cloudflare_route_gate_20260913T052957Z/report.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/cloudflare_origin_gate_20260913T053126Z/report.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080226Z/origin.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080226Z/local_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080226Z/local_verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080226Z/ingress_validate.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080226Z/connector.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080226Z/dns_before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080226Z/dns_route_attempt.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080226Z/dns_after.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080226Z/public_health.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080226Z/public_headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080919Z/origin.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080919Z/local_health.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080919Z/local_verify.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080919Z/ingress_validate.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080919Z/connector.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080919Z/dns_before.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080919Z/dns_route_attempt.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080919Z/dns_after.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080919Z/public_health.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/final_public_gate/20260913T080919Z/public_headers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/unification/20260913T154526Z/GROUNDING_GATE.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "ul7ra_unified/gates/ul7ra_grounding_gate.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.toml",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "halo9_bridge_gate_v2/halo9_bridge_gate_v2/verify.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "halo9_bridge_gate_v2/halo9_bridge_gate_v2/README.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.lock",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/main.rs",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/bridge_gate.rs",
+      "status": "DISCOVERED"
+    }
+  ],
+  "security_tests": [
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/ul7rastack/security/evidence/latest_containment.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/security_assurance.sh.stdout",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/security_assurance.sh.stderr",
+      "status": "DISCOVERED"
+    }
+  ],
+  "unit_tests": [
+    {
+      "claim": "NONE",
+      "path": "racing_recon_test.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "test_ul7ra_continue.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "test_ul7ra_continue_purple.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "test_ul7ra_continue_ail.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/coding_swarm/workers/test_engineer/worker.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v06/tests/test_v06.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v09/tests/verify_candidate.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v09/tests/assurance_gate.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v09/tests/run_assurance.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v09/tests/deep_verify.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/reproducible_builds.attestation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/approved_cryptography.attestation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/key_lifecycle.attestation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/hardware_backed_keys.attestation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/independent_verification.attestation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/one_way_enforcement.attestation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py.pre-output-path-fix",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py.backup.20260823T175318Z",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py.backup.final.20260823T175350Z",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/keys/local_key_lifecycle_test.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/keys/key_generation_rotation_revocation_test.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/tests/cargo_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/tests/cargo_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/red_boundary_tests.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/red_boundary_tests.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/red_boundary_tests.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/red_boundary_tests.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020214Z/independent_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020337Z/independent_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020404Z/independent_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rastack/assurance/blue/tests/blue_harness.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/cheetah_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/tests/ca_registry_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/tests/veriscore_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/v10/tests/high_assurance_regression.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/ul7rastack/security/evidence/latest_containment.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/assurance/verifier/external/EXTERNAL_ATTESTATION_CONTRACT.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "UL7RAFORGE/assurance/verifier/external/reconcile_attestation.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020026Z/independent_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/tests/test_server.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/tests/test_server.py.bak_pathfix",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/tests/test_server.py.bak_realtest",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/test_artifact",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/external_test_artifact",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/config-test.yml",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/pytest_collection.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/pytest_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_list.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/config_redacted.yml",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/cloudflare_env_names.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/cloudflared_files.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/public_cname.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/authoritative_cname.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/route_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/DECISION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/run.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/cloudflared_dir.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/nameservers.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/authoritative_any.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/authoritative_cname.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_routes.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_info.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/route_dns_status.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/cloudflare_public_dns.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/google_public_dns.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/.pytest_cache/README.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/.pytest_cache/.gitignore",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/.pytest_cache/CACHEDIR.TAG",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "products/ul7ra-verify/.pytest_cache/v/cache/nodeids",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "lucideploy/tests/test_state.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "lucideploy/tests/test_integrity.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "evidence/quantum_storm/20260823T040239Z/test_discovery",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "evidence/quantum_storm/20260823T040239Z/tests.out",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "evidence/quantum_storm/20260823T040239Z/tests.result",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/evidence/tests.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/evidence/test_discovery.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/20260823T043855Z/evidence/LUCIDEPLOY_TESTS.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/20260823T162635Z/evidence/TEST_SURFACE.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/capability-20260823T170726Z/evidence/reproducible_build_attestation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/evidence-production-20260823T170811Z/evidence/key_lifecycle_test.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/evidence-production-20260823T170811Z/evidence/hardware_attestation_boundary.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/revocation-20260823T170949Z/evidence/key_revocation_test.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/attest.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/authority-test-20260823T171820Z/evidence/metadata.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/authority-test-20260823T171820Z/evidence/compile.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/authority-test-20260823T171820Z/evidence/contract_test.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/authority-test-20260823T172002Z/evidence/head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/authority-test-20260823T172002Z/evidence/compile.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/authority-test-20260823T172002Z/evidence/authority_result.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/authority-test-20260823T172002Z/evidence/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/attest.py.baseline",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/test-20260823T174057Z/execution.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/test-20260823T174057Z/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/test-20260823T174057Z/STATE.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/test-20260823T174057Z/STATE.final.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/git_head.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/git_branch.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/compile.stderr",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/registry.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/assurance.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/authority_reconciliation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/STATE.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/evidence/compile.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/evidence/registry.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/evidence/assurance.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/evidence/normalized.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/evidence/reconciliation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-test-20260823T174543Z/evidence/compile.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-test-20260823T174543Z/evidence/registry.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-test-20260823T174543Z/evidence/assurance.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-test-20260823T174543Z/evidence/reconciliation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-test-20260823T174622Z/evidence/compile.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-test-20260823T174622Z/evidence/registry.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-test-20260823T174622Z/evidence/assurance.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/continuous-test-20260823T174622Z/evidence/reconciliation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/remediation.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/SHA256SUMS",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/STATE.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/registry.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/attest.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/assurance_gates.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/inventory.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/attestation_plan.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/binding_result.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/registry.result.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/assurance.result.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/reconciliation.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/path-binding-fix-20260823T175207Z/evidence/attest.py.before",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/authority-contract-20260823T175507Z/contract_test.sha256",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/authority-contract-20260823T175507Z/evidence/contract_test.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/live_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/live_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/live_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/live_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/live_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/bin/continuous_test",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/bin/authority_reconcile_test",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/bin/authority_contract_test.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/bin/registry_assurance_reconciliation_test.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/bin/continuous_assurance_test.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/funnel/bin/attestation_binding_remediation.sh",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/4H_EXECUTION/20260824T022857Z/WIRE_TEST/WIRE_TEST.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/test_files.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/test_results.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/protocol52/state/20260825T154639Z/attest.diff",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra/protocol52/runs/20260825T163117Z/test-paths.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".pytest_cache/README.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".pytest_cache/.gitignore",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".pytest_cache/CACHEDIR.TAG",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".pytest_cache/v/cache/nodeids",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".pytest_cache/v/cache/lastfailed",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_core.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_ail_temporal.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_ail_provenance.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_ail_adversarial.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_ail_shadow.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_ail_replay.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_ail_decision.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_ail_invariants.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_race_state_reconstruction.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_latent_ability.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_phase2_adversarial.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_phase3_evidence.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_phase3_adversarial.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_probability_engine.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_market_intelligence.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_uncertainty_propagation.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/tests/test_decision_composer.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/repair_logs/tests_tracker.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/repair_logs/ail_tests_initial.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/repair_logs/racing_tests_initial.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/repair_logs/server_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/repair_logs/ail_tests_after_repair.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/repair_logs/racing_tests_after_repair.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/repair_logs/replay_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/repair_logs/freeze_logs/racing_tests_20260909_085702.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/repair_logs/freeze_logs/ail_tests_20260909_085702.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/.pytest_cache/README.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/.pytest_cache/.gitignore",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/.pytest_cache/CACHEDIR.TAG",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/.pytest_cache/v/cache/nodeids",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "racing/.pytest_cache/v/cache/lastfailed",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "FORENSIC_PHASE0_20260909T095923Z/PYTEST_VERSION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "FORENSIC_PHASE0_20260909T095923Z/TEST_FILES.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "FORENSIC_PHASE0_20260909T100256Z/TEST_FILES.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "FORENSIC_PHASE0_20260909T100256Z/TEST_RESULTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": ".ul7ra_autonomous/RUN_20260909T100748Z/MASTER_SPEC.md",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/test_verification_artifact.py",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/racing_tests.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/TEST_RESULTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/revenue_release/20260910T143907Z/TEST_RESULTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/revenue_release/20260910T144021Z/TEST_RESULTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rapass/20260910T144312Z/TEST_RESULTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/UL7RAPASS_CHECKOUT_SPEC.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/member_loop/20260910T145415Z/TEST_RESULTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/TEST_SURFACES.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/unified/20260911T190631Z/TESTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/unified/20260911T190851Z/TESTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/unified/20260911T191437Z/TESTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/PYTEST_DIRS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/v10_inspection_20260911T201311Z/INSPECTION.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/cargo_test.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/bridge_invariant.sh.stdout",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/bridge_invariant.sh.stderr",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/cheetah_regression.sh.stdout",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/cheetah_regression.sh.stderr",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/independent_verifier.sh.stdout",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/independent_verifier.sh.stderr",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/tamper_detection.sh.stdout",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/tamper_detection.sh.stderr",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/security_assurance.sh.stdout",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/security_assurance.sh.stderr",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/live_status_regression.sh.stdout",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/live_status_regression.sh.stderr",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/test_candidates.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/deployment/20260911T203008Z/origin_selftest.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/deployment/one_launch/20260911T203832Z/origin_selftest.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/selftest.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_1.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_2.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_4.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_5.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_6.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_7.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_8.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_9.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_10.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/selftest.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_1.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_2.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_3.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_4.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_5.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_6.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_7.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_8.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_9.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_10.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_11.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_12.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_13.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_14.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_15.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/western_fair_convergence/20260911T235723Z/luci_tests.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/domain_control/20260912T000358Z/tests.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/domain_control/20260912T000546Z/tests.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/elite_forensic/20260912T031215Z/LUCIDEPLOY_TESTS.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/TEST_INVENTORY.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/TEST_INVENTORY.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V55_halo9_tests.txt",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/halo9_v56_full/20260914T175600Z/test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "verification_artifacts/halo9_v57/20260914T180129Z/cargo_test.log",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "launch/MEMBERSHIP_SPEC.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "launch/PROSPECT_STATE.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "ul7ra_unified/state/LATEST_UNIFICATION.json",
+      "status": "DISCOVERED"
+    },
+    {
+      "claim": "NONE",
+      "path": "luci_promote/tests/test_luci_promote.py",
+      "status": "DISCOVERED"
+    }
+  ]
+}

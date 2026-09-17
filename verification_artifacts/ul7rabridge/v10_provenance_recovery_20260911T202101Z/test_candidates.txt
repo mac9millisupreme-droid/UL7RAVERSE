@@ -1,0 +1,3 @@
+./UL7RAFORGE/ul7rastack/verifier/src/verify.py
+./UL7RAFORGE/v10/tests/high_assurance_regression.sh
+./UL7RAFORGE/v10/tests/veriscore_regression.sh

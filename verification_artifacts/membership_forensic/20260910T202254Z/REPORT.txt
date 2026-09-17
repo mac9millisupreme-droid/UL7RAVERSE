@@ -1,0 +1,129 @@
+=== MEMBERSHIP FORENSIC ISOLATION ===
+UTC=20260910T202254Z
+COMMIT=63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+
+=== TEST FILE ===
+ls: cannot access 'tests/test_membership.py': No such file or directory
+
+=== PYTHON ===
+Python 3.14.6
+usage: python -m unittest [-h] [-v] [-q] [--locals] [--durations N] [-f] [-c]
+                          [-b] [-k TESTNAMEPATTERNS]
+                          [tests ...]
+python -m unittest: error: unrecognized arguments: --version
+
+=== DIRECT MODULE IMPORT ===
+SPEC: True
+IMPORT=FAIL
+FileNotFoundError: [Errno 2] No such file or directory: '/data/data/com.termux/files/home/UL7RAVERSE/tests/test_membership.py'
+IMPORT_RC=1
+
+=== DIRECT MEMBERSHIP TEST ===
+MEMBERSHIP_RC=1
+
+=== DISCOVER MEMBERSHIP TESTS ===
+DISCOVER_RC=1
+
+=== FULL SUITE SUMMARY ===
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+NO TESTS RAN
+
+FULL_RC=5
+
+=== FAILURE EXTRACTION ===
+
+=== MEMBERSHIP FAILURE EXTRACTION ===
+
+=== EXISTING MEMBER LOOP ===
+--- verification_artifacts/member_loop/20260910T145415Z/MEMBER.json
+{
+  "adversarial_verifications": 1,
+  "created_at": "2026-09-10T14:54:15.854077+00:00",
+  "diagnostics": 1,
+  "entitlement_status": "ACTIVE",
+  "lucicoin_total": 3,
+  "lucicoin_used": 0,
+  "member_id": "member_261b074f7fb1f0b6",
+  "payment_status": "PAID",
+  "price_cad": 500,
+  "product": "UL7RAPASS",
+  "proofs": 1,
+  "term_months": 12,
+  "tests": 1,
+  "units_total": 1500,
+  "units_used": 3,
+  "verification_status": "PASS"
+}
+--- verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json
+{
+  "included": [
+    "LUCIAGENT3_CUSTOM",
+    "LUCI_DIAGNOSTIC",
+    "LUCI_TEST",
+    "ADVERSARIAL_VERIFICATION",
+    "UL7RAPROOF",
+    "SHAREABLE_PROOF_ARTIFACT"
+  ],
+  "lucicoin": 3,
+  "name": "UL7RAPASS",
+  "price_cad": 500,
+  "term_months": 12,
+  "units": 1500
+}
+--- verification_artifacts/member_loop/20260910T145415Z/PROOF_ARTIFACT.json
+{
+  "created_at": "2026-09-10T14:54:15.854199+00:00",
+  "decision": "PASS",
+  "evidence_hash": "4eadbe5129bf124aa8d4e2cd0b3c80c694e9a0670ec37016b1b4f386b617734e",
+  "member_id": "member_261b074f7fb1f0b6",
+  "proof_id": "proof_79487962b7778f1d"
+}
+--- verification_artifacts/member_loop/20260910T145415Z/PURPLE_TEAM.json
+{
+  "1500_UNIT_CEILING": true,
+  "3_LUCICOIN_CEILING": true,
+  "NO_EVIDENCE_NO_PASS": true,
+  "PAYMENT_CANNOT_CREATE_PASS": true,
+  "PROOF_HAS_EVIDENCE_HASH": true,
+  "UNPAID_CANNOT_USE": true
+}
+--- verification_artifacts/member_loop/20260910T145415Z/SHA256SUMS.txt
+554cdb9519559cd402fafcb50d99677bbfead1c8b84f7b713ef6a5f6189dfaec  MEMBER.json
+97d36ecda07afa11bdefd2e758c333807021a739322363cafdf5cc482bd5cb45  PRODUCT.json
+33db63058bccb0a3449576ee18525af4f2e1565737e54c9ad15f75db74ea85a4  PROOF_ARTIFACT.json
+940a9a8edbc1c737d62123e71f4de41ed8bfbb4a7f25e5e4bbb4f95939dac67a  PURPLE_TEAM.json
+5c18a3da358732bd92e0983f52a8f3c0b96b76d6bc6bd6fe77e5070a97b8bcf2  STATUS.json
+897c0e906b8b07e15f18603c2a0ca4d59fc9c93b6f20d94c758262822ddf8369  TEST_RESULTS.txt
+
+--- verification_artifacts/member_loop/20260910T145415Z/STATUS.json
+{
+  "commit": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+  "entitlement_status": "ACTIVE",
+  "lucicoin_total": 3,
+  "lucicoin_used": 0,
+  "payment_status": "PAID",
+  "proof_artifact": true,
+  "purple_team": true,
+  "repository": "/data/data/com.termux/files/home/UL7RAVERSE",
+  "technical_tests": true,
+  "timestamp": "2026-09-10T14:54:32.675705+00:00",
+  "units_total": 1500,
+  "units_used": 3,
+  "verification_status": "PASS"
+}
+--- verification_artifacts/member_loop/20260910T145415Z/TEST_RESULTS.txt
+........................................................................ [ 81%]
+................                                                         [100%]
+88 passed in 13.61s
+
+=== DECISION ===
+FINAL_DECISION=BLOCKED
+STATE=MEMBERSHIP_TEST_EXECUTION_OR_IMPLEMENTATION_FAILURE
+
+IMPORT_RC=1
+MEMBERSHIP_RC=1
+DISCOVER_RC=1
+FULL_RC=5

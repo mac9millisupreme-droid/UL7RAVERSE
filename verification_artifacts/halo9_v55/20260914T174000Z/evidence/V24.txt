@@ -1,0 +1,15 @@
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:2:use sha2::{Digest, Sha256};
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:10:    payload_sha256: String,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:19:    let mut hasher = Sha256::new();
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:20:    hasher.update(payload.as_bytes());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:22:    let digest = format!("{:x}", hasher.finalize());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:33:        payload_sha256: digest,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json:14:  "evidence_hash": "d63b96d8e054eadb625279f403cbe5dd1989cd4af6644bb16b8a57147fe91761"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:2:use sha2::{Digest, Sha256};
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:10:    payload_sha256: String,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:27:    let mut hasher = Sha256::new();
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:28:    hasher.update(payload.as_bytes());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:39:        payload_sha256: format!("{:x}", hasher.finalize()),
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:8:import json, hashlib, time, sys
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:29:status["evidence_hash"] = hashlib.sha256(
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:17:assert "attestation_hash" in s

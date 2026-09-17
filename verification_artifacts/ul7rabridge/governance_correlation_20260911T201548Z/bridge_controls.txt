@@ -1,0 +1,9 @@
+2:use sha2::{Digest, Sha256};
+8:    direction: String,
+10:    payload_sha256: String,
+15:    let direction = std::env::var("CHEETAH_DIRECTION")
+18:    if direction != "SOVEREIGN_TO_EXTERNAL" {
+19:        eprintln!("CHEETAH DENY: prohibited direction");
+27:    let mut hasher = Sha256::new();
+37:        direction,
+39:        payload_sha256: format!("{:x}", hasher.finalize()),

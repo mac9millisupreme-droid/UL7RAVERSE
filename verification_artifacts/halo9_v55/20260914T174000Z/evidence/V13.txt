@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:20:    echo "FAIL: tampered attestation accepted"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:24:echo "TAMPER DETECTION = PASS"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:25:    "tamper_detection"

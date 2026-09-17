@@ -1,0 +1,20 @@
+[
+  {
+    "commit": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+    "tree": "ae42587f03e52b04b3a1baf622bc96362e0f804d",
+    "date": "2026-09-04T23:44:41-04:00",
+    "subject": "UL7RAFORGE bootstrap"
+  },
+  {
+    "commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4",
+    "tree": "0e28d800f03bceb198a2b8087e772e0d1ca173fb",
+    "date": "2026-08-20T02:02:24-04:00",
+    "subject": "Add UL7RA Verify commercial product"
+  },
+  {
+    "commit": "d6eb87939a79b5ad8cc6eb1e628d344206b6933c",
+    "tree": "52adde4bdb0d7484a82e2603ef4ad42f5b0f7e0b",
+    "date": "2026-08-18T05:01:31-04:00",
+    "subject": "UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass"
+  }
+]

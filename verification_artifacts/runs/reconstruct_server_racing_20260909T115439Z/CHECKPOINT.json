@@ -1,0 +1,39 @@
+{
+  "checkpoint_id": "reconstruct_server_racing_20260909T115439Z",
+  "checkpoint_type": "RECONSTRUCTED_BASELINE",
+  "created_utc": "2026-09-09T11:54:44Z",
+  "governance": {
+    "ail": "REQUIRED",
+    "auto_promotion": false,
+    "promotion": "REFUSED",
+    "purple_team": "REQUIRED",
+    "trinity": "REQUIRED"
+  },
+  "historical_recovery": {
+    "recovered": false,
+    "source_checkpoint": "verification_artifacts/runs/checkpoint_server_racing_20260909T104010Z/CHECKPOINT.json",
+    "source_checkpoint_sha_expected": "953c0ddc6a6b28ef83ed1a9d1d6a9c546919819357370e78b1a53532265607fc",
+    "source_checkpoint_sha_verified": false,
+    "source_status": "MISSING"
+  },
+  "integrity": {
+    "deterministic_serialization": true,
+    "fail_closed": true,
+    "future_checkpoint_recovery_claim": false,
+    "historical_checkpoint_overwritten": false,
+    "historical_state_rewritten": false
+  },
+  "repository": {
+    "git_branch": "master",
+    "git_head": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+    "root": "/data/data/com.termux/files/home"
+  },
+  "schema": "UL7RAFORECAST.CHECKPOINT.v1",
+  "verification": {
+    "racing_gate": "PASS",
+    "racing_tests_passed": 64,
+    "racing_tests_required": 64,
+    "test_command": "python -m pytest racing/tests -q",
+    "test_log_sha256": "9d9fee605c345304ad39fdf5fea76de30027da09154fd2d2eaeff5876ec666c4"
+  }
+}

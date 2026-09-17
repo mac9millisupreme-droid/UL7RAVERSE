@@ -1,0 +1,24 @@
+{
+  "schema": "UL7RAVERSE_CANONICALITY_GRAPH/v1",
+  "authority_boundary": "UL7RABRIDGE",
+  "authority_rules": [
+    "UL7RABRIDGE_REMAINS_FINAL_AUTHORITY_BOUNDARY",
+    "HALO9_NOT_SOVEREIGN_AUTHORITY",
+    "LUCI_NOT_AUTHORITY",
+    "PROOF_NOT_AUTHORITY",
+    "COMMERCE_NOT_AUTHORITY",
+    "CLOUD_NOT_SOVEREIGN_AUTHORITY"
+  ],
+  "proof_rules": [
+    "UNVERIFIED_NEVER_PASS",
+    "UNKNOWN_REMAINS_UNKNOWN",
+    "NO_SELF_CERTIFICATION",
+    "FAIL_CLOSED"
+  ],
+  "edges": [],
+  "unresolved": {
+    "duplicate_resolution": 209,
+    "authority_resolution": 184,
+    "proof_resolution": 1704
+  }
+}

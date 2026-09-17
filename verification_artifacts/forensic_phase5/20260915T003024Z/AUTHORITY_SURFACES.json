@@ -1,0 +1,1328 @@
+[
+  {
+    "path": "LUCI_PUBLIC_AUTHORITY_DIAG.sh",
+    "size": 2816,
+    "sha256": "f7ae9a5ad8e8e39db741d8b9d6413fccbc2f82a3bee1539b761dde33458b6d44",
+    "extension": ".sh"
+  },
+  {
+    "path": "DNS_AUTHORITY_FINAL.sh",
+    "size": 1897,
+    "sha256": "936b3ad53d4b66b42810c571699e1ddd6f3ee6850c78db8819173aeef61cc7a6",
+    "extension": ".sh"
+  },
+  {
+    "path": "DNS_AUTHORITY_FINAL_GATE.sh",
+    "size": 2811,
+    "sha256": "b9deca0bf9d59121e9627cb38f1480a666f8ef99f1ef320e3e7fb8419ba37ebb",
+    "extension": ".sh"
+  },
+  {
+    "path": "FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_MATRIX.txt",
+    "size": 445,
+    "sha256": "88dd582a6e1914f45944286c49be38b57751577dfdd89032c4ba5a4d172bbb1f",
+    "extension": ".txt"
+  },
+  {
+    "path": "FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt",
+    "size": 234822,
+    "sha256": "09c226fa71d00bf2302c7cc000c29d0ce72e4745a9d44f7d0e6b6a07951e5462",
+    "extension": ".txt"
+  },
+  {
+    "path": "FORENSIC_PHASE0_20260909T100256Z/CAPABILITY_MATRIX.txt",
+    "size": 2177,
+    "sha256": "2ad91b50d91b5589c6fbf0a1e7ac1182b8e5bf21f57ee09a09d77d61cdf62156",
+    "extension": ".txt"
+  },
+  {
+    "path": "ul7ra_continue/governance.py",
+    "size": 3701,
+    "sha256": "72152dfdf5043e75bdd29f739491348d4cd2a678843d24adcf8670c816b3b953",
+    "extension": ".py"
+  },
+  {
+    "path": "halo9_v56_authority_contract/Cargo.toml",
+    "size": 164,
+    "sha256": "00d6b464460a5ae9e630e8ba23223f96dba919920e699aafc70cddbf58fdb9c9",
+    "extension": ".toml"
+  },
+  {
+    "path": "halo9_v56_authority_contract/Cargo.lock",
+    "size": 2597,
+    "sha256": "ea09b9af115c892c69aa9c34fd6df4502059aae046c94a5bddb2470538ff5a6b",
+    "extension": ".lock"
+  },
+  {
+    "path": "halo9_v56_authority_contract/src/lib.rs",
+    "size": 23894,
+    "sha256": "a75f5879ac3f9a25aacd65b3dcf772052eadc3c4474c5f1424204aec6b07add1",
+    "extension": ".rs"
+  },
+  {
+    "path": "ul7ra4_factory/contracts/governance.json",
+    "size": 563,
+    "sha256": "64e33f31f3a971af1fd3fb997adbec91ab8a815b100def925d98b8fe0ad6508b",
+    "extension": ".json"
+  },
+  {
+    "path": "verification_artifacts/forensic_phase3/20260915T002628Z/AUTHORITY_REVIEW.json",
+    "size": 35229,
+    "sha256": "bb3a8a64c1a1e556d01ef69e95df9c058d07457ccda08fd996be58d4f9cef77f",
+    "extension": ".json"
+  },
+  {
+    "path": "verification_artifacts/forensic_phase2/20260915T002336Z/AUTHORITY_GRAPH.json",
+    "size": 669,
+    "sha256": "1a3ca0f4e37e8757751e01ffcf8130118a82f9ad0e75b6fa689c60e677ed0b05",
+    "extension": ".json"
+  },
+  {
+    "path": "verification_artifacts/forensic_phase1/20260915T002241Z/AUTHORITY_GRAPH.json",
+    "size": 1009,
+    "sha256": "e74c6443bc14bfe395f5cca4ed9c588c78a28d92605f0190c7da2309bdcdf7bb",
+    "extension": ".json"
+  },
+  {
+    "path": "verification_artifacts/forensic_phase0/20260914T181458Z/AUTHORITY_PATHS.json",
+    "size": 64379,
+    "sha256": "0dc833c545838f2872f1e2ccaf5ec19259304554ed83ff986dc5b7fd807b5e09",
+    "extension": ".json"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_gate/20260912T235823Z/DNS_AUTHORITY_GATE.txt",
+    "size": 10887,
+    "sha256": "be1d60eb5ee331463ab55e9786ccf33b1acc09bbe9e514374f1be46395dc99cc",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260911T235230Z/REPORT.txt",
+    "size": 2462,
+    "sha256": "9d52b4184394f7be6d646cad6e3ab9886292551e578815c901a9f7daf75136b9",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260911T235230Z/local.json",
+    "size": 52,
+    "sha256": "9468537ccded6822782a0ecc6c325f2d82b00c1eceb434273905c89656bcbeb7",
+    "extension": ".json"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260913T080320Z/report.txt",
+    "size": 4185,
+    "sha256": "81115eb19f9488737a19c3361bb8c32a063133226f6cd52e9da6eec7fd9e83b5",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260913T080320Z/public_ns.txt",
+    "size": 112,
+    "sha256": "6229c1871b87d3645a65ac24a4652f92ffdbe2b0a5abc1a1192fd0c52805087e",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260913T080320Z/public_soa.txt",
+    "size": 110,
+    "sha256": "5f6c1157a70889f24e8a666a2fce3132b3a03dd41f3432ed9c205e2af7232ec8",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260913T080320Z/public_cname.txt",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260913T080320Z/cloudflare_cname.txt",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260913T080320Z/cloudflare_a.txt",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260913T080320Z/cloudflare_aaaa.txt",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260913T080320Z/google_cname.txt",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260913T080320Z/google_a.txt",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260913T080320Z/google_aaaa.txt",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260913T080320Z/authoritative_records.txt",
+    "size": 2,
+    "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/dns_authority_final/20260913T080320Z/trace.txt",
+    "size": 3160,
+    "sha256": "cfcd3e51a7a2e4f5bbf17a46607ed1e4e397a5bbe82eb67c45d5299d72a3f4c2",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/luci_public_authority/20260911T234040Z/REPORT.txt",
+    "size": 84606,
+    "sha256": "e5494faeb9c272a5c76c5aaa240ae83fe8e3b095200353f1b47ca5f0342fe77d",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/luci_public_authority/20260911T234302Z/REPORT.txt",
+    "size": 84606,
+    "sha256": "71af37e6983296043317e6342ad7ec6516dbac380183c3af28577a828e7867af",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_inspection_20260911T201311Z/INSPECTION.txt",
+    "size": 2349,
+    "sha256": "a101adce1603a38b9d0d460347a307c7d03f06bf4c3b94e3717502aaa345697a",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/Cargo.toml",
+    "size": 158,
+    "sha256": "cbed9ee775e98de88b9a1944ea0af8467ea6b990d3fd106cf6ac01bb97886fce",
+    "extension": ".toml"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/main.rs",
+    "size": 1133,
+    "sha256": "5a37e9f71cec284fd237b6e10b86fbde1696b82e4c2de706878a7e4bc8c36cdf",
+    "extension": ".rs"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/cargo_check.txt",
+    "size": 560,
+    "sha256": "38e925f4dd4fe249b963aa79a8b619e5054ea002751f05caa2e158ed690561fb",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/cargo_test.txt",
+    "size": 266,
+    "sha256": "1fc579fc51950d5f6766fbe5f4876f5246067cb110c6e6d872d3e97597a2c099",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/deny_stdout.txt",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/deny_stderr.txt",
+    "size": 35,
+    "sha256": "28fa9aaa46af1bc180657ae1029313c81125c594cdfd6d574d702f5fc3f53c28",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/allow_stdout.txt",
+    "size": 224,
+    "sha256": "50918218281ec12d1415506a8f18437708fc238e8343ef2d9b03abf26039f9fc",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/allow_stderr.txt",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt",
+    "size": 564519,
+    "sha256": "da7966ec1fdd80b89e92938deb31a8fda2cc36bc33c563c3d838cd2ba7d378ba",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/bridge_controls.txt",
+    "size": 377,
+    "sha256": "78d6de8b1b8cc863660f78078eb16aba92ddb746f43c39a1a1c6bb8641b73a91",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/candidate_files.txt",
+    "size": 6184,
+    "sha256": "3251ebe9f9f132132bdc9ab28e144662a745a47abfe15b27835469d8943727cd",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/current_evidence.txt",
+    "size": 3669,
+    "sha256": "d2ccf540ca6eb841b355ffac2beb4954f3bf2a282ba585967f2111ad0366dd6d",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/bridge_references.txt",
+    "size": 70602,
+    "sha256": "206806230a7431be218b7ce565dff57c6873fadb040bb7e26cd459b504534b85",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt",
+    "size": 2916,
+    "sha256": "a8910061c7455d065fb199d36a196af404c35086b44b768fac031f55284c836b",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/direct_refs.txt",
+    "size": 1695,
+    "sha256": "44f03d7c76e8e05da47bd3990998fc848f9caf3bd4f1c27cea99424f60c5fa1d",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/v10_neighbors.txt",
+    "size": 124,
+    "sha256": "6335a7daee89a1fce0258ab02f8c7ca898b1b44c1cdbe505d61084e50db55cff",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt",
+    "size": 11136,
+    "sha256": "69adfeacd9c60c83ee591141cd26b5eedb57d74cfc953d619b314582fdcad36d",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt",
+    "size": 142343,
+    "sha256": "ed1ae41b8d82a470d3fdfa554a7e6d27907643126bf3b341e952bbe81ba981e6",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/repository_candidates.txt",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/lineage_refs.txt",
+    "size": 111922,
+    "sha256": "d744a822fdc3f20cc5fc21b97753fe55c72ffa4326f7efea39428a3c6497c271",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt",
+    "size": 328621,
+    "sha256": "26d9833963866082a05b7f4de45daee685ab9409e3facaa7e881e90f52c2f3a9",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/exact_candidates.txt",
+    "size": 157,
+    "sha256": "063fe37e5b2a584b4ef648b456ed2a1c0ab22ba17791ea6e14bf67e74e28d2b9",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/signature_matches.txt",
+    "size": 119200,
+    "sha256": "e79c2e2410436106e2ea845062ab21ce51b94fa8e17fa5a7925309487a177955",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/lineage_matches.txt",
+    "size": 196232,
+    "sha256": "213b053668c4311ef661eab61b18a963b454c36e6e9d8d895d5e5091e0c8f5e8",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_assurance_recovery_20260911T201934Z/REPORT.txt",
+    "size": 102450,
+    "sha256": "25cddea99e5fb3ca44bbc338cf21dea72ef8432e14e141ee9d3ca3f245b97442",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_assurance_recovery_20260911T201934Z/exact_files.txt",
+    "size": 1060,
+    "sha256": "ff9a7c9b26e4966929a4a59ecc480fa5198bfbc1399ac7f4343661f95c720c5f",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_assurance_recovery_20260911T201934Z/security_matches.txt",
+    "size": 21348,
+    "sha256": "8f855088052d928466cc121a3cc827a9da1c8d12f458853553491c498c237765",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_assurance_recovery_20260911T201934Z/manifest_matches.txt",
+    "size": 54893,
+    "sha256": "7aa559e9cb6ed721c04b963c5a389337bb54cc8de3b1fd36245059045afdc5d7",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_assurance_recovery_20260911T201934Z/assurance_tree.txt",
+    "size": 24512,
+    "sha256": "5901d7cd976c6856fd77477e956fb6bf07e07a10a03964e0015656e1dde83112",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_exact_dependency_correlation_20260911T202017Z/REPORT.txt",
+    "size": 15794,
+    "sha256": "ea3bf7b2624c2ad36143a5baeafb29b3782f9494f387141bf254b6a764b0cee1",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_exact_dependency_correlation_20260911T202017Z/bridge_contract.txt",
+    "size": 1558,
+    "sha256": "5e4ee868b9b2344c4a7f41d93b09030d98936f9406b7e4b931b43ac2dc94f6b5",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_exact_dependency_correlation_20260911T202017Z/assurance_contract_matches.txt",
+    "size": 21476,
+    "sha256": "8cdc8afa4accc939cecc2c90ffd32f22ff3f647da5d0a7b59c4e4fdc21e53fbf",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/REPORT.txt",
+    "size": 1864225,
+    "sha256": "748d8a2f2194cecc3d068446a84cd09dea5ff5b35ae3976af69adceb6afbe931",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/test_candidates.txt",
+    "size": 146,
+    "sha256": "fa10309b3406636e629b1c26b39279b58f59c2f2d9d0e84b989e0d45cd5a54ad",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/provenance_matches.txt",
+    "size": 1863142,
+    "sha256": "7cb09d1ae9d0bad23d219510f93850fc3e7b23fe3b51ffc9dec2db09ec99d91f",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/veriscore_tree.txt",
+    "size": 221,
+    "sha256": "7737ef408943bbdf505c1fce19dc82d6bfb3d4fc27ffd10c9fd07bd5578f052f",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/veriscore.json",
+    "size": 1827,
+    "sha256": "705882b14a1dccfb86aec025acb6b96dc4cdefddcfd97e416812235ae608c54e",
+    "extension": ".json"
+  },
+  {
+    "path": "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/GOVERNANCE_CONTROLS.txt",
+    "size": 6415,
+    "sha256": "8df7a9e9e50974dc9a5c9682ccc3de02dd05b21d2a2f942edbc244e8c6ae2bff",
+    "extension": ".txt"
+  },
+  {
+    "path": "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/GOVERNANCE_CHAIN.json",
+    "size": 533,
+    "sha256": "853ada988e5a302fdd02e3b21626250b17fd6cf02250e940843e68249786cfe1",
+    "extension": ".json"
+  },
+  {
+    "path": "racing/governance/decision.py",
+    "size": 414,
+    "sha256": "f4f973ce180ecc1e8188f34aa8932a5e9331cbbf0765b6977bab61204c5f4273",
+    "extension": ".py"
+  },
+  {
+    "path": "racing/governance/__init__.py",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extension": ".py"
+  },
+  {
+    "path": ".bob/rules/ul7ra-governance.md",
+    "size": 632,
+    "sha256": "3d599041ba610fae8b21fba3bd64c77a3894da4e60c86f7828afd91f8d142f36",
+    "extension": ".md"
+  },
+  {
+    "path": ".ul7ra/funnel/AUTHORITY_STATE.json",
+    "size": 557,
+    "sha256": "db9e69f79f9b7f4151bc3c6618ffa54bead63abcf8d6ea41b89e82e8afb56977",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/bin/continuous_authority_funnel.sh",
+    "size": 8058,
+    "sha256": "22e8fc1190a37b389e5cbb7b43fe8f9bbe579491260f4b2b2a1f126eaa7fbdc9",
+    "extension": ".sh"
+  },
+  {
+    "path": ".ul7ra/funnel/bin/elite_authority_reconcile.sh",
+    "size": 6557,
+    "sha256": "030f0cb08a3099aa54476569728e03b8c67f4d6fad8ce18e4b05e480da22660a",
+    "extension": ".sh"
+  },
+  {
+    "path": ".ul7ra/funnel/bin/persistent_authority_supervisor.sh",
+    "size": 5724,
+    "sha256": "cce884ce1b1f676d399d42162a1d9ba4528f2f6ca00fe62b082fb6838e81a8fa",
+    "extension": ".sh"
+  },
+  {
+    "path": ".ul7ra/funnel/bin/authority_contract_test.sh",
+    "size": 5111,
+    "sha256": "f561f9a97865dee3fa6bae563ad69097b0034cd261ee96146944d129f3bd0ff4",
+    "extension": ".sh"
+  },
+  {
+    "path": ".ul7ra/funnel/bin/authority_root_cause.sh",
+    "size": 7692,
+    "sha256": "02fa838aa8c423352ec884201545a1bbff829fcdeedcf67a2137d09ca14e422c",
+    "extension": ".sh"
+  },
+  {
+    "path": ".ul7ra/funnel/bin/continuous_authority.sh",
+    "size": 5277,
+    "sha256": "48a2f1f10e776be34a8f3c71b02bbc6ac8854003521792c767bd62cb412a29ce",
+    "extension": ".sh"
+  },
+  {
+    "path": ".ul7ra/funnel/bin/authority_diagnostic.sh",
+    "size": 4870,
+    "sha256": "600c028a10332d4e93328bf83626399c47a8dee14093ed6793d3b2481f117f88",
+    "extension": ".sh"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T192059Z/evidence/registry.json",
+    "size": 1144,
+    "sha256": "74d67dd3df17f4f69a4f9d82d6a0d122670c27f7ac1f65fa943de513c13f9f31",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T192059Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "26c5bb5217fde4e14908274ad0a90c1aba763dec95849727e553052371f85c82",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T192059Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191958Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "8371dc999882873d39f78a595ae43271ccaa577e33734afa926a14b548f7454c",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191958Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "90f2cf7bba71722e8b3a3306edee45744bd0044bb8415a21c9c1ccef62972694",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191958Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191918Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "512368042f489012f564828b20c7279098bdd30e6b8cbda61b659515c1bb6756",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191918Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "9d3c3d56e6a263bf370e134891bc120a5be1a79f2a896a30ebf3e7be490cdf7f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191918Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191955Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "f8968f6e7bdfc2d8c268c4d9e6982eb96a6ec71eb21810b6626da18ef0adf853",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191955Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "a70ec8245cd53f13ae28d139ed7a6b7baec9660bae9572e12a322eb96ef8274b",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191955Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191952Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "96685362a4d5a6621079f661ce0be6e10710d8c39abf36c444acc21caa5ccd0f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191952Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "298fb8971e91797727e282eb5a51f69ea31ed44932fc0033176bfeb7a44a0136",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191952Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191949Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "4d7825565ce959dac341e7a661d6f61733431884c7064aa24279860f499055cd",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191949Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "83c68dfe813eaa45e8bfa5ee9dcb65193025c38fa28915e8578096eeda35082b",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191949Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191946Z/evidence/registry.json",
+    "size": 1144,
+    "sha256": "c67df4d6de7ee4cd2ddf74a3b4e08684c77e94f0f712a972d5896cdcaaeed606",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191946Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "2a8b96fc1ce349538b3f22e4e29f66d35224a9460523920aab7c0f9b7c799865",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191946Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191915Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "fd8ba7ba204a6dd2459392458a17d768415cb8c37425d681e8bb1579d76258a5",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191915Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "5c1e153bdd385d60f72ab2676241948bd96588b2a73ee3eef3d1b31e5777003c",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191915Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191913Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "fdd72d16dba3740c0663d291fb812d6cafc7aa14c706c5eaf2abbc34b74c06a7",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191913Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "ff8a1b523b2244256d9576043208241923510a815a4c1debdb6944ff0b55ab0f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191913Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191910Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "25d86d61f98422333b0f222866cebaa0c1239946ba72e4f3a011c3824b70a16c",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191910Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "4ad15caeb660cc32e29281157703c82862bd6bfb481c1f7c781b411c6449863a",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191910Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191907Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "d541fbaab3b5bf1d0101b11f92da75337cbb1ef279ffda345d69a70bcdd97e57",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191907Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "32d0e9798fce5db3cd3f86b98ce22140a83b1998fc254aec7ba6e6154e9d9a18",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191907Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191813Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "2870758f963c7fac57eb82de500dffed5e0bb349e8262390db1d5a882deabc48",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191813Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "9baeafea9b363d2df34cd86b62359743274de32709757d6c6eb87a7521d9cc80",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191813Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191810Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "1fd9a4b5507307865a97b0949a75a87c41a2d545db733194cf8157e93ba37e42",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191810Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "29eedac0b33f4fbcbf3877ace4a207926078b0a0f384a34ab5c281bf5b4291ac",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191810Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191745Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "1ccf652246ddda5bf53891c2295f87bb2d8abe6ebfcc402c93db0323a2cf1ea3",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191745Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "6bc7c72d7bd2656940c73d497f8c8fc1c6905e209774350a52904fd58f2df851",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191745Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191741Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "e5002299e23a60ac84b785c9cb7525c346b1b65460c3b92cd7a3e78947547337",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191741Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "6efd544b114e65716fe2df0b5086db066d3c6b9fd26cc94a227414c905739c94",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191741Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191648Z/evidence/registry.json",
+    "size": 1144,
+    "sha256": "ec0ec45a45c186c22f25b27167f966858f3c86792fb9d3ddb27a69486894a371",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191648Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "2b33ce9e57aaae8e9916e77a5e82aaaf517a4878cdc42c9ae29b87dd84473317",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191648Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191645Z/evidence/registry.json",
+    "size": 1144,
+    "sha256": "574518f18561d1b4c2b3862eee5a0fc59da1e467b1849d30e9dc3ccb869c42ba",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191645Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "195fb6765d1d609ab4d8264d2722a028526d28c4776a8addb79b9853f012eb67",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191645Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191553Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "86911a0f4b71def905a10f977bffaa89488d06ca07555c885129af69dc6df41e",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191553Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "a3850d1e0718d387cb34001fa76e9b713710587826a646ab989d04ba35095422",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191553Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191446Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "a91d1f6707a84ea50f9cf085f82ac7450a34c788baa9d4896dffbe4ce0b68da5",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191446Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "6bf82fbdc6c1adbf16f7a63c6b1fc81540e2010523b14eae50a56a93d50b5a70",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191446Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191444Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "e243359351114d29473a8e1606f335fe85aaa6be9a934d94cd7ce27db02a0155",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191444Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "51871c52a186859abc711d3d2a3f51604172d88c58f754ae4ca586b5bf85d328",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191444Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191441Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "7a1e38c6ea64cb9790d08c86470902f115ec032b84e8e8a177e86aabd34cd5e4",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191441Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "46e373cc114f139a20d29eb545645e455aebf5ec334a0f208bdb6426613a198f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191441Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191347Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "eaa615ceb72dcb3c430ee6d90a3a706ff358f5c052e5f175eb62f7d2a528dcc4",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191347Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "c94385a74699a219aee7263b93ec6f8901236fbc0d479db5c4acc9bf29892185",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191347Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/authority_matrix.json",
+    "size": 1000,
+    "sha256": "cb1c1c2c809149306856ca0737ac18533344017adc455ccf2f7d54f8e418a32b",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191247Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "81548e39a349a79e3a3ad32d578cfd334f42d7b1925c8ceff568fda803b609d7",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191247Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "6d008a7662c3ecb014a14480ecaf47411496fc9589509a6878188867758bc2c5",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191247Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191211Z/evidence/registry.json",
+    "size": 1144,
+    "sha256": "eb74189bf96f9d8cebab8eb1a015c8a5b31616d1188426018514e11b95354bb6",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191211Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "f844ebe337c357397542d2728211072f83ac19a34834f715b4428c570c49289e",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T191211Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T175536Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "89d524c3b13ff672a6d9eb40bd3759bf5c2a1ad974e9001d520d5afad82867da",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T175536Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "52d069fd91aed46bf98d3b11018fdc1e34b6ed835a361fd0a9936c2fafdd0660",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-authority-20260823T175536Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-contract-20260823T175507Z/evidence/contract_test.json",
+    "size": 2219,
+    "sha256": "feeac16c73a43e4047b580a8c02e5b465cfaa71c14504447c52bb6f1bff60887",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/discovery.json",
+    "size": 1650,
+    "sha256": "07baff8f89dc6ef3729e0df3d7996451f6ea7bb027b6ba25d5b0e19bc7982427",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/registry.json",
+    "size": 1145,
+    "sha256": "a5bb0c85dbd6f3d418c88c672d9d84920c0af9581a8cea71ebd0378acb0d7406",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "852a0a4af3494211765fb3822e9392bb504f76cf188f37c996f02c4c57c20808",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/reconciliation.json",
+    "size": 1554,
+    "sha256": "a678f194b39b16c4bb99f2553be2aba6d0c92d357f1b561152e4353ec438756f",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/root-cause-20260823T174953Z/evidence/authority_analysis.json",
+    "size": 2930,
+    "sha256": "dfda91e2a42bf863d7c9a293d7b548b6a2a81b8f50ba51823c33bd8c8141b2d3",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-contract-20260823T174337Z/evidence/control_sets.json",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-contract-20260823T174337Z/evidence/registry.json",
+    "size": 1197,
+    "sha256": "530b38f4d72ff4bc96c6f3407c49ca792a36eefd3890c1d855f9c43609c81a68",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-contract-20260823T174337Z/evidence/assurance.json",
+    "size": 3311,
+    "sha256": "d02f1b1e99d35ac5723426d844d2f40eb36eafd2a2c7ce5b23cd89114bed7bf3",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-contract-20260823T174337Z/evidence/authority_comparison.json",
+    "size": 1274,
+    "sha256": "b71d25386b64c7db6d6bc1919be6d13828818a5a8dcc4a5e224bcebd13e4bff7",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/authority_reconciliation.json",
+    "size": 649,
+    "sha256": "a9ee7d6b79abe60061577d2fe3c1e4cb3a5b05923821356744e229633a62636c",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/authority_reconciliation.json",
+    "size": 471,
+    "sha256": "d9cd5b58b01f3acb2a1e95eb798bb97f6ae58a2a23d41f3648ac36db42e70e98",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/authority_reconciliation.json",
+    "size": 471,
+    "sha256": "d9cd5b58b01f3acb2a1e95eb798bb97f6ae58a2a23d41f3648ac36db42e70e98",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/authority_reconciliation.json",
+    "size": 471,
+    "sha256": "d9cd5b58b01f3acb2a1e95eb798bb97f6ae58a2a23d41f3648ac36db42e70e98",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/authority_reconciliation.json",
+    "size": 471,
+    "sha256": "d9cd5b58b01f3acb2a1e95eb798bb97f6ae58a2a23d41f3648ac36db42e70e98",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/authority_reconciliation.json",
+    "size": 471,
+    "sha256": "d9cd5b58b01f3acb2a1e95eb798bb97f6ae58a2a23d41f3648ac36db42e70e98",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/authority_reconciliation.json",
+    "size": 471,
+    "sha256": "d9cd5b58b01f3acb2a1e95eb798bb97f6ae58a2a23d41f3648ac36db42e70e98",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/authority_reconciliation.json",
+    "size": 471,
+    "sha256": "d9cd5b58b01f3acb2a1e95eb798bb97f6ae58a2a23d41f3648ac36db42e70e98",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/authority_reconciliation.json",
+    "size": 471,
+    "sha256": "d9cd5b58b01f3acb2a1e95eb798bb97f6ae58a2a23d41f3648ac36db42e70e98",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/authority_reconciliation.json",
+    "size": 471,
+    "sha256": "d9cd5b58b01f3acb2a1e95eb798bb97f6ae58a2a23d41f3648ac36db42e70e98",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/authority_reconciliation.json",
+    "size": 471,
+    "sha256": "d9cd5b58b01f3acb2a1e95eb798bb97f6ae58a2a23d41f3648ac36db42e70e98",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/local_capability_evidence.json",
+    "size": 325,
+    "sha256": "7c3324ee25bcccc79acb744433a82679023937e62da24bc57db62c83325a9538",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/authority_reconciliation.json",
+    "size": 659,
+    "sha256": "862db9fc6c42ba14b6c5c5d66585122aa4551a7c9bbaf9a0ba7c712740bea9ec",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-test-20260823T172002Z/evidence/head.txt",
+    "size": 41,
+    "sha256": "20cc1b381037e74c4ef848d4609beb5e8c07314bb13199808dd064c1cdfee66f",
+    "extension": ".txt"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-test-20260823T172002Z/evidence/authority_result.json",
+    "size": 1463,
+    "sha256": "547945e7c998d9fdc6fe08ba9d0938c47f172db731f691bc34d06f900df90d68",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-test-20260823T171820Z/evidence/metadata.txt",
+    "size": 322,
+    "sha256": "a496543d3cefce88701d72fefa604a9f963f29db0ce9d74f9d60e0f02db59f11",
+    "extension": ".txt"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/authority-test-20260823T171820Z/evidence/contract_test.json",
+    "size": 1398,
+    "sha256": "aa412ddd309a037808024e8a8f8be727c99fc8a1a9bcb6ea4cb683c68d86cbf1",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/capability-20260823T170726Z/evidence/crypto_capability.txt",
+    "size": 116,
+    "sha256": "2ac22fcc245025eaffcf67e8d8eee4725ab73768b7c7f3ba302ab883a0cba68a",
+    "extension": ".txt"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/capability-20260823T170726Z/evidence/key_lifecycle_capability.txt",
+    "size": 156,
+    "sha256": "e4471c8df6b6b70c219a535f6a63d64025788ae17b4b78e7ad5ad670b484b100",
+    "extension": ".txt"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/capability-20260823T170726Z/evidence/hardware_boot_state.txt",
+    "size": 6,
+    "sha256": "068d48ea288a4f2178367c403a39abbb8d7ade9766b5cf33bedfabf4fd6443f2",
+    "extension": ".txt"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/capability-20260823T170726Z/evidence/network_routes.txt",
+    "size": 46,
+    "sha256": "26b131b26313202e50bbe0d9d0d6db5527653581dd930d5f44bb17e0af70ba98",
+    "extension": ".txt"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/capability-20260823T170726Z/evidence/independent_verification.txt",
+    "size": 39,
+    "sha256": "22238571ddcf5b490f1764373e1508be069dba835c0830cc8a6b93fedfbe45ee",
+    "extension": ".txt"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/capability-20260823T170726Z/evidence/reproducible_build_attestation.json",
+    "size": 306,
+    "sha256": "616605c0e9c3c186f87987fe5956f63f3724cf4257fa9959da1b01474f70baf5",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/20260823T162913Z/evidence/AUTHORITY_STATE.txt",
+    "size": 4116,
+    "sha256": "5b56ae186cdff2e1a0d09c21c92cb5e3c7523be3e1e6c1d3166b79e4ee61d09e",
+    "extension": ".txt"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/20260823T162913Z/evidence/AUTHORITY_DECISION.json",
+    "size": 346,
+    "sha256": "7edd0b0e5ef0436fa5ab7342f1bcdac6d3631a10c16b3eee0729cb199a550fe4",
+    "extension": ".json"
+  },
+  {
+    "path": ".ul7ra/funnel/runs/20260823T162444Z/evidence/GOVERNANCE_INVENTORY.txt",
+    "size": 6126,
+    "sha256": "16ea39165aa9ae0ceefa9f86102b3edad01cdeac8ba1c6189e8d91ff3e956430",
+    "extension": ".txt"
+  },
+  {
+    "path": "lucideploy/evidence/authority_map.json",
+    "size": 736,
+    "sha256": "9ddaea121f4998b56ccc4632ce99d524b88f34d2ec725ae6e3fd0ca92b127e4c",
+    "extension": ".json"
+  },
+  {
+    "path": "products/ul7ra-verify/governance/evi/EVI_CONSTITUTION.json",
+    "size": 1212,
+    "sha256": "c72084db0cea94236c4ad7fd86fb7007e659c569149c2e1e271975a21985fe76",
+    "extension": ".json"
+  },
+  {
+    "path": "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/dns_authority.txt",
+    "size": 411,
+    "sha256": "412a4f97890f960e875ced1ef8528b7f4c41d04420735235a35c25fb473c30e0",
+    "extension": ".txt"
+  },
+  {
+    "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-head.txt",
+    "size": 41,
+    "sha256": "20cc1b381037e74c4ef848d4609beb5e8c07314bb13199808dd064c1cdfee66f",
+    "extension": ".txt"
+  },
+  {
+    "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-status-before.txt",
+    "size": 881,
+    "sha256": "ef25b07a6e5f91114ec02f528e66a17f1077a586bcdbc3b718ee509a3773dc2f",
+    "extension": ".txt"
+  },
+  {
+    "path": "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-status-after.txt",
+    "size": 881,
+    "sha256": "ef25b07a6e5f91114ec02f528e66a17f1077a586bcdbc3b718ee509a3773dc2f",
+    "extension": ".txt"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/Cargo.toml",
+    "size": 158,
+    "sha256": "cbed9ee775e98de88b9a1944ea0af8467ea6b990d3fd106cf6ac01bb97886fce",
+    "extension": ".toml"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/Cargo.lock",
+    "size": 4884,
+    "sha256": "7a99133f2eccbbfbf8756589b522eb007500d67b2bb07ce46fd1978043901396",
+    "extension": ".lock"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/ghost/create.sh",
+    "size": 243,
+    "sha256": "7d65af4f62eda65f81274edb4f83fe03126f32daf25888db0f4ca41e3ee08968",
+    "extension": ".sh"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/policy/cheetah.json",
+    "size": 218,
+    "sha256": "50c730bec3d256646301becef81f73db1bff671ff4b093e4eaa58a9115e738e4",
+    "extension": ".json"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/state/invariants.json",
+    "size": 221,
+    "sha256": "3ad938b0c65f585c8efd38ab6ce4ff699e0a7961a72bdd42ec48bbf1b742ede0",
+    "extension": ".json"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/src/main.rs",
+    "size": 1133,
+    "sha256": "5a37e9f71cec284fd237b6e10b86fbde1696b82e4c2de706878a7e4bc8c36cdf",
+    "extension": ".rs"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/tests/cheetah_regression.sh",
+    "size": 396,
+    "sha256": "c04638ea3424a0d6b64716116e363371238df07943c27479c7497f0a5bccc840",
+    "extension": ".sh"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh",
+    "size": 802,
+    "sha256": "a1e2e7d20ae8bbce303193a827773210f2662be983d7094689d722ae90d43923",
+    "extension": ".sh"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh",
+    "size": 557,
+    "sha256": "d8c30192212b9b1efb7c3ba6a6ce87f5304275efe80579662095e5e915d56970",
+    "extension": ".sh"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh",
+    "size": 704,
+    "sha256": "3cbd3796932293d1457f9ae388ec4a780fb7608df3695f27cacb3072bd5f1609",
+    "extension": ".sh"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh",
+    "size": 795,
+    "sha256": "0c57b4c858275369a78c29b9373262345d8664abf32b4bfb3b65b33638629917",
+    "extension": ".sh"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh",
+    "size": 956,
+    "sha256": "219829ae0ed3410b2a1ed2f18e12a7a45e2f4a17b6ec1fa21cb6490ce5f43390",
+    "extension": ".sh"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh",
+    "size": 679,
+    "sha256": "b144c968d49089e1f48d8b7e538cfc71328a57a7bfe0aed2508f2c75750359e7",
+    "extension": ".sh"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh",
+    "size": 158,
+    "sha256": "acc8db2dcea61b316dae7da0e380370b9de707e362e10df1022949862b7e1dd8",
+    "extension": ".sh"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh",
+    "size": 517,
+    "sha256": "e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9",
+    "extension": ".sh"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh",
+    "size": 982,
+    "sha256": "7e775e2c31cec30321d7cbe6c4c806827fffca3b9ee6d14fdac178908b276218",
+    "extension": ".sh"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/canada/policy/canada_only.json",
+    "size": 359,
+    "sha256": "a0762e801861a18d714b820463057b20bb046b6bd7f2b447705802f83f24859c",
+    "extension": ".json"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json",
+    "size": 407,
+    "sha256": "c8105b5c52c24c35ab3789dbd17250d130ff3b6d9b63634bb258a8bd725ae877",
+    "extension": ".json"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/ghost/templates/manifest.json",
+    "size": 269,
+    "sha256": "db0cafa1b3f35324afd49c517a69d1e45ecc7990d548308c92e1df4d5cb7c2ea",
+    "extension": ".json"
+  },
+  {
+    "path": "UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs",
+    "size": 938,
+    "sha256": "def46ada28ecfc4fa1b3dc22ea26f6075bb3c09ff40907066bc893b999383ba1",
+    "extension": ".rs"
+  }
+]

@@ -1,0 +1,3 @@
+FILE=a241e27b-336e-44cc-9a52-6487131db63b.json
+FILE=cert.pem
+FILE=config.yml

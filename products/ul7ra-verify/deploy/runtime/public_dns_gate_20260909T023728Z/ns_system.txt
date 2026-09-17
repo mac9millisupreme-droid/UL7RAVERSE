@@ -1,0 +1,9 @@
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+omnilucient.com	nameserver = rodrigo.ns.cloudflare.com.
+omnilucient.com	nameserver = addyson.ns.cloudflare.com.
+
+Authoritative answers can be found from:
+

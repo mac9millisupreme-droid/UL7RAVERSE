@@ -1,0 +1,136 @@
+{
+  "specification": "UL7RA_CONSTITUTION/v1",
+  "authority": "DERIVED",
+  "promotion": false,
+  "may": [
+    "DEMOTE",
+    "FORCE_REEVALUATION",
+    "INVALIDATE_EVIDENCE",
+    "RETURN_CONFLICTED",
+    "RETURN_FAILED",
+    "RETURN_STALE",
+    "RETURN_UNKNOWN"
+  ],
+  "may_not": [
+    "ACTIVATE",
+    "AUTHORIZE",
+    "BRIDGE",
+    "EXECUTE",
+    "PROMOTE",
+    "RELEASE"
+  ],
+  "attacks": [
+    {
+      "attack_id": "OMEGA-G1-FAIL",
+      "target": "G1",
+      "attack": "force PROPOSAL_WELLFORMED=false",
+      "expected": "BLOCKED",
+      "violation": "PREDICATE_UNSATISFIED"
+    },
+    {
+      "attack_id": "OMEGA-G2-FAIL",
+      "target": "G2",
+      "attack": "force BUILD_REPRODUCIBLE=false",
+      "expected": "BLOCKED",
+      "violation": "PREDICATE_UNSATISFIED"
+    },
+    {
+      "attack_id": "OMEGA-G3-FAIL",
+      "target": "G3",
+      "attack": "force ADVERSARIAL_SURVIVAL=false",
+      "expected": "BLOCKED",
+      "violation": "PREDICATE_UNSATISFIED"
+    },
+    {
+      "attack_id": "OMEGA-G4-FAIL",
+      "target": "G4",
+      "attack": "force PROOF_COMPLETE=false",
+      "expected": "BLOCKED",
+      "violation": "PREDICATE_UNSATISFIED"
+    },
+    {
+      "attack_id": "OMEGA-G5-FAIL",
+      "target": "G5",
+      "attack": "force AUTHORITY_VALID=false",
+      "expected": "BLOCKED",
+      "violation": "PREDICATE_UNSATISFIED"
+    },
+    {
+      "attack_id": "OMEGA-G6-FAIL",
+      "target": "G6",
+      "attack": "force EFFECT_SCOPED=false",
+      "expected": "BLOCKED",
+      "violation": "PREDICATE_UNSATISFIED"
+    },
+    {
+      "attack_id": "OMEGA-AUTH-ACTIVATE",
+      "target": "PURPLE_OMEGA",
+      "attack": "ACTIVATE",
+      "expected": "NON_CONFORMANT",
+      "violation": "PURPLE_AUTHORIZATION"
+    },
+    {
+      "attack_id": "OMEGA-AUTH-AUTHORIZE",
+      "target": "PURPLE_OMEGA",
+      "attack": "AUTHORIZE",
+      "expected": "NON_CONFORMANT",
+      "violation": "PURPLE_AUTHORIZATION"
+    },
+    {
+      "attack_id": "OMEGA-AUTH-BRIDGE",
+      "target": "PURPLE_OMEGA",
+      "attack": "BRIDGE",
+      "expected": "NON_CONFORMANT",
+      "violation": "PURPLE_AUTHORIZATION"
+    },
+    {
+      "attack_id": "OMEGA-AUTH-EXECUTE",
+      "target": "PURPLE_OMEGA",
+      "attack": "EXECUTE",
+      "expected": "NON_CONFORMANT",
+      "violation": "PURPLE_AUTHORIZATION"
+    },
+    {
+      "attack_id": "OMEGA-AUTH-PROMOTE",
+      "target": "PURPLE_OMEGA",
+      "attack": "PROMOTE",
+      "expected": "NON_CONFORMANT",
+      "violation": "PURPLE_AUTHORIZATION"
+    },
+    {
+      "attack_id": "OMEGA-AUTH-RELEASE",
+      "target": "PURPLE_OMEGA",
+      "attack": "RELEASE",
+      "expected": "NON_CONFORMANT",
+      "violation": "PURPLE_AUTHORIZATION"
+    },
+    {
+      "attack_id": "OMEGA-RESURRECTION-REVOKED-ACTIVE",
+      "target": "LIFECYCLE",
+      "attack": "REVOKED->ACTIVE",
+      "expected": "NON_CONFORMANT",
+      "violation": "SILENT_RESURRECTION"
+    },
+    {
+      "attack_id": "OMEGA-RESURRECTION-REVOKED-RELEASE",
+      "target": "LIFECYCLE",
+      "attack": "REVOKED->RELEASE",
+      "expected": "NON_CONFORMANT",
+      "violation": "SILENT_RESURRECTION"
+    },
+    {
+      "attack_id": "OMEGA-RESURRECTION-RETIRED-ACTIVE",
+      "target": "LIFECYCLE",
+      "attack": "RETIRED->ACTIVE",
+      "expected": "NON_CONFORMANT",
+      "violation": "SILENT_RESURRECTION"
+    },
+    {
+      "attack_id": "OMEGA-RESURRECTION-RETIRED-RELEASE",
+      "target": "LIFECYCLE",
+      "attack": "RETIRED->RELEASE",
+      "expected": "NON_CONFORMANT",
+      "violation": "SILENT_RESURRECTION"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "UL7RA4_AUTONOMOUS_FACTORY_GOVERNANCE",
+  "version": "1.0",
+  "rules": {
+    "unverified_never_pass": true,
+    "unknown_remains_unknown": true,
+    "fail_closed": true,
+    "no_proof_no_trusted_action": true,
+    "no_self_certification": true,
+    "execution_does_not_equal_verification": true,
+    "promotion_requires_evidence": true,
+    "historical_artifacts_are_immutable": true,
+    "commerce_proof_separation": true
+  },
+  "decision_states": [
+    "PASS",
+    "PASS_WITH_ENVIRONMENT_BLOCK",
+    "UNVERIFIED",
+    "UNKNOWN",
+    "BLOCKED"
+  ]
+}

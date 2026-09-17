@@ -1,0 +1,47 @@
+==================================================
+ UL7RAVERSE CLOUDFLARE OWNERSHIP RECONCILIATION
+==================================================
+DOMAIN=omnilucient.com
+HOST=verify.omnilucient.com
+TUNNEL_ID=a241e27b-336e-44cc-9a52-6487131db63b
+EXPECTED_TARGET=a241e27b-336e-44cc-9a52-6487131db63b.cfargotunnel.com
+EVIDENCE=verification_artifacts/cloudflare_ownership/20260913T080454Z
+
+=== 1. AUTHORITATIVE DNS ===
+addyson.ns.cloudflare.com
+rodrigo.ns.cloudflare.com
+CLOUDFLARE_DELEGATION=PASS
+
+=== 2. AUTHORITATIVE RECORD ===
+--- addyson.ns.cloudflare.com ---
+--- rodrigo.ns.cloudflare.com ---
+
+=== 3. LOCAL CLOUDFLARE CREDENTIAL ===
+TUNNEL_CREDENTIAL=FOUND
+credential_json=VALID
+account_tag_present= True
+tunnel_id_present= True
+tunnel_secret_present= True
+
+=== 4. CLOUDFLARE API ACCESS ===
+CF_API_TOKEN=NOT_PRESENT
+
+API_INSPECTION=SKIPPED
+
+The local tunnel credential can prove tunnel ownership,
+but cannot safely prove which Cloudflare dashboard account
+currently owns the DNS zone.
+
+Set CF_API_TOKEN in the shell and rerun this SAME script
+if you want account-level ownership verification.
+
+
+=== 5. PUBLIC DNS ===
+--- 1.1.1.1 ---
+
+--- 8.8.8.8 ---
+
+=== 6. FINAL OWNERSHIP DIAGNOSIS ===
+AUTHORITATIVE_CNAME=NONE
+PUBLIC_CNAME=NONE
+/data/data/com.termux/files/home/UL7RAVERSE/CLOUDFLARE_OWNERSHIP_RECONCILE.sh: line 286: CF_API_TOKEN: unbound variable

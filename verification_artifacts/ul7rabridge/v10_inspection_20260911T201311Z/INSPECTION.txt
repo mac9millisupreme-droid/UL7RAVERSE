@@ -1,0 +1,75 @@
+=== UL7RABRIDGE V10 INSPECTION ===
+TIMESTAMP=20260911T201311Z
+HEAD=63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+SOURCE=UL7RAFORGE/v10/ul7rabridge
+
+=== CARGO.TOML ===
+[package]
+name = "cheetah"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+
+=== SOURCE ===
+     1	use serde::{Deserialize, Serialize};
+     2	use sha2::{Digest, Sha256};
+     3	use std::time::{SystemTime, UNIX_EPOCH};
+     4	
+     5	#[derive(Serialize, Deserialize)]
+     6	struct Envelope {
+     7	    id: String,
+     8	    direction: String,
+     9	    classification: String,
+    10	    payload_sha256: String,
+    11	    timestamp: u64,
+    12	}
+    13	
+    14	fn main() {
+    15	    let direction = std::env::var("CHEETAH_DIRECTION")
+    16	        .unwrap_or_else(|_| "SOVEREIGN_TO_EXTERNAL".into());
+    17	
+    18	    if direction != "SOVEREIGN_TO_EXTERNAL" {
+    19	        eprintln!("CHEETAH DENY: prohibited direction");
+    20	        std::process::exit(1);
+    21	    }
+    22	
+    23	    let payload = std::env::args()
+    24	        .nth(1)
+    25	        .unwrap_or_else(|| "EMPTY".into());
+    26	
+    27	    let mut hasher = Sha256::new();
+    28	    hasher.update(payload.as_bytes());
+    29	
+    30	    let timestamp = SystemTime::now()
+    31	        .duration_since(UNIX_EPOCH)
+    32	        .unwrap()
+    33	        .as_secs();
+    34	
+    35	    let envelope = Envelope {
+    36	        id: format!("CHEETAH-{}", timestamp),
+    37	        direction,
+    38	        classification: "UNCLASSIFIED".into(),
+    39	        payload_sha256: format!("{:x}", hasher.finalize()),
+    40	        timestamp,
+    41	    };
+    42	
+    43	    println!("{}", serde_json::to_string_pretty(&envelope).unwrap());
+    44	}
+
+=== CONTROL SURFACE ===
+15:    let direction = std::env::var("CHEETAH_DIRECTION")
+19:        eprintln!("CHEETAH DENY: prohibited direction");
+36:        id: format!("CHEETAH-{}", timestamp),
+
+=== TEST / BUILD SURFACES ===
+UL7RAFORGE/v10/ul7rabridge/Cargo.toml
+UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs
+UL7RAFORGE/v10/ul7rabridge/src/main.rs
+
+=== HASHES ===
+cbed9ee775e98de88b9a1944ea0af8467ea6b990d3fd106cf6ac01bb97886fce  UL7RAFORGE/v10/ul7rabridge/Cargo.toml
+5a37e9f71cec284fd237b6e10b86fbde1696b82e4c2de706878a7e4bc8c36cdf  UL7RAFORGE/v10/ul7rabridge/src/main.rs

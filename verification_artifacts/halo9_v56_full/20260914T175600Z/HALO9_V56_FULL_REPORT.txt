@@ -1,0 +1,77 @@
+==================================================
+HALO9 V56 — FULL VERIFICATION GATE
+UTC=20260914T175600Z
+==================================================
+PROJECT=/data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract
+REAL_BRIDGE_MODIFICATION=NONE
+REAL_BRIDGE_INTEGRATION=NOT_PERFORMED
+
+=== FORMAT ===
+CARGO_FMT_RC=0
+
+=== COMPILE ===
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.24s
+CARGO_CHECK_RC=0
+
+=== V56 TEST SUITE ===
+   Compiling halo9_v56_authority_contract v0.1.0 (/data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 8.07s
+     Running unittests src/lib.rs (target/debug/deps/halo9_v56_authority_contract-556a814ed8421761)
+
+running 15 tests
+test tests::bridge_denial_blocks ... ok
+test tests::complete_valid_chain_allows_only_with_explicit_provider ... ok
+test tests::cheetah_denial_blocks ... ok
+test tests::capability_mismatch_denies ... ok
+test tests::expired_pair_denies ... ok
+test tests::crypto_failure_denies ... ok
+test tests::halo_pair_mismatch_denies ... ok
+test tests::invalid_pair_denies ... ok
+test tests::missing_proof_denies ... ok
+test tests::mission_mismatch_denies ... ok
+test tests::no_agent_denies ... ok
+test tests::no_halo_denies ... ok
+test tests::no_production_crypto_denies ... ok
+test tests::replayed_proof_denies ... ok
+test tests::revoked_proof_denies ... ok
+
+test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+CARGO_TEST_RC=0
+V56_TEST_RESULT=PASS
+
+=== LUCITEST ===
+LUCITEST_STATUS=NOT_DISCOVERED
+LUCITEST_CLAIM=NONE
+
+=== LUCI DIAGNOSTIC ===
+LUCIDIAGNOSTIC_STATUS=NOT_DISCOVERED
+LUCIDIAGNOSTIC_CLAIM=NONE
+
+=== GOVERNANCE STATIC CHECKS ===
+CRYPTO_GATE=PASS
+PAIR_BINDING=PASS
+MISSION_BINDING=PASS
+CAPABILITY_BINDING=PASS
+CHEETAH_GATE=PASS
+BRIDGE_GATE=PASS
+LEDGER_GATE=PASS
+CRYPTO_VERIFY=PASS
+SOURCE_HASH=RECORDED
+
+==================================================
+HALO9 V56 FINAL GOVERNANCE GATE
+==================================================
+CORE_RULE=NO_VALID_HALO_TWIN_PAIR_NO_ACTION
+AUTHORITY_RULE=PROOF_DOES_NOT_EQUAL_AUTHORITY
+LUCITEST_IS_AUTHORITY=NO
+LUCIDIAGNOSTIC_IS_AUTHORITY=NO
+REAL_BRIDGE_MODIFICATION=NONE
+REAL_BRIDGE_INTEGRATION=NOT_PERFORMED
+PRODUCTION_CRYPTO=NOT_CONFIGURED
+PRODUCTION_UNLOCK=BLOCKED
+HALO9_V56_FINAL_DECISION=PASS_WITH_PRODUCTION_BLOCK
+
+REPORT=/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/halo9_v56_full/20260914T175600Z/HALO9_V56_FULL_REPORT.txt
+EVIDENCE=/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/halo9_v56_full/20260914T175600Z
+==================================================

@@ -1,0 +1,14 @@
+./UL7RAFORGE/node9/__pycache__/bootstrap.cpython-314.pyc
+./UL7RAFORGE/node9/bootstrap.py
+./UL7RAFORGE/node9/evidence/bootstrap.jsonl
+./UL7RAFORGE/node9/experts/architect/config.json
+./UL7RAFORGE/node9/experts/compliance/config.json
+./UL7RAFORGE/node9/experts/engineer/config.json
+./UL7RAFORGE/node9/experts/evolution/config.json
+./UL7RAFORGE/node9/experts/intelligence/config.json
+./UL7RAFORGE/node9/experts/network/config.json
+./UL7RAFORGE/node9/experts/operations/config.json
+./UL7RAFORGE/node9/experts/security/config.json
+./UL7RAFORGE/node9/experts/verification/config.json
+./UL7RAFORGE/node9/state/node9.json
+./verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/NODE9.paths

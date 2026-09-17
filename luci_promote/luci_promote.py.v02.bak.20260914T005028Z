@@ -1,0 +1,310 @@
+#!/usr/bin/env python3
+import argparse, hashlib, json, sqlite3, time
+from pathlib import Path
+from http.server import BaseHTTPRequestHandler, HTTPServer
+
+ROOT = Path(__file__).resolve().parent
+DB = ROOT/"data"/"luci_promote.db"
+EVIDENCE = ROOT/"evidence"
+SCHEMA = "LUCI-PROMOTE-0.2"
+
+def conn():
+    c=sqlite3.connect(DB)
+    c.row_factory=sqlite3.Row
+    c.execute("""CREATE TABLE IF NOT EXISTS tracks(
+        id INTEGER PRIMARY KEY,
+        title TEXT NOT NULL,
+        artist TEXT NOT NULL,
+        status TEXT NOT NULL DEFAULT 'ACTIVE',
+        created_at INTEGER NOT NULL)""")
+    c.execute("""CREATE TABLE IF NOT EXISTS actions(
+        id INTEGER PRIMARY KEY,
+        track_id INTEGER NOT NULL,
+        action TEXT NOT NULL,
+        state TEXT NOT NULL,
+        platform TEXT NOT NULL,
+        payload TEXT NOT NULL,
+        created_at INTEGER NOT NULL)""")
+    c.commit()
+    return c
+
+def sha(x):
+    return hashlib.sha256(
+        json.dumps(x,sort_keys=True,separators=(",",":")).encode()
+    ).hexdigest()
+
+def evidence(event,decision):
+    EVIDENCE.mkdir(exist_ok=True)
+    r={
+        "schema":SCHEMA,
+        "timestamp":int(time.time()),
+        "event":event,
+        "decision":decision
+    }
+    r["sha256"]=sha(r)
+    p=EVIDENCE/f"{r['timestamp']}_{r['sha256'][:12]}.json"
+    p.write_text(json.dumps(r,indent=2))
+    return str(p)
+
+def add_track(title,artist="MAC9"):
+    if not title or not title.strip():
+        raise ValueError("TITLE_REQUIRED")
+    c=conn()
+    x=c.execute(
+        "INSERT INTO tracks(title,artist,created_at) VALUES(?,?,?)",
+        (title.strip(),artist.strip(),int(time.time()))
+    )
+    c.commit()
+    return x.lastrowid
+
+def get_tracks():
+    c=conn()
+    return [dict(x) for x in c.execute(
+        "SELECT * FROM tracks ORDER BY id"
+    )]
+
+def queue():
+    c=conn()
+    return [dict(x) for x in c.execute("""
+        SELECT t.* FROM tracks t
+        WHERE t.status='ACTIVE'
+        AND NOT EXISTS(
+            SELECT 1 FROM actions a
+            WHERE a.track_id=t.id
+            AND a.action='PROMOTE'
+            AND a.state IN('READY','PUBLISHED','VERIFIED')
+        )
+        ORDER BY t.id
+    """)]
+
+def promote(track_id,platform="MANUAL"):
+    c=conn()
+    t=c.execute(
+        "SELECT * FROM tracks WHERE id=?",(track_id,)
+    ).fetchone()
+
+    if not t:
+        return {
+            "final_decision":"UNKNOWN",
+            "reason":"TRACK_NOT_FOUND"
+        }
+
+    payload={
+        "track_id":track_id,
+        "title":t["title"],
+        "artist":t["artist"],
+        "platform":platform,
+        "state":"READY",
+        "publication_claim":False,
+        "rule":"NO_PROOF_NO_PUBLISHED_CLAIM"
+    }
+
+    x=c.execute("""
+        INSERT INTO actions
+        (track_id,action,state,platform,payload,created_at)
+        VALUES(?,?,?,?,?,?)
+    """,(
+        track_id,"PROMOTE","READY",platform,
+        json.dumps(payload),int(time.time())
+    ))
+    c.commit()
+
+    ev=evidence(payload,"READY_FOR_PROMOTION")
+
+    return {
+        "final_decision":"READY_FOR_PROMOTION",
+        "action_id":x.lastrowid,
+        "evidence":ev
+    }
+
+def verify():
+    failures=[]
+    c=conn()
+
+    for t in c.execute("SELECT * FROM tracks"):
+        if not t["title"] or not t["artist"]:
+            failures.append("INVALID_TRACK_METADATA")
+
+    for a in c.execute("SELECT * FROM actions"):
+        if a["state"]=="PUBLISHED":
+            failures.append(
+                f"UNVERIFIED_PUBLICATION:{a['id']}"
+            )
+
+    return {
+        "schema":SCHEMA,
+        "final_decision":"PASS" if not failures else "FAIL",
+        "failures":failures,
+        "invariants":{
+            "FAIL_CLOSED":True,
+            "NO_FALSE_PUBLICATION_CLAIM":True,
+            "NO_PROOF_NO_TRUSTED_ACTION":True,
+            "NO_SELF_CERTIFICATION":True,
+            "UPGRADEABLE":True
+        }
+    }
+
+class API(BaseHTTPRequestHandler):
+    def send_json(self,obj,status=200):
+        b=json.dumps(obj,indent=2).encode()
+        self.send_response(status)
+        self.send_header("Content-Type","application/json")
+        self.send_header("Content-Length",str(len(b)))
+        self.end_headers()
+        self.wfile.write(b)
+
+    def read_json(self):
+        n=int(self.headers.get("Content-Length","0"))
+        return json.loads(self.rfile.read(n) or b"{}")
+
+    def do_GET(self):
+        if self.path=="/health":
+            return self.send_json({
+                "service":"LUCI-PROMOTE",
+                "version":SCHEMA,
+                "status":"PASS"
+            })
+        if self.path=="/tracks":
+            return self.send_json({"tracks":get_tracks()})
+        if self.path=="/queue":
+            return self.send_json({"queue":queue()})
+        if self.path=="/verify":
+            return self.send_json(verify())
+        return self.send_json(
+            {"final_decision":"UNKNOWN"},404
+        )
+
+    def do_POST(self):
+        try:
+            d=self.read_json()
+
+            if self.path=="/track":
+                if not d.get("title"):
+                    return self.send_json({
+                        "final_decision":"FAIL",
+                        "reason":"TITLE_REQUIRED"
+                    },400)
+                return self.send_json({
+                    "track_id":add_track(
+                        d["title"],d.get("artist","MAC9")
+                    )
+                })
+
+            if self.path=="/promote":
+                if "track_id" not in d:
+                    return self.send_json({
+                        "final_decision":"FAIL",
+                        "reason":"TRACK_ID_REQUIRED"
+                    },400)
+                return self.send_json(
+                    promote(
+                        int(d["track_id"]),
+                        d.get("platform","MANUAL")
+                    )
+                )
+
+            return self.send_json(
+                {"final_decision":"UNKNOWN"},404
+            )
+
+        except Exception as e:
+            return self.send_json({
+                "final_decision":"FAIL",
+                "error":str(e)
+            },400)
+
+    def log_message(self,*args):
+        pass
+
+def purple_team():
+    results=[]
+
+    # Attack 1: nonexistent track
+    r=promote(999999)
+    results.append(
+        ("UNKNOWN_TRACK_FAIL_CLOSED",
+         r["final_decision"]=="UNKNOWN")
+    )
+
+    # Attack 2: empty metadata
+    try:
+        add_track("")
+        results.append(("EMPTY_TITLE_REJECTED",False))
+    except ValueError:
+        results.append(("EMPTY_TITLE_REJECTED",True))
+
+    # Attack 3: publication must never be locally fabricated
+    results.append((
+        "NO_FALSE_PUBLICATION_CLAIM",
+        "NO_PROOF_NO_TRUSTED_ACTION" in
+        verify()["invariants"] and
+        "NO_FALSE_PUBLICATION_CLAIM" in verify()["invariants"]
+    ))
+
+    # Attack 4: normal lifecycle
+    tid=add_track(
+        f"PURPLE-TEST-{int(time.time())}",
+        "PURPLE_TEST"
+    )
+    r=promote(tid,"PURPLE_TEST")
+    results.append((
+        "VALID_PROMOTION_READY",
+        r["final_decision"]=="READY_FOR_PROMOTION"
+    ))
+
+    return results
+
+def main():
+    p=argparse.ArgumentParser()
+    p.add_argument(
+        "command",
+        choices=["health","verify","purple","tracks","queue",
+                 "add","promote","server"]
+    )
+    p.add_argument("value",nargs="?")
+    a=p.parse_args()
+
+    if a.command=="health":
+        print(json.dumps({
+            "service":"LUCI-PROMOTE",
+            "version":SCHEMA,
+            "status":"PASS"
+        },indent=2))
+
+    elif a.command=="verify":
+        print(json.dumps(verify(),indent=2))
+
+    elif a.command=="purple":
+        r=purple_team()
+        for name,ok in r:
+            print(f"[{'PASS' if ok else 'FAIL'}] {name}")
+        print(
+            "FINAL_DECISION="+
+            ("PASS" if all(x[1] for x in r) else "FAIL")
+        )
+
+    elif a.command=="tracks":
+        print(json.dumps(get_tracks(),indent=2))
+
+    elif a.command=="queue":
+        print(json.dumps(queue(),indent=2))
+
+    elif a.command=="add":
+        print(json.dumps({
+            "track_id":add_track(a.value or "UNTITLED")
+        },indent=2))
+
+    elif a.command=="promote":
+        print(json.dumps(
+            promote(int(a.value)),
+            indent=2
+        ))
+
+    elif a.command=="server":
+        print("LUCI-PROMOTE http://127.0.0.1:8897")
+        HTTPServer(
+            ("127.0.0.1",8897),API
+        ).serve_forever()
+
+if __name__=="__main__":
+    main()

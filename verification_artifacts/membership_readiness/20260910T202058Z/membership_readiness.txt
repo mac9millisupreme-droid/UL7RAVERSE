@@ -1,0 +1,276 @@
+=== REPOSITORY ===
+/data/data/com.termux/files/home/UL7RAVERSE
+63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+ M products/ul7ra-verify/tests/test_server.py
+?? .ul7ra_autonomous/
+?? AIL_FINAL_VERIFICATION_REPORT.md
+?? FORENSIC_PHASE0_20260909T095923Z/
+?? FORENSIC_PHASE0_20260909T100256Z/
+?? FREEZE_VERIFIED_BASELINE.sh
+?? UL7RAPASS_ONE.py
+?? UL7RA_MEMBER_LOOP.py
+?? install_ail_v010.py
+?? install_ul7ra_continue_v010.py
+?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json
+?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json
+?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/
+?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/
+?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/
+?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/
+?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/
+?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/
+?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/
+?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/
+?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/
+?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/
+?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/
+?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/
+?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/
+?? products/ul7ra-verify/deploy/runtime/health_recovery.json
+?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/
+?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/
+?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/
+?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/
+?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json
+?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json
+?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json
+?? products/ul7ra-verify/tests/test_server.py.bak_pathfix
+?? products/ul7ra-verify/tests/test_server.py.bak_realtest
+?? racing/
+?? racing_recon.sh
+?? racing_recon_test.txt
+?? revenue_membership.json
+?? test_ul7ra_continue.py
+?? test_ul7ra_continue_ail.py
+?? test_ul7ra_continue_purple.py
+?? ul7ra_continue/
+?? ul7ra_uncertainty_repair.sh
+?? verification_artifacts/
+
+=== MEMBERSHIP SURFACE ===
+./UL7RAPASS_ONE.py
+./revenue_membership.json
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.sha256
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt
+
+=== RELEASE SURFACE ===
+verification_artifacts/member_loop/20260910T145415Z/PROOF_ARTIFACT.json
+
+=== TEST DISCOVERY ===
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+NO TESTS RAN
+
+=== TARGETED MEMBERSHIP TEST ===
+MISSING: tests/test_membership.py
+
+=== SECURITY MEMBERSHIP TEST ===
+MISSING: tests/adversarial/test_membership_security.py
+
+=== COMMERCIAL CONSTANTS ===
+./UL7RAFORGE/v10/ul7rabridge/target/release/.fingerprint/quote-c77d08b1981f3490/build-script-build-script-build.json:1:{"rustc":13845819786987188739,"features":"[\"proc-macro\"]","declared_features":"[\"default\", \"proc-macro\"]","target":5408242616063297496,"profile":1369601567987815722,"path":15001704989873282366,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/quote-c77d08b1981f3490/dep-build-script-build-script-build","checksum":false}}],"rustflags":[],"config":9396254390672932401,"compile_kind":0}
+./products/ul7ra-verify/evidence/ip/IP_DEFENSIBILITY_INVENTORY.json:351:      "sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8",
+./products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/EVIDENCE_SHA256SUMS:1:ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8  evidence/ul7raproof/20260822T120236Z/claim.json
+./products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/claim.sha256:1:ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8  evidence/ul7raproof/20260822T120236Z/claim.json
+./products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/canonical_entry.json:9:  "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8",
+./products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl:1:{"artifact": "deploy/runtime/gate2-artifact", "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881", "canonicalized_at": "2026-08-22T12:03:30.770967Z", "claim_id": "UL7RA-VERIFY-GATE2", "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8", "claim_state": "VERIFIED", "entry_type": "CANONICAL_EVIDENCE", "independent_verifier": "ULTRA VERIFIED", "ledger": "UL7RAPROOF", "ledger_entry_sha256": "f5eb9d71f6f994959dab117b5aac26a91ac8e611edcdf0e1551686b503ac8149", "ledger_version": "0.1.0", "observation_sha256": "4024a2307c50852ab047b78e7dea7cf2c3c2010279bcfa5ca6283a079a23b88b", "proof_sha256": "0b0c6ad6bf224b6246afae2f919d116837da16c8e0a1dcd15b1b3c75b8a7abc4", "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4", "verification_result": "PASS"}
+./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:322:products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl:1:{"artifact": "deploy/runtime/gate2-artifact", "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881", "canonicalized_at": "2026-08-22T12:03:30.770967Z", "claim_id": "UL7RA-VERIFY-GATE2", "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8", "claim_state": "VERIFIED", "entry_type": "CANONICAL_EVIDENCE", "independent_verifier": "ULTRA VERIFIED", "ledger": "UL7RAPROOF", "ledger_entry_sha256": "f5eb9d71f6f994959dab117b5aac26a91ac8e611edcdf0e1551686b503ac8149", "ledger_version": "0.1.0", "observation_sha256": "4024a2307c50852ab047b78e7dea7cf2c3c2010279bcfa5ca6283a079a23b88b", "proof_sha256": "0b0c6ad6bf224b6246afae2f919d116837da16c8e0a1dcd15b1b3c75b8a7abc4", "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4", "verification_result": "PASS"}
+./.ul7ra/funnel/runs/20260823T162635Z/evidence/RECONCILIATION_INPUT_HASHES.sha256:7:6c1fe16342d1500b08c2cfc54fc8e424e12fd2d7953c2f64167c2908632d8134  .ul7ra/funnel/runs/20260823T162635Z/evidence/ALL_FUNNEL_RUN_ARTIFACTS.txt
+./.ul7ra/funnel/runs/continuous-authority-20260823T191553Z/evidence/registry.json:42:  "evidence_hash": "90261500ade3262e0ad509a9ce5fcb4e16dd65ae8f7b86424a6504f69810350d"
+./.ul7ra/4H_EXECUTION/20260824T022633Z/commercial/offer.json:23:  "promise": "Turn defined claims, controls, and evidence into a continuously verifiable proof state.",
+./.ul7ra/4H_EXECUTION/20260824T022633Z/commercial/landing.md:8:and produces a verifiable proof state.
+./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:340:./products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl:1:{"artifact": "deploy/runtime/gate2-artifact", "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881", "canonicalized_at": "2026-08-22T12:03:30.770967Z", "claim_id": "UL7RA-VERIFY-GATE2", "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8", "claim_state": "VERIFIED", "entry_type": "CANONICAL_EVIDENCE", "independent_verifier": "ULTRA VERIFIED", "ledger": "UL7RAPROOF", "ledger_entry_sha256": "f5eb9d71f6f994959dab117b5aac26a91ac8e611edcdf0e1551686b503ac8149", "ledger_version": "0.1.0", "observation_sha256": "4024a2307c50852ab047b78e7dea7cf2c3c2010279bcfa5ca6283a079a23b88b", "proof_sha256": "0b0c6ad6bf224b6246afae2f919d116837da16c8e0a1dcd15b1b3c75b8a7abc4", "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4", "verification_result": "PASS"}
+./FORENSIC_PHASE0_20260909T100256Z/PHASE0_REPORT.txt:826:> → PURPLE TEAM
+./FORENSIC_PHASE0_20260909T100256Z/PHASE0_REPORT.txt:908:> PURPLE TEAM ATTACKS:
+./.ul7ra_autonomous/RUN_20260909T100748Z/logs/autonomous.log:131:> → PURPLE TEAM
+./.ul7ra_autonomous/RUN_20260909T100748Z/logs/autonomous.log:213:> PURPLE TEAM ATTACKS:
+./.ul7ra_autonomous/RUN_20260909T100748Z/MASTER_SPEC.md:77:→ PURPLE TEAM
+./.ul7ra_autonomous/RUN_20260909T100748Z/MASTER_SPEC.md:159:PURPLE TEAM ATTACKS:
+./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:7:    "price_cad": 500,
+./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:9:    "units": 1500,
+./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:10:    "lucicoin": 3,
+./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:24:    "units_total": 1500,
+./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:26:    "lucicoin_total": 3,
+./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:27:    "lucicoin_used": 0
+./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:32:    "LUCIcoin_LIMIT_ENFORCED": true,
+./verification_artifacts/ul7rapass/20260910T144312Z/PURPLE_RESULTS.txt:4:  "LUCIcoin_LIMIT_ENFORCED": true,
+./verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json:3:  "price_cad": 500,
+./verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json:5:  "units": 1500,
+./verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json:6:  "lucicoin": 3,
+./verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json:10:  "lucicoin": 3,
+./verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json:12:  "price_cad": 500,
+./verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json:14:  "units": 1500
+./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:6:  "lucicoin_total": 3,
+./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:7:  "lucicoin_used": 0,
+./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:10:  "price_cad": 500,
+./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:15:  "units_total": 1500,
+./verification_artifacts/member_loop/20260910T145415Z/PURPLE_TEAM.json:2:  "1500_UNIT_CEILING": true,
+./verification_artifacts/member_loop/20260910T145415Z/PURPLE_TEAM.json:3:  "3_LUCICOIN_CEILING": true,
+./verification_artifacts/member_loop/20260910T145415Z/STATUS.json:4:  "lucicoin_total": 3,
+./verification_artifacts/member_loop/20260910T145415Z/STATUS.json:5:  "lucicoin_used": 0,
+./verification_artifacts/member_loop/20260910T145415Z/STATUS.json:12:  "units_total": 1500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:72:./UL7RAFORGE/v10/ul7rabridge/target/release/.fingerprint/quote-c77d08b1981f3490/build-script-build-script-build.json:1:{"rustc":13845819786987188739,"features":"[\"proc-macro\"]","declared_features":"[\"default\", \"proc-macro\"]","target":5408242616063297496,"profile":1369601567987815722,"path":15001704989873282366,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/quote-c77d08b1981f3490/dep-build-script-build-script-build","checksum":false}}],"rustflags":[],"config":9396254390672932401,"compile_kind":0}
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:73:./products/ul7ra-verify/evidence/ip/IP_DEFENSIBILITY_INVENTORY.json:351:      "sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8",
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:74:./products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/EVIDENCE_SHA256SUMS:1:ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8  evidence/ul7raproof/20260822T120236Z/claim.json
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:75:./products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/claim.sha256:1:ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8  evidence/ul7raproof/20260822T120236Z/claim.json
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:76:./products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/canonical_entry.json:9:  "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8",
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:77:./products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl:1:{"artifact": "deploy/runtime/gate2-artifact", "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881", "canonicalized_at": "2026-08-22T12:03:30.770967Z", "claim_id": "UL7RA-VERIFY-GATE2", "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8", "claim_state": "VERIFIED", "entry_type": "CANONICAL_EVIDENCE", "independent_verifier": "ULTRA VERIFIED", "ledger": "UL7RAPROOF", "ledger_entry_sha256": "f5eb9d71f6f994959dab117b5aac26a91ac8e611edcdf0e1551686b503ac8149", "ledger_version": "0.1.0", "observation_sha256": "4024a2307c50852ab047b78e7dea7cf2c3c2010279bcfa5ca6283a079a23b88b", "proof_sha256": "0b0c6ad6bf224b6246afae2f919d116837da16c8e0a1dcd15b1b3c75b8a7abc4", "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4", "verification_result": "PASS"}
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:78:./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:322:products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl:1:{"artifact": "deploy/runtime/gate2-artifact", "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881", "canonicalized_at": "2026-08-22T12:03:30.770967Z", "claim_id": "UL7RA-VERIFY-GATE2", "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8", "claim_state": "VERIFIED", "entry_type": "CANONICAL_EVIDENCE", "independent_verifier": "ULTRA VERIFIED", "ledger": "UL7RAPROOF", "ledger_entry_sha256": "f5eb9d71f6f994959dab117b5aac26a91ac8e611edcdf0e1551686b503ac8149", "ledger_version": "0.1.0", "observation_sha256": "4024a2307c50852ab047b78e7dea7cf2c3c2010279bcfa5ca6283a079a23b88b", "proof_sha256": "0b0c6ad6bf224b6246afae2f919d116837da16c8e0a1dcd15b1b3c75b8a7abc4", "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4", "verification_result": "PASS"}
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:79:./.ul7ra/funnel/runs/20260823T162635Z/evidence/RECONCILIATION_INPUT_HASHES.sha256:7:6c1fe16342d1500b08c2cfc54fc8e424e12fd2d7953c2f64167c2908632d8134  .ul7ra/funnel/runs/20260823T162635Z/evidence/ALL_FUNNEL_RUN_ARTIFACTS.txt
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:80:./.ul7ra/funnel/runs/continuous-authority-20260823T191553Z/evidence/registry.json:42:  "evidence_hash": "90261500ade3262e0ad509a9ce5fcb4e16dd65ae8f7b86424a6504f69810350d"
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:81:./.ul7ra/4H_EXECUTION/20260824T022633Z/commercial/offer.json:23:  "promise": "Turn defined claims, controls, and evidence into a continuously verifiable proof state.",
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:82:./.ul7ra/4H_EXECUTION/20260824T022633Z/commercial/landing.md:8:and produces a verifiable proof state.
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:83:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:340:./products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl:1:{"artifact": "deploy/runtime/gate2-artifact", "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881", "canonicalized_at": "2026-08-22T12:03:30.770967Z", "claim_id": "UL7RA-VERIFY-GATE2", "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8", "claim_state": "VERIFIED", "entry_type": "CANONICAL_EVIDENCE", "independent_verifier": "ULTRA VERIFIED", "ledger": "UL7RAPROOF", "ledger_entry_sha256": "f5eb9d71f6f994959dab117b5aac26a91ac8e611edcdf0e1551686b503ac8149", "ledger_version": "0.1.0", "observation_sha256": "4024a2307c50852ab047b78e7dea7cf2c3c2010279bcfa5ca6283a079a23b88b", "proof_sha256": "0b0c6ad6bf224b6246afae2f919d116837da16c8e0a1dcd15b1b3c75b8a7abc4", "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4", "verification_result": "PASS"}
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:84:./FORENSIC_PHASE0_20260909T100256Z/PHASE0_REPORT.txt:826:> → PURPLE TEAM
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:85:./FORENSIC_PHASE0_20260909T100256Z/PHASE0_REPORT.txt:908:> PURPLE TEAM ATTACKS:
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:86:./.ul7ra_autonomous/RUN_20260909T100748Z/logs/autonomous.log:131:> → PURPLE TEAM
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:87:./.ul7ra_autonomous/RUN_20260909T100748Z/logs/autonomous.log:213:> PURPLE TEAM ATTACKS:
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:88:./.ul7ra_autonomous/RUN_20260909T100748Z/MASTER_SPEC.md:77:→ PURPLE TEAM
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:89:./.ul7ra_autonomous/RUN_20260909T100748Z/MASTER_SPEC.md:159:PURPLE TEAM ATTACKS:
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:90:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:7:    "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:91:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:9:    "units": 1500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:92:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:10:    "lucicoin": 3,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:93:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:24:    "units_total": 1500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:94:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:26:    "lucicoin_total": 3,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:95:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:27:    "lucicoin_used": 0
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:96:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:32:    "LUCIcoin_LIMIT_ENFORCED": true,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:97:./verification_artifacts/ul7rapass/20260910T144312Z/PURPLE_RESULTS.txt:4:  "LUCIcoin_LIMIT_ENFORCED": true,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:98:./verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json:3:  "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:99:./verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json:5:  "units": 1500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:100:./verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json:6:  "lucicoin": 3,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:101:./verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json:10:  "lucicoin": 3,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:102:./verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json:12:  "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:103:./verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json:14:  "units": 1500
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:104:./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:6:  "lucicoin_total": 3,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:105:./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:7:  "lucicoin_used": 0,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:106:./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:10:  "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:107:./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:15:  "units_total": 1500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:108:./verification_artifacts/member_loop/20260910T145415Z/PURPLE_TEAM.json:2:  "1500_UNIT_CEILING": true,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:109:./verification_artifacts/member_loop/20260910T145415Z/PURPLE_TEAM.json:3:  "3_LUCICOIN_CEILING": true,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:110:./verification_artifacts/member_loop/20260910T145415Z/STATUS.json:4:  "lucicoin_total": 3,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:111:./verification_artifacts/member_loop/20260910T145415Z/STATUS.json:5:  "lucicoin_used": 0,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:112:./verification_artifacts/member_loop/20260910T145415Z/STATUS.json:12:  "units_total": 1500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:113:./ul7ra_continue/governance.py:48:            "message": "Purple Team VETO: continuation blocked.",
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:114:./install_ail_v010.py:212:                "message": "Purple Team VETO: continuation blocked.",
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:115:./UL7RAPASS_ONE.py:18:    "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:116:./UL7RAPASS_ONE.py:20:    "units": 1500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:117:./UL7RAPASS_ONE.py:21:    "lucicoin": 3,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:118:./UL7RAPASS_ONE.py:53:        "lucicoin_total": PRODUCT["lucicoin"],
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:119:./UL7RAPASS_ONE.py:54:        "lucicoin_used": 0,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:120:./UL7RAPASS_ONE.py:73:    if member["lucicoin_used"] >= member["lucicoin_total"]:
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:121:./UL7RAPASS_ONE.py:75:    member["lucicoin_used"] += 1
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:122:./UL7RAPASS_ONE.py:95:    for _ in range(PRODUCT["lucicoin"]):
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:123:./UL7RAPASS_ONE.py:116:        "LUCIcoin_LIMIT_ENFORCED": attack_coin_duplication(),
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:124:./UL7RAPASS_ONE.py:166:# PURPLE TEAM
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:125:./UL7RAPASS_ONE.py:273:    and member["units_total"] == 1500
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:126:./UL7RAPASS_ONE.py:274:    and member["lucicoin_total"] == 3
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:127:./UL7RAPASS_ONE.py:291:print("PRICE: CAD $500")
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:128:./UL7RAPASS_ONE.py:292:print("TERM: 12 months")
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:129:./UL7RAPASS_ONE.py:294:print("LUCIcoin: 3")
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:130:./UL7RAPASS_ONE.py:298:print("PURPLE TEAM: INCLUDED")
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:131:./UL7RAPASS_ONE.py:302:print("PURPLE TEAM:", "PASS" if purple_pass else "FAIL")
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:132:./UL7RAPASS_ONE.py:306:print("LUCIcoin DUPLICATION:", "BLOCKED" if purple["LUCIcoin_LIMIT_ENFORCED"] else "FAIL")
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:133:./UL7RAPASS_ONE.py:309:print("15 SALES × CAD $500 = CAD $7,500 CASH")
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:134:./UL7RA_MEMBER_LOOP.py:21:    "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:135:./UL7RA_MEMBER_LOOP.py:23:    "units": 1500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:136:./UL7RA_MEMBER_LOOP.py:24:    "lucicoin": 3,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:137:./UL7RA_MEMBER_LOOP.py:64:        "lucicoin_total": PRODUCT["lucicoin"],
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:138:./UL7RA_MEMBER_LOOP.py:65:        "lucicoin_used": 0,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:139:./UL7RA_MEMBER_LOOP.py:92:    if member["lucicoin_used"] >= member["lucicoin_total"]:
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:140:./UL7RA_MEMBER_LOOP.py:95:    member["lucicoin_used"] += 1
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:141:./UL7RA_MEMBER_LOOP.py:162:# PURPLE TEAM
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:142:./UL7RA_MEMBER_LOOP.py:185:attacks["1500_UNIT_CEILING"] = not use_unit(m)
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:143:./UL7RA_MEMBER_LOOP.py:187:# LUCIcoin ceiling.
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:144:./UL7RA_MEMBER_LOOP.py:191:for _ in range(PRODUCT["lucicoin"]):
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:145:./UL7RA_MEMBER_LOOP.py:194:attacks["3_LUCICOIN_CEILING"] = not use_coin(m)
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:146:./UL7RA_MEMBER_LOOP.py:257:    "lucicoin_total": member["lucicoin_total"],
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:147:./UL7RA_MEMBER_LOOP.py:258:    "lucicoin_used": member["lucicoin_used"],
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:148:./UL7RA_MEMBER_LOOP.py:294:    and member["units_total"] == 1500
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:149:./UL7RA_MEMBER_LOOP.py:295:    and member["lucicoin_total"] == 3
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:150:./UL7RA_MEMBER_LOOP.py:314:print("PRICE: CAD $500")
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:151:./UL7RA_MEMBER_LOOP.py:315:print("TERM: 12 months")
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:152:./UL7RA_MEMBER_LOOP.py:317:print("LUCIcoin: 3")
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:153:./UL7RA_MEMBER_LOOP.py:330:print("PURPLE TEAM:", "PASS" if purple_pass else "FAIL")
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:154:./UL7RA_MEMBER_LOOP.py:334:print("15 MEMBERS × CAD $500 = CAD $7,500 CASH")
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:155:./revenue_membership.json:2:  "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:156:./revenue_membership.json:10:  "remaining_cash_cad": 7500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:74:./UL7RAFORGE/v10/ul7rabridge/target/release/.fingerprint/quote-c77d08b1981f3490/build-script-build-script-build.json:1:{"rustc":13845819786987188739,"features":"[\"proc-macro\"]","declared_features":"[\"default\", \"proc-macro\"]","target":5408242616063297496,"profile":1369601567987815722,"path":15001704989873282366,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/quote-c77d08b1981f3490/dep-build-script-build-script-build","checksum":false}}],"rustflags":[],"config":9396254390672932401,"compile_kind":0}
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:75:./products/ul7ra-verify/evidence/ip/IP_DEFENSIBILITY_INVENTORY.json:351:      "sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8",
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:76:./products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/EVIDENCE_SHA256SUMS:1:ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8  evidence/ul7raproof/20260822T120236Z/claim.json
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:77:./products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/claim.sha256:1:ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8  evidence/ul7raproof/20260822T120236Z/claim.json
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:78:./products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/canonical_entry.json:9:  "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8",
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:79:./products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl:1:{"artifact": "deploy/runtime/gate2-artifact", "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881", "canonicalized_at": "2026-08-22T12:03:30.770967Z", "claim_id": "UL7RA-VERIFY-GATE2", "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8", "claim_state": "VERIFIED", "entry_type": "CANONICAL_EVIDENCE", "independent_verifier": "ULTRA VERIFIED", "ledger": "UL7RAPROOF", "ledger_entry_sha256": "f5eb9d71f6f994959dab117b5aac26a91ac8e611edcdf0e1551686b503ac8149", "ledger_version": "0.1.0", "observation_sha256": "4024a2307c50852ab047b78e7dea7cf2c3c2010279bcfa5ca6283a079a23b88b", "proof_sha256": "0b0c6ad6bf224b6246afae2f919d116837da16c8e0a1dcd15b1b3c75b8a7abc4", "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4", "verification_result": "PASS"}
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:80:./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:322:products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl:1:{"artifact": "deploy/runtime/gate2-artifact", "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881", "canonicalized_at": "2026-08-22T12:03:30.770967Z", "claim_id": "UL7RA-VERIFY-GATE2", "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8", "claim_state": "VERIFIED", "entry_type": "CANONICAL_EVIDENCE", "independent_verifier": "ULTRA VERIFIED", "ledger": "UL7RAPROOF", "ledger_entry_sha256": "f5eb9d71f6f994959dab117b5aac26a91ac8e611edcdf0e1551686b503ac8149", "ledger_version": "0.1.0", "observation_sha256": "4024a2307c50852ab047b78e7dea7cf2c3c2010279bcfa5ca6283a079a23b88b", "proof_sha256": "0b0c6ad6bf224b6246afae2f919d116837da16c8e0a1dcd15b1b3c75b8a7abc4", "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4", "verification_result": "PASS"}
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:81:./.ul7ra/funnel/runs/20260823T162635Z/evidence/RECONCILIATION_INPUT_HASHES.sha256:7:6c1fe16342d1500b08c2cfc54fc8e424e12fd2d7953c2f64167c2908632d8134  .ul7ra/funnel/runs/20260823T162635Z/evidence/ALL_FUNNEL_RUN_ARTIFACTS.txt
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:82:./.ul7ra/funnel/runs/continuous-authority-20260823T191553Z/evidence/registry.json:42:  "evidence_hash": "90261500ade3262e0ad509a9ce5fcb4e16dd65ae8f7b86424a6504f69810350d"
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:83:./.ul7ra/4H_EXECUTION/20260824T022633Z/commercial/offer.json:23:  "promise": "Turn defined claims, controls, and evidence into a continuously verifiable proof state.",
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:84:./.ul7ra/4H_EXECUTION/20260824T022633Z/commercial/landing.md:8:and produces a verifiable proof state.
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:85:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:340:./products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl:1:{"artifact": "deploy/runtime/gate2-artifact", "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881", "canonicalized_at": "2026-08-22T12:03:30.770967Z", "claim_id": "UL7RA-VERIFY-GATE2", "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8", "claim_state": "VERIFIED", "entry_type": "CANONICAL_EVIDENCE", "independent_verifier": "ULTRA VERIFIED", "ledger": "UL7RAPROOF", "ledger_entry_sha256": "f5eb9d71f6f994959dab117b5aac26a91ac8e611edcdf0e1551686b503ac8149", "ledger_version": "0.1.0", "observation_sha256": "4024a2307c50852ab047b78e7dea7cf2c3c2010279bcfa5ca6283a079a23b88b", "proof_sha256": "0b0c6ad6bf224b6246afae2f919d116837da16c8e0a1dcd15b1b3c75b8a7abc4", "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4", "verification_result": "PASS"}
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:86:./FORENSIC_PHASE0_20260909T100256Z/PHASE0_REPORT.txt:826:> → PURPLE TEAM
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:87:./FORENSIC_PHASE0_20260909T100256Z/PHASE0_REPORT.txt:908:> PURPLE TEAM ATTACKS:
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:88:./.ul7ra_autonomous/RUN_20260909T100748Z/logs/autonomous.log:131:> → PURPLE TEAM
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:89:./.ul7ra_autonomous/RUN_20260909T100748Z/logs/autonomous.log:213:> PURPLE TEAM ATTACKS:
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:90:./.ul7ra_autonomous/RUN_20260909T100748Z/MASTER_SPEC.md:77:→ PURPLE TEAM
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:91:./.ul7ra_autonomous/RUN_20260909T100748Z/MASTER_SPEC.md:159:PURPLE TEAM ATTACKS:
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:92:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:7:    "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:93:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:9:    "units": 1500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:94:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:10:    "lucicoin": 3,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:95:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:24:    "units_total": 1500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:96:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:26:    "lucicoin_total": 3,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:97:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:27:    "lucicoin_used": 0
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:98:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:32:    "LUCIcoin_LIMIT_ENFORCED": true,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:99:./verification_artifacts/ul7rapass/20260910T144312Z/PURPLE_RESULTS.txt:4:  "LUCIcoin_LIMIT_ENFORCED": true,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:100:./verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json:3:  "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:101:./verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json:5:  "units": 1500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:102:./verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json:6:  "lucicoin": 3,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:103:./verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json:10:  "lucicoin": 3,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:104:./verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json:12:  "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:105:./verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json:14:  "units": 1500
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:106:./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:6:  "lucicoin_total": 3,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:107:./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:7:  "lucicoin_used": 0,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:108:./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:10:  "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:109:./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:15:  "units_total": 1500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:110:./verification_artifacts/member_loop/20260910T145415Z/PURPLE_TEAM.json:2:  "1500_UNIT_CEILING": true,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:111:./verification_artifacts/member_loop/20260910T145415Z/PURPLE_TEAM.json:3:  "3_LUCICOIN_CEILING": true,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:112:./verification_artifacts/member_loop/20260910T145415Z/STATUS.json:4:  "lucicoin_total": 3,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:113:./verification_artifacts/member_loop/20260910T145415Z/STATUS.json:5:  "lucicoin_used": 0,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:114:./verification_artifacts/member_loop/20260910T145415Z/STATUS.json:12:  "units_total": 1500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:115:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:72:./UL7RAFORGE/v10/ul7rabridge/target/release/.fingerprint/quote-c77d08b1981f3490/build-script-build-script-build.json:1:{"rustc":13845819786987188739,"features":"[\"proc-macro\"]","declared_features":"[\"default\", \"proc-macro\"]","target":5408242616063297496,"profile":1369601567987815722,"path":15001704989873282366,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/quote-c77d08b1981f3490/dep-build-script-build-script-build","checksum":false}}],"rustflags":[],"config":9396254390672932401,"compile_kind":0}
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:116:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:73:./products/ul7ra-verify/evidence/ip/IP_DEFENSIBILITY_INVENTORY.json:351:      "sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8",
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:117:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:74:./products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/EVIDENCE_SHA256SUMS:1:ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8  evidence/ul7raproof/20260822T120236Z/claim.json
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:118:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:75:./products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/claim.sha256:1:ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8  evidence/ul7raproof/20260822T120236Z/claim.json
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:119:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:76:./products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/canonical_entry.json:9:  "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8",
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:120:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:77:./products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl:1:{"artifact": "deploy/runtime/gate2-artifact", "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881", "canonicalized_at": "2026-08-22T12:03:30.770967Z", "claim_id": "UL7RA-VERIFY-GATE2", "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8", "claim_state": "VERIFIED", "entry_type": "CANONICAL_EVIDENCE", "independent_verifier": "ULTRA VERIFIED", "ledger": "UL7RAPROOF", "ledger_entry_sha256": "f5eb9d71f6f994959dab117b5aac26a91ac8e611edcdf0e1551686b503ac8149", "ledger_version": "0.1.0", "observation_sha256": "4024a2307c50852ab047b78e7dea7cf2c3c2010279bcfa5ca6283a079a23b88b", "proof_sha256": "0b0c6ad6bf224b6246afae2f919d116837da16c8e0a1dcd15b1b3c75b8a7abc4", "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4", "verification_result": "PASS"}
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:121:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:78:./.ul7ra/funnel/runs/20260823T162635Z/evidence/PROMOTION_SIGNALS.txt:322:products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl:1:{"artifact": "deploy/runtime/gate2-artifact", "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881", "canonicalized_at": "2026-08-22T12:03:30.770967Z", "claim_id": "UL7RA-VERIFY-GATE2", "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8", "claim_state": "VERIFIED", "entry_type": "CANONICAL_EVIDENCE", "independent_verifier": "ULTRA VERIFIED", "ledger": "UL7RAPROOF", "ledger_entry_sha256": "f5eb9d71f6f994959dab117b5aac26a91ac8e611edcdf0e1551686b503ac8149", "ledger_version": "0.1.0", "observation_sha256": "4024a2307c50852ab047b78e7dea7cf2c3c2010279bcfa5ca6283a079a23b88b", "proof_sha256": "0b0c6ad6bf224b6246afae2f919d116837da16c8e0a1dcd15b1b3c75b8a7abc4", "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4", "verification_result": "PASS"}
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:122:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:79:./.ul7ra/funnel/runs/20260823T162635Z/evidence/RECONCILIATION_INPUT_HASHES.sha256:7:6c1fe16342d1500b08c2cfc54fc8e424e12fd2d7953c2f64167c2908632d8134  .ul7ra/funnel/runs/20260823T162635Z/evidence/ALL_FUNNEL_RUN_ARTIFACTS.txt
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:123:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:80:./.ul7ra/funnel/runs/continuous-authority-20260823T191553Z/evidence/registry.json:42:  "evidence_hash": "90261500ade3262e0ad509a9ce5fcb4e16dd65ae8f7b86424a6504f69810350d"
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:124:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:81:./.ul7ra/4H_EXECUTION/20260824T022633Z/commercial/offer.json:23:  "promise": "Turn defined claims, controls, and evidence into a continuously verifiable proof state.",
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:125:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:82:./.ul7ra/4H_EXECUTION/20260824T022633Z/commercial/landing.md:8:and produces a verifiable proof state.
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:126:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:83:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:340:./products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl:1:{"artifact": "deploy/runtime/gate2-artifact", "artifact_sha256": "b6279f4634e0a1800afedbbff186339419ac1da0e984f7023c4987a21691b881", "canonicalized_at": "2026-08-22T12:03:30.770967Z", "claim_id": "UL7RA-VERIFY-GATE2", "claim_sha256": "ed08c794a133e92cea50e923ed0e2a93e1fb0e93abd7e887a0535415002caaf8", "claim_state": "VERIFIED", "entry_type": "CANONICAL_EVIDENCE", "independent_verifier": "ULTRA VERIFIED", "ledger": "UL7RAPROOF", "ledger_entry_sha256": "f5eb9d71f6f994959dab117b5aac26a91ac8e611edcdf0e1551686b503ac8149", "ledger_version": "0.1.0", "observation_sha256": "4024a2307c50852ab047b78e7dea7cf2c3c2010279bcfa5ca6283a079a23b88b", "proof_sha256": "0b0c6ad6bf224b6246afae2f919d116837da16c8e0a1dcd15b1b3c75b8a7abc4", "source_commit": "2a2496bc48d6beaf98a26e4239e96d70f66ed2f4", "verification_result": "PASS"}
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:127:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:84:./FORENSIC_PHASE0_20260909T100256Z/PHASE0_REPORT.txt:826:> → PURPLE TEAM
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:128:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:85:./FORENSIC_PHASE0_20260909T100256Z/PHASE0_REPORT.txt:908:> PURPLE TEAM ATTACKS:
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:129:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:86:./.ul7ra_autonomous/RUN_20260909T100748Z/logs/autonomous.log:131:> → PURPLE TEAM
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:130:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:87:./.ul7ra_autonomous/RUN_20260909T100748Z/logs/autonomous.log:213:> PURPLE TEAM ATTACKS:
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:131:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:88:./.ul7ra_autonomous/RUN_20260909T100748Z/MASTER_SPEC.md:77:→ PURPLE TEAM
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:132:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:89:./.ul7ra_autonomous/RUN_20260909T100748Z/MASTER_SPEC.md:159:PURPLE TEAM ATTACKS:
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:133:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:90:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:7:    "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:134:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:91:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:9:    "units": 1500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:135:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:92:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:10:    "lucicoin": 3,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:136:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:93:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:24:    "units_total": 1500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:137:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:94:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:26:    "lucicoin_total": 3,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:138:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:95:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:27:    "lucicoin_used": 0
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:139:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:96:./verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:32:    "LUCIcoin_LIMIT_ENFORCED": true,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:140:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:97:./verification_artifacts/ul7rapass/20260910T144312Z/PURPLE_RESULTS.txt:4:  "LUCIcoin_LIMIT_ENFORCED": true,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:141:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:98:./verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json:3:  "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:142:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:99:./verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json:5:  "units": 1500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:143:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:100:./verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json:6:  "lucicoin": 3,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:144:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:101:./verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json:10:  "lucicoin": 3,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:145:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:102:./verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json:12:  "price_cad": 500,
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:146:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:103:./verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json:14:  "units": 1500
+./verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:147:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:104:./verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:6:  "lucicoin_total": 3,
+
+=== DECISION ===
+FINAL_DECISION=BLOCKED

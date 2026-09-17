@@ -1,0 +1,84 @@
+==============================================
+ UL7RAVERSE DNS AUTHORITY FINAL GATE
+==============================================
+HOST=verify.omnilucient.com
+ZONE=omnilucient.com
+EXPECTED_CNAME=a241e27b-336e-44cc-9a52-6487131db63b.cfargotunnel.com
+EVIDENCE=verification_artifacts/dns_authority_final/20260913T080320Z
+
+=== 1. PUBLIC NS ===
+omnilucient.com.	21600	IN	NS	addyson.ns.cloudflare.com.
+omnilucient.com.	21600	IN	NS	rodrigo.ns.cloudflare.com.
+
+=== 2. PUBLIC SOA ===
+omnilucient.com.	1800	IN	SOA	addyson.ns.cloudflare.com. dns.cloudflare.com. 2411415996 10000 2400 604800 1800
+
+=== 3. PUBLIC CNAME ===
+
+=== 4. CLOUDFLARE RESOLVER ===
+
+=== 5. GOOGLE RESOLVER ===
+
+=== 6. AUTHORITATIVE NS DIRECT TEST ===
+
+--- NAMESERVER: addyson.ns.cloudflare.com ---
+
+AUTHORITY_RESULT=TARGET_NOT_PRESENT
+
+--- NAMESERVER: rodrigo.ns.cloudflare.com ---
+
+AUTHORITY_RESULT=TARGET_NOT_PRESENT
+
+=== 7. TRACE ===
+
+; <<>> DiG 9.20.27 <<>> +trace CNAME verify.omnilucient.com
+;; global options: +cmd
+.			87203	IN	NS	e.root-servers.net.
+.			87203	IN	NS	c.root-servers.net.
+.			87203	IN	NS	a.root-servers.net.
+.			87203	IN	NS	k.root-servers.net.
+.			87203	IN	NS	g.root-servers.net.
+.			87203	IN	NS	h.root-servers.net.
+.			87203	IN	NS	m.root-servers.net.
+.			87203	IN	NS	d.root-servers.net.
+.			87203	IN	NS	i.root-servers.net.
+.			87203	IN	NS	b.root-servers.net.
+.			87203	IN	NS	f.root-servers.net.
+.			87203	IN	NS	l.root-servers.net.
+.			87203	IN	NS	j.root-servers.net.
+.			87203	IN	RRSIG	NS 8 0 518400 20260926050000 20260913040000 57780 . Q37W5pdRJYTMeMFzvbqd06nQFMPglEiLEBYxAO40Eca+b9L0KMgxRaJx aKHJjNfuwVi2R1EvZTw4v0U6G8A/WKliLTPe1N+vRBnDRi6TXTAF2LpA 9WbEQI+XIbn/OFA7OQlg5kOoA7IDrbz7yuGETUyDzXAM/FCW5WcS83/V izZh3Q7h8vHsf8tf+EIMcsS5dfCmjFvf0tohkT40Np2GHNjy4P57gV1M wVClVlRXhuBdiwcllpJyvGHU2LFkt5v2wDlPkmK4IqRjTaSMDEFEhyeW zL/BunXlH38swBEcJ2xK0dMzqz1CkCk2HYn1uIkpTeKPOLUue1J/79sR 2JyFTw==
+;; Received 525 bytes from 8.8.8.8#53(8.8.8.8) in 36 ms
+
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	a.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			86400	IN	DS	19718 13 2 8ACBB0CD28F41250A80A491389424D341522D946B0DA0C0291F2D3D7 71D7805A
+com.			86400	IN	RRSIG	DS 8 1 86400 20260926050000 20260913040000 57780 . JjXSmLHfBPl4tXA6tGmJW4m5leO5z6XrVSxuBRIZ3g28JbCIJGeLRcT5 Er/iV0UtYaWdSlL9Ly/kwZGR6DBbCnMVwT7Su1c02BcocqNe+UbKd3lG nMrpYpDnyLG5I6BjEUagmkNqAEOUy/n3GPOG+AYUoNDkyqKx+vnAqzCQ NHOMwk5rqn2YmYgqht/vWB4zFrjk7uPr86ohsizu59lkRL+MZicdiTco 8/RJ9d3b9SS9zVlsB1/YjRYXby9RmZb7eE7Jwi9Zw0E1r4J4w88oWG6q rnvNcxEQfhulHyFyrXty2F4ZNC+P19ptlGt2+9OLNXHajlAlP9kH8xUt GwQDkg==
+;; Received 1185 bytes from 2001:dc3::35#53(m.root-servers.net) in 80 ms
+
+omnilucient.com.	172800	IN	NS	addyson.ns.cloudflare.com.
+omnilucient.com.	172800	IN	NS	rodrigo.ns.cloudflare.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 900 IN NSEC3 1 1 0 - CK0Q35HRS4H76G6CHNB9414CJN6S5UPL NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 900 IN RRSIG NSEC3 13 2 900 20260919002627 20260911231627 41446 com. ldLQygi9W3hURscP8Qq5I7lgcuv7AAoyotN0gZiUS/v8xX1zQtph0Hxg irN7jkeccN71Miz1VCE19RV2axf9Pw==
+JN7APR9IOJ876UMI88SBI9FA4NDTN40N.com. 900 IN NSEC3 1 1 0 - JN7B1T5VB3IH0L7E09FS567BL5KIIUAP NS DS RRSIG
+JN7APR9IOJ876UMI88SBI9FA4NDTN40N.com. 900 IN RRSIG NSEC3 13 2 900 20260919003551 20260911232551 41446 com. zbeRc99Ii+LT1QPVufDY2EMSRgqAwtSKavKkUsaNEgP9Rrj8Z09cGYUa u+oD/xXqx1ccH0lPf3wqzOalbj597Q==
+;; Received 730 bytes from 2001:502:1ca1::30#53(e.gtld-servers.net) in 56 ms
+
+omnilucient.com.	1800	IN	SOA	addyson.ns.cloudflare.com. dns.cloudflare.com. 2411415996 10000 2400 604800 1800
+;; Received 113 bytes from 2a06:98c1:50::ac40:234e#53(rodrigo.ns.cloudflare.com) in 28 ms
+
+
+=== 8. DECISION ===
+AUTHORITATIVE_DNS=FAIL
+TARGET_NOT_FOUND_AT_AUTHORITATIVE_NAMESERVERS
+FINAL_DECISION=DNS_AUTHORITY_MISMATCH

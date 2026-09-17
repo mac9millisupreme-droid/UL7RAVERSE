@@ -1,0 +1,183 @@
+UL7RAFORGE/v10/ul7rastack/state/architecture.json:16:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/state/veriscore.json:5:  "status": "VERIFIED_WITH_SCOPE",
+UL7RAFORGE/v10/ul7rastack/state/veriscore.json:23:  "unknowns": [
+UL7RAFORGE/v10/ul7rastack/state/veriscore.json:28:  "evidence_freshness": "CURRENT",
+UL7RAFORGE/v10/ul7rastack/state/veriscore.json:31:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/bootstrap.py:25:    "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/bootstrap.py:50:    "PRODUCTION": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/ca/registry/status.py:34:    "unknowns": [
+UL7RAFORGE/v10/ul7rastack/ca/registry/status.py:39:    "status": "VERIFIED_WITH_SCOPE",
+UL7RAFORGE/v10/ul7rastack/ca/registry/status.py:40:    "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/ca/state/ca_registry_status.json:25:  "unknowns": [
+UL7RAFORGE/v10/ul7rastack/ca/state/ca_registry_status.json:30:  "status": "VERIFIED_WITH_SCOPE",
+UL7RAFORGE/v10/ul7rastack/ca/state/ca_registry_status.json:31:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/veriscore/state/veriscore.json:65:  "unknowns": [
+UL7RAFORGE/v10/ul7rastack/veriscore/state/veriscore.json:70:  "evidence_freshness": "CURRENT",
+UL7RAFORGE/v10/ul7rastack/veriscore/state/veriscore.json:73:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:70:unknowns = [
+UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:77:    "VERIFIED_WITH_SCOPE"
+UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:91:    "unknowns": unknowns,
+UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:92:    "evidence_freshness": "CURRENT",
+UL7RAFORGE/v10/ul7rastack/veriscore/engine.py:95:    "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/profiles/high_assurance.py:45:    "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/profiles/gates.py:41:    "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/state/high_assurance.json:15:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/state/high_assurance_gates.json:32:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/state/evidence_registry.json:38:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/state/assurance_gate_results.json:88:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/state/assurance_gate_run.log:57:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/evidence/registry.py:83:    "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py:52:    "production": "LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/evidence/reproducible_builds.attestation.json:4:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/evidence/approved_cryptography.attestation.json:4:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/evidence/key_lifecycle.attestation.json:4:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/evidence/hardware_backed_keys.attestation.json:4:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/evidence/independent_verification.attestation.json:4:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/evidence/one_way_enforcement.attestation.json:4:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py.pre-output-path-fix:34:    "production": "LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py.backup.20260823T175318Z:34:    "production": "LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py.backup.final.20260823T175350Z:47:    "production": "LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/production_gate.py:32:    if data.get("production") == "LOCKED":
+UL7RAFORGE/v10/ul7rastack/assurance/production_gate.py:33:        blocking.append(f"{name}:production_locked")
+UL7RAFORGE/v10/ul7rastack/assurance/production_gate.py:64:    "production": "LOCKED" if blocking else "RELEASE_GATE_PENDING",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/system_snapshot.py:86:        if data.get("production") == "LOCKED":
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/system_snapshot.py:87:            blocking.append(f"{name}:PRODUCTION_LOCKED")
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/system_snapshot.py:146:            "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/system_snapshot.py:188:        "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json:12:      "evidence_registry:PRODUCTION_LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json:14:      "high_assurance:PRODUCTION_LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json:16:      "veriscore:PRODUCTION_LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json:36:    "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json:86:        "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json:111:        "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json:142:        "evidence_freshness": "CURRENT",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json:186:        "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json:191:        "unknowns": [
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/result.json:7:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/result.json:7:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/elite_execute.sh:101:    "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/elite_execute.sh:131:echo "PRODUCTION=LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/result.json:6:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/result.json:6:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/result.json:6:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/hyperquantum/hyperquantum_result.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/hyperquantum.log:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/result.json:6:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/hyperquantum/hyperquantum_result.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/hyperquantum.log:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/result.json:6:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/hyperquantum/hyperquantum_result.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/hyperquantum.log:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/result.json:6:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/hyperquantum/hyperquantum_result.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/hyperquantum.log:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/result.json:6:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/hyperquantum/hyperquantum_result.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/hyperquantum.log:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/result.json:6:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/hyperquantum/hyperquantum_result.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/hyperquantum.log:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/result.json:6:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/assurance.log:61:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/assurance.log:91:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/assurance.log:91:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/assurance.log:91:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/assurance.log:91:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/assurance.log:91:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/assurance.log:91:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/assurance_gates.py:125:        "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/continuous_gate_loop.sh:21:echo "PRODUCTION=LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/continuous_gate_loop.sh:149:        echo "PRODUCTION=LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/continuous_gate_loop.sh:158:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/continuous_gate_loop.sh:176:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/continuous_gate_loop.sh:182:    echo "PRODUCTION=LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/continuous_gate_loop.sh:192:echo "PRODUCTION=LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/ul7ra_supervisor.sh:23:        echo "PRODUCTION=LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S8/manifest.json:5:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/hyperquantum/hyperquantum_result.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/hyperquantum.log:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/evidence.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/release_gate.json:5:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/apex_hyperquantum/run.log:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/apex_hyperquantum/hyperquantum_result.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/apex_result.json:8:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/source_manifest.sha256:247:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/independent_decision.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/source_manifest.sha256:267:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/independent_decision.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/s8_baseline.sha256:247:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  v10/ul7rabridge/tests/tamper_detection.sh
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.sh:151:assert g["production"]=="LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.sh:155:print("PRODUCTION=LOCKED")
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.sh:202:    "production":"LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.sh:225:echo "PRODUCTION=LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:19:PRODUCTION=LOCKED
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:33:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:47:PRODUCTION=LOCKED
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.sh:346:    "production":"LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.sh:399:echo "PRODUCTION=LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:28:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:48:PRODUCTION=LOCKED
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:78:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:98:PRODUCTION=LOCKED
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/run_purple.sh:105:    "production":"LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/run_purple.sh:133:echo "PRODUCTION=LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/source.sha256:258:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/purple_result.json:8:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/source.sha256:264:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/purple_result.json:8:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/source.sha256:264:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/purple_result.json:8:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/run_purple.sh.bak.20260814T012432Z:104:    "production":"LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/run_purple.sh.bak.20260814T012432Z:132:echo "PRODUCTION=LOCKED"
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/source.sha256:264:e79108484a406836def3f0e5c15e6451f2f6c771621b40badd72a1b42ec9c8b9  /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/purple_result.json:8:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/20260814T013439Z/verification_record.json:17:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014655Z/verification_record.json:58:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014655Z/decision_record.json:11:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/s9_purple_binding.json:13:    "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014832Z/verification_record.json:58:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014832Z/decision_record.json:11:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015125Z/verification_record.json:56:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015125Z/decision_record.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015738Z/verification_record.json:56:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015738Z/decision_record.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015817Z/verification_record.json:56:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015817Z/decision_record.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020214Z/verification_record.json:14:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020337Z/verification_record.json:14:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020404Z/verification_record.json:14:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020543Z/verification_record.json:11:    "PRODUCTION_LOCKED": true,
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020543Z/verification_record.json:27:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020632Z/verification_record.json:11:    "PRODUCTION_LOCKED": true,
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020632Z/verification_record.json:27:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/external/20260814T044657Z/verification_record.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/external/20260823T043056Z/verification_record.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/external/20260823T043238Z/verification_record.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/external/20260823T043823Z/verification_record.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/external/20260823T043928Z/verification_record.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/external/20260823T044013Z/verification_record.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:11:PRODUCTION=LOCKED
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:25:PRODUCTION=LOCKED
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:44:PRODUCTION=LOCKED
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:63:PRODUCTION=LOCKED
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:82:PRODUCTION=LOCKED
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:101:PRODUCTION=LOCKED
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:120:PRODUCTION=LOCKED
+UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:139:PRODUCTION=LOCKED
+UL7RAFORGE/v10/ul7rastack/hyperquantum/core/stack.py:99:    print("PRODUCTION_UNLOCK=BLOCKED")
+UL7RAFORGE/v10/ul7rastack/hyperquantum/verification/run.py:34:    "production":"LOCKED",
+UL7RAFORGE/v10/ul7rastack/hyperquantum/state/20260813T214435Z/hyperquantum_result.json:9:  "production": "LOCKED",
+UL7RAFORGE/v10/ul7rastack/hyperquantum/state/current_hyperquantum_result.json:9:  "production": "LOCKED",

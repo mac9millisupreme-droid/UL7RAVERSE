@@ -1,0 +1,28 @@
+{
+  "claims": {
+    "authority": "NOT_DETERMINED",
+    "canonicality": "NOT_DETERMINED",
+    "production_modification": "NONE",
+    "production_readiness": "NOT_DETERMINED",
+    "proof_validity": "NOT_DETERMINED",
+    "source_modification": "NONE"
+  },
+  "counts": {
+    "authority_candidates": 184,
+    "components": 3178,
+    "diagnostic_candidates": 130,
+    "existing_evidence_candidates": 2169,
+    "files_discovered": 3178,
+    "luci_test_candidates": 33,
+    "proof_candidates": 1704,
+    "subsystem_references": 4492
+  },
+  "decision": "REVIEW_REQUIRED",
+  "governance": {
+    "no_fabricated_pass": true,
+    "phase0_read_only": true,
+    "proof_does_not_grant_authority": true,
+    "unknown_remains_unknown": true
+  },
+  "phase": "PHASE0_FORENSIC_DISCOVERY"
+}

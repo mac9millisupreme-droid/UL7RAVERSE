@@ -1,0 +1,605 @@
+============================= test session starts ==============================
+platform android -- Python 3.14.6, pytest-9.1.1, pluggy-1.6.0 -- /data/data/com.termux/files/usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /data/data/com.termux/files/home/UL7RAVERSE
+collecting ... collected 64 items
+
+racing/tests/test_ail_adversarial.py::test_adversarial_detects_temporal_violation PASSED [  1%]
+racing/tests/test_ail_adversarial.py::test_adversarial_invalid_odds PASSED [  3%]
+racing/tests/test_ail_decision.py::test_value_candidate PASSED           [  4%]
+racing/tests/test_ail_decision.py::test_blocked_prospective_truth PASSED [  6%]
+racing/tests/test_ail_decision.py::test_no_bet_uncalibrated PASSED       [  7%]
+racing/tests/test_ail_invariants.py::test_ail_blocks_on_temporal_violation PASSED [  9%]
+racing/tests/test_ail_invariants.py::test_ail_insufficient_data_missing_ev PASSED [ 10%]
+racing/tests/test_ail_provenance.py::test_provenance_missing_fields PASSED [ 12%]
+racing/tests/test_ail_provenance.py::test_provenance_pass PASSED         [ 14%]
+racing/tests/test_ail_replay.py::test_replay_valid PASSED                [ 15%]
+racing/tests/test_ail_replay.py::test_replay_invalid PASSED              [ 17%]
+racing/tests/test_ail_shadow.py::test_shadow_within_tolerance PASSED     [ 18%]
+racing/tests/test_ail_shadow.py::test_shadow_exceeds_tolerance PASSED    [ 20%]
+racing/tests/test_ail_temporal.py::test_temporal_pass PASSED             [ 21%]
+racing/tests/test_ail_temporal.py::test_temporal_future_feature PASSED   [ 23%]
+racing/tests/test_ail_temporal.py::test_temporal_race_before_decision PASSED [ 25%]
+racing/tests/test_core.py::test_market_probability PASSED                [ 26%]
+racing/tests/test_core.py::test_edge PASSED                              [ 28%]
+racing/tests/test_core.py::test_expected_value PASSED                    [ 29%]
+racing/tests/test_core.py::test_missing_odds_produces_no_market_probability PASSED [ 31%]
+racing/tests/test_core.py::test_invalid_odds_produce_no_market_probability PASSED [ 32%]
+racing/tests/test_core.py::test_missing_market_prevents_value PASSED     [ 34%]
+racing/tests/test_decision_composer.py::test_value_candidate PASSED      [ 35%]
+racing/tests/test_decision_composer.py::test_no_bet_uncalibrated PASSED  [ 37%]
+racing/tests/test_decision_composer.py::test_no_bet_out_of_distribution PASSED [ 39%]
+racing/tests/test_decision_composer.py::test_needs_review_model_disagreement PASSED [ 40%]
+racing/tests/test_decision_composer.py::test_insufficient_data PASSED    [ 42%]
+racing/tests/test_latent_ability.py::test_zero_observations PASSED       [ 43%]
+racing/tests/test_latent_ability.py::test_one_observation PASSED         [ 45%]
+racing/tests/test_latent_ability.py::test_constant_observations PASSED   [ 46%]
+racing/tests/test_latent_ability.py::test_invalid_inputs PASSED          [ 48%]
+racing/tests/test_latent_ability.py::test_deterministic PASSED           [ 50%]
+racing/tests/test_market_intelligence.py::test_market_probability PASSED [ 51%]
+racing/tests/test_market_intelligence.py::test_invalid_odds PASSED       [ 53%]
+racing/tests/test_market_intelligence.py::test_normalize_market PASSED   [ 54%]
+racing/tests/test_market_intelligence.py::test_edge PASSED               [ 56%]
+racing/tests/test_market_intelligence.py::test_ev PASSED                 [ 57%]
+racing/tests/test_market_intelligence.py::test_ev_invalid_odds PASSED    [ 59%]
+racing/tests/test_phase2_adversarial.py::test_future_timestamp_rejected PASSED [ 60%]
+racing/tests/test_phase2_adversarial.py::test_nan_score_rejected PASSED  [ 62%]
+racing/tests/test_phase2_adversarial.py::test_infinite_score_rejected PASSED [ 64%]
+racing/tests/test_phase2_adversarial.py::test_duplicate_horse_ids_not_silently_merged PASSED [ 65%]
+racing/tests/test_phase3_adversarial.py::test_future_feature_rejected PASSED [ 67%]
+racing/tests/test_phase3_adversarial.py::test_malformed_timestamp_rejected PASSED [ 68%]
+racing/tests/test_phase3_adversarial.py::test_duplicate_horse_not_silently_merged PASSED [ 70%]
+racing/tests/test_phase3_adversarial.py::test_empty_race_ok PASSED       [ 71%]
+racing/tests/test_phase3_evidence.py::test_valid_package PASSED          [ 73%]
+racing/tests/test_phase3_evidence.py::test_future_feature_timestamp PASSED [ 75%]
+racing/tests/test_phase3_evidence.py::test_future_ability_observation PASSED [ 76%]
+racing/tests/test_phase3_evidence.py::test_race_before_decision PASSED   [ 78%]
+racing/tests/test_phase3_evidence.py::test_horse_coverage PASSED         [ 79%]
+racing/tests/test_phase3_evidence.py::test_deterministic_serialization PASSED [ 81%]
+racing/tests/test_phase3_evidence.py::test_no_random_values PASSED       [ 82%]
+racing/tests/test_probability_engine.py::test_baseline_probability PASSED [ 84%]
+racing/tests/test_probability_engine.py::test_baseline_zero_entries PASSED [ 85%]
+racing/tests/test_probability_engine.py::test_probability_estimate_validation PASSED [ 87%]
+racing/tests/test_probability_engine.py::test_probability_out_of_bounds PASSED [ 89%]
+racing/tests/test_race_state_reconstruction.py::test_valid_snapshot PASSED [ 90%]
+racing/tests/test_race_state_reconstruction.py::test_future_entry_timestamp PASSED [ 92%]
+racing/tests/test_race_state_reconstruction.py::test_race_before_decision PASSED [ 93%]
+racing/tests/test_race_state_reconstruction.py::test_equal_timestamp_allowed PASSED [ 95%]
+racing/tests/test_race_state_reconstruction.py::test_missing_observation_timestamp_with_evidence PASSED [ 96%]
+racing/tests/test_uncertainty_propagation.py::test_combine_uncertainties PASSED [ 98%]
+racing/tests/test_uncertainty_propagation.py::test_combine_uncertainties_unknown PASSED [100%]
+
+============================== 64 passed in 0.99s ==============================
+EXIT_CODE: 0
+
+==================================== ERRORS ====================================
+_________ ERROR collecting products/ul7ra-verify/tests/test_server.py __________
+
+self = <urllib.request.HTTPHandler object at 0xb32e40e8>
+http_class = <class 'http.client.HTTPConnection'>
+req = <urllib.request.Request object at 0xb31fb6a8>, http_conn_args = {}
+
+    def do_open(self, http_class, req, **http_conn_args):
+        """Return an HTTPResponse object for the request, using http_class.
+    
+        http_class must implement the HTTPConnection API from http.client.
+        """
+        host = req.host
+        if not host:
+            raise URLError('no host given')
+    
+        # will parse host:port
+        h = http_class(host, timeout=req.timeout, **http_conn_args)
+        h.set_debuglevel(self._debuglevel)
+    
+        headers = dict(req.unredirected_hdrs)
+        headers.update({k: v for k, v in req.headers.items()
+                        if k not in headers})
+    
+        # TODO(jhylton): Should this be redesigned to handle
+        # persistent connections?
+    
+        # We want to make an HTTP/1.1 request, but the addinfourl
+        # class isn't prepared to deal with a persistent connection.
+        # It will try to read all remaining data from the socket,
+        # which will block while the server waits for the next request.
+        # So make sure the connection gets closed after the (only)
+        # request.
+        headers["Connection"] = "close"
+        headers = {name.title(): val for name, val in headers.items()}
+    
+        if req._tunnel_host:
+            tunnel_headers = {}
+            proxy_auth_hdr = "Proxy-Authorization"
+            if proxy_auth_hdr in headers:
+                tunnel_headers[proxy_auth_hdr] = headers[proxy_auth_hdr]
+                # Proxy-Authorization should not be sent to origin
+                # server.
+                del headers[proxy_auth_hdr]
+            h.set_tunnel(req._tunnel_host, headers=tunnel_headers)
+    
+        try:
+            try:
+>               h.request(req.get_method(), req.selector, req.data, headers,
+                          encode_chunked=req.has_header('Transfer-encoding'))
+
+../../usr/lib/python3.14/urllib/request.py:1321: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <http.client.HTTPConnection object at 0xb31fb760>, method = 'GET'
+url = '/health', body = None
+headers = {'Host': '127.0.0.1:8787', 'User-Agent': 'Python-urllib/3.14', 'Connection': 'close'}
+encode_chunked = False
+
+    def request(self, method, url, body=None, headers={}, *,
+                encode_chunked=False):
+        """Send a complete request to the server."""
+>       self._send_request(method, url, body, headers, encode_chunked)
+
+../../usr/lib/python3.14/http/client.py:1367: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <http.client.HTTPConnection object at 0xb31fb760>, method = 'GET'
+url = '/health', body = None
+headers = {'Host': '127.0.0.1:8787', 'User-Agent': 'Python-urllib/3.14', 'Connection': 'close'}
+encode_chunked = False
+
+    def _send_request(self, method, url, body, headers, encode_chunked):
+        # Honor explicitly requested Host: and Accept-Encoding: headers.
+        header_names = frozenset(k.lower() for k in headers)
+        skips = {}
+        if 'host' in header_names:
+            skips['skip_host'] = 1
+        if 'accept-encoding' in header_names:
+            skips['skip_accept_encoding'] = 1
+    
+        self.putrequest(method, url, **skips)
+    
+        # chunked encoding will happen if HTTP/1.1 is used and either
+        # the caller passes encode_chunked=True or the following
+        # conditions hold:
+        # 1. content-length has not been explicitly set
+        # 2. the body is a file or iterable, but not a str or bytes-like
+        # 3. Transfer-Encoding has NOT been explicitly set by the caller
+    
+        if 'content-length' not in header_names:
+            # only chunk body if not explicitly set for backwards
+            # compatibility, assuming the client code is already handling the
+            # chunking
+            if 'transfer-encoding' not in header_names:
+                # if content-length cannot be automatically determined, fall
+                # back to chunked encoding
+                encode_chunked = False
+                content_length = self._get_content_length(body, method)
+                if content_length is None:
+                    if body is not None:
+                        if self.debuglevel > 0:
+                            print('Unable to determine size of %r' % body)
+                        encode_chunked = True
+                        self.putheader('Transfer-Encoding', 'chunked')
+                else:
+                    self.putheader('Content-Length', str(content_length))
+        else:
+            encode_chunked = False
+    
+        for hdr, value in headers.items():
+            self.putheader(hdr, value)
+        if isinstance(body, str):
+            # RFC 2616 Section 3.7.1 says that text default has a
+            # default charset of iso-8859-1.
+            body = _encode(body, 'body')
+>       self.endheaders(body, encode_chunked=encode_chunked)
+
+../../usr/lib/python3.14/http/client.py:1413: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <http.client.HTTPConnection object at 0xb31fb760>, message_body = None
+encode_chunked = False
+
+    def endheaders(self, message_body=None, *, encode_chunked=False):
+        """Indicate that the last header line has been sent to the server.
+    
+        This method sends the request to the server.  The optional message_body
+        argument can be used to pass a message body associated with the
+        request.
+        """
+        if self.__state == _CS_REQ_STARTED:
+            self.__state = _CS_REQ_SENT
+        else:
+            raise CannotSendHeader()
+>       self._send_output(message_body, encode_chunked=encode_chunked)
+
+../../usr/lib/python3.14/http/client.py:1362: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <http.client.HTTPConnection object at 0xb31fb760>, message_body = None
+encode_chunked = False
+
+    def _send_output(self, message_body=None, encode_chunked=False):
+        """Send the currently buffered request and clear the buffer.
+    
+        Appends an extra \\r\\n to the buffer.
+        A message_body may be specified, to be appended to the request.
+        """
+        self._buffer.extend((b"", b""))
+        msg = b"\r\n".join(self._buffer)
+        del self._buffer[:]
+>       self.send(msg)
+
+../../usr/lib/python3.14/http/client.py:1122: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <http.client.HTTPConnection object at 0xb31fb760>
+data = b'GET /health HTTP/1.1\r\nAccept-Encoding: identity\r\nHost: 127.0.0.1:8787\r\nUser-Agent: Python-urllib/3.14\r\nConnection: close\r\n\r\n'
+
+    def send(self, data):
+        """Send 'data' to the server.
+        ``data`` can be a string object, a bytes object, an array object, a
+        file-like object that supports a .read() method, or an iterable object.
+        """
+    
+        if self.sock is None:
+            if self.auto_open:
+>               self.connect()
+
+../../usr/lib/python3.14/http/client.py:1066: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <http.client.HTTPConnection object at 0xb31fb760>
+
+    def connect(self):
+        """Connect to the host and port specified in __init__."""
+        sys.audit("http.client.connect", self, self.host, self.port)
+>       self.sock = self._create_connection(
+            (self.host,self.port), self.timeout, self.source_address)
+
+../../usr/lib/python3.14/http/client.py:1032: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+address = ('127.0.0.1', 8787), timeout = <object object at 0xb4c8f8c0>
+source_address = None, all_errors = False
+
+    def create_connection(address, timeout=_GLOBAL_DEFAULT_TIMEOUT,
+                          source_address=None, *, all_errors=False):
+        """Connect to *address* and return the socket object.
+    
+        Convenience function.  Connect to *address* (a 2-tuple ``(host,
+        port)``) and return the socket object.  Passing the optional
+        *timeout* parameter will set the timeout on the socket instance
+        before attempting to connect.  If no *timeout* is supplied, the
+        global default timeout setting returned by :func:`getdefaulttimeout`
+        is used.  If *source_address* is set it must be a tuple of (host, port)
+        for the socket to bind as a source address before making the connection.
+        A host of '' or port 0 tells the OS to use the default. When a connection
+        cannot be created, raises the last error if *all_errors* is False,
+        and an ExceptionGroup of all errors if *all_errors* is True.
+        """
+    
+        host, port = address
+        exceptions = []
+        for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+            af, socktype, proto, canonname, sa = res
+            sock = None
+            try:
+                sock = socket(af, socktype, proto)
+                if timeout is not _GLOBAL_DEFAULT_TIMEOUT:
+                    sock.settimeout(timeout)
+                if source_address:
+                    sock.bind(source_address)
+                sock.connect(sa)
+                # Break explicitly a reference cycle
+                exceptions.clear()
+                return sock
+    
+            except error as exc:
+                if not all_errors:
+                    exceptions.clear()  # raise only the last error
+                exceptions.append(exc)
+                if sock is not None:
+                    sock.close()
+    
+        if len(exceptions):
+            try:
+                if not all_errors:
+>                   raise exceptions[0]
+
+../../usr/lib/python3.14/socket.py:874: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+address = ('127.0.0.1', 8787), timeout = <object object at 0xb4c8f8c0>
+source_address = None, all_errors = False
+
+    def create_connection(address, timeout=_GLOBAL_DEFAULT_TIMEOUT,
+                          source_address=None, *, all_errors=False):
+        """Connect to *address* and return the socket object.
+    
+        Convenience function.  Connect to *address* (a 2-tuple ``(host,
+        port)``) and return the socket object.  Passing the optional
+        *timeout* parameter will set the timeout on the socket instance
+        before attempting to connect.  If no *timeout* is supplied, the
+        global default timeout setting returned by :func:`getdefaulttimeout`
+        is used.  If *source_address* is set it must be a tuple of (host, port)
+        for the socket to bind as a source address before making the connection.
+        A host of '' or port 0 tells the OS to use the default. When a connection
+        cannot be created, raises the last error if *all_errors* is False,
+        and an ExceptionGroup of all errors if *all_errors* is True.
+        """
+    
+        host, port = address
+        exceptions = []
+        for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+            af, socktype, proto, canonname, sa = res
+            sock = None
+            try:
+                sock = socket(af, socktype, proto)
+                if timeout is not _GLOBAL_DEFAULT_TIMEOUT:
+                    sock.settimeout(timeout)
+                if source_address:
+                    sock.bind(source_address)
+>               sock.connect(sa)
+E               ConnectionRefusedError: [Errno 111] Connection refused
+
+../../usr/lib/python3.14/socket.py:859: ConnectionRefusedError
+
+During handling of the above exception, another exception occurred:
+
+    import hashlib
+    import json
+    import subprocess
+    import sys
+    import time
+    import urllib.request
+    
+    p = subprocess.Popen(
+        [sys.executable, "app/server.py"],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE
+    )
+    
+    try:
+        time.sleep(1)
+    
+>       health = urllib.request.urlopen(
+            "http://127.0.0.1:8787/health"
+        ).read()
+
+products/ul7ra-verify/tests/test_server.py:17: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+url = 'http://127.0.0.1:8787/health', data = None
+timeout = <object object at 0xb4c8f8c0>, context = None
+
+    def urlopen(url, data=None, timeout=socket._GLOBAL_DEFAULT_TIMEOUT,
+                *, context=None):
+        '''Open the URL url, which can be either a string or a Request object.
+    
+        *data* must be an object specifying additional data to be sent to
+        the server, or None if no such data is needed.  See Request for
+        details.
+    
+        urllib.request module uses HTTP/1.1 and includes a "Connection:close"
+        header in its HTTP requests.
+    
+        The optional *timeout* parameter specifies a timeout in seconds for
+        blocking operations like the connection attempt (if not specified, the
+        global default timeout setting will be used). This only works for HTTP,
+        HTTPS and FTP connections.
+    
+        If *context* is specified, it must be a ssl.SSLContext instance describing
+        the various SSL options. See HTTPSConnection for more details.
+    
+    
+        This function always returns an object which can work as a
+        context manager and has the properties url, headers, and status.
+        See urllib.response.addinfourl for more detail on these properties.
+    
+        For HTTP and HTTPS URLs, this function returns a http.client.HTTPResponse
+        object slightly modified. In addition to the three new methods above, the
+        msg attribute contains the same information as the reason attribute ---
+        the reason phrase returned by the server --- instead of the response
+        headers as it is specified in the documentation for HTTPResponse.
+    
+        For FTP, file, and data URLs, this function returns a
+        urllib.response.addinfourl object.
+    
+        Note that None may be returned if no handler handles the request (though
+        the default installed global OpenerDirector uses UnknownHandler to ensure
+        this never happens).
+    
+        In addition, if proxy settings are detected (for example, when a *_proxy
+        environment variable like http_proxy is set), ProxyHandler is default
+        installed and makes sure the requests are handled through the proxy.
+    
+        '''
+        global _opener
+        if context:
+            https_handler = HTTPSHandler(context=context)
+            opener = build_opener(https_handler)
+        elif _opener is None:
+            _opener = opener = build_opener()
+        else:
+            opener = _opener
+>       return opener.open(url, data, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+../../usr/lib/python3.14/urllib/request.py:187: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <urllib.request.OpenerDirector object at 0xb33a0d20>
+fullurl = 'http://127.0.0.1:8787/health', data = None
+timeout = <object object at 0xb4c8f8c0>
+
+    def open(self, fullurl, data=None, timeout=socket._GLOBAL_DEFAULT_TIMEOUT):
+        # accept a URL or a Request object
+        if isinstance(fullurl, str):
+            req = Request(fullurl, data)
+        else:
+            req = fullurl
+            if data is not None:
+                req.data = data
+    
+        req.timeout = timeout
+        protocol = req.type
+    
+        # pre-process request
+        meth_name = protocol+"_request"
+        for processor in self.process_request.get(protocol, []):
+            meth = getattr(processor, meth_name)
+            req = meth(req)
+    
+        sys.audit('urllib.Request', req.full_url, req.data, req.headers, req.get_method())
+>       response = self._open(req, data)
+                   ^^^^^^^^^^^^^^^^^^^^^
+
+../../usr/lib/python3.14/urllib/request.py:487: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <urllib.request.OpenerDirector object at 0xb33a0d20>
+req = <urllib.request.Request object at 0xb31fb6a8>, data = None
+
+    def _open(self, req, data=None):
+        result = self._call_chain(self.handle_open, 'default',
+                                  'default_open', req)
+        if result:
+            return result
+    
+        protocol = req.type
+>       result = self._call_chain(self.handle_open, protocol, protocol +
+                                  '_open', req)
+
+../../usr/lib/python3.14/urllib/request.py:504: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <urllib.request.OpenerDirector object at 0xb33a0d20>
+chain = {'unknown': [<urllib.request.UnknownHandler object at 0xb33a0dd8>], 'http': [<urllib.request.HTTPHandler object at 0xb...: [<urllib.request.FTPHandler object at 0xb32e46a8>], 'file': [<urllib.request.FileHandler object at 0xb32e4988>], ...}
+kind = 'http', meth_name = 'http_open'
+args = (<urllib.request.Request object at 0xb31fb6a8>,)
+
+    def _call_chain(self, chain, kind, meth_name, *args):
+        # Handlers raise an exception if no one else should try to handle
+        # the request, or return None if they can't but another handler
+        # could.  Otherwise, they return the response.
+        handlers = chain.get(kind, ())
+        for handler in handlers:
+            func = getattr(handler, meth_name)
+>           result = func(*args)
+                     ^^^^^^^^^^^
+
+../../usr/lib/python3.14/urllib/request.py:464: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <urllib.request.HTTPHandler object at 0xb32e40e8>
+req = <urllib.request.Request object at 0xb31fb6a8>
+
+    def http_open(self, req):
+>       return self.do_open(http.client.HTTPConnection, req)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+../../usr/lib/python3.14/urllib/request.py:1350: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <urllib.request.HTTPHandler object at 0xb32e40e8>
+http_class = <class 'http.client.HTTPConnection'>
+req = <urllib.request.Request object at 0xb31fb6a8>, http_conn_args = {}
+
+    def do_open(self, http_class, req, **http_conn_args):
+        """Return an HTTPResponse object for the request, using http_class.
+    
+        http_class must implement the HTTPConnection API from http.client.
+        """
+        host = req.host
+        if not host:
+            raise URLError('no host given')
+    
+        # will parse host:port
+        h = http_class(host, timeout=req.timeout, **http_conn_args)
+        h.set_debuglevel(self._debuglevel)
+    
+        headers = dict(req.unredirected_hdrs)
+        headers.update({k: v for k, v in req.headers.items()
+                        if k not in headers})
+    
+        # TODO(jhylton): Should this be redesigned to handle
+        # persistent connections?
+    
+        # We want to make an HTTP/1.1 request, but the addinfourl
+        # class isn't prepared to deal with a persistent connection.
+        # It will try to read all remaining data from the socket,
+        # which will block while the server waits for the next request.
+        # So make sure the connection gets closed after the (only)
+        # request.
+        headers["Connection"] = "close"
+        headers = {name.title(): val for name, val in headers.items()}
+    
+        if req._tunnel_host:
+            tunnel_headers = {}
+            proxy_auth_hdr = "Proxy-Authorization"
+            if proxy_auth_hdr in headers:
+                tunnel_headers[proxy_auth_hdr] = headers[proxy_auth_hdr]
+                # Proxy-Authorization should not be sent to origin
+                # server.
+                del headers[proxy_auth_hdr]
+            h.set_tunnel(req._tunnel_host, headers=tunnel_headers)
+    
+        try:
+            try:
+                h.request(req.get_method(), req.selector, req.data, headers,
+                          encode_chunked=req.has_header('Transfer-encoding'))
+            except OSError as err: # timeout error
+>               raise URLError(err)
+E               urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
+
+../../usr/lib/python3.14/urllib/request.py:1324: URLError
+=========================== short test summary info ============================
+ERROR products/ul7ra-verify/tests/test_server.py - urllib.error.URLError: <ur...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+42 deselected, 1 error in 10.38s
+EXIT_CODE: 2
+
+==================================== ERRORS ====================================
+_________ ERROR collecting products/ul7ra-verify/tests/test_server.py __________
+../../usr/lib/python3.14/urllib/request.py:1321: in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+../../usr/lib/python3.14/http/client.py:1367: in request
+    self._send_request(method, url, body, headers, encode_chunked)
+../../usr/lib/python3.14/http/client.py:1413: in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+../../usr/lib/python3.14/http/client.py:1362: in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+../../usr/lib/python3.14/http/client.py:1122: in _send_output
+    self.send(msg)
+../../usr/lib/python3.14/http/client.py:1066: in send
+    self.connect()
+../../usr/lib/python3.14/http/client.py:1032: in connect
+    self.sock = self._create_connection(
+../../usr/lib/python3.14/socket.py:874: in create_connection
+    raise exceptions[0]
+../../usr/lib/python3.14/socket.py:859: in create_connection
+    sock.connect(sa)
+E   ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+products/ul7ra-verify/tests/test_server.py:17: in <module>
+    health = urllib.request.urlopen(
+../../usr/lib/python3.14/urllib/request.py:187: in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../usr/lib/python3.14/urllib/request.py:487: in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+../../usr/lib/python3.14/urllib/request.py:504: in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+../../usr/lib/python3.14/urllib/request.py:464: in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+../../usr/lib/python3.14/urllib/request.py:1350: in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../usr/lib/python3.14/urllib/request.py:1324: in do_open
+    raise URLError(err)
+E   urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
+=========================== short test summary info ============================
+ERROR products/ul7ra-verify/tests/test_server.py - urllib.error.URLError: <ur...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 10.04s
+EXIT_CODE: 2

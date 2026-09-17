@@ -1,0 +1,3 @@
+verify.omnilucient.com FAILED gaierror(7, 'No address associated with hostname')
+omnilucient.com RESOLVED ['172.64.80.1', '2606:4700:130:436c:6f75:6466:6c61:7265']
+cloudflare.com RESOLVED ['104.16.132.229', '104.16.133.229', '2606:4700::6810:84e5', '2606:4700::6810:85e5']

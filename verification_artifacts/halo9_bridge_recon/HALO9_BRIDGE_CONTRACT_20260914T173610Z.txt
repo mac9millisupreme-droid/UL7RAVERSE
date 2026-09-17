@@ -1,0 +1,166 @@
+==================================================
+ HALO9 → UL7RABRIDGE CONTRACT INSPECTION
+ READ ONLY
+==================================================
+TIMESTAMP=20260914T173610Z
+BRIDGE=/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge
+
+=== CARGO MANIFEST ===
+[package]
+name = "cheetah"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+
+=== MAIN.RS ===
+use serde::{Deserialize, Serialize};
+use sha2::{Digest, Sha256};
+use std::time::{SystemTime, UNIX_EPOCH};
+
+#[derive(Serialize, Deserialize)]
+struct Envelope {
+    id: String,
+    direction: String,
+    classification: String,
+    payload_sha256: String,
+    timestamp: u64,
+}
+
+fn main() {
+    let direction = std::env::var("CHEETAH_DIRECTION")
+        .unwrap_or_else(|_| "SOVEREIGN_TO_EXTERNAL".into());
+
+    if direction != "SOVEREIGN_TO_EXTERNAL" {
+        eprintln!("CHEETAH DENY: prohibited direction");
+        std::process::exit(1);
+    }
+
+    let payload = std::env::args()
+        .nth(1)
+        .unwrap_or_else(|| "EMPTY".into());
+
+    let mut hasher = Sha256::new();
+    hasher.update(payload.as_bytes());
+
+    let timestamp = SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .unwrap()
+        .as_secs();
+
+    let envelope = Envelope {
+        id: format!("CHEETAH-{}", timestamp),
+        direction,
+        classification: "UNCLASSIFIED".into(),
+        payload_sha256: format!("{:x}", hasher.finalize()),
+        timestamp,
+    };
+
+    println!("{}", serde_json::to_string_pretty(&envelope).unwrap());
+}
+
+=== CHEETAH MAIN.RS ===
+use serde::{Deserialize, Serialize};
+use sha2::{Digest, Sha256};
+use std::time::{SystemTime, UNIX_EPOCH};
+
+#[derive(Serialize, Deserialize)]
+struct Envelope {
+    id: String,
+    direction: String,
+    classification: String,
+    payload_sha256: String,
+    timestamp: u64,
+}
+
+fn main() {
+    let payload = std::env::args()
+        .nth(1)
+        .unwrap_or_else(|| "EMPTY".to_string());
+
+    let mut hasher = Sha256::new();
+    hasher.update(payload.as_bytes());
+
+    let digest = format!("{:x}", hasher.finalize());
+
+    let timestamp = SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .unwrap()
+        .as_secs();
+
+    let envelope = Envelope {
+        id: format!("CHEETAH-{}", timestamp),
+        direction: "SOVEREIGN_TO_EXTERNAL".into(),
+        classification: "UNCLASSIFIED".into(),
+        payload_sha256: digest,
+        timestamp,
+    };
+
+    println!("{}", serde_json::to_string_pretty(&envelope).unwrap());
+}
+
+=== SOURCE TREE ===
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.toml
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/canada/policy/canada_only.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/ghost/create.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/ghost/templates/manifest.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/policy/cheetah.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/state/invariants.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/__pycache__/live_status_regression.cpython-314.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/__pycache__/security_assurance.cpython-314.pyc
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/cheetah_regression.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+
+=== PUBLIC API SEARCH ===
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:1:use serde::{Deserialize, Serialize};
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:8:    direction: String,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:14:fn main() {
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:15:    let direction = std::env::var("CHEETAH_DIRECTION")
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:18:    if direction != "SOVEREIGN_TO_EXTERNAL" {
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:19:        eprintln!("CHEETAH DENY: prohibited direction");
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:23:    let payload = std::env::args()
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:36:        id: format!("CHEETAH-{}", timestamp),
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:37:        direction,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:43:    println!("{}", serde_json::to_string_pretty(&envelope).unwrap());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:1:use serde::{Deserialize, Serialize};
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:8:    direction: String,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:14:fn main() {
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:15:    let payload = std::env::args()
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:30:        id: format!("CHEETAH-{}", timestamp),
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:31:        direction: "SOVEREIGN_TO_EXTERNAL".into(),
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:37:    println!("{}", serde_json::to_string_pretty(&envelope).unwrap());
+
+=== BUILD STATUS ===
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.66s
+
+CARGO_CHECK_RC=0
+
+=== DECISION ===
+HALO9_BRIDGE_CONTRACT_DECISION=REVIEW_REQUIRED
+REASON=bridge_builds_but_public_authority_contract_must_be_explicit_before_integration
+
+HALO9_V2=VERIFIED
+HALO9_V2_TESTS=13_PASS
+SOURCE_MODIFICATION=NONE
+PRODUCTION_CRYPTO=NOT_CONFIGURED
+PRODUCTION_UNLOCK=BLOCKED
+REPORT=/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/halo9_bridge_recon/HALO9_BRIDGE_CONTRACT_20260914T173610Z.txt
+
+==================================================
+ CONTRACT INSPECTION COMPLETE
+==================================================

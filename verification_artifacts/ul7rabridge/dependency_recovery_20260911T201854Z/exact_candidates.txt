@@ -1,0 +1,3 @@
+./UL7RAFORGE/ul7rastack/live/state/live_status.json
+./UL7RAFORGE/ul7rastack/security/state/live_security.json
+./UL7RAFORGE/ul7rastack/verifier/src/verify.py

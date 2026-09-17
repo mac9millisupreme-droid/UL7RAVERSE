@@ -1,0 +1,15 @@
+{
+  "edges": [],
+  "nodes": [
+    "HALO9",
+    "LuciDeploy",
+    "NODE9",
+    "UL7RA4ORGE",
+    "UL7RABRIDGE",
+    "UL7RAPROOF",
+    "UL7RASTACK",
+    "UL7RAVERSE"
+  ],
+  "reason": "Phase 0 discovery does not establish dependency authority.",
+  "status": "REVIEW_REQUIRED"
+}

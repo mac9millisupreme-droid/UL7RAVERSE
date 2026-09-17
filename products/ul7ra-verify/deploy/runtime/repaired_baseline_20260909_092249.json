@@ -1,0 +1,18 @@
+{
+  "artifact_type": "UL7RAVERSE_REPAIRED_BASELINE",
+  "timestamp_utc": "2026-09-09T09:22:56Z",
+  "git_head": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+  "results": {
+    "racing": "PASS",
+    "ail": "PASS",
+    "determinism": "PASS",
+    "replay": "PASS",
+    "production_changed": "NO",
+    "governance_changed": "NO"
+  },
+  "overall": "PASS",
+  "evidence_logs": {
+    "racing": "/data/data/com.termux/files/home/UL7RAVERSE/racing/repair_logs/baseline_freeze/racing_20260909_092249.log",
+    "ail": "/data/data/com.termux/files/home/UL7RAVERSE/racing/repair_logs/baseline_freeze/ail_20260909_092249.log"
+  }
+}

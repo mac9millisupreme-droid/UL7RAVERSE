@@ -1,0 +1,15 @@
+ID	SOURCE	TARGET	OFFER	PRICE	TIME_TO_CASH	MARGIN	DEMAND	ACCESS	RECURRING	RISK	STATUS	NEXT_ACTION
+FAIR-B2B-001	Western Fair 2026	Vendors/Exhibitors	Permitted digital promotion/content/creator service	UNKNOWN	FAST	HIGH_POTENTIAL	PROBABLE	PERMISSION_REQUIRED	HIGH
+MEDIUM	PROBABLE	Identify permitted commercial contact pathway							
+FAIR-SPONSOR-001	Western Fair 2026	Sponsors/Organizations	Digital/media/creator infrastructure partnership	UNKNOWN	MEDIUM	HIGH_POTENTIAL	PROBABLE	CONTACT_REQUIRED	HIGH
+MEDIUM	PROBABLE	Identify official sponsorship pathway							
+CREATOR-001	MAC9RECORDS	Independent artists/creators	Music presentation / archive / promotion package	50-500	FAST	HIGH_POTENTIAL	PLAUSIBLE	AVAILABLE	HIGH
+LOW	PLAUSIBLE	Prepare smallest paid creator offer							
+MASTER-001	MAC9RECORDS	Artists	Mastering / audio finishing service	UNKNOWN	FAST	HIGH	PLAUSIBLE	AVAILABLE	MEDIUM
+LOW	PLAUSIBLE	Locate existing mastering workflow and create transaction-ready offer							
+UL7RAPASS-001	UL7RAVERSE	Members	UL7RAPASS	500	FAST	HIGH_POTENTIAL	EXISTING_OFFER	PAYMENT_RAIL_BLOCKED	HIGH
+MEDIUM	BLOCKED	Activate verified live payment path							
+UL7RA-B2B-001	UL7RAVERSE	Businesses	Continuous verification / proof pilot	250-5000	MEDIUM	HIGH	PROBABLE	OUTREACH_REQUIRED	HIGH
+MEDIUM	PROBABLE	Build smallest verifiable B2B pilot offer							
+MEMBERSHIP-001	INSIGHT/MAC9RECORDS	Readers/creators	Membership access	100-500+	MEDIUM	HIGH	PLAUSIBLE	PARTIAL	HIGH
+MEDIUM	PLAUSIBLE	Activate only currently implemented entitlements							

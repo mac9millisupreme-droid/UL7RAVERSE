@@ -1,0 +1,345 @@
+=== UL7RABRIDGE V10 TEST CORRELATION ===
+HEAD=63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+BRIDGE=UL7RAFORGE/v10/ul7rabridge
+
+=== TEST SOURCE: UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh ===
+     1	#!/data/data/com.termux/files/usr/bin/bash
+     2	set -eu
+     3	
+     4	BASE="$(cd "$(dirname "$0")/.." && pwd)"
+     5	MANIFEST="$BASE/ghost/templates/manifest.json"
+     6	
+     7	python - "$MANIFEST" <<'PY'
+     8	import json, sys
+     9	
+    10	m = json.load(open(sys.argv[1]))
+    11	
+    12	assert m["network"] == "DENY_BY_DEFAULT"
+    13	assert m["external_egress"] == "CHEETAH_ONLY"
+    14	assert m["return_path"] == "DENY"
+    15	assert m["credentials"] == "NONE"
+    16	
+    17	print("GHOST → CHEETAH POLICY = PASS")
+    18	print("RETURN PATH POLICY = PASS")
+    19	print("CREDENTIAL ISOLATION = PASS")
+    20	PY
+    21	
+    22	echo "UL7RABRIDGE INVARIANT = PASS"
+    23	echo "PRODUCTION = LOCKED"
+
+=== TEST SOURCE: UL7RAFORGE/v10/ul7rabridge/tests/cheetah_regression.sh ===
+     1	#!/data/data/com.termux/files/usr/bin/bash
+     2	set -e
+     3	
+     4	BIN="./target/release/cheetah"
+     5	
+     6	echo "[1] allowed direction"
+     7	"$BIN" "REGRESSION_TEST" >/dev/null
+     8	
+     9	echo "[2] prohibited direction"
+    10	if CHEETAH_DIRECTION=EXTERNAL_TO_SOVEREIGN \
+    11	   "$BIN" "RETURN_TEST" >/dev/null 2>&1; then
+    12	    echo "FAIL: prohibited direction accepted"
+    13	    exit 1
+    14	fi
+    15	
+    16	echo "[3] regression result"
+    17	echo "CHEETAH REGRESSION = PASS"
+
+=== TEST SOURCE: UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh ===
+     1	#!/data/data/com.termux/files/usr/bin/bash
+     2	set -eu
+     3	
+     4	STATUS="../ul7rastack/live/state/live_status.json"
+     5	
+     6	python ../ul7rastack/verifier/src/verify.py "$STATUS"
+
+=== TEST SOURCE: UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh ===
+     1	#!/data/data/com.termux/files/usr/bin/bash
+     2	set -eu
+     3	
+     4	STATUS="../../ul7rastack/live/state/live_status.json"
+     5	BACKUP="${STATUS}.bak"
+     6	
+     7	cp "$STATUS" "$BACKUP"
+     8	trap 'mv "$BACKUP" "$STATUS"' EXIT
+     9	
+    10	python - "$STATUS" <<'PY'
+    11	import json, sys
+    12	
+    13	p = sys.argv[1]
+    14	d = json.load(open(p))
+    15	d["exceptions"] = 999
+    16	open(p, "w").write(json.dumps(d, indent=2))
+    17	PY
+    18	
+    19	if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+    20	    echo "FAIL: tampered attestation accepted"
+    21	    exit 1
+    22	fi
+    23	
+    24	echo "TAMPER DETECTION = PASS"
+
+=== TEST SOURCE: UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh ===
+     1	#!/data/data/com.termux/files/usr/bin/bash
+     2	set -eu
+     3	
+     4	STATUS="../../ul7rastack/security/state/live_security.json"
+     5	
+     6	python - "$STATUS" <<'PY'
+     7	import json
+     8	import sys
+     9	
+    10	s = json.load(open(sys.argv[1]))
+    11	
+    12	assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+    13	assert s["detected_violations"] == 0
+    14	assert s["unresolved_exceptions"] == 0
+    15	assert s["evidence_freshness"] == "CURRENT"
+    16	assert s["production"] == "LOCKED"
+    17	
+    18	required = [
+    19	    "cheetah_policy",
+    20	    "ghost_policy",
+    21	    "bridge_invariant",
+    22	    "os_baseline",
+    23	    "canada_only_policy",
+    24	    "attestation_integrity",
+    25	    "tamper_detection"
+    26	]
+    27	
+    28	for control in required:
+    29	    assert s["active_controls"][control] == "VERIFIED"
+    30	
+    31	# Unknowns must never disappear merely to obtain a green status.
+    32	assert len(s["unknowns"]) > 0
+    33	
+    34	print("SECURITY ASSURANCE = PASS")
+    35	print("ACTIVE CONTROLS = PASS")
+    36	print("VIOLATIONS = 0")
+    37	print("EXCEPTIONS = 0")
+    38	print("EVIDENCE FRESHNESS = CURRENT")
+    39	print("UNKNOWN DISCLOSURE = PASS")
+    40	print("PRODUCTION = LOCKED")
+    41	PY
+
+=== TEST SOURCE: UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh ===
+     1	#!/data/data/com.termux/files/usr/bin/bash
+     2	set -eu
+     3	
+     4	STATUS="../../ul7rastack/live/state/live_status.json"
+     5	
+     6	python - "$STATUS" <<'PY'
+     7	import json
+     8	import sys
+     9	
+    10	s = json.load(open(sys.argv[1]))
+    11	
+    12	assert s["status"] == "VERIFIED_WITH_SCOPE"
+    13	assert s["exceptions"] == 0
+    14	assert "controls" in s
+    15	assert "evidence" in s["controls"]
+    16	assert "timestamp" in s
+    17	assert "attestation_hash" in s
+    18	assert s["production"] == "LOCKED"
+    19	
+    20	# Unknowns must remain visible rather than being converted to PASS.
+    21	assert len(s["unknowns"]) > 0
+    22	
+    23	print("LIVE STATUS = PASS")
+    24	print("EVIDENCE FRESHNESS = PASS")
+    25	print("UNKNOWN DISCLOSURE = PASS")
+    26	print("ATTESTATION INTEGRITY = PASS")
+    27	print("PRODUCTION = LOCKED")
+    28	PY
+
+=== REFERENCED RUNTIME/VERIFIER FILES ===
+--- UL7RAFORGE/v10/ul7rabridge/../../ul7rastack/live/state/live_status.json
+EXISTS
+89b7eb6de34fa5a53576f671fdb8d2d4e72dd50b8b0631a0d50263cb2021ff84  UL7RAFORGE/v10/ul7rabridge/../../ul7rastack/live/state/live_status.json
+{
+  "system": "UL7RA",
+  "attestation_type": "CONTINUOUS_CONTROL_STATUS",
+  "status": "VERIFIED_WITH_SCOPE",
+  "controls": {
+    "identity": "VERIFIED",
+    "applicable_rules": "VERIFIED",
+    "controls": "VERIFIED",
+    "evidence": "CURRENT",
+    "security": "VERIFIED",
+    "data_residency": "VERIFIED",
+    "governance": "VERIFIED"
+  },
+  "exceptions": 0,
+  "unknowns": [
+    "physical_one_way_network",
+    "kernel_level_isolation"
+  ],
+  "scope": [
+    "declared_controls",
+    "supplied_evidence",
+    "executed_regression_tests"
+  ],
+  "production": "LOCKED",
+  "timestamp": 1786649797.3126135,
+  "attestation_hash": "0e520b523a3c02778d432d2c8fe4641eab2a5c22bcbb7621229235c31dce6ece"
+}
+--- UL7RAFORGE/v10/ul7rabridge/../../ul7rastack/security/state/live_security.json
+EXISTS
+7d9effdb1815234ff742969d13d5e41e9f06039f79e26dcb874975bc92f5ec40  UL7RAFORGE/v10/ul7rabridge/../../ul7rastack/security/state/live_security.json
+{
+  "system": "UL7RAVERSE",
+  "assurance": "REAL_TIME_CONTROL_ASSURANCE",
+  "security_status": "VERIFIED_WITH_SCOPE",
+  "active_controls": {
+    "cheetah_policy": "VERIFIED",
+    "ghost_policy": "VERIFIED",
+    "bridge_invariant": "VERIFIED",
+    "os_baseline": "VERIFIED",
+    "canada_only_policy": "VERIFIED",
+    "attestation_integrity": "VERIFIED",
+    "tamper_detection": "VERIFIED"
+  },
+  "detected_violations": 0,
+  "unresolved_exceptions": 0,
+  "evidence_freshness": "CURRENT",
+  "unknowns": [
+    "kernel_level_isolation",
+    "physical_one_way_network",
+    "absence_of_undiscovered_vulnerabilities"
+  ],
+  "claim_limit": "NO_ABSOLUTE_SECURITY_GUARANTEE",
+  "production": "LOCKED",
+  "timestamp": 1786649983.9586918,
+  "attestation_hash": "817e84af708581f40bf987ba4e4427256ef1eeb57318b114bb251b9adcbb0aa8"
+}
+--- UL7RAFORGE/v10/ul7rabridge/../../ul7rastack/verifier/src/verify.py
+EXISTS
+de3de2b6ee8113b613de82ed7ad3a126dfac0bf2b1425c8a444674baba9744bc  UL7RAFORGE/v10/ul7rabridge/../../ul7rastack/verifier/src/verify.py
+     1	import json
+     2	import hashlib
+     3	import sys
+     4	from pathlib import Path
+     5	
+     6	status_file = Path(sys.argv[1])
+     7	
+     8	data = json.loads(status_file.read_text())
+     9	
+    10	required = [
+    11	    "system",
+    12	    "attestation_type",
+    13	    "status",
+    14	    "controls",
+    15	    "exceptions",
+    16	    "unknowns",
+    17	    "scope",
+    18	    "timestamp",
+    19	    "attestation_hash"
+    20	]
+    21	
+    22	missing = [x for x in required if x not in data]
+    23	
+    24	if missing:
+    25	    print("INDEPENDENT VERIFIER = FAIL")
+    26	    print("MISSING:", ",".join(missing))
+    27	    raise SystemExit(1)
+    28	
+    29	# Reconstruct the signed content exactly as the producer did.
+    30	candidate = dict(data)
+    31	claimed_hash = candidate.pop("attestation_hash")
+    32	
+    33	canonical = json.dumps(candidate, sort_keys=True)
+    34	calculated = hashlib.sha256(canonical.encode()).hexdigest()
+    35	
+    36	if calculated != claimed_hash:
+    37	    print("INDEPENDENT VERIFIER = FAIL")
+    38	    print("ATTESTATION HASH MISMATCH")
+    39	    raise SystemExit(1)
+    40	
+    41	if data["production"] != "LOCKED":
+    42	    print("INDEPENDENT VERIFIER = FAIL")
+    43	    print("PRODUCTION STATE INVALID")
+    44	    raise SystemExit(1)
+    45	
+    46	if data["exceptions"] < 0:
+    47	    print("INDEPENDENT VERIFIER = FAIL")
+    48	    print("INVALID EXCEPTION COUNT")
+    49	    raise SystemExit(1)
+    50	
+    51	print("INDEPENDENT VERIFIER = PASS")
+    52	print("ATTESTATION HASH = VALID")
+    53	print("SCHEMA = VALID")
+    54	print("SCOPE = DECLARED")
+    55	print("UNKNOWN STATES = PRESERVED")
+    56	print("PRODUCTION = LOCKED")
+
+--- UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json
+EXISTS
+c8105b5c52c24c35ab3789dbd17250d130ff3b6d9b63634bb258a8bd725ae877  UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json
+{
+  "system": "UL7RABRIDGE",
+  "release": "V0.1",
+  "components": {
+    "cheetah": "PASS",
+    "ghost": "PASS",
+    "bridge_invariant": "PASS",
+    "os_baseline": "PASS"
+  },
+  "physical_one_way_network": "NOT_VERIFIED",
+  "kernel_isolation": "NOT_VERIFIED",
+  "production": "LOCKED",
+  "timestamp": 1786649525.8304372,
+  "evidence_hash": "d63b96d8e054eadb625279f403cbe5dd1989cd4af6644bb16b8a57147fe91761"
+}
+--- UL7RAFORGE/v10/ul7rabridge/state/invariants.json
+EXISTS
+3ad938b0c65f585c8efd38ab6ce4ff699e0a7961a72bdd42ec48bbf1b742ede0  UL7RAFORGE/v10/ul7rabridge/state/invariants.json
+{
+  "ghost_partition_isolation": "REQUIRED",
+  "egress_policy": "REQUIRED",
+  "return_path": "DENY",
+  "credential_scope": "MINIMUM_REQUIRED",
+  "provenance": "REQUIRED",
+  "audit": "REQUIRED",
+  "production": "LOCKED"
+}
+
+=== EXECUTE EXISTING V10 REGRESSION TESTS ===
+--- RUN bridge_invariant.sh ---
+EXIT=0
+GHOST → CHEETAH POLICY = PASS
+RETURN PATH POLICY = PASS
+CREDENTIAL ISOLATION = PASS
+UL7RABRIDGE INVARIANT = PASS
+PRODUCTION = LOCKED
+
+--- RUN cheetah_regression.sh ---
+EXIT=127
+[1] allowed direction
+cheetah_regression.sh: line 7: ./target/release/cheetah: No such file or directory
+
+--- RUN independent_verifier.sh ---
+EXIT=2
+python: can't open file '/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/../ul7rastack/verifier/src/verify.py': [Errno 2] No such file or directory
+
+--- RUN tamper_detection.sh ---
+EXIT=1
+cp: cannot stat '../../ul7rastack/live/state/live_status.json': No such file or directory
+
+--- RUN security_assurance.sh ---
+EXIT=1
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '../../ul7rastack/security/state/live_security.json'
+
+--- RUN live_status_regression.sh ---
+EXIT=1
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '../../ul7rastack/live/state/live_status.json'
+
+=== FINAL DECISION ===
+V10_TEST_SUITE=FAIL_OR_INCOMPLETE
+CANONICAL_STATUS=NOT_PROMOTED
+FINAL_DECISION=BLOCKED
+EVIDENCE=verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z

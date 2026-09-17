@@ -1,0 +1,14 @@
+uname:
+Linux localhost 5.15.189-android13-8-gba21471e3a6a-ab20260511215345 #1 SMP PREEMPT Fri Mar 20 16:45:34 CST 2026 armv7l Android
+
+termux:
+/data/data/com.termux/files/usr
+
+architecture:
+armv7l
+
+node:
+v24.18.0
+
+npm:
+11.19.1

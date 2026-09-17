@@ -1,0 +1,12 @@
+{
+  "specification": "UL7RA_CONSTITUTION/v1",
+  "audit_type": "READ_ONLY",
+  "subject": "/data/data/com.termux/files/home/UL7RAVERSE",
+  "verdict": "NON_CONFORMANT",
+  "rationale": "One or more constitutional violation indicators were observed.",
+  "static_findings": 1005,
+  "runtime_behavior_verified": false,
+  "automatic_remediation": false,
+  "specification_changed": false,
+  "required_next_gate": "REMEDIATION_SEPARATE_GATE"
+}

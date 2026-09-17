@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-09-10T14:43:28.127703+00:00",
+  "repository": "/data/data/com.termux/files/home/UL7RAVERSE",
+  "commit": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+  "product": {
+    "name": "UL7RAPASS",
+    "price_cad": 500,
+    "term_months": 12,
+    "units": 1500,
+    "lucicoin": 3,
+    "entitlements": [
+      "LUCIAGENT3_CUSTOM",
+      "LUCI_DIAGNOSTIC",
+      "LUCI_TEST",
+      "PURPLE_TEAM",
+      "UL7RAPROOF"
+    ]
+  },
+  "member_state": {
+    "member_id": "m_d9989a451afc0779",
+    "payment_status": "PAID",
+    "entitlement_status": "ACTIVE",
+    "verification_status": "PASS",
+    "units_total": 1500,
+    "units_used": 1,
+    "lucicoin_total": 3,
+    "lucicoin_used": 0
+  },
+  "purple_team": {
+    "PAYMENT_CANNOT_GRANT_PASS": true,
+    "UNIT_LIMIT_ENFORCED": true,
+    "LUCIcoin_LIMIT_ENFORCED": true,
+    "UNPAID_CANNOT_CONSUME": true,
+    "NO_EVIDENCE_NO_PASS": true,
+    "PAYMENT_DOES_NOT_MUTATE_VERIFICATION": true
+  },
+  "pytest_returncode": 0,
+  "technical_tests": true,
+  "purple_team_pass": true,
+  "proof_requires_evidence": true,
+  "payment_can_grant_pass": false
+}

@@ -1,0 +1,2 @@
+rodrigo.ns.cloudflare.com.
+addyson.ns.cloudflare.com.

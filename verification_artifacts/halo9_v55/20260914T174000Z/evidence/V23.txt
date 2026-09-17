@@ -1,0 +1,22 @@
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:4:OUT="evidence/state/bridge_status.json"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:13:status = {
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:28:canonical = json.dumps(status, sort_keys=True)
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:29:status["evidence_hash"] = hashlib.sha256(
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:33:out.write_text(json.dumps(status, indent=2))
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:34:print(json.dumps(status, indent=2))
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:6:python - "$STATUS" <<'PY'
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:23:print("LIVE STATUS = PASS")
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh:4:STATUS="../ul7rastack/live/state/live_status.json"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh:6:python ../ul7rastack/verifier/src/verify.py "$STATUS"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:5:BACKUP="${STATUS}.bak"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:7:cp "$STATUS" "$BACKUP"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:8:trap 'mv "$BACKUP" "$STATUS"' EXIT
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:10:python - "$STATUS" <<'PY'
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:4:STATUS="../../ul7rastack/security/state/live_security.json"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:6:python - "$STATUS" <<'PY'
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:31:# Unknowns must never disappear merely to obtain a green status.

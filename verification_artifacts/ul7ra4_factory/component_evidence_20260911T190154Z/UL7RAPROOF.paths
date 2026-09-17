@@ -1,0 +1,10 @@
+./products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/EVIDENCE_SHA256SUMS
+./products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/claim.json
+./products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/observation.json
+./products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/proof.json
+./products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/canonical_entry.json
+./products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/claim.sha256
+./products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/observation.sha256
+./products/ul7ra-verify/evidence/ul7raproof/20260822T120330Z/proof.sha256
+./products/ul7ra-verify/evidence/ul7raproof/CANONICAL_EVIDENCE_LEDGER.jsonl
+./verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/UL7RAPROOF.paths

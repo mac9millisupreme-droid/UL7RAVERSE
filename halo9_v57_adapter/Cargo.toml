@@ -1,0 +1,8 @@
+[package]
+name = "halo9_v57_adapter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "2"
+halo9_v56 = { package = "halo9_v56_authority_contract", path = "../halo9_v56_authority_contract" }

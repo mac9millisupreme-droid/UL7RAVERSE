@@ -1,0 +1,11 @@
+./UL7RAFORGE/trinity/__pycache__/core.cpython-314.pyc
+./UL7RAFORGE/trinity/core.py
+./UL7RAFORGE/trinity/evidence/ledger.jsonl
+./UL7RAFORGE/trinity/state/current.json
+./UL7RAFORGE/v09/state/trinity.json
+./UL7RAFORGE/v09/trinity/__pycache__/check.cpython-314.pyc
+./UL7RAFORGE/v09/trinity/check.py
+./products/ul7ra-verify/evidence/trinity_binding.json
+./racing/ail/__pycache__/trinity_adapter.cpython-314.pyc
+./racing/ail/trinity_adapter.py
+./verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/TRINITY.paths

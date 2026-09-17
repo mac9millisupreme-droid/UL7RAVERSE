@@ -1,0 +1,49 @@
+{
+  "schema": "UL7RAVERSE_REVERSIBLE_CONSOLIDATION_PLAN/v1",
+  "status": "PLANNED_ONLY",
+  "production_unlock": "BLOCKED",
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Evidence Freeze",
+      "action": "HASH_AND_FREEZE_FORENSIC_SNAPSHOTS",
+      "destructive": false
+    },
+    {
+      "stage": 2,
+      "name": "Canonical Resolution",
+      "action": "RESOLVE_COMPONENT_IDENTITY",
+      "destructive": false
+    },
+    {
+      "stage": 3,
+      "name": "Alias Mapping",
+      "action": "MAP_CONFIRMED_ALIASES",
+      "destructive": false
+    },
+    {
+      "stage": 4,
+      "name": "Duplicate Mapping",
+      "action": "MAP_DUPLICATES_WITHOUT_DELETION",
+      "destructive": false
+    },
+    {
+      "stage": 5,
+      "name": "Legacy Isolation",
+      "action": "ISOLATE_CONFIRMED_LEGACY_SURFACES",
+      "destructive": false
+    },
+    {
+      "stage": 6,
+      "name": "Regression Verification",
+      "action": "RUN_TESTS_LUCI_PROOF_PURPLE_GOVERNANCE",
+      "destructive": false
+    },
+    {
+      "stage": 7,
+      "name": "Human/Governance Review",
+      "action": "REVIEW_BEFORE_ANY_REAL_MERGE",
+      "destructive": false
+    }
+  ]
+}

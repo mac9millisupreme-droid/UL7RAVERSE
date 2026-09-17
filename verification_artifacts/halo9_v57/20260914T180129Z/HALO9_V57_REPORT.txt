@@ -1,0 +1,161 @@
+==================================================
+HALO9 V57 NON-PRODUCTION ADAPTER
+==================================================
+UTC=20260914T180129Z
+V56=/data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract
+V57=/data/data/com.termux/files/home/UL7RAVERSE/halo9_v57_adapter
+REAL_UL7RABRIDGE_MODIFICATION=NONE
+REAL_UL7RABRIDGE_INTEGRATION=NOT_PERFORMED
+V56_PACKAGE=halo9_v56_authority_contract
+CARGO_FMT_RC=0
+    Updating crates.io index
+     Locking 13 packages to latest compatible versions
+ Downloading crates ...
+  Downloaded thiserror v2.0.20
+  Downloaded thiserror-impl v2.0.20
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.24
+   Compiling quote v1.0.47
+   Compiling serde_core v1.0.229
+   Compiling serde v1.0.229
+   Compiling thiserror v1.0.69
+   Compiling thiserror v2.0.20
+   Compiling syn v3.0.5
+   Compiling syn v2.0.119
+   Compiling thiserror-impl v1.0.69
+   Compiling serde_derive v1.0.229
+   Compiling thiserror-impl v2.0.20
+    Checking halo9_v56_authority_contract v0.1.0 (/data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract)
+    Checking halo9_v57_adapter v0.1.0 (/data/data/com.termux/files/home/UL7RAVERSE/halo9_v57_adapter)
+error[E0432]: unresolved import `halo9_v56::AuthorityContractConfig`
+ --> src/lib.rs:5:45
+  |
+5 | ...tract, AuthorityContractConfig, BridgeAuthority,
+  |           ^^^^^^^^^^^^^^^^^^^^^^^ no `AuthorityContractConfig` in the root
+  |
+help: a similar name exists in the module
+  |
+5 -     ActionAuthorization, AuthorityContract, AuthorityContractConfig, BridgeAuthority,
+5 +     ActionAuthorization, AuthorityContract, AuthorityContract, BridgeAuthority,
+  |
+
+error[E0308]: mismatched types
+  --> src/lib.rs:40:13
+   |
+40 |             cryptographic_provider,
+   |             ^^^^^^^^^^^^^^^^^^^^^^ expected `Option<&dyn CryptographicProvider>`, found `&dyn CryptographicProvider`
+   |
+   = note:   expected enum `Option<&dyn CryptographicProvider>`
+           found reference `&'static (dyn CryptographicProvider + 'static)`
+help: try wrapping the expression in `Some`
+   |
+40 |             cryptographic_provider: Some(cryptographic_provider),
+   |             +++++++++++++++++++++++++++++                      +
+
+error[E0560]: struct `AuthorityContract<'_>` has no field named `config`
+  --> src/lib.rs:44:13
+   |
+44 |             config,
+   |             ^^^^^^ `AuthorityContract<'_>` does not have this field
+   |
+   = note: all struct fields are already assigned
+
+Some errors have detailed explanations: E0308, E0432, E0560.
+For more information about an error, try `rustc --explain E0308`.
+error: could not compile `halo9_v57_adapter` (lib) due to 3 previous errors
+CARGO_CHECK_RC=101
+   Compiling serde_core v1.0.229
+   Compiling thiserror v1.0.69
+   Compiling thiserror v2.0.20
+   Compiling serde v1.0.229
+   Compiling halo9_v56_authority_contract v0.1.0 (/data/data/com.termux/files/home/UL7RAVERSE/halo9_v56_authority_contract)
+   Compiling halo9_v57_adapter v0.1.0 (/data/data/com.termux/files/home/UL7RAVERSE/halo9_v57_adapter)
+error[E0432]: unresolved import `halo9_v56::AuthorityContractConfig`
+ --> src/lib.rs:5:45
+  |
+5 | ...tract, AuthorityContractConfig, BridgeAuthority,
+  |           ^^^^^^^^^^^^^^^^^^^^^^^ no `AuthorityContractConfig` in the root
+  |
+help: a similar name exists in the module
+  |
+5 -     ActionAuthorization, AuthorityContract, AuthorityContractConfig, BridgeAuthority,
+5 +     ActionAuthorization, AuthorityContract, AuthorityContract, BridgeAuthority,
+  |
+
+error[E0432]: unresolved imports `halo9_v56::AllowAllCheetahPolicy`, `halo9_v56::DenyAllBridgeAuthority`, `halo9_v56::NoopCryptographicProvider`, `halo9_v56::StrictBridgeInvariants`
+  --> src/lib.rs:86:18
+   |
+86 |         AgentId, AllowAllCheetahPolicy, CapabilityId, CryptographicProfileId,
+   |                  ^^^^^^^^^^^^^^^^^^^^^ no `AllowAllCheetahPolicy` in the root
+87 |         DenyAllBridgeAuthority, HaloTwinId, LedgerEntryId, MissionId, Nonce,
+   |         ^^^^^^^^^^^^^^^^^^^^^^ no `DenyAllBridgeAuthority` in the root
+88 |         NoopCryptographicProvider, ProofId, StrictBridgeInvariants, Timestamp,
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^           ^^^^^^^^^^^^^^^^^^^^^^ no `StrictBridgeInvariants` in the root
+   |         |
+   |         no `NoopCryptographicProvider` in the root
+   |
+help: a similar name exists in the module
+   |
+87 -         DenyAllBridgeAuthority, HaloTwinId, LedgerEntryId, MissionId, Nonce,
+87 +         BridgeAuthority, HaloTwinId, LedgerEntryId, MissionId, Nonce,
+   |
+help: a similar name exists in the module
+   |
+88 -         NoopCryptographicProvider, ProofId, StrictBridgeInvariants, Timestamp,
+88 +         CryptographicProvider, ProofId, StrictBridgeInvariants, Timestamp,
+   |
+help: a similar name exists in the module
+   |
+88 -         NoopCryptographicProvider, ProofId, StrictBridgeInvariants, Timestamp,
+88 +         NoopCryptographicProvider, ProofId, BridgeInvariants, Timestamp,
+   |
+
+error[E0308]: mismatched types
+  --> src/lib.rs:40:13
+   |
+40 |             cryptographic_provider,
+   |             ^^^^^^^^^^^^^^^^^^^^^^ expected `Option<&dyn CryptographicProvider>`, found `&dyn CryptographicProvider`
+   |
+   = note:   expected enum `Option<&dyn CryptographicProvider>`
+           found reference `&'static (dyn CryptographicProvider + 'static)`
+help: try wrapping the expression in `Some`
+   |
+40 |             cryptographic_provider: Some(cryptographic_provider),
+   |             +++++++++++++++++++++++++++++                      +
+
+error[E0560]: struct `AuthorityContract<'_>` has no field named `config`
+  --> src/lib.rs:44:13
+   |
+44 |             config,
+   |             ^^^^^^ `AuthorityContract<'_>` does not have this field
+   |
+   = note: all struct fields are already assigned
+
+error[E0063]: missing fields `capability_id` and `mission_id` in initializer of `halo9_v56_authority_contract::ProofState`
+   --> src/lib.rs:107:9
+    |
+107 |         ProofState {
+    |         ^^^^^^^^^^ missing `capability_id` and `mission_id`
+
+Some errors have detailed explanations: E0063, E0308, E0432, E0560.
+For more information about an error, try `rustc --explain E0063`.
+error: could not compile `halo9_v57_adapter` (lib test) due to 5 previous errors
+CARGO_TEST_RC=101
+V57_TEST_RESULT=FAIL
+SOURCE_HASH=RECORDED
+
+==================================================
+V57 GOVERNANCE GATE
+==================================================
+ADAPTER_SCOPE=NON_PRODUCTION
+PROOF_DOES_NOT_EQUAL_AUTHORITY=ENFORCED
+HALO9_AUTHORITY_CONTRACT=REQUIRED
+BRIDGE_AUTHORITY=REQUIRED
+REAL_UL7RABRIDGE_MODIFICATION=NONE
+REAL_UL7RABRIDGE_INTEGRATION=NOT_PERFORMED
+PRODUCTION_CRYPTO=NOT_CONFIGURED
+PRODUCTION_UNLOCK=BLOCKED
+HALO9_V57_FINAL_DECISION=REVIEW_REQUIRED
+REPORT=/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/halo9_v57/20260914T180129Z/HALO9_V57_REPORT.txt
+EVIDENCE=/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/halo9_v57/20260914T180129Z
+==================================================

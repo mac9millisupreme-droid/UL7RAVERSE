@@ -1,0 +1,7 @@
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:1:use serde::{Deserialize, Serialize};
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:5:#[derive(Serialize, Deserialize)]
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:43:    println!("{}", serde_json::to_string_pretty(&envelope).unwrap());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:1:use serde::{Deserialize, Serialize};
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:5:#[derive(Serialize, Deserialize)]
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:17:        .unwrap_or_else(|| "EMPTY".to_string());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:37:    println!("{}", serde_json::to_string_pretty(&envelope).unwrap());

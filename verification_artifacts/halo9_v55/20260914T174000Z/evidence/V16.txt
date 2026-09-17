@@ -1,0 +1,23 @@
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/ghost/templates/manifest.json:2:  "name": "CHEETAH-GHOST",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/ghost/create.sh:5:ID="ghost-$(date +%s)-$$"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json:6:    "ghost": "PASS",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/state/invariants.json:2:  "ghost_partition_isolation": "REQUIRED",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:5:GHOST="$BASE/ghost"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:6:ID="$("$GHOST/create.sh")"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:7:TARGET="$GHOST/runtime/$ID"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:24:print("GHOST ISOLATION POLICY = PASS")
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:30:    echo "FAIL: ghost partition was not destroyed"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:34:echo "GHOST PARTITION LIFECYCLE = PASS"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:35:echo "GHOST REGRESSION = PASS"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh:5:MANIFEST="$BASE/ghost/templates/manifest.json"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh:17:print("GHOST → CHEETAH POLICY = PASS")
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:5:GHOST="$BASE/ghost/runtime/os-test-$$"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:7:mkdir -p "$GHOST"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:10:    rm -rf "$GHOST"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:14:printf '%s\n' "EPHEMERAL_TEST_DATA" > "$GHOST/data"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:16:test -f "$GHOST/data"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:20:test "$(cat "$GHOST/data")" = "EPHEMERAL_TEST_DATA"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:23:rm -rf "$GHOST"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:25:if [ -e "$GHOST" ]; then
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:18:        "ghost": "PASS",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:20:    "ghost_policy",

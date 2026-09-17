@@ -1,0 +1,6 @@
+github.com
+  ✓ Logged in to github.com account mac9millisupreme-droid (/data/data/com.termux/files/home/.config/gh/hosts.yml)
+  - Active account: true
+  - Git operations protocol: https
+  - Token: gho_************************************
+  - Token scopes: 'gist', 'read:org', 'repo', 'workflow'

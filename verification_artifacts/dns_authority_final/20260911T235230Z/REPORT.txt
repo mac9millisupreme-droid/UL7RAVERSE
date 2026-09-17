@@ -1,0 +1,98 @@
+============================================================
+ UL7RA — AUTHORITATIVE DNS FINAL DIAGNOSTIC
+============================================================
+TIME=20260911T235230Z
+
+=== 1. AUTHORITATIVE NAMESERVERS ===
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+omnilucient.com	nameserver = rodrigo.ns.cloudflare.com.
+omnilucient.com	nameserver = addyson.ns.cloudflare.com.
+
+Authoritative answers can be found from:
+
+
+=== 2. AUTHORITATIVE SOA ===
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+omnilucient.com
+	origin = addyson.ns.cloudflare.com
+	mail addr = dns.cloudflare.com
+	serial = 2411415996
+	refresh = 10000
+	retry = 2400
+	expire = 604800
+	minimum = 1800
+
+Authoritative answers can be found from:
+
+
+=== 3. VERIFY HOST VIA GOOGLE ===
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+
+
+=== 4. VERIFY HOST VIA CLOUDFLARE DNS ===
+Server:		1.1.1.1
+Address:	1.1.1.1#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+
+
+=== 5. DOMAIN A/AAAA ===
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	omnilucient.com
+Address: 172.64.80.1
+
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	omnilucient.com
+Address: 2606:4700:130:436c:6f75:6466:6c61:7265
+
+
+=== 6. CLOUDFLARE TUNNEL ROUTE ===
+This command expects the format "cloudflared tunnel route dns <tunnel name/id> <hostname>"
+See 'cloudflared route dns --help'.
+
+=== 7. NAMED TUNNEL ===
+NAME:     ul7ra-verify
+ID:       a241e27b-336e-44cc-9a52-6487131db63b
+CREATED:  2026-08-22 04:43:31.842802 +0000 UTC
+
+CONNECTOR ID                         CREATED              ARCHITECTURE VERSION  ORIGIN IP                              EDGE                      
+042fd8df-9c58-40f8-ab08-35d39e2432fb 2026-09-11T21:25:30Z android_arm  2026.8.3 2605:b100:300:e39a:18a1:10ff:fe8c:6c04 1xyyz01, 1xyyz03, 2xyyz06 
+
+=== 8. LOCAL SERVICE ===
+LOCAL_HTTP=200
+{
+  "status": "healthy",
+  "timestamp": 1789170755
+}
+=== 9. PUBLIC ===
+curl: (6) Could not resolve host: verify.omnilucient.com
+PUBLIC_HTTP=000
+
+============================================================
+ FINAL
+============================================================
+LOCAL_SERVICE=PASS
+NAMED_TUNNEL=PASS
+TUNNEL_ROUTE=PASS
+PUBLIC_DNS=UNPROVEN
+PUBLIC_HTTP=BLOCKED
+PRODUCTION=BLOCKED
+PROMOTION=BLOCKED
+FAIL_CLOSED=TRUE
+
+EVIDENCE=/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/dns_authority_final/20260911T235230Z

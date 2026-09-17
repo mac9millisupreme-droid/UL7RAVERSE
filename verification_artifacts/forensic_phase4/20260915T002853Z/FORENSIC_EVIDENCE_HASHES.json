@@ -1,0 +1,37 @@
+{
+  "phase3_plan": {
+    "path": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/forensic_phase3/20260915T002628Z/PHASE3_EXECUTION_PLAN.json",
+    "sha256": "f9d7b0a77598bf14b22d076f72ad3a423f81309dab5fd9118412f1c24858fc3d",
+    "size": 1569524
+  },
+  "duplicates": {
+    "path": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/forensic_phase3/20260915T002628Z/DUPLICATE_CANDIDATES.json",
+    "sha256": "03340355dfc8affe2ece7628a29cc196590a396b63b89085dc56da9696ecb277",
+    "size": 135378
+  },
+  "authority": {
+    "path": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/forensic_phase3/20260915T002628Z/AUTHORITY_REVIEW.json",
+    "sha256": "bb3a8a64c1a1e556d01ef69e95df9c058d07457ccda08fd996be58d4f9cef77f",
+    "size": 35229
+  },
+  "proof": {
+    "path": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/forensic_phase3/20260915T002628Z/PROOF_REVIEW.json",
+    "sha256": "a60202bfc575d82b4fcab7badc7534dab99111aeebb4a083a820cfe9dd641e58",
+    "size": 327612
+  },
+  "critical": {
+    "path": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/forensic_phase3/20260915T002628Z/CRITICAL_COMPONENTS.json",
+    "sha256": "2378a334d54d50b52789025db8c160c119ad87ade8ee086dd990f3adebf33f7e",
+    "size": 65968
+  },
+  "execution": {
+    "path": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/forensic_phase3/20260915T002628Z/EXECUTION_PHASES.json",
+    "sha256": "55014be8463a868a4b590bb9fa128582e8c6dcd8b54f3b28e93337f1ab6d4743",
+    "size": 1282
+  },
+  "phase2_plan": {
+    "path": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/forensic_phase2/20260915T002336Z/CONSOLIDATION_PLAN.md",
+    "sha256": "72e8fb5811413ef292f2ab37677a29c449a01ad0bc78eb1d4c8b88f600387a64",
+    "size": 1960
+  }
+}

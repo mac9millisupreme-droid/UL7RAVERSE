@@ -1,0 +1,11 @@
+{
+  "run": "20260910T144312Z",
+  "product_hash": "1e16a84d5a6a0bc41e513e9e0f9bad7a5509f1157502a0f2194602a1c556aa7b",
+  "status_hash": "c4c5237d360745afb179624cb516fc8bf2d4ffe0753ba1b80fb7fca6093008b1",
+  "purple_hash": "731cffb596351ceeeed83effcd59b814fe334a09ffd1bfcfafea756434d2f489",
+  "decision_basis": {
+    "technical_tests": true,
+    "purple_team": true,
+    "payment_proof_separation": true
+  }
+}

@@ -1,0 +1,13 @@
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/tests
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v06/tests
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v09/tests
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/tests
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/tests
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/blue/tests
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/hyperquantum/tests
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/tests
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/tests
+/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/tests
+/data/data/com.termux/files/home/UL7RAVERSE/lucideploy/tests
+/data/data/com.termux/files/home/UL7RAVERSE/racing/tests

@@ -1,0 +1,420 @@
+==================================================
+HALO9 V55 ONE-SCRIPT VERIFICATION
+UTC=20260914T174000Z
+==================================================
+
+=== V03 REAL_BRIDGE ===
+V03_STATUS=PASS
+
+=== V04 POLICY_AND_INVARIANTS ===
+V04_STATUS=PASS
+
+=== V05 CHEETAH ===
+V05_STATUS=PASS
+
+=== V06 DIRECTION_ENFORCEMENT ===
+V06_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:16:        .unwrap_or_else(|_| "SOVEREIGN_TO_EXTERNAL".into());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:18:    if direction != "SOVEREIGN_TO_EXTERNAL" {
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:19:        eprintln!("CHEETAH DENY: prohibited direction");
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:31:        direction: "SOVEREIGN_TO_EXTERNAL".into(),
+
+=== V07 CAPABILITY_BOUNDARY ===
+V07_STATUS=PASS
+
+=== V08 MISSION_BOUNDARY ===
+V08_STATUS=PASS
+
+=== V09 HALO_PROOF_BOUNDARY ===
+V09_STATUS=PASS
+
+=== V10 REPLAY_SEQUENCE_BOUNDARY ===
+V10_STATUS=PASS
+
+=== V11 EXPIRY_BOUNDARY ===
+V11_STATUS=PASS
+
+=== V12 REVOCATION_BOUNDARY ===
+V12_STATUS=PASS
+
+=== V13 COMPROMISE_BOUNDARY ===
+V13_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:20:    echo "FAIL: tampered attestation accepted"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:24:echo "TAMPER DETECTION = PASS"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:25:    "tamper_detection"
+
+=== V14 ROLLBACK_BOUNDARY ===
+V14_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/ghost/templates/manifest.json:3:  "version": "0.1",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/policy/cheetah.json:3:  "version": "0.1",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.toml:3:version = "0.1.0"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.toml:7:serde = { version = "1", features = ["derive"] }
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:3:version = 4
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:7:version = "0.10.4"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:16:version = "1.0.4"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:22:version = "0.1.0"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:31:version = "0.2.17"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:40:version = "0.1.7"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:50:version = "0.10.7"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:60:version = "0.14.7"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:65: "version_check",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:70:version = "1.0.18"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:76:version = "0.2.189"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:82:version = "2.8.3"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:88:version = "1.0.107"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:97:version = "1.0.47"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:106:version = "1.0.229"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:116:version = "1.0.229"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:125:version = "1.0.229"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:136:version = "1.0.151"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:149:version = "0.10.9"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:160:version = "3.0.3"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:171:version = "1.20.1"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:177:version = "1.0.24"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:182:name = "version_check"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:183:version = "0.9.5"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.lock:189:version = "1.0.23"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/canada/policy/canada_only.json:3:  "version": "0.1",
+
+=== V15 CROSS_PAIR_BOUNDARY ===
+V15_STATUS=PASS
+
+=== V16 GHOST_PARTITION ===
+V16_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/ghost/templates/manifest.json:2:  "name": "CHEETAH-GHOST",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/ghost/create.sh:5:ID="ghost-$(date +%s)-$$"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json:6:    "ghost": "PASS",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/state/invariants.json:2:  "ghost_partition_isolation": "REQUIRED",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:5:GHOST="$BASE/ghost"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:6:ID="$("$GHOST/create.sh")"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:7:TARGET="$GHOST/runtime/$ID"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:24:print("GHOST ISOLATION POLICY = PASS")
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:30:    echo "FAIL: ghost partition was not destroyed"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:34:echo "GHOST PARTITION LIFECYCLE = PASS"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:35:echo "GHOST REGRESSION = PASS"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh:5:MANIFEST="$BASE/ghost/templates/manifest.json"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh:17:print("GHOST → CHEETAH POLICY = PASS")
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:5:GHOST="$BASE/ghost/runtime/os-test-$$"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:7:mkdir -p "$GHOST"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:10:    rm -rf "$GHOST"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:14:printf '%s\n' "EPHEMERAL_TEST_DATA" > "$GHOST/data"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:16:test -f "$GHOST/data"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:20:test "$(cat "$GHOST/data")" = "EPHEMERAL_TEST_DATA"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:23:rm -rf "$GHOST"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:25:if [ -e "$GHOST" ]; then
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:18:        "ghost": "PASS",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:20:    "ghost_policy",
+
+=== V17 ONE_WAY_BOUNDARY ===
+V17_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/policy/cheetah.json:5:  "allowed_direction": "SOVEREIGN_TO_EXTERNAL",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:8:    direction: String,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:15:    let direction = std::env::var("CHEETAH_DIRECTION")
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:18:    if direction != "SOVEREIGN_TO_EXTERNAL" {
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:19:        eprintln!("CHEETAH DENY: prohibited direction");
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:37:        direction,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:8:    direction: String,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:31:        direction: "SOVEREIGN_TO_EXTERNAL".into(),
+
+=== V18 CLOUD_TRUST_BOUNDARY ===
+V18_STATUS=PASS
+
+=== V19 TUNNEL_BOUNDARY ===
+V19_STATUS=PASS
+
+=== V20 DEVICE_NODE_BOUNDARY ===
+V20_STATUS=PASS
+
+=== V21 DURABLE_PROOF ===
+V21_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/ghost/templates/manifest.json:4:  "filesystem": "EPHEMERAL",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:16:assert data["filesystem"] == "EPHEMERAL"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:14:printf '%s\n' "EPHEMERAL_TEST_DATA" > "$GHOST/data"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:20:test "$(cat "$GHOST/data")" = "EPHEMERAL_TEST_DATA"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:26:    echo "FAIL: ephemeral state survived cleanup"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:30:echo "EPHEMERAL STATE = PASS"
+
+=== V22 STATE_SURFACE ===
+V22_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/state/invariants.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh
+
+=== V23 LEDGER_STATUS ===
+V23_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:4:OUT="evidence/state/bridge_status.json"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:13:status = {
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:28:canonical = json.dumps(status, sort_keys=True)
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:29:status["evidence_hash"] = hashlib.sha256(
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:33:out.write_text(json.dumps(status, indent=2))
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:34:print(json.dumps(status, indent=2))
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:6:python - "$STATUS" <<'PY'
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:23:print("LIVE STATUS = PASS")
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh:4:STATUS="../ul7rastack/live/state/live_status.json"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh:6:python ../ul7rastack/verifier/src/verify.py "$STATUS"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:5:BACKUP="${STATUS}.bak"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:7:cp "$STATUS" "$BACKUP"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:8:trap 'mv "$BACKUP" "$STATUS"' EXIT
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:10:python - "$STATUS" <<'PY'
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:4:STATUS="../../ul7rastack/security/state/live_security.json"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:6:python - "$STATUS" <<'PY'
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:31:# Unknowns must never disappear merely to obtain a green status.
+
+=== V24 HASH_CONTINUITY ===
+V24_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:2:use sha2::{Digest, Sha256};
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:10:    payload_sha256: String,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:19:    let mut hasher = Sha256::new();
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:20:    hasher.update(payload.as_bytes());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:22:    let digest = format!("{:x}", hasher.finalize());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:33:        payload_sha256: digest,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json:14:  "evidence_hash": "d63b96d8e054eadb625279f403cbe5dd1989cd4af6644bb16b8a57147fe91761"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:2:use sha2::{Digest, Sha256};
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:10:    payload_sha256: String,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:27:    let mut hasher = Sha256::new();
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:28:    hasher.update(payload.as_bytes());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:39:        payload_sha256: format!("{:x}", hasher.finalize()),
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:8:import json, hashlib, time, sys
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:29:status["evidence_hash"] = hashlib.sha256(
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:17:assert "attestation_hash" in s
+
+=== V25 TIMESTAMP_NONCE ===
+V25_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:11:    timestamp: u64,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:24:    let timestamp = SystemTime::now()
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:30:        id: format!("CHEETAH-{}", timestamp),
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:34:        timestamp,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json:13:  "timestamp": 1786649525.8304372,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:11:    timestamp: u64,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:30:    let timestamp = SystemTime::now()
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:36:        id: format!("CHEETAH-{}", timestamp),
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:40:        timestamp,
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:25:    "timestamp": time.time()
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:16:assert "timestamp" in s
+
+=== V26 REPLAY_TEST ===
+V26_STATUS=PASS
+
+=== V27 TEST_SURFACE ===
+V27_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/cheetah_regression.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh
+
+=== V28 FUZZ_SURFACE ===
+V28_STATUS=PASS
+
+=== V29 NEGATIVE_PATHS ===
+V29_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/cheetah_regression.sh:12:    echo "FAIL: prohibited direction accepted"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:17:assert data["network"] == "DENY_BY_DEFAULT"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:21:assert data["return_path"] == "DENY"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/ghost_regression.sh:30:    echo "FAIL: ghost partition was not destroyed"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh:12:assert m["network"] == "DENY_BY_DEFAULT"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh:14:assert m["return_path"] == "DENY"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh:22:echo "UL7RABRIDGE INVARIANT = PASS"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/os_baseline.sh:26:    echo "FAIL: ephemeral state survived cleanup"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:19:        "bridge_invariant": "PASS",
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh:13:assert p["default"] == "DENY"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh:21:assert p["non_canadian_route"] == "DENY"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh:25:print("EGRESS DEFAULT DENY = PASS")
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/canada_only_regression.sh:30:print("NON-CANADIAN ROUTE = DENY")
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:20:    echo "FAIL: tampered attestation accepted"
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:21:    "bridge_invariant",
+grep: /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/tests/__pycache__/security_assurance.cpython-314.pyc: binary file matches
+
+=== V30 SERIALIZATION ===
+V30_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:1:use serde::{Deserialize, Serialize};
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:5:#[derive(Serialize, Deserialize)]
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:43:    println!("{}", serde_json::to_string_pretty(&envelope).unwrap());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:1:use serde::{Deserialize, Serialize};
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:5:#[derive(Serialize, Deserialize)]
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:17:        .unwrap_or_else(|| "EMPTY".to_string());
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:37:    println!("{}", serde_json::to_string_pretty(&envelope).unwrap());
+
+=== V31 DESERIALIZATION ===
+V31_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:1:use serde::{Deserialize, Serialize};
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:5:#[derive(Serialize, Deserialize)]
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:1:use serde::{Deserialize, Serialize};
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:5:#[derive(Serialize, Deserialize)]
+
+=== V32 POLICY_TAMPER ===
+V32_STATUS=PASS
+
+=== V33 INVARIANT_TAMPER ===
+V33_STATUS=PASS
+
+=== V34 CHEETAH_REGRESSION ===
+V34_STATUS=PASS
+
+=== V35 GHOST_REGRESSION ===
+V35_STATUS=PASS
+
+=== V36 CANADA_ONLY_REGRESSION ===
+V36_STATUS=PASS
+
+=== V37 SECURITY_ASSURANCE ===
+V37_STATUS=PASS
+
+=== V38 OS_BASELINE ===
+V38_STATUS=PASS
+
+=== V39 LIVE_STATUS ===
+V39_STATUS=PASS
+
+=== V40 INDEPENDENT_VERIFIER ===
+V40_STATUS=PASS
+
+=== V41 FAIL_CLOSED ===
+V41_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:19:        eprintln!("CHEETAH DENY: prohibited direction");
+
+=== V42 AUTHORITY_SEPARATION ===
+V42_STATUS=PASS
+
+=== V43 NO_SELF_CERTIFICATION ===
+V43_STATUS=PASS
+
+=== V44 PROOF_NOT_AUTHORITY ===
+V44_STATUS=PASS
+
+=== V45 BRIDGE_NOT_PROOF_MINT ===
+V45_STATUS=PASS
+
+=== V46 AGENT_TWIN_SEPARATION ===
+V46_STATUS=PASS
+
+=== V47 TWIN_AGENT_SEPARATION ===
+V47_STATUS=PASS
+
+=== V48 CROSS_MISSION ===
+V48_STATUS=PASS
+
+=== V49 CROSS_DEVICE ===
+V49_STATUS=PASS
+
+=== V50 CROSS_VERSION ===
+V50_STATUS=PASS
+63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+
+=== V51 PQC_SURFACE ===
+V51_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:9://! standardized PQC implementation can be added without changing governance.
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:69:    pub signature: Vec<u8>,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:89:    SignatureInvalid,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:130:        envelope.signature == b"TEST-VALID"
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:184:            return self.block(PairError::SignatureInvalid);
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:282:            signature: sig.to_vec(),
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/bridge_gate.rs:90:            signature: b"TEST-VALID".to_vec(),
+
+=== V52 CRYPTO_AGILITY ===
+V52_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/README.md:15:Production cryptography remains deliberately unconfigured. `TestVerifier` exists only under tests. A production cryptographic provider must be independently reviewed and tested before production unlock.
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/main.rs:8:    println!("production_crypto_provider=NOT_CONFIGURED");
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:70:    pub crypto_suite: String,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:90:    UnknownCryptoSuite,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:106:/// This prevents accidental production authorization before a real provider
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:163:        if !self.verifier.supported(&envelope.crypto_suite) {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:164:            return self.block(PairError::UnknownCryptoSuite);
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:283:            crypto_suite: "TEST_ONLY".into(),
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:302:            Err(PairError::UnknownCryptoSuite)
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/bridge_gate.rs:91:            crypto_suite: "TEST_ONLY".into(),
+
+=== V53 PRODUCTION_CRYPTO_GATE ===
+V53_STATUS=PASS
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/verify.sh:7:printf 'PRODUCTION_CRYPTO=NOT_CONFIGURED\n'
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/main.rs:8:    println!("production_crypto_provider=NOT_CONFIGURED");
+grep: /data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/target/debug/deps/halo9_demo-2599b15aa5700562: binary file matches
+grep: /data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/target/debug/incremental/halo9_demo-2fmmjcci842kh/s-hmaicl3swv-1nx31zk-03v91jsssjk91jlwoc4bnzxob/query-cache.bin: binary file matches
+grep: /data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/target/debug/incremental/halo9_demo-2fmmjcci842kh/s-hmaicl3swv-1nx31zk-03v91jsssjk91jlwoc4bnzxob/7928uuruztkx218laouejl9pa.o: binary file matches
+grep: /data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/target/debug/halo9-demo: binary file matches
+
+=== V54 HALO9_V2_TESTS ===
+V54_STATUS=PASS
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.31s
+     Running unittests src/lib.rs (target/debug/deps/halo_twin_pair-5c0b281d55870206)
+
+running 13 tests
+test bridge_gate::tests::invalid_pair_cannot_reach_bridge_allow ... ok
+test bridge_gate::tests::valid_pair_cannot_override_bridge_deny ... ok
+test tests::explicit_revoke_is_fail_closed ... ok
+test bridge_gate::tests::valid_pair_plus_bridge_allow_is_required ... ok
+test tests::mismatched_pair_is_blocked ... ok
+test tests::expired_pair_is_blocked ... ok
+test tests::missing_or_invalid_crypto_means_no_action ... ok
+test tests::old_sequence_is_blocked ... ok
+test tests::proof_is_required_before_rollover ... ok
+test tests::replayed_nonce_is_blocked ... ok
+test tests::revoked_pair_is_blocked ... ok
+test tests::valid_pair_is_actionable ... ok
+test tests::valid_proof_enables_rolling_but_not_old_action ... ok
+
+test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running unittests src/main.rs (target/debug/deps/halo9_demo-3c1c58344072346f)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+=== V55 FINAL INTEGRATION GATE ===
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.57s
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.13s
+     Running unittests src/lib.rs (target/debug/deps/halo_twin_pair-5c0b281d55870206)
+
+running 13 tests
+test bridge_gate::tests::invalid_pair_cannot_reach_bridge_allow ... ok
+test bridge_gate::tests::valid_pair_cannot_override_bridge_deny ... ok
+test bridge_gate::tests::valid_pair_plus_bridge_allow_is_required ... ok
+test tests::expired_pair_is_blocked ... ok
+test tests::explicit_revoke_is_fail_closed ... ok
+test tests::mismatched_pair_is_blocked ... ok
+test tests::old_sequence_is_blocked ... ok
+test tests::missing_or_invalid_crypto_means_no_action ... ok
+test tests::proof_is_required_before_rollover ... ok
+test tests::replayed_nonce_is_blocked ... ok
+test tests::revoked_pair_is_blocked ... ok
+test tests::valid_pair_is_actionable ... ok
+test tests::valid_proof_enables_rolling_but_not_old_action ... ok
+
+test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running unittests src/main.rs (target/debug/deps/halo9_demo-3c1c58344072346f)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+BRIDGE_CARGO_CHECK_RC=0
+HALO9_V2_TEST_RC=0
+HALO9_V2_TESTS=13_EXPECTED
+HALO9_V55_RULE=NO_VALID_HALO_TWIN_PAIR_NO_ACTION
+HALO9_V55_RULE_2=NO_REVIEWED_PRODUCTION_CRYPTO_NO_PRODUCTION_UNLOCK
+SOURCE_MODIFICATION=NONE
+PRODUCTION_CRYPTO=NOT_CONFIGURED
+PRODUCTION_UNLOCK=BLOCKED
+HALO9_V55_FINAL_DECISION=REVIEW_REQUIRED
+
+==================================================
+HALO9 V55 COMPLETE
+==================================================
+FINAL_DECISION=REVIEW_REQUIRED
+REPORT=/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/halo9_v55/20260914T174000Z/HALO9_V55_REPORT.txt
+EVIDENCE=/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/halo9_v55/20260914T174000Z/evidence
+PRODUCTION_UNLOCK=BLOCKED
+==================================================

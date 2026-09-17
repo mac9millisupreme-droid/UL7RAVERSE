@@ -1,0 +1,140 @@
+TIMESTAMP=20260914T173529Z
+ROOT=/data/data/com.termux/files/home/UL7RAVERSE
+
+=== RUST TOOLCHAIN ===
+rustc 1.98.1 (48a229cea 2026-09-01) (built from a source tarball)
+cargo 1.98.1 (797e8a9bc 2026-08-05) (built from a source tarball)
+
+=== HALO9 V2 ===
+HALO9_V2=/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2
+
+--- HALO9 TYPES / GATES ---
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/main.rs:7:    println!("action_allowed={}", pair.action_allowed());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:17:pub enum ProofState {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:22:    Expired,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:23:    Revoked,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:24:    Compromised,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:28:pub enum PairState {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:35:    Expired,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:36:    Revoked,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:38:    Compromised,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:61:    pub expires_at_epoch: u64,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:62:    pub revoked: bool,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:66:pub struct PairEnvelope {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:74:pub struct ProofArtifact {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:83:pub enum PairError {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:86:    Expired,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:87:    Revoked,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:134:pub struct HaloTwinPair<V: PairVerifier> {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:155:    pub fn establish_pair(
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:169:        if envelope.halo.revoked {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:170:            return self.block(PairError::Revoked);
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:172:        if envelope.halo.expires_at_epoch <= now_epoch {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:173:            return self.block(PairError::Expired);
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:193:    pub fn begin_action(&mut self) -> Result<(), PairError> {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:201:    pub fn submit_proof(&mut self, proof: &ProofArtifact) -> Result<(), PairError> {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:215:    pub fn rollover(
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:224:        self.establish_pair(next, now_epoch, nonce)
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:227:    pub fn revoke(&mut self) {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:228:        self.state = PairState::Revoked;
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:230:    pub fn expire(&mut self) {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:231:        self.state = PairState::Expired;
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:233:    pub fn compromise(&mut self) {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:234:        self.state = PairState::Compromised;
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:238:    pub fn action_allowed(&self) -> bool {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:279:                expires_at_epoch: 1000,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:280:                revoked: false,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:291:            .establish_pair(&envelope("S1", "M1", 1, b"TEST-VALID"), 10, "N1")
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:294:        assert!(p.action_allowed());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:301:            p.establish_pair(&envelope("S1", "M1", 1, b"anything"), 10, "N1"),
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:304:        assert!(!p.action_allowed());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:313:            p.establish_pair(&e, 10, "N1"),
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:320:    fn expired_pair_is_blocked() {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:323:            p.establish_pair(&envelope("S1", "M1", 1, b"TEST-VALID"), 1000, "N1"),
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:324:            Err(PairError::Expired)
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:326:        assert!(!p.action_allowed());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:330:    fn revoked_pair_is_blocked() {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:332:        e.halo.revoked = true;
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:334:        assert_eq!(p.establish_pair(&e, 10, "N1"), Err(PairError::Revoked));
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:335:        assert!(!p.action_allowed());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:342:        assert!(p.establish_pair(&e, 10, "N1").is_ok());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:345:        assert_eq!(p.rollover(&e2, 10, "N1"), Err(PairError::Replay));
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:346:        assert!(!p.action_allowed());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:353:        assert!(p.establish_pair(&e1, 10, "N1").is_ok());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:356:        assert_eq!(p.rollover(&e0, 10, "N0"), Err(PairError::Replay));
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:357:        assert!(!p.action_allowed());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:361:    fn proof_is_required_before_rollover() {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:364:        assert!(p.establish_pair(&e, 10, "N1").is_ok());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:365:        assert!(p.begin_action().is_ok());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:373:        assert_eq!(p.submit_proof(&bad), Err(PairError::InvalidState));
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:374:        assert!(!p.action_allowed());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:381:        assert!(p.establish_pair(&e1, 10, "N1").is_ok());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:382:        assert!(p.begin_action().is_ok());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:390:        assert!(p.submit_proof(&proof).is_ok());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:391:        assert!(!p.action_allowed());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:393:        assert!(p.rollover(&e2, 10, "N2").is_ok());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:394:        assert!(p.action_allowed());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:398:    fn explicit_revoke_is_fail_closed() {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:401:            .establish_pair(&envelope("S1", "M1", 1, b"TEST-VALID"), 10, "N1")
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:403:        assert!(p.action_allowed());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:404:        p.revoke();
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:405:        assert!(!p.action_allowed());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/bridge_gate.rs:16:pub enum GateError {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/bridge_gate.rs:39:    if !pair.action_allowed() {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/bridge_gate.rs:87:                expires_at_epoch: 1000,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/bridge_gate.rs:88:                revoked: false,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/bridge_gate.rs:98:        assert!(pair.establish_pair(&envelope(), 10, "N1").is_ok());
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/bridge_gate.rs:105:        assert!(pair.establish_pair(&envelope(), 10, "N1").is_ok());
+
+=== UL7RABRIDGE DISCOVERY ===
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rabridge
+
+=== BRIDGE CARGO MANIFESTS ===
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.toml
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/Cargo.toml
+
+=== BRIDGE AUTHORITY INTERFACES ===
+
+--- /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge ---
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs:19:        eprintln!("CHEETAH DENY: prohibited direction");
+
+--- /data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rabridge ---
+
+=== BRIDGE PUBLIC TYPES ===
+
+=== EXISTING TESTS ===
+
+--- /data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge ---
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/Cargo.toml
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/src/main.rs
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/debug/build/serde-6537bba854822881/out/private.rs
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/debug/build/serde-a4c71d1bd517df3b/out/private.rs
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/debug/build/serde_core-4d93ce8181e39e83/out/private.rs
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/debug/build/serde_core-52b7e81310cafcad/out/private.rs
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/release/build/serde-7cacdfceb4e40e09/out/private.rs
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/target/release/build/serde_core-da11e61785706269/out/private.rs
+
+--- /data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rabridge ---
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/Cargo.toml
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/main.rs
+
+=== FORBIDDEN ASSUMPTIONS CHECK ===
+NO_SOURCE_MODIFICATION=PASS
+NO_PRODUCTION_CRYPTO_ADDED=PASS
+NO_AUTHORITY_GRANTED_BY_RECON=PASS
+NO_EXISTING_BRIDGE_REPLACED=PASS
+
+=== DECISION ===
+HALO9_V2_STATUS=VERIFIED
+HALO9_V2_TESTS=13_PASS
+PRODUCTION_CRYPTO=NOT_CONFIGURED
+PRODUCTION_UNLOCK=BLOCKED
+
+HALO9_BRIDGE_RECON_FINAL_DECISION=REVIEW_REQUIRED
+REPORT=/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/halo9_bridge_recon/HALO9_BRIDGE_RECON_20260914T173529Z.txt
+
+==================================================
+ READ-ONLY RECON COMPLETE
+==================================================

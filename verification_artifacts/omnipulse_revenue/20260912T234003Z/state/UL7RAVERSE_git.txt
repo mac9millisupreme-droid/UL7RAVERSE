@@ -1,0 +1,243 @@
+BRANCH=master
+COMMIT=63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+STATUS:
+ M lucideploy/cli/main.py
+ M lucideploy/evidence/final_gate.json
+ M products/ul7ra-verify/tests/test_server.py
+?? .ul7ra_autonomous/
+?? AIL_FINAL_VERIFICATION_REPORT.md
+?? CONNECT_UL7RAVERSE_ONE.sh
+?? DIAG_NAMED_TUNNEL.sh
+?? DNS_AUTHORITY_FINAL.sh
+?? DNS_DELEGATION_DIAG.sh
+?? DNS_TRUTH_CHECK.sh
+?? E6_REVENUE_EXECUTE.sh
+?? FIX_UL7RA_ORIGIN.sh
+?? FORCE_RECONCILE_VERIFY_DNS.sh
+?? FORENSIC_PHASE0_20260909T095923Z/
+?? FORENSIC_PHASE0_20260909T100256Z/
+?? FREEZE_VERIFIED_BASELINE.sh
+?? LUCI_ONE_SHOT.sh
+?? LUCI_PUBLIC_AUTHORITY_DIAG.sh
+?? PROVE_DOMAIN_CONTROL_AND_REPAIR.sh
+?? PUBLISH_UL7RAVERSE_FREE.sh
+?? REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh
+?? REPAIR_VERIFY_PRODUCTION.sh
+?? RUN_UL7RA4_RECONCILIATION.sh
+?? UL7RAPASS_ONE.py
+?? UL7RA_DNS_REPAIR_EXECUTE.sh
+?? UL7RA_DNS_REPAIR_ONE.sh
+?? UL7RA_ELITE_FORENSIC.sh
+?? UL7RA_MEMBER_LOOP.py
+?? VERIFY_UL7RA_ORIGIN.sh
+?? VERIFY_UL7RA_ORIGIN_FIXED.sh
+?? WESTERN_FAIR_OMNIPULSE_CONVERGENCE.sh
+?? diagnose_omnipulse_tunnel.sh
+?? install_ail_v010.py
+?? install_ul7ra_continue_v010.py
+?? keep_omnipulse_public.sh
+?? launch/
+?? launch_omnipulse.sh
+?? launch_omnipulse_live.sh
+?? launch_ul7rapass_one_script.sh
+?? omni_force_live.sh
+?? omni_live_brand_launch.sh
+?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json
+?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json
+?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/
+?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/
+?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/
+?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/
+?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/
+?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/
+?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/
+?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/
+?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/
+?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/
+?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/
+?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/
+?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/
+?? products/ul7ra-verify/deploy/runtime/health_recovery.json
+?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/
+?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/
+?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/
+?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/
+?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json
+?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json
+?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json
+?? products/ul7ra-verify/tests/test_server.py.bak_pathfix
+?? products/ul7ra-verify/tests/test_server.py.bak_realtest
+?? racing/
+?? racing_recon.sh
+?? racing_recon_test.txt
+?? repair_authoritative_dns.sh
+?? repair_omnipulse_live.sh
+?? repair_omnipulse_public_tunnel.sh
+?? revenue_membership.json
+?? scripts/
+?? test_ul7ra_continue.py
+?? test_ul7ra_continue_ail.py
+?? test_ul7ra_continue_purple.py
+?? ul7ra4_factory/
+?? ul7ra_continue/
+?? ul7ra_uncertainty_repair.sh
+?? upgrade_omnipulse_loop.sh
+?? verification_artifacts/
+?? verify_omnipulse_public.sh
+RECENT_COMMITS:
+63c1d60 UL7RAFORGE bootstrap
+2a2496b Add UL7RA Verify commercial product
+d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+TOP_LEVEL:
+.bob/project.json
+.git/COMMIT_EDITMSG
+.git/FETCH_HEAD
+.git/HEAD
+.git/config
+.git/description
+.git/index
+.gitignore
+.pytest_cache/.gitignore
+.pytest_cache/CACHEDIR.TAG
+.pytest_cache/README.md
+AGENTS.md
+AIL_FINAL_VERIFICATION_REPORT.md
+CONNECT_UL7RAVERSE_ONE.sh
+DIAG_NAMED_TUNNEL.sh
+DNS_AUTHORITY_FINAL.sh
+DNS_DELEGATION_DIAG.sh
+DNS_TRUTH_CHECK.sh
+E6_REVENUE_EXECUTE.sh
+FIX_UL7RA_ORIGIN.sh
+FORCE_RECONCILE_VERIFY_DNS.sh
+FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_MATRIX.txt
+FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt
+FORENSIC_PHASE0_20260909T095923Z/CARGO_VERSION.txt
+FORENSIC_PHASE0_20260909T095923Z/DEPENDENCY_MANIFESTS.txt
+FORENSIC_PHASE0_20260909T095923Z/DIFF_STAT.txt
+FORENSIC_PHASE0_20260909T095923Z/GIT_HISTORY.txt
+FORENSIC_PHASE0_20260909T095923Z/GIT_STATUS.txt
+FORENSIC_PHASE0_20260909T095923Z/NODE_VERSION.txt
+FORENSIC_PHASE0_20260909T095923Z/NPM_VERSION.txt
+FORENSIC_PHASE0_20260909T095923Z/PHASE0_BASELINE.json
+FORENSIC_PHASE0_20260909T095923Z/PHASE0_REPORT.txt
+FORENSIC_PHASE0_20260909T095923Z/PIP_VERSION.txt
+FORENSIC_PHASE0_20260909T095923Z/PYTEST_VERSION.txt
+FORENSIC_PHASE0_20260909T095923Z/PYTHON_VERSION.txt
+FORENSIC_PHASE0_20260909T095923Z/REPOSITORY_TREE.txt
+FORENSIC_PHASE0_20260909T095923Z/RUNTIME.txt
+FORENSIC_PHASE0_20260909T095923Z/RUST_VERSION.txt
+FORENSIC_PHASE0_20260909T095923Z/SECURITY_SEARCH.txt
+FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt
+FORENSIC_PHASE0_20260909T095923Z/TEST_FILES.txt
+FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt
+FORENSIC_PHASE0_20260909T095923Z/WORKTREE_DIFF.txt
+FORENSIC_PHASE0_20260909T100256Z/CAPABILITY_MATRIX.txt
+FORENSIC_PHASE0_20260909T100256Z/GIT_HISTORY.txt
+FORENSIC_PHASE0_20260909T100256Z/GIT_STATUS.txt
+FORENSIC_PHASE0_20260909T100256Z/PHASE0_BASELINE.json
+FORENSIC_PHASE0_20260909T100256Z/PHASE0_REPORT.txt
+FORENSIC_PHASE0_20260909T100256Z/REPOSITORY_TREE.txt
+FORENSIC_PHASE0_20260909T100256Z/SECURITY_SCAN.txt
+FORENSIC_PHASE0_20260909T100256Z/TECHNICAL_DEBT.txt
+FORENSIC_PHASE0_20260909T100256Z/TEST_FILES.txt
+FORENSIC_PHASE0_20260909T100256Z/TEST_RESULTS.txt
+FREEZE_VERIFIED_BASELINE.sh
+LUCI_ONE_SHOT.sh
+LUCI_PUBLIC_AUTHORITY_DIAG.sh
+PROVE_DOMAIN_CONTROL_AND_REPAIR.sh
+PUBLISH_UL7RAVERSE_FREE.sh
+REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh
+REPAIR_VERIFY_PRODUCTION.sh
+RUN_UL7RA4_RECONCILIATION.sh
+UL7RAFORGE/UL7RAVERSE_FULL_SNAPSHOT_20260813T205431Z.tar.gz
+UL7RAFORGE/bootstrap.sh
+UL7RAFORGE/hyperquantum_bootstrap.sh
+UL7RAFORGE/promote_v06.py
+UL7RAPASS_ONE.py
+UL7RA_DNS_REPAIR_EXECUTE.sh
+UL7RA_DNS_REPAIR_ONE.sh
+UL7RA_ELITE_FORENSIC.sh
+UL7RA_MEMBER_LOOP.py
+VERIFY_UL7RA_ORIGIN.sh
+VERIFY_UL7RA_ORIGIN_FIXED.sh
+WESTERN_FAIR_OMNIPULSE_CONVERGENCE.sh
+__pycache__/test_ul7ra_continue.cpython-314-pytest-9.1.1.pyc
+__pycache__/test_ul7ra_continue.cpython-314.pyc
+__pycache__/test_ul7ra_continue_ail.cpython-314-pytest-9.1.1.pyc
+__pycache__/test_ul7ra_continue_ail.cpython-314.pyc
+__pycache__/test_ul7ra_continue_purple.cpython-314-pytest-9.1.1.pyc
+__pycache__/test_ul7ra_continue_purple.cpython-314.pyc
+boot-recovery/github-repos.tsv
+diagnose_omnipulse_tunnel.sh
+install_ail_v010.py
+install_ul7ra_continue_v010.py
+integration/discovered_deployment_files.txt
+integration/integration_state.json
+keep_omnipulse_public.sh
+launch/CAMPAIGN_STATE.json
+launch/CURRENT_STATE.md
+launch/ENTITLEMENTS.json
+launch/FAQ.md
+launch/FOLLOWUP_STATE.json
+launch/MEMBERSHIP_SPEC.json
+launch/OFFER.md
+launch/PROOF_LEDGER.md
+launch/PROSPECT_STATE.json
+launch/REFERRAL_STATE.json
+launch/REVENUE_FUNNEL.md
+launch/REVENUE_STATE.json
+launch/REVENUE_STATUS.md
+launch_omnipulse.sh
+launch_omnipulse_live.sh
+launch_ul7rapass_one_script.sh
+lucideploy/run_final_gate.sh
+omni_force_live.sh
+omni_live_brand_launch.sh
+racing/EXECUTE_ORACLE.sh
+racing/README.md
+racing/__init__.py
+racing/decision_composer.py
+racing/latent_ability.py
+racing/market_intelligence.py
+racing/pace_model.py
+racing/phase3_evidence.py
+racing/probability.py
+racing/probability_engine.py
+racing/race_state_reconstruction.py
+racing/uncertainty_propagation.py
+racing_recon.sh
+racing_recon_test.txt
+repair_authoritative_dns.sh
+repair_omnipulse_live.sh
+repair_omnipulse_public_tunnel.sh
+revenue_membership.json
+scripts/membership_verify.sh
+scripts/revenue_engine.sh
+scripts/revenue_preflight.sh
+scripts/revenue_status.sh
+test_ul7ra_continue.py
+test_ul7ra_continue_ail.py
+test_ul7ra_continue_purple.py
+ul7ra_boot.sh
+ul7ra_boot_output.txt
+ul7ra_change_manifest.txt
+ul7ra_continue/__init__.py
+ul7ra_continue/__main__.py
+ul7ra_continue/ail.py
+ul7ra_continue/cli.py
+ul7ra_continue/discovery.py
+ul7ra_continue/evidence.py
+ul7ra_continue/governance.py
+ul7ra_continue/purple.py
+ul7ra_continue/verification.py
+ul7ra_start_stack.sh
+ul7ra_termux_sentinel.sh
+ul7ra_uncertainty_repair.sh
+ul7ra_verify_runtime.log
+upgrade_omnipulse_loop.sh
+verification_artifacts/README.md
+verification_artifacts/test_verification_artifact.py
+verification_artifacts/verification_artifact.py
+verification_artifacts/verification_artifact.schema.json
+verify_omnipulse_public.sh

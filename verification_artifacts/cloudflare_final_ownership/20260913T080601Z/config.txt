@@ -1,0 +1,6 @@
+tunnel: a241e27b-336e-44cc-9a52-6487131db63b
+credentials-file: /data/data/com.termux/files/home/.cloudflared/a241e27b-336e-44cc-9a52-6487131db63b.json
+  - hostname: verify.omnilucient.com
+    service: http://127.0.0.1:8787
+  - hostname: omnilucient.com
+    service: http://127.0.0.1:8787

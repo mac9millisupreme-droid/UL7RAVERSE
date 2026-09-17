@@ -1,0 +1,56 @@
+{
+  "edges": [
+    {
+      "from": "Claim",
+      "relationship": "supported_by",
+      "status": "REVIEW_REQUIRED",
+      "to": "ProofArtifact"
+    },
+    {
+      "from": "ProofArtifact",
+      "relationship": "recorded_in",
+      "status": "REVIEW_REQUIRED",
+      "to": "LedgerEntry"
+    },
+    {
+      "from": "LedgerEntry",
+      "relationship": "integrity",
+      "status": "REVIEW_REQUIRED",
+      "to": "Hash"
+    },
+    {
+      "from": "ProofArtifact",
+      "relationship": "time_bound",
+      "status": "REVIEW_REQUIRED",
+      "to": "Timestamp"
+    },
+    {
+      "from": "ProofArtifact",
+      "relationship": "replay_boundary",
+      "status": "REVIEW_REQUIRED",
+      "to": "Nonce"
+    },
+    {
+      "from": "ProofArtifact",
+      "relationship": "state",
+      "status": "REVIEW_REQUIRED",
+      "to": "ProofState"
+    },
+    {
+      "from": "ProofArtifact",
+      "relationship": "must_be_verifiable",
+      "status": "GOVERNANCE_REQUIREMENT",
+      "to": "IndependentVerification"
+    }
+  ],
+  "nodes": [
+    "Claim",
+    "ProofArtifact",
+    "LedgerEntry",
+    "Hash",
+    "Timestamp",
+    "Nonce",
+    "ProofState",
+    "IndependentVerification"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "specification": "UL7RA_CONSTITUTION/v1",
+  "terminal_sink": "BLOCKED",
+  "production_unlock": {
+    "type": "DERIVED",
+    "storage": false,
+    "mutation": false,
+    "blocked_value": 0
+  },
+  "gates": [
+    {
+      "id": "G1",
+      "from": "L1",
+      "to": "L2",
+      "predicate": "PROPOSAL_WELLFORMED",
+      "on_fail": "PREDICATE_UNSATISFIED"
+    },
+    {
+      "id": "G2",
+      "from": "L2",
+      "to": "L3",
+      "predicate": "BUILD_REPRODUCIBLE",
+      "on_fail": "PREDICATE_UNSATISFIED"
+    },
+    {
+      "id": "G3",
+      "from": "L3",
+      "to": "L4",
+      "predicate": "ADVERSARIAL_SURVIVAL",
+      "on_fail": "PREDICATE_UNSATISFIED"
+    },
+    {
+      "id": "G4",
+      "from": "L4",
+      "to": "L5",
+      "predicate": "PROOF_COMPLETE",
+      "on_fail": "PREDICATE_UNSATISFIED"
+    },
+    {
+      "id": "G5",
+      "from": "L5",
+      "to": "L6",
+      "predicate": "AUTHORITY_VALID",
+      "on_fail": "PREDICATE_UNSATISFIED"
+    },
+    {
+      "id": "G6",
+      "from": "L6",
+      "to": "L7",
+      "predicate": "EFFECT_SCOPED",
+      "on_fail": "PREDICATE_UNSATISFIED"
+    }
+  ],
+  "lifecycle": [
+    [
+      "RELEASE",
+      "ACTIVE"
+    ],
+    [
+      "ACTIVE",
+      "REVOKED"
+    ],
+    [
+      "REVOKED",
+      "RETIRED"
+    ]
+  ],
+  "forbidden_resurrection": [
+    [
+      "REVOKED",
+      "ACTIVE"
+    ],
+    [
+      "REVOKED",
+      "RELEASE"
+    ],
+    [
+      "RETIRED",
+      "ACTIVE"
+    ],
+    [
+      "RETIRED",
+      "RELEASE"
+    ]
+  ],
+  "refusal": [
+    "PREDICATE_UNSATISFIED",
+    "BLOCKED",
+    "NO_EXTERNAL_EFFECT"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "artifact_type": "UL7RA_GOVERNANCE_BOUNDARY_CHECKPOINT",
+  "created_utc": "20260909T122444Z",
+  "bridge_version": "0.1.0",
+  "purple_version": "0.1.1",
+  "ail_version": "0.1",
+  "repository_root": "/data/data/com.termux/files/home/UL7RAVERSE",
+  "git_branch": "master",
+  "git_head": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+  "historical_recovery": false,
+  "historical_checkpoint_recovered": false,
+  "historical_rewrite": false,
+  "promotion": "REFUSED",
+  "execution_authorized": false,
+  "workaround_permitted": false,
+  "trinity_implemented": false,
+  "governance_boundary": "AIL_NEEDS_REVIEW_HARD_STOP",
+  "test_results_sha256": "12dbc43070fdc33bda1fba8f45a960d2be4973d5a991cb29e6a76e5eb909f37f"
+}

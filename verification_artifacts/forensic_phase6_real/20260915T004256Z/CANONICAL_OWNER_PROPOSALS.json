@@ -1,0 +1,736 @@
+[
+  {
+    "sha256": "46940b1c1c456db37b9743e1130226a45e6d75cd58c6f34293089a88cf23f33d",
+    "owner": "FORENSIC_PHASE0_20260909T095923Z/TEST_FILES.txt",
+    "aliases": [
+      "FORENSIC_PHASE0_20260909T100256Z/TEST_FILES.txt"
+    ],
+    "members": [
+      "FORENSIC_PHASE0_20260909T095923Z/TEST_FILES.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/TEST_FILES.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "bf12bec83302970e9c4ab84e1af2776df64c2f4256432f922462bec26e06b0df",
+    "owner": "FORENSIC_PHASE0_20260909T095923Z/GIT_HISTORY.txt",
+    "aliases": [
+      "FORENSIC_PHASE0_20260909T100256Z/GIT_HISTORY.txt"
+    ],
+    "members": [
+      "FORENSIC_PHASE0_20260909T095923Z/GIT_HISTORY.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/GIT_HISTORY.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "80165249811453d967ddb1376b246762065d25f494bd787d49c205abaf4b47e6",
+    "owner": "launch/CAMPAIGN_STATE.json",
+    "aliases": [
+      "launch/FOLLOWUP_STATE.json",
+      "launch/PROSPECT_STATE.json",
+      "launch/REFERRAL_STATE.json"
+    ],
+    "members": [
+      "launch/CAMPAIGN_STATE.json",
+      "launch/FOLLOWUP_STATE.json",
+      "launch/PROSPECT_STATE.json",
+      "launch/REFERRAL_STATE.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "f67d37c254e519b5db20166d9f4e075a43bbf2b5ad5d779295b75c6cb0ec71ba",
+    "owner": "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.toml",
+    "aliases": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.toml"
+    ],
+    "members": [
+      "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.toml",
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.toml"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "26ebe8a53e5266175a8ce0faf99f0e6ab8f2f2e73136c17ef5421954cb35b385",
+    "owner": "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.lock",
+    "aliases": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.lock"
+    ],
+    "members": [
+      "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.lock",
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.lock"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "3ff95ab947e9e86a29b9dde6227806a2de1f38b649e8996be7b19bb45e3ef18b",
+    "owner": "halo_twin_pair_v1/halo_twin_pair_v1/src/main.rs",
+    "aliases": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/main.rs"
+    ],
+    "members": [
+      "halo_twin_pair_v1/halo_twin_pair_v1/src/main.rs",
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/main.rs"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "6becbeedd4e99ff34d298d967ef7bdf76c0dcdbfce4f7c3ef0ec660abea3e2ca",
+    "owner": "racing/accuracy_logs/status_20260909_041713.txt",
+    "aliases": [
+      "racing/accuracy_logs/status_20260909_041845.txt"
+    ],
+    "members": [
+      "racing/accuracy_logs/status_20260909_041713.txt",
+      "racing/accuracy_logs/status_20260909_041845.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "55ab48d35f034cc0c0f195b13c93f88fce9e458acdc7f84bbf75d96390f42e5e",
+    "owner": ".ul7ra/funnel/AUTHORITATIVE_STATE.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/reconciliation-persistent-20260823T174506Z/STATE.json"
+    ],
+    "members": [
+      ".ul7ra/funnel/AUTHORITATIVE_STATE.json",
+      ".ul7ra/funnel/runs/reconciliation-persistent-20260823T174506Z/STATE.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "f82576a9594cdbc9f5e9189454aa21b93a94cd0bdcee632a332a60c15ab6b45e",
+    "owner": ".ul7ra/protocol52/runs/20260825T162946Z/git-status.txt",
+    "aliases": [
+      ".ul7ra/protocol52/runs/20260825T163117Z/git-status.txt"
+    ],
+    "members": [
+      ".ul7ra/protocol52/runs/20260825T162946Z/git-status.txt",
+      ".ul7ra/protocol52/runs/20260825T163117Z/git-status.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "e2f556eb282ba8cece453b4b8f617d1be14680486a9d186674c50e9f2980e96c",
+    "owner": ".ul7ra/protocol52/runs/20260825T162946Z/diff-stat.txt",
+    "aliases": [
+      ".ul7ra/protocol52/runs/20260825T163117Z/diff-stat.txt"
+    ],
+    "members": [
+      ".ul7ra/protocol52/runs/20260825T162946Z/diff-stat.txt",
+      ".ul7ra/protocol52/runs/20260825T163117Z/diff-stat.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "89b7eb6de34fa5a53576f671fdb8d2d4e72dd50b8b0631a0d50263cb2021ff84",
+    "owner": "UL7RAFORGE/ul7rastack/live/state/live_status.json",
+    "aliases": [
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json",
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json"
+    ],
+    "members": [
+      "UL7RAFORGE/ul7rastack/live/state/live_status.json",
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json",
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "7d9effdb1815234ff742969d13d5e41e9f06039f79e26dcb874975bc92f5ec40",
+    "owner": "UL7RAFORGE/ul7rastack/security/state/live_security.json",
+    "aliases": [
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json",
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json"
+    ],
+    "members": [
+      "UL7RAFORGE/ul7rastack/security/state/live_security.json",
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json",
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "63043aa7617f096587148590eaa2e17f22638902e1a7767d9c83a759dee33281",
+    "owner": ".ul7ra/funnel/evidence/git_status.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/20260823T042104Z/git_status.txt"
+    ],
+    "members": [
+      ".ul7ra/funnel/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/20260823T042104Z/git_status.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "ed240d8de1d1c18f03030cea42a9de51df0ee2582f4765ff76bb8d1d8194f341",
+    "owner": ".ul7ra/funnel/evidence/UL7RA4ORGE_EXECUTION.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/20260823T042104Z/evidence/UL7RA4ORGE_EXECUTION.before-restart.json"
+    ],
+    "members": [
+      ".ul7ra/funnel/evidence/UL7RA4ORGE_EXECUTION.json",
+      ".ul7ra/funnel/runs/20260823T042104Z/evidence/UL7RA4ORGE_EXECUTION.before-restart.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "652d19e56b282f7d43297a238ac33ea68d2b5ddf53fedec2b8888ec3b1d17807",
+    "owner": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/registry.py",
+    "aliases": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/registry.py",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/registry.py"
+    ],
+    "members": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/evidence/registry.py",
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/registry.py",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/registry.py"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "07b01d4b84c3fff5132757890f5e660c715d3d4e1f0c13c322866bc7be4b8ff9",
+    "owner": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/attest.py",
+    "aliases": [
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/attest.py"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/attest.py",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/attest.py"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "12a5b7867d1a440bd21ffa288a1e6866fd790e59e6a88487fa4b73f33969b35b",
+    "owner": "UL7RAFORGE/v10/ul7rastack/assurance/assurance_gates.py",
+    "aliases": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/assurance_gates.py",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/assurance_gates.py"
+    ],
+    "members": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/assurance_gates.py",
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/assurance_gates.py",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/assurance_gates.py"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "bd64a42b30ade2970bf4f5aab31733df67e6eeb7acfa8901c89497ed4308ec68",
+    "owner": ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/fail_closed.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/persistent-20260823T173703Z-2/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173711Z-3/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173720Z-4/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173729Z-5/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173738Z-6/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173747Z-7/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173756Z-8/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173805Z-9/fail_closed.txt"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173703Z-2/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173711Z-3/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173720Z-4/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173729Z-5/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173738Z-6/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173747Z-7/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173756Z-8/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173805Z-9/fail_closed.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "add96e1cc0652c8218ade59c1bc6a2090b3cbefb7196b2fd84830c71aff27f00",
+    "owner": ".ul7ra/funnel/runs/autofunnel-20260823T173937Z/producers.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/blockers-20260823T173851Z/capabilities.txt"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/autofunnel-20260823T173937Z/producers.txt",
+      ".ul7ra/funnel/runs/blockers-20260823T173851Z/capabilities.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "97fbdb43696c90a61c9b7c45444c0ff0052b371ba8787904ce54fc044fca934c",
+    "owner": ".ul7ra/funnel/runs/test-20260823T174057Z/STATE.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/test-20260823T174057Z/STATE.final.json"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/test-20260823T174057Z/STATE.json",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/STATE.final.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "4f7ea895d3d1c63814a3430fb1b6e60208c4791e733636fca80008764c9731b3",
+    "owner": ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/diagnostic.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/diagnostic.json"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/diagnostic.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "6704d5f5752c3baf5d1b8c57a607052853c6ec6303842b062083d1ee52c26800",
+    "owner": ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/state.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/baseline.json"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/state.json",
+      ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/baseline.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "387931710630ffafa5529582c220a584f7d293072a94c1b6cbe4335b806dab13",
+    "owner": ".ul7ra/funnel/runs/health-20260823T191246Z/evidence/state.before.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/health-20260823T191246Z/evidence/state.snapshot.json"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/health-20260823T191246Z/evidence/state.before.json",
+      ".ul7ra/funnel/runs/health-20260823T191246Z/evidence/state.snapshot.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "24666e131436693da54e9aab91576bbcb3a6ac03995adec27910fefe4e913bab",
+    "owner": ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/reconciliation.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/reconciliation.json"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/reconciliation.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "84385779425cd96c110e2cdcbaa0463e4589494beaae6a8ad4d7b051f383ea6f",
+    "owner": ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/git_status.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/git_status.txt"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/git_status.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "e7d06c88fe1f36022f62a83f3342665550f5bf922feb1a1ebb7a5870dc0aa84b",
+    "owner": ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/directory_contract.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/directory_contract.txt"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/directory_contract.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "e02ca50b9674874c38015795daeaae6112e66184bc3cbd0835912390d3ae38a7",
+    "owner": ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/fail_closed.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/fail_closed.json"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/fail_closed.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "c5a60de4e05aef2bb3dbb646caf29d27f894adc43203cacc01ec6533e64f6150",
+    "owner": ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "3f5ba045b3cfc9ee78a0d06f6df3610b4e741273a902f5bcb4e7abbd10c4c34a",
+    "owner": ".ul7ra/funnel/runs/20260823T162913Z/evidence/GIT_STATUS.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_STATUS.txt"
+    ],
+    "members": [
+      ".ul7ra/funnel/runs/20260823T162913Z/evidence/GIT_STATUS.txt",
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_STATUS.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "7b28440b430ae95cb5e260a9fd39e21b77709ffff12ac54d8398d33633f5cdd3",
+    "owner": "UL7RAFORGE/ul7rastack/security/containment/state.json",
+    "aliases": [
+      "UL7RAFORGE/ul7rastack/security/evidence/latest_containment.json"
+    ],
+    "members": [
+      "UL7RAFORGE/ul7rastack/security/containment/state.json",
+      "UL7RAFORGE/ul7rastack/security/evidence/latest_containment.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "0fe2a0003aaf9530f010b0c6605b4564bb6351104ad9c83f027c6aaf505ac9e3",
+    "owner": "UL7RAFORGE/v10/ul7rastack/hyperquantum/state/current_hyperquantum_result.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/hyperquantum/state/20260813T214435Z/hyperquantum_result.json"
+    ],
+    "members": [
+      "UL7RAFORGE/v10/ul7rastack/hyperquantum/state/current_hyperquantum_result.json",
+      "UL7RAFORGE/v10/ul7rastack/hyperquantum/state/20260813T214435Z/hyperquantum_result.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "0d598c544131fb5dd6e80c486f01a5e3c873b09a553c2bc5cbef09b350edd965",
+    "owner": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014655Z/evidence_consumed_record.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014832Z/evidence_consumed_record.json"
+    ],
+    "members": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014655Z/evidence_consumed_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014832Z/evidence_consumed_record.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "e5a3c6f5db661cae731843b241d57562f052a580f31569c39f6f6fd7ad200bef",
+    "owner": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015125Z/evidence_consumed_record.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015738Z/evidence_consumed_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015817Z/evidence_consumed_record.json"
+    ],
+    "members": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015125Z/evidence_consumed_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015738Z/evidence_consumed_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015817Z/evidence_consumed_record.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "40330c945a6a71594b72852c17c4cf8ef057a777c0d64e69cb93fefe844f547a",
+    "owner": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/reproducibility.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/reproducibility.json"
+    ],
+    "members": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/reproducibility.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/reproducibility.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "146071dc95943b254638881c717b17f4cc28546ac1b747792b098d925c3f8930",
+    "owner": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/purple/status.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/purple/status.json"
+    ],
+    "members": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/purple/status.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/purple/status.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "eb632295b8b8a7967b62cc6d38f5da477ab2c59afab59a6acbaf45eadb43652f",
+    "owner": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_status.txt",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/git_status.txt"
+    ],
+    "members": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_status.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/git_status.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "34d6a94dacb895403529caac12a19aed745c6caca7a8d0f4ed631999044f76e8",
+    "owner": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_commit.txt",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/git_commit.txt"
+    ],
+    "members": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_commit.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/git_commit.txt"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "7cfd101e48e845582819873b21e5184a2a88d1d1bf4cd4935b81b21d35e5c56f",
+    "owner": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/result.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/result.json"
+    ],
+    "members": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/result.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "0b96ac677031d63ec23f6f19ebb88c684fb2c00661a28fb2aeb3bf0fc0de1c96",
+    "owner": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/result.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/result.json"
+    ],
+    "members": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/result.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  },
+  {
+    "sha256": "2b8eb9eb33761cf6b6d0a90ea43b459ea036aeb45d4f61e724da448942507908",
+    "owner": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/result.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/result.json"
+    ],
+    "members": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/result.json"
+    ],
+    "evidence": "CONFIRMED_EXACT_DUPLICATE",
+    "reversible": true,
+    "automatic_merge": false,
+    "automatic_delete": false,
+    "protected": false
+  }
+]

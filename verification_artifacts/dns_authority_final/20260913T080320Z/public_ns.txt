@@ -1,0 +1,2 @@
+omnilucient.com.	21600	IN	NS	addyson.ns.cloudflare.com.
+omnilucient.com.	21600	IN	NS	rodrigo.ns.cloudflare.com.

@@ -1,0 +1,19 @@
+[package]
+name = "halo-twin-pair-v1"
+version = "0.1.0"
+edition = "2021"
+description = "Fail-closed HALO Twin Pair state machine for UL7RAVERSE"
+license = "Apache-2.0"
+
+[lib]
+name = "halo_twin_pair"
+path = "src/lib.rs"
+
+[[bin]]
+name = "halo9-demo"
+path = "src/main.rs"
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"

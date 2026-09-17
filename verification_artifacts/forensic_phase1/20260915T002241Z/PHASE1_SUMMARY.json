@@ -1,0 +1,29 @@
+{
+  "authority": "UL7RABRIDGE_REMAINS_FINAL_BOUNDARY",
+  "authority_candidates": 184,
+  "canonicality": "NOT_YET_PROVEN",
+  "decision": "REVIEW_REQUIRED",
+  "governance": {
+    "fail_closed": true,
+    "no_fabricated_pass": true,
+    "unknown_remains_unknown": true
+  },
+  "inventory_count": 3178,
+  "phase": "PHASE1",
+  "phase0_source": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/forensic_phase0/20260914T181458Z",
+  "production_unlock": "BLOCKED",
+  "proof_candidates": 1704,
+  "real_bridge_modification": "NONE",
+  "subsystem_references": 4492,
+  "test_surface_categories": {
+    "adversarial_tests": 14,
+    "diagnostic_tools": 130,
+    "fuzzing": 0,
+    "independent_verifiers": 435,
+    "integration_tests": 27,
+    "luci_tests": 33,
+    "production_gates": 186,
+    "security_tests": 4,
+    "unit_tests": 278
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "specification": "UL7RA_CONSTITUTION/v1",
+  "read_only": true,
+  "files": {
+    "AUDIT_REPORT.json": "8c6ff7e1e35a9693cdf874371da0b1b1b5aa9874f647fc3829d4abce747e799c",
+    "CONFORMANCE_VERDICT.json": "e5c9018dc946fa60719ec6512c5e1be021a1837ebd32321a9893f0b3e0612bf9",
+    "VIOLATION_MANIFEST.json": "dab7949248ed4e0b9a779f400b28b810c9eed46fd9f376941e32226a0fdb9e7e",
+    "all_files.txt": "7acd7e0848fe028ea385a7a24a0cb8cafc61bdf5c65324068be4299abdaf537d",
+    "git_head.txt": "f06b0da20ee3b710615a6b286bdd5bbcdfa3dec9105c354b877b79de82e58587",
+    "git_status_before.txt": "b2eed1c74876dcd9b52d6807f00c6bd40b6f49b625d476d0f9f7e5abc931f63e",
+    "symbol_evidence.txt": "75981d80d109602f022a29ae963b510355ed909e1a1d9ef76fe4b92eb1843603"
+  }
+}

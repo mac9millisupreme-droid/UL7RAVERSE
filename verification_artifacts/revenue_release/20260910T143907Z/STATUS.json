@@ -1,0 +1,65 @@
+{
+  "timestamp": "20260910T143907Z",
+  "repository": "/data/data/com.termux/files/home/UL7RAVERSE",
+  "checks": {
+    "git": {
+      "rc": 0,
+      "output": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4"
+    },
+    "git_status": {
+      "rc": 0,
+      "output": " M products/ul7ra-verify/tests/test_server.py\n?? .ul7ra_autonomous/\n?? AIL_FINAL_VERIFICATION_REPORT.md\n?? FORENSIC_PHASE0_20260909T095923Z/\n?? FORENSIC_PHASE0_20260909T100256Z/\n?? FREEZE_VERIFIED_BASELINE.sh\n?? install_ail_v010.py\n?? install_ul7ra_continue_v010.py\n?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json\n?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/\n?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/\n?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/\n?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/\n?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/\n?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/\n?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/\n?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/\n?? products/ul7ra-verify/deploy/runtime/health_recovery.json\n?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/\n?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/\n?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/\n?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/\n?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json\n?? products/ul7ra-verify/tests/test_server.py.bak_pathfix\n?? products/ul7ra-verify/tests/test_server.py.bak_realtest\n?? racing/\n?? racing_recon.sh\n?? racing_recon_test.txt\n?? test_ul7ra_continue.py\n?? test_ul7ra_continue_ail.py\n?? test_ul7ra_continue_purple.py\n?? ul7ra_continue/\n?? ul7ra_uncertainty_repair.sh\n?? verification_artifacts/\n"
+    }
+  },
+  "tests": [
+    {
+      "command": "python -m pytest -q",
+      "returncode": 0,
+      "output": "........................................................................ [ 81%]\n................                                                         [100%]\n88 passed in 12.01s\n"
+    }
+  ],
+  "artifacts": [
+    "verification_artifacts/README.md",
+    "verification_artifacts/__pycache__/test_verification_artifact.cpython-314-pytest-9.1.1.pyc",
+    "verification_artifacts/__pycache__/test_verification_artifact.cpython-314.pyc",
+    "verification_artifacts/__pycache__/verification_artifact.cpython-314.pyc",
+    "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/GOVERNANCE_CHAIN.json",
+    "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/MANIFEST.json",
+    "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/SHA256SUMS.txt",
+    "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/STATE.json",
+    "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/TEST_RESULTS.txt",
+    "verification_artifacts/continue_runs/20260909T121541Z/EVIDENCE.json",
+    "verification_artifacts/continue_runs/20260909T121541Z/EVIDENCE.sha256",
+    "verification_artifacts/continue_runs/20260909T121623Z/EVIDENCE.json",
+    "verification_artifacts/continue_runs/20260909T121623Z/EVIDENCE.sha256",
+    "verification_artifacts/continue_runs/20260909T121910Z/EVIDENCE.json",
+    "verification_artifacts/continue_runs/20260909T121910Z/EVIDENCE.sha256",
+    "verification_artifacts/continue_runs/20260909T121918Z/EVIDENCE.json",
+    "verification_artifacts/continue_runs/20260909T121918Z/EVIDENCE.sha256",
+    "verification_artifacts/continue_runs/20260909T122218Z/EVIDENCE.json",
+    "verification_artifacts/continue_runs/20260909T122218Z/EVIDENCE.sha256",
+    "verification_artifacts/continue_runs/20260909T122230Z/EVIDENCE.json",
+    "verification_artifacts/continue_runs/20260909T122230Z/EVIDENCE.sha256",
+    "verification_artifacts/continue_runs/20260909T122316Z/EVIDENCE.json",
+    "verification_artifacts/continue_runs/20260909T122316Z/EVIDENCE.sha256",
+    "verification_artifacts/continue_runs/20260909T122451Z/EVIDENCE.json",
+    "verification_artifacts/continue_runs/20260909T122451Z/EVIDENCE.sha256",
+    "verification_artifacts/continue_runs/20260910T143921Z/EVIDENCE.json",
+    "verification_artifacts/continue_runs/20260910T143921Z/EVIDENCE.sha256",
+    "verification_artifacts/discovery/20260909T102406Z/PHASE2_DISCOVERY.json",
+    "verification_artifacts/discovery/20260909T102406Z/PHASE2_DISCOVERY.txt",
+    "verification_artifacts/runs/phase2c_20260909T102629Z/RUN_SUMMARY.txt",
+    "verification_artifacts/runs/phase2c_20260909T102629Z/VERIFICATION_ARTIFACT.json",
+    "verification_artifacts/runs/phase2c_env_20260909T102841Z/ENVIRONMENT_ISOLATION.json",
+    "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/CHECKPOINT.json",
+    "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/CHECKPOINT.sha256",
+    "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/RECONSTRUCTION_MANIFEST.json",
+    "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_branch.txt",
+    "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_head.txt",
+    "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_status.txt",
+    "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/racing_tests.log",
+    "verification_artifacts/test_verification_artifact.py",
+    "verification_artifacts/verification_artifact.py",
+    "verification_artifacts/verification_artifact.schema.json"
+  ]
+}

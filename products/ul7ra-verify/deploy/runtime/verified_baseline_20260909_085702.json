@@ -1,0 +1,30 @@
+{
+  "artifact_type": "UL7RAVERSE_VERIFIED_BASELINE",
+  "schema_version": "1.1",
+  "timestamp_utc": "2026-09-09T08:57:08Z",
+  "git_head": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+  "verification_policy": {
+    "no_fabricated_results": true,
+    "server_environment_failure_is_separate": true,
+    "canonical_racing_invocation": "cd ~/UL7RAVERSE && python -m pytest -q racing/tests -vv --tb=long",
+    "canonical_ail_invocation": "cd ~/UL7RAVERSE && python -m pytest -q racing/tests/test_ail_*.py -vv --tb=long"
+  },
+  "results": {
+    "ail": "PASS",
+    "racing": "PASS",
+    "regression_core": "PASS",
+    "replay": "PASS",
+    "determinism": "PASS",
+    "server_test": "ENVIRONMENT_DEPENDENT"
+  },
+  "overall": "PASS_WITH_ENVIRONMENT_BLOCK",
+  "executed_exit_codes": {
+    "ail": 0,
+    "racing": 0
+  },
+  "evidence_logs": {
+    "ail": "/data/data/com.termux/files/home/UL7RAVERSE/racing/repair_logs/freeze_logs/ail_tests_20260909_085702.log",
+    "racing": "/data/data/com.termux/files/home/UL7RAVERSE/racing/repair_logs/freeze_logs/racing_tests_20260909_085702.log"
+  },
+  "baseline_statement": "AIL and Racing verification passed under canonical repository-root invocation. Replay and determinism were previously verified. Server verification remains environment-dependent."
+}

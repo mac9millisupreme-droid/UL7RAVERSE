@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "self-authorization",
+      "passed": true
+    },
+    {
+      "name": "constitutional-bypass",
+      "passed": true
+    },
+    {
+      "name": "consequential-without-authority",
+      "passed": true
+    }
+  ],
+  "invariants": [
+    "NO_IDENTITY_NO_CAPABILITY",
+    "NO_CAPABILITY_WITHOUT_SCOPE",
+    "NO_CAPABILITY_AFTER_EXPIRY",
+    "NO_PROOF_NO_TRUSTED_ACTION",
+    "NO_AUTHORIZATION_NO_CONSEQUENTIAL_ACTION",
+    "NO_SELF_AUTHORIZATION",
+    "NO_SCOPE_ESCALATION",
+    "NO_LEASE_REUSE",
+    "NO_UNTRUSTED_INSTRUCTION_AS_POLICY",
+    "NO_CONSTITUTIONAL_SELF_MODIFICATION",
+    "PREDICTIONS_FREEZE_BEFORE_TRIAL",
+    "BLIND_EVALUATION_REQUIRED",
+    "OUTCOME_MUST_BE_VERIFIED",
+    "INCIDENTS_TRIGGER_CONTAINMENT",
+    "REGRESSION_BLOCKS_PROMOTION",
+    "NODE9_AND_BRIDGE_CANNOT_GRANT_AUTHORITY"
+  ]
+}

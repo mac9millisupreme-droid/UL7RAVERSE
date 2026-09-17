@@ -1,0 +1,7 @@
+{
+  "id": "CHEETAH-1789157673",
+  "direction": "SOVEREIGN_TO_EXTERNAL",
+  "classification": "UNCLASSIFIED",
+  "payload_sha256": "615ef3dd0916b27f02cddfe121f35d0da9d80cdc34bd82924c718a6d78110041",
+  "timestamp": 1789157673
+}

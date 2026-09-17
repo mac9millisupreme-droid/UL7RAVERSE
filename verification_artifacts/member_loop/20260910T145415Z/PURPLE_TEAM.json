@@ -1,0 +1,8 @@
+{
+  "1500_UNIT_CEILING": true,
+  "3_LUCICOIN_CEILING": true,
+  "NO_EVIDENCE_NO_PASS": true,
+  "PAYMENT_CANNOT_CREATE_PASS": true,
+  "PROOF_HAS_EVIDENCE_HASH": true,
+  "UNPAID_CANNOT_USE": true
+}

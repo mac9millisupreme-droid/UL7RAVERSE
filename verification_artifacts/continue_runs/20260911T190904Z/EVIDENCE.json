@@ -1,0 +1,38 @@
+{
+  "bridge_version": "0.1.0",
+  "execution_authorized": false,
+  "historical_recovery": false,
+  "promotion": "REFUSED",
+  "run_timestamp": "20260911T190904Z",
+  "state": {
+    "branch": "master",
+    "checkpoint": {
+      "historical_checkpoint_present": false,
+      "historical_recovery": false,
+      "reconstructed": [
+        {
+          "expected_sha256": "491a2a5447ba2444394248372ecbee52fd848160f2f283861a90ffd60667c6eb",
+          "historical_recovery": false,
+          "path": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/CHECKPOINT.json",
+          "sha256": "491a2a5447ba2444394248372ecbee52fd848160f2f283861a90ffd60667c6eb",
+          "sha256_match": true
+        }
+      ]
+    },
+    "head": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+    "root": "/data/data/com.termux/files/home/UL7RAVERSE",
+    "worktree": "M products/ul7ra-verify/tests/test_server.py\n?? .ul7ra_autonomous/\n?? AIL_FINAL_VERIFICATION_REPORT.md\n?? E6_REVENUE_EXECUTE.sh\n?? FORENSIC_PHASE0_20260909T095923Z/\n?? FORENSIC_PHASE0_20260909T100256Z/\n?? FREEZE_VERIFIED_BASELINE.sh\n?? REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh\n?? RUN_UL7RA4_RECONCILIATION.sh\n?? UL7RAPASS_ONE.py\n?? UL7RA_MEMBER_LOOP.py\n?? install_ail_v010.py\n?? install_ul7ra_continue_v010.py\n?? launch_ul7rapass_one_script.sh\n?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json\n?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/\n?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/\n?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/\n?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/\n?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/\n?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/\n?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/\n?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/\n?? products/ul7ra-verify/deploy/runtime/health_recovery.json\n?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/\n?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/\n?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/\n?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/\n?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json\n?? products/ul7ra-verify/tests/test_server.py.bak_pathfix\n?? products/ul7ra-verify/tests/test_server.py.bak_realtest\n?? racing/\n?? racing_recon.sh\n?? racing_recon_test.txt\n?? revenue_membership.json\n?? test_ul7ra_continue.py\n?? test_ul7ra_continue_ail.py\n?? test_ul7ra_continue_purple.py\n?? ul7ra4_factory/\n?? ul7ra_continue/\n?? ul7ra_uncertainty_repair.sh\n?? verification_artifacts/"
+  },
+  "verification": {
+    "historical_recovery": false,
+    "next": "PURPLE_TEAM",
+    "promotion": "REFUSED",
+    "racing_gate": {
+      "command": "python -m pytest racing/tests -q",
+      "output": "................................................................                 [100%]\n64 passed in 0.78s\n",
+      "returncode": 0,
+      "status": "PASS"
+    },
+    "status": "VERIFIED_FOR_REVIEW"
+  }
+}

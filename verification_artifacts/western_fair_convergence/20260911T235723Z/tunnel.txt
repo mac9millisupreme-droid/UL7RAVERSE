@@ -1,0 +1,6 @@
+NAME:     ul7ra-verify
+ID:       a241e27b-336e-44cc-9a52-6487131db63b
+CREATED:  2026-08-22 04:43:31.842802 +0000 UTC
+
+CONNECTOR ID                         CREATED              ARCHITECTURE VERSION  ORIGIN IP                              EDGE                      
+042fd8df-9c58-40f8-ab08-35d39e2432fb 2026-09-11T21:25:30Z android_arm  2026.8.3 2605:b100:300:e39a:18a1:10ff:fe8c:6c04 1xyyz01, 1xyyz03, 2xyyz06 

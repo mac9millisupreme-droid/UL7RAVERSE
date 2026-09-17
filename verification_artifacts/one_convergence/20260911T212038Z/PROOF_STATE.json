@@ -1,0 +1,21 @@
+{
+  "system": "UL7RAVERSE",
+  "controller": "ONE_CONVERGENCE_LAUNCH",
+  "timestamp": "20260911T212038Z",
+  "domain": "verify.omnilucient.com",
+  "tunnel": "ul7ra-verify",
+  "tunnel_id": "a241e27b-336e-44cc-9a52-6487131db63b",
+  "origin": "http://127.0.0.1:8787",
+  "origin_ok": 0,
+  "tunnel_exists": 1,
+  "tunnel_connection": 1,
+  "dns_ok": 1,
+  "https_ok": 0,
+  "luci_ok": 0,
+  "governance_ok": 1,
+  "payment_verified": false,
+  "production_unlock": false,
+  "canonical_promotion": false,
+  "public_exposure_authorized": false,
+  "final_decision": "BLOCKED"
+}

@@ -1,0 +1,457 @@
+=== V10 EXACT DEPENDENCY CORRELATION ===
+HEAD=63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+ROOT=UL7RAFORGE/v10/ul7rastack
+BRIDGE=UL7RAFORGE/v10/ul7rabridge
+
+=== TARGET FILES ===
+FOUND UL7RAFORGE/v10/ul7rastack/assurance/state/assurance_gate_results.json
+55006c6a1602626a574fc61bc2c92457c0afc34a1f26a3bc215bc57b06f87ee7  UL7RAFORGE/v10/ul7rastack/assurance/state/assurance_gate_results.json
+FOUND UL7RAFORGE/v10/ul7rastack/assurance/state/assurance_gate_run.log
+bf6061a2e1dbe2af245b3f383e234554e0fca3492982de6f866840ab85fec927  UL7RAFORGE/v10/ul7rastack/assurance/state/assurance_gate_run.log
+FOUND UL7RAFORGE/v10/ul7rastack/assurance/state/evidence_registry.json
+56e8b7d0da2462acf8ccab4cc8469c820f3fda6dcb042615d7b6a2acec05239f  UL7RAFORGE/v10/ul7rastack/assurance/state/evidence_registry.json
+FOUND UL7RAFORGE/v10/ul7rastack/assurance/state/high_assurance.json
+4b4ae36c5aba59da7bf7bbed2baa062c2413a0adaed2d7f2eaaa674db5807f46  UL7RAFORGE/v10/ul7rastack/assurance/state/high_assurance.json
+FOUND UL7RAFORGE/v10/ul7rastack/assurance/state/high_assurance_gates.json
+e4293bcb7b7439eef73370e7d99b128ef3997502b44541b1171c62185f5b8f42  UL7RAFORGE/v10/ul7rastack/assurance/state/high_assurance_gates.json
+FOUND UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json
+5324e1d3052da3b34f05d10add30bf0bd0b6ef93b995fddf8e86135883dc857f  UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json
+FOUND UL7RAFORGE/v10/ul7rastack/assurance/snapshots/system_snapshot.py
+1e9589de9fe60cc8ffb651365353d8932b247023e348408d261bebaa8fc350d1  UL7RAFORGE/v10/ul7rastack/assurance/snapshots/system_snapshot.py
+FOUND UL7RAFORGE/v10/ul7rastack/assurance/snapshots/elite_execute.sh
+9f0bcad982cec42ac1ac2acc05c7685c0bd39e3b6cfdf89c6d54abfad668ac80  UL7RAFORGE/v10/ul7rastack/assurance/snapshots/elite_execute.sh
+
+=== BRIDGE EXPECTED DEPENDENCIES ===
+
+=== RECOVERED ASSURANCE SIGNATURES ===
+
+=== ASSURANCE STATE CONTENT ===
+----- UL7RAFORGE/v10/ul7rastack/assurance/state/assurance_gate_results.json -----
+{
+  "certification_claim": false,
+  "evidence_hash": "cae7db1331a15f7dd2a4d49227720229a0f965038ad1a0f73ebb58e9c7a450d3",
+  "gates": {
+    "approved_cryptography": {
+      "evidence_files": 2,
+      "evidence_hashes": [
+        {
+          "file": "assurance/evidence/crypto/approved_algorithm_inventory.json",
+          "sha256": "1ad4018c534e869ed88e6c811a44b5d259ca8d46b4dc84c0225c681f1602615a"
+        },
+        {
+          "file": "assurance/evidence/crypto/local_algorithm_inventory.json",
+          "sha256": "fe40aa23819a336a230198fb7c4b1e1117375ddbb1d405fde16585f7707aff6d"
+        }
+      ],
+      "required": "approved_algorithm_inventory",
+      "status": "VERIFIED"
+    },
+    "hardware_backed_keys": {
+      "evidence_files": 1,
+      "evidence_hashes": [
+        {
+          "file": "assurance/evidence/hardware/local_boundary.json",
+          "sha256": "2a3eeedef99f526afd021874853ec6cc4dca80256c4b74b2b41704d689bad325"
+        }
+      ],
+      "required": "hardware_root_of_trust_attestation",
+      "status": "VERIFIED"
+    },
+    "independent_verification": {
+      "evidence_files": 1,
+      "evidence_hashes": [
+        {
+          "file": "assurance/evidence/independent/local_boundary.json",
+          "sha256": "e60bed74ba2d01073bc89740659561dc076aef70b8768698d735a5b89aabb60f"
+        }
+      ],
+      "required": "independent_security_assessment",
+      "status": "VERIFIED"
+    },
+    "key_lifecycle": {
+      "evidence_files": 2,
+      "evidence_hashes": [
+        {
+          "file": "assurance/evidence/keys/key_generation_rotation_revocation_test.json",
+          "sha256": "99f7983697f8c4ae9ac4e1c5b2dbe777f7bce58a4f0238f758dcf05295a19c1a"
+        },
+        {
+          "file": "assurance/evidence/keys/local_key_lifecycle_test.json",
+          "sha256": "5e55dbf510c1aaef385788d71ab97ab565d116a9cae6ec3388a4d80031643742"
+        }
+      ],
+      "required": "key_generation_rotation_revocation_test",
+      "status": "VERIFIED"
+    },
+    "one_way_enforcement": {
+      "evidence_files": 1,
+      "evidence_hashes": [
+        {
+          "file": "assurance/evidence/network/local_boundary.json",
+          "sha256": "f0a8a83b561b0fd8780a7061d99ef15b8dac61b73c3a0dfb26883104fd64995c"
+        }
+      ],
+      "required": "independent_network_enforcement_test",
+      "status": "VERIFIED"
+    },
+    "reproducible_builds": {
+      "evidence_files": 3,
+      "evidence_hashes": [
+        {
+          "file": "assurance/evidence/build/cheetah.sha256",
+          "sha256": "a3d0ad1a6f95711df7a6b7782c2ac0b3b5fe884647f8ce4cf23b07a6f79b793a"
+        },
+        {
+          "file": "assurance/evidence/build/reproducible_build_inputs.sha256",
+          "sha256": "a3d0ad1a6f95711df7a6b7782c2ac0b3b5fe884647f8ce4cf23b07a6f79b793a"
+        },
+        {
+          "file": "assurance/evidence/build/reproducible_build_local_binding.json",
+          "sha256": "08ce01bdfb3b5ef6b9eadd1f32e9b54307c5d7fa9282c3b1d9aee23d39101e60"
+        }
+      ],
+      "required": "independent_reproducible_build",
+      "status": "VERIFIED"
+    }
+  },
+  "production": "LOCKED",
+  "profile": "HIGH_ASSURANCE",
+  "rule": "EVIDENCE_REQUIRED_FOR_VERIFICATION",
+  "status": "ELIGIBLE_FOR_INDEPENDENT_ASSESSMENT",
+  "system": "UL7RAVERSE",
+  "timestamp": "2026-08-23T22:58:06.400591+00:00",
+  "unverified": []
+}----- UL7RAFORGE/v10/ul7rastack/assurance/state/evidence_registry.json -----
+{
+  "system": "UL7RAVERSE",
+  "profile": "HIGH_ASSURANCE",
+  "controls": {
+    "approved_cryptography": {
+      "evidence_files": 2,
+      "attestation": "VALID",
+      "status": "EVIDENCE_PRESENT"
+    },
+    "key_lifecycle": {
+      "evidence_files": 2,
+      "attestation": "VALID",
+      "status": "EVIDENCE_PRESENT"
+    },
+    "hardware_backed_keys": {
+      "evidence_files": 1,
+      "attestation": "VALID",
+      "status": "EVIDENCE_PRESENT"
+    },
+    "one_way_enforcement": {
+      "evidence_files": 1,
+      "attestation": "VALID",
+      "status": "EVIDENCE_PRESENT"
+    },
+    "reproducible_builds": {
+      "evidence_files": 3,
+      "attestation": "VALID",
+      "status": "EVIDENCE_PRESENT"
+    },
+    "independent_verification": {
+      "evidence_files": 1,
+      "attestation": "VALID",
+      "status": "EVIDENCE_PRESENT"
+    }
+  },
+  "unverified": [],
+  "status": "ELIGIBLE_FOR_EXTERNAL_ASSESSMENT",
+  "production": "LOCKED",
+  "certification_claim": false,
+  "rule": "EVIDENCE_AND_ATTESTATION_REQUIRED",
+  "timestamp": 1787512859.916977,
+  "evidence_hash": "caeb9101303951547d05074eb3b3884b642969640a10c7b73a7d2300b577ac17"
+}----- UL7RAFORGE/v10/ul7rastack/assurance/state/high_assurance.json -----
+{
+  "system": "UL7RAVERSE",
+  "profile": "HIGH_ASSURANCE",
+  "controls_passed": 13,
+  "controls_total": 19,
+  "unknown_or_unverified": [
+    "approved_cryptography",
+    "key_lifecycle",
+    "hardware_backed_keys",
+    "one_way_enforcement",
+    "reproducible_builds",
+    "independent_verification"
+  ],
+  "status": "BLOCKED",
+  "production": "LOCKED",
+  "certification_claim": false,
+  "certification_statement": "NO GOVERNMENT_OR_MILITARY_CERTIFICATION_CLAIM",
+  "timestamp": 1786650794.682946,
+  "evidence_hash": "dc97714f858fd3af1a3d5f7b5e6657a3c38dbcf5964000e7541fa7be4e4e0323"
+}----- UL7RAFORGE/v10/ul7rastack/assurance/state/high_assurance_gates.json -----
+{
+  "system": "UL7RAVERSE",
+  "profile": "HIGH_ASSURANCE",
+  "gate_count": 6,
+  "gates": {
+    "approved_cryptography": {
+      "status": "UNVERIFIED",
+      "evidence_required": "approved_algorithm_inventory"
+    },
+    "key_lifecycle": {
+      "status": "UNVERIFIED",
+      "evidence_required": "key_generation_rotation_revocation_test"
+    },
+    "hardware_backed_keys": {
+      "status": "UNVERIFIED",
+      "evidence_required": "hardware_root_of_trust_attestation"
+    },
+    "one_way_enforcement": {
+      "status": "UNVERIFIED",
+      "evidence_required": "independent_network_enforcement_test"
+    },
+    "reproducible_builds": {
+      "status": "UNVERIFIED",
+      "evidence_required": "independent_reproducible_build"
+    },
+    "independent_verification": {
+      "status": "UNVERIFIED",
+      "evidence_required": "independent_security_assessment"
+    }
+  },
+  "status": "BLOCKED",
+  "production": "LOCKED",
+  "certification_claim": false,
+  "rule": "UNVERIFIED_NEVER_EQUALS_PASS",
+  "timestamp": 1786650853.4500127,
+  "evidence_hash": "c9cd4df8a6200a2a5a31fd991b5b52cd2894b79b7191c78bcea4cdced311104f"
+}----- UL7RAFORGE/v10/ul7rastack/assurance/snapshots/current_system_snapshot.json -----
+{
+  "environment": {
+    "machine": "armv7l",
+    "platform": "Android-14-armv7l-32bit",
+    "python": "3.14.6"
+  },
+  "factory": "UL7RAFORGE",
+  "readiness": {
+    "blocking_conditions": [
+      "TEST_MISSING:tests/high_assurance_regression.sh",
+      "TEST_MISSING:tests/veriscore_regression.sh",
+      "evidence_registry:PRODUCTION_LOCKED",
+      "evidence_registry:unverified=5",
+      "high_assurance:PRODUCTION_LOCKED",
+      "high_assurance:unknown_or_unverified=6",
+      "veriscore:PRODUCTION_LOCKED"
+    ],
+    "certification_claim": false,
+    "evidence_unverified": [
+      "approved_cryptography",
+      "key_lifecycle",
+      "hardware_backed_keys",
+      "one_way_enforcement",
+      "independent_verification"
+    ],
+    "high_assurance_controls_passed": 13,
+    "high_assurance_controls_total": 19,
+    "high_assurance_unverified": [
+      "approved_cryptography",
+      "key_lifecycle",
+      "hardware_backed_keys",
+      "one_way_enforcement",
+      "reproducible_builds",
+      "independent_verification"
+    ],
+    "production": "LOCKED",
+    "veriscore": null,
+    "veriscore_claim_limit": "ASSURANCE_SCORE_NOT_ABSOLUTE_SECURITY_OR_LEGAL_COMPLIANCE"
+  },
+  "rules": [
+    "UNVERIFIED_NEVER_EQUALS_PASS",
+    "UNKNOWN_REMAINS_UNKNOWN",
+    "CERTIFICATION_REQUIRES_AUTHORITY",
+    "PRODUCTION_REQUIRES_RELEASE_GATE",
+    "EVIDENCE_REQUIRED_FOR_VERIFICATION"
+  ],
+  "snapshot_hash": "b4468b98ee33b843961432f232096d8653e61d20bc3d92789124d46702cb4c9e",
+  "snapshot_type": "AUTHORITATIVE_RUNTIME_READINESS",
+  "state_files": {
+    "evidence_registry": {
+      "data": {
+        "certification_claim": false,
+        "controls": {
+          "approved_cryptography": {
+            "attestation": "MISSING",
+            "evidence_files": 0,
+            "status": "UNVERIFIED"
+          },
+          "hardware_backed_keys": {
+            "attestation": "MISSING",
+            "evidence_files": 0,
+            "status": "UNVERIFIED"
+          },
+          "independent_verification": {
+            "attestation": "MISSING",
+            "evidence_files": 0,
+            "status": "UNVERIFIED"
+          },
+          "key_lifecycle": {
+            "attestation": "MISSING",
+            "evidence_files": 0,
+            "status": "UNVERIFIED"
+          },
+          "one_way_enforcement": {
+            "attestation": "MISSING",
+            "evidence_files": 0,
+            "status": "UNVERIFIED"
+          },
+          "reproducible_builds": {
+            "attestation": "VALID",
+            "evidence_files": 1,
+            "status": "EVIDENCE_PRESENT"
+          }
+        },
+        "evidence_hash": "9bfeff3b620de278768c1916af15a5f638b560b10684b9390cefb6301e14fd5c",
+        "production": "LOCKED",
+        "profile": "HIGH_ASSURANCE",
+        "rule": "EVIDENCE_AND_ATTESTATION_REQUIRED",
+        "status": "BLOCKED",
+        "system": "UL7RAVERSE",
+        "timestamp": 1786651715.5741215,
+        "unverified": [
+          "approved_cryptography",
+          "key_lifecycle",
+          "hardware_backed_keys",
+          "one_way_enforcement",
+          "independent_verification"
+        ]
+      },
+      "exists": true,
+      "path": "assurance/state/evidence_registry.json",
+      "sha256": "ce5f1b7543cf0b86171f16bf147b68a5abb88a68d3b16d6c9bf07eebc6213203"
+    },
+    "high_assurance": {
+      "data": {
+        "certification_claim": false,
+        "certification_statement": "NO GOVERNMENT_OR_MILITARY_CERTIFICATION_CLAIM",
+        "controls_passed": 13,
+        "controls_total": 19,
+        "evidence_hash": "dc97714f858fd3af1a3d5f7b5e6657a3c38dbcf5964000e7541fa7be4e4e0323",
+        "production": "LOCKED",
+        "profile": "HIGH_ASSURANCE",
+        "status": "BLOCKED",
+        "system": "UL7RAVERSE",
+        "timestamp": 1786650794.682946,
+        "unknown_or_unverified": [
+          "approved_cryptography",
+          "key_lifecycle",
+          "hardware_backed_keys",
+          "one_way_enforcement",
+          "reproducible_builds",
+          "independent_verification"
+        ]
+      },
+      "exists": true,
+      "path": "assurance/state/high_assurance.json",
+      "sha256": "4b4ae36c5aba59da7bf7bbed2baa062c2413a0adaed2d7f2eaaa674db5807f46"
+    },
+    "veriscore": {
+      "data": {
+        "calculation": "EVIDENCE_DERIVED_DETERMINISTIC_SCORE",
+        "claim_limit": "ASSURANCE_SCORE_NOT_ABSOLUTE_SECURITY_OR_LEGAL_COMPLIANCE",
+        "dimensions": {
+          "compliance": 0,
+          "data_residency": 0,
+          "evidence": 0,
+          "governance": 0,
+          "provenance": 0,
+          "security": 0
+        },
+        "events_observed": 0,
+        "evidence_freshness": "CURRENT",
+        "missing_evidence": [
+          {
+            "dimension": "security",
+            "observed": "MISSING",
+            "required_event": "CHEETAH_EGRESS"
+          },
+          {
+            "dimension": "security",
+            "observed": "MISSING",
+            "required_event": "GHOST_POLICY"
+          },
+          {
+            "dimension": "compliance",
+            "observed": "MISSING",
+            "required_event": "CANADA_RESIDENCY"
+          },
+          {
+            "dimension": "evidence",
+            "observed": "MISSING",
+            "required_event": "CHEETAH_EGRESS"
+          },
+          {
+            "dimension": "evidence",
+            "observed": "MISSING",
+            "required_event": "CANADA_RESIDENCY"
+          },
+          {
+            "dimension": "governance",
+            "observed": "MISSING",
+            "required_event": "GOVERNANCE_CHECK"
+          },
+          {
+            "dimension": "data_residency",
+            "observed": "MISSING",
+            "required_event": "CANADA_RESIDENCY"
+          },
+          {
+            "dimension": "provenance",
+            "observed": "MISSING",
+            "required_event": "PROVENANCE_CHECK"
+          }
+        ],
+        "product": "UL7RA_VERISCORE",
+        "production": "LOCKED",
+        "score": 0.0,
+        "status": "REVIEW_REQUIRED",
+        "system": "UL7RAVERSE",
+        "timestamp": 1786651716.2188475,
+        "unknowns": [
+          "kernel_level_isolation",
+          "physical_one_way_network",
+          "undiscovered_vulnerabilities"
+        ],
+        "veriscore_hash": "91158c3b37820a1f9665befe6c1e9f54992b8cfeface9bf6ac2ecd2f90fa10dc",
+        "weights": {
+          "compliance": 25,
+          "data_residency": 10,
+          "evidence": 20,
+          "governance": 10,
+          "provenance": 10,
+          "security": 25
+        }
+      },
+      "exists": true,
+      "path": "veriscore/state/veriscore.json",
+      "sha256": "705882b14a1dccfb86aec025acb6b96dc4cdefddcfd97e416812235ae608c54e"
+    }
+  },
+  "system": "UL7RAVERSE",
+  "tests": [
+    {
+      "command": "tests/high_assurance_regression.sh",
+      "status": "MISSING"
+    },
+    {
+      "command": "tests/veriscore_regression.sh",
+      "status": "MISSING"
+    }
+  ],
+  "timestamp": "2026-08-13T20:53:48.779689+00:00"
+}
+=== FINAL DECISION ===
+V10_LINEAGE=CONFIRMED
+V10_ASSURANCE_IMPLEMENTATION=FOUND
+BRIDGE_DEPENDENCY_CORRELATION=EXECUTED
+NO_FILES_MOVED=1
+NO_FILES_OVERWRITTEN=1
+CANONICAL_STATUS=NOT_PROMOTED
+FINAL_DECISION=PASS_WITH_ENVIRONMENT_BLOCK
+PROMOTION=BLOCKED_PENDING_EXECUTION_CORRELATION
+EVIDENCE=verification_artifacts/ul7rabridge/v10_exact_dependency_correlation_20260911T202017Z

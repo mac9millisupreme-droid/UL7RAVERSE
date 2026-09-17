@@ -1,0 +1,526 @@
+REVENUE TRUTH AUDIT
+===================
+
+Known evidence artifacts:
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/e6_revenue/E6_REVENUE_STATUS.md
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/omnipulse_revenue/20260912T234003Z/OMNIPULSE_REVENUE_REPORT.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/omnipulse_revenue/20260912T234003Z/state/UL7RA4ORGE_APEX_git.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/omnipulse_revenue/20260912T234003Z/state/UL7RAVERSE_git.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/omnipulse_revenue/20260912T234003Z/state/capabilities.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/omnipulse_revenue/20260912T234003Z/state/revenue_truth.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/revenue_release/20260910T143907Z/SHA256SUMS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/revenue_release/20260910T143907Z/STATUS.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/revenue_release/20260910T143907Z/TEST_RESULTS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/revenue_release/20260910T144021Z/SHA256SUMS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/revenue_release/20260910T144021Z/STATUS.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/revenue_release/20260910T144021Z/TEST_RESULTS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/EVIDENCE.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/PURPLE_RESULTS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/SHA256SUMS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/TEST_RESULTS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/UL7RAPASS_CHECKOUT_SPEC.json
+
+Explicit revenue/payment strings:
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260910T160130Z/EVIDENCE.json:24:    "worktree": "M products/ul7ra-verify/tests/test_server.py\n?? .ul7ra_autonomous/\n?? AIL_FINAL_VERIFICATION_REPORT.md\n?? FORENSIC_PHASE0_20260909T095923Z/\n?? FORENSIC_PHASE0_20260909T100256Z/\n?? FREEZE_VERIFIED_BASELINE.sh\n?? UL7RAPASS_ONE.py\n?? UL7RA_MEMBER_LOOP.py\n?? install_ail_v010.py\n?? install_ul7ra_continue_v010.py\n?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json\n?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/\n?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/\n?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/\n?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/\n?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/\n?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/\n?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/\n?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/\n?? products/ul7ra-verify/deploy/runtime/health_recovery.json\n?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/\n?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/\n?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/\n?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/\n?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json\n?? products/ul7ra-verify/tests/test_server.py.bak_pathfix\n?? products/ul7ra-verify/tests/test_server.py.bak_realtest\n?? racing/\n?? racing_recon.sh\n?? racing_recon_test.txt\n?? revenue_membership.json\n?? test_ul7ra_continue.py\n?? test_ul7ra_continue_ail.py\n?? test_ul7ra_continue_purple.py\n?? ul7ra_continue/\n?? ul7ra_uncertainty_repair.sh\n?? verification_artifacts/"
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260911T160602Z/EVIDENCE.json:24:    "worktree": "M products/ul7ra-verify/tests/test_server.py\n?? .ul7ra_autonomous/\n?? AIL_FINAL_VERIFICATION_REPORT.md\n?? E6_REVENUE_EXECUTE.sh\n?? FORENSIC_PHASE0_20260909T095923Z/\n?? FORENSIC_PHASE0_20260909T100256Z/\n?? FREEZE_VERIFIED_BASELINE.sh\n?? UL7RAPASS_ONE.py\n?? UL7RA_MEMBER_LOOP.py\n?? install_ail_v010.py\n?? install_ul7ra_continue_v010.py\n?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json\n?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/\n?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/\n?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/\n?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/\n?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/\n?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/\n?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/\n?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/\n?? products/ul7ra-verify/deploy/runtime/health_recovery.json\n?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/\n?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/\n?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/\n?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/\n?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json\n?? products/ul7ra-verify/tests/test_server.py.bak_pathfix\n?? products/ul7ra-verify/tests/test_server.py.bak_realtest\n?? racing/\n?? racing_recon.sh\n?? racing_recon_test.txt\n?? revenue_membership.json\n?? test_ul7ra_continue.py\n?? test_ul7ra_continue_ail.py\n?? test_ul7ra_continue_purple.py\n?? ul7ra_continue/\n?? ul7ra_uncertainty_repair.sh\n?? verification_artifacts/"
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260911T185335Z/EVIDENCE.json:24:    "worktree": "M products/ul7ra-verify/tests/test_server.py\n?? .ul7ra_autonomous/\n?? AIL_FINAL_VERIFICATION_REPORT.md\n?? E6_REVENUE_EXECUTE.sh\n?? FORENSIC_PHASE0_20260909T095923Z/\n?? FORENSIC_PHASE0_20260909T100256Z/\n?? FREEZE_VERIFIED_BASELINE.sh\n?? REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh\n?? UL7RAPASS_ONE.py\n?? UL7RA_MEMBER_LOOP.py\n?? install_ail_v010.py\n?? install_ul7ra_continue_v010.py\n?? launch_ul7rapass_one_script.sh\n?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json\n?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/\n?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/\n?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/\n?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/\n?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/\n?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/\n?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/\n?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/\n?? products/ul7ra-verify/deploy/runtime/health_recovery.json\n?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/\n?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/\n?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/\n?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/\n?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json\n?? products/ul7ra-verify/tests/test_server.py.bak_pathfix\n?? products/ul7ra-verify/tests/test_server.py.bak_realtest\n?? racing/\n?? racing_recon.sh\n?? racing_recon_test.txt\n?? revenue_membership.json\n?? test_ul7ra_continue.py\n?? test_ul7ra_continue_ail.py\n?? test_ul7ra_continue_purple.py\n?? ul7ra4_factory/\n?? ul7ra_continue/\n?? ul7ra_uncertainty_repair.sh\n?? verification_artifacts/"
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260911T190645Z/EVIDENCE.json:24:    "worktree": "M products/ul7ra-verify/tests/test_server.py\n?? .ul7ra_autonomous/\n?? AIL_FINAL_VERIFICATION_REPORT.md\n?? E6_REVENUE_EXECUTE.sh\n?? FORENSIC_PHASE0_20260909T095923Z/\n?? FORENSIC_PHASE0_20260909T100256Z/\n?? FREEZE_VERIFIED_BASELINE.sh\n?? REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh\n?? RUN_UL7RA4_RECONCILIATION.sh\n?? UL7RAPASS_ONE.py\n?? UL7RA_MEMBER_LOOP.py\n?? install_ail_v010.py\n?? install_ul7ra_continue_v010.py\n?? launch_ul7rapass_one_script.sh\n?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json\n?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/\n?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/\n?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/\n?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/\n?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/\n?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/\n?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/\n?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/\n?? products/ul7ra-verify/deploy/runtime/health_recovery.json\n?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/\n?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/\n?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/\n?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/\n?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json\n?? products/ul7ra-verify/tests/test_server.py.bak_pathfix\n?? products/ul7ra-verify/tests/test_server.py.bak_realtest\n?? racing/\n?? racing_recon.sh\n?? racing_recon_test.txt\n?? revenue_membership.json\n?? test_ul7ra_continue.py\n?? test_ul7ra_continue_ail.py\n?? test_ul7ra_continue_purple.py\n?? ul7ra4_factory/\n?? ul7ra_continue/\n?? ul7ra_uncertainty_repair.sh\n?? verification_artifacts/"
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260911T190904Z/EVIDENCE.json:24:    "worktree": "M products/ul7ra-verify/tests/test_server.py\n?? .ul7ra_autonomous/\n?? AIL_FINAL_VERIFICATION_REPORT.md\n?? E6_REVENUE_EXECUTE.sh\n?? FORENSIC_PHASE0_20260909T095923Z/\n?? FORENSIC_PHASE0_20260909T100256Z/\n?? FREEZE_VERIFIED_BASELINE.sh\n?? REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh\n?? RUN_UL7RA4_RECONCILIATION.sh\n?? UL7RAPASS_ONE.py\n?? UL7RA_MEMBER_LOOP.py\n?? install_ail_v010.py\n?? install_ul7ra_continue_v010.py\n?? launch_ul7rapass_one_script.sh\n?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json\n?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/\n?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/\n?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/\n?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/\n?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/\n?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/\n?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/\n?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/\n?? products/ul7ra-verify/deploy/runtime/health_recovery.json\n?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/\n?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/\n?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/\n?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/\n?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json\n?? products/ul7ra-verify/tests/test_server.py.bak_pathfix\n?? products/ul7ra-verify/tests/test_server.py.bak_realtest\n?? racing/\n?? racing_recon.sh\n?? racing_recon_test.txt\n?? revenue_membership.json\n?? test_ul7ra_continue.py\n?? test_ul7ra_continue_ail.py\n?? test_ul7ra_continue_purple.py\n?? ul7ra4_factory/\n?? ul7ra_continue/\n?? ul7ra_uncertainty_repair.sh\n?? verification_artifacts/"
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260911T191451Z/EVIDENCE.json:24:    "worktree": "M products/ul7ra-verify/tests/test_server.py\n?? .ul7ra_autonomous/\n?? AIL_FINAL_VERIFICATION_REPORT.md\n?? E6_REVENUE_EXECUTE.sh\n?? FORENSIC_PHASE0_20260909T095923Z/\n?? FORENSIC_PHASE0_20260909T100256Z/\n?? FREEZE_VERIFIED_BASELINE.sh\n?? REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh\n?? RUN_UL7RA4_RECONCILIATION.sh\n?? UL7RAPASS_ONE.py\n?? UL7RA_MEMBER_LOOP.py\n?? install_ail_v010.py\n?? install_ul7ra_continue_v010.py\n?? launch_ul7rapass_one_script.sh\n?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json\n?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/\n?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/\n?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/\n?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/\n?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/\n?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/\n?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/\n?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/\n?? products/ul7ra-verify/deploy/runtime/health_recovery.json\n?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/\n?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/\n?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/\n?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/\n?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json\n?? products/ul7ra-verify/tests/test_server.py.bak_pathfix\n?? products/ul7ra-verify/tests/test_server.py.bak_realtest\n?? racing/\n?? racing_recon.sh\n?? racing_recon_test.txt\n?? revenue_membership.json\n?? test_ul7ra_continue.py\n?? test_ul7ra_continue_ail.py\n?? test_ul7ra_continue_purple.py\n?? ul7ra4_factory/\n?? ul7ra_continue/\n?? ul7ra_uncertainty_repair.sh\n?? verification_artifacts/"
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260911T193428Z/EVIDENCE.json:24:    "worktree": "M products/ul7ra-verify/tests/test_server.py\n?? .ul7ra_autonomous/\n?? AIL_FINAL_VERIFICATION_REPORT.md\n?? CONNECT_UL7RAVERSE_ONE.sh\n?? E6_REVENUE_EXECUTE.sh\n?? FORENSIC_PHASE0_20260909T095923Z/\n?? FORENSIC_PHASE0_20260909T100256Z/\n?? FREEZE_VERIFIED_BASELINE.sh\n?? REBUILD_UL7RA4_AUTONOMOUS_FACTORY.sh\n?? RUN_UL7RA4_RECONCILIATION.sh\n?? UL7RAPASS_ONE.py\n?? UL7RA_MEMBER_LOOP.py\n?? install_ail_v010.py\n?? install_ul7ra_continue_v010.py\n?? launch_ul7rapass_one_script.sh\n?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json\n?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/\n?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/\n?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/\n?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/\n?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/\n?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/\n?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/\n?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/\n?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/\n?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/\n?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/\n?? products/ul7ra-verify/deploy/runtime/health_recovery.json\n?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/\n?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/\n?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/\n?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/\n?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json\n?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json\n?? products/ul7ra-verify/tests/test_server.py.bak_pathfix\n?? products/ul7ra-verify/tests/test_server.py.bak_realtest\n?? racing/\n?? racing_recon.sh\n?? racing_recon_test.txt\n?? revenue_membership.json\n?? test_ul7ra_continue.py\n?? test_ul7ra_continue_ail.py\n?? test_ul7ra_continue_purple.py\n?? ul7ra4_factory/\n?? ul7ra_continue/\n?? ul7ra_uncertainty_repair.sh\n?? verification_artifacts/"
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/revenue_release/20260910T144021Z/STATUS.json:53:    "verification_artifacts/revenue_release/20260910T143907Z/SHA256SUMS.txt",
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/revenue_release/20260910T144021Z/STATUS.json:54:    "verification_artifacts/revenue_release/20260910T143907Z/STATUS.json",
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/revenue_release/20260910T144021Z/STATUS.json:55:    "verification_artifacts/revenue_release/20260910T143907Z/TEST_RESULTS.txt",
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:21:    "payment_status": "PAID",
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:30:    "PAYMENT_CANNOT_GRANT_PASS": true,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:35:    "PAYMENT_DOES_NOT_MUTATE_VERIFICATION": true
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json:41:  "payment_can_grant_pass": false
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/PURPLE_RESULTS.txt:2:  "PAYMENT_CANNOT_GRANT_PASS": true,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/PURPLE_RESULTS.txt:7:  "PAYMENT_DOES_NOT_MUTATE_VERIFICATION": true
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/EVIDENCE.json:9:    "payment_proof_separation": true
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/UL7RAPASS_CHECKOUT_SPEC.json:6:  "payment_model": "ONE_TIME",
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/UL7RAPASS_CHECKOUT_SPEC.json:10:  "revenue_verified": false,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md:1:# UL7RAPASS E6 Revenue Status
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md:11:PAYMENT_MODEL: ONE_TIME
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md:14:## Revenue
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md:16:REVENUE_STATE: UNVERIFIED
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md:17:CAD_REVENUE_VERIFIED: 0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md:35:1. Legitimate CAD 500 live payment.
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md:36:2. Stripe payment evidence.
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md:39:5. Result recorded without fabricating revenue.
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md:41:## Revenue Rule
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md:43:Sandbox/test payments are NEVER counted as revenue.
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md:45:15 verified memberships = CAD 7,500 verified revenue.
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/member_loop/20260910T145415Z/MEMBER.json:9:  "payment_status": "PAID",
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/member_loop/20260910T145415Z/PURPLE_TEAM.json:5:  "PAYMENT_CANNOT_CREATE_PASS": true,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/member_loop/20260910T145415Z/STATUS.json:6:  "payment_status": "PAID",
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:42:?? revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:52:./revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:127:./UL7RAPASS_ONE.py:291:print("PRICE: CAD $500")
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:133:./UL7RAPASS_ONE.py:309:print("15 SALES × CAD $500 = CAD $7,500 CASH")
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:150:./UL7RA_MEMBER_LOOP.py:314:print("PRICE: CAD $500")
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:154:./UL7RA_MEMBER_LOOP.py:334:print("15 MEMBERS × CAD $500 = CAD $7,500 CASH")
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:155:./revenue_membership.json:2:  "price_cad": 500,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:156:./revenue_membership.json:10:  "remaining_cash_cad": 7500,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:42:?? revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:52:./revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:170:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:127:./UL7RAPASS_ONE.py:291:print("PRICE: CAD $500")
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:176:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:133:./UL7RAPASS_ONE.py:309:print("15 SALES × CAD $500 = CAD $7,500 CASH")
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:193:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:150:./UL7RA_MEMBER_LOOP.py:314:print("PRICE: CAD $500")
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:197:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:154:./UL7RA_MEMBER_LOOP.py:334:print("15 MEMBERS × CAD $500 = CAD $7,500 CASH")
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:198:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:155:./revenue_membership.json:2:  "price_cad": 500,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt:199:./verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt:156:./revenue_membership.json:10:  "remaining_cash_cad": 7500,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202155Z/membership_readiness_v2.txt:18:verification_artifacts/revenue_release/20260910T143907Z/STATUS.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202155Z/membership_readiness_v2.txt:19:verification_artifacts/revenue_release/20260910T144021Z/STATUS.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202155Z/membership_readiness_v2.txt:72:    "payment_status": "PAID",
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202155Z/membership_readiness_v2.txt:81:    "PAYMENT_CANNOT_GRANT_PASS": true,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202155Z/membership_readiness_v2.txt:86:    "PAYMENT_DOES_NOT_MUTATE_VERIFICATION": true
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202155Z/membership_readiness_v2.txt:92:  "payment_can_grant_pass": false
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202155Z/membership_readiness_v2.txt:96:  "PAYMENT_CANNOT_GRANT_PASS": true,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202155Z/membership_readiness_v2.txt:101:  "PAYMENT_DOES_NOT_MUTATE_VERIFICATION": true
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_forensic/20260910T202254Z/REPORT.txt:50:  "payment_status": "PAID",
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_forensic/20260910T202254Z/REPORT.txt:89:  "PAYMENT_CANNOT_CREATE_PASS": true,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_forensic/20260910T202254Z/REPORT.txt:107:  "payment_status": "PAID",
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/e6_revenue/E6_REVENUE_STATUS.md:1:# UL7RAVERSE E6 Revenue Status
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/e6_revenue/E6_REVENUE_STATUS.md:10:## REVENUE_STATE
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/e6_revenue/E6_REVENUE_STATUS.md:12:REVENUE_STATE: UNVERIFIED
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/e6_revenue/E6_REVENUE_STATUS.md:14:CAD_REVENUE_VERIFIED: 0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/e6_revenue/E6_REVENUE_STATUS.md:36:1. No real payment evidence has been independently captured in this execution.
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/e6_revenue/E6_REVENUE_STATUS.md:38:3. Do not represent targets, simulations, or artifacts as revenue.
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/e6_revenue/E6_REVENUE_STATUS.md:42:Obtain the first legitimate CAD 500 UL7RAPASS payment and capture the corresponding activation/proof evidence.
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:10:?? E6_REVENUE_EXECUTE.sh
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:48:?? revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:181:./revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:928:6ffec34997953919b790447a634252bf2235ea40fecfd6242d08bd6d0dcd68ed  ./E6_REVENUE_EXECUTE.sh
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:2433:c6b94dc0dabde4810d946ed8e8af618952b85df2ddf53cf2f9ca1ec9f39716ee  ./revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:2509:35923626b3233f1392fb3863aacb04af82635f84be1b0fa88845252b53a6c08a  ./verification_artifacts/e6_revenue/E6_REVENUE_STATUS.md
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:2526:090872e94dcdeefb9e19622670103369e7decdab4f2c0864be6ff3a9c6971595  ./verification_artifacts/revenue_release/20260910T143907Z/SHA256SUMS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:2527:132e53585338d5762083d86edff00f6d04c2bffab3c740ba8d48c588648b629c  ./verification_artifacts/revenue_release/20260910T143907Z/STATUS.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:2528:964af72c9f8404928dce435345c9e2fa06554bf92383e889e3d64b4809c8e026  ./verification_artifacts/revenue_release/20260910T143907Z/TEST_RESULTS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:2529:a0b65ab79ab543f5ed763595b0fc432ef6d4efdd0311d65cc245bd85c40b7a39  ./verification_artifacts/revenue_release/20260910T144021Z/SHA256SUMS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:2530:1629ca364085fcef1bfce71b3ecc4fcaf16cb896936846169310250dab62cca6  ./verification_artifacts/revenue_release/20260910T144021Z/STATUS.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:2531:6d0ff08b847b982af804e8f04b915551dd145a270925eb27bceec1783c533715  ./verification_artifacts/revenue_release/20260910T144021Z/TEST_RESULTS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/FORENSIC_INVENTORY.txt:2551:4684e24e626e147d58a0dbafd71d35b3b1c30089518142b4bf8d9ef8c44fab87  ./verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/MASTER_SYSTEM_STATUS.md:41:This factory run does NOT establish live revenue.
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/MASTER_SYSTEM_STATUS.md:44:Payment intent != payment.
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/20260911T185311Z/MASTER_SYSTEM_STATUS.md:45:Payment != activation.
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/CANONICAL_GIT_STATE.txt:7:?? E6_REVENUE_EXECUTE.sh
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/CANONICAL_GIT_STATE.txt:46:?? revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/reconciliation.log:15:?? E6_REVENUE_EXECUTE.sh
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/reconciliation.log:54:?? revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/reconciliation.log:178:./revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/reconciliation_20260911T185612Z/COMPONENT_SURFACES.txt:89:./revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/COMPONENT_PATHS.txt:2202:./revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/COMPONENT_PATHS.txt:2319:./verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/GENERATIONS.txt:106:./verification_artifacts/e6_revenue
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/GENERATIONS.txt:112:./verification_artifacts/revenue_release
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/GENERATIONS.txt:586:verification_artifacts/e6_revenue
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/GENERATIONS.txt:599:verification_artifacts/revenue_release
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/GENERATIONS.txt:600:verification_artifacts/revenue_release/20260910T143907Z
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/GENERATIONS.txt:601:verification_artifacts/revenue_release/20260910T144021Z
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/EVIDENCE_SURFACES.txt:389:./verification_artifacts/e6_revenue/E6_REVENUE_STATUS.md
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/EVIDENCE_SURFACES.txt:399:./verification_artifacts/revenue_release/20260910T143907Z/SHA256SUMS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/EVIDENCE_SURFACES.txt:400:./verification_artifacts/revenue_release/20260910T143907Z/STATUS.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/EVIDENCE_SURFACES.txt:401:./verification_artifacts/revenue_release/20260910T143907Z/TEST_RESULTS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/EVIDENCE_SURFACES.txt:402:./verification_artifacts/revenue_release/20260910T144021Z/SHA256SUMS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/EVIDENCE_SURFACES.txt:403:./verification_artifacts/revenue_release/20260910T144021Z/STATUS.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/EVIDENCE_SURFACES.txt:404:./verification_artifacts/revenue_release/20260910T144021Z/TEST_RESULTS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/EVIDENCE_SURFACES.txt:416:./verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/20260911T191437Z/WORKTREE.txt:4:?? E6_REVENUE_EXECUTE.sh
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/20260911T191437Z/WORKTREE.txt:43:?? revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/20260911T191656Z/CLASSIFICATION.txt:45:verification_artifacts/revenue_release
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/20260911T191656Z/CLASSIFICATION.txt:46:verification_artifacts/revenue_release/20260910T143907Z
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/20260911T191656Z/CLASSIFICATION.txt:47:verification_artifacts/revenue_release/20260910T144021Z
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/EXECUTION.log:12:?? E6_REVENUE_EXECUTE.sh
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/EXECUTION.log:51:?? revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/GIT_STATUS.txt:5:?? E6_REVENUE_EXECUTE.sh
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/GIT_STATUS.txt:44:?? revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/SOURCE_SHA256SUMS.txt:326:6ffec34997953919b790447a634252bf2235ea40fecfd6242d08bd6d0dcd68ed  /data/data/com.termux/files/home/UL7RAVERSE/E6_REVENUE_EXECUTE.sh
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/SOURCE_SHA256SUMS.txt:798:c6b94dc0dabde4810d946ed8e8af618952b85df2ddf53cf2f9ca1ec9f39716ee  /data/data/com.termux/files/home/UL7RAVERSE/revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/GIT_STATUS.txt:5:?? E6_REVENUE_EXECUTE.sh
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/GIT_STATUS.txt:44:?? revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/SOURCE_SHA256SUMS.txt:326:6ffec34997953919b790447a634252bf2235ea40fecfd6242d08bd6d0dcd68ed  /data/data/com.termux/files/home/UL7RAVERSE/E6_REVENUE_EXECUTE.sh
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/SOURCE_SHA256SUMS.txt:834:c6b94dc0dabde4810d946ed8e8af618952b85df2ddf53cf2f9ca1ec9f39716ee  /data/data/com.termux/files/home/UL7RAVERSE/revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/deployment/20260911T203008Z/cloudflare_config_candidates.txt:21:/data/data/com.termux/files/home/UL7RAVERSE/revenue_membership.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:44:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:65:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:86:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:107:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:128:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:149:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:170:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:191:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:212:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:233:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:254:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:275:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:296:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:317:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/controller.log:338:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_1/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/PROOF_STATE.json:16:  "payment_verified": false,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_2/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_3/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_4/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_5/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_6/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_7/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_8/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_9/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_10/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_11/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_12/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_13/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_14/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/one_convergence/20260911T212038Z/round_15/STATUS.txt:9:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/recovery/20260911T212523Z/recovery.log:72:  "payment_verified": false,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/recovery/20260911T212523Z/PROOF_STATE.json:9:  "payment_verified": false,
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/1/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/1/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/2/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/2/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/3/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/3/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/4/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/4/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/5/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/5/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/6/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/6/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/7/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/7/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/8/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/8/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/9/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/9/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/10/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/10/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/11/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/11/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/12/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/12/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/13/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/13/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/14/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/14/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/15/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/15/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/16/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/16/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/17/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/17/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/18/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/18/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/19/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/19/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/20/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/20/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/21/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/21/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/22/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/22/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/23/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/23/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/24/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/24/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/25/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/25/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/26/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/26/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/27/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/27/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/28/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/28/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/29/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/29/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/30/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/30/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/31/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/31/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/32/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/32/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/33/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/33/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/34/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/34/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/35/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/35/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/36/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/36/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/37/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/37/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/38/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/38/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/39/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/39/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/40/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/40/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/41/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/41/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/42/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/42/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/43/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/43/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/44/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/44/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/45/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/45/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/46/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/46/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/47/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/47/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/48/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/48/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/49/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/49/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/50/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/50/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/51/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/51/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/52/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/52/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/53/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/53/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/54/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/54/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/55/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/55/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/56/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/56/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/57/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/57/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/58/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/58/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/59/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/59/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/60/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/60/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/61/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/61/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/62/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/62/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/63/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/63/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/64/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/64/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/65/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/65/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/66/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/66/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/67/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/67/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/68/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/68/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/69/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/69/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/70/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/70/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/71/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/71/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/72/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/72/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/73/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/73/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/74/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/74/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/75/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/75/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/76/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/76/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/77/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/77/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/78/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/78/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/79/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/79/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/80/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/80/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/81/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/81/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/82/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/82/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/83/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/83/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/84/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/84/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/85/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/85/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/86/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/86/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/87/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/87/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/88/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/88/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/89/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/89/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/90/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/90/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/91/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/91/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/92/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/92/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/93/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/93/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/94/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/94/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/95/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/95/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/96/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/96/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/97/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/97/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/98/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/98/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/99/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/99/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/100/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/100/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/101/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/101/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/102/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/102/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/103/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/103/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/104/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/104/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/105/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/105/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/106/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/106/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/107/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/107/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/108/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/108/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/109/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/109/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/110/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/110/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/111/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/111/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/112/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/112/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/113/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/113/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/114/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/114/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/115/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/115/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/116/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/116/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/117/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/117/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/118/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/118/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/119/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/119/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/120/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/120/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/121/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/121/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/122/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/122/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/123/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/123/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/124/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/124/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/125/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/125/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/126/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/126/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/127/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/127/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/128/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/128/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/129/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/129/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/130/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/130/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/131/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/131/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/132/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/132/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/133/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/133/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/134/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/134/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/135/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/135/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/136/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/136/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/137/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/137/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/138/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/138/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/139/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/139/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/140/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/140/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/141/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/141/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/142/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/142/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/143/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/143/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/144/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/144/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/145/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/145/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/146/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/146/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/147/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/147/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/148/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/148/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/149/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/149/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/150/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/150/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/151/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/151/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/152/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/152/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/153/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/153/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/154/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/154/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/155/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/155/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/156/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/156/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/157/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/157/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/158/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/158/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/159/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/159/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/160/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/160/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/161/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/161/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/162/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/162/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/163/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/163/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/164/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/164/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/165/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/165/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/166/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/166/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/167/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/167/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/168/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/168/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/169/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/169/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/170/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/170/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/171/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/171/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/172/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/172/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/173/SUMMARY.txt:13:PAYMENT_VERIFIED=0
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/orchestrator/20260911T212831Z/rounds/173/SUMMARY.txt:14:VERIFIED_REVENUE_CAD=0

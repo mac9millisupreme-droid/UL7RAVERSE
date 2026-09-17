@@ -1,0 +1,1 @@
+/data/data/com.termux/files/home/UL7RA_RECOVER_AND_CONVERGE.sh: line 209: getent: command not found

@@ -1,0 +1,76 @@
+{
+  "system": "UL7RAVERSE",
+  "product": "UL7RA_VERISCORE",
+  "score": 0.0,
+  "status": "REVIEW_REQUIRED",
+  "dimensions": {
+    "security": 0,
+    "compliance": 0,
+    "evidence": 0,
+    "governance": 0,
+    "data_residency": 0,
+    "provenance": 0
+  },
+  "weights": {
+    "security": 25,
+    "compliance": 25,
+    "evidence": 20,
+    "governance": 10,
+    "data_residency": 10,
+    "provenance": 10
+  },
+  "events_observed": 0,
+  "missing_evidence": [
+    {
+      "dimension": "security",
+      "required_event": "CHEETAH_EGRESS",
+      "observed": "MISSING"
+    },
+    {
+      "dimension": "security",
+      "required_event": "GHOST_POLICY",
+      "observed": "MISSING"
+    },
+    {
+      "dimension": "compliance",
+      "required_event": "CANADA_RESIDENCY",
+      "observed": "MISSING"
+    },
+    {
+      "dimension": "evidence",
+      "required_event": "CHEETAH_EGRESS",
+      "observed": "MISSING"
+    },
+    {
+      "dimension": "evidence",
+      "required_event": "CANADA_RESIDENCY",
+      "observed": "MISSING"
+    },
+    {
+      "dimension": "governance",
+      "required_event": "GOVERNANCE_CHECK",
+      "observed": "MISSING"
+    },
+    {
+      "dimension": "data_residency",
+      "required_event": "CANADA_RESIDENCY",
+      "observed": "MISSING"
+    },
+    {
+      "dimension": "provenance",
+      "required_event": "PROVENANCE_CHECK",
+      "observed": "MISSING"
+    }
+  ],
+  "unknowns": [
+    "kernel_level_isolation",
+    "physical_one_way_network",
+    "undiscovered_vulnerabilities"
+  ],
+  "evidence_freshness": "CURRENT",
+  "calculation": "EVIDENCE_DERIVED_DETERMINISTIC_SCORE",
+  "claim_limit": "ASSURANCE_SCORE_NOT_ABSOLUTE_SECURITY_OR_LEGAL_COMPLIANCE",
+  "production": "LOCKED",
+  "timestamp": 1786651716.2188475,
+  "veriscore_hash": "91158c3b37820a1f9665befe6c1e9f54992b8cfeface9bf6ac2ecd2f90fa10dc"
+}

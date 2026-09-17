@@ -1,0 +1,19 @@
+{
+  "schema": "UL7RAVERSE_FORENSIC_PHASE8_LITE/v1",
+  "phase": 8,
+  "mode": "EVIDENCE_ONLY_LOW_RESOURCE",
+  "decision": "BLOCKED",
+  "authority_boundary": "UL7RABRIDGE",
+  "source_modification": "NONE",
+  "production_modification": "NONE",
+  "real_ul7rabridge_modification": "NONE",
+  "production_unlock": "BLOCKED",
+  "owner_groups": 0,
+  "protected_groups": 0,
+  "aliases": 0,
+  "reference_hits": 0,
+  "protected_conflicts": 583,
+  "rollback_items": 0,
+  "content_scan": "NONE",
+  "repository_file_reads": 0
+}

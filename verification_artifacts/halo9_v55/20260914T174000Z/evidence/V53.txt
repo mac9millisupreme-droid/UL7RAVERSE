@@ -1,0 +1,6 @@
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/verify.sh:7:printf 'PRODUCTION_CRYPTO=NOT_CONFIGURED\n'
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/main.rs:8:    println!("production_crypto_provider=NOT_CONFIGURED");
+grep: /data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/target/debug/deps/halo9_demo-2599b15aa5700562: binary file matches
+grep: /data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/target/debug/incremental/halo9_demo-2fmmjcci842kh/s-hmaicl3swv-1nx31zk-03v91jsssjk91jlwoc4bnzxob/query-cache.bin: binary file matches
+grep: /data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/target/debug/incremental/halo9_demo-2fmmjcci842kh/s-hmaicl3swv-1nx31zk-03v91jsssjk91jlwoc4bnzxob/7928uuruztkx218laouejl9pa.o: binary file matches
+grep: /data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/target/debug/halo9-demo: binary file matches

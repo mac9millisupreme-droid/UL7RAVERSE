@@ -1,0 +1,10 @@
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/README.md:15:Production cryptography remains deliberately unconfigured. `TestVerifier` exists only under tests. A production cryptographic provider must be independently reviewed and tested before production unlock.
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/main.rs:8:    println!("production_crypto_provider=NOT_CONFIGURED");
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:70:    pub crypto_suite: String,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:90:    UnknownCryptoSuite,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:106:/// This prevents accidental production authorization before a real provider
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:163:        if !self.verifier.supported(&envelope.crypto_suite) {
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:164:            return self.block(PairError::UnknownCryptoSuite);
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:283:            crypto_suite: "TEST_ONLY".into(),
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:302:            Err(PairError::UnknownCryptoSuite)
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/bridge_gate.rs:91:            crypto_suite: "TEST_ONLY".into(),

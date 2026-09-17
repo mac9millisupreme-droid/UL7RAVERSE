@@ -1,0 +1,3323 @@
+[
+  {
+    "normalized_family": "bootstrap",
+    "count": 4,
+    "paths": [
+      ".ul7ra/simulation/bootstrap.py",
+      "UL7RAFORGE/bootstrap.sh",
+      "UL7RAFORGE/node9/bootstrap.py",
+      "UL7RAFORGE/v10/ul7rastack/bootstrap.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "readme",
+    "count": 7,
+    "paths": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/README.md",
+      "halo_twin_pair_v1/halo_twin_pair_v1/README.md",
+      "products/ul7ra-verify/README.md",
+      "racing/README.md",
+      "verification_artifacts/README.md",
+      "verification_artifacts/omnipulse/20260911T231536Z/app/README.md",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/README.md"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "__init__",
+    "count": 11,
+    "paths": [
+      "lucideploy/adapters/__init__.py",
+      "lucideploy/cli/__init__.py",
+      "lucideploy/core/__init__.py",
+      "lucideploy/gates/__init__.py",
+      "racing/__init__.py",
+      "racing/ail/__init__.py",
+      "racing/governance/__init__.py",
+      "racing/probability/__init__.py",
+      "racing/schema/__init__.py",
+      "racing/value/__init__.py",
+      "ul7ra_continue/__init__.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "phase0_report",
+    "count": 3,
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/PHASE0_REPORT.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/PHASE0_REPORT.txt",
+      "verification_artifacts/forensic_phase0/20260914T181458Z/PHASE0_REPORT.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "git_status",
+    "count": 29,
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_status.txt",
+      ".ul7ra/funnel/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/20260823T042104Z/git_status.txt",
+      ".ul7ra/funnel/runs/20260823T162913Z/evidence/GIT_STATUS.txt",
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_STATUS.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/GIT_STATUS.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/git_status.txt",
+      "FORENSIC_PHASE0_20260909T095923Z/GIT_STATUS.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/GIT_STATUS.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_status.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/git_status.txt",
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/git_status.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/git_status.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/GIT_STATUS.txt",
+      "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_status.txt",
+      "verification_artifacts/unification/20260913T154526Z/GIT_STATUS.txt",
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/GIT_STATUS.txt",
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/GIT_STATUS.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "runtime",
+    "count": 2,
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/runtime.txt",
+      "FORENSIC_PHASE0_20260909T095923Z/RUNTIME.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "repository_tree",
+    "count": 2,
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/REPOSITORY_TREE.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/REPOSITORY_TREE.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "capability_matrix",
+    "count": 2,
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_MATRIX.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/CAPABILITY_MATRIX.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "test_files",
+    "count": 3,
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/test_files.txt",
+      "FORENSIC_PHASE0_20260909T095923Z/TEST_FILES.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/TEST_FILES.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "test_results",
+    "count": 8,
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/test_results.txt",
+      "FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/TEST_RESULTS.txt",
+      "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/TEST_RESULTS.txt",
+      "verification_artifacts/member_loop/20260910T145415Z/TEST_RESULTS.txt",
+      "verification_artifacts/revenue_release/20260910T143907Z/TEST_RESULTS.txt",
+      "verification_artifacts/revenue_release/20260910T144021Z/TEST_RESULTS.txt",
+      "verification_artifacts/ul7rapass/20260910T144312Z/TEST_RESULTS.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "technical_debt",
+    "count": 2,
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/TECHNICAL_DEBT.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "git_history",
+    "count": 2,
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/GIT_HISTORY.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/GIT_HISTORY.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "phase0_baseline",
+    "count": 2,
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/PHASE0_BASELINE.json",
+      "FORENSIC_PHASE0_20260909T100256Z/PHASE0_BASELINE.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "verification_artifact",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/runs/phase2c_20260909T102629Z/VERIFICATION_ARTIFACT.json",
+      "verification_artifacts/verification_artifact.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "discovery",
+    "count": 6,
+    "paths": [
+      ".ul7ra/funnel/evidence/discovery.json",
+      ".ul7ra/funnel/runs/20260823T042104Z/evidence/DISCOVERY.json",
+      ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/discovery.json",
+      "lucideploy/adapters/discovery.py",
+      "products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/discovery.txt",
+      "ul7ra_continue/discovery.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "verification",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/evidence/ultra_verified/20260822T120157Z/verification.json",
+      "ul7ra_continue/verification.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "evidence",
+    "count": 28,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/blue/20260814T011950Z/evidence.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/blue/20260814T012133Z/evidence.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/evidence.json",
+      "racing/ail/evidence.py",
+      "ul7ra_continue/evidence.py",
+      "verification_artifacts/continue_runs/20260909T121541Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260909T121623Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260909T121910Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260909T121918Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260909T122218Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260909T122230Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260909T122316Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260909T122451Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260910T143921Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260910T144035Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260910T144326Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260910T145430Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260910T160130Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260911T160602Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260911T185335Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260911T190645Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260911T190904Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260911T191451Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260911T193428Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260913T002122Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260913T002253Z/EVIDENCE.json",
+      "verification_artifacts/continue_runs/20260913T002440Z/EVIDENCE.json",
+      "verification_artifacts/ul7rapass/20260910T144312Z/EVIDENCE.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "governance",
+    "count": 2,
+    "paths": [
+      "ul7ra4_factory/contracts/governance.json",
+      "ul7ra_continue/governance.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "purple",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/v09/state/purple.json",
+      "ul7ra_continue/purple.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "ail",
+    "count": 2,
+    "paths": [
+      "racing/ail/ail.py",
+      "ul7ra_continue/ail.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "offer",
+    "count": 2,
+    "paths": [
+      ".ul7ra/4H_EXECUTION/20260824T022633Z/commercial/offer.json",
+      "launch/OFFER.md"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "revenue_status",
+    "count": 2,
+    "paths": [
+      "launch/REVENUE_STATUS.md",
+      "scripts/revenue_status.sh"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "purple_team",
+    "count": 3,
+    "paths": [
+      ".ul7ra/4H_EXECUTION/20260824T022633Z/commercial/purple_team.json",
+      "luci_promote/PURPLE_TEAM.sh",
+      "verification_artifacts/member_loop/20260910T145415Z/PURPLE_TEAM.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "cargo",
+    "count": 11,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rabridge/Cargo.lock",
+      "UL7RAFORGE/v10/ul7rabridge/Cargo.toml",
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.lock",
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.toml",
+      "halo9_v56_authority_contract/Cargo.lock",
+      "halo9_v56_authority_contract/Cargo.toml",
+      "halo9_v57_adapter/Cargo.lock",
+      "halo9_v57_adapter/Cargo.toml",
+      "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.lock",
+      "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.toml",
+      "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/Cargo.toml"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "lib",
+    "count": 4,
+    "paths": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs",
+      "halo9_v56_authority_contract/src/lib.rs",
+      "halo9_v57_adapter/src/lib.rs",
+      "halo_twin_pair_v1/halo_twin_pair_v1/src/lib.rs"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "verify",
+    "count": 5,
+    "paths": [
+      "UL7RAFORGE/ul7rastack/verifier/src/verify.py",
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/verify.sh",
+      "halo_twin_pair_v1/halo_twin_pair_v1/verify.sh",
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/verify.json",
+      "products/ul7ra-verify/evidence/execution/20260823T013955Z/origin/verify.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "main",
+    "count": 6,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs",
+      "UL7RAFORGE/v10/ul7rabridge/src/main.rs",
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/main.rs",
+      "halo_twin_pair_v1/halo_twin_pair_v1/src/main.rs",
+      "lucideploy/cli/main.py",
+      "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/main.rs"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "factory",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/config/factory.json",
+      "ul7ra4_factory/engine/factory.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "e6_revenue_status",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/e6_revenue/E6_REVENUE_STATUS.md",
+      "verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "report",
+    "count": 30,
+    "paths": [
+      "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/report.txt",
+      "verification_artifacts/cloudflare_origin_gate_20260913T053126Z/report.txt",
+      "verification_artifacts/cloudflare_ownership/20260913T080454Z/report.txt",
+      "verification_artifacts/cloudflare_ownership/20260913T080735Z/report.txt",
+      "verification_artifacts/cloudflare_ownership/20260913T080809Z/report.txt",
+      "verification_artifacts/cloudflare_ownership/20260913T080830Z/report.txt",
+      "verification_artifacts/cloudflare_route_gate_20260913T052957Z/report.txt",
+      "verification_artifacts/dns_authority_final/20260911T235230Z/REPORT.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/report.txt",
+      "verification_artifacts/dns_delegation/20260911T235133Z/REPORT.txt",
+      "verification_artifacts/dns_reconcile/20260911T235554Z/REPORT.txt",
+      "verification_artifacts/domain_control/20260912T000358Z/REPORT.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/REPORT.txt",
+      "verification_artifacts/luci_one_shot/20260911T233921Z/REPORT.txt",
+      "verification_artifacts/luci_public_authority/20260911T234040Z/REPORT.txt",
+      "verification_artifacts/luci_public_authority/20260911T234302Z/REPORT.txt",
+      "verification_artifacts/membership_forensic/20260910T202254Z/REPORT.txt",
+      "verification_artifacts/named_tunnel_diag/20260911T234542Z/REPORT.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/REPORT.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/REPORT.txt",
+      "verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/v10_assurance_recovery_20260911T201934Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/v10_exact_dependency_correlation_20260911T202017Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/REPORT.txt",
+      "verification_artifacts/western_fair_convergence/20260911T235723Z/REPORT.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "consolidation_plan",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/forensic_phase2/20260915T002336Z/CONSOLIDATION_PLAN.json",
+      "verification_artifacts/forensic_phase2/20260915T002336Z/CONSOLIDATION_PLAN.md"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "authority_graph",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/forensic_phase1/20260915T002241Z/AUTHORITY_GRAPH.json",
+      "verification_artifacts/forensic_phase2/20260915T002336Z/AUTHORITY_GRAPH.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "proof_graph",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/forensic_phase1/20260915T002241Z/PROOF_GRAPH.json",
+      "verification_artifacts/forensic_phase2/20260915T002336Z/PROOF_GRAPH.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dependency_graph",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/forensic_phase1/20260915T002241Z/DEPENDENCY_GRAPH.json",
+      "verification_artifacts/forensic_phase2/20260915T002336Z/DEPENDENCY_GRAPH.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "environment",
+    "count": 3,
+    "paths": [
+      "verification_artifacts/elite_forensic/20260912T031215Z/ENVIRONMENT.txt",
+      "verification_artifacts/forensic_phase0/20260914T181458Z/ENVIRONMENT.json",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/environment.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "test_surfaces",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/forensic_phase0/20260914T181458Z/TEST_SURFACES.json",
+      "verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/TEST_SURFACES.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "final_decision",
+    "count": 19,
+    "paths": [
+      "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/FINAL_DECISION.md",
+      "verification_artifacts/deployment/20260911T203008Z/FINAL_DECISION.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/FINAL_DECISION.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/FINAL_DECISION.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/FINAL_DECISION.txt",
+      "verification_artifacts/halo9_v56/20260914T174923Z/FINAL_DECISION.txt",
+      "verification_artifacts/halo9_v56_full/20260914T175600Z/FINAL_DECISION.txt",
+      "verification_artifacts/halo9_v56_repair/20260914T175335Z/FINAL_DECISION.txt",
+      "verification_artifacts/halo9_v57/20260914T180129Z/FINAL_DECISION.txt",
+      "verification_artifacts/origin_runtime/20260911T200007Z/FINAL_DECISION.md",
+      "verification_artifacts/origin_runtime/START_20260911T200939Z/FINAL_DECISION.md",
+      "verification_artifacts/origin_runtime/VERIFY_20260911T200115Z/FINAL_DECISION.md",
+      "verification_artifacts/origin_runtime/VERIFY_20260911T200700Z/FINAL_DECISION.md",
+      "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/FINAL_DECISION.md",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/FINAL_DECISION.md",
+      "verification_artifacts/ul7ra4_factory/20260911T185311Z/FINAL_DECISION.txt",
+      "verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/FINAL_DECISION.md",
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/FINAL_DECISION.md",
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/FINAL_DECISION.md"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "v56_source_sha256",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/halo9_v56_full/20260914T175600Z/V56_SOURCE_SHA256.txt",
+      "verification_artifacts/halo9_v56_repair/20260914T175335Z/V56_SOURCE_SHA256.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "utilization_matrix",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/UTILIZATION_MATRIX.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/UTILIZATION_MATRIX.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "domain_inventory",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/DOMAIN_INVENTORY.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/DOMAIN_INVENTORY.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "entrypoint_inventory",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/ENTRYPOINT_INVENTORY.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/ENTRYPOINT_INVENTORY.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "test_inventory",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/TEST_INVENTORY.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/TEST_INVENTORY.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "verification_inventory",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/VERIFICATION_INVENTORY.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/VERIFICATION_INVENTORY.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "unconnected_candidates",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/UNCONNECTED_CANDIDATES.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/UNCONNECTED_CANDIDATES.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "reconciliation_report",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/RECONCILIATION_REPORT.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/RECONCILIATION_REPORT.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "git_head",
+    "count": 21,
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_head.txt",
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_HEAD.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/GIT_HEAD.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173703Z-2/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173711Z-3/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173720Z-4/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173729Z-5/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173738Z-6/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173747Z-7/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173756Z-8/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173805Z-9/git_head.txt",
+      ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/git_head.txt",
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/git_head.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/GIT_HEAD.txt",
+      "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_head.txt",
+      "verification_artifacts/unification/20260913T154526Z/GIT_HEAD.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "git_branch",
+    "count": 10,
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_branch.txt",
+      ".ul7ra/funnel/runs/20260823T042104Z/git_branch.txt",
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_BRANCH.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/GIT_BRANCH.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/git_branch.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/git_branch.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/git_branch.txt",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/git_branch.txt",
+      "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_branch.txt",
+      "verification_artifacts/unification/20260913T154526Z/GIT_BRANCH.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "config",
+    "count": 11,
+    "paths": [
+      "UL7RAFORGE/node9/experts/architect/config.json",
+      "UL7RAFORGE/node9/experts/compliance/config.json",
+      "UL7RAFORGE/node9/experts/engineer/config.json",
+      "UL7RAFORGE/node9/experts/evolution/config.json",
+      "UL7RAFORGE/node9/experts/intelligence/config.json",
+      "UL7RAFORGE/node9/experts/network/config.json",
+      "UL7RAFORGE/node9/experts/operations/config.json",
+      "UL7RAFORGE/node9/experts/security/config.json",
+      "UL7RAFORGE/node9/experts/verification/config.json",
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt",
+      "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/config.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "trace",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/trace.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/trace.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "local_health",
+    "count": 11,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/local_health.json",
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/local_health.json",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/local_health.json",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/local_health.json",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/local_health.json",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/local_health.json",
+      "verification_artifacts/final_public_gate/20260913T080226Z/local_health.json",
+      "verification_artifacts/final_public_gate/20260913T080919Z/local_health.json",
+      "verification_artifacts/named_tunnel_diag/20260911T234542Z/local_health.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/local_health.json",
+      "verification_artifacts/production_repair/20260911T234930Z/local_health.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "localerify",
+    "count": 7,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/local_verify.json",
+      "products/ul7ra-verify/evidence/compiler-20260822T093730Z/local-verify.json",
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/local-verify.json",
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/verification/local-verify.json",
+      "products/ul7ra-verify/evidence/execution/local_verify.json",
+      "verification_artifacts/final_public_gate/20260913T080226Z/local_verify.json",
+      "verification_artifacts/final_public_gate/20260913T080919Z/local_verify.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "ingressalidate",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/final_public_gate/20260913T080226Z/ingress_validate.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/ingress_validate.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dns_before",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_before.txt",
+      "verification_artifacts/final_public_gate/20260913T080226Z/dns_before.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/dns_before.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dns_route_attempt",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/final_public_gate/20260913T080226Z/dns_route_attempt.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/dns_route_attempt.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dns_after",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/final_public_gate/20260913T080226Z/dns_after.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/dns_after.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "public_health",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_health.json",
+      "verification_artifacts/final_public_gate/20260913T080226Z/public_health.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/public_health.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/public_health.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "public_headers",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/public_headers.txt",
+      "products/ul7ra-verify/deploy/runtime/public_headers.txt",
+      "verification_artifacts/final_public_gate/20260913T080226Z/public_headers.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/public_headers.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "revenue_next_gate",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/revenue_engine/20260913T002220Z/revenue_next_gate.txt",
+      "verification_artifacts/revenue_engine/20260913T002409Z/revenue_next_gate.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "sha256sums",
+    "count": 6,
+    "paths": [
+      "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/SHA256SUMS.txt",
+      "verification_artifacts/member_loop/20260910T145415Z/SHA256SUMS.txt",
+      "verification_artifacts/omnipulse_revenue/20260912T234003Z/SHA256SUMS.txt",
+      "verification_artifacts/revenue_release/20260910T143907Z/SHA256SUMS.txt",
+      "verification_artifacts/revenue_release/20260910T144021Z/SHA256SUMS.txt",
+      "verification_artifacts/ul7rapass/20260910T144312Z/SHA256SUMS.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "capabilities",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/blockers-20260823T173851Z/capabilities.txt",
+      "verification_artifacts/omnipulse_revenue/20260912T234003Z/state/capabilities.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "cloudflared_tunnels",
+    "count": 2,
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_tunnels.txt",
+      "verification_artifacts/omnipulse_revenue/20260912T234003Z/state/cloudflared_tunnels.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "final_status",
+    "count": 5,
+    "paths": [
+      "verification_artifacts/elite_forensic/20260912T031215Z/FINAL_STATUS.txt",
+      "verification_artifacts/omnipulse/20260911T231717Z/reports/FINAL_STATUS.md",
+      "verification_artifacts/omnipulse/force-live/20260911T232304Z/FINAL_STATUS.md",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/FINAL_STATUS.md",
+      "verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/FINAL_STATUS.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "authoritative_ns",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_ns.txt",
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_ns.txt",
+      "verification_artifacts/domain_control/20260912T000358Z/authoritative_ns.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/authoritative_ns.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tunnels",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/domain_control/20260912T000358Z/tunnels.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/tunnels.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tunnel_info",
+    "count": 31,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_info.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/tunnel_info.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/tunnel_info.txt",
+      "verification_artifacts/dns_reconcile/20260911T235554Z/tunnel_info.txt",
+      "verification_artifacts/domain_control/20260912T000358Z/tunnel_info.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/tunnel_info.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/tunnel_info.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/tunnel_info.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "route",
+    "count": 3,
+    "paths": [
+      "verification_artifacts/domain_control/20260912T000358Z/route.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/route.txt",
+      "verification_artifacts/western_fair_convergence/20260911T235723Z/route.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tests",
+    "count": 6,
+    "paths": [
+      ".ul7ra/funnel/evidence/tests.txt",
+      "verification_artifacts/domain_control/20260912T000358Z/tests.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/tests.txt",
+      "verification_artifacts/unified/20260911T190631Z/TESTS.txt",
+      "verification_artifacts/unified/20260911T190851Z/TESTS.txt",
+      "verification_artifacts/unified/20260911T191437Z/TESTS.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "final_gate",
+    "count": 4,
+    "paths": [
+      "lucideploy/evidence/final_gate.json",
+      "verification_artifacts/domain_control/20260912T000358Z/final_gate.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/final_gate.txt",
+      "verification_artifacts/western_fair_convergence/20260911T235723Z/final_gate.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tunnel",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel.txt",
+      "products/ul7ra-verify/evidence/multilayer/20260822T211824Z/tunnel.txt",
+      "verification_artifacts/western_fair_convergence/20260911T235723Z/tunnel.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "local",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/dns_authority_final/20260911T235230Z/local.json",
+      "verification_artifacts/dns_reconcile/20260911T235554Z/local.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "public_cname",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/public_cname.json",
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/public_cname.json",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/public_cname.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "cloudflare_cname",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_cname.json",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/cloudflare_cname.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "cloudflare_a",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_a.json",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/cloudflare_a.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "google_cname",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/google_cname.json",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/google_cname.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/google_cname.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "google_a",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/google_a.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/google_a.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dns_route",
+    "count": 8,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/dns_route.txt",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_route.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/dns_route.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/dns_route.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/dns_route.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_route.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_route.txt",
+      "verification_artifacts/recovery/20260911T212523Z/dns_route.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dns_1",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/production_repair/20260911T234812Z/dns_1.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_1.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dns_2",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/production_repair/20260911T234812Z/dns_2.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_2.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dns_3",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/production_repair/20260911T234812Z/dns_3.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_3.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dns_4",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/production_repair/20260911T234812Z/dns_4.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_4.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dns_5",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/production_repair/20260911T234812Z/dns_5.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_5.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dns_6",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/production_repair/20260911T234812Z/dns_6.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_6.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "curl_error",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/public-verification/curl_error.txt",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/curl_error.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dns_cloudflare",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_cloudflare.txt",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/network-diagnostic-20260911T233229Z/dns_cloudflare.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "status",
+    "count": 32,
+    "paths": [
+      "UL7RAFORGE/ul7rastack/live/status.py",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/purple/status.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/purple/status.json",
+      "UL7RAFORGE/v10/ul7rastack/ca/registry/status.py",
+      "UL7RAFORGE/v10/ul7rastack/state/status.json",
+      "verification_artifacts/member_loop/20260910T145415Z/STATUS.json",
+      "verification_artifacts/omnipulse/20260911T230936Z/reports/STATUS.md",
+      "verification_artifacts/omnipulse/live-brand/20260911T232128Z/STATUS.md",
+      "verification_artifacts/omnipulse/live-repair/20260911T231923Z/STATUS.md",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/STATUS.txt",
+      "verification_artifacts/revenue_release/20260910T143907Z/STATUS.json",
+      "verification_artifacts/revenue_release/20260910T144021Z/STATUS.json",
+      "verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json",
+      "verification_artifacts/unified/20260911T190631Z/STATUS.txt",
+      "verification_artifacts/unified/20260911T190851Z/STATUS.txt",
+      "verification_artifacts/unified/20260911T191437Z/STATUS.txt",
+      "verification_artifacts/unified/20260911T192306Z/STATUS.txt",
+      "verification_artifacts/unified/20260911T192336Z/STATUS.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "cloudflaredersion",
+    "count": 6,
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_version.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_version.txt",
+      "verification_artifacts/deployment/20260911T203008Z/cloudflared_version.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/cloudflared_version.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/cloudflared_version.txt",
+      "verification_artifacts/omnipulse/live-repair/20260911T231923Z/cloudflared_version.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tunnel_list",
+    "count": 9,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_list.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_list.txt",
+      "products/ul7ra-verify/deploy/runtime/tunnel_list.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/tunnel_list.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/tunnel_list.txt",
+      "verification_artifacts/omnipulse/live-repair/20260911T231923Z/tunnel_list.txt",
+      "verification_artifacts/omnipulse/live/20260911T231820Z/tunnel_list.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/tunnel_list.txt",
+      "verification_artifacts/recovery/20260911T212523Z/tunnel_list.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "cloudflared_processes",
+    "count": 3,
+    "paths": [
+      "verification_artifacts/deployment/20260911T203008Z/cloudflared_processes.txt",
+      "verification_artifacts/omnipulse/live-repair/20260911T231923Z/cloudflared_processes.txt",
+      "verification_artifacts/omnipulse/live/20260911T231820Z/cloudflared_processes.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "manifest",
+    "count": 6,
+    "paths": [
+      ".ul7ra/4H_EXECUTION/20260824T022633Z/commercial/MANIFEST.json",
+      ".ul7ra/protocol52/runs/20260825T163117Z/manifest.txt",
+      "UL7RAFORGE/v10/ul7rabridge/ghost/templates/manifest.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S8/manifest.json",
+      "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/MANIFEST.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/MANIFEST.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "events",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/events.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/events.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "experiences",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/experiences.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/experiences.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "claims",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/claims.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/claims.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "proof",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/evidence/ul7raproof/20260822T120236Z/proof.json",
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/proof.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/proof.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "shares",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/shares.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/shares.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "proof_state",
+    "count": 3,
+    "paths": [
+      "verification_artifacts/one_convergence/20260911T212038Z/PROOF_STATE.json",
+      "verification_artifacts/orchestrator/20260911T212831Z/state/PROOF_STATE.json",
+      "verification_artifacts/recovery/20260911T212523Z/PROOF_STATE.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "origin_health",
+    "count": 22,
+    "paths": [
+      "products/ul7ra-verify/evidence/execution/origin_health.json",
+      "verification_artifacts/deployment/20260911T203008Z/origin_health.json",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/origin_health.json",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/origin_health.json",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/origin_health.json",
+      "verification_artifacts/recovery/20260911T212523Z/origin_health.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tunnel_info_before",
+    "count": 4,
+    "paths": [
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/tunnel_info_before.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/tunnel_info_before.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/tunnel_info_before.txt",
+      "verification_artifacts/recovery/20260911T212523Z/tunnel_info_before.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tunnel_info_after",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/tunnel_info_after.txt",
+      "verification_artifacts/recovery/20260911T212523Z/tunnel_info_after.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dig",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/dig.txt",
+      "verification_artifacts/recovery/20260911T212523Z/dig.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "cname",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/cname.txt",
+      "verification_artifacts/recovery/20260911T212523Z/cname.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "a",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/a.txt",
+      "verification_artifacts/recovery/20260911T212523Z/a.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "summary",
+    "count": 248,
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/1/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/10/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/100/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/101/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/102/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/103/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/104/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/105/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/106/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/107/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/108/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/109/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/11/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/110/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/111/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/112/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/113/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/114/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/115/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/116/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/117/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/118/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/119/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/12/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/120/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/121/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/122/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/123/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/124/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/125/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/126/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/127/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/128/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/129/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/13/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/130/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/131/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/132/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/133/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/134/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/135/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/136/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/137/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/138/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/139/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/14/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/140/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/141/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/142/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/143/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/144/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/145/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/146/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/147/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/148/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/149/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/15/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/150/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/151/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/152/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/153/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/154/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/155/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/156/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/157/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/158/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/159/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/16/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/160/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/161/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/162/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/163/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/164/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/165/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/166/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/167/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/168/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/169/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/17/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/170/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/171/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/172/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/173/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/174/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/175/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/176/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/177/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/178/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/179/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/18/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/180/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/181/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/182/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/183/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/184/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/185/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/186/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/187/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/188/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/189/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/19/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/190/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/191/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/192/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/193/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/194/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/195/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/196/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/197/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/198/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/199/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/2/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/20/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/200/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/201/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/202/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/203/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/204/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/205/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/206/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/207/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/208/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/209/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/21/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/210/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/211/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/212/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/213/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/214/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/215/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/216/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/217/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/218/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/219/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/22/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/220/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/221/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/222/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/223/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/224/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/225/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/226/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/227/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/228/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/229/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/23/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/230/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/231/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/232/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/233/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/234/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/235/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/236/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/237/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/238/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/239/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/24/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/240/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/241/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/242/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/243/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/244/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/245/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/246/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/247/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/248/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/25/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/26/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/27/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/28/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/29/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/3/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/30/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/31/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/32/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/33/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/34/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/35/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/36/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/37/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/38/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/39/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/4/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/40/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/41/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/42/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/43/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/44/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/45/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/46/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/47/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/48/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/49/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/5/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/50/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/51/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/52/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/53/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/54/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/55/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/56/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/57/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/58/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/59/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/6/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/60/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/61/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/62/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/63/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/64/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/65/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/66/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/67/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/68/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/69/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/7/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/70/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/71/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/72/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/73/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/74/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/75/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/76/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/77/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/78/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/79/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/8/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/80/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/81/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/82/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/83/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/84/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/85/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/86/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/87/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/88/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/89/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/9/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/90/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/91/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/92/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/93/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/94/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/95/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/96/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/97/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/98/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/99/SUMMARY.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "dns",
+    "count": 17,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/dns.txt",
+      "verification_artifacts/deployment/20260911T203008Z/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/dns.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "external_health",
+    "count": 16,
+    "paths": [
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/external_health.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "selftest",
+    "count": 5,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/selftest.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/selftest.txt",
+      "verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json",
+      "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_diagnostic_1",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_1.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_1.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "repair_1",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_1.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_1.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_diagnostic_2",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_2.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_2.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "repair_2",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_2.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_2.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_diagnostic_3",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_3.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_3.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "repair_3",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_3.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_3.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_diagnostic_4",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_4.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_4.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "repair_4",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_4.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_4.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_diagnostic_5",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_5.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_5.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "repair_5",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_5.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_5.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_diagnostic_6",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_6.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_6.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "repair_6",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_6.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_6.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_diagnostic_7",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_7.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_7.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "repair_7",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_7.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_7.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_diagnostic_8",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_8.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_8.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "repair_8",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_8.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_8.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_diagnostic_9",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_9.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "repair_9",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_9.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_deploy_1",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_1.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_1.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_deploy_2",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_2.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_2.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_deploy_3",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_3.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_3.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_deploy_4",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_4.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_4.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_deploy_5",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_5.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_5.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_deploy_6",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_6.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_6.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_deploy_7",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_7.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_7.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_deploy_8",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_8.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_8.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_deploy_9",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_9.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_test_1",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_1.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_1.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_test_2",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_2.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_2.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_test_3",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_3.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_3.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_test_4",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_4.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_4.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_test_5",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_5.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_5.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_test_6",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_6.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_6.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_test_7",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_7.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_7.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_test_8",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_8.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_8.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_test_9",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_9.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "luci_test_10",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_10.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_10.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "deployment_state",
+    "count": 24,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_1/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_2/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_3/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_4/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_5/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_6/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_7/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_8/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_9/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_1/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_10/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_11/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_12/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_13/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_14/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_15/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_2/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_3/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_4/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_5/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_6/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_7/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_8/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_9/deployment_state.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "round_decision",
+    "count": 24,
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_1/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_2/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_3/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_4/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_5/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_6/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_7/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_8/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_9/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_1/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_10/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_11/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_12/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_13/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_14/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_15/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_2/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_3/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_4/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_5/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_6/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_7/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_8/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_9/ROUND_DECISION.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "baseline",
+    "count": 4,
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/baseline.json",
+      ".ul7ra/funnel/runs/reconciliation-impl-20260823T174436Z/evidence/baseline.json",
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/baseline.json",
+      "verification_artifacts/deployment/20260911T203008Z/baseline.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "origin_selftest",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/deployment/20260911T203008Z/origin_selftest.json",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/origin_selftest.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "origin_integrity",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/deployment/20260911T203008Z/origin_integrity.json",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/origin_integrity.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "https_headers",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/https_headers.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/https_headers.txt",
+      "verification_artifacts/deployment/20260911T203008Z/https_headers.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/https_headers.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "nameservers",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/nameservers.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/nameservers.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/nameservers.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "authoritative_cname",
+    "count": 5,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/authoritative_cname.json",
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_cname.json",
+      "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/authoritative_cname.txt",
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_cname.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/authoritative_cname.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "authoritative_a",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_a.json",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/authoritative_a.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "route_status",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/route_status.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/route_status.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/route_status.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "veriscore",
+    "count": 3,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/state/veriscore.json",
+      "UL7RAFORGE/v10/ul7rastack/veriscore/state/veriscore.json",
+      "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/veriscore.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "health",
+    "count": 8,
+    "paths": [
+      "UL7RAFORGE/kernel/health.py",
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/health.json",
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/health.json",
+      "products/ul7ra-verify/evidence/execution/20260823T013955Z/origin/health.json",
+      "verification_artifacts/origin_runtime/20260911T200007Z/health.json",
+      "verification_artifacts/origin_runtime/START_20260911T200939Z/health.json",
+      "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/HEALTH.json",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/health.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "integrity",
+    "count": 5,
+    "paths": [
+      "evidence/quantum_storm/20260823T040239Z/integrity.txt",
+      "lucideploy/core/integrity.py",
+      "verification_artifacts/origin_runtime/START_20260911T200939Z/integrity.json",
+      "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/INTEGRITY.json",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/integrity.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "source_sha256sums",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/SOURCE_SHA256SUMS.txt",
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/SOURCE_SHA256SUMS.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "membership_readiness",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt",
+      "verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "product",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/product.txt",
+      "verification_artifacts/member_loop/20260910T145415Z/PRODUCT.json",
+      "verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "state",
+    "count": 33,
+    "paths": [
+      ".ul7ra/funnel/STATE.json",
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/STATE.json",
+      ".ul7ra/funnel/runs/autofunnel-20260823T173937Z/state.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/STATE.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/STATE.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/STATE.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/STATE.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/STATE.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/STATE.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/STATE.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/STATE.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/STATE.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/STATE.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/STATE.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/STATE.json",
+      ".ul7ra/funnel/runs/elite-20260823T173321Z/STATE.json",
+      ".ul7ra/funnel/runs/execution-20260823T172237Z/STATE.json",
+      ".ul7ra/funnel/runs/reconcile-20260823T173412Z/STATE.json",
+      ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/STATE.json",
+      ".ul7ra/funnel/runs/reconciliation-persistent-20260823T174506Z/STATE.json",
+      ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/state.json",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/STATE.json",
+      ".ul7ra/funnel/runs/root-cause-20260823T174953Z/STATE.json",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/STATE.json",
+      "UL7RAFORGE/kernel/state.json",
+      "UL7RAFORGE/ul7rastack/security/containment/state.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/state.json",
+      "evidence/quantum_storm/20260823T040239Z/STATE.json",
+      "lucideploy/core/state.py",
+      "lucideploy/state/STATE.json",
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/STATE.json",
+      "products/ul7ra-verify/evidence/execution/STATE.json",
+      "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/STATE.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "phase2_discovery",
+    "count": 2,
+    "paths": [
+      "verification_artifacts/discovery/20260909T102406Z/PHASE2_DISCOVERY.json",
+      "verification_artifacts/discovery/20260909T102406Z/PHASE2_DISCOVERY.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "engine",
+    "count": 5,
+    "paths": [
+      "UL7RAFORGE/oracl3/oracle/engine.py",
+      "UL7RAFORGE/v10/ul7rastack/veriscore/engine.py",
+      "lucideploy/gates/engine.py",
+      "racing/probability/engine.py",
+      "racing/value/engine.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "decision",
+    "count": 5,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/DECISION.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/DECISION.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/DECISION.txt",
+      "racing/ail/decision.py",
+      "racing/governance/decision.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "provenance",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/v09/state/provenance.json",
+      "racing/ail/provenance.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "authority_state",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/AUTHORITY_STATE.json",
+      ".ul7ra/funnel/runs/20260823T162913Z/evidence/AUTHORITY_STATE.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "git-status",
+    "count": 6,
+    "paths": [
+      ".ul7ra/protocol52/runs/20260825T162946Z/git-status.txt",
+      ".ul7ra/protocol52/runs/20260825T163117Z/git-status.txt",
+      ".ul7ra/protocol52/state/20260825T154639Z/git-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "diff-stat",
+    "count": 3,
+    "paths": [
+      ".ul7ra/protocol52/runs/20260825T162946Z/diff-stat.txt",
+      ".ul7ra/protocol52/runs/20260825T163117Z/diff-stat.txt",
+      ".ul7ra/protocol52/state/20260825T154639Z/diff-stat.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "processes",
+    "count": 4,
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/processes.txt",
+      ".ul7ra/funnel/evidence/processes.txt",
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/processes.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/processes.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "evidence_manifest",
+    "count": 2,
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/EVIDENCE_MANIFEST.txt",
+      ".ul7ra/funnel/runs/revocation-20260823T170949Z/evidence/evidence_manifest.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "execution",
+    "count": 2,
+    "paths": [
+      ".ul7ra/4H_EXECUTION/20260824T022557Z/EXECUTION.json",
+      ".ul7ra/funnel/runs/20260823T042104Z/evidence/EXECUTION.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "git_commit",
+    "count": 4,
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T042104Z/git_commit.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_commit.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/git_commit.txt",
+      "products/ul7ra-verify/evidence/execution/git_commit.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "registry",
+    "count": 43,
+    "paths": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/registry.py",
+      ".ul7ra/funnel/runs/authority-contract-20260823T174337Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T175536Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191211Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191247Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191347Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191441Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191444Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191446Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191553Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191645Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191648Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191741Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191745Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191810Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191813Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191907Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191910Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191913Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191915Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191918Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191946Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191949Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191952Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191955Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191958Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T192059Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-test-20260823T174543Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/continuous-test-20260823T174622Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/diag-20260823T174702Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/elite-20260823T173321Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/reconcile-20260823T173412Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/reconciliation-impl-20260823T174436Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/reconciliation-persistent-20260823T174506Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/registry.py",
+      ".ul7ra/funnel/runs/root-cause-20260823T174953Z/evidence/registry.json",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/registry.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/evidence/registry.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "attest",
+    "count": 3,
+    "paths": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/attest.py",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/attest.py",
+      "UL7RAFORGE/v10/ul7rastack/assurance/evidence/attest.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "assurance_gates",
+    "count": 3,
+    "paths": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/assurance_gates.py",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/assurance_gates.py",
+      "UL7RAFORGE/v10/ul7rastack/assurance/assurance_gates.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "fail_closed",
+    "count": 22,
+    "paths": [
+      ".ul7ra/funnel/runs/autofunnel-20260823T173937Z/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/light-20260823T173819Z/fail_closed.json",
+      ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173703Z-2/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173711Z-3/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173720Z-4/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173729Z-5/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173738Z-6/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173747Z-7/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173756Z-8/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173805Z-9/fail_closed.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "blockers",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/autofunnel-20260823T173937Z/blockers.json",
+      ".ul7ra/funnel/runs/blockers-20260823T173851Z/blockers.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "diagnostic_state",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/DIAGNOSTIC_STATE.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/DIAGNOSTIC_STATE.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "assurance",
+    "count": 41,
+    "paths": [
+      ".ul7ra/funnel/runs/authority-contract-20260823T174337Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T175536Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191211Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191247Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191347Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191441Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191444Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191446Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191553Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191645Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191648Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191741Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191745Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191810Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191813Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191907Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191910Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191913Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191915Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191918Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191946Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191949Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191952Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191955Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191958Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T192059Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-test-20260823T174543Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/continuous-test-20260823T174622Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/diag-20260823T174702Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/elite-20260823T173321Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/reconcile-20260823T173412Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/reconciliation-impl-20260823T174436Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/reconciliation-persistent-20260823T174506Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/root-cause-20260823T174953Z/evidence/assurance.json",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/assurance.json",
+      "UL7RAFORGE/ul7rastack/security/state/assurance.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "reconciliation",
+    "count": 36,
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T162313Z/evidence/RECONCILIATION.txt",
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T175536Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191211Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191247Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191347Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191441Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191444Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191446Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191553Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191645Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191648Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191741Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191745Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191810Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191813Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191907Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191910Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191913Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191915Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191918Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191946Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191949Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191952Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191955Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191958Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T192059Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-test-20260823T174543Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-test-20260823T174622Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/reconciliation-impl-20260823T174436Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/reconciliation-persistent-20260823T174506Z/evidence/reconciliation.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "state-1",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/state-1.json",
+      ".ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/state-1.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "state-2",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/state-2.json",
+      ".ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/state-2.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "state-3",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/state-3.json",
+      ".ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/state-3.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "state-4",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/state-4.json",
+      ".ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/state-4.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "state-5",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/state-5.json",
+      ".ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/state-5.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "inventory",
+    "count": 8,
+    "paths": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T175606Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191139Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/inventory.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "diagnostic",
+    "count": 5,
+    "paths": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/diagnostic.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "state.before",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/health-20260823T191246Z/evidence/state.before.json",
+      ".ul7ra/funnel/runs/restart-proof-20260823T191524Z/evidence/state.before.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "contract_test",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/authority-contract-20260823T175507Z/evidence/contract_test.json",
+      ".ul7ra/funnel/runs/authority-test-20260823T171820Z/evidence/contract_test.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "compile",
+    "count": 3,
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-test-20260823T174543Z/evidence/compile.txt",
+      ".ul7ra/funnel/runs/continuous-test-20260823T174622Z/evidence/compile.txt",
+      ".ul7ra/funnel/runs/reconcile-20260823T173412Z/evidence/compile.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "authority_reconciliation",
+    "count": 12,
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/authority_reconciliation.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "head",
+    "count": 14,
+    "paths": [
+      ".ul7ra/funnel/runs/authority-test-20260823T172002Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/head.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/head.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "branch",
+    "count": 11,
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/branch.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "substrate_compile",
+    "count": 11,
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/substrate_compile.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "directory_contract",
+    "count": 11,
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/directory_contract.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "registry_result",
+    "count": 11,
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/registry_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/registry_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/registry_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/registry_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/registry_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/registry_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/registry_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/registry_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/registry_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/registry_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/registry_result.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "assurance_result",
+    "count": 11,
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/assurance_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/assurance_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/assurance_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/assurance_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/assurance_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/assurance_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/assurance_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/assurance_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/assurance_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/assurance_result.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/assurance_result.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "evidence_inventory",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T162444Z/evidence/EVIDENCE_INVENTORY.txt",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/evidence_inventory.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "result",
+    "count": 13,
+    "paths": [
+      ".ul7ra/funnel/runs/light-20260823T170029Z/evidence/result.json",
+      ".ul7ra/funnel/runs/light-fixed-20260823T170232Z/evidence/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/result.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "pre_execution_state",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/PRE_EXECUTION_STATE.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/PRE_EXECUTION_STATE.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "controller_sha256",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/CONTROLLER_SHA256.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/CONTROLLER_SHA256.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "selected_controller",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/SELECTED_CONTROLLER.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/SELECTED_CONTROLLER.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "execution_contracts",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/EXECUTION_CONTRACTS.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "execution_candidates",
+    "count": 2,
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CANDIDATES.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/EXECUTION_CANDIDATES.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "gates",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/profiles/gates.py",
+      "lucideploy/contracts/GATES.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "test_server",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server.txt",
+      "products/ul7ra-verify/tests/test_server.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "promotion_state",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/multiloop/promotion_state.json",
+      "products/ul7ra-verify/deploy/runtime/promotion_state.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "source_hashes",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/source_hashes.txt",
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/source_hashes.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/source_hashes.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "root",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/root.json",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/root.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "build",
+    "count": 3,
+    "paths": [
+      "UL7RAFORGE/v06/factory/build.py",
+      "UL7RAFORGE/v06/state/build.json",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/build.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "cloudflared_process",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflared_process.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_process.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_process.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "cloudflared_config",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflared_config.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_config.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "apex_public_decision",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/APEX_PUBLIC_DECISION.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/APEX_PUBLIC_DECISION.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "cloudflare_dns",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflare_dns.json",
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflare_dns.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "google_dns",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/google_dns.json",
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/google_dns.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "apex_dns_decision",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/APEX_DNS_DECISION.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/APEX_DNS_DECISION.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "zone",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/zone.json",
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/zone.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "git-head",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-head.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-head.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-head.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-head.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "origin",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/origin.txt",
+      "products/ul7ra-verify/evidence/multilayer/20260822T211824Z/origin.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tool-git",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-git.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-git.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-git.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-git.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tool-gh",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-gh.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-gh.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-gh.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-gh.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tool-cloudflared",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-cloudflared.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-cloudflared.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-cloudflared.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-cloudflared.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tool-python3",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-python3.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-python3.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-python3.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-python3.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tool-curl",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-curl.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tool-dig",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-dig.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-dig.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-dig.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-dig.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "local-health",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/local-health.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health.json",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health.json",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "expected-sha256",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/expected-sha256.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/expected-sha256.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tunnel-list",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tunnel-list.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-list.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-list.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel-list.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "tunnel-info",
+    "count": 4,
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tunnel-info.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-info.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-info.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel-info.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "routing",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/routing.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "started",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/started.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/started.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/started.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "git-remotes",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-remotes.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-remotes.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-remotes.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "local-curl",
+    "count": 3,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-curl.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "cloudflared-routing",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "local-health-status",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-status.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "local-health-curl",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-curl.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "authoritative-dns-before",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "local-status",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-status.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "localerification",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification.json",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "localerification-check",
+    "count": 2,
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification-check.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification-check.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "verification_record",
+    "count": 19,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/external/20260814T044657Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/external/20260823T043056Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/external/20260823T043238Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/external/20260823T043823Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/external/20260823T043928Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/external/20260823T044013Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/20260814T013439Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014655Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014832Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015125Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015738Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015817Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020214Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020337Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020404Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020543Z/verification_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020632Z/verification_record.json",
+      "v10/ul7rastack/assurance/runtime/verifier/independent/20260814T012933Z/verification_record.json",
+      "v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020026Z/verification_record.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "core",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/trinity/core.py",
+      "UL7RAFORGE/v10/ul7rastack/echoless/core.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "swarm",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/coding_swarm/state/swarm.json",
+      "UL7RAFORGE/coding_swarm/swarm.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "live_security",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/ul7rastack/security/live_security.py",
+      "UL7RAFORGE/ul7rastack/security/state/live_security.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "bridge_status",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/v10/evidence/state/bridge_status.json",
+      "UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "hyperquantum_result",
+    "count": 9,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/apex_hyperquantum/hyperquantum_result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/hyperquantum/hyperquantum_result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/hyperquantum/hyperquantum_result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/hyperquantum/hyperquantum_result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/hyperquantum/hyperquantum_result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/hyperquantum/hyperquantum_result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/hyperquantum/hyperquantum_result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/hyperquantum/hyperquantum_result.json",
+      "UL7RAFORGE/v10/ul7rastack/hyperquantum/state/20260813T214435Z/hyperquantum_result.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "high_assurance",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/profiles/high_assurance.py",
+      "UL7RAFORGE/v10/ul7rastack/assurance/state/high_assurance.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "evidence_consumed_record",
+    "count": 5,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014655Z/evidence_consumed_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014832Z/evidence_consumed_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015125Z/evidence_consumed_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015738Z/evidence_consumed_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015817Z/evidence_consumed_record.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "decision_record",
+    "count": 5,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014655Z/decision_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014832Z/decision_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015125Z/decision_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015738Z/decision_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015817Z/decision_record.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "blue_observations",
+    "count": 3,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/blue_observations.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/blue_observations.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/blue_observations.txt"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "purple_result",
+    "count": 4,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/purple_result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/purple_result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/purple_result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/purple_result.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "reproducibility",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/reproducibility.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/reproducibility.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "independent_decision",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/independent_decision.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/independent_decision.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "local_boundary",
+    "count": 3,
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/evidence/hardware/local_boundary.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/evidence/independent/local_boundary.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/evidence/network/local_boundary.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "check",
+    "count": 5,
+    "paths": [
+      "UL7RAFORGE/v09/provenance/check.py",
+      "UL7RAFORGE/v09/purple/check.py",
+      "UL7RAFORGE/v09/rollback/check.py",
+      "UL7RAFORGE/v09/security/check.py",
+      "UL7RAFORGE/v09/trinity/check.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "assurance_gate",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/v09/state/assurance_gate.json",
+      "UL7RAFORGE/v09/tests/assurance_gate.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "deeperify",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/v09/state/deep_verify.json",
+      "UL7RAFORGE/v09/tests/deep_verify.py"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "current",
+    "count": 2,
+    "paths": [
+      "UL7RAFORGE/oracl3/state/current.json",
+      "UL7RAFORGE/trinity/state/current.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  },
+  {
+    "normalized_family": "worker",
+    "count": 9,
+    "paths": [
+      "UL7RAFORGE/coding_swarm/workers/architect/worker.json",
+      "UL7RAFORGE/coding_swarm/workers/builder/worker.json",
+      "UL7RAFORGE/coding_swarm/workers/debugger/worker.json",
+      "UL7RAFORGE/coding_swarm/workers/infrastructure_engineer/worker.json",
+      "UL7RAFORGE/coding_swarm/workers/performance_engineer/worker.json",
+      "UL7RAFORGE/coding_swarm/workers/refactorer/worker.json",
+      "UL7RAFORGE/coding_swarm/workers/reviewer/worker.json",
+      "UL7RAFORGE/coding_swarm/workers/security_engineer/worker.json",
+      "UL7RAFORGE/coding_swarm/workers/test_engineer/worker.json"
+    ],
+    "classification": "IDENTITY_REVIEW_REQUIRED"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "commit": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+  "entitlement_status": "ACTIVE",
+  "lucicoin_total": 3,
+  "lucicoin_used": 0,
+  "payment_status": "PAID",
+  "proof_artifact": true,
+  "purple_team": true,
+  "repository": "/data/data/com.termux/files/home/UL7RAVERSE",
+  "technical_tests": true,
+  "timestamp": "2026-09-10T14:54:32.675705+00:00",
+  "units_total": 1500,
+  "units_used": 3,
+  "verification_status": "PASS"
+}

@@ -1,0 +1,18 @@
+{
+  "offer": "UL7RAPASS",
+  "currency": "CAD",
+  "price_cad": 500,
+  "amount_minor": 50000,
+  "payment_model": "ONE_TIME",
+  "term": "12_MONTHS",
+  "surface": "HOSTED_CHECKOUT",
+  "environment": "SANDBOX",
+  "revenue_verified": false,
+  "e6_01": "NOT_YET_VERIFIED",
+  "governance": {
+    "no_proof_no_trusted_action": true,
+    "unverified_is_not_pass": true,
+    "unknown_is_unknown": true,
+    "fail_closed": true
+  }
+}

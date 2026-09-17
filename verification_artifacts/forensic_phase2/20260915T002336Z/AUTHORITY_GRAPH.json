@@ -1,0 +1,34 @@
+{
+  "agent_grants_authority": false,
+  "authority_boundary": "UL7RABRIDGE",
+  "authority_minting_allowed_outside_bridge": false,
+  "cloud_grants_authority": false,
+  "commerce_grants_authority": false,
+  "luci_grants_authority": false,
+  "nodes": [
+    "Requester",
+    "Agent",
+    "HALO9",
+    "Mission",
+    "Capability",
+    "Proof",
+    "Cheetah",
+    "Governance",
+    "UL7RABRIDGE",
+    "TrustedAction"
+  ],
+  "proof_grants_authority": false,
+  "required_order": [
+    "Requester",
+    "Agent",
+    "HALO9",
+    "Mission",
+    "Capability",
+    "Proof",
+    "Cheetah",
+    "Governance",
+    "UL7RABRIDGE",
+    "TrustedAction"
+  ],
+  "status": "REVIEW_REQUIRED"
+}

@@ -1,0 +1,15 @@
+{
+  "system": "PURPLEPROTOCOLOMEGA",
+  "target_version": "9.0",
+  "repository": "/data/data/com.termux/files/home/UL7RAVERSE",
+  "git_head": "63c1d6080cc91f100f2f1c37ee22706ae96c93d4",
+  "branch": "master",
+  "platform": "Linux",
+  "architecture": "armv7l",
+  "termux_prefix": "/data/data/com.termux/files/usr",
+  "node": "v24.18.0",
+  "npm": "11.19.1",
+  "prompt": "/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/purple_v9/TERMUX_GATE_20260915_231327/COPILOT_PURPLE_V9_PROMPT.md",
+  "production_unlock": false,
+  "status": "ENVIRONMENT_GATE"
+}

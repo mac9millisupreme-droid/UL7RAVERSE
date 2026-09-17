@@ -1,0 +1,14 @@
+{
+  "UL7RAPASS": {
+    "UL7RAPROOF": true,
+    "LUCI_Test": true,
+    "LUCI_Diagnostic": true,
+    "Purple_Team": true,
+    "Continuous_Verification": true,
+    "Proof_State_Reports": true,
+    "Member_Node_Access": true,
+    "LUCIAGENT3": true,
+    "LUCIcoin": 3,
+    "Adversarial_Verification": true
+  }
+}

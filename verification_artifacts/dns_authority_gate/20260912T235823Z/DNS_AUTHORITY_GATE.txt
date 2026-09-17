@@ -1,0 +1,103 @@
+UL7RAVERSE DNS AUTHORITY GATE
+UTC=20260912T235823Z
+
+===== EXISTING TUNNEL =====
+a241e27b-336e-44cc-9a52-6487131db63b ul7ra-verify 2026-08-22T04:43:31Z             
+
+===== LOCAL CLOUDFLARED CONFIG =====
+tunnel: a241e27b-336e-44cc-9a52-6487131db63b
+  - hostname: verify.omnilucient.com
+    service: http://127.0.0.1:8787
+  - hostname: omnilucient.com
+    service: http://127.0.0.1:8787
+  - service: http_status:404
+
+===== HISTORICAL DNS EVIDENCE =====
+
+--- products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z ---
+products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/python_dns.txt:1:verify.omnilucient.com FAILED gaierror(7, 'No address associated with hostname')
+products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt:5:  - hostname: verify.omnilucient.com
+products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt:7:  - hostname: omnilucient.com
+
+--- products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z ---
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/dns_route_help.txt:2:   cloudflared tunnel route dns - HostnameRoute a hostname by creating a DNS CNAME record to a tunnel
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/dns_route_help.txt:5:   cloudflared tunnel route dns [TUNNEL] [HOSTNAME]
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/dns_route_help.txt:8:   Creates a DNS CNAME record hostname that points to the tunnel.
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/dns_route_help.txt:11:   --overwrite-dns, -f  Overwrites existing DNS records with this hostname (default: false) [$TUNNEL_FORCE_PROVISIONING_DNS]
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/APEX_DNS_DECISION.txt:5:AUTHORITATIVE_CNAME=
+products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/APEX_DNS_DECISION.txt:7:AUTHORITATIVE_DNS_GATE=FAIL
+
+--- products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z ---
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/DECISION.txt:5:DNS_REPAIR_ATTEMPTED=YES
+
+--- products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z ---
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/full.log:2: UL7RA DNS GATE — CONTROLLED REPAIR
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/full.log:7:EVIDENCE=/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z
+products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/full.log:28:ZONE_LOOKUP=FAIL
+
+--- products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z ---
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflared_config.txt:5:  - hostname: verify.omnilucient.com
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflared_config.txt:7:  - hostname: omnilucient.com
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cname_system.txt:4:** server can't find verify.omnilucient.com: NXDOMAIN
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/google_dns.txt:4:** server can't find verify.omnilucient.com: NXDOMAIN
+products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflare_dns.txt:4:** server can't find verify.omnilucient.com: NXDOMAIN
+
+--- products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z ---
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/route_help.txt:2:   cloudflared tunnel route - Define which traffic routed from Cloudflare edge to this tunnel: requests to a DNS hostname, to a Cloudflare Load Balancer, or traffic originating from Cloudflare WARP clients
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/route_help.txt:10:   To route a hostname by creating a DNS CNAME record to a tunnel:
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/route_help.txt:11:      cloudflared tunnel route dns <tunnel ID or name> <hostname>
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/route_help.txt:15:      cloudflared tunnel route lb <tunnel ID or name> <hostname> <load balancer pool>
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/route_help.txt:24:   dns      HostnameRoute a hostname by creating a DNS CNAME record to a tunnel
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/dns_authority.txt:1:verify.omnilucient.com ERROR gaierror(7, 'No address associated with hostname')
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:1:--- /data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/cloudflared.log ---
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:7:2026-09-09T01:48:41Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="open /proc/sys/net/ipv4/ping_group_range: permission denied"
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:8:2026/09/09 01:48:41 failed to sufficiently increase send buffer size (was: 1024 kiB, wanted: 7168 kiB, got: 6144 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:17:2026-09-09T01:48:41Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:18:2026-09-09T01:48:41Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:19:2026-09-09T01:48:41Z INF |  UDP Connectivity  region1.v2.argotunnel.com  PASS    QUIC connection successful    |
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:20:2026-09-09T01:48:41Z INF |  UDP Connectivity  region2.v2.argotunnel.com  PASS    QUIC connection successful    |
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:21:2026-09-09T01:48:41Z INF |  TCP Connectivity  region1.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:22:2026-09-09T01:48:41Z INF |  TCP Connectivity  region2.v2.argotunnel.com  PASS    HTTP/2 connection successful  |
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:23:2026-09-09T01:48:41Z INF |  Cloudflare API    api.cloudflare.com:443     PASS    API is reachable              |
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:27:2026-09-09T01:48:41Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=8d1e57eb-e711-425e-8622-7a745e85d832 status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:28:2026-09-09T01:48:41Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=8d1e57eb-e711-425e-8622-7a745e85d832 status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:29:2026-09-09T01:48:41Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=8d1e57eb-e711-425e-8622-7a745e85d832 status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:30:2026-09-09T01:48:41Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=8d1e57eb-e711-425e-8622-7a745e85d832 status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:31:2026-09-09T01:48:41Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=8d1e57eb-e711-425e-8622-7a745e85d832 status=pass target=region1.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:32:2026-09-09T01:48:41Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=8d1e57eb-e711-425e-8622-7a745e85d832 status=pass target=region2.v2.argotunnel.com
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:33:2026-09-09T01:48:41Z INF precheck component="Cloudflare API" details="API is reachable" run_id=8d1e57eb-e711-425e-8622-7a745e85d832 status=pass target=api.cloudflare.com:443
+products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/recent_cloudflared.txt:34:2026-09-09T01:48:41Z INF precheck complete hard_fail=false run_id=8d1e57eb-e711-425e-8622-7a745e85d832 suggested_protocol=quic
+
+--- products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z ---
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/config_redacted.yml:5:  - hostname: verify.omnilucient.com
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/config_redacted.yml:7:  - hostname: omnilucient.com
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/DECISION.txt:7:AUTHORITATIVE_DNS_CURRENTLY_NXDOMAIN=YES
+products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/DECISION.txt:9:DNS_REPAIR_ACTION=NOT_PERFORMED
+
+===== CURRENT AUTHORITATIVE DNS TEST =====
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+
+
+===== CURRENT PUBLIC HTTPS TEST =====
+curl: (6) Could not resolve host: verify.omnilucient.com
+
+===== DECISION =====
+EXISTING_TUNNEL=FOUND
+CLOUDFLARE_NETWORK=PASS
+CLOUDFLARE_API=PASS
+AUTHORITATIVE_HOSTNAME_DNS=NXDOMAIN
+DNS_REPAIR=NOT_PERFORMED
+PUBLIC_HOSTNAME=UNPROVEN
+PRODUCTION=BLOCKED
+PROMOTION=BLOCKED
+
+REQUIRED_EXTERNAL_ACTION:
+Restore/create the authoritative Cloudflare DNS route for verify.omnilucient.com
+using the EXISTING ul7ra-verify tunnel.
+DO_NOT_CREATE_NEW_TUNNEL=YES
+DO_NOT_CLAIM_PRODUCTION=YES
+
+FINAL_DECISION=BLOCKED_EXTERNAL_DNS_AUTHORITY

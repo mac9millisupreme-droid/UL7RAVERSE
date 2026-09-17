@@ -1,0 +1,50 @@
+[
+  {
+    "action": "Record repository state and hashes.",
+    "name": "FREEZE_AND_BASELINE",
+    "phase": 1,
+    "source_modification": false
+  },
+  {
+    "action": "Resolve canonical vs duplicate vs legacy.",
+    "name": "CANONICAL_COMPONENT_RESOLUTION",
+    "phase": 2,
+    "source_modification": false
+  },
+  {
+    "action": "Prove actual authority path to UL7RABRIDGE.",
+    "name": "AUTHORITY_BOUNDARY_RESOLUTION",
+    "phase": 3,
+    "source_modification": false
+  },
+  {
+    "action": "Separate evidence creation, verification and authority.",
+    "name": "PROOF_BOUNDARY_RESOLUTION",
+    "phase": 4,
+    "source_modification": false
+  },
+  {
+    "action": "Recover dependencies from actual manifests/imports/tests.",
+    "name": "DEPENDENCY_GRAPH_COMPLETION",
+    "phase": 5,
+    "source_modification": false
+  },
+  {
+    "action": "Only consolidate after regression baseline.",
+    "name": "REVERSIBLE_CONSOLIDATION",
+    "phase": 6,
+    "source_modification": true
+  },
+  {
+    "action": "Adversarially verify consolidated architecture.",
+    "name": "PURPLE_TEAM_REGRESSION",
+    "phase": 7,
+    "source_modification": true
+  },
+  {
+    "action": "Independent governance decision.",
+    "name": "PRODUCTION_REVIEW",
+    "phase": 8,
+    "source_modification": false
+  }
+]

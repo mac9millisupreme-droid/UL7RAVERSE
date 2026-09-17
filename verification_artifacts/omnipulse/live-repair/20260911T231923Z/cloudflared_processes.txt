@@ -1,0 +1,1 @@
+u0_a209  10890     1  1  2022 pts/0    00:01:28 cloudflared tunnel run ul7ra-verify

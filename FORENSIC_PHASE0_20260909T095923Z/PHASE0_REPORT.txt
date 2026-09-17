@@ -1,0 +1,52 @@
+==================================================
+UL7RAVERSE PHASE 0 FORENSIC BASELINE
+==================================================
+UTC: 2026-09-09T09:59:23Z
+REPOSITORY: /data/data/com.termux/files/home/UL7RAVERSE
+=== GIT ===
+HEAD: 63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+BRANCH: master
+WORKTREE: DIRTY
+=== RUNTIME ===
+=== DEPENDENCY MANIFESTS ===
+=== REPOSITORY TREE ===
+2082 /data/data/com.termux/files/home/UL7RAVERSE/FORENSIC_PHASE0_20260909T095923Z/REPOSITORY_TREE.txt
+=== ARCHITECTURE INVENTORY ===
+=== CAPABILITY SEARCH ===
+=== TEST DISCOVERY ===
+=== BASELINE TEST EXECUTION ===
+RACING_FULL = PASS
+AIL_DISCOVERED = FAIL_OR_BLOCKED (exit 2)
+DETERMINISM = FAIL_OR_BLOCKED (exit 2)
+REPLAY = FAIL_OR_BLOCKED (exit 2)
+TEMPORAL = FAIL_OR_BLOCKED (exit 2)
+PROVENANCE = FAIL_OR_BLOCKED (exit 2)
+ADVERSARIAL_PURPLE = FAIL_OR_BLOCKED (exit 2)
+=== TECHNICAL DEBT SEARCH ===
+Technical-debt matches: 1000
+=== SECURITY SEARCH ===
+Security-search matches: 97
+=== RECENT GIT HISTORY ===
+63c1d60 (HEAD -> master) UL7RAFORGE bootstrap
+2a2496b (origin/master, origin/HEAD) Add UL7RA Verify commercial product
+d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+=== DIFF ===
+=== MACHINE-READABLE BASELINE ===
+==================================================
+UL7RAVERSE PHASE 0 COMPLETE
+==================================================
+BASELINE: CAPTURED
+GIT HEAD: 63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+BRANCH: master
+FORENSIC DIRECTORY: /data/data/com.termux/files/home/UL7RAVERSE/FORENSIC_PHASE0_20260909T095923Z
+TEST SUMMARY:
+RACING_FULL = PASS
+AIL_DISCOVERED = FAIL_OR_BLOCKED (exit 2)
+DETERMINISM = FAIL_OR_BLOCKED (exit 2)
+REPLAY = FAIL_OR_BLOCKED (exit 2)
+TEMPORAL = FAIL_OR_BLOCKED (exit 2)
+PROVENANCE = FAIL_OR_BLOCKED (exit 2)
+ADVERSARIAL_PURPLE = FAIL_OR_BLOCKED (exit 2)
+IMPORTANT:
+No production code was intentionally modified by this script.
+Review the baseline before beginning Phase 1.

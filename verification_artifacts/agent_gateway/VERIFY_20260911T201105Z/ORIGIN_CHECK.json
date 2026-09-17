@@ -1,0 +1,14 @@
+{
+  "health": {
+    "http": 200,
+    "body": "{\n  \"ok\": true,\n  \"version\": \"99.0.0-lite\",\n  \"schemaVersion\": 99,\n  \"persistence\": \"atomic-json\"\n}"
+  },
+  "selftest": {
+    "http": 200,
+    "body": "{\n  \"passed\": true,\n  \"checks\": [\n    {\n      \"name\": \"self-authorization\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"constitutional-bypass\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"consequential-without-authority\",\n      \"passed\": true\n    }\n  ],\n  \"invariants\": [\n    \"NO_IDENTITY_NO_CAPABILITY\",\n    \"NO_CAPABILITY_WITHOUT_SCOPE\",\n    \"NO_CAPABILITY_AFTER_EXPIRY\",\n    \"NO_PROOF_NO_TRUSTED_ACTION\",\n    \"NO_AUTHORIZATION_NO_CONSEQUENTIAL_ACTION\",\n    \"NO_SELF_AUTHORIZATION\",\n    \"NO_SCOPE_ESCALATION\",\n    \"NO_LEASE_REUSE\",\n    \"NO_UNTRUSTED_INSTRUCTION_AS_POLICY\",\n    \"NO_CONSTITUTIONAL_SELF_MODIFICATION\",\n    \"PREDICTIONS_FREEZE_BEFORE_TRIAL\",\n    \"BLIND_EVALUATION_REQUIRED\",\n    \"OUTCOME_MUST_BE_VERIFIED\",\n    \"INCIDENTS_TRIGGER_CONTAINMENT\",\n    \"REGRESSION_BLOCKS_PROMOTION\",\n    \"NODE9_AND_BRIDGE_CANNOT_GRANT_AUTHORITY\"\n  ]\n}"
+  },
+  "integrity": {
+    "http": 200,
+    "body": "{\n  \"status\": \"VALID\",\n  \"events\": 2,\n  \"identities\": 1,\n  \"capabilities\": 1,\n  \"benchmarks\": 0,\n  \"trials\": 0,\n  \"incidents\": 0\n}"
+  }
+}

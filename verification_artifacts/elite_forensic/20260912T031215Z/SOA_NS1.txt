@@ -1,0 +1,23 @@
+
+; <<>> DiG 9.20.27 <<>> NS omnilucient.com @addyson.ns.cloudflare.com
+; (6 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44832
+;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;omnilucient.com.		IN	NS
+
+;; ANSWER SECTION:
+omnilucient.com.	86400	IN	NS	addyson.ns.cloudflare.com.
+omnilucient.com.	86400	IN	NS	rodrigo.ns.cloudflare.com.
+
+;; Query time: 40 msec
+;; SERVER: 2606:4700:50::a29f:2644#53(addyson.ns.cloudflare.com) (UDP)
+;; WHEN: Fri Sep 11 23:12:17 EDT 2026
+;; MSG SIZE  rcvd: 102
+

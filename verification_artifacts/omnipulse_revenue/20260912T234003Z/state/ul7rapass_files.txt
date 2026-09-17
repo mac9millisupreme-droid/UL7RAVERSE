@@ -1,0 +1,11 @@
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAPASS_ONE.py
+/data/data/com.termux/files/home/UL7RAVERSE/launch_ul7rapass_one_script.sh
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/omnipulse_revenue/20260912T234003Z/state/ul7rapass_files.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/EVIDENCE.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/PRODUCT.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/PURPLE_RESULTS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/SHA256SUMS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/STATUS.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/20260910T144312Z/TEST_RESULTS.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/E6_REVENUE_STATUS.md
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rapass/stripe_launch/20260911T170329Z/UL7RAPASS_CHECKOUT_SPEC.json

@@ -1,0 +1,1054 @@
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "============================================================"
+============================================================
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "UL7RAVERSE PHASE 0 — FORENSIC BASELINE"
+UL7RAVERSE PHASE 0 — FORENSIC BASELINE
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "============================================================"
+============================================================
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "UTC:        $UTC"
+UTC:        2026-09-09T10:02:56Z
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "REPOSITORY: $REPO"
+REPOSITORY: /data/data/com.termux/files/home/UL7RAVERSE
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m HEAD="$(git rev-parse HEAD)"
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m BRANCH="$(git branch --show-current)"
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m ROOT="$(git rev-parse --show-toplevel)"
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== GIT ==="
+=== GIT ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "ROOT:   $ROOT"
+ROOT:   /data/data/com.termux/files/home/UL7RAVERSE
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "HEAD:   $HEAD"
+HEAD:   63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "BRANCH: $BRANCH"
+BRANCH: master
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m git status --short > "$STATUS" || true
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m if [ -s "$STATUS" ]; then
+>     echo "WORKTREE: DIRTY"
+>     echo "--- DIRTY FILES ---"
+>     cat "$STATUS"
+> else
+>     echo "WORKTREE: CLEAN"
+> fi
+WORKTREE: DIRTY
+--- DIRTY FILES ---
+?? AIL_FINAL_VERIFICATION_REPORT.md
+?? FORENSIC_PHASE0_20260909T095923Z/
+?? FORENSIC_PHASE0_20260909T100256Z/
+?? FREEZE_VERIFIED_BASELINE.sh
+?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json
+?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json
+?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/
+?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/
+?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/
+?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/
+?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/
+?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/
+?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/
+?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/
+?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/
+?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/
+?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/
+?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/
+?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/
+?? products/ul7ra-verify/deploy/runtime/health_recovery.json
+?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/
+?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/
+?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/
+?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/
+?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json
+?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json
+?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json
+?? racing/
+?? racing_recon.sh
+?? racing_recon_test.txt
+?? ul7ra_uncertainty_repair.sh
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== RUNTIME ==="
+=== RUNTIME ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m python3 --version 2>&1 || true
+Python 3.14.6
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m pip --version 2>&1 || true
+pip 26.2.1 from /data/data/com.termux/files/usr/lib/python3.14/site-packages/pip (python 3.14)
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m node --version 2>&1 || true
+v24.18.0
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m npm --version 2>&1 || true
+11.19.1
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m rustc --version 2>&1 || true
+rustc 1.98.1 (48a229cea 2026-09-01) (built from a source tarball)
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m cargo --version 2>&1 || true
+cargo 1.98.1 (797e8a9bc 2026-08-05) (built from a source tarball)
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m python3 -m pytest --version 2>&1 || true
+pytest 9.1.1
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== REPOSITORY SIZE ==="
+=== REPOSITORY SIZE ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m find . \
+>     -type f \
+>     -not -path "./.git/*" \
+>     -not -path "*/node_modules/*" \
+>     -not -path "*/__pycache__/*" \
+>     | sort > "$TREE"
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "FILES: $(wc -l < "$TREE")"
+FILES: 2095
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== DEPENDENCY MANIFESTS ==="
+=== DEPENDENCY MANIFESTS ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m <n|package-lock\.json|Cargo\.toml|Cargo\.lock|go\.mod)$' \
+>     "$TREE" || true
+./UL7RAFORGE/v10/ul7rabridge/Cargo.lock
+./UL7RAFORGE/v10/ul7rabridge/Cargo.toml
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== ARCHITECTURE DIRECTORIES ==="
+=== ARCHITECTURE DIRECTORIES ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m find . -maxdepth 3 -type d \
+>     -not -path "./.git*" \
+>     -not -path "*/node_modules*" \
+>     -not -path "*/__pycache__*" \
+>     | sort | head -300
+.
+./.bob
+./.bob/rules
+./.bob/tasks
+./.pytest_cache
+./.pytest_cache/v
+./.pytest_cache/v/cache
+./.ul7ra
+./.ul7ra/4H_EXECUTION
+./.ul7ra/4H_EXECUTION/20260824T022557Z
+./.ul7ra/4H_EXECUTION/20260824T022633Z
+./.ul7ra/4H_EXECUTION/20260824T022857Z
+./.ul7ra/apex
+./.ul7ra/evidence
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097
+./.ul7ra/funnel
+./.ul7ra/funnel/bin
+./.ul7ra/funnel/evidence
+./.ul7ra/funnel/runs
+./.ul7ra/funnel/state
+./.ul7ra/protocol52
+./.ul7ra/protocol52/runs
+./.ul7ra/protocol52/state
+./.ul7ra/reports
+./.ul7ra/simulation
+./.ul7ra/simulation/adversarial
+./.ul7ra/simulation/aggregate
+./.ul7ra/simulation/evidence
+./.ul7ra/simulation/failures
+./.ul7ra/simulation/holdout
+./.ul7ra/simulation/logs
+./.ul7ra/simulation/projections
+./.ul7ra/simulation/raw
+./.ul7ra/state
+./FORENSIC_PHASE0_20260909T095923Z
+./FORENSIC_PHASE0_20260909T100256Z
+./UL7RAFORGE
+./UL7RAFORGE/agents
+./UL7RAFORGE/artifacts
+./UL7RAFORGE/assurance
+./UL7RAFORGE/assurance/evidence
+./UL7RAFORGE/assurance/verifier
+./UL7RAFORGE/coding_swarm
+./UL7RAFORGE/coding_swarm/artifacts
+./UL7RAFORGE/coding_swarm/logs
+./UL7RAFORGE/coding_swarm/queue
+./UL7RAFORGE/coding_swarm/reviews
+./UL7RAFORGE/coding_swarm/state
+./UL7RAFORGE/coding_swarm/workers
+./UL7RAFORGE/config
+./UL7RAFORGE/deployment
+./UL7RAFORGE/evidence
+./UL7RAFORGE/kernel
+./UL7RAFORGE/knowledge
+./UL7RAFORGE/logs
+./UL7RAFORGE/node9
+./UL7RAFORGE/node9/evidence
+./UL7RAFORGE/node9/experts
+./UL7RAFORGE/node9/shared
+./UL7RAFORGE/node9/state
+./UL7RAFORGE/observability
+./UL7RAFORGE/oracl3
+./UL7RAFORGE/oracl3/benchmarks
+./UL7RAFORGE/oracl3/evidence
+./UL7RAFORGE/oracl3/oracle
+./UL7RAFORGE/oracl3/policies
+./UL7RAFORGE/oracl3/state
+./UL7RAFORGE/oracl3/verifiers
+./UL7RAFORGE/orchestrator
+./UL7RAFORGE/policies
+./UL7RAFORGE/provenance
+./UL7RAFORGE/purple
+./UL7RAFORGE/sandbox
+./UL7RAFORGE/security
+./UL7RAFORGE/state
+./UL7RAFORGE/tests
+./UL7RAFORGE/trinity
+./UL7RAFORGE/trinity/build
+./UL7RAFORGE/trinity/evidence
+./UL7RAFORGE/trinity/learn
+./UL7RAFORGE/trinity/state
+./UL7RAFORGE/trinity/verify
+./UL7RAFORGE/ul7rastack
+./UL7RAFORGE/ul7rastack/live
+./UL7RAFORGE/ul7rastack/security
+./UL7RAFORGE/ul7rastack/verifier
+./UL7RAFORGE/v06
+./UL7RAFORGE/v06/evidence
+./UL7RAFORGE/v06/factory
+./UL7RAFORGE/v06/security
+./UL7RAFORGE/v06/state
+./UL7RAFORGE/v06/tests
+./UL7RAFORGE/v06/workers
+./UL7RAFORGE/v09
+./UL7RAFORGE/v09/coding_swarm
+./UL7RAFORGE/v09/evidence
+./UL7RAFORGE/v09/integration
+./UL7RAFORGE/v09/node9
+./UL7RAFORGE/v09/oracl3
+./UL7RAFORGE/v09/provenance
+./UL7RAFORGE/v09/purple
+./UL7RAFORGE/v09/rollback
+./UL7RAFORGE/v09/security
+./UL7RAFORGE/v09/state
+./UL7RAFORGE/v09/tests
+./UL7RAFORGE/v09/trinity
+./UL7RAFORGE/v10
+./UL7RAFORGE/v10/evidence
+./UL7RAFORGE/v10/tests
+./UL7RAFORGE/v10/ul7rabridge
+./UL7RAFORGE/v10/ul7rastack
+./UL7RAFORGE/v10/v10
+./UL7RAFORGE/verification
+./boot-recovery
+./evidence
+./evidence/quantum_storm
+./evidence/quantum_storm/20260823T040239Z
+./integration
+./lucideploy
+./lucideploy/adapters
+./lucideploy/cli
+./lucideploy/contracts
+./lucideploy/core
+./lucideploy/evidence
+./lucideploy/gates
+./lucideploy/state
+./lucideploy/tests
+./products
+./products/ul7ra-verify
+./products/ul7ra-verify/.pytest_cache
+./products/ul7ra-verify/app
+./products/ul7ra-verify/deploy
+./products/ul7ra-verify/docs
+./products/ul7ra-verify/evidence
+./products/ul7ra-verify/experiments
+./products/ul7ra-verify/governance
+./products/ul7ra-verify/scripts
+./products/ul7ra-verify/tests
+./racing
+./racing/.pytest_cache
+./racing/.pytest_cache/v
+./racing/accuracy_logs
+./racing/adversarial
+./racing/ail
+./racing/analysis
+./racing/backtest
+./racing/features
+./racing/final_logs
+./racing/governance
+./racing/ingestion
+./racing/normalization
+./racing/oracle_logs
+./racing/probability
+./racing/proof
+./racing/repair_logs
+./racing/repair_logs/baseline_freeze
+./racing/repair_logs/freeze_logs
+./racing/repair_logs/phase2_logs
+./racing/repair_logs/phase3_logs
+./racing/results
+./racing/schema
+./racing/tests
+./racing/validation
+./racing/value
+./v10
+./v10/ul7rastack
+./v10/ul7rastack/assurance
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== CAPABILITY MATRIX ==="
+=== CAPABILITY MATRIX ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m : > "$CAPS"
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability() {
+>     NAME="$1"
+>     PATTERN="$2"
+> 
+>     COUNT="$(grep -RilE "$PATTERN" . \
+>         --exclude-dir=.git \
+>         --exclude-dir=node_modules \
+>         --exclude-dir=__pycache__ \
+>         --exclude="PHASE0_REPORT.txt" \
+>         --exclude="PHASE0_BASELINE.json" \
+>         2>/dev/null | wc -l)"
+> 
+>     if [ "$COUNT" -gt 0 ]; then
+>         RESULT="IMPLEMENTED_OR_REFERENCED"
+>     else
+>         RESULT="MISSING_OR_NOT_FOUND"
+>     fi
+> 
+>     printf "%-25s %-28s files=%s\n" "$NAME" "$RESULT" "$COUNT" | tee -a "$CAPS"
+> }
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "RACING"             'race|racing|horse'
+RACING                    IMPLEMENTED_OR_REFERENCED    files=141
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "RACE_STATE"         'RaceState|race.?state'
+RACE_STATE                IMPLEMENTED_OR_REFERENCED    files=24
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "LATENT_ABILITY"     'latent.?ability|ability.?estimate'
+LATENT_ABILITY            IMPLEMENTED_OR_REFERENCED    files=19
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "PROBABILITY"        'probability|probabilities'
+PROBABILITY               IMPLEMENTED_OR_REFERENCED    files=34
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "CALIBRATION"        'calibrat'
+CALIBRATION               IMPLEMENTED_OR_REFERENCED    files=40
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "FAIR_ODDS"          'fair.?odds|fair.?price'
+FAIR_ODDS                 IMPLEMENTED_OR_REFERENCED    files=5
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "MARKET"             'market.?snapshot|market.?price|odds'
+MARKET                    IMPLEMENTED_OR_REFERENCED    files=39
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "EDGE"               '(^|[^a-z])edge([^a-z]|$)'
+EDGE                      IMPLEMENTED_OR_REFERENCED    files=89
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m <                 'expected.?value|(^|[^a-z])EV([^a-z]|$)'
+EV                        IMPLEMENTED_OR_REFERENCED    files=109
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "UNCERTAINTY"        'uncertainty'
+UNCERTAINTY               IMPLEMENTED_OR_REFERENCED    files=42
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "FRAGILITY"          'fragility'
+FRAGILITY                 IMPLEMENTED_OR_REFERENCED    files=6
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "PURPLE_TEAM"        'purple.?team|adversarial'
+PURPLE_TEAM               IMPLEMENTED_OR_REFERENCED    files=70
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "AIL"               '(^|[^a-z])AIL([^a-z]|$)'
+AIL                       IMPLEMENTED_OR_REFERENCED    files=60
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "VALUE_BOARD"        'value.?board|top.?20'
+VALUE_BOARD               IMPLEMENTED_OR_REFERENCED    files=5
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "BANKROLL"           'bankroll|stake|staking'
+BANKROLL                  IMPLEMENTED_OR_REFERENCED    files=12
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "PAPER_LEDGER"       'paper.?bet|paper.?ledger'
+PAPER_LEDGER              IMPLEMENTED_OR_REFERENCED    files=5
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "CLV"                '(^|[^a-z])CLV([^a-z]|$)'
+CLV                       IMPLEMENTED_OR_REFERENCED    files=8
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "OOS"                'out.?of.?sample|OOS'
+OOS                       IMPLEMENTED_OR_REFERENCED    files=29
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "PROVENANCE"         'provenance'
+PROVENANCE                IMPLEMENTED_OR_REFERENCED    files=141
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "TEMPORAL"           'temporal|timestamp'
+TEMPORAL                  IMPLEMENTED_OR_REFERENCED    files=608
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "EVIDENCE"            'evidence.?ledger|evidence'
+EVIDENCE                  IMPLEMENTED_OR_REFERENCED    files=784
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "REPLAY"             'replay'
+REPLAY                    IMPLEMENTED_OR_REFERENCED    files=46
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "LUCITEST"            'LUCITEST'
+LUCITEST                  IMPLEMENTED_OR_REFERENCED    files=5
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "LUCIDIAGNOSTIC"      'LUCIDIAGNOSTIC'
+LUCIDIAGNOSTIC            IMPLEMENTED_OR_REFERENCED    files=5
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "TRINITY"             'TRINITY|governance'
+TRINITY                   IMPLEMENTED_OR_REFERENCED    files=148
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "LEARNING"            'learning'
+LEARNING                  IMPLEMENTED_OR_REFERENCED    files=5
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "VERSIONING"          'version'
+VERSIONING                IMPLEMENTED_OR_REFERENCED    files=321
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "MIGRATION"           'migration'
+MIGRATION                 IMPLEMENTED_OR_REFERENCED    files=5
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "ROLLBACK"            'rollback'
+ROLLBACK                  IMPLEMENTED_OR_REFERENCED    files=48
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m <URITY"            'security|authentication|authorization'
+SECURITY                  IMPLEMENTED_OR_REFERENCED    files=234
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "OBSERVABILITY"        'observability|telemetry|health'
+OBSERVABILITY             IMPLEMENTED_OR_REFERENCED    files=107
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "SCHEMA"               'schema|pydantic|dataclass'
+SCHEMA                    IMPLEMENTED_OR_REFERENCED    files=97
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "PLUGIN_ADAPTER"       'adapter|plugin|provider'
+PLUGIN_ADAPTER            IMPLEMENTED_OR_REFERENCED    files=83
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m capability "DEPLOYMENT"           'deploy|docker|cloudflared|systemd'
+DEPLOYMENT                IMPLEMENTED_OR_REFERENCED    files=189
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== TEST DISCOVERY ==="
+=== TEST DISCOVERY ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m find . -type f \
+> <*_test.py" -o -name "*.spec.js" -o -name "*.test.js" \) \
+>     -not -path "./.git/*" \
+>     -not -path "*/node_modules/*" \
+>     -not -path "*/__pycache__/*" \
+>     | sort | tee "$OUT/TEST_FILES.txt"
+./UL7RAFORGE/v06/tests/test_v06.py
+./lucideploy/tests/test_integrity.py
+./lucideploy/tests/test_state.py
+./products/ul7ra-verify/tests/test_server.py
+./racing/tests/test_ail_adversarial.py
+./racing/tests/test_ail_decision.py
+./racing/tests/test_ail_invariants.py
+./racing/tests/test_ail_provenance.py
+./racing/tests/test_ail_replay.py
+./racing/tests/test_ail_shadow.py
+./racing/tests/test_ail_temporal.py
+./racing/tests/test_core.py
+./racing/tests/test_decision_composer.py
+./racing/tests/test_latent_ability.py
+./racing/tests/test_market_intelligence.py
+./racing/tests/test_phase2_adversarial.py
+./racing/tests/test_phase3_adversarial.py
+./racing/tests/test_phase3_evidence.py
+./racing/tests/test_probability_engine.py
+./racing/tests/test_race_state_reconstruction.py
+./racing/tests/test_uncertainty_propagation.py
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m : > "$TESTS"
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m run_test() {
+>     NAME="$1"
+>     shift
+> 
+>     echo
+>     echo "============================================================"
+>     echo "TEST: $NAME"
+>     echo "COMMAND: $*"
+>     echo "============================================================"
+> 
+>     "$@" >> "$TESTS" 2>&1
+>     RC=$?
+> 
+>     echo "EXIT_CODE: $RC" | tee -a "$TESTS"
+> 
+>     if [ "$RC" -eq 0 ]; then
+>         echo "$NAME: PASS"
+>     else
+>         echo "$NAME: FAIL_OR_BLOCKED"
+>     fi
+> }
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m if python3 -c "import pytest" >/dev/null 2>&1; then
+> 
+>     if [ -d "$REPO/racing/tests" ]; then
+>         run_test "RACING_FULL" \
+>             python3 -m pytest -q racing/tests -vv --tb=long
+>     else
+>         echo "RACING_FULL: NOT_PRESENT"
+>     fi
+> 
+>     if find . -type f -not -path "./.git/*" \
+> <ay|temporal|provenance|adversarial|purple|security'; then
+> 
+>         run_test "SPECIALIZED_DISCOVERY" \
+>             python3 -m pytest -q \
+> <ral or provenance or adversarial or purple or security" \
+>             --tb=long
+>     else
+>         echo "SPECIALIZED_TESTS: NOT_PRESENT"
+>     fi
+> 
+>     run_test "FULL_REPOSITORY" \
+>         python3 -m pytest -q --tb=short
+> 
+> else
+>     echo "PYTEST: ENVIRONMENT_BLOCKED"
+> fi
+
+============================================================
+TEST: RACING_FULL
+COMMAND: python3 -m pytest -q racing/tests -vv --tb=long
+============================================================
+EXIT_CODE: 0
+RACING_FULL: PASS
+
+============================================================
+TEST: SPECIALIZED_DISCOVERY
+COMMAND: python3 -m pytest -q -k ail or determin or replay or temporal or provenance or adversarial or purple or security --tb=long
+============================================================
+EXIT_CODE: 2
+SPECIALIZED_DISCOVERY: FAIL_OR_BLOCKED
+
+============================================================
+TEST: FULL_REPOSITORY
+COMMAND: python3 -m pytest -q --tb=short
+============================================================
+EXIT_CODE: 2
+FULL_REPOSITORY: FAIL_OR_BLOCKED
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== TECHNICAL DEBT ==="
+=== TECHNICAL DEBT ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m grep -RniE \
+>     'TODO|FIXME|NotImplemented|placeholder|stub|temporary|XXX|HACK' \
+>     . \
+>     --exclude-dir=.git \
+>     --exclude-dir=node_modules \
+>     --exclude-dir=__pycache__ \
+>     --exclude='PHASE0_REPORT.txt' \
+>     --exclude='PHASE0_BASELINE.json' \
+>     2>/dev/null \
+>     | head -1000 > "$DEBT" || true
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "Matches: $(wc -l < "$DEBT")"
+Matches: 151
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== SECURITY INDICATOR SCAN ==="
+=== SECURITY INDICATOR SCAN ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m grep -RniE \
+> <en|shell=True|eval\(|exec\(|pickle\.loads|yaml\.load\(' \
+>     . \
+>     --exclude-dir=.git \
+>     --exclude-dir=node_modules \
+>     --exclude-dir=__pycache__ \
+>     --exclude='PHASE0_REPORT.txt' \
+>     --exclude='PHASE0_BASELINE.json' \
+>     2>/dev/null \
+>     | head -1000 > "$SEC" || true
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "Indicator matches: $(wc -l < "$SEC")"
+Indicator matches: 1000
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== GIT HISTORY ==="
+=== GIT HISTORY ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m git log --oneline --decorate -30 | tee "$HIST"
+63c1d60 (HEAD -> master) UL7RAFORGE bootstrap
+2a2496b (origin/master, origin/HEAD) Add UL7RA Verify commercial product
+d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== RECENT COMMITS ==="
+=== RECENT COMMITS ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m git log -10 --format='%h | %ad | %s' --date=iso
+63c1d60 | 2026-09-04 23:44:41 -0400 | UL7RAFORGE bootstrap
+2a2496b | 2026-08-20 02:02:24 -0400 | Add UL7RA Verify commercial product
+d6eb879 | 2026-08-18 05:01:31 -0400 | UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== EXISTING ARTIFACTS ==="
+=== EXISTING ARTIFACTS ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m find . -maxdepth 3 -type f \
+> <" -o -name "*.yml" -o -name "*.md" -o -name "*.toml" \) \
+>     -not -path "./.git/*" \
+>     -not -path "*/node_modules/*" \
+>     | sort | head -300
+./.bob/project.json
+./.bob/rules/ul7ra-governance.md
+./.github/workflows/ul7ra-external-s9.yml
+./.pytest_cache/README.md
+./.ul7ra/apex/APEX_CONTRACT.md
+./.ul7ra/funnel/AUTHORITATIVE_STATE.json
+./.ul7ra/funnel/AUTHORITY_STATE.json
+./.ul7ra/funnel/STATE.json
+./.ul7ra/simulation/RECOVERY_STATE.json
+./AGENTS.md
+./AIL_FINAL_VERIFICATION_REPORT.md
+./FORENSIC_PHASE0_20260909T095923Z/PHASE0_BASELINE.json
+./UL7RAFORGE/config/factory.json
+./UL7RAFORGE/kernel/state.json
+./UL7RAFORGE/state/v06_promotion.json
+./integration/integration_state.json
+./lucideploy/contracts/CONTRACT.json
+./lucideploy/contracts/GATES.json
+./lucideploy/evidence/authority_map.json
+./lucideploy/evidence/final_gate.json
+./lucideploy/evidence/genesis_discovery.json
+./lucideploy/state/STATE.json
+./products/ul7ra-verify/PRODUCT_CONTRACT.json
+./products/ul7ra-verify/README.md
+./racing/.pytest_cache/README.md
+./racing/README.md
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "=== MACHINE-READABLE BASELINE ==="
+=== MACHINE-READABLE BASELINE ===
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m < "$STATUS" "$CAPS" "$TESTS" "$DEBT" "$SEC" "$HIST" <<'PY'
+> import json
+> import sys
+> from pathlib import Path
+> 
+> (
+>     output, repo, utc, head, branch, root,
+>     tree, status, caps, tests, debt, security, history
+> ) = sys.argv[1:]
+> 
+> def read(path):
+>     try:
+>         return Path(path).read_text(errors="replace")
+>     except Exception as e:
+>         return f"READ_ERROR: {e}"
+> 
+> payload = {
+>     "schema": "UL7RAVERSE-PHASE0-v2",
+>     "timestamp_utc": utc,
+>     "repository": repo,
+>     "git": {
+>         "root": root,
+>         "head": head,
+>         "branch": branch,
+>         "status": read(status).splitlines(),
+>     },
+>     "repository_tree": read(tree).splitlines(),
+>     "capability_matrix": read(caps).splitlines(),
+>     "test_results": read(tests),
+>     "technical_debt": read(debt).splitlines(),
+>     "security_indicators": read(security).splitlines(),
+>     "git_history": read(history).splitlines(),
+>     "verification_policy": {
+>         "source_presence_is_not_verification": True,
+>         "missing_evidence_must_not_be_fabricated": True,
+>         "baseline_failures_must_not_be_silently_fixed": True,
+>     },
+> }
+> 
+> Path(output).write_text(
+>     json.dumps(payload, indent=2, sort_keys=True) + "\n"
+> )
+> PY
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "============================================================"
+============================================================
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "UL7RAVERSE PHASE 0 COMPLETE"
+UL7RAVERSE PHASE 0 COMPLETE
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "============================================================"
+============================================================
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "BASELINE: CAPTURED"
+BASELINE: CAPTURED
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "REPOSITORY: $ROOT"
+REPOSITORY: /data/data/com.termux/files/home/UL7RAVERSE
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "HEAD: $HEAD"
+HEAD: 63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "BRANCH: $BRANCH"
+BRANCH: master
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "WORKTREE: $([ -s "$STATUS" ] && echo DIRTY || echo CLEAN)"
+WORKTREE: DIRTY
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "FORENSIC ARTIFACT:"
+FORENSIC ARTIFACT:
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "$OUT"
+/data/data/com.termux/files/home/UL7RAVERSE/FORENSIC_PHASE0_20260909T100256Z
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "REPORT:"
+REPORT:
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "$REPORT"
+/data/data/com.termux/files/home/UL7RAVERSE/FORENSIC_PHASE0_20260909T100256Z/PHASE0_REPORT.txt
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "BASELINE JSON:"
+BASELINE JSON:
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "$BASELINE"
+/data/data/com.termux/files/home/UL7RAVERSE/FORENSIC_PHASE0_20260909T100256Z/PHASE0_BASELINE.json
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo
+
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "============================================================"
+============================================================
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "NO PRODUCTION CODE WAS MODIFIED"
+NO PRODUCTION CODE WAS MODIFIED
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "PHASE 1 NOT STARTED"
+PHASE 1 NOT STARTED
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "============================================================"                                                                                       [0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "============================================================"                                                                                       [0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "============================================================"
+============================================================
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m - chmod +x UL7RA_AUTONOMOUS.sh && ./UL7RA_AUTONOMOUS.sh
+chmod: cannot access 'UL7RA_AUTONOMOUS.sh': No such file or directory
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m                                                                                        [0;32m~/UL7RAVERSE[0m [0;97m$[0m                                                                                        [0;32m~/UL7RAVERSE[0m [0;97m$[0m cd ~/UL7RAVERSE
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m nano phase0.sh
+[?2004lStandard output is not a terminal
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m                                                                                        [0;32m~/UL7RAVERSE[0m [0;97m$[0m                                                                                        [0;32m~/UL7RAVERSE[0m [0;97m$[0m |                                                                                       [0;32m~/UL7RAVERSE[0m [0;97m$[0m |                                                                                       [0;32m~/UL7RAVERSE[0m [0;97m$[0m |cd ~/UL7RAVERSE && cat > UL7RA_AUTONOMOUS.sh <<'UL7RA_SCRIPT'
+bash: syntax error near unexpected token `|'
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m #!/data/data/com.termux/files/usr/bin/bash
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m set -Eeuo pipefail
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m REPO="$HOME/UL7RAVERSE"
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m cd "$REPO" || exit 1
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m TS="$(date -u +%Y%m%dT%H%M%SZ)"
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m RUN="$REPO/.ul7ra_autonomous/RUN_$TS"
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m mkdir -p "$RUN"/{logs,artifacts,checkpoints,failures}
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m exec > >(tee -a "$RUN/logs/autonomous.log") 2>&1
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "============================================================"
+============================================================
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo " UL7RAVERSE AUTONOMOUS CONTINUOUS UPGRADE"
+ UL7RAVERSE AUTONOMOUS CONTINUOUS UPGRADE
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "============================================================"
+============================================================
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "UTC: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+UTC: 2026-09-09T10:07:48Z
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "REPO: $REPO"
+REPO: /data/data/com.termux/files/home/UL7RAVERSE
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m HEAD="$(git rev-parse HEAD)"
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m git status --short > "$RUN/PREEXISTING_STATUS.txt" || true
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "HEAD: $HEAD"
+HEAD: 63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m echo "PRE-EXISTING CHANGES:"
+PRE-EXISTING CHANGES:
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m cat "$RUN/PREEXISTING_STATUS.txt"
+?? .ul7ra_autonomous/
+?? AIL_FINAL_VERIFICATION_REPORT.md
+?? FORENSIC_PHASE0_20260909T095923Z/
+?? FORENSIC_PHASE0_20260909T100256Z/
+?? FREEZE_VERIFIED_BASELINE.sh
+?? products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json
+?? products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json
+?? products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/
+?? products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/
+?? products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/
+?? products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/
+?? products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/
+?? products/ul7ra-verify/deploy/runtime/commercial_audit_20260909T021625Z/
+?? products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/
+?? products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/
+?? products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/
+?? products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/
+?? products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/
+?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/
+?? products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/
+?? products/ul7ra-verify/deploy/runtime/health_recovery.json
+?? products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/
+?? products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/
+?? products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/
+?? products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/
+?? products/ul7ra-verify/deploy/runtime/repaired_baseline_20260909_092249.json
+?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085302.json
+?? products/ul7ra-verify/deploy/runtime/verified_baseline_20260909_085702.json
+?? racing/
+?? racing_recon.sh
+?? racing_recon_test.txt
+?? ul7ra_uncertainty_repair.sh
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m cat > "$RUN/MASTER_SPEC.md" <<'SPEC'
+> # UL7RAVERSE CONTINUOUS PRODUCTION ENGINE
+> 
+> Operate as a senior autonomous software engineering system.
+> 
+> MISSION:
+> Continuously upgrade the existing UL7RAVERSE repository while preserving
+> correctness, provenance, temporal integrity, deterministic replay,
+> security, governance, and backward compatibility.
+> 
+> MANDATORY LOOP:
+> 
+> INSPECT
+> → BASELINE
+> → IDENTIFY HIGHEST-VALUE GAP
+> → DEFINE INVARIANTS
+> → IMPLEMENT
+> → TEST
+> → ADVERSARIAL TEST
+> → REPLAY
+> → TEMPORAL VERIFY
+> → PROVENANCE VERIFY
+> → SECURITY VERIFY
+> → LUCITEST
+> → AIL
+> → TRINITY
+> → PROMOTE
+> → DOCUMENT
+> → CHECKPOINT
+> → NEXT UPGRADE
+> 
+> RULES:
+> 
+> 1. Inspect existing code before changing it.
+> 2. Preserve working functionality.
+> 3. Never fabricate evidence.
+> 4. Never fabricate live data.
+> 5. Never fabricate odds, prices, timestamps, provenance, calibration,
+>    profitability, race outcomes, provider status, or execution status.
+> 6. UNKNOWN stays UNKNOWN.
+> 7. Missing evidence stays missing.
+> 8. Do not claim CALIBRATED without qualifying out-of-sample evidence.
+> 9. Do not claim profitability without qualifying out-of-sample evidence.
+> 10. Never allow a component to certify itself.
+> 11. Never weaken tests to obtain PASS.
+> 12. Never delete tests to hide failures.
+> 13. Never disable security controls to obtain PASS.
+> 14. Never use git reset --hard.
+> 15. Never use git clean -fd.
+> 16. Never intentionally overwrite pre-existing user changes.
+> 17. Preserve deterministic serialization and replay.
+> 18. Preserve temporal ordering and leakage prevention.
+> 19. Preserve provenance and evidence lineage.
+> 20. Every material change requires tests.
+> 21. Every economic capability requires adversarial tests.
+> 22. Failed verification blocks promotion.
+> 23. A diagnostic may explain failure but may not override governance.
+> 24. Do not build fake integrations merely to make architecture appear complete.
+> 
+> ARCHITECTURE:
+> 
+> REAL WORLD
+> → RAW EVIDENCE
+> → IDENTITY RESOLUTION
+> → PROVENANCE
+> → TEMPORAL SNAPSHOT
+> → STATE RECONSTRUCTION
+> → DOMAIN INTELLIGENCE
+> → LATENT ABILITY
+> → PROBABILITY
+> → CALIBRATION
+> → UNCERTAINTY
+> → FAIR PRICE
+> → VERIFIED MARKET PRICE
+> → EDGE
+> → EV
+> → FRAGILITY
+> → PURPLE TEAM
+> → AIL
+> → LUCITEST
+> → TRINITY
+> → DECISION
+> → PAPER LEDGER
+> → CLV
+> → OOS EVIDENCE
+> → LUCIDIAGNOSTIC
+> → LEARNING
+> → GOVERNED RE-VERIFICATION
+> 
+> CORE:
+> 
+> Evidence Ledger
+> Provenance
+> Identity Resolution
+> Temporal Integrity
+> State Reconstruction
+> Deterministic Serialization
+> Hashing
+> Replay
+> Versioning
+> Migration
+> Rollback
+> Schema Validation
+> Security
+> Observability
+> Provider/Market Adapters
+> Governance
+> 
+> RACING:
+> 
+> Race State
+> Latent Ability
+> Pace
+> Trip
+> Form
+> Class
+> Track
+> Surface
+> Distance
+> Weather
+> Workouts
+> Trainer
+> Jockey
+> Pedigree
+> Scratch State
+> Market
+> 
+> ECONOMIC LAYER:
+> 
+> CALIBRATED PROBABILITY
+> → FAIR PROBABILITY
+> → FAIR ODDS
+> → VERIFIED PRICE
+> → EDGE
+> → EV
+> → UNCERTAINTY
+> → FRAGILITY
+> → RISK POLICY
+> 
+> If calibration is invalid:
+> fair_probability = null
+> fair_odds = null
+> status = UNCALIBRATED
+> 
+> No probability boosting.
+> No confidence inflation.
+> No fake market normalization.
+> No invented price.
+> 
+> MARKET:
+> 
+> Every quote must distinguish:
+> 
+> OBSERVED
+> VERIFIED
+> EXECUTABLE
+> 
+> Unknown execution conditions mean EXECUTION_UNKNOWN.
+> 
+> PURPLE TEAM ATTACKS:
+> 
+> Probability
+> Fair Odds
+> Market Price
+> Staleness
+> Provenance
+> Identity
+> Timestamps
+> Edge
+> EV
+> Uncertainty
+> Fragility
+> Execution
+> CLV
+> Calibration
+> Distribution Shift
+> Replay
+> 
+> Outputs:
+> 
+> PASS
+> WARN
+> VETO
+> NEEDS_REVIEW
+> 
+> AIL:
+> 
+> Known integrity violation → BLOCKED
+> Missing required information → INSUFFICIENT_DATA
+> Uncharacterized uncertainty → UNKNOWN
+> Material disagreement → NEEDS_REVIEW
+> Validation ineligible → NO_BET
+> Integrity valid → WATCH/VALUE_CANDIDATE
+> 
+> AIL must never manufacture opportunity.
+> 
+> TOP 20:
+> 
+> Only show valid, verified, risk-adjusted opportunities.
+> If fewer than 20 exist, show fewer.
+> 
+> BANKROLL:
+> 
+> Policy-based, capped, uncertainty-aware.
+> No unrestricted Kelly.
+> Increasing uncertainty or fragility must never increase stake.
+> 
+> PAPER LEDGER:
+> 
+> Immutable historical decisions.
+> Corrections become new versions/events.
+> 
+> CALIBRATION:
+> 
+> Temporal train/test separation.
+> Out-of-sample only.
+> Track Brier, log loss, calibration error, reliability and sample size.
+> Insufficient evidence means NOT_CALIBRATED.
+> 
+> LUCITEST:
+> 
+> Independent verification of:
+> evidence
+> provenance
+> temporal integrity
+> probabilities
+> market integrity
+> replay
+> invariants
+> security
+> 
+> LUCIDIAGNOSTIC:
+> 
+> Diagnose:
+> data quality
+> state reconstruction
+> model
+> calibration
+> market
+> execution
+> drift
+> distribution shift
+> infrastructure
+> randomness
+> 
+> It cannot override LUCITEST, AIL or Trinity.
+> 
+> PRIORITY:
+> 
+> P0 correctness/security/replay/provenance/temporal integrity
+> P1 state/probability/uncertainty/calibration/fair odds
+> P2 market/edge/EV/fragility/Purple/AIL
+> P3 paper ledger/CLV/OOS/learning
+> P4 value board/automation/observability/deployment
+> P5 additional domains
+> 
+> DEFINITION OF DONE:
+> 
+> Code alone is NOT complete.
+> 
+> Complete =
+> implementation
+> + tests
+> + adversarial coverage
+> + deterministic behavior
+> + temporal correctness
+> + provenance
+> + documentation
+> + integration
+> + verification
+> + governed promotion.
+> 
+> CONTINUOUS MODE:
+> 
+> Do not merely write a plan.
+> 
+> Actually inspect, implement, test and verify the highest-value safe upgrade.
+> After a successful upgrade, immediately identify the next one.
+> 
+> Stop only when:
+> - no safe high-value upgrade remains,
+> - environment blocks progress,
+> - governance blocks promotion,
+> - or a genuine unresolved engineering failure requires review.
+> 
+> FINAL REPORT:
+> 
+> ITERATION
+> CAPABILITY
+> FILES_CHANGED
+> TESTS
+> ADVERSARIAL_TESTS
+> REPLAY
+> TEMPORAL
+> PROVENANCE
+> SECURITY
+> AIL
+> PURPLE
+> TRINITY
+> PROMOTION
+> REMAINING_RISK
+> NEXT_UPGRADE
+> SPEC
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m 
+[0;32m~/UL7RAVERSE[0m [0;97m$[0m PROMPT:
+PROMPT:: command not found

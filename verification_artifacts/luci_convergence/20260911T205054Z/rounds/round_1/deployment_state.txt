@@ -1,0 +1,33 @@
+=== ORIGIN ===
+
+ORIGIN_HEALTH=FAIL
+
+=== CLOUDFLARE TUNNEL ===
+You can obtain more detailed information for each tunnel with `cloudflared tunnel info <name/uuid>`
+ID                                   NAME         CREATED              CONNECTIONS 
+a241e27b-336e-44cc-9a52-6487131db63b ul7ra-verify 2026-08-22T04:43:31Z             
+
+Your tunnel a241e27b-336e-44cc-9a52-6487131db63b does not have any active connection.
+
+=== AUTHORITATIVE DNS ===
+--- resolver=1.1.1.1
+Server:		1.1.1.1
+Address:	1.1.1.1#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+
+--- resolver=8.8.8.8
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+
+--- resolver=9.9.9.9
+Server:		9.9.9.9
+Address:	9.9.9.9#53
+
+** server can't find verify.omnilucient.com: NXDOMAIN
+
+
+=== HTTPS ===
+curl: (6) Could not resolve host: verify.omnilucient.com

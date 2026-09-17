@@ -1,0 +1,1000 @@
+./UL7RAFORGE/v10/ul7rastack/assurance/production_gate.py:36:        pass
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:12:BASELINE_HASH_MUST_NOT_CHANGE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:18:LINEAGE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:23:HYPER_QUANTUM=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:44:BASELINE_INVARIANT=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:45:LINEAGE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:46:HYPER_QUANTUM=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:4:STATE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:6:BASELINE_HASH_MUST_NOT_CHANGE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:12:BUILD=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:14:TEST=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:18:REPRODUCIBILITY=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:43:BUILD=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:44:TEST=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:46:REPRODUCIBILITY=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:54:STATE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:56:BASELINE_HASH_MUST_NOT_CHANGE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:62:BUILD=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:64:TEST=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:68:REPRODUCIBILITY=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:93:BUILD=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:94:TEST=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:96:REPRODUCIBILITY=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:16:COMPILE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:18:ECHOLESS=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:22:REPRODUCIBILITY=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:23:HYPER_QUANTUM=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:30:COMPILE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:32:ECHOLESS=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:49:COMPILE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:51:ECHOLESS=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:68:COMPILE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:69:ASSURANCE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:70:ECHOLESS=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:87:COMPILE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:88:ASSURANCE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:89:ECHOLESS=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:106:COMPILE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:107:ASSURANCE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:108:ECHOLESS=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:125:COMPILE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:126:ASSURANCE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:127:ECHOLESS=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:144:COMPILE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:145:ASSURANCE=PASS
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:146:ECHOLESS=PASS
+./UL7RAFORGE/assurance/verifier/independent/reconcile_s9.sh:344:    and purple_shape_pass
+./products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification-check.txt:1:LOCAL_VERIFY=PASS
+./products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification-check.txt:1:LOCAL_VERIFY=PASS
+./products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-proof.txt:1:LOCAL_VERIFY=PASS
+./products/ul7ra-verify/evidence/execution/controller.log:12:[2026-08-23T03:59:29Z] LOCAL FUNCTIONAL=PASS
+./products/ul7ra-verify/evidence/execution/controller.log:13:[2026-08-23T03:59:29Z] LOCAL INTEGRITY=PASS
+./products/ul7ra-verify/deploy/start_tunnel.sh:6:echo "Starting Cloudflare temporary tunnel"
+./products/ul7ra-verify/deploy/runtime/closed_loop.log:19:TESTS=PASS
+./products/ul7ra-verify/deploy/runtime/closed_loop.log:27:PRODUCT_TEST=PASS
+./products/ul7ra-verify/deploy/runtime/closed_loop.log:100:LUCIDEPLOY_TESTS=PASS
+./products/ul7ra-verify/deploy/runtime/closed_loop.log:101:PRODUCT_VERIFICATION=PASS
+./products/ul7ra-verify/deploy/runtime/closed_loop.log:102:LOCAL_HEALTH=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log:4:2026-08-22T02:44:24-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log:5:2026-08-22T02:44:26-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log:7:2026-08-22T02:44:37-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:5:2026-08-22T04:23:25-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:6:2026-08-22T04:23:27-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:7:2026-08-22T04:23:29-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:19:2026-08-22T04:24:25-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:20:2026-08-22T04:24:26-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:21:2026-08-22T04:24:29-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:33:2026-08-22T04:25:25-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:34:2026-08-22T04:25:27-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:38:2026-08-22T04:25:52-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:39:2026-08-22T04:25:53-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:40:2026-08-22T04:25:56-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:52:2026-08-22T04:26:51-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:53:2026-08-22T04:26:52-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:54:2026-08-22T04:26:56-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:66:2026-08-22T04:27:53-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:67:2026-08-22T04:27:55-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:68:2026-08-22T04:27:59-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:80:2026-08-22T04:28:56-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:81:2026-08-22T04:28:58-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:82:2026-08-22T04:29:02-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:94:2026-08-22T04:30:00-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:95:2026-08-22T04:30:02-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:96:2026-08-22T04:30:04-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:108:2026-08-22T04:30:54-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:109:2026-08-22T04:30:55-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:110:2026-08-22T04:30:57-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:122:2026-08-22T04:31:45-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:123:2026-08-22T04:31:46-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:124:2026-08-22T04:31:48-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:136:2026-08-22T04:32:40-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:137:2026-08-22T04:32:42-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:138:2026-08-22T04:32:44-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:150:2026-08-22T04:33:41-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:151:2026-08-22T04:33:42-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:152:2026-08-22T04:33:44-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:164:2026-08-22T04:34:36-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:165:2026-08-22T04:34:38-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:166:2026-08-22T04:34:47-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:178:2026-08-22T04:35:46-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:179:2026-08-22T04:35:48-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:180:2026-08-22T04:35:50-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:192:2026-08-22T04:36:47-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:193:2026-08-22T04:36:48-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:194:2026-08-22T04:36:54-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:206:2026-08-22T04:37:51-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:207:2026-08-22T04:37:52-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:208:2026-08-22T04:37:54-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop.log:3:2026-08-22T02:44:24-04:00 ORIGIN=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop.log:4:2026-08-22T02:44:26-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/multiloop.log:6:2026-08-22T02:44:37-04:00 CONNECTOR=PASS
+./products/ul7ra-verify/deploy/runtime/ul7ra-start.log:6:2026-08-22T04:26:41-04:00 ORIGIN_IDENTITY=PASS
+./products/ul7ra-verify/deploy/runtime/ul7ra-start.log:8:2026-08-22T04:26:43-04:00 CONFIG=PASS
+./products/ul7ra-verify/deploy/runtime/ul7ra-start.log:9:2026-08-22T04:26:43-04:00 INGRESS_HOSTNAMES=PASS
+./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server.txt:1:TESTS=PASS
+./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:4:SERVER_HEALTH=PASS
+./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:5:ROOT_ENDPOINT=PASS
+./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:6:VERIFY_ENDPOINT=PASS
+./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:7:CANONICAL_PRODUCT_TEST=PASS
+./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:16:APEX_GATE=PASS
+./products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/APEX_PUBLIC_DECISION.txt:4:LOCAL_HEALTH=PASS
+./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log:18:}LOCAL_HEALTH=PASS
+./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log:119:SOURCE_INTEGRITY=PASS
+./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log:135:LOCAL_HEALTH=PASS
+./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log:144:SOURCE_INTEGRITY=PASS
+./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt:4:LOCAL_HEALTH=PASS
+./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt:13:SOURCE_INTEGRITY=PASS
+./products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/full.log:39:LOCAL_HEALTH=PASS
+./products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/full.log:49:LOCAL_HEALTH=PASS
+./products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/APEX_PUBLIC_DECISION.txt:7:LOCAL_HEALTH=PASS
+./products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json:15:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json:16:  "DISTRIBUTION": "IMPLEMENTED_PLACEHOLDER",
+./products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json:16:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json:17:  "DISTRIBUTION": "IMPLEMENTED_PLACEHOLDER",
+./lucideploy/tests/test_state.py:30:        pass
+./lucideploy/tests/test_integrity.py:10:    with tempfile.TemporaryDirectory() as d:
+./lucideploy/tests/test_integrity.py:17:    with tempfile.TemporaryDirectory() as d:
+./lucideploy/run_final_gate.sh:53:    APEX_INTEGRITY=PASS
+./lucideploy/run_final_gate.sh:70:TEST_RESULT=PASS
+./lucideploy/run_final_gate.sh:71:LUCIDEPLOY_TESTS=PASS
+./lucideploy/run_final_gate.sh:90:TRINITY_RESULT=PASS
+./lucideploy/run_final_gate.sh:112:PRODUCT_RESULT=PASS
+./lucideploy/run_final_gate.sh:153:        LOCAL_HEALTH=PASS
+./lucideploy/run_final_gate.sh:176:                PUBLIC_HTTP=PASS
+./lucideploy/run_final_gate.sh:195:    CLOUDFLARE=PASS
+./evidence/quantum_storm/20260823T040239Z/environment:1:PASS
+./evidence/quantum_storm/20260823T040239Z/discovery:1:PASS
+./evidence/quantum_storm/20260823T040239Z/static:1:PASS
+./evidence/quantum_storm/20260823T040239Z/test_discovery:1:PASS
+./evidence/quantum_storm/20260823T040239Z/health.result:1:PASS
+./evidence/quantum_storm/20260823T040239Z/origin:1:PASS
+./evidence/quantum_storm/20260823T040239Z/integrity:1:PASS
+./evidence/quantum_storm/20260823T040239Z/functional:1:PASS
+./evidence/quantum_storm/20260823T040239Z/tunnel_process:1:PASS
+./.ul7ra/funnel/runs/20260823T042104Z/evidence/product/VERIFY_PRODUCT.log:2:TESTS=PASS
+./.ul7ra/funnel/runs/20260823T042104Z/evidence/product/VERIFY_PRODUCT.log:10:PRODUCT_TEST=PASS
+./.ul7ra/funnel/runs/20260823T043855Z/evidence/PRODUCT.log:2:TESTS=PASS
+./.ul7ra/funnel/runs/20260823T043855Z/evidence/PRODUCT.log:10:PRODUCT_TEST=PASS
+./.ul7ra/funnel/runs/20260823T044008Z/evidence/PRODUCT.log:2:TESTS=PASS
+./.ul7ra/funnel/runs/20260823T044008Z/evidence/PRODUCT.log:10:PRODUCT_TEST=PASS
+./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:755:    APEX_INTEGRITY=PASS
+./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:772:TEST_RESULT=PASS
+./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:773:LUCIDEPLOY_TESTS=PASS
+./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:792:TRINITY_RESULT=PASS
+./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:814:PRODUCT_RESULT=PASS
+./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:855:        LOCAL_HEALTH=PASS
+./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:878:                PUBLIC_HTTP=PASS
+./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:897:    CLOUDFLARE=PASS
+./.ul7ra/funnel/runs/capability-20260823T170726Z/evidence/key_lifecycle_capability.txt:1:generation=PASS
+./.ul7ra/funnel/runs/capability-20260823T170726Z/evidence/key_lifecycle_capability.txt:4:rotation= PASS
+./.ul7ra/funnel/runs/execution-20260823T172237Z/execution.log:16:SUBSTRATE_COMPILE=PASS
+./.ul7ra/funnel/runs/execution-20260823T172237Z/execution.log:26:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/execution-20260823T172237Z/execution.log:31:EVIDENCE_HASHING=PASS
+./.ul7ra/funnel/runs/elite-20260823T173321Z/execution.log:13:COMPILE=PASS
+./.ul7ra/funnel/runs/elite-20260823T173321Z/execution.log:96:HASHING=PASS
+./.ul7ra/funnel/runs/persistent-20260823T173654Z-1/fail_closed.txt:1:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/persistent-20260823T173703Z-2/fail_closed.txt:1:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/persistent-20260823T173711Z-3/fail_closed.txt:1:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/persistent-20260823T173720Z-4/fail_closed.txt:1:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/persistent-20260823T173729Z-5/fail_closed.txt:1:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/persistent-20260823T173738Z-6/fail_closed.txt:1:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/persistent-20260823T173747Z-7/fail_closed.txt:1:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/persistent-20260823T173756Z-8/fail_closed.txt:1:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/persistent-20260823T173805Z-9/fail_closed.txt:1:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/diagnostic-20260823T174810Z/diagnostic.log:8:ENVIRONMENT=PASS
+./.ul7ra/funnel/runs/diagnostic-20260823T174810Z/diagnostic.log:11:PATH_CONTRACT=PASS
+./.ul7ra/funnel/runs/diagnostic-20260823T174810Z/diagnostic.log:51:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/diagnostic-20260823T174838Z/diagnostic.log:8:ENVIRONMENT=PASS
+./.ul7ra/funnel/runs/diagnostic-20260823T174838Z/diagnostic.log:11:PATH_CONTRACT=PASS
+./.ul7ra/funnel/runs/diagnostic-20260823T174838Z/diagnostic.log:51:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/diagnostic-20260823T174912Z/diagnostic.log:55:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/remediation.log:9:FREEZE=PASS
+./.ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/remediation.log:254:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/health-20260823T191246Z/evidence/authority.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/continuous.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/green-regression-20260823T191440Z/evidence/pass1.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/green-regression-20260823T191440Z/evidence/pass2.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/green-regression-20260823T191440Z/evidence/pass3.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/diagnostic.log:11:COMPILE=PASS
+./.ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/diagnostic.log:101:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/diagnostic.log:143:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/authority.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-1.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-2.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-3.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-4.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-5.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-1.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-2.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-3.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-4.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-5.log:63:FAIL_CLOSED=PASS
+./.ul7ra/funnel/bin/authority_reconcile_test:72:            pass
+./.ul7ra/funnel/persistent_supervisor.log:80:FAIL_CLOSED=PASS
+./.ul7ra/funnel/persistent_supervisor.log:156:FAIL_CLOSED=PASS
+./.ul7ra/funnel/persistent_supervisor.log:232:FAIL_CLOSED=PASS
+./.ul7ra/funnel/persistent_supervisor.log:308:FAIL_CLOSED=PASS
+./.ul7ra/funnel/persistent_supervisor.log:384:FAIL_CLOSED=PASS
+./.ul7ra/funnel/persistent_supervisor.log:460:FAIL_CLOSED=PASS
+./.ul7ra/funnel/persistent_supervisor.log:536:FAIL_CLOSED=PASS
+./.ul7ra/funnel/persistent_supervisor.log:612:FAIL_CLOSED=PASS
+./.ul7ra/funnel/persistent_supervisor.log:688:FAIL_CLOSED=PASS
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:667:d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:677:d6eb879 HEAD@{1}: commit (initial): UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:4051:d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_recent_log.txt:2:d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_reflog.txt:2:d6eb879 HEAD@{1}: commit (initial): UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./.gitignore:26:# Temporary files
+./AGENTS.md:40:- regression tests pass
+./AGENTS.md:41:- security checks pass
+./racing/tests/test_race_state_reconstruction.py:42:    snap.validate_temporal()  # should pass
+./racing/oracle_logs/status_20260908_231657.txt:1:HARD_RULE_NO_FABRICATED_DATA: PASS
+./racing/oracle_logs/status_20260908_231657.txt:2:HARD_RULE_NO_LOOKAHEAD: PASS
+./racing/oracle_logs/status_20260908_231657.txt:3:HARD_RULE_NO_REAL_MONEY: PASS
+./racing/oracle_logs/status_20260908_231657.txt:4:HARD_RULE_NO_PRODUCTION_UNLOCK: PASS
+./racing/oracle_logs/oracle_20260908_231657.log:132:HARD_RULE_NO_FABRICATED_DATA: PASS
+./racing/oracle_logs/oracle_20260908_231657.log:133:HARD_RULE_NO_LOOKAHEAD: PASS
+./racing/oracle_logs/oracle_20260908_231657.log:134:HARD_RULE_NO_REAL_MONEY: PASS
+./racing/oracle_logs/oracle_20260908_231657.log:135:HARD_RULE_NO_PRODUCTION_UNLOCK: PASS
+./racing/repair_logs/tests_tracker.txt:8:REPLAY: PASS
+./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:1:BASELINE_PRE: PASS
+./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:2:PHASE2_TARGETED: PASS
+./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:3:RACING_FULL: PASS
+./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:4:AIL_SUITE: PASS
+./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:5:DETERMINISM: PASS
+./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:1:BASELINE_PRE: PASS
+./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:2:PHASE3_TARGETED: PASS
+./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:3:RACING_FULL: PASS
+./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:4:AIL_SUITE: PASS
+./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:5:DETERMINISM: PASS
+./racing/phase3_evidence.py:17:    pass
+./racing/final_logs/status_20260909_051506.txt:3:AIL_REGRESSION: PASS
+./racing/probability_engine.py:9:    pass
+./AIL_FINAL_VERIFICATION_REPORT.md:42:PASS
+./FORENSIC_PHASE0_20260909T095923Z/PHASE0_REPORT.txt:18:RACING_FULL = PASS
+./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:110:./products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json:15:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:111:./products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json:16:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:194:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:110:./products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json:15:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:195:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:111:./products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json:16:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:994:./lucideploy/run_final_gate.sh:90:TRINITY_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:1129:./racing/tests/test_race_state_reconstruction.py:42:    snap.validate_temporal()  # should pass
+./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:1271:./racing/repair_logs/tests_tracker.txt:8:REPLAY: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:109:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:532:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:598:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:1021:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:1087:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:1510:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:1576:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:1999:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:2065:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:2488:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:2554:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:2977:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:1:./UL7RAFORGE/v10/ul7rastack/assurance/production_gate.py:36:        pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:2:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:3:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:4:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:5:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:6:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:7:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:8:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:9:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:10:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:11:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:12:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:13:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:14:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:15:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:16:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:17:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:18:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:19:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:20:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:21:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:22:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:23:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:24:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:25:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:26:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:27:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:28:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:29:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:30:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:31:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:32:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:33:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:34:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:35:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:36:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:37:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:38:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:39:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:40:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:41:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:42:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:43:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:44:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:45:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:46:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:47:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:48:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:49:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:50:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:51:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:52:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:53:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:54:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:55:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:56:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:57:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:58:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:59:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:60:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:61:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:62:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:12:BASELINE_HASH_MUST_NOT_CHANGE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:63:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:18:LINEAGE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:64:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:23:HYPER_QUANTUM=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:65:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:44:BASELINE_INVARIANT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:66:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:45:LINEAGE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:67:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:46:HYPER_QUANTUM=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:68:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:4:STATE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:69:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:6:BASELINE_HASH_MUST_NOT_CHANGE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:70:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:12:BUILD=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:71:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:14:TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:72:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:18:REPRODUCIBILITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:73:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:43:BUILD=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:74:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:44:TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:75:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:46:REPRODUCIBILITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:76:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:54:STATE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:77:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:56:BASELINE_HASH_MUST_NOT_CHANGE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:78:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:62:BUILD=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:79:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:64:TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:80:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:68:REPRODUCIBILITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:81:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:93:BUILD=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:82:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:94:TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:83:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:96:REPRODUCIBILITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:84:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:16:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:85:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:18:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:86:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:22:REPRODUCIBILITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:87:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:23:HYPER_QUANTUM=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:88:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:30:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:89:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:32:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:90:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:49:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:91:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:51:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:92:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:68:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:93:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:69:ASSURANCE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:94:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:70:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:95:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:87:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:96:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:88:ASSURANCE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:97:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:89:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:98:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:106:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:99:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:107:ASSURANCE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:100:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:108:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:101:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:125:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:102:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:126:ASSURANCE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:103:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:127:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:104:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:144:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:105:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:145:ASSURANCE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:106:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:146:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:107:./UL7RAFORGE/assurance/verifier/independent/reconcile_s9.sh:344:    and purple_shape_pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:108:./products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification-check.txt:1:LOCAL_VERIFY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:109:./products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification-check.txt:1:LOCAL_VERIFY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:110:./products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-proof.txt:1:LOCAL_VERIFY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:111:./products/ul7ra-verify/evidence/execution/controller.log:12:[2026-08-23T03:59:29Z] LOCAL FUNCTIONAL=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:112:./products/ul7ra-verify/evidence/execution/controller.log:13:[2026-08-23T03:59:29Z] LOCAL INTEGRITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:113:./products/ul7ra-verify/deploy/start_tunnel.sh:6:echo "Starting Cloudflare temporary tunnel"
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:114:./products/ul7ra-verify/deploy/runtime/closed_loop.log:19:TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:115:./products/ul7ra-verify/deploy/runtime/closed_loop.log:27:PRODUCT_TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:116:./products/ul7ra-verify/deploy/runtime/closed_loop.log:100:LUCIDEPLOY_TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:117:./products/ul7ra-verify/deploy/runtime/closed_loop.log:101:PRODUCT_VERIFICATION=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:118:./products/ul7ra-verify/deploy/runtime/closed_loop.log:102:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:119:./products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log:4:2026-08-22T02:44:24-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:120:./products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log:5:2026-08-22T02:44:26-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:121:./products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log:7:2026-08-22T02:44:37-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:122:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:5:2026-08-22T04:23:25-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:123:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:6:2026-08-22T04:23:27-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:124:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:7:2026-08-22T04:23:29-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:125:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:19:2026-08-22T04:24:25-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:126:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:20:2026-08-22T04:24:26-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:127:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:21:2026-08-22T04:24:29-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:128:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:33:2026-08-22T04:25:25-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:129:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:34:2026-08-22T04:25:27-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:130:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:38:2026-08-22T04:25:52-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:131:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:39:2026-08-22T04:25:53-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:132:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:40:2026-08-22T04:25:56-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:133:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:52:2026-08-22T04:26:51-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:134:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:53:2026-08-22T04:26:52-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:135:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:54:2026-08-22T04:26:56-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:136:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:66:2026-08-22T04:27:53-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:137:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:67:2026-08-22T04:27:55-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:138:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:68:2026-08-22T04:27:59-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:139:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:80:2026-08-22T04:28:56-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:140:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:81:2026-08-22T04:28:58-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:141:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:82:2026-08-22T04:29:02-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:142:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:94:2026-08-22T04:30:00-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:143:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:95:2026-08-22T04:30:02-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:144:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:96:2026-08-22T04:30:04-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:145:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:108:2026-08-22T04:30:54-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:146:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:109:2026-08-22T04:30:55-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:147:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:110:2026-08-22T04:30:57-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:148:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:122:2026-08-22T04:31:45-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:149:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:123:2026-08-22T04:31:46-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:150:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:124:2026-08-22T04:31:48-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:151:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:136:2026-08-22T04:32:40-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:152:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:137:2026-08-22T04:32:42-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:153:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:138:2026-08-22T04:32:44-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:154:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:150:2026-08-22T04:33:41-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:155:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:151:2026-08-22T04:33:42-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:156:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:152:2026-08-22T04:33:44-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:157:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:164:2026-08-22T04:34:36-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:158:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:165:2026-08-22T04:34:38-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:159:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:166:2026-08-22T04:34:47-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:160:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:178:2026-08-22T04:35:46-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:161:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:179:2026-08-22T04:35:48-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:162:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:180:2026-08-22T04:35:50-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:163:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:192:2026-08-22T04:36:47-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:164:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:193:2026-08-22T04:36:48-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:165:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:194:2026-08-22T04:36:54-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:166:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:206:2026-08-22T04:37:51-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:167:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:207:2026-08-22T04:37:52-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:168:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:208:2026-08-22T04:37:54-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:169:./products/ul7ra-verify/deploy/runtime/multiloop.log:3:2026-08-22T02:44:24-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:170:./products/ul7ra-verify/deploy/runtime/multiloop.log:4:2026-08-22T02:44:26-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:171:./products/ul7ra-verify/deploy/runtime/multiloop.log:6:2026-08-22T02:44:37-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:172:./products/ul7ra-verify/deploy/runtime/ul7ra-start.log:6:2026-08-22T04:26:41-04:00 ORIGIN_IDENTITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:173:./products/ul7ra-verify/deploy/runtime/ul7ra-start.log:8:2026-08-22T04:26:43-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:174:./products/ul7ra-verify/deploy/runtime/ul7ra-start.log:9:2026-08-22T04:26:43-04:00 INGRESS_HOSTNAMES=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:175:./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server.txt:1:TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:176:./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:4:SERVER_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:177:./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:5:ROOT_ENDPOINT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:178:./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:6:VERIFY_ENDPOINT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:179:./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:7:CANONICAL_PRODUCT_TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:180:./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:16:APEX_GATE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:181:./products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/APEX_PUBLIC_DECISION.txt:4:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:182:./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log:18:}LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:183:./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log:119:SOURCE_INTEGRITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:184:./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log:135:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:185:./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log:144:SOURCE_INTEGRITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:186:./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt:4:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:187:./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt:13:SOURCE_INTEGRITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:188:./products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/full.log:39:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:189:./products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/full.log:49:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:190:./products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/APEX_PUBLIC_DECISION.txt:7:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:191:./products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json:15:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:192:./products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json:16:  "DISTRIBUTION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:193:./products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json:16:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:194:./products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json:17:  "DISTRIBUTION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:195:./lucideploy/tests/test_state.py:30:        pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:196:./lucideploy/tests/test_integrity.py:10:    with tempfile.TemporaryDirectory() as d:
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:197:./lucideploy/tests/test_integrity.py:17:    with tempfile.TemporaryDirectory() as d:
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:198:./lucideploy/run_final_gate.sh:53:    APEX_INTEGRITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:199:./lucideploy/run_final_gate.sh:70:TEST_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:200:./lucideploy/run_final_gate.sh:71:LUCIDEPLOY_TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:201:./lucideploy/run_final_gate.sh:90:TRINITY_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:202:./lucideploy/run_final_gate.sh:112:PRODUCT_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:203:./lucideploy/run_final_gate.sh:153:        LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:204:./lucideploy/run_final_gate.sh:176:                PUBLIC_HTTP=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:205:./lucideploy/run_final_gate.sh:195:    CLOUDFLARE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:206:./evidence/quantum_storm/20260823T040239Z/environment:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:207:./evidence/quantum_storm/20260823T040239Z/discovery:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:208:./evidence/quantum_storm/20260823T040239Z/static:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:209:./evidence/quantum_storm/20260823T040239Z/test_discovery:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:210:./evidence/quantum_storm/20260823T040239Z/health.result:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:211:./evidence/quantum_storm/20260823T040239Z/origin:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:212:./evidence/quantum_storm/20260823T040239Z/integrity:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:213:./evidence/quantum_storm/20260823T040239Z/functional:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:214:./evidence/quantum_storm/20260823T040239Z/tunnel_process:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:215:./.ul7ra/funnel/runs/20260823T042104Z/evidence/product/VERIFY_PRODUCT.log:2:TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:216:./.ul7ra/funnel/runs/20260823T042104Z/evidence/product/VERIFY_PRODUCT.log:10:PRODUCT_TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:217:./.ul7ra/funnel/runs/20260823T043855Z/evidence/PRODUCT.log:2:TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:218:./.ul7ra/funnel/runs/20260823T043855Z/evidence/PRODUCT.log:10:PRODUCT_TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:219:./.ul7ra/funnel/runs/20260823T044008Z/evidence/PRODUCT.log:2:TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:220:./.ul7ra/funnel/runs/20260823T044008Z/evidence/PRODUCT.log:10:PRODUCT_TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:221:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:755:    APEX_INTEGRITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:222:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:772:TEST_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:223:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:773:LUCIDEPLOY_TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:224:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:792:TRINITY_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:225:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:814:PRODUCT_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:226:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:855:        LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:227:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:878:                PUBLIC_HTTP=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:228:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:897:    CLOUDFLARE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:229:./.ul7ra/funnel/runs/capability-20260823T170726Z/evidence/key_lifecycle_capability.txt:1:generation=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:230:./.ul7ra/funnel/runs/capability-20260823T170726Z/evidence/key_lifecycle_capability.txt:4:rotation= PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:231:./.ul7ra/funnel/runs/execution-20260823T172237Z/execution.log:16:SUBSTRATE_COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:232:./.ul7ra/funnel/runs/execution-20260823T172237Z/execution.log:26:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:233:./.ul7ra/funnel/runs/execution-20260823T172237Z/execution.log:31:EVIDENCE_HASHING=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:234:./.ul7ra/funnel/runs/elite-20260823T173321Z/execution.log:13:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:235:./.ul7ra/funnel/runs/elite-20260823T173321Z/execution.log:96:HASHING=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:236:./.ul7ra/funnel/runs/persistent-20260823T173654Z-1/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:237:./.ul7ra/funnel/runs/persistent-20260823T173703Z-2/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:238:./.ul7ra/funnel/runs/persistent-20260823T173711Z-3/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:239:./.ul7ra/funnel/runs/persistent-20260823T173720Z-4/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:240:./.ul7ra/funnel/runs/persistent-20260823T173729Z-5/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:241:./.ul7ra/funnel/runs/persistent-20260823T173738Z-6/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:242:./.ul7ra/funnel/runs/persistent-20260823T173747Z-7/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:243:./.ul7ra/funnel/runs/persistent-20260823T173756Z-8/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:244:./.ul7ra/funnel/runs/persistent-20260823T173805Z-9/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:245:./.ul7ra/funnel/runs/diagnostic-20260823T174810Z/diagnostic.log:8:ENVIRONMENT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:246:./.ul7ra/funnel/runs/diagnostic-20260823T174810Z/diagnostic.log:11:PATH_CONTRACT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:247:./.ul7ra/funnel/runs/diagnostic-20260823T174810Z/diagnostic.log:51:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:248:./.ul7ra/funnel/runs/diagnostic-20260823T174838Z/diagnostic.log:8:ENVIRONMENT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:249:./.ul7ra/funnel/runs/diagnostic-20260823T174838Z/diagnostic.log:11:PATH_CONTRACT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:250:./.ul7ra/funnel/runs/diagnostic-20260823T174838Z/diagnostic.log:51:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:251:./.ul7ra/funnel/runs/diagnostic-20260823T174912Z/diagnostic.log:55:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:252:./.ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/remediation.log:9:FREEZE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:253:./.ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/remediation.log:254:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:254:./.ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:255:./.ul7ra/funnel/runs/health-20260823T191246Z/evidence/authority.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:256:./.ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/continuous.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:257:./.ul7ra/funnel/runs/green-regression-20260823T191440Z/evidence/pass1.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:258:./.ul7ra/funnel/runs/green-regression-20260823T191440Z/evidence/pass2.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:259:./.ul7ra/funnel/runs/green-regression-20260823T191440Z/evidence/pass3.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:260:./.ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:261:./.ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/diagnostic.log:11:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:262:./.ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/diagnostic.log:101:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:263:./.ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/diagnostic.log:143:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:264:./.ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/authority.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:265:./.ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:266:./.ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:267:./.ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:268:./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-1.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:269:./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-2.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:270:./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-3.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:271:./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-4.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:272:./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-5.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:273:./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-1.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:274:./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-2.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:275:./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-3.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:276:./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-4.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:277:./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-5.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:278:./.ul7ra/funnel/bin/authority_reconcile_test:72:            pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:279:./.ul7ra/funnel/persistent_supervisor.log:80:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:280:./.ul7ra/funnel/persistent_supervisor.log:156:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:281:./.ul7ra/funnel/persistent_supervisor.log:232:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:282:./.ul7ra/funnel/persistent_supervisor.log:308:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:283:./.ul7ra/funnel/persistent_supervisor.log:384:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:284:./.ul7ra/funnel/persistent_supervisor.log:460:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:285:./.ul7ra/funnel/persistent_supervisor.log:536:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:286:./.ul7ra/funnel/persistent_supervisor.log:612:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:287:./.ul7ra/funnel/persistent_supervisor.log:688:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:288:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:667:d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:289:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:677:d6eb879 HEAD@{1}: commit (initial): UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:290:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:4051:d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:291:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_recent_log.txt:2:d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:292:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_reflog.txt:2:d6eb879 HEAD@{1}: commit (initial): UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:293:./.gitignore:26:# Temporary files
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:294:./AGENTS.md:40:- regression tests pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:295:./AGENTS.md:41:- security checks pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:296:./racing/tests/test_race_state_reconstruction.py:42:    snap.validate_temporal()  # should pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:297:./racing/oracle_logs/status_20260908_231657.txt:1:HARD_RULE_NO_FABRICATED_DATA: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:298:./racing/oracle_logs/status_20260908_231657.txt:2:HARD_RULE_NO_LOOKAHEAD: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:299:./racing/oracle_logs/status_20260908_231657.txt:3:HARD_RULE_NO_REAL_MONEY: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:300:./racing/oracle_logs/status_20260908_231657.txt:4:HARD_RULE_NO_PRODUCTION_UNLOCK: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:301:./racing/oracle_logs/oracle_20260908_231657.log:132:HARD_RULE_NO_FABRICATED_DATA: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:302:./racing/oracle_logs/oracle_20260908_231657.log:133:HARD_RULE_NO_LOOKAHEAD: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:303:./racing/oracle_logs/oracle_20260908_231657.log:134:HARD_RULE_NO_REAL_MONEY: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:304:./racing/oracle_logs/oracle_20260908_231657.log:135:HARD_RULE_NO_PRODUCTION_UNLOCK: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:305:./racing/repair_logs/tests_tracker.txt:8:REPLAY: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:306:./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:1:BASELINE_PRE: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:307:./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:2:PHASE2_TARGETED: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:308:./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:3:RACING_FULL: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:309:./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:4:AIL_SUITE: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:310:./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:5:DETERMINISM: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:311:./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:1:BASELINE_PRE: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:312:./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:2:PHASE3_TARGETED: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:313:./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:3:RACING_FULL: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:314:./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:4:AIL_SUITE: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:315:./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:5:DETERMINISM: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:316:./racing/phase3_evidence.py:17:    pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:317:./racing/final_logs/status_20260909_051506.txt:3:AIL_REGRESSION: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:318:./racing/probability_engine.py:9:    pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:319:./AIL_FINAL_VERIFICATION_REPORT.md:42:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:320:./FORENSIC_PHASE0_20260909T095923Z/PHASE0_REPORT.txt:18:RACING_FULL = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:321:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:110:./products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json:15:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:322:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:111:./products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json:16:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:323:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:194:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:110:./products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json:15:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:324:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:195:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:111:./products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json:16:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:325:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:994:./lucideploy/run_final_gate.sh:90:TRINITY_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:326:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:1129:./racing/tests/test_race_state_reconstruction.py:42:    snap.validate_temporal()  # should pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:327:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:1271:./racing/repair_logs/tests_tracker.txt:8:REPLAY: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:328:./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:109:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:329:./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:532:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:330:./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:598:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:331:./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:1021:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:332:./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:1087:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:333:./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:1510:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:334:./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:1576:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:335:./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:1999:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:336:./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:2065:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:337:./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:2488:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:338:./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:2554:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:339:./FORENSIC_PHASE0_20260909T095923Z/TEST_RESULTS.txt:2977:        # TODO(jhylton): Should this be redesigned to handle
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:340:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:1:./UL7RAFORGE/v10/ul7rastack/assurance/production_gate.py:36:        pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:341:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:2:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:342:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:3:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:343:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:4:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:344:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:5:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:345:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:6:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:346:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:7:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:347:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:8:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:348:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:9:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:349:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:10:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:350:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:11:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:351:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:12:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:352:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:13:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:353:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:14:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:354:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:15:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:355:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:16:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:356:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:17:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:357:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:18:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:358:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:19:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:359:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:20:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:360:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:21:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:361:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:22:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:362:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:23:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:363:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:24:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:364:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:25:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:365:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:26:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:366:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:27:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:367:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:28:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:368:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:29:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:369:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:30:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:370:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:31:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:371:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:32:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:372:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:33:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:373:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:34:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:374:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:35:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:375:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:36:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:376:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:37:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:377:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:38:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:378:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:39:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:379:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:40:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:380:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:41:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:381:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:42:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:382:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:43:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:383:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:44:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:384:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:45:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:385:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:46:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:386:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:47:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:387:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:48:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:388:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:49:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:389:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:50:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:390:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:51:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:391:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:52:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:392:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:53:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:393:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:54:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:394:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:55:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:395:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:56:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:396:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:57:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:397:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:58:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:398:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:59:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/echoless.log:1:ECHOLESS CORE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:399:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:60:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/echoless.log:3:VERIFIED EVIDENCE RECEIPT = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:400:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:61:./UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/echoless.log:4:UNKNOWN DISCLOSURE = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:401:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:62:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:12:BASELINE_HASH_MUST_NOT_CHANGE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:402:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:63:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:18:LINEAGE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:403:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:64:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:23:HYPER_QUANTUM=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:404:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:65:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:44:BASELINE_INVARIANT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:405:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:66:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:45:LINEAGE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:406:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:67:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_infinity.log:46:HYPER_QUANTUM=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:407:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:68:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:4:STATE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:408:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:69:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:6:BASELINE_HASH_MUST_NOT_CHANGE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:409:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:70:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:12:BUILD=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:410:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:71:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:14:TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:411:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:72:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:18:REPRODUCIBILITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:412:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:73:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:43:BUILD=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:413:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:74:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:44:TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:414:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:75:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:46:REPRODUCIBILITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:415:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:76:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:54:STATE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:416:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:77:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:56:BASELINE_HASH_MUST_NOT_CHANGE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:417:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:78:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:62:BUILD=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:418:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:79:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:64:TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:419:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:80:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:68:REPRODUCIBILITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:420:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:81:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:93:BUILD=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:421:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:82:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:94:TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:422:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:83:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/apex_multiloop.log:96:REPRODUCIBILITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:423:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:84:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:16:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:424:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:85:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:18:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:425:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:86:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:22:REPRODUCIBILITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:426:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:87:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:23:HYPER_QUANTUM=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:427:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:88:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:30:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:428:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:89:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:32:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:429:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:90:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:49:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:430:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:91:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:51:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:431:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:92:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:68:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:432:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:93:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:69:ASSURANCE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:433:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:94:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:70:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:434:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:95:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:87:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:435:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:96:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:88:ASSURANCE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:436:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:97:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:89:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:437:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:98:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:106:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:438:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:99:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:107:ASSURANCE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:439:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:100:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:108:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:440:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:101:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:125:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:441:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:102:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:126:ASSURANCE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:442:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:103:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:127:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:443:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:104:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:144:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:444:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:105:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:145:ASSURANCE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:445:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:106:./UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log:146:ECHOLESS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:446:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:107:./UL7RAFORGE/assurance/verifier/independent/reconcile_s9.sh:344:    and purple_shape_pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:447:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:108:./products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification-check.txt:1:LOCAL_VERIFY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:448:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:109:./products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification-check.txt:1:LOCAL_VERIFY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:449:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:110:./products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-proof.txt:1:LOCAL_VERIFY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:450:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:111:./products/ul7ra-verify/evidence/execution/controller.log:12:[2026-08-23T03:59:29Z] LOCAL FUNCTIONAL=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:451:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:112:./products/ul7ra-verify/evidence/execution/controller.log:13:[2026-08-23T03:59:29Z] LOCAL INTEGRITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:452:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:113:./products/ul7ra-verify/deploy/start_tunnel.sh:6:echo "Starting Cloudflare temporary tunnel"
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:453:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:114:./products/ul7ra-verify/deploy/runtime/closed_loop.log:19:TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:454:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:115:./products/ul7ra-verify/deploy/runtime/closed_loop.log:27:PRODUCT_TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:455:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:116:./products/ul7ra-verify/deploy/runtime/closed_loop.log:100:LUCIDEPLOY_TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:456:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:117:./products/ul7ra-verify/deploy/runtime/closed_loop.log:101:PRODUCT_VERIFICATION=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:457:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:118:./products/ul7ra-verify/deploy/runtime/closed_loop.log:102:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:458:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:119:./products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log:4:2026-08-22T02:44:24-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:459:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:120:./products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log:5:2026-08-22T02:44:26-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:460:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:121:./products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log:7:2026-08-22T02:44:37-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:461:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:122:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:5:2026-08-22T04:23:25-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:462:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:123:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:6:2026-08-22T04:23:27-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:463:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:124:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:7:2026-08-22T04:23:29-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:464:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:125:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:19:2026-08-22T04:24:25-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:465:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:126:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:20:2026-08-22T04:24:26-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:466:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:127:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:21:2026-08-22T04:24:29-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:467:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:128:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:33:2026-08-22T04:25:25-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:468:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:129:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:34:2026-08-22T04:25:27-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:469:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:130:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:38:2026-08-22T04:25:52-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:470:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:131:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:39:2026-08-22T04:25:53-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:471:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:132:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:40:2026-08-22T04:25:56-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:472:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:133:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:52:2026-08-22T04:26:51-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:473:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:134:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:53:2026-08-22T04:26:52-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:474:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:135:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:54:2026-08-22T04:26:56-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:475:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:136:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:66:2026-08-22T04:27:53-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:476:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:137:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:67:2026-08-22T04:27:55-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:477:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:138:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:68:2026-08-22T04:27:59-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:478:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:139:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:80:2026-08-22T04:28:56-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:479:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:140:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:81:2026-08-22T04:28:58-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:480:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:141:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:82:2026-08-22T04:29:02-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:481:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:142:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:94:2026-08-22T04:30:00-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:482:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:143:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:95:2026-08-22T04:30:02-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:483:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:144:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:96:2026-08-22T04:30:04-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:484:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:145:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:108:2026-08-22T04:30:54-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:485:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:146:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:109:2026-08-22T04:30:55-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:486:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:147:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:110:2026-08-22T04:30:57-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:487:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:148:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:122:2026-08-22T04:31:45-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:488:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:149:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:123:2026-08-22T04:31:46-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:489:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:150:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:124:2026-08-22T04:31:48-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:490:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:151:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:136:2026-08-22T04:32:40-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:491:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:152:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:137:2026-08-22T04:32:42-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:492:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:153:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:138:2026-08-22T04:32:44-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:493:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:154:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:150:2026-08-22T04:33:41-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:494:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:155:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:151:2026-08-22T04:33:42-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:495:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:156:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:152:2026-08-22T04:33:44-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:496:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:157:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:164:2026-08-22T04:34:36-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:497:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:158:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:165:2026-08-22T04:34:38-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:498:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:159:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:166:2026-08-22T04:34:47-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:499:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:160:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:178:2026-08-22T04:35:46-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:500:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:161:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:179:2026-08-22T04:35:48-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:501:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:162:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:180:2026-08-22T04:35:50-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:502:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:163:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:192:2026-08-22T04:36:47-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:503:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:164:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:193:2026-08-22T04:36:48-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:504:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:165:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:194:2026-08-22T04:36:54-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:505:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:166:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:206:2026-08-22T04:37:51-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:506:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:167:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:207:2026-08-22T04:37:52-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:507:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:168:./products/ul7ra-verify/deploy/runtime/multiloop/engine.log:208:2026-08-22T04:37:54-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:508:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:169:./products/ul7ra-verify/deploy/runtime/multiloop.log:3:2026-08-22T02:44:24-04:00 ORIGIN=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:509:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:170:./products/ul7ra-verify/deploy/runtime/multiloop.log:4:2026-08-22T02:44:26-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:510:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:171:./products/ul7ra-verify/deploy/runtime/multiloop.log:6:2026-08-22T02:44:37-04:00 CONNECTOR=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:511:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:172:./products/ul7ra-verify/deploy/runtime/ul7ra-start.log:6:2026-08-22T04:26:41-04:00 ORIGIN_IDENTITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:512:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:173:./products/ul7ra-verify/deploy/runtime/ul7ra-start.log:8:2026-08-22T04:26:43-04:00 CONFIG=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:513:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:174:./products/ul7ra-verify/deploy/runtime/ul7ra-start.log:9:2026-08-22T04:26:43-04:00 INGRESS_HOSTNAMES=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:514:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:175:./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/test_server.txt:1:TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:515:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:176:./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:4:SERVER_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:516:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:177:./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:5:ROOT_ENDPOINT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:517:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:178:./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:6:VERIFY_ENDPOINT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:518:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:179:./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:7:CANONICAL_PRODUCT_TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:519:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:180:./products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/APEX_DECISION.txt:16:APEX_GATE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:520:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:181:./products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/APEX_PUBLIC_DECISION.txt:4:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:521:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:182:./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log:18:}LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:522:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:183:./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log:119:SOURCE_INTEGRITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:523:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:184:./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log:135:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:524:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:185:./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log:144:SOURCE_INTEGRITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:525:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:186:./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt:4:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:526:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:187:./products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt:13:SOURCE_INTEGRITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:527:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:188:./products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/full.log:39:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:528:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:189:./products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/full.log:49:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:529:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:190:./products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/APEX_PUBLIC_DECISION.txt:7:LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:530:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:191:./products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json:15:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:531:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:192:./products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json:16:  "DISTRIBUTION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:532:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:193:./products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json:16:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:533:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:194:./products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json:17:  "DISTRIBUTION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:534:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:195:./lucideploy/tests/test_state.py:30:        pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:535:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:196:./lucideploy/tests/test_integrity.py:10:    with tempfile.TemporaryDirectory() as d:
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:536:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:197:./lucideploy/tests/test_integrity.py:17:    with tempfile.TemporaryDirectory() as d:
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:537:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:198:./lucideploy/run_final_gate.sh:53:    APEX_INTEGRITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:538:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:199:./lucideploy/run_final_gate.sh:70:TEST_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:539:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:200:./lucideploy/run_final_gate.sh:71:LUCIDEPLOY_TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:540:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:201:./lucideploy/run_final_gate.sh:90:TRINITY_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:541:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:202:./lucideploy/run_final_gate.sh:112:PRODUCT_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:542:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:203:./lucideploy/run_final_gate.sh:153:        LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:543:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:204:./lucideploy/run_final_gate.sh:176:                PUBLIC_HTTP=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:544:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:205:./lucideploy/run_final_gate.sh:195:    CLOUDFLARE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:545:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:206:./evidence/quantum_storm/20260823T040239Z/environment:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:546:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:207:./evidence/quantum_storm/20260823T040239Z/discovery:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:547:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:208:./evidence/quantum_storm/20260823T040239Z/static:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:548:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:209:./evidence/quantum_storm/20260823T040239Z/test_discovery:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:549:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:210:./evidence/quantum_storm/20260823T040239Z/health.result:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:550:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:211:./evidence/quantum_storm/20260823T040239Z/origin:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:551:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:212:./evidence/quantum_storm/20260823T040239Z/integrity:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:552:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:213:./evidence/quantum_storm/20260823T040239Z/functional:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:553:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:214:./evidence/quantum_storm/20260823T040239Z/tunnel_process:1:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:554:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:215:./.ul7ra/funnel/runs/20260823T042104Z/evidence/product/VERIFY_PRODUCT.log:2:TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:555:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:216:./.ul7ra/funnel/runs/20260823T042104Z/evidence/product/VERIFY_PRODUCT.log:10:PRODUCT_TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:556:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:217:./.ul7ra/funnel/runs/20260823T043855Z/evidence/PRODUCT.log:2:TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:557:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:218:./.ul7ra/funnel/runs/20260823T043855Z/evidence/PRODUCT.log:10:PRODUCT_TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:558:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:219:./.ul7ra/funnel/runs/20260823T044008Z/evidence/PRODUCT.log:2:TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:559:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:220:./.ul7ra/funnel/runs/20260823T044008Z/evidence/PRODUCT.log:10:PRODUCT_TEST=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:560:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:221:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:755:    APEX_INTEGRITY=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:561:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:222:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:772:TEST_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:562:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:223:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:773:LUCIDEPLOY_TESTS=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:563:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:224:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:792:TRINITY_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:564:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:225:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:814:PRODUCT_RESULT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:565:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:226:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:855:        LOCAL_HEALTH=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:566:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:227:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:878:                PUBLIC_HTTP=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:567:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:228:./.ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt:897:    CLOUDFLARE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:568:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:229:./.ul7ra/funnel/runs/capability-20260823T170726Z/evidence/key_lifecycle_capability.txt:1:generation=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:569:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:230:./.ul7ra/funnel/runs/capability-20260823T170726Z/evidence/key_lifecycle_capability.txt:4:rotation= PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:570:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:231:./.ul7ra/funnel/runs/execution-20260823T172237Z/execution.log:16:SUBSTRATE_COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:571:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:232:./.ul7ra/funnel/runs/execution-20260823T172237Z/execution.log:26:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:572:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:233:./.ul7ra/funnel/runs/execution-20260823T172237Z/execution.log:31:EVIDENCE_HASHING=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:573:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:234:./.ul7ra/funnel/runs/elite-20260823T173321Z/execution.log:13:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:574:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:235:./.ul7ra/funnel/runs/elite-20260823T173321Z/execution.log:96:HASHING=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:575:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:236:./.ul7ra/funnel/runs/persistent-20260823T173654Z-1/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:576:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:237:./.ul7ra/funnel/runs/persistent-20260823T173703Z-2/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:577:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:238:./.ul7ra/funnel/runs/persistent-20260823T173711Z-3/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:578:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:239:./.ul7ra/funnel/runs/persistent-20260823T173720Z-4/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:579:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:240:./.ul7ra/funnel/runs/persistent-20260823T173729Z-5/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:580:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:241:./.ul7ra/funnel/runs/persistent-20260823T173738Z-6/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:581:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:242:./.ul7ra/funnel/runs/persistent-20260823T173747Z-7/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:582:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:243:./.ul7ra/funnel/runs/persistent-20260823T173756Z-8/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:583:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:244:./.ul7ra/funnel/runs/persistent-20260823T173805Z-9/fail_closed.txt:1:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:584:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:245:./.ul7ra/funnel/runs/diagnostic-20260823T174810Z/diagnostic.log:8:ENVIRONMENT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:585:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:246:./.ul7ra/funnel/runs/diagnostic-20260823T174810Z/diagnostic.log:11:PATH_CONTRACT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:586:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:247:./.ul7ra/funnel/runs/diagnostic-20260823T174810Z/diagnostic.log:51:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:587:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:248:./.ul7ra/funnel/runs/diagnostic-20260823T174838Z/diagnostic.log:8:ENVIRONMENT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:588:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:249:./.ul7ra/funnel/runs/diagnostic-20260823T174838Z/diagnostic.log:11:PATH_CONTRACT=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:589:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:250:./.ul7ra/funnel/runs/diagnostic-20260823T174838Z/diagnostic.log:51:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:590:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:251:./.ul7ra/funnel/runs/diagnostic-20260823T174912Z/diagnostic.log:55:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:591:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:252:./.ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/remediation.log:9:FREEZE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:592:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:253:./.ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/remediation.log:254:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:593:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:254:./.ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:594:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:255:./.ul7ra/funnel/runs/health-20260823T191246Z/evidence/authority.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:595:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:256:./.ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/continuous.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:596:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:257:./.ul7ra/funnel/runs/green-regression-20260823T191440Z/evidence/pass1.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:597:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:258:./.ul7ra/funnel/runs/green-regression-20260823T191440Z/evidence/pass2.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:598:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:259:./.ul7ra/funnel/runs/green-regression-20260823T191440Z/evidence/pass3.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:599:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:260:./.ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:600:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:261:./.ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/diagnostic.log:11:COMPILE=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:601:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:262:./.ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/diagnostic.log:101:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:602:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:263:./.ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/diagnostic.log:143:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:603:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:264:./.ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/authority.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:604:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:265:./.ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:605:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:266:./.ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:606:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:267:./.ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/live_test.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:607:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:268:./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-1.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:608:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:269:./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-2.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:609:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:270:./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-3.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:610:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:271:./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-4.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:611:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:272:./.ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-5.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:612:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:273:./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-1.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:613:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:274:./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-2.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:614:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:275:./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-3.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:615:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:276:./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-4.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:616:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:277:./.ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-5.log:63:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:617:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:278:./.ul7ra/funnel/bin/authority_reconcile_test:72:            pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:618:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:279:./.ul7ra/funnel/persistent_supervisor.log:80:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:619:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:280:./.ul7ra/funnel/persistent_supervisor.log:156:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:620:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:281:./.ul7ra/funnel/persistent_supervisor.log:232:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:621:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:282:./.ul7ra/funnel/persistent_supervisor.log:308:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:622:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:283:./.ul7ra/funnel/persistent_supervisor.log:384:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:623:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:284:./.ul7ra/funnel/persistent_supervisor.log:460:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:624:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:285:./.ul7ra/funnel/persistent_supervisor.log:536:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:625:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:286:./.ul7ra/funnel/persistent_supervisor.log:612:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:626:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:287:./.ul7ra/funnel/persistent_supervisor.log:688:FAIL_CLOSED=PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:627:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:288:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:667:d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:628:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:289:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:677:d6eb879 HEAD@{1}: commit (initial): UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:629:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:290:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log:4051:d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:630:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:291:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_recent_log.txt:2:d6eb879 UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:631:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:292:./.ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_reflog.txt:2:d6eb879 HEAD@{1}: commit (initial): UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:632:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:293:./.gitignore:26:# Temporary files
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:633:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:294:./AGENTS.md:40:- regression tests pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:634:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:295:./AGENTS.md:41:- security checks pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:635:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:296:./racing/tests/test_race_state_reconstruction.py:42:    snap.validate_temporal()  # should pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:636:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:297:./racing/oracle_logs/status_20260908_231657.txt:1:HARD_RULE_NO_FABRICATED_DATA: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:637:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:298:./racing/oracle_logs/status_20260908_231657.txt:2:HARD_RULE_NO_LOOKAHEAD: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:638:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:299:./racing/oracle_logs/status_20260908_231657.txt:3:HARD_RULE_NO_REAL_MONEY: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:639:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:300:./racing/oracle_logs/status_20260908_231657.txt:4:HARD_RULE_NO_PRODUCTION_UNLOCK: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:640:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:301:./racing/oracle_logs/oracle_20260908_231657.log:132:HARD_RULE_NO_FABRICATED_DATA: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:641:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:302:./racing/oracle_logs/oracle_20260908_231657.log:133:HARD_RULE_NO_LOOKAHEAD: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:642:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:303:./racing/oracle_logs/oracle_20260908_231657.log:134:HARD_RULE_NO_REAL_MONEY: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:643:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:304:./racing/oracle_logs/oracle_20260908_231657.log:135:HARD_RULE_NO_PRODUCTION_UNLOCK: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:644:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:305:./racing/repair_logs/tests_tracker.txt:8:REPLAY: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:645:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:306:./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:1:BASELINE_PRE: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:646:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:307:./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:2:PHASE2_TARGETED: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:647:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:308:./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:3:RACING_FULL: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:648:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:309:./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:4:AIL_SUITE: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:649:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:310:./racing/repair_logs/phase2_logs/phase2_status_20260909_050155.txt:5:DETERMINISM: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:650:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:311:./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:1:BASELINE_PRE: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:651:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:312:./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:2:PHASE3_TARGETED: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:652:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:313:./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:3:RACING_FULL: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:653:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:314:./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:4:AIL_SUITE: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:654:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:315:./racing/repair_logs/phase3_logs/phase3_status_20260909_050524.txt:5:DETERMINISM: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:655:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:316:./racing/phase3_evidence.py:17:    pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:656:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:317:./racing/final_logs/status_20260909_051506.txt:3:AIL_REGRESSION: PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:657:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:318:./racing/probability_engine.py:9:    pass
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:658:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:319:./AIL_FINAL_VERIFICATION_REPORT.md:42:PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:659:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:320:./FORENSIC_PHASE0_20260909T095923Z/PHASE0_REPORT.txt:18:RACING_FULL = PASS
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:660:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:321:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:110:./products/ul7ra-verify/deploy/runtime/ail_report_20260909_041713.json:15:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",
+./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:661:./FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt:322:./FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_SEARCH.txt:111:./products/ul7ra-verify/deploy/runtime/ail_master_report_20260909_041845.json:16:  "CALIBRATION": "IMPLEMENTED_PLACEHOLDER",

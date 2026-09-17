@@ -1,0 +1,21 @@
+{
+  "ail": "NEEDS_REVIEW",
+  "execution_authorized": false,
+  "historical_checkpoint_present": false,
+  "historical_recovery": false,
+  "next": "AIL_REVIEW",
+  "promotion": "REFUSED",
+  "purple": "PASS",
+  "reconstructed_checkpoint_does_not_replace_historical": true,
+  "status": "CANNOT_SAFELY_CONTINUE",
+  "transition": [
+    "VERIFICATION_PASS",
+    "PURPLE_PASS",
+    "AIL_NEEDS_REVIEW",
+    "HARD_STOP"
+  ],
+  "trinity_entered": false,
+  "trinity_implemented": false,
+  "verification": "PASS",
+  "workaround_permitted": false
+}

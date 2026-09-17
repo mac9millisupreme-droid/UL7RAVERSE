@@ -1,0 +1,2 @@
+Validating rules from products/ul7ra-verify/evidence/convergence/20260822T111810Z/cloudflared-config.yml
+OK

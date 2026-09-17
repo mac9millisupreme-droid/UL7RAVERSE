@@ -1,0 +1,63 @@
+{
+  "project": "OMNIPULSE",
+  "proof_layer": "UL7RAPROOF",
+  "timestamp": "2026-09-11T23:09:37.591917+00:00",
+  "status": "HYPOTHESIS_STAGE",
+  "important": "Scores are opportunity scores, not probabilities of commercial success. No opportunity is VERIFIED until real evidence exists.",
+  "ranked_opportunities": [
+    {
+      "opportunity": "Vendor Revenue Engine",
+      "score": 9181.82,
+      "proof_state": "HYPOTHESIS",
+      "purple_team": "INCOMPLETE",
+      "final_decision": "TEST",
+      "revenue_verified": 0,
+      "profit_verified": 0
+    },
+    {
+      "opportunity": "Fair Concierge",
+      "score": 9159.09,
+      "proof_state": "HYPOTHESIS",
+      "purple_team": "INCOMPLETE",
+      "final_decision": "TEST",
+      "revenue_verified": 0,
+      "profit_verified": 0
+    },
+    {
+      "opportunity": "Vendor Content Factory",
+      "score": 9100.0,
+      "proof_state": "HYPOTHESIS",
+      "purple_team": "INCOMPLETE",
+      "final_decision": "TEST",
+      "revenue_verified": 0,
+      "profit_verified": 0
+    },
+    {
+      "opportunity": "Fair Spillover Network",
+      "score": 8700.0,
+      "proof_state": "HYPOTHESIS",
+      "purple_team": "INCOMPLETE",
+      "final_decision": "TEST",
+      "revenue_verified": 0,
+      "profit_verified": 0
+    },
+    {
+      "opportunity": "Queue / Time Intelligence",
+      "score": 8663.64,
+      "proof_state": "HYPOTHESIS",
+      "purple_team": "INCOMPLETE",
+      "final_decision": "TEST",
+      "revenue_verified": 0,
+      "profit_verified": 0
+    }
+  ],
+  "required_next_loop": [
+    "LIVE_RECON",
+    "MICRO_TEST",
+    "FIRST_PAYMENT",
+    "PROOF",
+    "PURPLE_ATTACK",
+    "RETEST",
+    "SCALE_OR_KILL"
+  ]
+}

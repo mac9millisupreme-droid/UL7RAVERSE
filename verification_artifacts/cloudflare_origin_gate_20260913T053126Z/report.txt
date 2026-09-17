@@ -1,0 +1,343 @@
+=== EXISTING TUNNEL ===
+Your tunnel a241e27b-336e-44cc-9a52-6487131db63b does not have any active connection.
+
+=== CLOUDFLARED CONFIG FILES ===
+a241e27b-336e-44cc-9a52-6487131db63b.json
+cert.pem
+config.yml
+config.yml.bak.20260822T071843Z
+config.yml.bak.20260822T072030Z
+config.yml.bak.20260822T072112Z
+ul7ra-verify.log
+
+=== CONFIG ROUTES (SECRETS REDACTED) ===
+tunnel: [REDACTED]
+credentials-file: [REDACTED]
+
+ingress:
+  - hostname: verify.omnilucient.com
+    service: http://127.0.0.1:8787
+  - hostname: omnilucient.com
+    service: http://127.0.0.1:8787
+  - service: http_status:404
+
+=== REPO CLOUDFLARE REFERENCES ===
+products/ul7ra-verify/tests/test_server.py:11:        [sys.executable, "products/ul7ra-verify/app/server.py"],
+products/ul7ra-verify/tests/test_server.py.bak_realtest:9:    [sys.executable, "products/ul7ra-verify/app/server.py"],
+products/ul7ra-verify/evidence/deployment_gate.json:10:  "cloudflared": 1,
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-cloudflared.txt:1:/data/data/com.termux/files/usr/bin/cloudflared
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt:3:?? products/ul7ra-verify/deploy/
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt:4:?? products/ul7ra-verify/evidence/deployment_gate.json
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt:5:?? products/ul7ra-verify/evidence/deployment_watchdog.json
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt:6:?? products/ul7ra-verify/evidence/gate1/
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt:7:?? products/ul7ra-verify/evidence/public_probe.json
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-list.txt:1:You can obtain more detailed information for each tunnel with `cloudflared tunnel info <name/uuid>`
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-list.txt:3:a241e27b-336e-44cc-9a52-6487131db63b ul7ra-verify 2026-08-22T04:43:31Z 1xyyz01, 1xyyz03, 1xyyz04, 1xyyz06 
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-info.txt:1:NAME:     ul7ra-verify
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-info.txt:2:ID:       a241e27b-336e-44cc-9a52-6487131db63b
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt:1:4:ingress:
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt:2:5:  - hostname: verify.omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/run.log:3:HOSTNAME=verify.omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/run.log:4:TUNNEL=ul7ra-verify
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/run.log:8:PASS: tool available: cloudflared
+products/ul7ra-verify/evidence/gate1/20260822T090130Z/run.log:15:PASS: Local UL7RA-VERIFY health
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-cloudflared.txt:1:/data/data/com.termux/files/usr/bin/cloudflared
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt:3:?? products/ul7ra-verify/deploy/
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt:4:?? products/ul7ra-verify/evidence/deployment_gate.json
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt:5:?? products/ul7ra-verify/evidence/deployment_watchdog.json
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt:6:?? products/ul7ra-verify/evidence/gate1/
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt:7:?? products/ul7ra-verify/evidence/public_probe.json
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-list.txt:1:You can obtain more detailed information for each tunnel with `cloudflared tunnel info <name/uuid>`
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-list.txt:3:a241e27b-336e-44cc-9a52-6487131db63b ul7ra-verify 2026-08-22T04:43:31Z 1xyyz01, 1xyyz03, 1xyyz04, 1xyyz06 
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-info.txt:1:NAME:     ul7ra-verify
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-info.txt:2:ID:       a241e27b-336e-44cc-9a52-6487131db63b
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt:1:4:ingress:
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt:2:5:  - hostname: verify.omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/run.log:3:HOSTNAME=verify.omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/run.log:4:TUNNEL=ul7ra-verify
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/run.log:8:PASS: tool available: cloudflared
+products/ul7ra-verify/evidence/gate1/20260822T090210Z/run.log:15:PASS: Local UL7RA-VERIFY health
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/product.txt:1:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel.txt:1:ul7ra-verify
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/hostname.txt:1:verify.omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-cloudflared.txt:1:/data/data/com.termux/files/usr/bin/cloudflared
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/processes.txt:1:u0_a209  14729 13620  0  1970 pts/0    00:00:01 python3 /data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/app/server.py
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/processes.txt:2:u0_a209  14738 13620  1  1970 pts/0    00:00:31 cloudflared tunnel --config /data/data/com.termux/files/home/.cloudflared/config.yml run ul7ra-verify
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt:3:?? products/ul7ra-verify/deploy/
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt:4:?? products/ul7ra-verify/evidence/deployment_gate.json
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt:5:?? products/ul7ra-verify/evidence/deployment_watchdog.json
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt:6:?? products/ul7ra-verify/evidence/gate1/
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt:7:?? products/ul7ra-verify/evidence/public_probe.json
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt:1:4:ingress:
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt:2:5:  - hostname: verify.omnilucient.com
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/authoritative-before.txt:1:;; Connection to 108.162.194.68#53(108.162.194.68) for verify.omnilucient.com failed: timed out.
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/execution.log:9:[09:04:09Z] PASS :: tool=cloudflared
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/execution.log:16:[09:04:09Z] PASS :: UL7RA-VERIFY process detected
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/execution.log:17:[09:04:09Z] PASS :: cloudflared ul7ra-verify process detected
+products/ul7ra-verify/evidence/gate1/20260822T090408Z/execution.log:25:[09:04:30Z] FAIL :: Tunnel not found: ul7ra-verify
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:16:PASS TOOL cloudflared=/data/data/com.termux/files/usr/bin/cloudflared
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:37:?? products/ul7ra-verify/deploy/
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:38:?? products/ul7ra-verify/evidence/compiler-20260822T093730Z/
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:39:?? products/ul7ra-verify/evidence/deployment_gate.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:40:?? products/ul7ra-verify/evidence/deployment_watchdog.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:41:?? products/ul7ra-verify/evidence/gate1/
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:42:?? products/ul7ra-verify/evidence/public_probe.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:44:FOUND /data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:69:You can obtain more detailed information for each tunnel with `cloudflared tunnel info <name/uuid>`
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:71:a241e27b-336e-44cc-9a52-6487131db63b ul7ra-verify 2026-08-22T04:43:31Z 1xyyz04     
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:73:NAME:     ul7ra-verify
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:74:ID:       a241e27b-336e-44cc-9a52-6487131db63b
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:81:ingress:
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:82:  - hostname: verify.omnilucient.com
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:93:u0_a209  14729 13620  0  1970 pts/0    00:00:02 python3 /data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/app/server.py
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:94:u0_a209  14738 13620  0  1970 pts/0    00:00:46 cloudflared tunnel --config /data/data/com.termux/files/home/.cloudflared/config.yml run ul7ra-verify
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:119:dcc38696f87349a5271c84afe5f7ab65b95d8d03f31618d084c78fb28eb420f4  /data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/compiler-20260822T093730Z/local-artifact
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:165:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/PRODUCT_CONTRACT.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:166:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/app/server.py
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:167:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/closed_loop_report.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:168:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/config-test.yml
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:169:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/domain_response.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:170:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/live_deployment_report.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:171:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/local_origin.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:172:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/local_response.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:173:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/local_verify.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:174:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/promotion_state.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:175:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:176:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/omnilucient_public_route.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:177:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/promotion_state.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:178:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_health.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:179:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/watchdog.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:180:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/start_local.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:181:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/start_tunnel.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:182:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/stop_local.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:183:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/compiler-20260822T093730Z/local-verify.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:184:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/deployment_gate.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:185:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/deployment_watchdog.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:186:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/public_probe.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:187:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/trinity_binding.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:188:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/scripts/verify_product.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:189:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/tests/test_server.py
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:200:COMPONENT UL7RA-VERIFY
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:242:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/trinity_binding.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:272:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/trinity_binding.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:273:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/deployment_gate.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:274:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/deployment_watchdog.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:275:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/public_probe.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:276:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-git.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:277:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-gh.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:278:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-cloudflared.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:279:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-python3.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:280:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:281:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-dig.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:282:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-head.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:283:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:284:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-remotes.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:285:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-list.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:286:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-info.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:287:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:288:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:289:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:290:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:291:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:292:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/gate1-artifact.bin
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:293:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:294:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:295:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:296:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification-check.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:297:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/started.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:298:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/run.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:299:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-git.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:300:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-gh.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:301:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-cloudflared.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:302:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-python3.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:303:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:304:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-dig.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:305:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-head.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:306:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:307:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-remotes.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:308:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-list.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:309:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-info.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:310:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:311:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:312:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:313:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:314:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:315:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/gate1-artifact.bin
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:316:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:317:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:318:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:319:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification-check.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:320:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/started.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:321:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/run.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:322:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/root.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:323:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/product.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:324:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:325:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/hostname.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:326:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/origin.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:327:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-git.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:328:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-gh.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:329:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-cloudflared.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:330:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-python3.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:331:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:332:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-dig.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:333:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/processes.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:334:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-head.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:335:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:336:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-remotes.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:337:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel-list.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:338:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel-info.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:339:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:340:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.code
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:341:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.curl
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:342:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.headers
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:343:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:344:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/authoritative-before.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:345:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/public-before-1.1.1.1.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:346:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/01-dns/public-before-8.8.8.8.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:347:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/gate1-artifact.bin
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:348:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/expected-sha256.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:349:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/expected-bytes.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:350:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-code.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:351:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:352:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-headers.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:353:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-response.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:354:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-proof.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:355:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/execution.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:356:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/started.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:357:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:358:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/compiler-20260822T093730Z/local-artifact
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:359:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/compiler-20260822T093730Z/local-verify.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:360:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/promotion_state.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:361:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/promotion_state.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:368:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/deployment_watchdog.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:369:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/closed_loop.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:370:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/closed_loop_report.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:371:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/watchdog.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:372:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/watchdog.pid
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:373:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/watchdog.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:374:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:375:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:376:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:377:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:378:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/engine.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:379:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/promotion_state.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:380:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:424:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/tests/test_server.py
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:425:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/test_artifact
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:426:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/external_test_artifact
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:427:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/config-test.yml
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:428:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/scripts/verify_product.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:439:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/closed_loop.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:440:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/closed_loop_report.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:441:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflared.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:442:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/cloudflared.pid
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:443:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/config-test.yml
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:444:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/domain_response.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:445:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/external_test_artifact
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:446:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/final_tunnel_list.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:447:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/live_deployment_report.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:448:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/local_origin.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:449:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/local_response.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:450:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/local_verify.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:451:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:452:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/engine.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:453:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/promotion_state.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:454:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:455:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:456:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065805Z
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:457:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/multiloop/supervisor.sh.bak.20260822T065923Z
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:458:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/omnilucient_public_route.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:459:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/promotion_state.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:460:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_body.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:461:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_headers.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:462:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_health.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:463:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_probe_artifact
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:464:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/public_url
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:465:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/server.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:466:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/server.pid
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:467:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/test_artifact
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:468:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/tunnel_list.err
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:469:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/tunnel_list.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:470:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/ul7ra-start.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:471:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/watchdog.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:472:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/watchdog.pid
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:473:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/runtime/watchdog.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:474:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/start_local.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:475:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/start_tunnel.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:476:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/deploy/stop_local.sh
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:483:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/deployment_gate.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:484:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:485:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:486:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-head.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:487:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-remotes.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:488:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:489:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:490:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:491:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:492:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-cloudflared.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:493:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:494:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-dig.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:495:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-gh.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:496:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-git.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:497:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-python3.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:498:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-info.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:499:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-list.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:500:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/gate1-artifact.bin
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:501:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:502:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:503:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification-check.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:504:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:505:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/run.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:506:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090130Z/started.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:507:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:508:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:509:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-head.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:510:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-remotes.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:511:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:512:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:513:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:514:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:515:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-cloudflared.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:516:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:517:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-dig.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:518:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-gh.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:519:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-git.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:520:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-python3.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:521:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-info.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:522:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-list.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:523:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/gate1-artifact.bin
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:524:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-curl.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:525:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:526:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification-check.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:527:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:528:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/run.log
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:529:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090210Z/started.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:530:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-head.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:531:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-remotes.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:532:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:533:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/hostname.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:534:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.code
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:535:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.curl
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:536:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.headers
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:537:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/local-health.json
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:538:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/origin.txt
+products/ul7ra-verify/evidence/compiler-20260822T093730Z/production-compiler.log:539:/data/data/com.termux/files/home/UL7RAVERSE/products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/processes.txt
+
+=== LOCAL LISTENERS ===
+State Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+
+=== COMMON ORIGIN PORTS ===
+PORT_22=NOT_LISTENING
+PORT_80=NOT_LISTENING
+PORT_443=NOT_LISTENING
+PORT_3000=NOT_LISTENING
+PORT_5000=NOT_LISTENING
+PORT_8000=NOT_LISTENING
+PORT_8080=NOT_LISTENING
+PORT_8787=NOT_LISTENING
+
+=== DNS ===
+--- verify.omnilucient.com ---
+--- omnilucient.com ---
+172.67.163.235
+104.21.66.195

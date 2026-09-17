@@ -1,0 +1,10 @@
+which:
+/data/data/com.termux/files/usr/bin/copilot
+
+version:
+GitHub Copilot CLI: no platform package found. Reinstall with `npm install -g @github/copilot` to fetch the package for your platform.
+
+npm package:
+/data/data/com.termux/files/usr/lib
+└── @github/copilot@1.0.85
+

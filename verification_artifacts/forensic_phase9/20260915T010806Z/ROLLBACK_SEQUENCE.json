@@ -1,0 +1,2562 @@
+[
+  {
+    "sequence": 1,
+    "identity_item": "FORENSIC_PHASE0_20260909T095923Z/TEST_FILES.txt",
+    "rollback_item": "FORENSIC_PHASE0_20260909T095923Z/TEST_FILES.txt",
+    "aliases": [
+      "FORENSIC_PHASE0_20260909T100256Z/TEST_FILES.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 2,
+    "identity_item": "FORENSIC_PHASE0_20260909T095923Z/GIT_HISTORY.txt",
+    "rollback_item": "FORENSIC_PHASE0_20260909T095923Z/GIT_HISTORY.txt",
+    "aliases": [
+      "FORENSIC_PHASE0_20260909T100256Z/GIT_HISTORY.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 3,
+    "identity_item": "launch/CAMPAIGN_STATE.json",
+    "rollback_item": "launch/CAMPAIGN_STATE.json",
+    "aliases": [
+      "launch/FOLLOWUP_STATE.json",
+      "launch/PROSPECT_STATE.json",
+      "launch/REFERRAL_STATE.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 4,
+    "identity_item": "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.toml",
+    "rollback_item": "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.toml",
+    "aliases": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.toml"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 5,
+    "identity_item": "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.lock",
+    "rollback_item": "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.lock",
+    "aliases": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.lock"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 6,
+    "identity_item": "halo_twin_pair_v1/halo_twin_pair_v1/src/main.rs",
+    "rollback_item": "halo_twin_pair_v1/halo_twin_pair_v1/src/main.rs",
+    "aliases": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/main.rs"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 7,
+    "identity_item": "racing/accuracy_logs/status_20260909_041713.txt",
+    "rollback_item": "racing/accuracy_logs/status_20260909_041713.txt",
+    "aliases": [
+      "racing/accuracy_logs/status_20260909_041845.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 8,
+    "identity_item": ".ul7ra/funnel/AUTHORITATIVE_STATE.json",
+    "rollback_item": ".ul7ra/funnel/AUTHORITATIVE_STATE.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/reconciliation-persistent-20260823T174506Z/STATE.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 9,
+    "identity_item": ".ul7ra/protocol52/runs/20260825T162946Z/git-status.txt",
+    "rollback_item": ".ul7ra/protocol52/runs/20260825T162946Z/git-status.txt",
+    "aliases": [
+      ".ul7ra/protocol52/runs/20260825T163117Z/git-status.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 10,
+    "identity_item": ".ul7ra/protocol52/runs/20260825T162946Z/diff-stat.txt",
+    "rollback_item": ".ul7ra/protocol52/runs/20260825T162946Z/diff-stat.txt",
+    "aliases": [
+      ".ul7ra/protocol52/runs/20260825T163117Z/diff-stat.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 11,
+    "identity_item": "UL7RAFORGE/ul7rastack/live/state/live_status.json",
+    "rollback_item": "UL7RAFORGE/ul7rastack/live/state/live_status.json",
+    "aliases": [
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_status.after.json",
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_status.before.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 12,
+    "identity_item": "UL7RAFORGE/ul7rastack/security/state/live_security.json",
+    "rollback_item": "UL7RAFORGE/ul7rastack/security/state/live_security.json",
+    "aliases": [
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_security.after.json",
+      ".ul7ra/protocol52/runs/20260825T163117Z/live_security.before.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 13,
+    "identity_item": ".ul7ra/funnel/evidence/git_status.txt",
+    "rollback_item": ".ul7ra/funnel/evidence/git_status.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/20260823T042104Z/git_status.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 14,
+    "identity_item": ".ul7ra/funnel/evidence/UL7RA4ORGE_EXECUTION.json",
+    "rollback_item": ".ul7ra/funnel/evidence/UL7RA4ORGE_EXECUTION.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/20260823T042104Z/evidence/UL7RA4ORGE_EXECUTION.before-restart.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 15,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/registry.py",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/assurance/evidence/registry.py",
+    "aliases": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/registry.py",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/registry.py"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 16,
+    "identity_item": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/attest.py",
+    "rollback_item": ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/attest.py",
+    "aliases": [
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/attest.py"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 17,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/assurance/assurance_gates.py",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/assurance/assurance_gates.py",
+    "aliases": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/assurance_gates.py",
+      ".ul7ra/funnel/runs/registry-contract-backup-20260823T171241Z/assurance_gates.py"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 18,
+    "identity_item": ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/fail_closed.txt",
+    "rollback_item": ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/fail_closed.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/persistent-20260823T173703Z-2/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173711Z-3/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173720Z-4/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173729Z-5/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173738Z-6/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173747Z-7/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173756Z-8/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173805Z-9/fail_closed.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 19,
+    "identity_item": ".ul7ra/funnel/runs/autofunnel-20260823T173937Z/producers.txt",
+    "rollback_item": ".ul7ra/funnel/runs/autofunnel-20260823T173937Z/producers.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/blockers-20260823T173851Z/capabilities.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 20,
+    "identity_item": ".ul7ra/funnel/runs/test-20260823T174057Z/STATE.json",
+    "rollback_item": ".ul7ra/funnel/runs/test-20260823T174057Z/STATE.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/test-20260823T174057Z/STATE.final.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 21,
+    "identity_item": ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/diagnostic.json",
+    "rollback_item": ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/diagnostic.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/diagnostic.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/diagnostic.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 22,
+    "identity_item": ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/state.json",
+    "rollback_item": ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/state.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/evidence/baseline.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 23,
+    "identity_item": ".ul7ra/funnel/runs/health-20260823T191246Z/evidence/state.before.json",
+    "rollback_item": ".ul7ra/funnel/runs/health-20260823T191246Z/evidence/state.before.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/health-20260823T191246Z/evidence/state.snapshot.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 24,
+    "identity_item": ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/reconciliation.json",
+    "rollback_item": ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/reconciliation.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/reconciliation.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 25,
+    "identity_item": ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/git_status.txt",
+    "rollback_item": ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/git_status.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/git_status.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 26,
+    "identity_item": ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/directory_contract.txt",
+    "rollback_item": ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/directory_contract.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/directory_contract.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 27,
+    "identity_item": ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/fail_closed.json",
+    "rollback_item": ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/fail_closed.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/fail_closed.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/fail_closed.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 28,
+    "identity_item": ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json",
+    "rollback_item": ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-1.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-2.json",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/binding-final.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 29,
+    "identity_item": ".ul7ra/funnel/runs/20260823T162913Z/evidence/GIT_STATUS.txt",
+    "rollback_item": ".ul7ra/funnel/runs/20260823T162913Z/evidence/GIT_STATUS.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_STATUS.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 30,
+    "identity_item": "UL7RAFORGE/ul7rastack/security/containment/state.json",
+    "rollback_item": "UL7RAFORGE/ul7rastack/security/containment/state.json",
+    "aliases": [
+      "UL7RAFORGE/ul7rastack/security/evidence/latest_containment.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 31,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/hyperquantum/state/current_hyperquantum_result.json",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/hyperquantum/state/current_hyperquantum_result.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/hyperquantum/state/20260813T214435Z/hyperquantum_result.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 32,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014655Z/evidence_consumed_record.json",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014655Z/evidence_consumed_record.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014832Z/evidence_consumed_record.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 33,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015125Z/evidence_consumed_record.json",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015125Z/evidence_consumed_record.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015738Z/evidence_consumed_record.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015817Z/evidence_consumed_record.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 34,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/reproducibility.json",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/reproducibility.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/reproducibility.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 35,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/purple/status.json",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/purple/status.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/purple/status.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 36,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_status.txt",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_status.txt",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/git_status.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 37,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_commit.txt",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_commit.txt",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/git_commit.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 38,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/result.json",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/result.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/result.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 39,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/result.json",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/result.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/result.json",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/result.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 40,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/result.json",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/result.json",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/result.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 41,
+    "identity_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_tags.txt",
+    "rollback_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_tags.txt",
+    "aliases": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/blue_observations.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/blue_observations.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/blue_observations.txt",
+      "racing/__init__.py",
+      "racing/value/__init__.py",
+      "racing/schema/__init__.py",
+      "lucideploy/cli/__init__.py",
+      "lucideploy/core/__init__.py",
+      "lucideploy/gates/__init__.py",
+      "racing/governance/__init__.py",
+      "racing/probability/__init__.py",
+      "lucideploy/adapters/__init__.py",
+      "FORENSIC_PHASE0_20260909T095923Z/DIFF_STAT.txt",
+      "FORENSIC_PHASE0_20260909T095923Z/WORKTREE_DIFF.txt",
+      "products/ul7ra-verify/deploy/runtime/public_health.json",
+      ".ul7ra/funnel/runs/reconcile-20260823T173412Z/evidence/compile.txt",
+      "products/ul7ra-verify/evidence/multilayer/20260822T211824Z/origin.json",
+      ".ul7ra/funnel/runs/continuous-test-20260823T174543Z/evidence/compile.txt",
+      ".ul7ra/funnel/runs/continuous-test-20260823T174622Z/evidence/compile.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/dns.txt",
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/port.txt",
+      "products/ul7ra-verify/evidence/execution/20260823T013955Z/origin/verify.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/substrate_compile.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/route_status.txt",
+      ".ul7ra/funnel/runs/continuous-test-20260823T174543Z/evidence/reconciliation.json",
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/https_headers.txt",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_before.txt",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_google.txt",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_system.txt",
+      ".ul7ra/funnel/runs/authority-contract-20260823T174337Z/evidence/control_sets.json",
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/processes.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-remotes.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-remotes.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-remotes.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel-info.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel-list.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/https_headers.txt",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_cloudflare.txt",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/public_headers.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-curl.txt",
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/watchdog_start.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-curl.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_process.txt",
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_cname.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/public_health_headers.txt",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/route_status.txt",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflared_process.txt",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/cloudflare_env_names.txt",
+      "verification_artifacts/recovery/20260911T212523Z/a.txt",
+      "verification_artifacts/deployment/20260911T203008Z/dns.txt",
+      "verification_artifacts/recovery/20260911T212523Z/cname.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V03.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V04.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V05.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V07.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V08.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V09.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V10.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V11.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V12.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V15.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V18.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V19.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V20.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V26.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V28.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V32.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V33.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V34.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V35.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V36.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V37.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V38.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V39.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V40.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V42.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V43.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V44.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V45.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V46.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V47.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V48.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V49.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/a.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/AUTH_TXT_NS1.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/AUTH_TXT_NS2.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/PUBLIC_TXT_1.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/PUBLIC_TXT_2.txt",
+      "verification_artifacts/final_public_gate/20260913T080226Z/dns_after.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/dns_after.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/google_a.txt",
+      "verification_artifacts/final_public_gate/20260913T080226Z/dns_before.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/dns_before.txt",
+      "verification_artifacts/dns_repair_execute/20260912T031345Z/zone_error.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/AUTH_CNAME_NS1.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/AUTH_CNAME_NS2.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/PUBLIC_CNAME_1.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/PUBLIC_CNAME_2.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/https.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/origin_health.json",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/cname.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/dns_route.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/google_aaaa.txt",
+      "verification_artifacts/final_public_gate/20260913T080226Z/public_health.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/public_health.txt",
+      "verification_artifacts/deployment/20260911T203008Z/cloudflared_processes.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/cloudflare_a.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/google_cname.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/public_cname.txt",
+      "verification_artifacts/final_public_gate/20260913T080226Z/public_headers.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/public_headers.txt",
+      "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/1111_a.txt",
+      "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/8888_a.txt",
+      "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/deny_stdout.txt",
+      "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/allow_stderr.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/cloudflare_aaaa.txt",
+      "verification_artifacts/origin_runtime/VERIFY_20260911T200115Z/FINAL_DECISION.md",
+      "verification_artifacts/origin_runtime/VERIFY_20260911T200700Z/FINAL_DECISION.md",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/cloudflare_cname.txt",
+      "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/1111_cname.txt",
+      "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/8888_cname.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/route_status.txt",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/curl_error.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/tunnel_process_before.txt",
+      "verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/repository_candidates.txt",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/public-repair-20260911T232849Z/local_error.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_10.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 42,
+    "identity_item": "FORENSIC_PHASE0_20260909T095923Z/PYTHON_VERSION.txt",
+    "rollback_item": "FORENSIC_PHASE0_20260909T095923Z/PYTHON_VERSION.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-python3-version.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 43,
+    "identity_item": "ul7ra_unified/state/LATEST_UNIFICATION.json",
+    "rollback_item": "ul7ra_unified/state/LATEST_UNIFICATION.json",
+    "aliases": [
+      "verification_artifacts/unification/20260913T154526Z/UNIFICATION_MANIFEST.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 44,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/head.txt",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/head.txt",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/git_head.txt",
+      "verification_artifacts/unification/20260913T154526Z/GIT_HEAD.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/evidence/V50.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/GIT_HEAD.txt",
+      "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_head.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 45,
+    "identity_item": "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/DOMAIN_INVENTORY.txt",
+    "rollback_item": "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/DOMAIN_INVENTORY.txt",
+    "aliases": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/DOMAIN_INVENTORY.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 46,
+    "identity_item": "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/ENTRYPOINT_INVENTORY.txt",
+    "rollback_item": "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/ENTRYPOINT_INVENTORY.txt",
+    "aliases": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/ENTRYPOINT_INVENTORY.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 47,
+    "identity_item": "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/TEST_INVENTORY.txt",
+    "rollback_item": "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/TEST_INVENTORY.txt",
+    "aliases": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/TEST_INVENTORY.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 48,
+    "identity_item": "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/UNCONNECTED_CANDIDATES.txt",
+    "rollback_item": "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/UNCONNECTED_CANDIDATES.txt",
+    "aliases": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/UNCONNECTED_CANDIDATES.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 49,
+    "identity_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_branch.txt",
+    "rollback_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_branch.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/20260823T042104Z/git_branch.txt",
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_BRANCH.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/GIT_BRANCH.txt",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/git_branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/git_branch.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/git_branch.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/git_branch.txt",
+      "verification_artifacts/unification/20260913T154526Z/GIT_BRANCH.txt",
+      "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_branch.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 50,
+    "identity_item": "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/ingress.txt",
+    "rollback_item": "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/ingress.txt",
+    "aliases": [
+      "verification_artifacts/final_public_gate/20260913T080226Z/ingress_validate.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/ingress_validate.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 51,
+    "identity_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_tunnels.txt",
+    "rollback_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_tunnels.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tunnel-list.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_list.txt",
+      "verification_artifacts/recovery/20260911T212523Z/tunnel_list.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/tunnel_list.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/tunnel_list.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/tunnel_list.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/CLOUDFLARED_TUNNEL_LIST.txt",
+      "verification_artifacts/omnipulse_revenue/20260912T234003Z/state/cloudflared_tunnels.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 52,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/health_before.json",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/health_before.json",
+    "aliases": [
+      "verification_artifacts/recovery/20260911T212523Z/origin_health.json",
+      "verification_artifacts/elite_forensic/20260912T031215Z/UL7RA_LOCAL_HEALTH.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/origin_health.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 53,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_ns.txt",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_ns.txt",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/nameservers.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/PARENT_NS.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/authoritative_ns.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/dig_ns.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/nameservers.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 54,
+    "identity_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_info.txt",
+    "rollback_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_info.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tunnel-info.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_info.txt",
+      "verification_artifacts/recovery/20260911T212523Z/tunnel_info_before.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/tunnel_info_before.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/tunnel_info.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/tunnel_info.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/tunnel_info.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/CLOUDFLARED_TUNNEL_INFO.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/tunnel_info_before.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 55,
+    "identity_item": "verification_artifacts/elite_forensic/20260912T031215Z/LUCIDEPLOY_TESTS.txt",
+    "rollback_item": "verification_artifacts/elite_forensic/20260912T031215Z/LUCIDEPLOY_TESTS.txt",
+    "aliases": [
+      "verification_artifacts/western_fair_convergence/20260911T235723Z/luci_tests.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 56,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_ns.txt",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_ns.txt",
+    "aliases": [
+      "verification_artifacts/domain_control/20260912T000358Z/authoritative_ns.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 57,
+    "identity_item": "verification_artifacts/domain_control/20260912T000358Z/tunnels.txt",
+    "rollback_item": "verification_artifacts/domain_control/20260912T000358Z/tunnels.txt",
+    "aliases": [
+      "verification_artifacts/domain_control/20260912T000546Z/tunnels.txt",
+      "verification_artifacts/omnipulse/live/20260911T231820Z/tunnel_list.txt",
+      "verification_artifacts/omnipulse/live-repair/20260911T231923Z/tunnel_list.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 58,
+    "identity_item": "verification_artifacts/dns_reconcile/20260911T235554Z/tunnel_info.txt",
+    "rollback_item": "verification_artifacts/dns_reconcile/20260911T235554Z/tunnel_info.txt",
+    "aliases": [
+      "verification_artifacts/domain_control/20260912T000358Z/tunnel_info.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/tunnel_info.txt",
+      "verification_artifacts/recovery/20260911T212523Z/tunnel_info_after.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/tunnel_info.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/tunnel_info.txt",
+      "verification_artifacts/western_fair_convergence/20260911T235723Z/tunnel.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/tunnel_info_after.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/tunnel_info_before.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 59,
+    "identity_item": "verification_artifacts/dns_authority_final/20260913T080320Z/public_soa.txt",
+    "rollback_item": "verification_artifacts/dns_authority_final/20260913T080320Z/public_soa.txt",
+    "aliases": [
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/google_a.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 60,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/google_dns.txt",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/google_dns.txt",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cname_system.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_1.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_2.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_3.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_4.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_5.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_6.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_7.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_8.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_9.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_1.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_2.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_3.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_4.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_5.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_6.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_10.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_11.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_12.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/dns.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/verify_nslookup.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 61,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_version.txt",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_version.txt",
+    "aliases": [
+      "verification_artifacts/deployment/20260911T203008Z/cloudflared_version.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/cloudflared_version.txt",
+      "verification_artifacts/omnipulse/live-repair/20260911T231923Z/cloudflared_version.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/cloudflared_version.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 62,
+    "identity_item": "verification_artifacts/omnipulse/20260911T231536Z/app/data/events.json",
+    "rollback_item": "verification_artifacts/omnipulse/20260911T231536Z/app/data/events.json",
+    "aliases": [
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/events.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 63,
+    "identity_item": "verification_artifacts/omnipulse/20260911T231536Z/app/data/proof.json",
+    "rollback_item": "verification_artifacts/omnipulse/20260911T231536Z/app/data/proof.json",
+    "aliases": [
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/proof.json",
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/claims.json",
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/shares.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/claims.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/shares.json",
+      "verification_artifacts/omnipulse/20260911T231536Z/app/data/experiences.json",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/data/experiences.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 64,
+    "identity_item": "verification_artifacts/orchestrator/20260911T212831Z/state/PROOF_STATE.json",
+    "rollback_item": "verification_artifacts/orchestrator/20260911T212831Z/state/PROOF_STATE.json",
+    "aliases": [
+      "verification_artifacts/orchestrator/20260911T212831Z/state/PROOF_STATE_round_248.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 65,
+    "identity_item": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/stack_health.json",
+    "rollback_item": "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/stack_health.json",
+    "aliases": [
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/origin_health.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 66,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/public_https_headers.txt",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/public_https_headers.txt",
+    "aliases": [
+      "verification_artifacts/recovery/20260911T212523Z/https_health.json",
+      "verification_artifacts/deployment/20260911T203008Z/https_headers.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_1.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_2.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_3.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_4.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_5.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_6.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_7.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_8.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_9.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/https_10.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/public_health.json",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/https_headers.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/external_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/external_health.json",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/external_health.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 67,
+    "identity_item": "verification_artifacts/one_convergence/20260911T212038Z/round_2/origin_health.json",
+    "rollback_item": "verification_artifacts/one_convergence/20260911T212038Z/round_2/origin_health.json",
+    "aliases": [
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/origin_health.json",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/origin_health.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 68,
+    "identity_item": "verification_artifacts/one_convergence/20260911T212038Z/round_12/origin_health.json",
+    "rollback_item": "verification_artifacts/one_convergence/20260911T212038Z/round_12/origin_health.json",
+    "aliases": [
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/origin_health.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 69,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T204207Z/selftest.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T204207Z/selftest.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T205054Z/selftest.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 70,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_1.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_1.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_2.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_3.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_4.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_5.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_6.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_7.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_8.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/deploy/luci_deploy_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_1.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_2.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_3.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_4.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_5.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_6.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_7.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_8.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_10.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_11.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_12.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_13.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_14.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/deploy/luci_deploy_15.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_1.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_2.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_3.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_4.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_5.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_6.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_7.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_8.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_1.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_2.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_3.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_4.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_5.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_6.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_7.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_8.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_10.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_11.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_12.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_13.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_14.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_15.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_1.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_2.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_3.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_4.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_5.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_6.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_7.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_8.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/test/luci_test_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_1.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_2.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_3.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_4.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_5.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_6.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_7.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_8.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_10.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_11.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_12.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_13.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_14.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/test/luci_test_15.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 71,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_1/ROUND_DECISION.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_1/ROUND_DECISION.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_1/ROUND_DECISION.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 72,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_2/deployment_state.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_2/deployment_state.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_3/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_4/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_5/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_6/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_7/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_8/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_9/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_10/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_11/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_12/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_13/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_14/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_15/deployment_state.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 73,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_2/ROUND_DECISION.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_2/ROUND_DECISION.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_2/ROUND_DECISION.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 74,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_3/ROUND_DECISION.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_3/ROUND_DECISION.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_3/ROUND_DECISION.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 75,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_4/ROUND_DECISION.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_4/ROUND_DECISION.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_4/ROUND_DECISION.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 76,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_5/ROUND_DECISION.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_5/ROUND_DECISION.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_5/ROUND_DECISION.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 77,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_6/ROUND_DECISION.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_6/ROUND_DECISION.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_6/ROUND_DECISION.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 78,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_7/ROUND_DECISION.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_7/ROUND_DECISION.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_7/ROUND_DECISION.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 79,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_8/ROUND_DECISION.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_8/ROUND_DECISION.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_8/ROUND_DECISION.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 80,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_9/ROUND_DECISION.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_9/ROUND_DECISION.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_9/ROUND_DECISION.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 81,
+    "identity_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_2/deployment_state.txt",
+    "rollback_item": "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_2/deployment_state.txt",
+    "aliases": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_3/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_4/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_5/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_6/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_7/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_8/deployment_state.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_9/deployment_state.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 82,
+    "identity_item": "verification_artifacts/origin_runtime/20260911T200007Z/health.json",
+    "rollback_item": "verification_artifacts/origin_runtime/20260911T200007Z/health.json",
+    "aliases": [
+      "verification_artifacts/origin_runtime/START_20260911T200939Z/health.json",
+      "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/HEALTH.json",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/health.json",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/origin_health.json",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/origin_health.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 83,
+    "identity_item": "verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json",
+    "rollback_item": "verification_artifacts/origin_runtime/START_20260911T200939Z/selftest.json",
+    "aliases": [
+      "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/SELFTEST.json",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/selftest.json",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/origin_selftest.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 84,
+    "identity_item": "verification_artifacts/origin_runtime/START_20260911T200939Z/integrity.json",
+    "rollback_item": "verification_artifacts/origin_runtime/START_20260911T200939Z/integrity.json",
+    "aliases": [
+      "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/INTEGRITY.json",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/integrity.json",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/origin_integrity.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 85,
+    "identity_item": "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/authoritative_a.txt",
+    "rollback_item": "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/authoritative_a.txt",
+    "aliases": [
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/authoritative_cname.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 86,
+    "identity_item": "UL7RAFORGE/v10/ul7rabridge/Cargo.toml",
+    "rollback_item": "UL7RAFORGE/v10/ul7rabridge/Cargo.toml",
+    "aliases": [
+      "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/Cargo.toml"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 87,
+    "identity_item": "UL7RAFORGE/v10/ul7rabridge/src/main.rs",
+    "rollback_item": "UL7RAFORGE/v10/ul7rabridge/src/main.rs",
+    "aliases": [
+      "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/main.rs"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 88,
+    "identity_item": "UL7RAFORGE/v10/ul7rastack/veriscore/state/veriscore.json",
+    "rollback_item": "UL7RAFORGE/v10/ul7rastack/veriscore/state/veriscore.json",
+    "aliases": [
+      "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/veriscore.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 89,
+    "identity_item": "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/ORIGIN_CHECK.json",
+    "rollback_item": "verification_artifacts/agent_gateway/VERIFY_20260911T201105Z/ORIGIN_CHECK.json",
+    "aliases": [
+      "verification_artifacts/origin_runtime/VERIFY_FINAL_20260911T200739Z/RESULTS.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 90,
+    "identity_item": "verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/GIT_STATUS.txt",
+    "rollback_item": "verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/GIT_STATUS.txt",
+    "aliases": [
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/GIT_STATUS.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 91,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/zone.json",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/zone.json",
+    "aliases": [
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/NODE_FILES.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 92,
+    "identity_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cwd.txt",
+    "rollback_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cwd.txt",
+    "aliases": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_root.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/root.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 93,
+    "identity_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_head.txt",
+    "rollback_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_head.txt",
+    "aliases": [
+      ".ul7ra/funnel/runs/20260823T042104Z/git_commit.txt",
+      "products/ul7ra-verify/evidence/execution/git_commit.txt",
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_HEAD.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/GIT_HEAD.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173703Z-2/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173711Z-3/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173720Z-4/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173729Z-5/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173738Z-6/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173747Z-7/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173756Z-8/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173805Z-9/git_head.txt",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/authority-test-20260823T172002Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/git_head.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-head.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-head.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-head.txt",
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-head.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 94,
+    "identity_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_version.txt",
+    "rollback_item": ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_version.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-cloudflared-version.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 95,
+    "identity_item": ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/reconciliation.json",
+    "rollback_item": ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/reconciliation.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/continuous-authority-20260823T175536Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191211Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191247Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191347Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191441Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191444Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191446Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191553Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191645Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191648Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191741Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191745Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191810Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191813Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191907Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191910Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191913Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191915Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191918Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191946Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191949Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191952Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191955Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191958Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T192059Z/evidence/reconciliation.json",
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/reconciliation.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 96,
+    "identity_item": ".ul7ra/funnel/runs/diagnostic-20260823T175606Z/evidence/inventory.json",
+    "rollback_item": ".ul7ra/funnel/runs/diagnostic-20260823T175606Z/evidence/inventory.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T191139Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/evidence/inventory.json",
+      ".ul7ra/funnel/runs/authority-final-20260823T175436Z/evidence/discovery.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 97,
+    "identity_item": ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/authority_reconciliation.json",
+    "rollback_item": ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/authority_reconciliation.json",
+    "aliases": [
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/authority_reconciliation.json",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/authority_reconciliation.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 98,
+    "identity_item": "products/ul7ra-verify/scripts/verify_product.sh",
+    "rollback_item": "products/ul7ra-verify/scripts/verify_product.sh",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_20260909T014036Z/verify_product_script.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 99,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/local_origin.json",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/local_origin.json",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/local_response.json",
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/root.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 100,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/public_body.txt",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/public_body.txt",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/domain_response.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 101,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/tunnel_list.txt",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/tunnel_list.txt",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/final_tunnel_list.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 102,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/config-test.yml",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/config-test.yml",
+    "aliases": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/cloudflared-config.yml",
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflared_config.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 103,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/source_hashes.txt",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/source_hashes.txt",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/source_hashes.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/source_hashes_after.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/source_hashes_before.txt",
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/final_source_hashes.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 104,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_config.txt",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/config_redacted.yml"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 105,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/public_dns.json",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/public_dns.json",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/a_final.json",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/a_before.json",
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflare_dns.json",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_a.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 106,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_info.txt",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_info.txt",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_info.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 107,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_1111.json",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_1111.json",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_before.json",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/public_cname.json",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflare_cname.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 108,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_1.json",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_1.json",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_2.json",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_4.json",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/cname_check_6.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 109,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_a.json",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_a.json",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_cname.json",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/authoritative_cname.json",
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/authoritative_cname_after.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 110,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_google.json",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/public_google.json",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/google_cname_after.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 111,
+    "identity_item": "products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/zone.json",
+    "rollback_item": "products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/zone.json",
+    "aliases": [
+      "products/ul7ra-verify/deploy/runtime/cf_api_diag_20260909T022339Z/token_verify.json"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 112,
+    "identity_item": "products/ul7ra-verify/evidence/execution/local_sha256.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/execution/local_sha256.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/execution/expected_sha256.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 113,
+    "identity_item": "products/ul7ra-verify/evidence/execution/local_bytes.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/execution/local_bytes.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/execution/expected_bytes.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 114,
+    "identity_item": "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-status-after.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-status-after.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-status-before.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 115,
+    "identity_item": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-git.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-git.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-git.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-git.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-git.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 116,
+    "identity_item": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-gh.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-gh.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-gh.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-gh.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-gh.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 117,
+    "identity_item": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-cloudflared.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-cloudflared.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-cloudflared.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-cloudflared.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-cloudflared.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 118,
+    "identity_item": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-python3.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-python3.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-python3.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-python3.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-python3.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 119,
+    "identity_item": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-curl.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-curl.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-curl.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 120,
+    "identity_item": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-dig.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-dig.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-dig.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-dig.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-dig.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 121,
+    "identity_item": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 122,
+    "identity_item": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 123,
+    "identity_item": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-proof.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-proof.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification-check.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification-check.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 124,
+    "identity_item": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-list.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-list.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-list.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 125,
+    "identity_item": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-info.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-info.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-info.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  },
+  {
+    "sequence": 126,
+    "identity_item": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-status.txt",
+    "rollback_item": "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-status.txt",
+    "aliases": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-status.txt"
+    ],
+    "reversible": true,
+    "evidence": [
+      "PHASE7:CONSOLIDATION_SIMULATION.json",
+      "PHASE8:IDENTITY_REHEARSAL.json",
+      "PHASE8:ROLLBACK_MAP.json"
+    ],
+    "rollback_gate": "required",
+    "execution": "NOT_AUTHORIZED"
+  }
+]

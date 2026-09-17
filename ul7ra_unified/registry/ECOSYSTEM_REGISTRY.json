@@ -1,0 +1,89 @@
+{
+  "schema": "UL7RAVERSE_ECOSYSTEM_REGISTRY/v1",
+
+  "root": "UL7RAVERSE_GROUNDED_CENTER",
+
+  "organization": "OmniLucient Industries",
+
+  "category": "Sovereign Intelligence Systems",
+
+  "ecosystem": "UL7RAVERSE",
+
+  "public_worlds": [
+    "UL7RAVERSE_HOME",
+    "UL7RAVERSE_CREATOR",
+    "UL7RAVERSE_BUSINESS",
+    "UL7RAVERSE_ENTERPRISE",
+    "UL7RAVERSE_COMMUNITY"
+  ],
+
+  "core_systems": [
+    "UL7RAPROOF",
+    "OmniPulse",
+    "LUCI",
+    "Purple Team",
+    "UL7RA_FORECAST"
+  ],
+
+  "membership": [
+    "UL7RAPASS"
+  ],
+
+  "commerce": [
+    "UL7RA_MARKET"
+  ],
+
+  "creator_systems": [
+    "MAC9RECORDS",
+    "GQ FADER",
+    "Track Passport",
+    "Creator Vault",
+    "Creator Marketplace"
+  ],
+
+  "internal_infrastructure": [
+    "UL7RA4ORGE",
+    "UL7RABRIDGE",
+    "UL7RASTACK",
+    "NODE9",
+    "TRINITY CORE",
+    "SAIOS",
+    "OmniShield",
+    "OmniSentinel",
+    "LuciCore",
+    "LuciVault",
+    "LuciDeploy",
+    "Proof State Engine",
+    "FCOS"
+  ],
+
+  "governance": {
+    "Git": "HISTORY",
+    "Ledger": "TRUTH",
+    "QS": "EVALUATION",
+    "Governance": "AUTHORITY"
+  },
+
+  "constitutional_rules": [
+    "UNVERIFIED != PASS",
+    "UNKNOWN != PASS",
+    "NO PROOF -> NO TRUSTED ACTION",
+    "NO SELF-CERTIFICATION",
+    "FAIL CLOSED",
+    "COMMERCE != PROOF",
+    "INTELLIGENCE RECOMMENDS — EVIDENCE DECIDES",
+    "UL7RAVERSE MUST UL7RAPROOF ITSELF"
+  ],
+
+  "universal_loop": [
+    "SEE",
+    "UNDERSTAND",
+    "FORECAST",
+    "SOLVE",
+    "PROVE",
+    "MONITOR",
+    "ATTACK",
+    "IMPROVE",
+    "REPEAT"
+  ]
+}

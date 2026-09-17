@@ -1,0 +1,176 @@
+=== GIT HEAD ===
+63c1d6080cc91f100f2f1c37ee22706ae96c93d4
+ae42587f03e52b04b3a1baf622bc96362e0f804d
+
+=== HISTORICAL HASH REFERENCES ===
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:144:HASH=bf7fa909192ce09570f022697e1f3fce30446dbe641cc26dc92f6b934ac0baa1
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:147:bf7fa909192ce09570f022697e1f3fce30446dbe641cc26dc92f6b934ac0baa1 missing
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:151:HASH=368124c56c0dbce09995faec27f129d8200f1e4da4a068a3d82cca9ae8ab84d9
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:154:368124c56c0dbce09995faec27f129d8200f1e4da4a068a3d82cca9ae8ab84d9 missing
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:158:HASH=610865bfe9e9693d5d6b5c4d9f0708a105948168a3c14419a9987deb5ef636df
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:161:610865bfe9e9693d5d6b5c4d9f0708a105948168a3c14419a9987deb5ef636df missing
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:165:HASH=9085d5c7e8872f155efc23e3b76f5ce7bc7d88f77b5b5b90fe6990727615b909
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:168:9085d5c7e8872f155efc23e3b76f5ce7bc7d88f77b5b5b90fe6990727615b909 missing
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:179:HASH=d31b7947300893fec739dc0cbb5054f535a26273cdf1daf0debb31d6524599b7
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:182:d31b7947300893fec739dc0cbb5054f535a26273cdf1daf0debb31d6524599b7 missing
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:186:HASH=7b51f575fff07fc5c68dbd96d844e8f32990c025b1ec284ed905e8ce77933f37
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:189:7b51f575fff07fc5c68dbd96d844e8f32990c025b1ec284ed905e8ce77933f37 missing
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:193:HASH=51a4fb5eae5efb72a18b65b09d8c439809362223f90dbeb88e2865655a3b399d
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:196:51a4fb5eae5efb72a18b65b09d8c439809362223f90dbeb88e2865655a3b399d missing
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:1832:HASH=368124c56c0dbce09995faec27f129d8200f1e4da4a068a3d82cca9ae8ab84d9
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:1837:HASH=368124c56c0dbce09995faec27f129d8200f1e4da4a068a3d82cca9ae8ab84d9
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:1842:HASH=9085d5c7e8872f155efc23e3b76f5ce7bc7d88f77b5b5b90fe6990727615b909
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:1847:HASH=d31b7947300893fec739dc0cbb5054f535a26273cdf1daf0debb31d6524599b7
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:1852:HASH=7b51f575fff07fc5c68dbd96d844e8f32990c025b1ec284ed905e8ce77933f37
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:1857:HASH=51a4fb5eae5efb72a18b65b09d8c439809362223f90dbeb88e2865655a3b399d
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T065545Z_ARTIFACT_GIT_CORRELATION.txt:17:### HASH=bf7fa909192ce09570f022697e1f3fce30446dbe641cc26dc92f6b934ac0baa1
+
+=== VERSION REFERENCES ===
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:1831:TARGET=v0.6.4_source
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:1836:TARGET=v0.6.5_source
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:1841:TARGET=v0.6.6_source
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:1846:TARGET=v0.8.0_source
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/FINAL_CHAIN_RECONCILIATION.txt:1851:TARGET=v0.8.0_artifact
+
+=== EXISTING LINEAGE EVIDENCE ===
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/state/evidence_registry.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/build/cheetah.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/evidence/build/reproducible_build_inputs.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S8/manifest.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/evidence.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/source_manifest.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/source_manifest.sha256.digest
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/build_a/artifact.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/build_b/artifact.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/source_manifest.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/source_manifest.sha256.digest
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/build_a/artifact.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/build_b/artifact.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/s8_baseline.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/source.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/source.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/source.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/source.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/blue/20260814T011950Z/evidence.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/blue/20260814T012133Z/evidence.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014655Z/evidence_consumed_record.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T014832Z/evidence_consumed_record.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015125Z/evidence_consumed_record.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015738Z/evidence_consumed_record.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015817Z/evidence_consumed_record.json
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020543Z/verification_record.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020632Z/verification_record.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/UL7RAFORGE/v10/ul7rabridge/ghost/templates/manifest.json
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/CHECKPOINT.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260909T121541Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260909T121623Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260909T121910Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260909T121918Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260909T122218Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260909T122230Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260909T122316Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260909T122451Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260910T143921Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260910T144035Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260910T144326Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260910T145430Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260910T160130Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260911T160602Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260911T185335Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260911T190645Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260911T190904Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260911T191451Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260911T193428Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260913T002122Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260913T002253Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/continue_runs/20260913T002440Z/EVIDENCE.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_readiness/20260910T202155Z/membership_readiness_v2.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/membership_forensic/20260910T202254Z/REPORT.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/current_evidence.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/lineage_refs.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/lineage_matches.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/ul7rabridge/v10_assurance_recovery_20260911T201934Z/manifest_matches.txt
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/omnipulse/force-live/20260911T232304Z/source.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/omnipulse/force-live/20260911T232559Z/source.sha256
+/data/data/com.termux/files/home/UL7RAVERSE/verification_artifacts/final_chain_reconciliation/20260915T061458Z/lineage_mentions.txt
+
+=== RECENT RELEVANT GIT HISTORY ===
+
+=== PRIOR RECONCILIATION CROSS-CHECK ===
+./verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/lineage_matches.txt
+./verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/lineage_refs.txt
+./verification_artifacts/ul7rabridge/v10_assurance_recovery_20260911T201934Z/manifest_matches.txt
+./verification_artifacts/ul7rapass/20260910T144312Z/EVIDENCE.json
+./verification_artifacts/western_fair_convergence/20260911T235723Z/verify_health.json
+./verify_omnipulse_public.sh
+
+=== GIT TAG/VERSION SEARCH ===
+
+--- VERSION 0.6.4 ---
+
+--- VERSION 0.6.5 ---
+
+--- VERSION 0.6.6 ---
+
+--- VERSION 0.6.7 ---
+
+--- VERSION 0.7.1 ---
+
+--- VERSION 0.8.0 ---
+
+--- VERSION 151 ---
+
+=== RECENT HISTORY ===
+63c1d6080cc91f100f2f1c37ee22706ae96c93d4|TREE=ae42587f03e52b04b3a1baf622bc96362e0f804d|2026-09-04 23:44:41 -0400|HEAD -> master|UL7RAFORGE bootstrap
+2a2496bc48d6beaf98a26e4239e96d70f66ed2f4|TREE=0e28d800f03bceb198a2b8087e772e0d1ca173fb|2026-08-20 02:02:24 -0400|origin/master, origin/HEAD|Add UL7RA Verify commercial product
+d6eb87939a79b5ad8cc6eb1e628d344206b6933c|TREE=52adde4bdb0d7484a82e2603ef4ad42f5b0f7e0b|2026-08-18 05:01:31 -0400||UL7RAFORGE V10 assurance baseline: verified state paths and independent verifier pass
+
+=== COMMIT/TREE HASH CROSS-CHECK ===
+COMMITS_SCANNED=3
+
+TARGET=v0.6.4_source
+HASH=368124c56c0dbce09995faec27f129d8200f1e4da4a068a3d82cca9ae8ab84d9
+COMMIT_EXACT_MATCH=0
+TREE_EXACT_MATCH=0
+
+TARGET=v0.6.5_source
+HASH=368124c56c0dbce09995faec27f129d8200f1e4da4a068a3d82cca9ae8ab84d9
+COMMIT_EXACT_MATCH=0
+TREE_EXACT_MATCH=0
+
+TARGET=v0.6.6_source
+HASH=9085d5c7e8872f155efc23e3b76f5ce7bc7d88f77b5b5b90fe6990727615b909
+COMMIT_EXACT_MATCH=0
+TREE_EXACT_MATCH=0
+
+TARGET=v0.8.0_source
+HASH=d31b7947300893fec739dc0cbb5054f535a26273cdf1daf0debb31d6524599b7
+COMMIT_EXACT_MATCH=0
+TREE_EXACT_MATCH=0
+
+TARGET=v0.8.0_artifact
+HASH=7b51f575fff07fc5c68dbd96d844e8f32990c025b1ec284ed905e8ce77933f37
+COMMIT_EXACT_MATCH=0
+TREE_EXACT_MATCH=0
+
+TARGET=v151_baseline
+HASH=51a4fb5eae5efb72a18b65b09d8c439809362223f90dbeb88e2865655a3b399d
+COMMIT_EXACT_MATCH=0
+TREE_EXACT_MATCH=0
+
+=== DETERMINISTIC SOURCE-TREE HASHES ===
+CURRENT_SOURCE_TREE_SHA256=172a61cc9bf8cd757e29b71080772643aed9c0fd297b9603529939a96566d3d1
+
+=== MANIFEST CONTENT HASH EXTRACTION ===
+
+=== ARCHIVE / BACKUP HASH INVENTORY ===
+./UL7RAFORGE/v10/ul7rastack/assurance/evidence/build/cheetah.sha256  a3d0ad1a6f95711df7a6b7782c2ac0b3b5fe884647f8ce4cf23b07a6f79b793a
+./UL7RAFORGE/v10/ul7rastack/assurance/evidence/build/reproducible_build_inputs.sha256  a3d0ad1a6f95711df7a6b7782c2ac0b3b5fe884647f8ce4cf23b07a6f79b793a
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/source_manifest.sha256  f4aad2292cfa466a70cfafd1d18dbf9d52367c3643d8e72c5d55648826abaff3
+./UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/build_a/artifact.sha256  a3d0ad1a6f95711df7a6b7782c2ac0b3b5fe884647f8ce4cf23b07a6f79b793a
+
+=== DECISION ===
+NO_FULL_REPOSITORY_HASH_SCAN=TRUE
+FAIL_CLOSED=TRUE

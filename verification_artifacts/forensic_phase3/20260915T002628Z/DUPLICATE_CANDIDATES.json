@@ -1,0 +1,2719 @@
+[
+  {
+    "basename": ".gitignore",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".gitignore",
+      ".pytest_cache/.gitignore",
+      "products/ul7ra-verify/.pytest_cache/.gitignore",
+      "racing/.pytest_cache/.gitignore"
+    ]
+  },
+  {
+    "basename": "core.py",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/trinity/core.py",
+      "UL7RAFORGE/v10/ul7rastack/echoless/core.py"
+    ]
+  },
+  {
+    "basename": "bootstrap.py",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/simulation/bootstrap.py",
+      "UL7RAFORGE/node9/bootstrap.py",
+      "UL7RAFORGE/v10/ul7rastack/bootstrap.py"
+    ]
+  },
+  {
+    "basename": "engine.py",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/oracl3/oracle/engine.py",
+      "UL7RAFORGE/v10/ul7rastack/veriscore/engine.py",
+      "lucideploy/gates/engine.py",
+      "racing/probability/engine.py",
+      "racing/value/engine.py"
+    ]
+  },
+  {
+    "basename": "check.py",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v09/provenance/check.py",
+      "UL7RAFORGE/v09/purple/check.py",
+      "UL7RAFORGE/v09/rollback/check.py",
+      "UL7RAFORGE/v09/security/check.py",
+      "UL7RAFORGE/v09/trinity/check.py"
+    ]
+  },
+  {
+    "basename": "status.py",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/ul7rastack/live/status.py",
+      "UL7RAFORGE/v10/ul7rastack/ca/registry/status.py"
+    ]
+  },
+  {
+    "basename": "assurance_gates.py",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/assurance_gates.py",
+      "UL7RAFORGE/v10/ul7rastack/assurance/assurance_gates.py"
+    ]
+  },
+  {
+    "basename": "registry.py",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/evidence/registry.py",
+      "UL7RAFORGE/v10/ul7rastack/assurance/evidence/registry.py"
+    ]
+  },
+  {
+    "basename": "execution.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/execution.log",
+      ".ul7ra/funnel/execution.log",
+      ".ul7ra/funnel/runs/autofunnel-20260823T173937Z/execution.log",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/execution.log",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/execution.log",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/execution.log",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/execution.log",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/execution.log",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/execution.log",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/execution.log",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/execution.log",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/execution.log",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/execution.log",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/execution.log",
+      ".ul7ra/funnel/runs/elite-20260823T173321Z/execution.log",
+      ".ul7ra/funnel/runs/execution-20260823T172237Z/execution.log",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/execution.log",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/execution.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/execution.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/execution.log",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/execution.log",
+      "verification_artifacts/origin_runtime/20260911T200007Z/EXECUTION.log",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/EXECUTION.log",
+      "verification_artifacts/ul7ra4_factory/20260911T185311Z/execution.log",
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/EXECUTION.log",
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/EXECUTION.log"
+    ]
+  },
+  {
+    "basename": "git_status.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_status.txt",
+      ".ul7ra/funnel/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/20260823T042104Z/git_status.txt",
+      ".ul7ra/funnel/runs/20260823T162913Z/evidence/GIT_STATUS.txt",
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_STATUS.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/GIT_STATUS.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/git_status.txt",
+      ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/git_status.txt",
+      "FORENSIC_PHASE0_20260909T095923Z/GIT_STATUS.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/GIT_STATUS.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_status.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/git_status.txt",
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/git_status.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/git_status.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/GIT_STATUS.txt",
+      "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_status.txt",
+      "verification_artifacts/unification/20260913T154526Z/GIT_STATUS.txt",
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/GIT_STATUS.txt",
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/GIT_STATUS.txt"
+    ]
+  },
+  {
+    "basename": "git_commit.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T042104Z/git_commit.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T205758Z/git_commit.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/20260813T212457Z/git_commit.txt",
+      "products/ul7ra-verify/evidence/execution/git_commit.txt"
+    ]
+  },
+  {
+    "basename": "compile.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/assurance-direct-20260823T170537Z/evidence/compile.log",
+      ".ul7ra/funnel/runs/authority-test-20260823T171820Z/evidence/compile.log",
+      ".ul7ra/funnel/runs/authority-test-20260823T172002Z/evidence/compile.log",
+      ".ul7ra/funnel/runs/light-20260823T170029Z/evidence/compile.log",
+      ".ul7ra/funnel/runs/light-fixed-20260823T170232Z/evidence/compile.log",
+      ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/evidence/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/compile.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/compile.log"
+    ]
+  },
+  {
+    "basename": "assurance.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/assurance-direct-20260823T170537Z/evidence/assurance.log",
+      ".ul7ra/funnel/runs/light-20260823T170029Z/evidence/assurance.log",
+      ".ul7ra/funnel/runs/light-fixed-20260823T170232Z/evidence/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/assurance.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/assurance.log"
+    ]
+  },
+  {
+    "basename": "echoless.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/echoless.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/echoless.log"
+    ]
+  },
+  {
+    "basename": "build_a.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-4/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-3/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200110Z/iteration-1/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200201Z/iteration-1/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T200637Z/iteration-1/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T222550Z/iteration-1/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T224952Z/iteration-1/build_a.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T225805Z/iteration-1/build_a.log"
+    ]
+  },
+  {
+    "basename": "build_b.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-1/build_b.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-2/build_b.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T213530Z/iteration-3/build_b.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/build_b.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/build_b.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/build_b.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/build_b.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/build_b.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-4/build_b.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/build_b.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-2/build_b.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T165122Z/iteration-1/build_b.log"
+    ]
+  },
+  {
+    "basename": "hyperquantum.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/hyperquantum.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-1/hyperquantum.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T214541Z/iteration-2/hyperquantum.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-1/hyperquantum.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-2/hyperquantum.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260813T235539Z/iteration-3/hyperquantum.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/snapshots/continuous-20260823T163332Z/iteration-1/hyperquantum.log"
+    ]
+  },
+  {
+    "basename": "supervisor.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/supervisor.log",
+      "products/ul7ra-verify/deploy/runtime/multiloop/supervisor.log"
+    ]
+  },
+  {
+    "basename": "run.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/S9/20260814T002923Z/apex_hyperquantum/run.log",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/run.log",
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/run.log",
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/run.log",
+      "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/run.log",
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/run.log",
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/run.log",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/run.log",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/run.log"
+    ]
+  },
+  {
+    "basename": "source_manifest.sha256",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/source_manifest.sha256",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/source_manifest.sha256"
+    ]
+  },
+  {
+    "basename": "source_manifest.sha256.digest",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/source_manifest.sha256.digest",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/source_manifest.sha256.digest"
+    ]
+  },
+  {
+    "basename": "build.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/build_a/build.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/build_b/build.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/build_a/build.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/build_b/build.log"
+    ]
+  },
+  {
+    "basename": "artifact.sha256",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/build_a/artifact.sha256",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T003809Z/build_b/artifact.sha256",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/build_a/artifact.sha256",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/lineage/MVIV/20260814T012530Z/build_b/artifact.sha256"
+    ]
+  },
+  {
+    "basename": "source.sha256",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/source.sha256",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/source.sha256",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/source.sha256",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012432Z/source.sha256",
+      "verification_artifacts/omnipulse/force-live/20260911T232304Z/source.sha256",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/source.sha256"
+    ]
+  },
+  {
+    "basename": "blue_observations.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/blue_observations.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/blue_observations.txt",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/blue_observations.txt"
+    ]
+  },
+  {
+    "basename": "regression.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T010100Z/regression.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012157Z/regression.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/purple/20260814T012231Z/regression.log"
+    ]
+  },
+  {
+    "basename": "independent_build.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020214Z/independent_build.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020337Z/independent_build.log",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020404Z/independent_build.log",
+      "v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T015947Z/independent_build.log",
+      "v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020026Z/independent_build.log"
+    ]
+  },
+  {
+    "basename": "verification_record.sha256",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020543Z/verification_record.sha256",
+      "UL7RAFORGE/v10/ul7rastack/assurance/runtime/verifier/independent/reconciliation/20260814T020632Z/verification_record.sha256"
+    ]
+  },
+  {
+    "basename": "cargo.toml",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rabridge/Cargo.toml",
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.toml",
+      "halo9_v56_authority_contract/Cargo.toml",
+      "halo9_v57_adapter/Cargo.toml",
+      "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.toml",
+      "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/Cargo.toml"
+    ]
+  },
+  {
+    "basename": "cargo.lock",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rabridge/Cargo.lock",
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/Cargo.lock",
+      "halo9_v56_authority_contract/Cargo.lock",
+      "halo9_v57_adapter/Cargo.lock",
+      "halo_twin_pair_v1/halo_twin_pair_v1/Cargo.lock"
+    ]
+  },
+  {
+    "basename": "main.rs",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs",
+      "UL7RAFORGE/v10/ul7rabridge/src/main.rs",
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/main.rs",
+      "halo_twin_pair_v1/halo_twin_pair_v1/src/main.rs",
+      "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/main.rs"
+    ]
+  },
+  {
+    "basename": "started.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/started.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/started.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/started.txt"
+    ]
+  },
+  {
+    "basename": "tool-git.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-git.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-git.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-git.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-git.txt"
+    ]
+  },
+  {
+    "basename": "tool-gh.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-gh.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-gh.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-gh.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-gh.txt"
+    ]
+  },
+  {
+    "basename": "tool-cloudflared.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-cloudflared.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-cloudflared.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-cloudflared.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-cloudflared.txt"
+    ]
+  },
+  {
+    "basename": "tool-python3.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-python3.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-python3.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-python3.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-python3.txt"
+    ]
+  },
+  {
+    "basename": "tool-curl.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-curl.txt"
+    ]
+  },
+  {
+    "basename": "tool-dig.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tool-dig.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tool-dig.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tool-dig.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tool-dig.txt"
+    ]
+  },
+  {
+    "basename": "git-head.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/governance/git-head.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-head.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-head.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-head.txt"
+    ]
+  },
+  {
+    "basename": "git-status.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/protocol52/runs/20260825T162946Z/git-status.txt",
+      ".ul7ra/protocol52/runs/20260825T163117Z/git-status.txt",
+      ".ul7ra/protocol52/state/20260825T154639Z/git-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-status.txt"
+    ]
+  },
+  {
+    "basename": "git-remotes.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/git-remotes.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/git-remotes.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/git-remotes.txt"
+    ]
+  },
+  {
+    "basename": "tunnel-list.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tunnel-list.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-list.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-list.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel-list.txt"
+    ]
+  },
+  {
+    "basename": "tunnel-info.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/tunnel-info.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/tunnel-info.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/tunnel-info.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel-info.txt"
+    ]
+  },
+  {
+    "basename": "cloudflared-routing.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/cloudflared-routing.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/cloudflared-routing.txt"
+    ]
+  },
+  {
+    "basename": "local-health-status.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-status.txt"
+    ]
+  },
+  {
+    "basename": "local-health-curl.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/local-health-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/local-health-curl.txt"
+    ]
+  },
+  {
+    "basename": "authoritative-dns-before.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/00-baseline/authoritative-dns-before.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/00-baseline/authoritative-dns-before.txt"
+    ]
+  },
+  {
+    "basename": "gate1-artifact.bin",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/gate1-artifact.bin",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/gate1-artifact.bin",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/gate1-artifact.bin"
+    ]
+  },
+  {
+    "basename": "local-status.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-status.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-status.txt"
+    ]
+  },
+  {
+    "basename": "local-curl.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-curl.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/local-curl.txt"
+    ]
+  },
+  {
+    "basename": "local-verification-check.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090130Z/03-verification/local-verification-check.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090210Z/03-verification/local-verification-check.txt"
+    ]
+  },
+  {
+    "basename": "tunnel.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/tunnel.txt",
+      "products/ul7ra-verify/evidence/multilayer/20260822T211824Z/tunnel.txt",
+      "verification_artifacts/western_fair_convergence/20260911T235723Z/tunnel.txt"
+    ]
+  },
+  {
+    "basename": "processes.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/processes.txt",
+      ".ul7ra/funnel/evidence/processes.txt",
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/discovery/processes.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/processes.txt"
+    ]
+  },
+  {
+    "basename": "routing.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/routing.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/00-baseline/routing.txt"
+    ]
+  },
+  {
+    "basename": "expected-sha256.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/convergence/20260822T111810Z/expected-sha256.txt",
+      "products/ul7ra-verify/evidence/gate1/20260822T090408Z/03-verification/expected-sha256.txt"
+    ]
+  },
+  {
+    "basename": "sha256sums",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/attestation-remediation-20260823T175058Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/authority-final-20260823T175436Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/authority-test-20260823T172002Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/autofunnel-20260823T173937Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/blockers-20260823T173851Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T175536Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191211Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191247Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191347Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191441Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191444Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191446Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191553Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191645Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191648Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191741Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191745Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191810Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191813Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191907Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191910Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191913Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191915Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191918Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191946Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191949Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191952Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191955Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T191958Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-authority-20260823T192059Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191210Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191552Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191644Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191740Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/diagnostic-20260823T191809Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/elite-20260823T173321Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/execution-20260823T172237Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/green-regression-20260823T191440Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/health-20260823T191246Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/light-20260823T173819Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/persistence-proof-20260823T191643Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/SHA256SUMS",
+      ".ul7ra/funnel/runs/persistent-20260823T173703Z-2/SHA256SUMS",
+      ".ul7ra/funnel/runs/persistent-20260823T173711Z-3/SHA256SUMS",
+      ".ul7ra/funnel/runs/persistent-20260823T173720Z-4/SHA256SUMS",
+      ".ul7ra/funnel/runs/persistent-20260823T173729Z-5/SHA256SUMS",
+      ".ul7ra/funnel/runs/persistent-20260823T173738Z-6/SHA256SUMS",
+      ".ul7ra/funnel/runs/persistent-20260823T173747Z-7/SHA256SUMS",
+      ".ul7ra/funnel/runs/persistent-20260823T173756Z-8/SHA256SUMS",
+      ".ul7ra/funnel/runs/persistent-20260823T173805Z-9/SHA256SUMS",
+      ".ul7ra/funnel/runs/reconcile-20260823T173412Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/reconcile-test-20260823T174235Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/reconciliation-impl-20260823T174436Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/reconciliation-persistent-20260823T174506Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/restart-proof-20260823T191524Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/revocation-20260823T170949Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/root-cause-20260823T174953Z/evidence/SHA256SUMS",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/SHA256SUMS",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/SHA256SUMS",
+      "products/ul7ra-verify/evidence/compiler-20260822T093730Z/SHA256SUMS",
+      "verification_artifacts/ul7ra4_factory/component_evidence_20260911T190154Z/SHA256SUMS",
+      "verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/SHA256SUMS",
+      "verification_artifacts/ul7rabridge/v10_build_20260911T201349Z/SHA256SUMS",
+      "verification_artifacts/unified/20260911T190631Z/SHA256SUMS",
+      "verification_artifacts/unified/20260911T190851Z/SHA256SUMS",
+      "verification_artifacts/unified/20260911T191437Z/SHA256SUMS"
+    ]
+  },
+  {
+    "basename": "artifact",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/execution/20260823T013955Z/origin/artifact",
+      "products/ul7ra-verify/evidence/ultra_verified/20260822T120157Z/artifact"
+    ]
+  },
+  {
+    "basename": "controller.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/evidence/execution/controller.log",
+      "verification_artifacts/one_convergence/20260911T212038Z/controller.log"
+    ]
+  },
+  {
+    "basename": "origin.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/origin.log",
+      "products/ul7ra-verify/evidence/execution/origin.log",
+      "verification_artifacts/final_public_gate/20260913T080226Z/origin.log",
+      "verification_artifacts/final_public_gate/20260913T080919Z/origin.log",
+      "verification_artifacts/origin_runtime/20260911T200007Z/origin.log",
+      "verification_artifacts/origin_runtime/START_20260911T200939Z/origin.log"
+    ]
+  },
+  {
+    "basename": "cloudflared.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflared.log",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/cloudflared.log",
+      "products/ul7ra-verify/evidence/execution/cloudflared.log",
+      "verification_artifacts/recovery/20260911T212523Z/cloudflared.log"
+    ]
+  },
+  {
+    "basename": "origin.pid",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/origin.pid",
+      "products/ul7ra-verify/evidence/execution/20260823T013350Z/execution/origin.pid",
+      "verification_artifacts/origin_runtime/20260911T200007Z/origin.pid",
+      "verification_artifacts/origin_runtime/START_20260911T200939Z/origin.pid"
+    ]
+  },
+  {
+    "basename": "server.pid",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/server.pid",
+      "verification_artifacts/omnipulse/force-live/20260911T232304Z/server.pid",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/server.pid",
+      "verification_artifacts/omnipulse/live-brand/20260911T232128Z/server.pid"
+    ]
+  },
+  {
+    "basename": "server.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/server.log",
+      "verification_artifacts/omnipulse/force-live/20260911T232304Z/server.log",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/server.log"
+    ]
+  },
+  {
+    "basename": "cloudflared.pid",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflared.pid",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/public-repair-20260911T232849Z/cloudflared.pid",
+      "verification_artifacts/recovery/20260911T212523Z/cloudflared.pid"
+    ]
+  },
+  {
+    "basename": "tunnel_list.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_list.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_list.txt",
+      "products/ul7ra-verify/deploy/runtime/tunnel_list.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/tunnel_list.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/tunnel_list.txt",
+      "verification_artifacts/omnipulse/live-repair/20260911T231923Z/tunnel_list.txt",
+      "verification_artifacts/omnipulse/live/20260911T231820Z/tunnel_list.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/tunnel_list.txt",
+      "verification_artifacts/recovery/20260911T212523Z/tunnel_list.txt"
+    ]
+  },
+  {
+    "basename": "public_headers.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/public_headers.txt",
+      "products/ul7ra-verify/deploy/runtime/public_headers.txt",
+      "verification_artifacts/final_public_gate/20260913T080226Z/public_headers.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/public_headers.txt"
+    ]
+  },
+  {
+    "basename": "git_head.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_head.txt",
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_HEAD.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/GIT_HEAD.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173703Z-2/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173711Z-3/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173720Z-4/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173729Z-5/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173738Z-6/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173747Z-7/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173756Z-8/git_head.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173805Z-9/git_head.txt",
+      ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/evidence/git_head.txt",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/git_head.txt",
+      "products/ul7ra-verify/deploy/runtime/apex_runtime_final_20260909T014538Z/git_head.txt",
+      "verification_artifacts/elite_forensic/20260912T031215Z/GIT_HEAD.txt",
+      "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_head.txt",
+      "verification_artifacts/unification/20260913T154526Z/GIT_HEAD.txt"
+    ]
+  },
+  {
+    "basename": "head.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/authority-test-20260823T172002Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/head.txt",
+      ".ul7ra/funnel/runs/remediation-20260823T173227Z/evidence/head.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/head.txt"
+    ]
+  },
+  {
+    "basename": "cloudflared_process.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/cloudflared_process.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_process.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_process.txt"
+    ]
+  },
+  {
+    "basename": "cloudflared_config.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/cloudflared_config.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/cloudflared_config.txt"
+    ]
+  },
+  {
+    "basename": "dns.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/dns.txt",
+      "verification_artifacts/deployment/20260911T203008Z/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/dns.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/dns.txt"
+    ]
+  },
+  {
+    "basename": "public_payload.bin",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/public_payload.bin",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/public_payload.bin"
+    ]
+  },
+  {
+    "basename": "apex_public_decision.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/APEX_PUBLIC_DECISION.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/APEX_PUBLIC_DECISION.txt",
+      "products/ul7ra-verify/deploy/runtime/public_verify_20260909T014633Z/APEX_PUBLIC_DECISION.txt"
+    ]
+  },
+  {
+    "basename": "cloudflared_version.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_version.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/cloudflared_version.txt",
+      "verification_artifacts/deployment/20260911T203008Z/cloudflared_version.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/cloudflared_version.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/cloudflared_version.txt",
+      "verification_artifacts/omnipulse/live-repair/20260911T231923Z/cloudflared_version.txt"
+    ]
+  },
+  {
+    "basename": "config.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_diagnostic_20260909T014721Z/config.txt",
+      "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/config.txt"
+    ]
+  },
+  {
+    "basename": "full.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T022219Z/full.log",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/full.log",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/full.log"
+    ]
+  },
+  {
+    "basename": "tunnel_info.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/tunnel_info.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/tunnel_info.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/tunnel_info.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/tunnel_info.txt",
+      "verification_artifacts/dns_reconcile/20260911T235554Z/tunnel_info.txt",
+      "verification_artifacts/domain_control/20260912T000358Z/tunnel_info.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/tunnel_info.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/tunnel_info.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/tunnel_info.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/tunnel_info.txt"
+    ]
+  },
+  {
+    "basename": "dns_route.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_dns_reconcile_20260909T015011Z/dns_route.txt",
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_route.txt",
+      "products/ul7ra-verify/deploy/runtime/public_repair_20260909T014829Z/dns_route.txt",
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/dns_route.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/dns_route.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/dns_route.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_route.txt",
+      "verification_artifacts/recovery/20260911T212523Z/dns_route.txt"
+    ]
+  },
+  {
+    "basename": "apex_dns_decision.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_authoritative_repair_20260909T015204Z/APEX_DNS_DECISION.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_reconcile_final_20260909T015051Z/APEX_DNS_DECISION.txt"
+    ]
+  },
+  {
+    "basename": "route_status.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/route_status.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/route_status.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/route_status.txt"
+    ]
+  },
+  {
+    "basename": "decision.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/cloudflare_zone_inspection_20260909T015253Z/DECISION.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/DECISION.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/DECISION.txt"
+    ]
+  },
+  {
+    "basename": "authoritative_ns.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/authoritative_ns.txt",
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_ns.txt",
+      "verification_artifacts/domain_control/20260912T000358Z/authoritative_ns.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/authoritative_ns.txt"
+    ]
+  },
+  {
+    "basename": "https_headers.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_gate_20260909T015411Z/https_headers.txt",
+      "products/ul7ra-verify/deploy/runtime/dns_repair_20260909T015547Z/https_headers.txt",
+      "verification_artifacts/deployment/20260911T203008Z/https_headers.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/https_headers.txt"
+    ]
+  },
+  {
+    "basename": "nameservers.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/nameservers.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/nameservers.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/nameservers.txt"
+    ]
+  },
+  {
+    "basename": "authoritative_cname.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/dns_record_inspection_20260909T015638Z/authoritative_cname.txt",
+      "products/ul7ra-verify/deploy/runtime/public_dns_gate_20260909T023728Z/authoritative_cname.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/authoritative_cname.txt"
+    ]
+  },
+  {
+    "basename": "dns_before.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_before.txt",
+      "verification_artifacts/final_public_gate/20260913T080226Z/dns_before.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/dns_before.txt"
+    ]
+  },
+  {
+    "basename": "dns_cloudflare.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "products/ul7ra-verify/deploy/runtime/public_gate_20260909T022027Z/dns_cloudflare.txt",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/network-diagnostic-20260911T233229Z/dns_cloudflare.txt"
+    ]
+  },
+  {
+    "basename": "cachedir.tag",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".pytest_cache/CACHEDIR.TAG",
+      "products/ul7ra-verify/.pytest_cache/CACHEDIR.TAG",
+      "racing/.pytest_cache/CACHEDIR.TAG"
+    ]
+  },
+  {
+    "basename": "nodeids",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".pytest_cache/v/cache/nodeids",
+      "products/ul7ra-verify/.pytest_cache/v/cache/nodeids",
+      "racing/.pytest_cache/v/cache/nodeids"
+    ]
+  },
+  {
+    "basename": "__init__.py",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "lucideploy/adapters/__init__.py",
+      "lucideploy/cli/__init__.py",
+      "lucideploy/core/__init__.py",
+      "lucideploy/gates/__init__.py",
+      "racing/__init__.py",
+      "racing/ail/__init__.py",
+      "racing/governance/__init__.py",
+      "racing/probability/__init__.py",
+      "racing/schema/__init__.py",
+      "racing/value/__init__.py",
+      "ul7ra_continue/__init__.py"
+    ]
+  },
+  {
+    "basename": "discovery.py",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "lucideploy/adapters/discovery.py",
+      "ul7ra_continue/discovery.py"
+    ]
+  },
+  {
+    "basename": "funnel.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/funnel.log",
+      ".ul7ra/funnel/runs/light-20260823T173819Z/funnel.log",
+      ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/funnel.log",
+      ".ul7ra/funnel/runs/persistent-20260823T173703Z-2/funnel.log",
+      ".ul7ra/funnel/runs/persistent-20260823T173711Z-3/funnel.log",
+      ".ul7ra/funnel/runs/persistent-20260823T173720Z-4/funnel.log",
+      ".ul7ra/funnel/runs/persistent-20260823T173729Z-5/funnel.log",
+      ".ul7ra/funnel/runs/persistent-20260823T173738Z-6/funnel.log",
+      ".ul7ra/funnel/runs/persistent-20260823T173747Z-7/funnel.log",
+      ".ul7ra/funnel/runs/persistent-20260823T173756Z-8/funnel.log",
+      ".ul7ra/funnel/runs/persistent-20260823T173805Z-9/funnel.log"
+    ]
+  },
+  {
+    "basename": "git_branch.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/git_branch.txt",
+      ".ul7ra/funnel/runs/20260823T042104Z/git_branch.txt",
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/GIT_BRANCH.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/GIT_BRANCH.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/evidence/git_branch.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/evidence/git_branch.txt",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/evidence/git_branch.txt",
+      ".ul7ra/funnel/runs/test-20260823T174057Z/evidence/git_branch.txt",
+      "verification_artifacts/runs/reconstruct_server_racing_20260909T115439Z/git_branch.txt",
+      "verification_artifacts/unification/20260913T154526Z/GIT_BRANCH.txt"
+    ]
+  },
+  {
+    "basename": "product.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T043855Z/evidence/PRODUCT.log",
+      ".ul7ra/funnel/runs/20260823T044008Z/evidence/PRODUCT.log"
+    ]
+  },
+  {
+    "basename": "s9.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T043855Z/evidence/S9.log",
+      ".ul7ra/funnel/runs/20260823T044008Z/evidence/S9.log"
+    ]
+  },
+  {
+    "basename": "execution_candidates.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CANDIDATES.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/EXECUTION_CANDIDATES.txt"
+    ]
+  },
+  {
+    "basename": "execution_contracts.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/EXECUTION_CONTRACTS.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/EXECUTION_CONTRACTS.txt"
+    ]
+  },
+  {
+    "basename": "selected_controller.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/SELECTED_CONTROLLER.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/SELECTED_CONTROLLER.txt"
+    ]
+  },
+  {
+    "basename": "controller_sha256.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/CONTROLLER_SHA256.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/CONTROLLER_SHA256.txt"
+    ]
+  },
+  {
+    "basename": "pre_execution_state.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/PRE_EXECUTION_STATE.txt",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/PRE_EXECUTION_STATE.txt"
+    ]
+  },
+  {
+    "basename": "canonical_controller.stdout.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/CANONICAL_CONTROLLER.stdout.log",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/CANONICAL_CONTROLLER.stdout.log"
+    ]
+  },
+  {
+    "basename": "canonical_controller.stderr.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/20260823T163330Z/evidence/CANONICAL_CONTROLLER.stderr.log",
+      ".ul7ra/funnel/runs/20260823T165120Z/evidence/CANONICAL_CONTROLLER.stderr.log"
+    ]
+  },
+  {
+    "basename": "branch.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/branch.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/branch.txt"
+    ]
+  },
+  {
+    "basename": "substrate_compile.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/substrate_compile.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/substrate_compile.txt"
+    ]
+  },
+  {
+    "basename": "directory_contract.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-20260823T173055Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173654Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173703Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173712Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173720Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173729Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173738Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173747Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173756Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173805Z/evidence/directory_contract.txt",
+      ".ul7ra/funnel/runs/continuous-20260823T173819Z/evidence/directory_contract.txt"
+    ]
+  },
+  {
+    "basename": "compile.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-test-20260823T174543Z/evidence/compile.txt",
+      ".ul7ra/funnel/runs/continuous-test-20260823T174622Z/evidence/compile.txt",
+      ".ul7ra/funnel/runs/reconcile-20260823T173412Z/evidence/compile.txt"
+    ]
+  },
+  {
+    "basename": "fail_closed.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/persistent-20260823T173654Z-1/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173703Z-2/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173711Z-3/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173720Z-4/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173729Z-5/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173738Z-6/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173747Z-7/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173756Z-8/fail_closed.txt",
+      ".ul7ra/funnel/runs/persistent-20260823T173805Z-9/fail_closed.txt"
+    ]
+  },
+  {
+    "basename": "capabilities.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/blockers-20260823T173851Z/capabilities.txt",
+      "verification_artifacts/omnipulse_revenue/20260912T234003Z/state/capabilities.txt"
+    ]
+  },
+  {
+    "basename": "diagnostic.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/diagnostic-20260823T174810Z/diagnostic.log",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174838Z/diagnostic.log",
+      ".ul7ra/funnel/runs/diagnostic-20260823T174912Z/diagnostic.log",
+      ".ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/diagnostic.log",
+      "verification_artifacts/luci_diagnostic/20260911T233629Z/DIAGNOSTIC.log",
+      "verification_artifacts/luci_diagnostic/20260911T233806Z/DIAGNOSTIC.log"
+    ]
+  },
+  {
+    "basename": "sha256sums.sha256",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/continuous-regression-20260823T191346Z/SHA256SUMS.sha256",
+      ".ul7ra/funnel/runs/green-regression-20260823T191440Z/SHA256SUMS.sha256",
+      ".ul7ra/funnel/runs/health-20260823T191246Z/SHA256SUMS.sha256",
+      ".ul7ra/funnel/runs/persistence-proof-20260823T191643Z/SHA256SUMS.sha256",
+      ".ul7ra/funnel/runs/release-readiness-20260823T191318Z/SHA256SUMS.sha256",
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/SHA256SUMS.sha256",
+      ".ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/SHA256SUMS.sha256",
+      ".ul7ra/funnel/runs/restart-proof-20260823T191524Z/SHA256SUMS.sha256"
+    ]
+  },
+  {
+    "basename": "authority.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/health-20260823T191246Z/evidence/authority.log",
+      ".ul7ra/funnel/runs/persistence-proof-20260823T191643Z/evidence/authority.log"
+    ]
+  },
+  {
+    "basename": "pass-1.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-1.log",
+      ".ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-1.log"
+    ]
+  },
+  {
+    "basename": "pass-2.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-2.log",
+      ".ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-2.log"
+    ]
+  },
+  {
+    "basename": "pass-3.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-3.log",
+      ".ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-3.log"
+    ]
+  },
+  {
+    "basename": "pass-4.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-4.log",
+      ".ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-4.log"
+    ]
+  },
+  {
+    "basename": "pass-5.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/funnel/runs/repeatability-20260823T191906Z/evidence/pass-5.log",
+      ".ul7ra/funnel/runs/repeatability-postrestart-20260823T191946Z/evidence/pass-5.log"
+    ]
+  },
+  {
+    "basename": "runtime.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/runtime.txt",
+      "FORENSIC_PHASE0_20260909T095923Z/RUNTIME.txt"
+    ]
+  },
+  {
+    "basename": "cloudflared_tunnels.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/evidence/UL7RA4ORGE-20260824T111908Z-8097/cloudflared_tunnels.txt",
+      "verification_artifacts/omnipulse_revenue/20260912T234003Z/state/cloudflared_tunnels.txt"
+    ]
+  },
+  {
+    "basename": "diff-stat.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".ul7ra/protocol52/runs/20260825T162946Z/diff-stat.txt",
+      ".ul7ra/protocol52/runs/20260825T163117Z/diff-stat.txt",
+      ".ul7ra/protocol52/state/20260825T154639Z/diff-stat.txt"
+    ]
+  },
+  {
+    "basename": "lastfailed",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      ".pytest_cache/v/cache/lastfailed",
+      "racing/.pytest_cache/v/cache/lastfailed"
+    ]
+  },
+  {
+    "basename": "decision.py",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "racing/ail/decision.py",
+      "racing/governance/decision.py"
+    ]
+  },
+  {
+    "basename": "ail.py",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "racing/ail/ail.py",
+      "ul7ra_continue/ail.py"
+    ]
+  },
+  {
+    "basename": "baseline_pre.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "racing/repair_logs/phase2_logs/baseline_pre.log",
+      "racing/repair_logs/phase3_logs/baseline_pre.log"
+    ]
+  },
+  {
+    "basename": "determinism_1.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "racing/final_logs/determinism_1.log",
+      "racing/repair_logs/phase2_logs/determinism_1.log",
+      "racing/repair_logs/phase3_logs/determinism_1.log"
+    ]
+  },
+  {
+    "basename": "determinism_2.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "racing/repair_logs/phase2_logs/determinism_2.log",
+      "racing/repair_logs/phase3_logs/determinism_2.log"
+    ]
+  },
+  {
+    "basename": "determinism_3.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "racing/repair_logs/phase2_logs/determinism_3.log",
+      "racing/repair_logs/phase3_logs/determinism_3.log"
+    ]
+  },
+  {
+    "basename": "phase0_report.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/PHASE0_REPORT.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/PHASE0_REPORT.txt"
+    ]
+  },
+  {
+    "basename": "repository_tree.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/REPOSITORY_TREE.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/REPOSITORY_TREE.txt"
+    ]
+  },
+  {
+    "basename": "capability_matrix.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/CAPABILITY_MATRIX.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/CAPABILITY_MATRIX.txt"
+    ]
+  },
+  {
+    "basename": "technical_debt.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/TECHNICAL_DEBT.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/TECHNICAL_DEBT.txt"
+    ]
+  },
+  {
+    "basename": "git_history.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "FORENSIC_PHASE0_20260909T095923Z/GIT_HISTORY.txt",
+      "FORENSIC_PHASE0_20260909T100256Z/GIT_HISTORY.txt"
+    ]
+  },
+  {
+    "basename": "sha256sums.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/bridge_checkpoints/ul7ra_continue_v0.1_purple_v0.1.1_ail_v0.1_20260909T122444Z/SHA256SUMS.txt",
+      "verification_artifacts/member_loop/20260910T145415Z/SHA256SUMS.txt",
+      "verification_artifacts/omnipulse_revenue/20260912T234003Z/SHA256SUMS.txt",
+      "verification_artifacts/revenue_release/20260910T143907Z/SHA256SUMS.txt",
+      "verification_artifacts/revenue_release/20260910T144021Z/SHA256SUMS.txt",
+      "verification_artifacts/ul7rapass/20260910T144312Z/SHA256SUMS.txt"
+    ]
+  },
+  {
+    "basename": "membership_readiness.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.txt",
+      "verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.txt"
+    ]
+  },
+  {
+    "basename": "membership_readiness.sha256",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/membership_readiness/20260910T201930Z/membership_readiness.sha256",
+      "verification_artifacts/membership_readiness/20260910T202058Z/membership_readiness.sha256"
+    ]
+  },
+  {
+    "basename": "report.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/report.txt",
+      "verification_artifacts/cloudflare_origin_gate_20260913T053126Z/report.txt",
+      "verification_artifacts/cloudflare_ownership/20260913T080454Z/report.txt",
+      "verification_artifacts/cloudflare_ownership/20260913T080735Z/report.txt",
+      "verification_artifacts/cloudflare_ownership/20260913T080809Z/report.txt",
+      "verification_artifacts/cloudflare_ownership/20260913T080830Z/report.txt",
+      "verification_artifacts/cloudflare_route_gate_20260913T052957Z/report.txt",
+      "verification_artifacts/dns_authority_final/20260911T235230Z/REPORT.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/report.txt",
+      "verification_artifacts/dns_delegation/20260911T235133Z/REPORT.txt",
+      "verification_artifacts/dns_reconcile/20260911T235554Z/REPORT.txt",
+      "verification_artifacts/domain_control/20260912T000358Z/REPORT.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/REPORT.txt",
+      "verification_artifacts/luci_one_shot/20260911T233921Z/REPORT.txt",
+      "verification_artifacts/luci_public_authority/20260911T234040Z/REPORT.txt",
+      "verification_artifacts/luci_public_authority/20260911T234302Z/REPORT.txt",
+      "verification_artifacts/membership_forensic/20260910T202254Z/REPORT.txt",
+      "verification_artifacts/named_tunnel_diag/20260911T234542Z/REPORT.txt",
+      "verification_artifacts/production_repair/20260911T234812Z/REPORT.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/REPORT.txt",
+      "verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/dependency_recovery_20260911T201854Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/governance_correlation_20260911T201548Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/missing_dependencies_20260911T201812Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/test_correlation_20260911T201725Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/v10_assurance_recovery_20260911T201934Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/v10_exact_dependency_correlation_20260911T202017Z/REPORT.txt",
+      "verification_artifacts/ul7rabridge/v10_provenance_recovery_20260911T202101Z/REPORT.txt",
+      "verification_artifacts/western_fair_convergence/20260911T235723Z/REPORT.txt"
+    ]
+  },
+  {
+    "basename": "final_decision.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/deployment/20260911T203008Z/FINAL_DECISION.txt",
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/FINAL_DECISION.txt",
+      "verification_artifacts/deployment/squarespace_dns/20260911T203525Z/FINAL_DECISION.txt",
+      "verification_artifacts/halo9_v55/20260914T174000Z/FINAL_DECISION.txt",
+      "verification_artifacts/halo9_v56/20260914T174923Z/FINAL_DECISION.txt",
+      "verification_artifacts/halo9_v56_full/20260914T175600Z/FINAL_DECISION.txt",
+      "verification_artifacts/halo9_v56_repair/20260914T175335Z/FINAL_DECISION.txt",
+      "verification_artifacts/halo9_v57/20260914T180129Z/FINAL_DECISION.txt",
+      "verification_artifacts/ul7ra4_factory/20260911T185311Z/FINAL_DECISION.txt"
+    ]
+  },
+  {
+    "basename": "final_status.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/elite_forensic/20260912T031215Z/FINAL_STATUS.txt",
+      "verification_artifacts/ul7ra4_factory/master_forensic_map_20260911T190001Z/FINAL_STATUS.txt"
+    ]
+  },
+  {
+    "basename": "status.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/one_convergence/20260911T212038Z/round_1/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_10/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_11/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_12/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_13/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_14/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_15/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_2/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_3/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_4/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_5/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_6/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_7/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_8/STATUS.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/round_9/STATUS.txt",
+      "verification_artifacts/unified/20260911T190631Z/STATUS.txt",
+      "verification_artifacts/unified/20260911T190851Z/STATUS.txt",
+      "verification_artifacts/unified/20260911T191437Z/STATUS.txt",
+      "verification_artifacts/unified/20260911T192306Z/STATUS.txt",
+      "verification_artifacts/unified/20260911T192336Z/STATUS.txt"
+    ]
+  },
+  {
+    "basename": "component_status.tsv",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/COMPONENT_STATUS.tsv",
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/COMPONENT_STATUS.tsv"
+    ]
+  },
+  {
+    "basename": "source_sha256sums.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193228Z/SOURCE_SHA256SUMS.txt",
+      "verification_artifacts/unified/ONE_EXECUTION_20260911T193413Z/SOURCE_SHA256SUMS.txt"
+    ]
+  },
+  {
+    "basename": "results.tsv",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/origin_runtime/VERIFY_20260911T200115Z/RESULTS.tsv",
+      "verification_artifacts/origin_runtime/VERIFY_20260911T200700Z/RESULTS.tsv"
+    ]
+  },
+  {
+    "basename": "curl_error.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/public-verification/curl_error.txt",
+      "verification_artifacts/origin_runtime/VERIFY_FIXED_20260911T200527Z/curl_error.txt"
+    ]
+  },
+  {
+    "basename": "cloudflared_processes.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/deployment/20260911T203008Z/cloudflared_processes.txt",
+      "verification_artifacts/omnipulse/live-repair/20260911T231923Z/cloudflared_processes.txt",
+      "verification_artifacts/omnipulse/live/20260911T231820Z/cloudflared_processes.txt"
+    ]
+  },
+  {
+    "basename": "google_cname.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/google_cname.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/google_cname.txt"
+    ]
+  },
+  {
+    "basename": "google_a.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/deployment/dns_reconcile/20260911T203633Z/google_a.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/google_a.txt"
+    ]
+  },
+  {
+    "basename": "tunnel_info_before.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/deployment/one_launch/20260911T203832Z/tunnel_info_before.txt",
+      "verification_artifacts/one_convergence/20260911T212038Z/tunnel_info_before.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/tunnel_info_before.txt",
+      "verification_artifacts/recovery/20260911T212523Z/tunnel_info_before.txt"
+    ]
+  },
+  {
+    "basename": "round_decision.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_1/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_2/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_3/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_4/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_5/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_6/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_7/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_8/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T204207Z/rounds/round_9/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_1/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_10/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_11/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_12/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_13/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_14/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_15/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_2/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_3/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_4/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_5/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_6/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_7/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_8/ROUND_DECISION.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/rounds/round_9/ROUND_DECISION.txt"
+    ]
+  },
+  {
+    "basename": "convergence.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/logs/convergence.log",
+      "verification_artifacts/luci_convergence/20260911T205054Z/logs/convergence.log"
+    ]
+  },
+  {
+    "basename": "cloudflared_1.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/logs/cloudflared_1.log",
+      "verification_artifacts/luci_convergence/20260911T205054Z/logs/cloudflared_1.log"
+    ]
+  },
+  {
+    "basename": "luci_diagnostic_1.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_1.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_1.txt"
+    ]
+  },
+  {
+    "basename": "repair_1.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_1.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_1.txt"
+    ]
+  },
+  {
+    "basename": "luci_diagnostic_2.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_2.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_2.txt"
+    ]
+  },
+  {
+    "basename": "repair_2.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_2.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_2.txt"
+    ]
+  },
+  {
+    "basename": "luci_diagnostic_3.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_3.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_3.txt"
+    ]
+  },
+  {
+    "basename": "repair_3.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_3.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_3.txt"
+    ]
+  },
+  {
+    "basename": "luci_diagnostic_4.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_4.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_4.txt"
+    ]
+  },
+  {
+    "basename": "repair_4.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_4.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_4.txt"
+    ]
+  },
+  {
+    "basename": "luci_diagnostic_5.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_5.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_5.txt"
+    ]
+  },
+  {
+    "basename": "repair_5.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_5.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_5.txt"
+    ]
+  },
+  {
+    "basename": "luci_diagnostic_6.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_6.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_6.txt"
+    ]
+  },
+  {
+    "basename": "repair_6.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_6.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_6.txt"
+    ]
+  },
+  {
+    "basename": "luci_diagnostic_7.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_7.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_7.txt"
+    ]
+  },
+  {
+    "basename": "repair_7.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_7.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_7.txt"
+    ]
+  },
+  {
+    "basename": "luci_diagnostic_8.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_8.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_8.txt"
+    ]
+  },
+  {
+    "basename": "repair_8.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_8.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_8.txt"
+    ]
+  },
+  {
+    "basename": "luci_diagnostic_9.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/luci_diagnostic_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/luci_diagnostic_9.txt"
+    ]
+  },
+  {
+    "basename": "repair_9.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_convergence/20260911T204207Z/diagnostics/repair_9.txt",
+      "verification_artifacts/luci_convergence/20260911T205054Z/diagnostics/repair_9.txt"
+    ]
+  },
+  {
+    "basename": "tunnel_info_after.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/tunnel_info_after.txt",
+      "verification_artifacts/recovery/20260911T212523Z/tunnel_info_after.txt"
+    ]
+  },
+  {
+    "basename": "dig.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/dig.txt",
+      "verification_artifacts/recovery/20260911T212523Z/dig.txt"
+    ]
+  },
+  {
+    "basename": "cname.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/cname.txt",
+      "verification_artifacts/recovery/20260911T212523Z/cname.txt"
+    ]
+  },
+  {
+    "basename": "a.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/a.txt",
+      "verification_artifacts/recovery/20260911T212523Z/a.txt"
+    ]
+  },
+  {
+    "basename": "luci.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/logs/luci.log",
+      "verification_artifacts/recovery/20260911T212523Z/luci.log"
+    ]
+  },
+  {
+    "basename": "summary.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/1/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/10/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/100/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/101/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/102/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/103/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/104/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/105/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/106/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/107/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/108/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/109/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/11/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/110/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/111/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/112/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/113/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/114/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/115/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/116/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/117/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/118/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/119/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/12/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/120/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/121/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/122/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/123/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/124/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/125/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/126/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/127/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/128/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/129/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/13/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/130/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/131/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/132/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/133/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/134/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/135/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/136/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/137/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/138/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/139/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/14/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/140/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/141/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/142/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/143/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/144/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/145/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/146/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/147/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/148/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/149/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/15/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/150/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/151/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/152/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/153/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/154/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/155/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/156/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/157/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/158/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/159/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/16/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/160/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/161/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/162/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/163/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/164/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/165/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/166/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/167/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/168/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/169/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/17/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/170/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/171/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/172/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/173/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/174/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/175/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/176/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/177/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/178/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/179/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/18/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/180/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/181/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/182/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/183/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/184/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/185/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/186/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/187/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/188/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/189/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/19/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/190/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/191/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/192/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/193/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/194/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/195/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/196/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/197/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/198/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/199/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/2/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/20/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/200/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/201/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/202/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/203/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/204/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/205/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/206/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/207/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/208/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/209/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/21/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/210/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/211/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/212/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/213/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/214/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/215/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/216/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/217/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/218/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/219/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/22/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/220/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/221/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/222/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/223/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/224/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/225/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/226/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/227/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/228/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/229/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/23/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/230/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/231/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/232/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/233/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/234/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/235/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/236/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/237/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/238/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/239/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/24/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/240/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/241/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/242/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/243/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/244/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/245/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/246/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/247/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/248/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/25/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/26/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/27/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/28/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/29/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/3/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/30/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/31/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/32/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/33/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/34/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/35/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/36/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/37/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/38/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/39/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/4/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/40/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/41/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/42/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/43/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/44/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/45/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/46/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/47/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/48/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/49/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/5/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/50/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/51/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/52/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/53/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/54/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/55/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/56/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/57/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/58/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/59/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/6/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/60/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/61/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/62/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/63/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/64/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/65/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/66/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/67/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/68/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/69/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/7/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/70/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/71/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/72/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/73/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/74/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/75/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/76/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/77/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/78/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/79/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/8/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/80/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/81/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/82/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/83/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/84/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/85/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/86/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/87/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/88/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/89/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/9/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/90/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/91/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/92/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/93/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/94/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/95/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/96/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/97/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/98/SUMMARY.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/rounds/99/SUMMARY.txt"
+    ]
+  },
+  {
+    "basename": "environment.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/elite_forensic/20260912T031215Z/ENVIRONMENT.txt",
+      "verification_artifacts/orchestrator/20260911T212831Z/diagnostics/environment.txt"
+    ]
+  },
+  {
+    "basename": "index.html",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/omnipulse/20260911T230936Z/mvp/INDEX.html",
+      "verification_artifacts/omnipulse/20260911T231536Z/app/index.html",
+      "verification_artifacts/omnipulse/20260911T231717Z/app/index.html",
+      "verification_artifacts/omnipulse/force-live/20260911T232304Z/app/index.html",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/app/index.html"
+    ]
+  },
+  {
+    "basename": "http.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/omnipulse/live-brand/20260911T232128Z/http.log",
+      "verification_artifacts/omnipulse/live/20260911T231820Z/http.log"
+    ]
+  },
+  {
+    "basename": "live.html",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/omnipulse/force-live/20260911T232304Z/live.html",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/live.html",
+      "verification_artifacts/omnipulse/live-brand/20260911T232128Z/live.html"
+    ]
+  },
+  {
+    "basename": "cloudflare.pid",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/omnipulse/force-live/20260911T232304Z/cloudflare.pid",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/cloudflare.pid"
+    ]
+  },
+  {
+    "basename": "cloudflare.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/omnipulse/force-live/20260911T232304Z/cloudflare.log",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/cloudflare.log",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/public-live-20260911T233305Z/cloudflare.log",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/public-repair-20260911T232849Z/cloudflare.log"
+    ]
+  },
+  {
+    "basename": "public.html",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/omnipulse/force-live/20260911T232304Z/public.html",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/public.html"
+    ]
+  },
+  {
+    "basename": "local.html",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_diagnostic/20260911T233629Z/local.html",
+      "verification_artifacts/luci_diagnostic/20260911T233806Z/local.html",
+      "verification_artifacts/luci_one_shot/20260911T233921Z/local.html",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/network-diagnostic-20260911T233229Z/local.html",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/public-live-20260911T233305Z/local.html",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/public-repair-20260911T232849Z/local.html",
+      "verification_artifacts/omnipulse/force-live/20260911T232559Z/public-verification/local.html"
+    ]
+  },
+  {
+    "basename": "local_verify.html",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_public_authority/20260911T234040Z/local_verify.html",
+      "verification_artifacts/luci_public_authority/20260911T234302Z/local_verify.html"
+    ]
+  },
+  {
+    "basename": "local_omnipulse.html",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/luci_public_authority/20260911T234040Z/local_omnipulse.html",
+      "verification_artifacts/luci_public_authority/20260911T234302Z/local_omnipulse.html"
+    ]
+  },
+  {
+    "basename": "dns_1.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/production_repair/20260911T234812Z/dns_1.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_1.txt"
+    ]
+  },
+  {
+    "basename": "dns_2.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/production_repair/20260911T234812Z/dns_2.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_2.txt"
+    ]
+  },
+  {
+    "basename": "dns_3.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/production_repair/20260911T234812Z/dns_3.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_3.txt"
+    ]
+  },
+  {
+    "basename": "dns_4.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/production_repair/20260911T234812Z/dns_4.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_4.txt"
+    ]
+  },
+  {
+    "basename": "dns_5.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/production_repair/20260911T234812Z/dns_5.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_5.txt"
+    ]
+  },
+  {
+    "basename": "dns_6.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/production_repair/20260911T234812Z/dns_6.txt",
+      "verification_artifacts/production_repair/20260911T234930Z/dns_6.txt"
+    ]
+  },
+  {
+    "basename": "trace.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/cloudflare_final_ownership/20260913T080601Z/trace.txt",
+      "verification_artifacts/dns_authority_final/20260913T080320Z/trace.txt"
+    ]
+  },
+  {
+    "basename": "route.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/domain_control/20260912T000358Z/route.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/route.txt",
+      "verification_artifacts/western_fair_convergence/20260911T235723Z/route.txt"
+    ]
+  },
+  {
+    "basename": "final_gate.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/domain_control/20260912T000358Z/final_gate.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/final_gate.txt",
+      "verification_artifacts/western_fair_convergence/20260911T235723Z/final_gate.txt"
+    ]
+  },
+  {
+    "basename": "tunnels.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/domain_control/20260912T000358Z/tunnels.txt",
+      "verification_artifacts/domain_control/20260912T000546Z/tunnels.txt"
+    ]
+  },
+  {
+    "basename": "revenue_next_gate.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/revenue_engine/20260913T002220Z/revenue_next_gate.txt",
+      "verification_artifacts/revenue_engine/20260913T002409Z/revenue_next_gate.txt"
+    ]
+  },
+  {
+    "basename": "ingress_validate.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/final_public_gate/20260913T080226Z/ingress_validate.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/ingress_validate.txt"
+    ]
+  },
+  {
+    "basename": "connector.log",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/final_public_gate/20260913T080226Z/connector.log",
+      "verification_artifacts/final_public_gate/20260913T080919Z/connector.log"
+    ]
+  },
+  {
+    "basename": "dns_route_attempt.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/final_public_gate/20260913T080226Z/dns_route_attempt.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/dns_route_attempt.txt"
+    ]
+  },
+  {
+    "basename": "dns_after.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/final_public_gate/20260913T080226Z/dns_after.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/dns_after.txt"
+    ]
+  },
+  {
+    "basename": "public_health.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/final_public_gate/20260913T080226Z/public_health.txt",
+      "verification_artifacts/final_public_gate/20260913T080919Z/public_health.txt"
+    ]
+  },
+  {
+    "basename": "utilization_matrix.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/UTILIZATION_MATRIX.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/UTILIZATION_MATRIX.txt"
+    ]
+  },
+  {
+    "basename": "domain_inventory.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/DOMAIN_INVENTORY.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/DOMAIN_INVENTORY.txt"
+    ]
+  },
+  {
+    "basename": "entrypoint_inventory.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/ENTRYPOINT_INVENTORY.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/ENTRYPOINT_INVENTORY.txt"
+    ]
+  },
+  {
+    "basename": "verification_inventory.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/VERIFICATION_INVENTORY.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/VERIFICATION_INVENTORY.txt"
+    ]
+  },
+  {
+    "basename": "unconnected_candidates.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/UNCONNECTED_CANDIDATES.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/UNCONNECTED_CANDIDATES.txt"
+    ]
+  },
+  {
+    "basename": "reconciliation_report.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T161015Z/RECONCILIATION_REPORT.txt",
+      "verification_artifacts/deep_unification/20260913T154901Z/reconciliation_FINAL_20260913T162803Z/RECONCILIATION_REPORT.txt"
+    ]
+  },
+  {
+    "basename": "v56_source_sha256.txt",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "verification_artifacts/halo9_v56_full/20260914T175600Z/V56_SOURCE_SHA256.txt",
+      "verification_artifacts/halo9_v56_repair/20260914T175335Z/V56_SOURCE_SHA256.txt"
+    ]
+  },
+  {
+    "basename": "center_sha256",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "grounded_center/CENTER_SHA256",
+      "ul7ra_unified/state/CENTER_SHA256"
+    ]
+  },
+  {
+    "basename": "verify.sh",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/verify.sh",
+      "halo_twin_pair_v1/halo_twin_pair_v1/verify.sh"
+    ]
+  },
+  {
+    "basename": "lib.rs",
+    "classification": "DUPLICATE_CANDIDATE",
+    "decision": "DO_NOT_MERGE_YET",
+    "paths": [
+      "halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs",
+      "halo9_v56_authority_contract/src/lib.rs",
+      "halo9_v57_adapter/src/lib.rs",
+      "halo_twin_pair_v1/halo_twin_pair_v1/src/lib.rs"
+    ]
+  }
+]

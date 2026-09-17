@@ -1,0 +1,15 @@
+UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:17:assert "attestation_hash" in s
+UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh:4:STATUS="../ul7rastack/live/state/live_status.json"
+UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh:6:python ../ul7rastack/verifier/src/verify.py "$STATUS"
+UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:4:STATUS="../../ul7rastack/security/state/live_security.json"
+UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:13:assert s["detected_violations"] == 0
+UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:14:assert s["unresolved_exceptions"] == 0
+UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:15:assert s["evidence_freshness"] == "CURRENT"
+UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:23:    "canada_only_policy",
+UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:24:    "attestation_integrity",
+UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:25:    "tamper_detection"

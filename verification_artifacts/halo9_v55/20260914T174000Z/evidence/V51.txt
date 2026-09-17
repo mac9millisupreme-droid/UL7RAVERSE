@@ -1,0 +1,7 @@
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:9://! standardized PQC implementation can be added without changing governance.
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:69:    pub signature: Vec<u8>,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:89:    SignatureInvalid,
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:130:        envelope.signature == b"TEST-VALID"
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:184:            return self.block(PairError::SignatureInvalid);
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/lib.rs:282:            signature: sig.to_vec(),
+/data/data/com.termux/files/home/UL7RAVERSE/halo9_bridge_gate_v2/halo9_bridge_gate_v2/src/bridge_gate.rs:90:            signature: b"TEST-VALID".to_vec(),

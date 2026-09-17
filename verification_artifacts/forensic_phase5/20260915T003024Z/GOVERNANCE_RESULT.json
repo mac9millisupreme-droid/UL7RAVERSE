@@ -1,0 +1,11 @@
+{
+  "authority_boundary": "UL7RABRIDGE",
+  "unverified_never_pass": "ENFORCED",
+  "unknown_remains_unknown": "ENFORCED",
+  "proof_not_authority": "ENFORCED",
+  "luci_not_authority": "ENFORCED",
+  "halo9_not_sovereign_authority": "ENFORCED",
+  "fail_closed": "ENFORCED",
+  "no_self_certification": "ENFORCED",
+  "production_unlock": "BLOCKED"
+}

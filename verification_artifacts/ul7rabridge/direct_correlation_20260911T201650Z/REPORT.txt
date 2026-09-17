@@ -1,0 +1,48 @@
+=== DIRECT UL7RABRIDGE GOVERNANCE CORRELATION ===
+=== CARGO DEPENDENCIES ===
+2:name = "cheetah"
+3:version = "0.1.0"
+4:edition = "2021"
+6:[dependencies]
+7:serde = { version = "1", features = ["derive"] }
+8:serde_json = "1"
+9:sha2 = "0.10"
+
+=== BRIDGE IMPORTS / MODULES ===
+UL7RAFORGE/v10/ul7rabridge/src/main.rs:1:use serde::{Deserialize, Serialize};
+UL7RAFORGE/v10/ul7rabridge/src/main.rs:2:use sha2::{Digest, Sha256};
+UL7RAFORGE/v10/ul7rabridge/src/main.rs:3:use std::time::{SystemTime, UNIX_EPOCH};
+UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:1:use serde::{Deserialize, Serialize};
+UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:2:use sha2::{Digest, Sha256};
+UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs:3:use std::time::{SystemTime, UNIX_EPOCH};
+
+=== DIRECT GOVERNANCE REFERENCES FROM BRIDGE DIRECTORY ===
+UL7RAFORGE/v10/ul7rabridge/ghost/templates/manifest.json:10:  "audit": "REQUIRED",
+UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json:2:  "system": "UL7RABRIDGE",
+UL7RAFORGE/v10/ul7rabridge/evidence/state/bridge_status.json:3:  "release": "V0.1",
+UL7RAFORGE/v10/ul7rabridge/state/invariants.json:5:  "credential_scope": "MINIMUM_REQUIRED",
+UL7RAFORGE/v10/ul7rabridge/state/invariants.json:7:  "audit": "REQUIRED",
+UL7RAFORGE/v10/ul7rabridge/tests/cheetah_regression.sh:4:BIN="./target/release/cheetah"
+UL7RAFORGE/v10/ul7rabridge/tests/bridge_invariant.sh:22:echo "UL7RABRIDGE INVARIANT = PASS"
+UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:14:    "system": "UL7RABRIDGE",
+UL7RAFORGE/v10/ul7rabridge/tests/record_bridge_status.sh:15:    "release": "V0.1",
+UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+UL7RAFORGE/v10/ul7rabridge/tests/live_status_regression.sh:12:assert s["status"] == "VERIFIED_WITH_SCOPE"
+UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh:4:STATUS="../ul7rastack/live/state/live_status.json"
+UL7RAFORGE/v10/ul7rabridge/tests/independent_verifier.sh:6:python ../ul7rastack/verifier/src/verify.py "$STATUS"
+UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:4:STATUS="../../ul7rastack/live/state/live_status.json"
+UL7RAFORGE/v10/ul7rabridge/tests/tamper_detection.sh:19:if python ../../ul7rastack/verifier/src/verify.py "$STATUS" >/dev/null 2>&1; then
+UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:4:STATUS="../../ul7rastack/security/state/live_security.json"
+UL7RAFORGE/v10/ul7rabridge/tests/security_assurance.sh:12:assert s["security_status"] == "VERIFIED_WITH_SCOPE"
+
+=== NEIGHBORING V10 COMPONENTS ===
+UL7RAFORGE/v10/ul7rabridge/Cargo.toml
+UL7RAFORGE/v10/ul7rabridge/cheetah/src/main.rs
+UL7RAFORGE/v10/ul7rabridge/src/main.rs
+
+=== FINAL DECISION ===
+DIRECT_REFERENCE=FOUND
+CANONICAL_STATUS=NOT_PROMOTED
+FINAL_DECISION=PASS_WITH_ENVIRONMENT_BLOCK
+PROMOTION=BLOCKED_PENDING_EXECUTION_PATH_PROOF
+EVIDENCE=verification_artifacts/ul7rabridge/direct_correlation_20260911T201650Z
